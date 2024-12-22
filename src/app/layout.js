@@ -3,14 +3,14 @@ import './globals.css';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 
 export const metadata = {
-  metadataBase: new URL('https://awb-silk.vercel.app'),
+  metadataBase: new URL('https://africanwebsitebuilders.vercel.app'),
   title: {
-    default: 'African Website Builder',
+    default: 'African Website Builders',
     template: '%s | AWB'
   },
-  description: 'Welcome to African Website Builder (AWB), your top choice for creating professional websites across Africa.',
+  description: 'Welcome to African Website Builders (AWB), your top choice for creating professional websites by Africans.',
   keywords: [
-    'African Website Builder',
+    'African Website Builders',
     'website creation',
     'responsive design',
     'business websites',
@@ -29,22 +29,22 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://awb-silk.vercel.app',
-    title: 'African Website Builder',
-    description: 'Welcome to African Website Builder (AWB), your top choice for creating professional websites across Africa.',
-    siteName: 'African Website Builder',
+    url: 'https://africanwebsitebuilders.vercel.app',
+    title: 'African Website Builders',
+    description: 'Welcome to African Website Builders (AWB), your top choice for creating professional websites by Africans.',
+    siteName: 'African Website Builders',
     images: [{
-      url: 'https://awb-silk.vercel.app/logo.png',
+      url: 'https://africanwebsitebuilders.vercel.app/logo.png',
       width: 1200,
       height: 630,
-      alt: 'African Website Builder'
+      alt: 'African Website Builders'
     }]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'African Website Builder',
-    description: 'Your top choice for creating professional websites across Africa',
-    images: ['https://awb-silk.vercel.app/logo.png'],
+    title: 'African Website Builders',
+    description: 'Your top choice for creating professional websites by Africans.',
+    images: ['https://africanwebsitebuilders.vercel.app/logo.png'],
   },
   viewport: {
     width: 'device-width',
@@ -67,7 +67,7 @@ export const metadata = {
     google: 'your-google-verification-code', // Add your verification code if needed
   },
   alternates: {
-    canonical: 'https://awb-silk.vercel.app'
+    canonical: 'https://africanwebsitebuilders.vercel.app'
   },
   appleWebApp: {
     title: 'AWB',
