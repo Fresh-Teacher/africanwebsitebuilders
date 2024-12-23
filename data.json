@@ -1,4 +1,4 @@
-export const registrationData = {
+{
     "Form Responses 1": [
         {
             "Timestamp": "12/17/2024 18:16:38",
@@ -25,8 +25,7 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
         {
             "Timestamp": "12/17/2024 18:19:16",
@@ -139,8 +138,7 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
         {
             "Timestamp": "12/17/2024 18:35:41",
@@ -167,8 +165,7 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
         {
             "Timestamp": "12/17/2024 18:39:51",
@@ -195,8 +192,7 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
         {
             "Timestamp": "12/17/2024 18:50:12",
@@ -252,8 +248,7 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
         {
             "Timestamp": "12/17/2024 18:45:55",
@@ -511,7 +506,35 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-      
+        {
+            "Timestamp": "12/17/2024 19:15:19",
+            "Email Address": "wonabadivincent@gmail.com",
+            "Full Name": "Wonabadi Vincent",
+            "District of Residence": "Bulambuli",
+            "School Name": "Divine College Buyaga",
+            "Level of Institution": "Secondary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256768293093",
+            "Telephone contact": "0768293093",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Maybe",
+            "Terms and Conditions\nBy submitting this form, you agree to the following terms and conditions:\nAccuracy of Information:\nYou confirm that the details provided in this form are accurate to the best of your knowledge.\nUse of Information:\nYour contact details will only be used for course-related communication and updates. Your information will not be shared with third parties without your consent.\nParticipation Requirements:\nEnrolment is conditional upon meeting the course eligibility criteria and providing accurate registration details. The course organisers reserve the right to accept or decline applications.\n\nCourse Duration and Structure:\nThe course runs for 4 weeks, with 3 lessons per week, making a total of 12 lessons. Students MUST attend all the 12 lessons. Failure to attend all the lectures without valid justification may require the student to retake the course.\nPayment Terms:\nThe course fee is \u00c2\u00a32 per week which is approximately 9,200 Uganda Shillings (UGX).\n\nParticipation in the course requires full payment of the specified course fees by the deadline provided and failure to make payment on time may result in discontinuation from the course.\n\nPayment details, including methods and deadlines, will be communicated upon successful registration.\n\nCertification:\nSuccessful candidates who complete all the 12 lessons and meet the course requirements will receive an official AWB Certificate.\nRefund Policy:\nFees are non-refundable once the course has commenced. Refund requests before the start date will be reviewed on a case-by-case basis.\nConsent:\nBy registering, you consent to receive updates and notifications about the African Website Builders' Course.": "Great ",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/17/2024 19:15:23",
             "Email Address": "josephmukama67@gmail.com",
@@ -650,8 +673,63 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
+            }
+        },
+        {
+            "Timestamp": "12/17/2024 19:21:24",
+            "Email Address": "pamelavic810@gmail.com",
+            "Full Name": "Pamelah Victoria",
+            "District of Residence": "Ntungamo",
+            "School Name": "Standard High School Omungyenyi",
+            "Level of Institution": "Secondary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256708866521",
+            "Telephone contact": "0708866521",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Maybe",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0,
+            "amountPaid": 0
+        },
+        {
+            "Timestamp": "12/17/2024 19:22:12",
+            "Email Address": "ibrakisekka29@gmail.com",
+            "Full Name": "Ibrahim kisekka",
+            "District of Residence": "Kampala",
+            "School Name": "Wheeling preparatory centre",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256758826060",
+            "Telephone contact": "0758826060",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
         },
       
         {
@@ -793,8 +871,7 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
         {
             "Timestamp": "12/17/2024 19:43:54",
@@ -849,8 +926,7 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
         {
             "Timestamp": "12/17/2024 19:50:08",
@@ -880,7 +956,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-      
+        {
+            "Timestamp": "12/17/2024 19:51:03",
+            "Email Address": "ibrakisekka29@gmail.com",
+            "Full Name": "Ibrahim kisekka",
+            "District of Residence": "Kampala",
+            "School Name": "Wheeling preparatory centre",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+25678826060",
+            "Telephone contact": "0758826060",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/17/2024 19:53:15",
             "Email Address": "ibrakisekka29@gmail.com",
@@ -991,10 +1094,36 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
-      
+        {
+            "Timestamp": "12/17/2024 20:03:12",
+            "Email Address": "turyomurugyedomoses@gmail.com",
+            "Full Name": "Turyomurugyendo Moses",
+            "District of Residence": "Kampala",
+            "School Name": "Glorious primary school",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256700718846",
+            "Telephone contact": "0700718846",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Maybe",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/17/2024 20:19:55",
             "Email Address": "mateyafred55@gmail.com",
@@ -1250,8 +1379,7 @@ export const registrationData = {
                 "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0,
+            }
         },
         {
             "Timestamp": "12/17/2024 21:34:22",
@@ -1367,7 +1495,35 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-    
+        {
+            "Timestamp": "12/17/2024 22:41:53",
+            "Email Address": "wakabimeddy6@gmail.com",
+            "Full Name": "Wakabi Mwamadi",
+            "District of Residence": "Iganga",
+            "School Name": "Nakavule P/S",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256755366675",
+            "Telephone contact": "0755366675",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
+            "Terms and Conditions\nBy submitting this form, you agree to the following terms and conditions:\nAccuracy of Information:\nYou confirm that the details provided in this form are accurate to the best of your knowledge.\nUse of Information:\nYour contact details will only be used for course-related communication and updates. Your information will not be shared with third parties without your consent.\nParticipation Requirements:\nEnrolment is conditional upon meeting the course eligibility criteria and providing accurate registration details. The course organisers reserve the right to accept or decline applications.\n\nCourse Duration and Structure:\nThe course runs for 4 weeks, with 3 lessons per week, making a total of 12 lessons. Students MUST attend all the 12 lessons. Failure to attend all the lectures without valid justification may require the student to retake the course.\nPayment Terms:\nThe course fee is \u00c2\u00a32 per week which is approximately 9,200 Uganda Shillings (UGX).\n\nParticipation in the course requires full payment of the specified course fees by the deadline provided and failure to make payment on time may result in discontinuation from the course.\n\nPayment details, including methods and deadlines, will be communicated upon successful registration.\n\nCertification:\nSuccessful candidates who complete all the 12 lessons and meet the course requirements will receive an official AWB Certificate.\nRefund Policy:\nFees are non-refundable once the course has commenced. Refund requests before the start date will be reviewed on a case-by-case basis.\nConsent:\nBy registering, you consent to receive updates and notifications about the African Website Builders' Course.": "I would like to learn how to open a website",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/17/2024 22:45:09",
             "Email Address": "wakabimeddy6@gmail.com",
@@ -1510,7 +1666,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-      
+        {
+            "Timestamp": "12/18/2024 9:10:01",
+            "Email Address": "rhojaztush@gmail.com",
+            "Full Name": "Tushabe Rogers",
+            "District of Residence": "Kampala",
+            "School Name": "Noble Care primary school",
+            "Level of Institution": "Primary",
+            "Role at School ": "Administrator",
+            "WhatsApp number": "+256700259211",
+            "Telephone contact": "0700259211",
+            "Which device will you use for study during the course?": "Laptop",
+            "Can you attend physical classes if the training centre is around Kampala?": "Maybe",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 9:19:30",
             "Email Address": "anitiemmanuel3@gmail.com",
@@ -1539,7 +1722,118 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-   
+        {
+            "Timestamp": "12/18/2024 9:41:40",
+            "Email Address": "amulinuwagaba9@gmail.com",
+            "Full Name": "Nuwagaba Amuli",
+            "District of Residence": "Masindi",
+            "School Name": "St. Lawrence Nursery and Primary School",
+            "Level of Institution": "University",
+            "Role at School ": "Administrator",
+            "WhatsApp number": "+256759286573",
+            "Telephone contact": "0764385812",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
+        {
+            "Timestamp": "12/18/2024 9:43:26",
+            "Email Address": "amulinuwagaba9@gmail.com",
+            "Full Name": "Nuwagaba Amuli",
+            "District of Residence": "Masindi",
+            "School Name": "St. Lawrence Nursery and Primary School",
+            "Level of Institution": "Primary",
+            "Role at School ": "Administrator",
+            "WhatsApp number": "+256759286573",
+            "Telephone contact": "0764385812",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
+        {
+            "Timestamp": "12/18/2024 9:44:20",
+            "Email Address": "amulinuwagaba9@gmail.com",
+            "Full Name": "Nuwagaba Amuli",
+            "District of Residence": "Masindi",
+            "School Name": "St. Lawrence Nursery and Primary School",
+            "Level of Institution": "Primary",
+            "Role at School ": "Administrator",
+            "WhatsApp number": "+256759286573",
+            "Telephone contact": "0764385812",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
+        {
+            "Timestamp": "12/18/2024 9:45:41",
+            "Email Address": "amulinuwagaba9@gmail.com",
+            "Full Name": "Nuwagaba Amuli",
+            "District of Residence": "Masindi",
+            "School Name": "St. Lawrence Nursery and Primary School",
+            "Level of Institution": "Primary",
+            "Role at School ": "Administrator",
+            "WhatsApp number": "+256759286573",
+            "Telephone contact": "0764385812",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 9:54:45",
             "Email Address": "cnahamya@gmail.com",
@@ -1820,7 +2114,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-    
+        {
+            "Timestamp": "12/18/2024 13:35:20",
+            "Email Address": "kugonzaseemu@gmail.com",
+            "Full Name": "KUGONZA SEEMU CHRISTOPHER",
+            "District of Residence": "Masindi",
+            "School Name": "Bigando Primary School",
+            "Level of Institution": "Primary",
+            "Role at School ": "Administrator",
+            "WhatsApp number": "+256701340793",
+            "Telephone contact": "0773404891",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Maybe",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 13:50:13",
             "Email Address": "katuramudidas7@gmail.com",
@@ -1877,7 +2198,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-   
+        {
+            "Timestamp": "12/18/2024 13:55:23",
+            "Email Address": "ciildareencxakiim@gmail.com",
+            "Full Name": "Mohamed Abdihakim Ali",
+            "District of Residence": "Kampala",
+            "School Name": "Victoria",
+            "Level of Institution": "University",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256787888366",
+            "Telephone contact": "0787888366",
+            "Which device will you use for study during the course?": "Laptop",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 13:56:49",
             "Email Address": "master.kdata@gmail.com",
@@ -1906,7 +2254,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-
+        {
+            "Timestamp": "12/18/2024 14:15:47",
+            "Email Address": "kyamulamiraregan27@gmail.com",
+            "Full Name": "Kyamulamira Reagan",
+            "District of Residence": "Luweero",
+            "School Name": "Seeta high school a level campus",
+            "Level of Institution": "Secondary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256759200236",
+            "Telephone contact": "0759200236",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 14:18:37",
             "Email Address": "kyamulamiraregan27@gmail.com",
@@ -1991,7 +2366,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-      
+        {
+            "Timestamp": "12/18/2024 14:41:15",
+            "Email Address": "robertmatsiko5@gmail.com",
+            "Full Name": "MATSIKO ROBERT",
+            "District of Residence": "MBARARA",
+            "School Name": "GOLDENBELLS PRIMARY SCHOOL",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256781919059",
+            "Telephone contact": "0781919059",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Maybe",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 14:52:34",
             "Email Address": "backrijohnny@gmail.com",
@@ -2020,7 +2422,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-      
+        {
+            "Timestamp": "12/18/2024 15:08:08",
+            "Email Address": "ramathanreigns@gmail.com",
+            "Full Name": "MATOVU RAMATHAN",
+            "District of Residence": "KAMPALA",
+            "School Name": "Hana international school",
+            "Level of Institution": "Secondary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256752286102",
+            "Telephone contact": "0752286102",
+            "Which device will you use for study during the course?": "Laptop",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 15:53:47",
             "Email Address": "mosesssemwanga3@gmail.com",
@@ -2245,7 +2674,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-     
+        {
+            "Timestamp": "12/18/2024 19:11:57",
+            "Email Address": "akastylez22@gmail.com",
+            "Full Name": "Katate Arozious",
+            "District of Residence": "Wakiso",
+            "School Name": "Ivory international school",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256754846916",
+            "Telephone contact": "0774969713",
+            "Which device will you use for study during the course?": "Laptop",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 19:13:59",
             "Email Address": "moonyango2013@gmail.com",
@@ -2442,7 +2898,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-    
+        {
+            "Timestamp": "12/18/2024 19:29:38",
+            "Email Address": "tusubirab29@gmail.com",
+            "Full Name": "Tumwebaze Bridget",
+            "District of Residence": "Kampala",
+            "School Name": "Kyambongo",
+            "Level of Institution": "University",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256759519692",
+            "Telephone contact": "0755334213",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Maybe",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 19:49:02",
             "Email Address": "janixcharz@gmail.com",
@@ -2527,7 +3010,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-      
+        {
+            "Timestamp": "12/18/2024 20:47:14",
+            "Email Address": "rogersabigabaateenyi87@gmail.com",
+            "Full Name": "Rogers Abigaba",
+            "District of Residence": "Kikuube",
+            "School Name": "Talent Nursery and primary school",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256777314051",
+            "Telephone contact": "0777314051",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/18/2024 20:49:06",
             "Email Address": "victornshabaruhanga@gmail.com",
@@ -2752,7 +3262,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-
+        {
+            "Timestamp": "12/19/2024 6:52:07",
+            "Email Address": "ponsubuga@gmail.com",
+            "Full Name": "Nsubuga Paul",
+            "District of Residence": "Mpigi",
+            "School Name": "Landmark Preparatory School, Naalya- Mpigi",
+            "Level of Institution": "Primary",
+            "Role at School ": "Administrator",
+            "WhatsApp number": "+256752280413",
+            "Telephone contact": "0752280413",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/19/2024 8:33:18",
             "Email Address": "innocentakenda@gmail.com",
@@ -2977,7 +3514,62 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-     
+        {
+            "Timestamp": "12/19/2024 17:34:24",
+            "Email Address": "johnboscolongom8@gmail.com",
+            "Full Name": "JOHN BOSCO LONGOM",
+            "District of Residence": "KOTIDO",
+            "School Name": "KOTIDO",
+            "Level of Institution": "Secondary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256786596047",
+            "Telephone contact": "0786596047",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
+        {
+            "Timestamp": "12/19/2024 17:34:51",
+            "Email Address": "bettynagawa021@gmail.com",
+            "Full Name": "Mwesigwa sepiriya",
+            "District of Residence": "Kaliro",
+            "School Name": "Busega preparatory school",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256785134267",
+            "Telephone contact": "0785134267",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/19/2024 17:36:23",
             "Email Address": "mutegekirobert47@gmail.com",
@@ -3258,7 +3850,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-     
+        {
+            "Timestamp": "12/19/2024 18:00:33",
+            "Email Address": "muwanikaomaar5@gmail.com",
+            "Full Name": "Muwanika Bumali",
+            "District of Residence": "Mityana",
+            "School Name": "King Umar Schools",
+            "Level of Institution": "Primary",
+            "Role at School ": "Administrator",
+            "WhatsApp number": "+256775612308",
+            "Telephone contact": "0754426790",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/19/2024 18:17:09",
             "Email Address": "mugerry@gmail.com",
@@ -3315,7 +3934,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-      
+        {
+            "Timestamp": "12/19/2024 18:51:38",
+            "Email Address": "parioalex45@gmail.com",
+            "Full Name": "PARIO Alex",
+            "District of Residence": "TEREGO",
+            "School Name": "LEBU LUZIRA PRIMARY SCHOOL",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256773984526",
+            "Telephone contact": "0773984526",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/19/2024 18:59:00",
             "Email Address": "kanyesigyestuart423@gmail.com",
@@ -3344,7 +3990,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-  
+        {
+            "Timestamp": "12/19/2024 19:12:08",
+            "Email Address": "isaka1983@gmail.com",
+            "Full Name": "MUSINGUZI ISAAC",
+            "District of Residence": "LUWEERO",
+            "School Name": "St. KIZITO SS KATIIKAMU KISULE",
+            "Level of Institution": "Secondary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256782518813",
+            "Telephone contact": "0782518813",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Maybe",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/19/2024 19:19:16",
             "Email Address": "kyamaggwasamuel5@gmail.com",
@@ -3401,7 +4074,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-      
+        {
+            "Timestamp": "12/19/2024 19:30:19",
+            "Email Address": "sserikarogers14@gmail.com",
+            "Full Name": "Sserika Rogers",
+            "District of Residence": "Luweero",
+            "School Name": "Rhian",
+            "Level of Institution": "Primary",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256773456158",
+            "Telephone contact": "0706383791",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/19/2024 19:32:33",
             "Email Address": "sserikarogers14@gmail.com",
@@ -3654,7 +4354,34 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-    
+        {
+            "Timestamp": "12/21/2024 21:03:37",
+            "Email Address": "kyomugisabetty62@gmail.com",
+            "Full Name": "Kyomugisa Be",
+            "District of Residence": "Kampala",
+            "School Name": "Pearl Junior school",
+            "Level of Institution": "University",
+            "Role at School": "Classroom Teacher",
+            "WhatsApp number": "+256701899245",
+            "Telephone contact": "0701899245",
+            "Which device will you use for study during the course?": "Phone",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "courseProgress": {
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Text, Button & Block Editing, Add Video": "Pending",
+                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
+                "Parallax, Padding, Slide Show, Forms": "Pending",
+                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
+                "Chat GPT and Speed Test": "Pending",
+                "Recap Test and Practicals Continue": "Pending",
+                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
+                "Website SEO, Favicons & Social Media": "Pending",
+                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
+                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
+                "Sales Online and Local": "Pending"
+            },
+            "amountPaid": 0
+        },
         {
             "Timestamp": "12/21/2024 21:17:02",
             "Email Address": "kyomugisabetty62@gmail.com",
@@ -3824,4 +4551,4 @@ export const registrationData = {
             "amountPaid": 0
         }
     ]
-};
+}
