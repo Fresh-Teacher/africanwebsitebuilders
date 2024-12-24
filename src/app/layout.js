@@ -1,6 +1,8 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './globals.css';
 import { ThemeProvider } from '@/contexts/ThemeContext';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   metadataBase: new URL('https://africanwebsitebuilders.vercel.app'),
@@ -64,7 +66,7 @@ export const metadata = {
     }
   },
   verification: {
-    google: 'your-google-verification-code', // Add your verification code if needed
+    google: 'your-google-verification-code',
   },
   alternates: {
     canonical: 'https://africanwebsitebuilders.vercel.app'
@@ -72,28 +74,27 @@ export const metadata = {
   appleWebApp: {
     title: 'AWB',
     statusBarStyle: 'black-translucent',
-    startupImage: [
-      '/logo.png'
-    ]
+    startupImage: ['/logo.png']
   },
   formatDetection: {
     telephone: true
-  }
+  },
+  // Add these metadata properties to handle the head elements
+  charSet: 'UTF-8',
+  themeColor: '#000000',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="theme-color" content="#000000" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
-      <body>
+      <body className="min-h-screen">
         <ThemeProvider>
-          {children}
+          <div className="flex flex-col min-h-screen">
+            <Header />
+            <main className="flex-grow pt-20">
+              {children}
+            </main>
+          </div>
         </ThemeProvider>
       </body>
     </html>

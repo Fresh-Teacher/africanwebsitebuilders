@@ -1,3 +1,4 @@
+// Footer.tsx (back to original, non-fixed version)
 'use client';
 
 const Footer = () => {

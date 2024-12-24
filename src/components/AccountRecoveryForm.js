@@ -1,61 +1,8 @@
 'use client';
 import { useState } from 'react';
 import { Loader2 } from 'lucide-react';
-import Image from 'next/image';
-import { ThemeToggle } from './ThemeToggle';
 import { registrationData } from '@/utils/mockData';
 
-// Header Component
-const Header = () => {
-  return (
-    <header className="w-full bg-gradient-to-r from-blue-900 to-blue-600 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                <Image src="/logo.png" alt="Logo" width={40} height={40} />
-              </div>
-              <div className="text-2xl font-bold text-white">AWB</div>
-            </div>
-            <div className="flex items-center">
-              <ThemeToggle />
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-  );
-};
-
-// Footer Component
-const Footer = () => {
-  return (
-    <footer className="w-full bg-gradient-to-r from-blue-800 to-blue-900 dark:from-gray-900 dark:to-gray-800 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <div className="text-center space-y-2">
-          <p>
-            &copy; {new Date().getFullYear()} AWB<br /> All rights reserved
-          </p>
-          <p className="flex items-center justify-center gap-1">
-            Coded with{' '}
-            <span className="inline-block animate-pulse">❤️</span> by{' '}
-            <a
-              href="https://fresh-teacher.github.io"
-              className="text-[#F4C2C2] font-bold hover:underline transition-all duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Fresh Teacher
-            </a>
-          </p>
-        </div>
-      </div>
-    </footer>
-  );
-};
-
-// Main Account Recovery Component
 const AccountRecoveryPage = () => {
   const [fullName, setFullName] = useState('');
   const [step, setStep] = useState(1);
@@ -89,7 +36,7 @@ const AccountRecoveryPage = () => {
       );
 
       if (userIndex === -1) {
-        setError('No account found with this name');
+        setError('No account found with this name. Please ensure that you type the full name you used during registration.');
         setIsLoading(false);
         return;
       }
@@ -133,8 +80,6 @@ const AccountRecoveryPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 transition-colors">
-      <Header />
-      
       <main className="flex-grow flex items-center justify-center px-4 py-12">
         <div className="bg-white dark:bg-gray-800 p-10 rounded-xl shadow-lg w-full max-w-md transition-colors relative">
           {isLoading && (
@@ -216,19 +161,19 @@ const AccountRecoveryPage = () => {
                     School Name
                   </label>
                   <select
-          value={verificationData.school}
-          onChange={(e) => setVerificationData({...verificationData, school: e.target.value})}
-          className="w-full px-4 py-3 border border-blue-200 dark:border-gray-600 rounded-md focus:outline-none focus:border-blue-600 dark:focus:border-blue-500 focus:ring-3 focus:ring-blue-600/10 dark:focus:ring-blue-500/10 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-          required
-          disabled={isLoading}
-        >
-          <option value="">SELECT YOUR SCHOOL</option>
-          {capitalizedSchools.map((entry, index) => (
-            <option key={index} value={entry["School Name"]}>
-              {entry["School Name Display"]}
-            </option>
-          ))}
-        </select>
+                    value={verificationData.school}
+                    onChange={(e) => setVerificationData({...verificationData, school: e.target.value})}
+                    className="w-full px-4 py-3 border border-blue-200 dark:border-gray-600 rounded-md focus:outline-none focus:border-blue-600 dark:focus:border-blue-500 focus:ring-3 focus:ring-blue-600/10 dark:focus:ring-blue-500/10 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                    required
+                    disabled={isLoading}
+                  >
+                    <option value="">SELECT YOUR SCHOOL</option>
+                    {capitalizedSchools.map((entry, index) => (
+                      <option key={index} value={entry["School Name"]}>
+                        {entry["School Name Display"]}
+                      </option>
+                    ))}
+                  </select>
                 </div>
 
                 <div>
@@ -255,19 +200,19 @@ const AccountRecoveryPage = () => {
                     District of Residence
                   </label>
                   <select
-          value={verificationData.district}
-          onChange={(e) => setVerificationData({...verificationData, district: e.target.value})}
-          className="w-full px-4 py-3 border border-blue-200 dark:border-gray-600 rounded-md focus:outline-none focus:border-blue-600 dark:focus:border-blue-500 focus:ring-3 focus:ring-blue-600/10 dark:focus:ring-blue-500/10 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-          required
-          disabled={isLoading}
-        >
-          <option value="">SELECT YOUR DISTRICT</option>
-          {capitalizedSchools.map((entry, index) => (
-            <option key={index} value={entry["District of Residence"]}>
-              {entry["District of Residence Display"]}
-            </option>
-          ))}
-        </select>
+                    value={verificationData.district}
+                    onChange={(e) => setVerificationData({...verificationData, district: e.target.value})}
+                    className="w-full px-4 py-3 border border-blue-200 dark:border-gray-600 rounded-md focus:outline-none focus:border-blue-600 dark:focus:border-blue-500 focus:ring-3 focus:ring-blue-600/10 dark:focus:ring-blue-500/10 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                    required
+                    disabled={isLoading}
+                  >
+                    <option value="">SELECT YOUR DISTRICT</option>
+                    {capitalizedSchools.map((entry, index) => (
+                      <option key={index} value={entry["District of Residence"]}>
+                        {entry["District of Residence Display"]}
+                      </option>
+                    ))}
+                  </select>
                 </div>
               </div>
 
@@ -302,8 +247,6 @@ const AccountRecoveryPage = () => {
           )}
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 };
