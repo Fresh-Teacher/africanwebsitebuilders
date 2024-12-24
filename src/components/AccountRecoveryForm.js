@@ -58,11 +58,11 @@ const AccountRecoveryPage = () => {
     try {
       await new Promise(resolve => setTimeout(resolve, 1000));
 
-      // Case-insensitive comparison
+      // Case-insensitive comparison for all fields except level
       const isValid = 
-        verificationData.school.toLowerCase() === userData["School Name"].toLowerCase() &&
+        verificationData.school.toLowerCase().trim() === userData["School Name"].toLowerCase().trim() &&
         verificationData.level === userData["Level of Institution"] &&
-        verificationData.district.toLowerCase() === userData["District of Residence"].toLowerCase();
+        verificationData.district.toLowerCase().trim() === userData["District of Residence"].toLowerCase().trim();
 
       if (!isValid) {
         setError('Verification failed! Please double check your responses and try again.');

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Grouping</title>
+    <style>
+        button {
+            margin: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .group {
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Email Grouping</h1>
+    <div id="emailGroups"></div>
+    <button id="downloadButton">Download All Groups</button>
+
+    <script>
+        const emails = `
+<!-- isaacsentongo33@gmail.com -->
+<!-- paythontimba@gmail.com -->
+<!-- maserekaronald1996@gmail.com -->
+hosea6647@gmail.com
+<!-- sbazibu679@gmail.com -->
+<!-- parioalex45@gmail.com -->
+<!-- akoyesiga@gmail.com -->
+hydn.richardsonic@gmail.com
+<!-- mwanjeyovan@gmail.com -->
+katwaaloeric2@gmail.com
+sufsane1@gmail.com
+<!-- lil.benjer@gmail.com -->
+juliuskibs69@gmail.com
+isabiryemicheal8@gmail.com
+nakashamielean@gmail.com
+<!-- mulerewilson@gmail.com -->
+<!-- mataisaac277@gmail.com -->
+twesiimejim8@gmail.com
+<!-- josephmukama67@gmail.com -->
+nabaggalalindah@gmail.com
+banalyaimran925@gmail.com
+nahabwe.emmanuel1@gmail.com
+<!-- britechugandaltd@gmail.com -->
+pamelavic810@gmail.com
+fredamutuhire@gmail.com
+<!-- kasiitaivan01@gmail.com -->
+<!-- talemwabrian3@gmail.com -->
+turyomurugyedomoses@gmail.com
+<!-- brimhenry@gmail.com -->
+<!-- kigozi672@gmail.com -->
+matsikojustusjusto1997@gmail.com
+ibrakisekka29@gmail.com
+leticianamagala018@gmail.com
+<!-- innocentomiga@gmail.com -->
+<!-- robertmatsiko5@gmail.com -->
+mateyafred55@gmail.com
+nakitendeshakirah535@gmail.com
+<!-- patrickigozi2002@gmail.com -->
+azizdarion@gmail.com
+nasasiraelizabeth0@gmail.com
+johnboscolongom8@gmail.com
+<!-- euniceankunda06@gmail.com -->
+ronnieisabirye90@gmail.com
+<!-- yananmahad18@gmail.com -->
+<!-- nluckieprecious@gmail.com -->
+<!-- joshuankinga@gmail.com -->
+<!-- amootipeter3@gmail.com -->
+brianmaloba001@gmail.com
+wakabimeddy6@gmail.com
+bukenyamuhamadi121@gmail.com
+ecaepascal2019@gmail.com
+asiimwejoseph1199@gmail.com
+wambiemmanuel1993@gmail.com
+anitiemmanuel3@gmail.com
+cnahamya@gmail.com
+barakajoe5@gmail.com
+allanamutwendeize7@gmail.com
+tonnyanara@gmail.com
+okiriamartin903@gmail.com
+johansasonyet076@gmail.com
+wagabafrank36@gmail.com
+karimtenywa@gmail.com
+abikudaking@gmail.com
+ogeorgemorris@gmail.com
+katuramudidas7@gmail.com
+kiryaj511@gmail.com
+master.kdata@gmail.com
+kyamulamiraregan27@gmail.com
+simonpeterekut3@gmail.com
+kusinguratyson4@gmail.com
+backrijohnny@gmail.com
+mosesssemwanga3@gmail.com
+atoronyangjohn2020@gmail.com
+abutufairi1@gmail.com
+kugonzaseemu@gmail.com
+amutuhairegilbert7@gmail.com
+susannenambi1@gmail.com
+danielakilimali06@gmail.com
+madrineasaba@gmail.com
+moonyango2013@gmail.com
+akastylez22@gmail.com
+tumwesigyesamuel52@gmail.com
+wonabadivincent@gmail.com
+ssemugeraroger@gmail.com
+dengelijah30@gmail.com
+ciildareencxakiim@gmail.com
+janixcharz@gmail.com
+a.coulibaly4604@gmail.com
+nakindinda@gmail.com
+victornshabaruhanga@gmail.com
+rogersabigabaateenyi87@gmail.com
+kinensamuel1@gmail.com
+abigailpsalmist360@gmail.com
+balindabellbrian5@gmail.com
+ramathanreigns@gmail.com
+yonakamabu123@gmail.com
+cjkirsie@gmail.com
+innocentakenda@gmail.com
+lawtonny725@gmail.com
+<!-- amulinuwagaba9@gmail.com -->
+manirahariaggrey@gmail.com
+tusubirab29@gmail.com
+kjockim36@gmail.com
+cratipher@gmail.com
+immynamu@gmail.com
+mutegekirobert47@gmail.com
+sumayyahmutyaba701@gmail.com
+sinzayigayavallenceh@gmail.com
+ponsubuga@gmail.com
+bettynagawa021@gmail.com
+ambrosemusinguzi344@gmail.com
+nicholaswapaile2021@gmail.com
+morishokao4@gmail.com
+ayikobuaphilliam657@gmail.com
+okirups@gmail.com
+mugerry@gmail.com
+muhumuzamajidu149@gmail.com
+kanyesigyestuart423@gmail.com
+kyamaggwasamuel5@gmail.com
+muwanikaomaar5@gmail.com
+sserikarogers14@gmail.com
+millanxandrie@gmail.com
+kamagagpm1980@gmail.com
+emmlyessyheavenz@gmail.com
+muwugo@gmail.com
+chrispuskamanyire@gmail.com
+tukashabadavis6@gmail.com
+agabad347@gmail.com
+sherrycent21@gmail.com
+kyomugisabetty62@gmail.com
+rhojaztush@gmail.com
+isaka1983@gmail.com
+ssnakurut@gmail.com
+jemanabaccwa@gmail.com
+<!-- chirigaisaacos@gmail.com -->
+savioursitaku89@gmail.com
+namanyaspencerk@gmail.com
+nabulimeannet91@gmail.com`;
+
+        // Parse emails
+        const emailLines = emails.trim().split('\n');
+        const commentedEmails = [];
+        const uncommentedEmails = [];
+
+        emailLines.forEach(line => {
+            if (line.startsWith('<!--') && line.endsWith('-->')) {
+                commentedEmails.push(line.slice(4, -3).trim());
+            } else if (line.trim()) {
+                uncommentedEmails.push(line.trim());
+            }
+        });
+
+        // Create groups
+        const groups = [];
+        groups.push({ name: 'Group 1 (Commented Emails)', emails: commentedEmails });
+
+        for (let i = 0; i < uncommentedEmails.length; i += 50) {
+            groups.push({
+                name: `Group ${groups.length + 1}`,
+                emails: uncommentedEmails.slice(i, i + 50),
+            });
+        }
+
+        // Display groups
+        const emailGroupsContainer = document.getElementById('emailGroups');
+        groups.forEach(group => {
+            const groupDiv = document.createElement('div');
+            groupDiv.classList.add('group');
+
+            const groupTitle = document.createElement('h2');
+            groupTitle.textContent = group.name;
+            groupDiv.appendChild(groupTitle);
+
+            const groupEmails = document.createElement('pre');
+            groupEmails.textContent = group.emails.join('\n');
+            groupDiv.appendChild(groupEmails);
+
+            emailGroupsContainer.appendChild(groupDiv);
+        });
+
+        // Download groups as a file
+        document.getElementById('downloadButton').addEventListener('click', () => {
+            const allGroupsText = groups.map(group => `${group.name}:\n${group.emails.join('\n')}\n`).join('\n');
+            const blob = new Blob([allGroupsText], { type: 'text/plain' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'email_groups.txt';
+            link.click();
+            URL.revokeObjectURL(link.href);
+        });
+    </script>
+</body>
+</html>
