@@ -4279,7 +4279,7 @@
               <p><strong>Role:</strong> ${user["Role at School"]}</p>
               <a href="tel:${user["Telephone contact"]}">Call: ${user["Telephone contact"]}</a><br>
               <a href="mailto:${user["Email Address"]}">Email: ${user["Email Address"]}</a><br>
-              <a href="https://wa.me/${user["WhatsApp number"].replace('+', '')}" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=${user["WhatsApp number"].replace('+', '')}" target="_blank">
                 WhatsApp: ${user["WhatsApp number"]}
               </a>
             </div>
