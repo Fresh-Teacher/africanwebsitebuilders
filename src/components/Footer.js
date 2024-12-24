@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-blue-800 to-blue-900 dark:from-gray-900 dark:to-gray-800 text-white py-4 text-center">
       <div className="max-w-7xl mx-auto space-y-2">
         <p>
-          &copy; {new Date().getFullYear()} AWB<br /> All rights reserved
+          &copy; {new Date().getFullYear()} AWB<br /> 
         </p>
         <p className="flex items-center justify-center gap-1">
-          Coded with{' '}
+          Developed with{' '}
           <span className="inline-block animate-heartbeat">❤️</span> by{' '}
           <a
             href="https://fresh-teacher.github.io"
