@@ -1,19 +1,19 @@
 "use client";
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useRouter } from 'next/navigation';
 import { registrationData } from '@/utils/mockData';
 import { Loader2 } from 'lucide-react';
-import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import ScrollToTopButton from '@/components/ScrollToTopButton'; // Add this line
+import ScrollToTopButton from '@/components/ScrollToTopButton';
+import Link from 'next/link';
+
 import { 
   PersonCircle, 
   Building, 
-  Laptop, 
   BarChartFill,
   EnvelopeFill,
   TelephoneFill,
@@ -24,51 +24,57 @@ import {
   BoxArrowRight
 } from 'react-bootstrap-icons';
 
+// Constants
+const TUITION_FEE = 36696;
+const PROGRESS_THRESHOLDS = {
+  LOW: 40,
+  MODERATE: 70,
+  COMPLETE: 100
+};
+
+// Utility functions
+const utils = {
+  getTimeBasedGreeting: () => {
+    const hour = new Date().getHours();
+    if (hour >= 5 && hour < 12) return "Good morning";
+    if (hour >= 12 && hour < 17) return "Good afternoon";
+    if (hour >= 17 && hour < 22) return "Good evening";
+    return "Good night";
+  },
+  
+  getLastName: (fullName) => {
+    const nameParts = fullName.split(' ');
+    return nameParts[nameParts.length - 1];
+  },
+
+  getProgressColor: (percentage) => {
+    if (percentage < PROGRESS_THRESHOLDS.LOW) return { bg: 'bg-red-100', fill: 'bg-red-600' };
+    if (percentage < PROGRESS_THRESHOLDS.MODERATE) return { bg: 'bg-orange-100', fill: 'bg-orange-600' };
+    if (percentage < PROGRESS_THRESHOLDS.COMPLETE) return { bg: 'bg-blue-100', fill: 'bg-blue-600' };
+    return { bg: 'bg-green-100', fill: 'bg-green-600' };
+  },
+
+  getProgressStatus: (percentage) => {
+    if (percentage < PROGRESS_THRESHOLDS.LOW) return 'Low';
+    if (percentage < PROGRESS_THRESHOLDS.MODERATE) return 'Moderate';
+    if (percentage < PROGRESS_THRESHOLDS.COMPLETE) return 'Progressing';
+    return 'Completed!';
+  }
+};
+
+// Reusable components
 const MotionDiv = motion.div;
 
-// Helper functions remain the same...
-const getTimeBasedGreeting = () => {
-  const hour = new Date().getHours();
-  if (hour >= 5 && hour < 12) return "Good morning";
-  if (hour >= 12 && hour < 17) return "Good afternoon";
-  if (hour >= 17 && hour < 22) return "Good evening";
-  return "Good night";
-};
-
-const getLastName = (fullName) => {
-  const nameParts = fullName.split(' ');
-  return nameParts[nameParts.length - 1];
-};
-
-// Enhanced animated progress bar component with color coding
 const AnimatedProgress = ({ percentage }) => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
-
-  const getProgressColor = (percentage) => {
-    if (percentage < 40) return { bg: 'bg-red-100', fill: 'bg-red-600' };
-    if (percentage < 70) return { bg: 'bg-orange-100', fill: 'bg-orange-600' };
-    if (percentage < 100) return { bg: 'bg-blue-100', fill: 'bg-blue-600' };
-    return { bg: 'bg-green-100', fill: 'bg-green-600' };
-  };
-
-  const colors = getProgressColor(percentage);
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  const colors = utils.getProgressColor(percentage);
+  const status = utils.getProgressStatus(percentage);
 
   return (
     <div className="space-y-1">
       <div className="flex justify-between items-center">
-        <span className={`text-sm font-medium ${
-          percentage < 40 ? 'text-red-600 dark:text-red-400' :
-          percentage < 70 ? 'text-orange-600 dark:text-orange-400' :
-          percentage < 100 ? 'text-blue-600 dark:text-blue-400' :
-          'text-green-600 dark:text-green-400'
-        }`}>
-          {percentage < 40 ? 'Low' :
-           percentage < 70 ? 'Moderate' :
-           percentage < 100 ? 'Progressing' :
-           'Completed!'}
+        <span className={`text-sm font-medium ${colors.fill.replace('bg-', 'text-')} dark:text-${colors.fill.replace('bg-', '')}-400`}>
+          {status}
         </span>
         <span className="text-sm font-medium text-gray-600 dark:text-gray-300">{percentage}%</span>
       </div>
@@ -84,12 +90,8 @@ const AnimatedProgress = ({ percentage }) => {
   );
 };
 
-// AnimatedCard component update
 const AnimatedCard = ({ children, delay = 0 }) => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1
-  });
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
     <MotionDiv
@@ -104,12 +106,15 @@ const AnimatedCard = ({ children, delay = 0 }) => {
   );
 };
 
-// Financial progress bar component update
 const FinancialProgress = ({ percentage }) => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  
+  const getProgressBarColor = (percentage) => {
+    if (percentage === 0) return 'bg-red-500';
+    if (percentage < 50) return 'bg-orange-500';
+    if (percentage < 100) return 'bg-blue-500';
+    return 'bg-emerald-500';
+  };
 
   return (
     <div className="space-y-2">
@@ -122,24 +127,51 @@ const FinancialProgress = ({ percentage }) => {
           initial={{ width: 0 }}
           animate={inView ? { width: `${percentage}%` } : { width: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className={`absolute top-0 left-0 h-full ${
-            percentage === 0 ? 'bg-red-500' :
-            percentage < 50 ? 'bg-orange-500' :
-            percentage < 100 ? 'bg-blue-500' :
-            'bg-emerald-500'
-          } dark:bg-opacity-90 rounded-full`}
+          className={`absolute top-0 left-0 h-full ${getProgressBarColor(percentage)} dark:bg-opacity-90 rounded-full`}
         />
       </div>
     </div>
   );
 };
 
+const LoadingState = () => (
+  <div className="min-h-screen flex flex-col">
+    <Header />
+    <div className="flex-1 flex items-center justify-center bg-gray-50 dark:bg-gray-900">
+      <div className="text-center">
+        <Loader2 className="h-8 w-8 animate-spin text-blue-600 mx-auto mb-2" />
+        <p className="text-gray-600">Loading your dashboard...</p>
+      </div>
+    </div>
+    <Footer />
+  </div>
+);
+
+// Main Dashboard Component
 export default function Dashboard() {
   const router = useRouter();
   const [userData, setUserData] = useState(null);
   const [paymentProgress, setPaymentProgress] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [greeting, setGreeting] = useState('');
+
+// Update the moduleUrls object to reference local files
+const moduleUrls = {
+  "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "/modules/module1.html",
+  "Text, Button & Block Editing, Add Video": "/modules/module2.html",
+  "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "/modules/module3.html",
+  "Parallax, Padding, Slide Show, Forms": "/modules/module4.html",
+  "Re-Create Site from Scratch (Redo Everything You Have Learned)": "/modules/module5.html",
+  "Chat GPT and Speed Test": "/modules/module6.html",
+  "Recap Test and Practicals Continue": "/modules/module7.html",
+  "Learn to Create Countdowns (Using Zylo Modules)": "/modules/module8.html",
+  "Website SEO, Favicons & Social Media": "/modules/module9.html",
+  "Learn to Teach: AWB Tutor Course (Compulsory)": "/modules/module10.html",
+  "Become Freelance Ready (Sign Up to Attract Your First Clients )": "/modules/module11.html",
+  "Sales Online and Local": "/modules/module12.html"
+};
+
+
 
   useEffect(() => {
     const userIndex = sessionStorage.getItem('userIndex');
@@ -155,12 +187,12 @@ export default function Dashboard() {
     }
     
     setUserData(user);
-    setPaymentProgress(Math.round((user.amountPaid / 36696) * 100));
-    setGreeting(getTimeBasedGreeting());
+    setPaymentProgress(Math.round((user.amountPaid / TUITION_FEE) * 100));
+    setGreeting(utils.getTimeBasedGreeting());
     setIsLoading(false);
 
     const intervalId = setInterval(() => {
-      setGreeting(getTimeBasedGreeting());
+      setGreeting(utils.getTimeBasedGreeting());
     }, 60000);
 
     return () => clearInterval(intervalId);
@@ -172,30 +204,26 @@ export default function Dashboard() {
   };
 
   if (isLoading || !userData) {
-    return (
-      <div className="min-h-screen flex flex-col">
-        <Header />
-        <div className="flex-1 flex items-center justify-center bg-gray-50 dark:bg-gray-900">
-          <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin text-blue-600 mx-auto mb-2" />
-            <p className="text-gray-600">Loading your dashboard...</p>
-          </div>
-        </div>
-        <Footer />
-      </div>
-    );
+    return <LoadingState />;
   }
 
+  const contactInfo = [
+    { icon: <EnvelopeFill className="mr-2 text-blue-600 dark:text-blue-400" />, label: "Email", value: userData["Email Address"] },
+    { icon: <TelephoneFill className="mr-2 text-blue-600 dark:text-blue-400" />, label: "WhatsApp", value: userData["WhatsApp number"] },
+    { icon: <GeoAltFill className="mr-2 text-blue-600 dark:text-blue-400" />, label: "District", value: userData["District of Residence"] },
+    { icon: <Building className="mr-2 text-blue-600 dark:text-blue-400" />, label: "Physical Classes", value: userData["Can you attend physical classes if the training centre is around Kampala?"] }
+  ];
+
   const totalCourses = Object.keys(userData.courseProgress).length;
-  const CompletedCourses = Object.values(userData.courseProgress).filter(status => status === "Completed").length;
-  const progressPercentage = Math.round((CompletedCourses / totalCourses) * 100);
+  const completedCourses = Object.values(userData.courseProgress).filter(status => status === "Completed").length;
+  const progressPercentage = Math.round((completedCourses / totalCourses) * 100);
 
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 bg-gray-50 dark:bg-gray-900">
-          <div className="max-w-7xl mx-auto p-6">
-          {/* Welcome Header */}
+        <div className="max-w-7xl mx-auto p-6">
+          {/* Welcome Section */}
           <MotionDiv 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -206,7 +234,7 @@ export default function Dashboard() {
               <PersonCircle className="text-blue-600 dark:text-blue-400 h-8 w-8 mr-3" />
               <div>
                 <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-                  {greeting}, Tr. {getLastName(userData["Full Name"])}
+                  {greeting}, Tr. {utils.getLastName(userData["Full Name"])}
                 </h1>
                 <p className="text-gray-600 dark:text-gray-300">Track your progress in the African Website Builders course</p>
               </div>
@@ -285,13 +313,13 @@ export default function Dashboard() {
                   <div className="ml-4">
                     <p className="text-sm font-medium text-gray-600 dark:text-gray-300">Tuition</p>
                     <p className="text-lg font-bold text-gray-900 dark:text-white">
-                      {userData.amountPaid.toLocaleString()} / 36,696 UGX
+                      {userData.amountPaid.toLocaleString()} / {TUITION_FEE.toLocaleString()} UGX
                     </p>
                   </div>
                 </div>
                 <FinancialProgress percentage={paymentProgress} />
                 <div className="mt-3 text-sm text-gray-500 dark:text-gray-400 text-right font-medium">
-                  Balance: {(36696 - userData.amountPaid).toLocaleString()} UGX
+                Balance: {(TUITION_FEE - userData.amountPaid).toLocaleString()} UGX
                 </div>
               </div>
             </AnimatedCard>
@@ -299,69 +327,87 @@ export default function Dashboard() {
 
           {/* Course Progress Details */}
           <AnimatedCard>
-            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-              <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
-              Course Modules Progress
-            </h2>
-            <div className="space-y-4">
-              {Object.entries(userData.courseProgress).map(([module, status], index) => (
-                <MotionDiv
-                  key={index}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-                >
-                  <p className="text-gray-800 dark:text-white flex-1 flex items-center">
-                    {status === "Completed" ? (
-                      <CheckCircleFill className="text-green-600 dark:text-green-400 mr-2" />
-                    ) : (
-                      <HourglassSplit className="text-yellow-600 dark:text-yellow-400 mr-2" />
-                    )}
-                    {module}
-                  </p>
-                  <span className={`px-3 py-1 rounded-full text-sm ${
-                    status === "Completed" 
-                    ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300" 
-                    : "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-300"
-                  }`}>
-                    {status}
-                  </span>
-                </MotionDiv>
-              ))}
-            </div>
-          </AnimatedCard>
-
-           {/* Contact Information */}
-          <AnimatedCard>
-            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Contact Information</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[
-                { icon: <EnvelopeFill className="mr-2 text-blue-600 dark:text-blue-400" />, label: "Email", value: userData["Email Address"] },
-                { icon: <TelephoneFill className="mr-2 text-blue-600 dark:text-blue-400" />, label: "WhatsApp", value: userData["WhatsApp number"] },
-                { icon: <GeoAltFill className="mr-2 text-blue-600 dark:text-blue-400" />, label: "District", value: userData["District of Residence"] },
-                { icon: <Building className="mr-2 text-blue-600 dark:text-blue-400" />, label: "Physical Classes", value: userData["Can you attend physical classes if the training centre is around Kampala?"] }
-              ].map((item, index) => (
-                <MotionDiv
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-                >
-                  <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
-                    {item.icon}
-                    {item.label}
-                  </p>
-                  <p className="text-gray-800 dark:text-white">{item.value}</p>
-                </MotionDiv>
-              ))}
-            </div>
-          </AnimatedCard>
+        <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+          <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
+          Course Modules Progress
+        </h2>
+        <div className="space-y-4">
+{Object.entries(userData.courseProgress).map(([module, status], index) => (
+  <Link
+    key={index}
+    href={moduleUrls[module]}
+    className="block"
+  >
+    <MotionDiv
+      initial={{ opacity: 0, x: -20 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors cursor-pointer group"
+    >
+      <p className="text-gray-800 dark:text-white flex-1 flex items-center group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+        {status === "Completed" ? (
+          <CheckCircleFill className="text-green-600 dark:text-green-400 mr-2" />
+        ) : (
+          <HourglassSplit className="text-yellow-600 dark:text-yellow-400 mr-2" />
+        )}
+        {module}
+      </p>
+      <div className="flex items-center space-x-3">
+        <span className={`px-3 py-1 rounded-full text-sm ${
+          status === "Completed" 
+            ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300" 
+            : "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-300"
+        }`}>
+          {status}
+        </span>
+        <svg
+          className="w-5 h-5 text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transform group-hover:translate-x-1 transition-all"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </div>
+    </MotionDiv>
+  </Link>
+))}
         </div>
-        </main>
-    <Footer />
-    <ScrollToTopButton /> {/* Add this line */}
+      </AnimatedCard>
+
+          {/* Contact Information */}
+          <AnimatedCard>
+  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+    <PersonCircle className="mr-2 text-blue-600 dark:text-blue-400" />
+    Contact Information
+  </h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {contactInfo.map((item, index) => (
+      <MotionDiv
+        key={index}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: index * 0.1 }}
+        className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+      >
+        <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center mb-1">
+          {item.icon}
+          {item.label}
+        </p>
+        <p className="text-gray-800 dark:text-white font-medium">{item.value}</p>
+      </MotionDiv>
+    ))}
   </div>
-);
+</AnimatedCard>
+        </div>
+      </main>
+      <Footer />
+      <ScrollToTopButton />
+    </div>
+  );
 }
