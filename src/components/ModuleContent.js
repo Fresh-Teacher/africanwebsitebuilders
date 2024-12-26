@@ -410,7 +410,7 @@ const ModuleListItem = React.memo(({ module, index, status, isCompleted, onClick
             <Lock className="w-5 h-5" />
           </span>
         )}
-        <span className="text-lg font-semibold">Level {index + 1}: {module}</span>
+        <span className="text-lg font-semibold">Module {index + 1}: {module}</span>
       </p>
       <span className={`px-4 py-2 rounded-full text-sm font-bold ${
         status === "Completed" 
@@ -444,7 +444,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         await audioContext.resume();
       }
       playSound('wrong');
-      alert("Complete the previous level first! 🔒");
+      alert("Complete the previous module first! 🔒");
       return;
     }
     
@@ -553,7 +553,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             <h3 className="text-3xl font-bold mb-4">
               {isPerfectScore ? "🌟 Perfect Score! 🌟" : passed ? "🎉 Well Done! 🎉" : "Almost There! 💫"}
             </h3>
-            <p className="text-xl mb-2">You collected {quizState.correctAnswers} out of {selectedModule.quiz.length} stars!</p>
+            <p className="text-xl mb-2">You've scored {quizState.correctAnswers} out of {selectedModule.quiz.length} marks!</p>
             <div className="flex justify-center gap-2 my-4">
               {Array.from({ length: quizState.correctAnswers }).map((_, i) => (
                 <Star key={i} className="w-8 h-8 text-yellow-400 fill-current" />
@@ -575,7 +575,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                 onClick={() => handleModuleClick(selectedModule.id + 1)}
                 className="flex items-center justify-center gap-3 px-8 py-4 mx-auto bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
               >
-                Continue to Next Level! 🎮 <ArrowRight className="w-6 h-6" />
+                Continue to Next Course Unit! 🎮 <ArrowRight className="w-6 h-6" />
               </motion.button>
             )}
             
@@ -692,7 +692,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             <div className="sticky top-0 z-10 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-600 shadow-sm">
               <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
                 <h3 className="text-2xl font-bold text-black dark:text-white flex items-center gap-3">
-                  <span>Level {selectedModule.id}:</span> 
+                  <span>Module {selectedModule.id}:</span> 
                   <span>{selectedModule.title}</span>
                 </h3>
                 <button 
@@ -730,14 +730,14 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                     className="flex items-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-colors text-xl font-bold shadow-lg"
                   >
                     <Brain className="w-6 h-6" />
-                    Start Challenge! 🎮
+                    Attempt Quiz!
                   </motion.button>
                 </div>
               </div>
 
               <div id="quiz-section" className="mt-16 pt-16 border-t border-gray-200 dark:border-gray-600">
                 <h3 className="text-3xl font-bold mb-8 text-center text-black dark:text-white">
-                  Level {selectedModule.id} Challenge
+                  Module {selectedModule.id} Challenge
                 </h3>
                 <div className="text-gray-900 dark:text-gray-100">
                   {renderQuiz()}
