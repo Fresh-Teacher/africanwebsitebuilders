@@ -9,8 +9,7 @@ import { Loader2 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
-import Link from 'next/link';
-
+import ModuleContent from '@/components/ModuleContent';  
 import { 
   PersonCircle, 
   Building, 
@@ -154,24 +153,6 @@ export default function Dashboard() {
   const [paymentProgress, setPaymentProgress] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [greeting, setGreeting] = useState('');
-
-// Update the moduleUrls object to reference local files
-const moduleUrls = {
-  "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "/modules/module1.html",
-  "Text, Button & Block Editing, Add Video": "/modules/module2.html",
-  "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "/modules/module3.html",
-  "Parallax, Padding, Slide Show, Forms": "/modules/module4.html",
-  "Re-Create Site from Scratch (Redo Everything You Have Learned)": "/modules/module5.html",
-  "Chat GPT and Speed Test": "/modules/module6.html",
-  "Recap Test and Practicals Continue": "/modules/module7.html",
-  "Learn to Create Countdowns (Using Zylo Modules)": "/modules/module8.html",
-  "Website SEO, Favicons & Social Media": "/modules/module9.html",
-  "Learn to Teach: AWB Tutor Course (Compulsory)": "/modules/module10.html",
-  "Become Freelance Ready (Sign Up to Attract Your First Clients )": "/modules/module11.html",
-  "Sales Online and Local": "/modules/module12.html"
-};
-
-
 
   useEffect(() => {
     const userIndex = sessionStorage.getItem('userIndex');
@@ -319,91 +300,44 @@ const moduleUrls = {
                 </div>
                 <FinancialProgress percentage={paymentProgress} />
                 <div className="mt-3 text-sm text-gray-500 dark:text-gray-400 text-right font-medium">
-                Balance: {(TUITION_FEE - userData.amountPaid).toLocaleString()} UGX
+Balance: {(TUITION_FEE - userData.amountPaid).toLocaleString()} UGX
                 </div>
               </div>
             </AnimatedCard>
           </div>
 
           {/* Course Progress Details */}
-          <AnimatedCard>
-        <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-          <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
-          Course Modules Progress
-        </h2>
-        <div className="space-y-4">
-{Object.entries(userData.courseProgress).map(([module, status], index) => (
-  <Link
-    key={index}
-    href={moduleUrls[module]}
-    className="block"
-  >
-    <MotionDiv
-      initial={{ opacity: 0, x: -20 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors cursor-pointer group"
-    >
-      <p className="text-gray-800 dark:text-white flex-1 flex items-center group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-        {status === "Completed" ? (
-          <CheckCircleFill className="text-green-600 dark:text-green-400 mr-2" />
-        ) : (
-          <HourglassSplit className="text-yellow-600 dark:text-yellow-400 mr-2" />
-        )}
-        {module}
-      </p>
-      <div className="flex items-center space-x-3">
-        <span className={`px-3 py-1 rounded-full text-sm ${
-          status === "Completed" 
-            ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300" 
-            : "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-300"
-        }`}>
-          {status}
-        </span>
-        <svg
-          className="w-5 h-5 text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transform group-hover:translate-x-1 transition-all"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M9 5l7 7-7 7"
-          />
-        </svg>
-      </div>
-    </MotionDiv>
-  </Link>
-))}
-        </div>
-      </AnimatedCard>
+        {/* Course Progress Details */}
+{/* Course Progress Details */}
+<AnimatedCard>
+  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+    <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
+    Course Modules Progress
+  </h2>
+  <ModuleContent userData={userData} />
+</AnimatedCard>
 
           {/* Contact Information */}
           <AnimatedCard>
-  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-    <PersonCircle className="mr-2 text-blue-600 dark:text-blue-400" />
-    Contact Information
-  </h2>
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-    {contactInfo.map((item, index) => (
-      <MotionDiv
-        key={index}
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: index * 0.1 }}
-        className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-      >
-        <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center mb-1">
-          {item.icon}
-          {item.label}
-        </p>
-        <p className="text-gray-800 dark:text-white font-medium">{item.value}</p>
-      </MotionDiv>
-    ))}
-  </div>
-</AnimatedCard>
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Contact Information</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {contactInfo.map((item, index) => (
+                <MotionDiv
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                >
+                  <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
+                    {item.icon}
+                    {item.label}
+                  </p>
+                  <p className="text-gray-800 dark:text-white">{item.value}</p>
+                </MotionDiv>
+              ))}
+            </div>
+          </AnimatedCard>
         </div>
       </main>
       <Footer />

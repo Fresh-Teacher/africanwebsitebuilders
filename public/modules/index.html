@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .sidebar {
+            width: 300px;
+            background: white;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .module-list {
+            list-style: none;
+        }
+
+        .module-list li {
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .module-list li:hover {
+            background: #e9ecef;
+        }
+
+        .module-list li.locked {
+            background: #e9ecef;
+            color: #6c757d;
+            cursor: not-allowed;
+        }
+
+        .module-list li.completed {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+        }
+
+        .module-list li.active {
+            background: #cce5ff;
+            border-left: 4px solid #007bff;
+        }
+
+        .content-area {
+            margin-bottom: 30px;
+        }
+
+        .quiz-container {
+            display: none;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .quiz-question {
+            margin-bottom: 20px;
+        }
+
+        .quiz-options label {
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+            background: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .quiz-options label:hover {
+            background: #e9ecef;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+
+        .progress-indicator {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+
+        .start-quiz-btn {
+            margin-top: 20px;
+        }
+        .code-example {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-family: monospace;
+            white-space: pre;
+            overflow-x: auto;
+        }
+
+        .interactive-demo {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .review-section {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            border-left: 4px solid #17a2b8;
+        }
+
+        .score-display {
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .diagram {
+            background: #fff;
+            padding: 20px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .practice-area {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .key-point {
+            background: #e8f4f8;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #17a2b8;
+        }
+
+        .module-header {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .module-objectives {
+            background: #fff3cd;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="progress-indicator">
+                Progress: <span id="progress-text">0%</span>
+            </div>
+            <ul class="module-list" id="module-list"></ul>
+        </div>
+        
+        <div class="main-content">
+            <div id="content-area" class="content-area">
+                <h2>Welcome to the Course</h2>
+                <p>Select a module from the list to begin learning.</p>
+            </div>
+            
+            <div id="quiz-container" class="quiz-container"></div>
+        </div>
+    </div>
+
+    <script>
+        const modules = [
+            {
+                id: 1,
+                title: "Introduction to Web Development",
+                content: `
+                    <div class="module-header">
+                        <h2>Introduction to Web Development</h2>
+                        <p>Understanding the fundamentals of web development and its core technologies.</p>
+                    </div>
+
+                    <div class="module-objectives">
+                        <h3>Learning Objectives</h3>
+                        <ul>
+                            <li>Understand the basic structure of the web</li>
+                            <li>Learn about client-server architecture</li>
+                            <li>Introduction to HTML, CSS, and JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="diagram">
+                        <img src="/api/placeholder/600/300" alt="Client-Server Architecture Diagram">
+                        <p>Client-Server Architecture Diagram</p>
+                    </div>
+
+                    <h3>Web Development Fundamentals</h3>
+                    <p>Web development involves creating websites and web applications using various technologies...</p>
+
+                    <div class="key-point">
+                        <h4>Key Technologies</h4>
+                        <ul>
+                            <li>HTML: Structure</li>
+                            <li>CSS: Styling</li>
+                            <li>JavaScript: Interactivity</li>
+                        </ul>
+                    </div>
+
+                    <div class="practice-area">
+                        <h4>Try it yourself:</h4>
+                        <input type="text" id="practiceInput" placeholder="Type some HTML">
+                        <button onclick="previewHTML()">Preview</button>
+                        <div id="preview"></div>
+                    </div>
+                `,
+                reviewPoints: [
+                    "Client-server architecture basics",
+                    "Core web technologies",
+                    "Basic development principles"
+                ],
+                score: 0,
+                completed: false,
+                quiz: [/* Previous quiz questions */]
+            },
+            {
+                id: 2,
+                title: "HTML Fundamentals",
+                content: `
+                    <div class="module-header">
+                        <h2>HTML Fundamentals</h2>
+                        <p>Master the building blocks of web pages with HTML5.</p>
+                    </div>
+
+                    <div class="module-objectives">
+                        <h3>Learning Objectives</h3>
+                        <ul>
+                            <li>Understand HTML document structure</li>
+                            <li>Learn essential HTML elements</li>
+                            <li>Practice creating basic web pages</li>
+                        </ul>
+                    </div>
+
+                    <div class="code-example">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Page</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+</html></div>
+
+                    <div class="interactive-demo">
+                        <h4>Interactive Example:</h4>
+                        <textarea id="htmlEditor" rows="5" cols="50"></textarea>
+                        <button onclick="runHTML()">Run Code</button>
+                        <div id="htmlResult"></div>
+                    </div>
+                `,
+                reviewPoints: [
+                    "HTML document structure",
+                    "Essential HTML elements",
+                    "Semantic HTML usage"
+                ],
+                score: 0,
+                completed: false,
+                quiz: [/* Previous quiz questions */]
+            },
+            {
+                id: 3,
+                title: "CSS Styling",
+                content: `
+                    <div class="module-header">
+                        <h2>CSS Styling</h2>
+                        <p>Learn to style web pages with CSS3.</p>
+                    </div>
+
+                    <div class="module-objectives">
+                        <h3>Learning Objectives</h3>
+                        <ul>
+                            <li>Understanding CSS selectors</li>
+                            <li>Learning about the box model</li>
+                            <li>Mastering layout techniques</li>
+                        </ul>
+                    </div>
+
+                    <div class="diagram">
+                        <img src="/api/placeholder/400/400" alt="CSS Box Model">
+                        <p>The CSS Box Model</p>
+                    </div>
+
+                    <div class="code-example">
+.container {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+}</div>
+                `,
+                reviewPoints: [
+                    "CSS selector types and specificity",
+                    "Box model components",
+                    "Layout principles"
+                ],
+                score: 0,
+                completed: false,
+                quiz: [/* Add quiz questions */]
+            }
+            // Add more modules here
+        ];
+
+        let userScore = {
+            total: 0,
+            modules: {}
+        };
+
+        function updateScore(moduleId, points) {
+            userScore.modules[moduleId] = (userScore.modules[moduleId] || 0) + points;
+            userScore.total += points;
+            displayScore();
+        }
+
+        function displayScore() {
+            const scoreDisplay = document.createElement('div');
+            scoreDisplay.className = 'score-display';
+            scoreDisplay.innerHTML = `
+                Total Score: ${userScore.total}
+                <br>
+                Current Module Score: ${userScore.modules[currentModule?.id] || 0}
+            `;
+            document.querySelector('.sidebar').prepend(scoreDisplay);
+        }
+
+        function showReview() {
+            if (!currentModule) return;
+            
+            const contentArea = document.getElementById('content-area');
+            contentArea.innerHTML += `
+                <div class="review-section">
+                    <h3>Review Before Quiz</h3>
+                    <p>Key points to remember:</p>
+                    <ul>
+                        ${currentModule.reviewPoints.map(point => `<li>${point}</li>`).join('')}
+                    </ul>
+                    <button onclick="startQuiz()">Start Quiz</button>
+                </div>
+            `;
+        }
+
+        function previewHTML() {
+            const input = document.getElementById('practiceInput').value;
+            const preview = document.getElementById('preview');
+            preview.innerHTML = input;
+        }
+
+        function runHTML() {
+            const code = document.getElementById('htmlEditor').value;
+            const result = document.getElementById('htmlResult');
+            result.innerHTML = code;
+        }
+
+        // Enhance the quiz submission to include scoring
+        function submitAnswer() {
+            const selectedAnswer = document.querySelector('input[name="quiz-answer"]:checked');
+            
+            if (!selectedAnswer) {
+                alert('Please select an answer!');
+                return;
+            }
+
+            const quiz = currentModule.quiz[currentQuizIndex];
+            const isCorrect = parseInt(selectedAnswer.value) === quiz.correct;
+
+            if (isCorrect) {
+                updateScore(currentModule.id, 10); // Award 10 points for correct answer
+                currentQuizIndex++;
+                
+                if (currentQuizIndex >= currentModule.quiz.length) {
+                    currentModule.completed = true;
+                    updateScore(currentModule.id, 50); // Bonus points for completing module
+                    alert('Congratulations! Module completed! +50 bonus points!');
+                    updateModuleList();
+                    document.getElementById('quiz-container').style.display = 'none';
+                    
+                    const nextModuleIndex = modules.indexOf(currentModule) + 1;
+                    if (nextModuleIndex < modules.length) {
+                        showModule(modules[nextModuleIndex]);
+                    }
+                } else {
+                    showQuizQuestion();
+                }
+            } else {
+                updateScore(currentModule.id, -5); // Deduct 5 points for wrong answer
+                alert('Incorrect answer. -5 points. Please try again!');
+            }
+        }
+
+        // Modify showModule to include review section
+        function showModule(module) {
+            currentModule = module;
+            currentQuizIndex = 0;
+            
+            const contentArea = document.getElementById('content-area');
+            contentArea.innerHTML = module.content;
+            
+            const quizContainer = document.getElementById('quiz-container');
+            quizContainer.style.display = 'none';
+            
+            contentArea.innerHTML += `
+                <button class="start-quiz-btn" onclick="showReview()">
+                    Review and Start Quiz
+                </button>
+            `;
+            
+            updateModuleList();
+        }
+
+        // Initialize the page
+        updateModuleList();
+        displayScore();
+    </script>
+</body>
+</html>
