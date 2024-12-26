@@ -402,92 +402,96 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 };
 
 return (
-  <div>
-    <div className="space-y-4">
-      {Object.entries(userData.courseProgress).map(([module, status], index) => (
-        <motion.div
-          key={index}
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: index * 0.1 }}
-          onClick={() => handleModuleClick(index + 1)}
-          className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors cursor-pointer shadow-sm hover:shadow-md"
-        >
-          <p className="text-gray-800 dark:text-white flex-1 flex items-center">
-            {status === "Completed" ? (
-              <span className="mr-2 text-green-600 dark:text-green-400">
-                <Unlock className="w-5 h-5" />
-              </span>
-            ) : completedModules.includes(index + 1) ? (
-              <span className="mr-2 text-blue-600 dark:text-blue-400">
-                <Unlock className="w-5 h-5" />
-              </span>
-            ) : (
-              <span className="mr-2 text-gray-400">
-                <Lock className="w-5 h-5" />
-              </span>
-            )}
-            <span className="text-lg">Level {index + 1}: {module}</span>
-          </p>
-          <span className={`px-4 py-2 rounded-full text-sm font-medium ${
-            status === "Completed" 
-              ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300" 
-              : "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-300"
-          }`}>
-            {status === "Completed" ? "Completed! 🌟" : "In Progress 🚀"}
-          </span>
-        </motion.div>
-      ))}
-    </div>
+    <div>
+      <div className="space-y-4">
+        {Object.entries(userData.courseProgress).map(([module, status], index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            onClick={() => handleModuleClick(index + 1)}
+            className="flex items-center justify-between p-4 bg-white dark:bg-gray-800 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors cursor-pointer shadow-sm hover:shadow-md border border-gray-200 dark:border-gray-600"
+          >
+            <p className="text-black dark:text-white flex-1 flex items-center font-medium">
+              {status === "Completed" ? (
+                <span className="mr-2 text-green-600 dark:text-green-400">
+                  <Unlock className="w-5 h-5" />
+                </span>
+              ) : completedModules.includes(index + 1) ? (
+                <span className="mr-2 text-blue-600 dark:text-blue-400">
+                  <Unlock className="w-5 h-5" />
+                </span>
+              ) : (
+                <span className="mr-2 text-gray-600 dark:text-gray-300">
+                  <Lock className="w-5 h-5" />
+                </span>
+              )}
+              <span className="text-lg font-semibold">Level {index + 1}: {module}</span>
+            </p>
+            <span className={`px-4 py-2 rounded-full text-sm font-bold ${
+              status === "Completed" 
+                ? "bg-green-100 dark:bg-green-800 text-green-900 dark:text-green-100" 
+                : "bg-yellow-100 dark:bg-yellow-800 text-yellow-900 dark:text-yellow-100"
+            }`}>
+              {status === "Completed" ? "Completed! 🌟" : "In Progress 🚀"}
+            </span>
+          </motion.div>
+        ))}
+      </div>
 
-    {selectedModule && (
-      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-        <div className="bg-white dark:bg-gray-800 w-full h-full overflow-y-auto">
-          <div className="sticky top-0 z-10 bg-white dark:bg-gray-800 border-b dark:border-gray-700 shadow-sm">
-            <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-              <h3 className="text-2xl font-bold flex items-center gap-3">
-                <span>Level {selectedModule.id}:</span> 
-                <span>{selectedModule.title}</span>
-              </h3>
-              <button 
-                onClick={closeModal}
-                className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full transition-colors"
-              >
-                <X className="w-6 h-6" />
-              </button>
-            </div>
-          </div>
-
-          <div className="max-w-7xl mx-auto px-4 py-8">
-            <div className="prose dark:prose-invert max-w-none">
-              <div dangerouslySetInnerHTML={{ __html: selectedModule.content }} />
-              
-              <div className="mt-12 flex justify-center">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  onClick={() => {
-                    const quizSection = document.getElementById('quiz-section');
-                    quizSection?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                  className="flex items-center gap-3 px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
+      {selectedModule && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white dark:bg-gray-800 w-full h-full overflow-y-auto">
+            <div className="sticky top-0 z-10 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-600 shadow-sm">
+              <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+                <h3 className="text-2xl font-bold text-black dark:text-white flex items-center gap-3">
+                  <span>Level {selectedModule.id}:</span> 
+                  <span>{selectedModule.title}</span>
+                </h3>
+                <button 
+                  onClick={closeModal}
+                  className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full transition-colors text-gray-700 dark:text-gray-200"
                 >
-                  <Brain className="w-6 h-6" />
-                  Start Challenge! 🎮
-                </motion.button>
+                  <X className="w-6 h-6" />
+                </button>
               </div>
             </div>
 
-            <div id="quiz-section" className="mt-16 pt-16 border-t">
-              <h3 className="text-3xl font-bold mb-8 text-center">Level {selectedModule.id} Challenge</h3>
-              {renderQuiz()}
+            <div className="max-w-7xl mx-auto px-4 py-8">
+              <div className="prose dark:prose-invert max-w-none prose-headings:text-black dark:prose-headings:text-white prose-p:text-gray-900 dark:prose-p:text-gray-100">
+                <div dangerouslySetInnerHTML={{ __html: selectedModule.content }} />
+                
+                <div className="mt-12 flex justify-center">
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => {
+                      const quizSection = document.getElementById('quiz-section');
+                      quizSection?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="flex items-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-colors text-xl font-bold shadow-lg"
+                  >
+                    <Brain className="w-6 h-6" />
+                    Start Challenge! 🎮
+                  </motion.button>
+                </div>
+              </div>
+
+              <div id="quiz-section" className="mt-16 pt-16 border-t border-gray-200 dark:border-gray-600">
+                <h3 className="text-3xl font-bold mb-8 text-center text-black dark:text-white">
+                  Level {selectedModule.id} Challenge
+                </h3>
+                <div className="text-gray-900 dark:text-gray-100">
+                  {renderQuiz()}
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    )}
-  </div>
-);
+      )}
+    </div>
+  );
 };
 
 export default ModuleContent;
