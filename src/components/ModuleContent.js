@@ -459,9 +459,8 @@ return (
             </div>
 
             <div className="max-w-7xl mx-auto px-4 py-8">
-              <div className="prose dark:prose-invert max-w-none prose-headings:text-black dark:prose-headings:text-white prose-p:text-gray-900 dark:prose-p:text-gray-100">
-                <div dangerouslySetInnerHTML={{ __html: selectedModule.content }} />
-                
+            <div className="prose dark:prose-invert max-w-none [&>div]:text-gray-900 [&>div]:dark:text-white">
+  <div dangerouslySetInnerHTML={{ __html: selectedModule.content }} className="[&_p]:text-gray-900 [&_p]:dark:text-white [&_li]:text-gray-900 [&_li]:dark:text-white [&_h2]:text-black [&_h2]:dark:text-white [&_h3]:text-black [&_h3]:dark:text-white" />
                 <div className="mt-12 flex justify-center">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
