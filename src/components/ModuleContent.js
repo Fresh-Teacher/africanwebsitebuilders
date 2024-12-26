@@ -5,121 +5,246 @@ import { motion } from 'framer-motion';
 
 // Define default course modules
 const defaultCourseModules = [
-    {
-      id: 1,
-      title: "Introduction to Zylosite",
-      content: `
-        <div class="space-y-4">
-          <h2 class="text-2xl font-bold">Introduction to Zylosite</h2>
-          <p>Welcome to Zylosite! This platform empowers you to create stunning websites with ease. In this module, you'll learn the basics of the Zylosite platform and get familiar with its interface.</p>
+  {
+    id: 1,
+    title: "Introduction to Zylosite",
+    content: `
+      <div class="space-y-6">
+        <h2 class="text-2xl font-bold">Introduction to Zylosite</h2>
+        
+        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Welcome to Zylosite</h3>
+          <p class="mb-4">Welcome to Zylosite! This platform empowers you to create stunning websites with ease. In this module, you'll learn the basics of the Zylosite platform and get familiar with its interface.</p>
           
-          <h3 class="text-xl font-semibold">Core Concepts</h3>
+          <h4 class="font-semibold mb-2">What You'll Learn:</h4>
           <ul class="list-disc pl-6 space-y-2">
             <li>Platform overview and navigation</li>
             <li>Basic website building concepts</li>
             <li>Getting started with your first project</li>
           </ul>
-          
-          <h3 class="text-xl font-semibold mt-6">Key Features</h3>
+        </div>
+
+        <div class="bg-green-50 dark:bg-green-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Core Features</h3>
+          <div class="space-y-4">
+            <div>
+              <h4 class="font-semibold">1. Dashboard Overview</h4>
+              <p>Your central hub for managing all website projects and tracking progress.</p>
+            </div>
+            
+            <div>
+              <h4 class="font-semibold">2. Project Management</h4>
+              <p>Tools and features to organize and maintain multiple websites efficiently.</p>
+            </div>
+            
+            <div>
+              <h4 class="font-semibold">3. Site Settings</h4>
+              <p>Essential configurations and customization options for your websites.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-purple-50 dark:bg-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Getting Started</h3>
           <ul class="list-disc pl-6 space-y-2">
-            <li>Dashboard orientation</li>
-            <li>Project management tools</li>
-            <li>Basic site settings</li>
+            <li><strong>Project Creation:</strong> Learn to start new website projects</li>
+            <li><strong>Interface Navigation:</strong> Master the platform's layout and tools</li>
+            <li><strong>Basic Customization:</strong> Understand fundamental design options</li>
+            <li><strong>Publishing Process:</strong> Learn how to take your site live</li>
           </ul>
         </div>
-      `,
-      quiz: [
-        {
-          question: "What is AWB in full?",
-          options: ["African Web Builders", "African Website Builders", "African World Builders", "African Work Builders"],
-          correct: 1
-        },
-        {
-          question: "Who are the founders of the African Website Builder's Platform?",
-          options: ["Mr. Angel & Mr. Zion", "Ms. Grace & Mr. John", "Mr. Smith & Mr. Brown", "Dr. Ali & Mr. Moses"],
-          correct: 0
-        },
-        {
-          question: "In which city are the headquarters of African Website Builders?",
-          options: ["New York", "London", "Paris", "Cape Town"],
-          correct: 1
-        },
-        {
-          question: "How many lectures will you attend per week during your course of study?",
-          options: ["1 day", "2 days", "3 days", "5 days"],
-          correct: 2
-        },
-        {
-          question: "Which platform does AWB use to develop websites?",
-          options: ["Zylo", "WordPress", "Wix", "Shopify"],
-          correct: 0
-        },
-        {
-          question: "How long does the AWB training course last?",
-          options: ["2 weeks", "3 weeks", "4 weeks", "6 weeks"],
-          correct: 2
-        },
-        {
-          question: "How much money will you earn for every active website you build?",
-          options: ["£5", "£6", "£7", "£8"],
-          correct: 2
-        },
-        {
-          question: "How much recurring monthly income will you earn if you build 20 active websites?",
-          options: ["£100", "£120", "£140", "£160"],
-          correct: 2
-        },
-        {
-          question: "How often do you get paid for the active websites you built?",
-          options: ["Weekly", "Monthly", "Yearly", "On-demand"],
-          correct: 1
-        },
-        {
-          question: "What is the official website of AWB?",
-          options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
-          correct: 0
-        }
-      ]
-    },
+
+        <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Support Resources</h3>
+          <p class="mb-4">Access comprehensive documentation, tutorials, and community support to help you succeed with Zylosite.</p>
+        </div>
+
+        <div class="bg-red-50 dark:bg-red-900/30 p-6 rounded-xl border-2 border-red-500">
+          <h3 class="text-xl font-semibold mb-4">💼 Career Opportunities</h3>
+          <p class="mb-2">As a Zylosite website builder, you can earn:</p>
+          <ul class="list-disc pl-6 space-y-2">
+            <li><strong>Per Active Website:</strong> £7 monthly recurring income</li>
+            <li><strong>Target Goal:</strong> Build and maintain 20 active websites</li>
+            <li><strong>Potential Income:</strong> £140 monthly recurring revenue</li>
+          </ul>
+        </div>
+      </div>
+    `,
+    quiz: [
+      {
+        question: "What is AWB in full?",
+        options: ["African Web Builders", "African Website Builders", "African World Builders", "African Work Builders"],
+        correct: 1
+      },
+      {
+        question: "Who are the founders of the African Website Builder's Platform?",
+        options: ["Mr. Angel & Mr. Zion", "Ms. Grace & Mr. John", "Mr. Smith & Mr. Brown", "Dr. Ali & Mr. Moses"],
+        correct: 0
+      },
+      {
+        question: "In which city are the headquarters of African Website Builders?",
+        options: ["New York", "London", "Paris", "Cape Town"],
+        correct: 1
+      },
+      {
+        question: "How many lectures will you attend per week during your course of study?",
+        options: ["1 day", "2 days", "3 days", "5 days"],
+        correct: 2
+      },
+      {
+        question: "Which platform does AWB use to develop websites?",
+        options: ["Zylo", "WordPress", "Wix", "Shopify"],
+        correct: 0
+      },
+      {
+        question: "How long does the AWB training course last?",
+        options: ["2 weeks", "3 weeks", "4 weeks", "6 weeks"],
+        correct: 2
+      },
+      {
+        question: "How much money will you earn for every active website you build?",
+        options: ["£5", "£6", "£7", "£8"],
+        correct: 2
+      },
+      {
+        question: "How much recurring monthly income will you earn if you build 20 active websites?",
+        options: ["£100", "£120", "£140", "£160"],
+        correct: 2
+      },
+      {
+        question: "How often do you get paid for the active websites you built?",
+        options: ["Weekly", "Monthly", "Yearly", "On-demand"],
+        correct: 1
+      },
+      {
+        question: "What is the official website of AWB?",
+        options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
+        correct: 0
+      }
+    ]
+  },
     {
       id: 2,
-      title: "Introduction to Zylosite",
+      title: "Understanding Websites and the Internet",
       content: `
-        <div class="space-y-4">
-          <h2 class="text-2xl font-bold">Introduction to Zylosite</h2>
-          <p>Welcome to Zylosite! This platform empowers you to create stunning websites with ease. In this module, you'll learn the basics of the Zylosite platform and get familiar with its interface.</p>
+        <div class="space-y-6">
+          <h2 class="text-2xl font-bold">Understanding Websites and the Internet</h2>
           
-          <h3 class="text-xl font-semibold">Core Concepts</h3>
-          <ul class="list-disc pl-6 space-y-2">
-            <li>Platform overview and navigation</li>
-            <li>Basic website building concepts</li>
-            <li>Getting started with your first project</li>
-          </ul>
-          
-          <h3 class="text-xl font-semibold mt-6">Key Features</h3>
-          <ul class="list-disc pl-6 space-y-2">
-            <li>Dashboard orientation</li>
-            <li>Project management tools</li>
-            <li>Basic site settings</li>
-          </ul>
+          <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
+            <h3 class="text-xl font-semibold mb-4">The Internet and How It Works</h3>
+            <p class="mb-4">The Internet is a global network of connected computers that communicate using standardized protocols. Think of it like a massive postal system where information is sent between computers instead of physical mail.</p>
+            
+            <h4 class="font-semibold mb-2">Key Terms Explained:</h4>
+            <ul class="list-disc pl-6 space-y-2">
+              <li><strong>WWW (World Wide Web):</strong> The system of interlinked web pages accessed via the Internet</li>
+              <li><strong>HTTP/HTTPS:</strong> Protocols for transferring data (HTTPS is secure, encrypted)</li>
+              <li><strong>Domain Names:</strong> Easy-to-remember addresses for websites (e.g., google.com)</li>
+              <li><strong>Email:</strong> Electronic mail system using Internet protocols</li>
+            </ul>
+          </div>
+  
+          <div class="bg-green-50 dark:bg-green-900/30 p-6 rounded-xl">
+            <h3 class="text-xl font-semibold mb-4">Website Creation Methods</h3>
+            <div class="space-y-4">
+              <div>
+                <h4 class="font-semibold">1. Traditional Coding</h4>
+                <p>Requires knowledge of HTML, CSS, and JavaScript. Complex but offers full control.</p>
+              </div>
+              
+              <div>
+                <h4 class="font-semibold">2. Content Management Systems (CMS)</h4>
+                <p>Platforms like WordPress that balance customization and ease of use.</p>
+              </div>
+              
+              <div>
+                <h4 class="font-semibold">3. Drag-and-Drop Builders (Used by AWB)</h4>
+                <p>The simplest method, used by Zylo Platform. Perfect for quick, professional websites without coding.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="bg-purple-50 dark:bg-purple-900/30 p-6 rounded-xl">
+            <h3 class="text-xl font-semibold mb-4">Website Components</h3>
+            <ul class="list-disc pl-6 space-y-2">
+              <li><strong>Header:</strong> Top section with logo and main navigation</li>
+              <li><strong>Navigation Bar:</strong> Menu for accessing different pages</li>
+              <li><strong>Content Area:</strong> Main information section</li>
+              <li><strong>Footer:</strong> Bottom section with additional links and information</li>
+            </ul>
+          </div>
+  
+          <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
+            <h3 class="text-xl font-semibold mb-4">Website Hosting</h3>
+            <p class="mb-4">Hosting is like renting space on a server to make your website accessible online. The Zylo Platform provides hosting services for all websites built through AWB.</p>
+          </div>
+  
+          <div class="bg-red-50 dark:bg-red-900/30 p-6 rounded-xl border-2 border-red-500">
+            <h3 class="text-xl font-semibold mb-4">💰 Earning Potential with AWB</h3>
+            <p class="mb-2">When clients pay for hosting on the Zylo platform, you earn:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li><strong>Per Website:</strong> £7 (32,050 UGX) monthly</li>
+              <li><strong>TARGET - 20 Websites:</strong> £140 (652,850 UGX) monthly recurring income</li>
+            </ul>
+            <p class="mt-4 font-semibold text-red-600 dark:text-red-400">
+              Your goal is to build and maintain 20 active websites to achieve the target monthly income of £140 (652,850 UGX)!
+            </p>
+          </div>
         </div>
       `,
       quiz: [
         {
-          question: "What is the primary purpose of Zylosite?",
-          options: ["Email Marketing", "Website Building", "Social Media Management", "Content Writing"],
+          question: "What does WWW stand for?",
+          options: ["World Wide Web", "World Web Width", "Wide World Web", "World Web Work"],
+          correct: 0
+        },
+        {
+          question: "Which method of website creation does AWB use on the Zylo Platform?",
+          options: ["Traditional Coding", "Content Management System", "Drag-and-Drop Builder", "Mobile App Development"],
+          correct: 2
+        },
+        {
+          question: "What is website hosting?",
+          options: ["A domain name", "Server space rental for websites", "Website design", "Email service"],
           correct: 1
         },
         {
-          question: "Which feature is NOT part of the Zylosite dashboard?",
-          options: ["Project Management", "Email Campaign Tools", "Site Settings", "Template Selection"],
+          question: "Which is a secure protocol for transferring data?",
+          options: ["WWW", "HTTP", "HTTPS", "HTML"],
+          correct: 2
+        },
+        {
+          question: "What is typically found in a website's header?",
+          options: ["Contact form", "Blog posts", "Logo and main navigation", "Comments section"],
+          correct: 2
+        },
+        {
+          question: "How much can you earn monthly from one active website on Zylo?",
+          options: ["£5 (23,000 UGX)", "£7 (32,050 UGX)", "£10 (45,785 UGX)", "£15 (68,677 UGX)"],
+          correct: 1
+        },
+        {
+          question: "What is the target number of websites to build?",
+          options: ["10 websites", "15 websites", "20 websites", "25 websites"],
+          correct: 2
+        },
+        {
+          question: "What's the monthly target income from 20 websites?",
+          options: ["£100 (458,500 UGX)", "£120 (550,200 UGX)", "£140 (652,850 UGX)", "£160 (733,600 UGX)"],
+          correct: 2
+        },
+        {
+          question: "Which component contains additional links at the bottom of a website?",
+          options: ["Header", "Navigation Bar", "Content Area", "Footer"],
+          correct: 3
+        },
+        {
+          question: "What makes drag-and-drop builders different from traditional coding?",
+          options: ["They're more expensive", "No coding knowledge required", "They're slower", "They use different servers"],
           correct: 1
         }
       ]
-    },
-    
+    }
   ];
-  
 
 const useAudio = () => {
   const [audioContext, setAudioContext] = useState(null);
