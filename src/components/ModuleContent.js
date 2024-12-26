@@ -11,7 +11,10 @@ const defaultCourseModules = [
     content: `
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Introduction to Zylosite</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/VID-20241216-WA0157.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">Welcome to Zylosite</h3>
           <p class="mb-4">Welcome to Zylosite! This platform empowers you to create stunning websites with ease. In this module, you'll learn the basics of the Zylosite platform and get familiar with its interface.</p>
@@ -77,8 +80,8 @@ const defaultCourseModules = [
         },
         {
           question: "Who are the founders of the African Website Builder's Platform?",
-          options: ["Mr. Angel & Mr. Zion", "Ms. Grace & Mr. John", "Mr. Smith & Mr. Brown", "Dr. Ali & Mr. Moses"],
-          correct: 0
+          options: ["Fresh Teacher", "Ms. Grace & Mr. John", "Mr. Angel & Mr. Zion", "Dr. Ali & Mr. Moses"],
+          correct: 2
         },
         {
           question: "In which city are the headquarters of African Website Builders?",
@@ -127,6 +130,10 @@ const defaultCourseModules = [
       title: "Understanding Websites and the Internet",
       content: `
         <div class="space-y-6">
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/VID-20241226-WA0076.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
           <h2 class="text-2xl font-bold">Understanding Websites and the Internet</h2>
           
           <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
