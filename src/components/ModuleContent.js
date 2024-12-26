@@ -36,8 +36,8 @@ const defaultCourseModules = [
         },
         {
           question: "Who are the founders of the African Website Builder's Platform?",
-          options: ["Mr. Angel & Mr. Zion", "Ms. Grace & Mr. John", "Mr. Smith & Mr. Brown", "Dr. Ali & Mr. Moses"],
-          correct: 0
+          options: ["Fresh Teacher", "Ms. Grace & Mr. John", "Mr. Angel & Mr. Zion", "Dr. Ali & Mr. Moses"],
+          correct: 2
         },
         {
           question: "In which city are the headquarters of African Website Builders?",
