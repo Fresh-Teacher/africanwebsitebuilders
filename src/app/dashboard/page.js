@@ -18,6 +18,8 @@ import {
   TelephoneFill,
   GeoAltFill,
   Calendar2Check,
+  CheckCircleFill,
+  HourglassSplit,
   BoxArrowRight
 } from 'react-bootstrap-icons';
 
