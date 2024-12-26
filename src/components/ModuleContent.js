@@ -434,7 +434,7 @@ return (
                 ? "bg-green-100 dark:bg-green-800 text-green-900 dark:text-green-100" 
                 : "bg-yellow-100 dark:bg-yellow-800 text-yellow-900 dark:text-yellow-100"
             }`}>
-              {status === "Completed" ? "Completed! 🌟" : "In Progress 🚀"}
+              {status === "Completed" ? "Completed ✔️" : "Pending ⚠️"}
             </span>
           </motion.div>
         ))}

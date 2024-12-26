@@ -4144,7 +4144,7 @@ export const registrationData = {
             "Which device will you use for study during the course?": "Phone",
             "Can you attend physical classes if the training centre is around Kampala?": "No",
             "courseProgress": {
-                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
+                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Completed",
                 "Text, Button & Block Editing, Add Video": "Pending",
                 "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
                 "Parallax, Padding, Slide Show, Forms": "Pending",
