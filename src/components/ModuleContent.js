@@ -30,14 +30,54 @@ const defaultCourseModules = [
       `,
       quiz: [
         {
-          question: "What is the primary purpose of Zylosite?",
-          options: ["Email Marketing", "Website Building", "Social Media Management", "Content Writing"],
+          question: "What is AWB in full?",
+          options: ["African Web Builders", "African Website Builders", "African World Builders", "African Work Builders"],
           correct: 1
         },
         {
-          question: "Which feature is NOT part of the Zylosite dashboard?",
-          options: ["Project Management", "Email Campaign Tools", "Site Settings", "Template Selection"],
+          question: "Who are the founders of the African Website Builder's Platform?",
+          options: ["Mr. Angel & Mr. Zion", "Ms. Grace & Mr. John", "Mr. Smith & Mr. Brown", "Dr. Ali & Mr. Moses"],
+          correct: 0
+        },
+        {
+          question: "In which city are the headquarters of African Website Builders?",
+          options: ["New York", "London", "Paris", "Cape Town"],
           correct: 1
+        },
+        {
+          question: "How many lectures will you attend per week during your course of study?",
+          options: ["1 day", "2 days", "3 days", "5 days"],
+          correct: 2
+        },
+        {
+          question: "Which platform does AWB use to develop websites?",
+          options: ["Zylo", "WordPress", "Wix", "Shopify"],
+          correct: 0
+        },
+        {
+          question: "How long does the AWB training course last?",
+          options: ["2 weeks", "3 weeks", "4 weeks", "6 weeks"],
+          correct: 2
+        },
+        {
+          question: "How much money will you earn for every active website you build?",
+          options: ["£5", "£6", "£7", "£8"],
+          correct: 2
+        },
+        {
+          question: "How much recurring monthly income will you earn if you build 20 active websites?",
+          options: ["£100", "£120", "£140", "£160"],
+          correct: 2
+        },
+        {
+          question: "How often do you get paid for the active websites you built?",
+          options: ["Weekly", "Monthly", "Yearly", "On-demand"],
+          correct: 1
+        },
+        {
+          question: "What is the official website of AWB?",
+          options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
+          correct: 0
         }
       ]
     },
