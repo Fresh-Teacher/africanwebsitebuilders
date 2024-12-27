@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import { Lock, Unlock, X, Brain, ArrowRight, Star, Volume2, VolumeX, Medal, Trophy } from 'lucide-react';
+import { Lock, Unlock, X, Brain, ArrowRight, ArrowLeft, Star, Volume2, VolumeX, Medal, Trophy } from 'lucide-react';
 import confetti from 'canvas-confetti';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Monitor, Type, Layout, Image, Repeat, Lightbulb, Clock, Search, GraduationCap, Users, ShoppingCart } from 'lucide-react';
 
 
@@ -83,35 +83,135 @@ const badges = {
 
 
 // Badge award animation component
-const BadgeAward = ({ badge, onClose }) => {
+const EnhancedBadgeAward = ({ badge, onClose, isLastBadge = false }) => {
+  const [showStars, setShowStars] = useState(false);
+
+  useEffect(() => {
+    // Trigger confetti explosion
+    const colors = ['#FFD700', '#FFA500', '#FF6347'];
+    const duration = 3 * 1000;
+    const end = Date.now() + duration;
+
+    const frame = () => {
+      confetti({
+        particleCount: 2,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: colors
+      });
+      
+      confetti({
+        particleCount: 2,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: colors
+      });
+
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
+      }
+    };
+    
+    frame();
+    setTimeout(() => setShowStars(true), 500);
+  }, []);
+
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.5 }}
-      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 bg-black/75 backdrop-blur-sm flex items-center justify-center z-50 p-4"
     >
-      <div className="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-md w-full mx-4 text-center space-y-6">
-        <motion.div
-          initial={{ rotate: 0 }}
-          animate={{ rotate: 360 }}
-          transition={{ duration: 1 }}
-          className={`w-32 h-32 rounded-full ${badge.color} flex items-center justify-center mx-auto`}
-        >
-          {badge.icon}
-        </motion.div>
-        <h2 className="text-3xl font-bold">New Badge Unlocked! 🎉</h2>
-        <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400">{badge.name}</h3>
-        <p className="text-gray-600 dark:text-gray-300">{badge.description}</p>
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={onClose}
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-        >
-          Continue Learning 🚀
-        </motion.button>
-      </div>
+      <motion.div
+        initial={{ scale: 0.5, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.5, opacity: 0 }}
+        className="bg-white dark:bg-gray-800 rounded-2xl max-w-lg w-full p-8 relative overflow-hidden"
+      >
+        <AnimatePresence mode="wait">
+          {showStars && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute inset-0"
+            >
+              {[...Array(12)].map((_, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, scale: 0 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: i * 0.1 }}
+                  className="absolute"
+                  style={{
+                    top: `${Math.random() * 100}%`,
+                    left: `${Math.random() * 100}%`,
+                    transform: `rotate(${Math.random() * 360}deg)`
+                  }}
+                >
+                  <Star className="w-4 h-4 text-yellow-400" fill="currentColor" />
+                </motion.div>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Badge content */}
+        <div className="relative z-10 text-center space-y-6">
+          <motion.div
+            initial={{ y: -20 }}
+            animate={{ y: 0 }}
+            className="flex flex-col items-center"
+          >
+            <Trophy className="w-16 h-16 text-yellow-500 mb-2" />
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-yellow-500 to-amber-500 bg-clip-text text-transparent">
+              Achievement Unlocked!
+            </h2>
+          </motion.div>
+
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ type: "spring", delay: 0.2 }}
+            className={`w-32 h-32 rounded-full ${badge.color} mx-auto flex items-center justify-center`}
+          >
+            {badge.icon}
+          </motion.div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+              {badge.name}
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">
+              {badge.description}
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3 mt-8">
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={onClose}
+              className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors"
+            >
+              {isLastBadge ? (
+                <>
+                  Complete Course
+                  <Medal className="w-5 h-5" />
+                </>
+              ) : (
+                <>
+                  Continue Learning
+                  <ArrowRight className="w-5 h-5" />
+                </>
+              )}
+            </motion.button>
+          </div>
+        </div>
+      </motion.div>
     </motion.div>
   );
 };
@@ -261,154 +361,102 @@ const defaultCourseModules = [
       {
         id: 1,
         title: "Learn Website Sequence",
-        content: `
-          <div class="space-y-6">
-            <h2 class="text-2xl font-bold">Introduction to Zylosite</h2>
-            <video className="w-full rounded-lg" controls>
-              <source src="https://awb-silk.vercel.app/VID-20241216-WA0157.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            
-            <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
-              <h3 class="text-xl font-semibold mb-4">Welcome to Zylosite</h3>
-              <p class="mb-4">Welcome to Zylosite! This platform empowers you to create stunning websites with ease. In this module, you'll learn the basics of the Zylosite platform and get familiar with its interface.</p>
-              
-              <h4 class="font-semibold mb-2">What You'll Learn:</h4>
-              <ul class="list-disc pl-6 space-y-2">
-                <li>Platform overview and navigation</li>
-                <li>Basic website building concepts</li>
-                <li>Getting started with your first project</li>
-              </ul>
-            </div>
-
-            <div class="bg-green-50 dark:bg-green-900/30 p-6 rounded-xl">
-              <h3 class="text-xl font-semibold mb-4">Core Features</h3>
-              <div class="space-y-4">
-                <div>
-                  <h4 class="font-semibold">1. Dashboard Overview</h4>
-                  <p>Your central hub for managing all website projects and tracking progress.</p>
-                </div>
-                
-                <div>
-                  <h4 class="font-semibold">2. Project Management</h4>
-                  <p>Tools and features to organize and maintain multiple websites efficiently.</p>
-                </div>
-                
-                <div>
-                  <h4 class="font-semibold">3. Site Settings</h4>
-                  <p>Essential configurations and customization options for your websites.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="bg-purple-50 dark:bg-purple-900/30 p-6 rounded-xl">
-              <h3 class="text-xl font-semibold mb-4">Getting Started</h3>
-              <ul class="list-disc pl-6 space-y-2">
-                <li><strong>Project Creation:</strong> Learn to start new website projects</li>
-                <li><strong>Interface Navigation:</strong> Master the platform's layout and tools</li>
-                <li><strong>Basic Customization:</strong> Understand fundamental design options</li>
-                <li><strong>Publishing Process:</strong> Learn how to take your site live</li>
-              </ul>
-            </div>
-
-            <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
-              <h3 class="text-xl font-semibold mb-4">Support Resources</h3>
-              <p class="mb-4">Access comprehensive documentation, tutorials, and community support to help you succeed with Zylosite.</p>
-            </div>
-
-            <div class="bg-red-50 dark:bg-red-900/30 p-6 rounded-xl border-2 border-red-500">
-              <h3 class="text-xl font-semibold mb-4">💼 Career Opportunities</h3>
-              <p class="mb-2">As a Zylosite website builder, you can earn:</p>
-              <ul class="list-disc pl-6 space-y-2">
-                <li><strong>Per Active Website:</strong> £7 monthly recurring income</li>
-                <li><strong>Target Goal:</strong> Build and maintain 20 active websites</li>
-                <li><strong>Potential Income:</strong> £140 monthly recurring revenue</li>
-              </ul>
-            </div>
-          </div>
-        `
-      }
-    ],
-    quiz: [
-      {
-        question: "What is AWB in full?",
-        options: ["African Web Builders", "African Website Builders", "African World Builders", "African Work Builders"],
-        correct: 1
+        content: `This unit introduces the basic structure and sequence of creating a website on the Zylosite platform. Students will learn the tools and steps involved in setting up and managing a website.`,
+        quiz: [
+          {
+            question: "What is AWB in full?",
+            options: ["African Web Builders", "African Website Builders", "African World Builders", "African Work Builders"],
+            correct: 1
+          },
+          {
+            question: "Who are the founders of the African Website Builder's Platform?",
+            options: ["Fresh Teacher", "Ms. Grace & Mr. John", "Mr. Angel & Mr. Zion", "Dr. Ali & Mr. Moses"],
+            correct: 2
+          },
+          {
+            question: "What is the first step in building a website on Zylosite?",
+            options: ["Choose a theme", "Sign up", "Publish the website", "Add a domain name"],
+            correct: 1
+          },
+          {
+            question: "Which feature allows you to edit your website layout?",
+            options: ["Dashboard", "Theme Editor", "Content Manager", "Analytics"],
+            correct: 1
+          }
+        ]
       },
       {
-        question: "Who are the founders of the African Website Builder's Platform?",
-        options: ["Fresh Teacher", "Ms. Grace & Mr. John", "Mr. Angel & Mr. Zion", "Dr. Ali & Mr. Moses"],
-        correct: 2
-      },
-      {
-        question: "In which city are the headquarters of African Website Builders?",
-        options: ["New York", "London", "Paris", "Cape Town"],
-        correct: 1
-      },
-      {
-        question: "How many lectures will you attend per week during your course of study?",
-        options: ["1 day", "2 days", "3 days", "5 days"],
-        correct: 2
-      },
-      {
-        question: "Which platform does AWB use to develop websites?",
-        options: ["Zylo", "WordPress", "Wix", "Shopify"],
-        correct: 0
-      },
-      {
-        question: "How long does the AWB training course last?",
-        options: ["2 weeks", "3 weeks", "4 weeks", "6 weeks"],
-        correct: 2
-      },
-      {
-        question: "How much money will you earn for every active website you build?",
-        options: ["£5", "£6", "£7", "£8"],
-        correct: 2
-      },
-      {
-        question: "How much recurring monthly income will you earn if you build 20 active websites?",
-        options: ["£100", "£120", "£140", "£160"],
-        correct: 2
-      },
-      {
-        question: "How often do you get paid for the active websites you built?",
-        options: ["Weekly", "Monthly", "Yearly", "On-demand"],
-        correct: 1
-      },
-      {
-        question: "What is the official website of AWB?",
-        options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
-        correct: 0
+        id: 2,
+        title: "Website Tour & Practice",
+        content: `This unit provides a comprehensive tour of the Zylosite interface and includes hands-on practice to familiarize students with the platform's features and tools.`,
+        quiz: [
+          {
+            question: "How much money will you pay for the course?",
+            options: ["£1", "£1.5", "£2", "£2.5"],
+            correct: 2
+          },
+          {
+            question: "Which platform does AWB use to develop websites?",
+            options: ["Zylo", "WordPress", "Wix", "Shopify"],
+            correct: 0
+          },
+          {
+            question: "What tool is used to track website visitors on Zylosite?",
+            options: ["Analytics Dashboard", "Theme Manager", "Content Editor", "Quiz Module"],
+            correct: 0
+          },
+          {
+            question: "Which of the following can you do in the Practice section?",
+            options: ["Build a complete website", "Learn about SEO tools", "Edit a template", "All of the above"],
+            correct: 3
+          }
+        ]
       }
     ]
   },
   {
     id: 2,
-    title: "Text, Button & Block Editing",
+    title: "Advanced Website Building Techniques",
     units: [
       {
         id: 1,
-        title: "Add Video and Basic Editing",
-        content: `
-          <div class="space-y-6">
-            <h2 class="text-2xl font-bold">Text, Button & Block Editing, Add Video</h2>
-            <video className="w-full rounded-lg" controls>
-              <source src="https://awb-silk.vercel.app/VID-20241226-WA0076.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        `
-      }
-    ],
-    quiz: [
+        title: "Customizing Templates",
+        content: `This unit focuses on advanced customization techniques, including modifying themes, changing color schemes, and adding unique features to templates.`,
+        quiz: [
+          {
+            question: "What is the purpose of customizing a template?",
+            options: ["To make it visually appealing", "To align with branding", "To add unique features", "All of the above"],
+            correct: 3
+          },
+          {
+            question: "Which tool is best for editing templates in Zylosite?",
+            options: ["Theme Editor", "Dashboard", "Content Manager", "Quiz Creator"],
+            correct: 0
+          }
+        ]
+      },
       {
-        question: "What is the first step in editing a text block?",
-        options: ["Click the delete button", "Select the block", "Add a new block", "Save the page"],
-        correct: 1
+        id: 2,
+        title: "SEO & Performance Optimization",
+        content: `Students will learn how to optimize their websites for search engines and improve loading speed and overall performance.`,
+        quiz: [
+          {
+            question: "What does SEO stand for?",
+            options: ["Search Engine Optimization", "Site Evaluation Order", "System Efficiency Online", "Search Enhanced Options"],
+            correct: 0
+          },
+          {
+            question: "Which tool helps improve website performance on Zylosite?",
+            options: ["Performance Dashboard", "Analytics", "Speed Optimizer", "All of the above"],
+            correct: 3
+          }
+        ]
       }
     ]
   }
 ];
+
+
 const useAudio = () => {
   const [audioContext, setAudioContext] = useState(null);
   const [soundEnabled, setSoundEnabled] = useState(true);
@@ -545,11 +593,10 @@ const QuizOption = React.memo(({ option, index, isCorrect, selected, showFeedbac
 
 // Separate module list item component
 const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
-  const totalUnits = module.units.length;
-  const completedCount = completedUnits.filter(unit => 
-    unit.moduleId === module.id
-  ).length;
-  const isLocked = completedCount === 0 && module.id !== 1;
+  const isModuleLocked = module.id !== 1 && !completedUnits.some(unit => 
+    unit.moduleId === module.id - 1 && 
+    unit.unitId === defaultCourseModules.find(m => m.id === module.id - 1)?.units?.length
+  );
   
   return (
     <motion.div
@@ -557,19 +604,24 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
       animate={{ opacity: 1, x: 0 }}
       className="space-y-4"
     >
-      <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600">
+      <div className={`p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm border ${
+        isModuleLocked ? 'border-gray-300 dark:border-gray-600 opacity-75' : 'border-gray-200 dark:border-gray-600'
+      }`}>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
-            {isLocked ? (
+            {isModuleLocked ? (
               <Lock className="w-5 h-5 text-gray-500" />
             ) : (
               <Unlock className="w-5 h-5 text-green-500" />
             )}
             <h3 className="text-lg font-semibold">Module {module.id}: {module.title}</h3>
           </div>
-          <span className="text-sm font-medium">
-            {completedCount}/{totalUnits} units completed
-          </span>
+          <div className="flex items-center gap-2">
+            <Trophy className="w-5 h-5 text-yellow-500" />
+            <span className="text-sm font-medium">
+              {completedUnits.filter(unit => unit.moduleId === module.id).length}/{module.units.length} units
+            </span>
+          </div>
         </div>
         
         <div className="space-y-2">
@@ -584,19 +636,29 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
             return (
               <button
                 key={unit.id}
-                onClick={() => !isUnitLocked && onClick(module.id, unit.id)}
-                disabled={isUnitLocked}
+                onClick={() => !isModuleLocked && !isUnitLocked && onClick(module.id, unit.id)}
+                disabled={isModuleLocked || isUnitLocked}
                 className={`w-full text-left p-3 rounded-md flex items-center justify-between ${
-                  isUnitLocked 
-                    ? 'bg-gray-100 dark:bg-gray-700 cursor-not-allowed' 
+                  isModuleLocked || isUnitLocked
+                    ? 'bg-gray-100 dark:bg-gray-700 cursor-not-allowed opacity-75' 
                     : 'hover:bg-blue-50 dark:hover:bg-blue-900/30'
                 }`}
               >
                 <span className="flex items-center gap-2">
-                  {isUnitCompleted ? '✅' : isUnitLocked ? '🔒' : '📝'}
+                  {isUnitCompleted ? (
+                    <Medal className="w-5 h-5 text-green-500" />
+                  ) : isModuleLocked || isUnitLocked ? (
+                    <Lock className="w-5 h-5 text-gray-400" />
+                  ) : (
+                    <Brain className="w-5 h-5 text-blue-500" />
+                  )}
                   Unit {unit.id}: {unit.title}
                 </span>
-                {isUnitCompleted && <span className="text-sm text-green-600">Completed</span>}
+                {isUnitCompleted && (
+                  <span className="text-sm px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full">
+                    Completed
+                  </span>
+                )}
               </button>
             );
           })}
@@ -620,6 +682,17 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
     showFeedback: false
   });
 
+  // Helper function to scroll to top of modal
+  const scrollModalToTop = useCallback(() => {
+    const modalContent = document.querySelector('.bg-white.dark\\:bg-gray-800.w-full.h-full');
+    if (modalContent) {
+      modalContent.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  }, []);
+
   // Check if module is completed and award badge
   const checkAndAwardBadge = useCallback((moduleId) => {
     if (!earnedBadges.includes(moduleId)) {
@@ -638,9 +711,13 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
     }
   }, [earnedBadges, completedUnits, modules]);
 
+  // Update handleModuleUnitSelect to include scroll behavior
   const handleModuleUnitSelect = useCallback((moduleId, unitId) => {
-    const module = defaultCourseModules.find(m => m.id === moduleId);
+    const module = modules.find(m => m.id === moduleId);
+    if (!module) return;
+    
     const unit = module.units.find(u => u.id === unitId);
+    if (!unit) return;
     
     setSelectedModule(module);
     setSelectedUnit(unit);
@@ -651,9 +728,12 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       selectedAnswer: null,
       showFeedback: false
     });
-  }, []);
-  
-  // Update handleQuizComplete to include badge checks
+
+    // Scroll to top after state updates
+    setTimeout(scrollModalToTop, 100);
+  }, [modules, scrollModalToTop]);
+
+  // Update handleQuizComplete to use modules prop
   const handleQuizComplete = useCallback((passed) => {
     if (passed) {
       setCompletedUnits(prev => {
@@ -661,52 +741,92 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           ...prev,
           { moduleId: selectedModule.id, unitId: selectedUnit.id }
         ];
-
-        // Check if all units in the current module are completed
-        const allUnitsCompleted = selectedModule.units.every(unit =>
+        
+        // Check if current module is complete
+        const isModuleComplete = selectedModule.units.every(unit =>
           newCompletedUnits.some(completed => 
             completed.moduleId === selectedModule.id && 
             completed.unitId === unit.id
           )
         );
-
-        if (allUnitsCompleted) {
-          // Award badge for completing the module
+  
+        // Check if this is the last unit of the last module
+        const isLastModule = selectedModule.id === modules.length;
+        const isLastUnit = selectedUnit.id === selectedModule.units.length;
+        const isLastBadge = isLastModule && isLastUnit;
+  
+        if (isModuleComplete) {
           setTimeout(() => {
-            checkAndAwardBadge(selectedModule.id);
-          }, 1000); // Delay badge award to allow for quiz completion animation
+            // Trigger badge award with additional info about course completion
+            setShowBadgeAward({
+              ...badges[selectedModule.id],
+              isLastBadge
+            });
+            // Trigger confetti for module completion
+            triggerConfetti();
+          }, 1000);
         }
-
+  
         return newCompletedUnits;
       });
-
-      // Find next unit in current module
-      const nextUnit = selectedModule.units.find(u => u.id === selectedUnit.id + 1);
+  
+      const currentUnitIndex = selectedModule.units.findIndex(u => u.id === selectedUnit.id);
+      const nextUnit = selectedModule.units[currentUnitIndex + 1];
       
       if (nextUnit) {
-        // Move to next unit in same module
+        // Move to next unit in current module
         setTimeout(() => {
           setSelectedUnit(nextUnit);
-        }, 2000); // Delay unit transition to show completion state
+          setQuizState({
+            currentQuestionIndex: 0,
+            correctAnswers: 0,
+            submitted: false,
+            selectedAnswer: null,
+            showFeedback: false
+          });
+          scrollModalToTop();
+        }, 2000);
       } else {
-        // All units in current module completed
-        const nextModule = defaultCourseModules.find(m => m.id === selectedModule.id + 1);
+        // Current module is complete, check for next module
+        const nextModule = modules.find(m => m.id === selectedModule.id + 1);
         if (nextModule) {
           setTimeout(() => {
             setSelectedModule(nextModule);
             setSelectedUnit(nextModule.units[0]);
-          }, 2000); // Delay module transition to show completion state
+            setQuizState({
+              currentQuestionIndex: 0,
+              correctAnswers: 0,
+              submitted: false,
+              selectedAnswer: null,
+              showFeedback: false
+            });
+          }, 2000);
+        } else {
+          // Course is complete
+          setTimeout(() => {
+            setSelectedModule(null);
+            setSelectedUnit(null);
+            // Show course completion celebration
+            triggerConfetti();
+          }, 2000);
         }
       }
     }
     
+    // Set quiz to submitted state regardless of pass/fail
     setQuizState(prev => ({ ...prev, submitted: true }));
-  }, [selectedModule, selectedUnit, checkAndAwardBadge, defaultCourseModules]);
+  }, [selectedModule, selectedUnit, modules, badges, setShowBadgeAward, triggerConfetti, scrollModalToTop]);
 
   const { playSound, soundEnabled, setSoundEnabled, audioContext } = useAudio();
 
   const handleModuleClick = useCallback(async (moduleId) => {
-    // Check if previous module's all units are completed
+    const selectedMod = modules.find(m => m.id === moduleId);
+    
+    if (!selectedMod || !selectedMod.units || !selectedMod.units.length) {
+      setSelectedModule({ isComplete: true });
+      return;
+    }
+  
     const previousModuleCompleted = moduleId === 1 || completedUnits.some(unit => 
       unit.moduleId === moduleId - 1
     );
@@ -716,13 +836,11 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         await audioContext.resume();
       }
       playSound('wrong');
-      alert("Complete the previous module first! 🔒");
       return;
     }
     
-    const selectedMod = defaultCourseModules.find(m => m.id === moduleId);
     setSelectedModule(selectedMod);
-    setSelectedUnit(selectedMod.units[0]); // Select first unit of module
+    setSelectedUnit(selectedMod.units[0]);
     setQuizState({
       currentQuestionIndex: 0,
       correctAnswers: 0,
@@ -730,10 +848,30 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       selectedAnswer: null,
       showFeedback: false
     });
-  }, [completedUnits, audioContext, playSound]);
+  }, [completedUnits, audioContext, playSound, modules]);
+
+  const CourseComplete = ({ onClose }) => (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-md w-full mx-4 text-center space-y-6">
+        <div className="w-24 h-24 mx-auto bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
+          <GraduationCap className="w-12 h-12 text-green-600 dark:text-green-400" />
+        </div>
+        <Trophy className="w-16 h-16 text-yellow-500 mx-auto" />
+        <h2 className="text-3xl font-bold">Course Completed! 🎓</h2>
+        <p className="text-gray-600 dark:text-gray-300">Congratulations! You've completed all available modules.</p>
+        <button
+          onClick={onClose}
+          className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors mx-auto"
+        >
+          <ArrowLeft className="w-5 h-5" />
+          Return to Dashboard
+        </button>
+      </div>
+    </div>
+  );
 
   const handleAnswerSelect = useCallback(async (optionIndex) => {
-    if (quizState.showFeedback || !selectedModule) return;
+    if (quizState.showFeedback || !selectedUnit || !selectedUnit.quiz) return;
     
     if (audioContext?.state === 'suspended') {
       await audioContext.resume();
@@ -741,8 +879,8 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
     
     setQuizState(prev => ({ ...prev, selectedAnswer: optionIndex, showFeedback: true }));
   
-    const currentQuiz = selectedModule.quiz[quizState.currentQuestionIndex];
-    const isCorrect = optionIndex === currentQuiz.correct;
+    const currentQuestion = selectedUnit.quiz[quizState.currentQuestionIndex];
+    const isCorrect = optionIndex === currentQuestion.correct;
     
     await new Promise(resolve => setTimeout(resolve, 100));
     
@@ -759,7 +897,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       setQuizState(prev => ({ ...prev, correctAnswers: prev.correctAnswers + 1 }));
     }
   
-    if (quizState.currentQuestionIndex < selectedModule.quiz.length - 1) {
+    if (quizState.currentQuestionIndex < selectedUnit.quiz.length - 1) {
       setQuizState(prev => ({
         ...prev,
         currentQuestionIndex: prev.currentQuestionIndex + 1,
@@ -768,9 +906,9 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       }));
     } else {
       const finalScore = isCorrect ? quizState.correctAnswers + 1 : quizState.correctAnswers;
-      const passed = finalScore >= Math.ceil(selectedModule.quiz.length * 0.7);
+      const passed = finalScore >= Math.ceil(selectedUnit.quiz.length * 0.7);
       
-      const scorePercentage = (finalScore / selectedModule.quiz.length) * 100;
+      const scorePercentage = (finalScore / selectedUnit.quiz.length) * 100;
       if (scorePercentage === 100) {
         playSound('perfect');
       } else if (passed) {
@@ -778,32 +916,100 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       } else {
         playSound('try-again');
       }
-
+  
       if (passed) {
         await new Promise(resolve => setTimeout(resolve, 200));
         triggerConfetti();
-        // Instead of setCompletedModules, we'll update completedUnits
-        const nextModuleFirstUnit = { moduleId: selectedModule.id + 1, unitId: 1 };
-        setCompletedUnits(prev => [...prev, nextModuleFirstUnit]);
+
+        // Update completed units
+        const newCompletedUnit = { moduleId: selectedModule.id, unitId: selectedUnit.id };
+        setCompletedUnits(prev => {
+          if (prev.some(unit => unit.moduleId === newCompletedUnit.moduleId && unit.unitId === newCompletedUnit.unitId)) {
+            return prev;
+          }
+          return [...prev, newCompletedUnit];
+        });
+
+        // Check if this completes the module
+        const allModuleUnits = selectedModule.units;
+        const completedModuleUnits = completedUnits.filter(unit => unit.moduleId === selectedModule.id);
+        const isModuleComplete = completedModuleUnits.length === allModuleUnits.length - 1; // -1 because current unit isn't in completedUnits yet
+
+        if (isModuleComplete) {
+          // Award badge for completing the module
+          setEarnedBadges(prev => {
+            if (!prev.includes(selectedModule.id)) {
+              return [...prev, selectedModule.id];
+            }
+            return prev;
+          });
+          
+          // Show badge award modal
+          setShowBadgeAward({
+            ...badges[selectedModule.id],
+            isLastBadge: selectedModule.id === modules.length
+          });
+        }
+
+        // Find next unit in current module
+        const currentUnitIndex = selectedModule.units.findIndex(u => u.id === selectedUnit.id);
+        const nextUnit = selectedModule.units[currentUnitIndex + 1];
+
+        // If there's a next unit in the current module, move to it
+        if (nextUnit) {
+          setTimeout(() => {
+            setSelectedUnit(nextUnit);
+            setQuizState({
+              currentQuestionIndex: 0,
+              correctAnswers: 0,
+              submitted: false,
+              selectedAnswer: null,
+              showFeedback: false
+            });
+            scrollModalToTop();
+          }, 2000);
+        } else {
+          // Module is complete, prepare to move to next module
+          const nextModule = modules.find(m => m.id === selectedModule.id + 1);
+          if (nextModule) {
+            setTimeout(() => {
+              setSelectedModule(nextModule);
+              setSelectedUnit(nextModule.units[0]);
+              setQuizState({
+                currentQuestionIndex: 0,
+                correctAnswers: 0,
+                submitted: false,
+                selectedAnswer: null,
+                showFeedback: false
+              });
+              scrollModalToTop();
+            }, 2000);
+          }
+        }
       }
       
       setQuizState(prev => ({ ...prev, submitted: true }));
     }
-  }, [quizState, selectedModule, audioContext, playSound]);
+  }, [quizState, selectedModule, selectedUnit, audioContext, playSound, completedUnits, modules, scrollModalToTop, badges]);
+
 
   // Memoize the current quiz
-  const currentQuiz = useMemo(() => 
-    selectedModule?.quiz[quizState.currentQuestionIndex],
-    [selectedModule, quizState.currentQuestionIndex]
-  );
-
+  const currentQuiz = useMemo(() => {
+    if (!selectedModule || !selectedUnit) return null;
+    return selectedUnit.quiz?.[quizState.currentQuestionIndex];
+  }, [selectedModule, selectedUnit, quizState.currentQuestionIndex]);
+  
   const renderQuiz = useCallback(() => {
+    if (!selectedUnit?.quiz) return null;
+    
+    const currentQuestion = selectedUnit.quiz[quizState.currentQuestionIndex];
+    
     if (quizState.submitted) {
       const finalScore = quizState.correctAnswers;
-      const passed = finalScore >= Math.ceil(selectedModule.quiz.length * 0.7);
-      const isPerfectScore = finalScore === selectedModule.quiz.length;
-      const hasNextModule = selectedModule.id < modules.length;
-
+      const totalQuestions = selectedUnit.quiz.length;
+      const passed = finalScore >= Math.ceil(totalQuestions * 0.7);
+      const isPerfectScore = finalScore === totalQuestions;
+  
       return (
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
@@ -829,12 +1035,12 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             <h3 className="text-3xl font-bold mb-4">
               {isPerfectScore ? "🌟 Perfect Score! 🌟" : passed ? "🎉 Well Done! 🎉" : "Almost There! 💫"}
             </h3>
-            <p className="text-xl mb-2">You've scored {quizState.correctAnswers} out of {selectedModule.quiz.length} marks!</p>
+            <p className="text-xl mb-2">You've scored {finalScore} out of {totalQuestions} marks!</p>
             <div className="flex justify-center gap-2 my-4">
-              {Array.from({ length: quizState.correctAnswers }).map((_, i) => (
+              {Array.from({ length: finalScore }).map((_, i) => (
                 <Star key={i} className="w-8 h-8 text-yellow-400 fill-current" />
               ))}
-              {Array.from({ length: selectedModule.quiz.length - quizState.correctAnswers }).map((_, i) => (
+              {Array.from({ length: totalQuestions - finalScore }).map((_, i) => (
                 <Star key={i} className="w-8 h-8 text-gray-300" />
               ))}
             </div>
@@ -844,11 +1050,14 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           </div>
           
           <div className="flex flex-col gap-4">
-            {passed && hasNextModule && (
+            {passed && (
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => handleModuleClick(selectedModule.id + 1)}
+                onClick={() => {
+                  handleModuleClick(selectedModule.id + 1);
+                  scrollModalToTop();
+                }}
                 className="flex items-center justify-center gap-3 px-8 py-4 mx-auto bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
               >
                 Continue to Next Course Unit! 🎮 <ArrowRight className="w-6 h-6" />
@@ -867,6 +1076,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                     selectedAnswer: null,
                     showFeedback: false
                   });
+                  scrollModalToTop();
                 }}
                 className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
               >
@@ -895,13 +1105,13 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         </motion.div>
       );
     }
-
-    if (!currentQuiz) return null;
+  
+    if (!currentQuestion) return null;
     
     return (
       <div className="space-y-8">
         <div className="flex justify-between items-center">
-          <h3 className="text-2xl font-bold">Question {quizState.currentQuestionIndex + 1} of {selectedModule.quiz.length}</h3>
+          <h3 className="text-2xl font-bold">Question {quizState.currentQuestionIndex + 1} of {selectedUnit.quiz.length}</h3>
           <div className="flex items-center gap-4">
             <button
               onClick={() => setSoundEnabled(!soundEnabled)}
@@ -914,13 +1124,13 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
               {Array.from({ length: quizState.currentQuestionIndex }).map((_, i) => (
                 <Star key={i} className="w-6 h-6 text-yellow-400 fill-current" />
               ))}
-              {Array.from({ length: selectedModule.quiz.length - quizState.currentQuestionIndex }).map((_, i) => (
+              {Array.from({ length: selectedUnit.quiz.length - quizState.currentQuestionIndex }).map((_, i) => (
                 <Star key={i} className="w-6 h-6 text-gray-300 dark:text-gray-600" />
               ))}
             </div>
           </div>
         </div>
-
+  
         <motion.div
           key={quizState.currentQuestionIndex}
           initial={{ opacity: 0, x: 50 }}
@@ -928,14 +1138,14 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           exit={{ opacity: 0, x: -50 }}
           className="bg-gray-50 dark:bg-gray-900 p-8 rounded-xl shadow-lg"
         >
-          <p className="text-xl font-medium mb-6">{currentQuiz.question}</p>
+          <p className="text-xl font-medium mb-6">{currentQuestion.question}</p>
           <div className="space-y-4">
-            {currentQuiz.options.map((option, index) => (
+            {currentQuestion.options.map((option, index) => (
               <QuizOption
                 key={index}
                 option={option}
                 index={index}
-                isCorrect={currentQuiz.correct}
+                isCorrect={currentQuestion.correct}
                 selected={quizState.selectedAnswer}
                 showFeedback={quizState.showFeedback}
                 onClick={handleAnswerSelect}
@@ -945,27 +1155,32 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         </motion.div>
       </div>
     );
-  }, [quizState, selectedModule, currentQuiz, soundEnabled, handleAnswerSelect, modules.length]);
+  }, [quizState, selectedUnit, soundEnabled, handleAnswerSelect, handleModuleClick, setQuizState, scrollModalToTop]);
 
   return (
     <div className="space-y-8">
       <BadgeDisplay earnedBadges={earnedBadges} />
       
-      <div className="grid gap-6">
-        {defaultCourseModules.map(module => (
-          <ModuleListItem
-            key={module.id}
-            module={module}
-            completedUnits={completedUnits}
-            onClick={handleModuleUnitSelect}
-          />
-        ))}
-      </div>
+      {selectedModule?.isComplete ? (
+        <CourseComplete onClose={() => setSelectedModule(null)} />
+      ) : (
+        <div className="grid gap-6">
+          {modules.map(module => (
+            <ModuleListItem
+              key={module.id}
+              module={module}
+              completedUnits={completedUnits}
+              onClick={handleModuleUnitSelect}
+            />
+          ))}
+        </div>
+      )}
 
       {showBadgeAward && (
-        <BadgeAward 
+        <EnhancedBadgeAward 
           badge={showBadgeAward} 
-          onClose={() => setShowBadgeAward(null)} 
+          onClose={() => setShowBadgeAward(null)}
+          isLastBadge={showBadgeAward.isLastBadge} 
         />
       )}
 
