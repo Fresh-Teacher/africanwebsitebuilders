@@ -312,7 +312,7 @@ Balance: {(TUITION_FEE - userData.amountPaid).toLocaleString()} UGX
 <AnimatedCard>
   <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
     <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
-    Course Modules Progress
+    Self-Study Materials 
   </h2>
   <ModuleContent userData={userData} />
 </AnimatedCard>
