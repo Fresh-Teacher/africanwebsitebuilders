@@ -364,7 +364,7 @@ const defaultCourseModules = [
         content: `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Welcome to Your Website Building Course! 🚀</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/VID-20241216-WA0157.mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/African Web-Builders Course English (1).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
         
