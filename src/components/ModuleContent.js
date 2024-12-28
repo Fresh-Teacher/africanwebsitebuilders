@@ -1173,46 +1173,278 @@ const defaultCourseModules = [
       {
         id: 4,
         title: "Website Navigation",
-        content: `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Navigating Your Website Dashboard</h2>
-        
-        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-4">Dashboard Elements</h3>
-          <ul class="list-disc pl-6 space-y-2">
-            <li>Main menu overview</li>
-            <li>Quick access tools</li>
-            <li>Recent projects section</li>
-            <li>Settings and preferences</li>
-          </ul>
-        </div>
-
-        <div class="bg-green-50 dark:bg-green-900/30 p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-4">Key Features</h3>
-          <div class="space-y-4">
-            <div>
-              <h4 class="font-semibold">Projects Panel</h4>
-              <p>Access and manage all your website projects.</p>
-            </div>
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Hey Future Website Wizard! 🧙‍♂️ Ready to Create Some Internet Magic? ✨
+        </h2>
+        <video className="w-full rounded-lg" controls>
+          <source src="https://awb-silk.vercel.app/VID-20241226-WA0076.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Let's Start Your Amazing Website Journey! 🚀</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "Imagine stepping into a MASSIVE digital city - bigger than Kampala, Mpigi, and Masaka combined! That's the internet, and you're about to become its next master builder! 🏗️"
+          - AWB Training Team            <footer class="text-sm mt-2">- AWB Training Team</footer>
+          </blockquote>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🌐 Your Journey to Website Mastery</h4>
+            <p class="mb-4">Hey there! Ready to learn something super exciting? Imagine you're building a digital house - that's exactly what creating a website is like! And guess what? You're about to learn how to build not just one, but MANY awesome websites that can earn you money while you sleep! How cool is that? 😎</p>
             
-            <div>
-              <h4 class="font-semibold">Tools Section</h4>
-              <p>Quick access to commonly used website building tools.</p>
+            <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+              <p class="mb-2">Here's the fun part: Every website you create needs a home on the internet - we call this hosting. Think of it like renting a space in a massive digital shopping mall! 🏪</p>
+              <p>And here's the BEST news: You'll earn £7 every month for each website you host. Build 20 websites, and that's £140 landing in your pocket every month! 💰</p>
+            </div>
+          </div>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🎨 Building Websites: It's Like Playing TETRIS!</h4>
+            <p class="mb-4">Remember how fun it is to build blocks with the TETRIS Game? Well, creating websites with Zylosite is even more exciting! You get to play with cool building blocks called templates, and the best part? No complicated coding needed! 🎮</p>
+            
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Here's What Makes Website Building Super Fun:</h5>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>Just drag and drop - it's as easy as moving apps on your phone! 📱</li>
+                <li>Mix and match beautiful colors - be a digital artist! 🎨</li>
+                <li>Add cool pictures and videos - make your site pop! 🎥</li>
+                <li>Create something that's totally YOURS! 🌟</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🏗️ The Building Blocks of Your Website</h4>
+            <p class="mb-4">Every awesome website has four super important parts (think of them as rooms in your digital house):</p>
+            
+            <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+              <ul class="list-disc pl-6 space-y-3">
+                <li>
+                  <strong>Navigation Bar</strong> 🧭
+                  <p>This is like your website's menu - it helps visitors find their way around. Just like how a restaurant menu shows you all the delicious food options, your navigation bar shows visitors all the cool pages they can visit!</p>
+                </li>
+                <li>
+                  <strong>Header</strong> 👑
+                  <p>This is your website's crown! It's the first thing people see, so make it amazing! Add eye-catching headlines, cool pictures, or even videos that make visitors go "WOW!" 😮</p>
+                </li>
+                <li>
+                  <strong>Body</strong> ⭐
+                  <p>This is where all your awesome content lives! Think of it as your website's living room - make it comfortable and interesting for your visitors!</p>
+                </li>
+                <li>
+                  <strong>Footer</strong> 📍
+                  <p>Like the foundation of a house, the footer holds important stuff like contact info, social media links, and other useful details at the bottom of the website.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <h4 class="font-semibold text-xl mb-4">🎮 Zylosite: Your Website Building Superpower</h4>
+          <p class="mb-4">Forget everything you've heard about website building being hard! If you can use a smartphone, you can build a website!</p>
+            
+          <div class="bg-purple-50 p-4 rounded-lg mb-4">
+            <div class="space-y-4">
+              <div class="p-3 bg-white/70 dark:bg-gray-800 rounded">
+                <p class="font-semibold">Your Magical Tools: 🧰</p>
+                <ul class="list-disc pl-6">
+                  <li>Drag-and-drop builder (no coding needed!)</li>
+                  <li>Pre-made professional templates</li>
+                  <li>Beautiful color schemes</li>
+                  <li>Free image library</li>
+                </ul>
+              </div>
+    
+              <div class="p-3 bg-white/70 dark:bg-gray-800 rounded">
+                <p class="font-semibold">What You Can Create: 🎨</p>
+                <ul class="list-disc pl-6">
+                  <li>Business websites that wow clients</li>
+                  <li>Online stores that sell 24/7</li>
+                  <li>Beautiful portfolios</li>
+                  <li>Professional landing pages</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
+  
+    
+          <div class="bg-white/50 p-6 rounded-lg">
+            <h4 class="font-semibold text-xl mb-4">🎯 Your Path to Success</h4>
+            <p class="mb-4">Ready to start your awesome journey? Here's your roadmap to earning £140 monthly:</p>
+    
+            <div class="space-y-4">
+              <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg">
+                <h5 class="font-semibold">Month 1-2: Your First Steps 🐣</h5>
+                <ul class="list-disc pl-6">
+                  <li>Learn the basics - it's easier than you think!</li>
+                  <li>Build your first 5 websites (that's £35 monthly already!)</li>
+                  <li>Start showing off your cool new skills!</li>
+                </ul>
+              </div>
+    
+              <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg">
+                <h5 class="font-semibold">Month 3-4: Getting Better and Better 🚀</h5>
+                <ul class="list-disc pl-6">
+                  <li>Create 5 more amazing websites</li>
+                  <li>Now you're earning £70 every month!</li>
+                  <li>Learn cool design tricks and tips</li>
+                </ul>
+              </div>
+    
+              <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+                <h5 class="font-semibold">Month 5-6: Almost There! 🎯</h5>
+                <ul class="list-disc pl-6">
+                  <li>Add another 5 websites to your collection</li>
+                  <li>Your monthly earnings jump to £105!</li>
+                  <li>Become a real website pro</li>
+                </ul>
+              </div>
+    
+              <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg">
+                <h5 class="font-semibold">Month 7-8: Victory! 🏆</h5>
+                <ul class="list-disc pl-6">
+                  <li>Complete your final 5 websites</li>
+                  <li>Reach your goal of £140 monthly income!</li>
+                  <li>Celebrate your amazing achievement! 🎉</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="bg-gradient-to-r from-yellow-100 to-orange-100 dark:from-yellow-800 dark:to-orange-800 p-6 rounded-lg mt-6">
+            <h4 class="font-semibold text-xl mb-4">✨ Cool Tips for Amazing Websites</h4>
+            <div class="space-y-4">
+              <div class="bg-white/50 p-4 rounded-lg">
+                <h5 class="font-semibold">Make Your Websites Stand Out:</h5>
+                <ul class="list-disc pl-6">
+                  <li>Keep it neat and clean - less is more!</li>
+                  <li>Make sure it looks great on phones</li>
+                  <li>Use colors that work well together</li>
+                  <li>Make buttons and links easy to find</li>
+                </ul>
+              </div>
+              
+              <div class="bg-white/50 p-4 rounded-lg">
+                <h5 class="font-semibold">Growing Your Skills:</h5>
+                <ul class="list-disc pl-6">
+                  <li>Practice makes perfect</li>
+                  <li>Try new things with each website</li>
+                  <li>Look at other cool websites for ideas</li>
+                  <li>Have fun while learning!</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Begin Your Amazing Journey? 🚀</p>
+            <p class="text-lg mt-2">Your future as a website creator starts right here, right now! Let's make something awesome together! ✨</p>
+          </div>
+        </div>
       </div>`,
-        quiz: [
-          {
-            question: "Where can you find your website projects?",
-            options: ["Settings menu", "Projects panel", "Help section", "Login page"],
-            correct: 1
-          },
-          {
-            question: "What is the purpose of the dashboard?",
-            options: ["Only for logout", "Email management", "Central control hub", "Password reset"],
-            correct: 2
-          }
-        ]
+      quiz: [
+        {
+          question: "Can two websites have the same domain name?",
+          options: [
+            "Yes, if they pay extra",
+            "Yes, if they're in different countries",
+            "No, domain names must be unique",
+            "Yes, if they're small websites"
+          ],
+          correct: 2
+        },
+        {
+          question: "What is the relationship between websites and hosting?",
+          options: [
+            "Websites don't need hosting",
+            "Websites need space on the internet called hosting",
+            "Hosting is only for large websites",
+            "Hosting is only for storing domain names"
+          ],
+          correct: 1
+        },
+        {
+          question: "What does hosting store?",
+          options: [
+            "Only text files",
+            "Only images",
+            "Media files like photos, videos, audio and documents",
+            "Only website addresses"
+          ],
+          correct: 2
+        },
+        {
+          question: "How much can you earn monthly from hosting one website?",
+          options: [
+            "5 pounds",
+            "7 pounds",
+            "10 pounds",
+            "20 pounds"
+          ],
+          correct: 1
+        },
+        {
+          question: "What is your target number of websites to build?",
+          options: [
+            "10 websites",
+            "15 websites",
+            "20 websites",
+            "25 websites"
+          ],
+          correct: 2
+        },
+        {
+          question: "What makes Zylosite easy to use for creating websites?",
+          options: [
+            "It has pre-made templates to customize",
+            "It's completely free",
+            "It works offline",
+            "It automatically builds websites"
+          ],
+          correct: 0
+        },
+        {
+          question: "What method does Zylosite use for building websites?",
+          options: [
+            "Coding only",
+            "Drag and drop blocks",
+            "Voice commands",
+            "Automatic generation"
+          ],
+          correct: 1
+        },
+        {
+          question: "How do website owners contribute to your earnings?",
+          options: [
+            "They pay domain fees",
+            "They pay hosting fees",
+            "They pay template fees",
+            "They pay design fees"
+          ],
+          correct: 1
+        },
+        {
+          question: "What's the main benefit of using Zylosite's block system?",
+          options: [
+            "It's free",
+            "It makes website creation easier",
+            "It provides hosting",
+            "It manages domain names"
+          ],
+          correct: 1
+        },
+        {
+          question: "How is revenue generated from the Zylosite Platform?",
+          options: [
+            "Domain registration fees",
+            "Hosting service charges",
+            "Template licensing",
+            "Design consultation"
+          ],
+          correct: 1
+        },
+      ]
       }
     ]
   },
