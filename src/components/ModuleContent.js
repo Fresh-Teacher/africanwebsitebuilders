@@ -656,7 +656,6 @@ const defaultCourseModules = [
             <p class="mb-4">We know you're thinking: "Okay, pounds sound great, but what does this mean for me in Uganda?" Let's break it down! 📊</p>
               
             <div class="bg-green-50 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Your Income Potential (As of December 2024):</h5>
               <div class="space-y-4">
               <div class="p-3 bg-white/70 dark:bg-gray-800 rounded">
               <p class="font-semibold">Per Website: 💰</p>
