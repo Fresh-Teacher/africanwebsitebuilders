@@ -837,7 +837,7 @@ const defaultCourseModules = [
           "options": [
             "Complete website rebuilds",
             "Daily content updates",
-            "Simple monthly maintenance and updates",
+            "Simple maintenance and updates",
             "Weekly client meetings"
           ],
           "correct": 2
@@ -860,7 +860,7 @@ const defaultCourseModules = [
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
             "The journey of a thousand websites begins with a single login!"
-            <footer class="text-sm mt-2">- Fresh Teacher -AWB Team</footer>
+            <footer class="text-sm mt-2">- Fresh Teacher</footer>
           </blockquote>
       
           <div class="bg-white/50 p-6 rounded-lg mb-6">
@@ -883,7 +883,7 @@ const defaultCourseModules = [
                 <p>Like each school day after:</p>
                 <ul class="list-disc pl-6 mt-2">
                   <li>Show your ID (enter email)</li>
-                  <li>Use your locker combo (password)</li>
+                  <li>Use your locker combination (password)</li>
                   <li>Head to class (Login!)</li>
                 </ul>
               </div>
@@ -901,7 +901,7 @@ const defaultCourseModules = [
                   <p>Design amazing websites! 🎨</p>
                 </div>
                 <div class="bg-white/50 p-3 rounded-lg">
-                  <h5 class="font-semibold mb-1">Grade 3: Master</h5>
+                  <h5 class="font-semibold mb-1">Grade 3: Expert</h5>
                   <p>Become a web pro! 🎓</p>
                 </div>
               </div>
@@ -947,7 +947,7 @@ const defaultCourseModules = [
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">5</div>
                     <div>
                       <p>Check the Cloudflare security box</p>
-                      <p class="text-sm text-gray-600">Help beat the robots by proving that you're human! 🤖)</p>
+                      <p class="text-sm text-gray-600">(Help beat the robots by proving that you're human! 🤖)</p>
                     </div>
                   </div>
       
@@ -968,61 +968,6 @@ const defaultCourseModules = [
                   </div>
                 </div>
               </div>
-
-              <div className="space-y-8">
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4">🆕 Getting Your Digital Student ID (Sign Up)</h3>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <Home className="text-gray-600" size={18} />
-                        <p>Head to <span className="font-semibold">www.digitalschoolhub.com</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">2</div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <Menu className="text-gray-600" size={18} />
-                        <p>Look for the <span className="bg-blue-500 text-white px-2 py-1 rounded">JOIN CLASS</span> button (it's like finding your classroom! 🏫)</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">3</div>
-                    <p>Click <span className="bg-green-500 text-white px-2 py-1 rounded">NEW STUDENT SIGNUP</span></p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">4</div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <Mail className="text-gray-600" size={18} />
-                        <p>Fill in your details - like your digital school enrollment form! 📝</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">5</div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <CheckSquare className="text-gray-600" size={18} />
-                        <p>Complete the quick security check (no robots in our class! 🤖)</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">6</div>
-                    <p>Click <span className="bg-purple-500 text-white px-2 py-1 rounded">Join Class</span> and you're in!</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">7</div>
-                    <p>Check your email to verify - it's like getting your official school badge! 🌟</p>
-                  </div>
-                </div>
-              </div>
       
               <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg">
               <h3 class="text-xl font-semibold mb-4">🔄 How to Sign In (Return to Your Account)</h3>
@@ -1030,7 +975,7 @@ const defaultCourseModules = [
                   <div class="flex items-start gap-3">
                     <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
                     <div>
-                      <p>Click <span class="bg-blue-500 text-white px-2 py-1 rounded">MEMBER AREA in the top right (or menu on mobile) </span></p>
+                      <p>Click <span class="bg-gray-500 text-white px-2 py-1 rounded">MEMBER AREA in the top right (or menu on mobile) </span></p>
                       <p class="text-sm text-gray-600">Like walking through the school gate 🚶‍♂️</p>
                     </div>
                   </div>
@@ -1039,7 +984,7 @@ const defaultCourseModules = [
                     <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">2</div>
                     <div>
                       <p>Enter your email and password</p>
-                      <p class="text-sm text-gray-600">Enter your email and password (Pro tip: Check "Remember me" to save time next time! ⚡)</p>
+                      <p class="text-sm text-gray-600">Enter your email and password (Pro tip: Check "Remember me" to save time and login automatically next time! ⚡)</p>
                     </div>
                   </div>
       
@@ -1060,9 +1005,9 @@ const defaultCourseModules = [
                   </div>
                 </div>
               </div>
-      
+      <br>
               <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg">
-              <h4 class="font-semibold mb-2">💡 School Safety Tips</h4>
+              <h4 class="font-semibold mb-2">💡 Safety Tips</h4>
               <ul class="space-y-2">
                 <li>• Use a strong password (mix of letters, numbers, and symbols)</li>
                 <li>• Always verify your email (it's like your official school ID!)</li>
@@ -1070,21 +1015,21 @@ const defaultCourseModules = [
                 <li>• Need help? Your digital teachers are just a message away! 🙋‍♂️</li>
               </ul>
             </div>
-    
+    <br>
             <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
               <h3 class="text-xl font-semibold mb-4">🎓 Digital School Fun Facts!</h3>
               <div class="grid md:grid-cols-2 gap-4">
                 <div class="bg-white/50 p-4 rounded-lg">
                   <h4 class="font-semibold mb-2">Did You Know? 🤓</h4>
-                  <p>The most common password is "123"! Create a super-strong password!</p>
+                  <p>The most common password is still "123456"! That's like leaving your school locker wide open! Don't be that person!</p>
                 </div>
                 <div class="bg-white/50 p-4 rounded-lg">
                   <h4 class="font-semibold mb-2">Security Challenge! 🏆</h4>
-                  <p>Create a password that will give headache to hackers.</p>
+                  <p>Try to create a password that would take over 100 years to crack! Hint: Mix uppercase, lowercase, numbers, and symbols! Create a password that will give headache to hackers. 🤕</p>
                 </div>
               </div>
             </div>
-    
+    <br>
             <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg">
               <h3 class="text-xl font-semibold mb-4">📚 Your Amazing Journey Begins!</h3>
               <div class="space-y-4">
