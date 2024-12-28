@@ -485,7 +485,6 @@ const defaultCourseModules = [
             </div>
           </div>
         </div>
-    
       </div>`,
         quiz: [
           {
@@ -569,15 +568,15 @@ const defaultCourseModules = [
             correct: 2,
           },
           {
-            question: "How much money will you pay for the course?",
-            options: [
-              "T",
-              "Video tutorials only",
-              "Hands-on website building practice",
-              "Written assignments"
+            "question": "How much money will you pay for the course?",
+            "options": [
+              "£2 (UGX 9,600)",
+              "£4 (UGX 19,200)",
+              "£6 (UGX 28,800)",
+              "£8 (UGX 38,400)"
             ],
-            correct: 2,
-          },
+            "correct": 3
+          },          
           {
             question: "How often are payments made for active websites maintained through AWB?",
             options: [
@@ -849,12 +848,13 @@ const defaultCourseModules = [
         id: 3,
         title: "Create an Account (Sign Up) and Logging In (Sign In)",
         content: `<div class="space-y-6">
-
         <h2 class="text-2xl font-bold">Sign Up vs Sign In: What's the Difference? 🤔</h2>
-          <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/VID-20241224-WA0089.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+        
+        <video className="w-full rounded-lg" controls>
+          <source src="https://awb-silk.vercel.app/VID-20241224-WA0089.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">🔑 Your Gateway to African Website Builders!</h3>
           
@@ -868,7 +868,7 @@ const defaultCourseModules = [
             <p class="mb-4">Just like starting at a new school, your journey here begins with two important steps:</p>
             
             <div class="grid md:grid-cols-2 gap-4 mb-6">
-              <div class="bg-blue-50 p-4 rounded-lg">
+              <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg">
                 <h4 class="font-semibold">📝 Sign Up (First Day)</h4>
                 <p>Like your first day at school:</p>
                 <ul class="list-disc pl-6 mt-2">
@@ -878,7 +878,7 @@ const defaultCourseModules = [
                 </ul>
               </div>
               
-              <div class="bg-green-50 p-4 rounded-lg">
+              <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
                 <h4 class="font-semibold">🎒 Sign In (Daily Return)</h4>
                 <p>Like each school day after:</p>
                 <ul class="list-disc pl-6 mt-2">
@@ -889,7 +889,7 @@ const defaultCourseModules = [
               </div>
             </div>
       
-            <div class="bg-purple-50 p-4 rounded-lg mb-6">
+            <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-6">
               <h4 class="font-semibold text-xl mb-4">🌟 Your Learning Journey</h4>
               <div class="grid md:grid-cols-3 gap-4">
                 <div class="bg-white/50 p-3 rounded-lg">
@@ -908,9 +908,9 @@ const defaultCourseModules = [
             </div>
       
             <div class="space-y-8">
-              <div class="bg-yellow-50 p-6 rounded-lg">
+              <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg">
                 <h3 class="text-xl font-semibold mb-4">📝 Enrolment Process (How to Sign Up)</h3>
-                <div class="space-y-4">
+              <div class="space-y-4">
                   <div class="flex items-start gap-3">
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
                     <div>
@@ -1024,9 +1024,9 @@ const defaultCourseModules = [
                 </div>
               </div>
       
-              <div class="bg-blue-50 p-6 rounded-lg">
-                <h3 class="text-xl font-semibold mb-4">🔄 How to Sign In (Return to Your Account)</h3>
-                <div class="space-y-4">
+              <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg">
+              <h3 class="text-xl font-semibold mb-4">🔄 How to Sign In (Return to Your Account)</h3>
+            <div class="space-y-4">
                   <div class="flex items-start gap-3">
                     <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
                     <div>
@@ -1061,44 +1061,44 @@ const defaultCourseModules = [
                 </div>
               </div>
       
-              <div class="bg-orange-50 p-4 rounded-lg">
-                <h4 class="font-semibold mb-2">💡 School Safety Tips</h4>
-                <ul class="space-y-2">
-                  <li>• Use a strong password (mix of letters, numbers, and symbols) - like keeping your school locker combination safe!</li>
-                  <li>• Always verify your email (it's like your official school ID!)</li>
-                  <li>• Keep your login details secret (like your diary! 🤫)</li>
-                  <li>• Need help? Your digital teachers are just a message away! 🙋‍♂️</li>
-             </ul>
-              </div>
-      
-              <div class="bg-green-50 p-6 rounded-lg">
-                <h3 class="text-xl font-semibold mb-4">🎓 Digital School Fun Facts!</h3>
-                <div class="grid md:grid-cols-2 gap-4">
-                  <div class="bg-white/50 p-4 rounded-lg">
-                    <h4 class="font-semibold mb-2">Did You Know? 🤓</h4>
-                    <p>The most common password is "123"! That's like leaving your school locker wide open! Create a super-strong password (mix it up like a DJ! 🎧)</p>
-                  </div>
-                  <div class="bg-white/50 p-4 rounded-lg">
-                    <h4 class="font-semibold mb-2">Security Challenge! 🏆</h4>
-                    <p>Create a password that will give headache to hackers. Try to get a password that would take over 100 years to crack! Hint: Mix uppercase, lowercase, numbers, and symbols!</p>
-                  </div>
+              <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg">
+              <h4 class="font-semibold mb-2">💡 School Safety Tips</h4>
+              <ul class="space-y-2">
+                <li>• Use a strong password (mix of letters, numbers, and symbols)</li>
+                <li>• Always verify your email (it's like your official school ID!)</li>
+                <li>• Keep your login details secret (like your diary! 🤫)</li>
+                <li>• Need help? Your digital teachers are just a message away! 🙋‍♂️</li>
+              </ul>
+            </div>
+    
+            <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+              <h3 class="text-xl font-semibold mb-4">🎓 Digital School Fun Facts!</h3>
+              <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-white/50 p-4 rounded-lg">
+                  <h4 class="font-semibold mb-2">Did You Know? 🤓</h4>
+                  <p>The most common password is "123"! Create a super-strong password!</p>
+                </div>
+                <div class="bg-white/50 p-4 rounded-lg">
+                  <h4 class="font-semibold mb-2">Security Challenge! 🏆</h4>
+                  <p>Create a password that will give headache to hackers.</p>
                 </div>
               </div>
-      
-              <div class="bg-pink-50 p-6 rounded-lg">
-                <h3 class="text-xl font-semibold mb-4">📚 Your Amazing Journey Begins!</h3>
-                <div class="space-y-4">
-                  <p>Remember that butterfly feeling on your first day of school? That excitement of new possibilities? That's exactly what awaits you here in your digital classroom! 🌈</p>
-                  <div class="bg-white/50 p-4 rounded-lg">
-                    <h4 class="font-semibold mb-2">Remember... ⭐</h4>
-                    <p>Every web development expert started as a beginner student. Take your time, ask questions, and enjoy the learning journey. We're all here to learn together!</p>
-                  </div>
+            </div>
+    
+            <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg">
+              <h3 class="text-xl font-semibold mb-4">📚 Your Amazing Journey Begins!</h3>
+              <div class="space-y-4">
+                <p>Remember that butterfly feeling on your first day of school? That's exactly what awaits you here!</p>
+                <div class="bg-white/50 p-4 rounded-lg">
+                  <h4 class="font-semibold mb-2">Remember... ⭐</h4>
+                  <p>Every web development expert started as a beginner student.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>`,
+      </div>
+    </div>`,
       "quiz": [
         {
           "question": "What is the first step to create a new account on African Website Builders?",
