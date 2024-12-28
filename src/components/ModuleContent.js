@@ -362,10 +362,14 @@ const defaultCourseModules = [
         id: 1,
         title: "Learn Website Sequence",
         content: `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Welcome to Your Website Building Adventure! 🚀</h2>
+        <h2 class="text-2xl font-bold">Welcome to Your Website Building Course! 🚀</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/VID-20241216-WA0157.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">🌟 The Future is Digital! 🌟</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-center">🖥️The Future is Digital!💻</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
           "If your business is not on the internet, then you are not in business."
