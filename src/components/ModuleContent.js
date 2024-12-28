@@ -368,7 +368,7 @@ const defaultCourseModules = [
         Your browser does not support the video tag.
       </video>
         
-        <div class="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-purple-900/50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">🖥️The Future is Digital!💻</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
@@ -376,13 +376,13 @@ const defaultCourseModules = [
           <footer class="text-sm mt-2">- Bill Gates, Microsoft Founder</footer>
         </blockquote>
     
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🤔 Let's Start With a Story...</h4>
             <p class="mb-4">Meet Sarah, a small business owner in Kampala. She makes beautiful traditional clothing but only sells to people who walk past her shop. One day, a customer from London found her shop online (through a website her nephew quickly made) and ordered 50 pieces! Sarah's business transformed overnight. This is the power of having an online presence!</p>
             <p>Now, imagine being the person who can create such transformative opportunities for businesses across Africa! That's exactly what you're about to become.</p>
           </div>
     
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🌍 The Digital Divide: A Golden Opportunity</h4>
             <ul class="list-disc pl-6 space-y-2">
             <li>While 95% of businesses in developed countries have websites, only 20% of African businesses have an online presence</li>
@@ -395,9 +395,9 @@ const defaultCourseModules = [
         </div>
         </div>
     
-        <div class="bg-gradient-to-r from-emerald-100 to-blue-100 dark:from-emerald-900/50 dark:to-blue-900/50 dark:from-green-900/30 dark:to-blue-900/30 p-6 rounded-xl">
+        <div class="bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/30 dark:to-blue-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">🎯 Your Mission (Should You Choose to Accept It!)</h3>
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <p class="text-lg mb-4">Become a professional website builder and help bridge the digital divide while building a successful career! Here's what makes this opportunity exciting:</p>
             <ul class="list-disc pl-6 space-y-3">
               <li><span class="font-semibold">Massive Market:</span> 80% of African businesses need websites</li>
@@ -409,10 +409,10 @@ const defaultCourseModules = [
           </div>
         </div>
     
-        <div class="bg-gradient-to-r from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 dark:from-yellow-900/30 dark:to-orange-900/30 p-6 rounded-xl">
+        <div class="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/30 dark:to-orange-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">🎓 Your 4-Week Learning Adventure</h3>
           
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 1: BEGINNERS</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-blue-500 pl-4">
@@ -422,7 +422,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 2: INTERMEDIATE</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-green-500 pl-4">
@@ -432,7 +432,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 3: AFFILIATE</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-purple-500 pl-4">
@@ -442,7 +442,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 4: SALES</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-yellow-500 pl-4">
@@ -457,7 +457,7 @@ const defaultCourseModules = [
         <div class="bg-gradient-to-r from-pink-50 to-red-50 dark:from-pink-900/30 dark:to-red-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">💰 Your Income Potential</h3>
           
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">Let's Do The Math! 🧮</h4>
             
             <div class="space-y-4">
@@ -597,7 +597,7 @@ const defaultCourseModules = [
       <source src="https://awb-silk.vercel.app/VID-20241216-WA0157.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-        <div class="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-purple-900/50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Transforming Lives Through Digital Opportunities!</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
@@ -605,21 +605,23 @@ const defaultCourseModules = [
             <footer class="text-sm mt-2">- Mr. Angel & Mr. Zion, AWB Co-founders</footer>
           </blockquote>
     
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
           <h4 class="font-semibold text-xl mb-4">👉 Quick Question For You...</h4>
           <p class="mb-4">Ever dreamt of earning real money while you sleep? Or maybe you've thought, "I wish I could build websites and make some money, but I don't know how to code..." Well, guess what? You're in exactly the right place! 😎</p>
           
           <p class="mb-4">Let me tell you a quick story that'll blow your mind... 🤯</p>
           
-          <div class="bg-yellow-50 p-4 rounded-lg mb-4">
+          <div class="bg-yellow-300 p-4 rounded-lg mb-4">
             <p class="mb-2">Two amazing gentlemen from the UK, <b>Mr. Angel and Mr. Zion</b> (they're super cool and you'll meet them soon!), were sitting in London thinking: "Hey, what if we could help talented people in Africa earn some good money from creating websites without needing any degrees or coding skills?"</p>
             <p>And BOOM! 💥 <strong>African Website Builders</strong> was born!</p>
           </div>
+          <p class="mb-4">Today, their vision has become reality! Hundreds of Africans from various backgrounds are building sustainable livelihoods through AWB. They're not just earning extra income - they're transforming their lives and communities! 🌍</p>
+
         </div>
     
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
           <h4 class="font-semibold text-xl mb-4">🎮 The Coolest Part? It's Like Playing a Game!</h4>
-          <p class="mb-4">Remember how easy it is to post on social media? Well, building websites with our tool (we call it Zylosite) is JUST AS EASY! No kidding! 😉<p>Forget every complicated thing you know about website building! With Zylosite, our revolutionary web tool, you'll be creating stunning websites in minutes - yes, MINUTES! ⏰</p><br>
+          <p class="mb-4">Remember how easy it is to post on social media? Well, building websites with our tool (we call it Zylosite) is JUST AS EASY! No kidding! 😉<p>Forget everything you've heard about website building being complicated! With Zylosite, our revolutionary web tool, you'll be creating stunning websites in minutes - yes, MINUTES! ⏰</p><br>
             
             <div class="bg-blue-50 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Why Zylosite is Different:</h5>
@@ -632,18 +634,52 @@ const defaultCourseModules = [
             </div>
           </div>
     
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">Now, Let's Talk About The Money, Bro! 🤑</h4>
             <p class="mb-4">This is where it gets SUPER exciting (I'm actually bouncing in my chair as I write this!) 🤗</p>            
             <div class="bg-green-50 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">The AWB Income Formula:</h5>
               <ul class="list-disc pl-6 space-y-2">
-              <li>Each active website = £7 (UGX 33,600) monthly recurring income</li>
+              <li>Each active website = £7 monthly recurring income</li>
               <li>Your goal: Build 20 active websites</li>
-              <li>Monthly potential: £140 (UGX 672,000) in passive income!</li>
-              <li>Yearly earnings: £1,680 (UGX 8,064,000) for work done once!</li>
+              <li>Monthly potential: £140 in passive income!</li>
+              <li>Yearly earnings: £1,680 for work done once!</li>
                 <li>Income source: Monthly hosting fees from clients</li>
               </ul>
+            </div>
+
+            <div class="bg-gray-700 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4"> Let's Talk Real Money - In Your Own Currency! 💷</h4>
+            <p class="mb-4">We know you're thinking: "Okay, pounds sound great, but what does this mean for me in Uganda?" Let's break it down! 📊</p>
+              
+            <div class="bg-green-50 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Your Income Potential (As of December 2024):</h5>
+              <div class="space-y-4">
+                <div class="p-3 bg-white/70 rounded">
+                  <p class="font-semibold">Per Website: 💰</p>
+                  <ul class="list-disc pl-6">
+                    <li>£7 per month</li>
+                    <li>That's approximately UGX 34,300 per website, per month!</li>
+                  </ul>
+                </div>
+      
+                <div class="p-3 bg-white/70 rounded">
+                  <p class="font-semibold">Target Goal - 20 Websites: 🎯</p>
+                  <ul class="list-disc pl-6">
+                    <li>£140 monthly = UGX 686,000</li>
+                    <li>That's more than many entry-level jobs in Kampala!</li>
+                  </ul>
+                </div>
+      
+                <div class="p-3 bg-white/70 rounded">
+                  <p class="font-semibold">Yearly Potential: 🤯</p>
+                  <ul class="list-disc pl-6">
+                    <li>With 20 websites: £1,680 annually</li>
+                    <li>That's approximately UGX 8,232,000 per year!</li>
+                    <li>Now we are talking! 😜</li>
+                  </ul>
+                </div>
+              </div>
             </div>
     
             <div class="p-4 border-2 border-yellow-400 rounded-lg">
@@ -652,7 +688,7 @@ const defaultCourseModules = [
             </div>
           </div>
     
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
+          <div class="bg-gray-700 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🎓 Your Complete Success Package</h4>
             <p class="mb-4">We don't just train you - we launch your career! Here's what you get:</p>
             
@@ -664,7 +700,7 @@ const defaultCourseModules = [
               
               <div class="bg-purple-50 p-4 rounded-lg">
                 <h5 class="font-semibold">Official Certification</h5>
-                <p>Earn your AWB certification - your badge of professional excellence!</p>
+                <p>Earn your AWB certification -  your passport to the digital economy!</p>
               </div>
               
               <div class="bg-green-50 p-4 rounded-lg">
@@ -681,22 +717,23 @@ const defaultCourseModules = [
             </div>
           </div>
     
-          <div class="bg-gradient-to-r from-yellow-100 to-orange-100 p-6 rounded-lg">
+          <div class="bbg-gradient-to-r from-yellow-300 to-orange-400 p-6 rounded-lg">
         <h4 class="font-semibold text-xl mb-4"> But Wait... It Gets Even Better! 😁</h4>
         <p class="text-lg font-bold text-blue-600 mb-4">BUILD ONCE, EARN FOREVER! 💸</p>
         <p class="text-lg mb-4">Picture this: You're chilling on your couch, maybe watching Netflix, and BING! 📱 Another payment just dropped into your account! How? Because your websites keep making money EVEN WHILE YOU SLEEP! 😴</p>
+        <p class="text-lg mb-4">Once you build a website and your client loves it (and they will!), you'll keep earning month after month as long as it stays active! Imagine earning money while you...</p>
             <ol class="list-decimal pl-6 space-y-2 mb-4">
-              <li>Build amazing websites for your clients</li>
-              <li>Keep them updated</li>
-              <li>Get paid monthly from hosting fees</li>
-              <li>Earn passive income as long as sites stay active!</li>
+            <li>Sleep peacefully at night 🛌</li>
+            <li>Enjoy time with family and friends 👨‍👩‍👧‍👦</li>
+            <li>Work on building even more websites 💻</li>
+            <li>Travel and explore the world ✈️</li>
             </ol>
-            <p class="text-lg font-semibold">That's right - MONTHLY INCOME for work you do just once! 🎉</p>
+            <p class="text-lg font-semibold">That's right - PASSIVE MONTHLY INCOME for work you do just once! 🎉</p>
           </div>
     
-          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mt-6">
+          <div class="bg-gray-700 p-6 rounded-lg mt-6">
         <h4 class="font-semibold text-xl mb-4">🚀 Ready to Join the Crew?</h4>
-        <p class="text-lg mb-4">Look, hundreds of people just like you are already crushing it with AWB. They started exactly where you are now - ready to take that first step toward financial freedom. Some started with zero tech knowledge (seriously, some couldn't even create an account! 😅)</p>
+        <p class="text-lg mb-4">Remember: Every successful AWB graduate started from here - reading this introduction and dreaming of a better future. The only difference between them and you? They took that first step! They started exactly where you are now - some started with zero tech knowledge (seriously, some couldn't even create an account! 🤓)</p>
         <p class="text-xl font-bold text-center text-blue-600">The only question is... are you ready to be our next success story? Let's make it happen! <br><strong>The digital revolution is here - and YOU are part of it! </strong>🌟</p>
       </div>
         </div>
@@ -822,7 +859,7 @@ const defaultCourseModules = [
           </ol>
         </div>
 
-        <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
+        <div class="bg-yellow-300 dark:bg-yellow-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">Important Tips</h3>
           <ul class="list-disc pl-6 space-y-2">
             <li>Use a strong password</li>
@@ -942,7 +979,7 @@ const defaultCourseModules = [
           </ol>
         </div>
 
-        <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
+        <div class="bg-yellow-300 dark:bg-yellow-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">Security Tips</h3>
           <ul class="list-disc pl-6 space-y-2">
             <li>Always logout when finished</li>
