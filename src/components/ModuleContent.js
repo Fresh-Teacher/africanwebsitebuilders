@@ -611,9 +611,9 @@ const defaultCourseModules = [
           
           <p class="mb-4">Let me tell you a quick story that'll blow your mind... 🤯</p>
           
-          <div class="bg-yellow-50 p-4 rounded-lg mb-4 text-black">
-          <p class="mb-2 text-black">Two amazing gentlemen from the UK, <b>Mr. Angel and Mr. Zion</b> (they're super cool and you'll meet them soon!), were sitting in London thinking: "Hey, what if we could help talented people in Africa earn some good money from creating websites without needing any degrees or coding skills?"</p>
-          <p class="text-black">And BOOM! 💥 <strong>African Website Builders</strong> was born!</p>
+          <div class="bg-yellow-50 p-4 rounded-lg mb-4 text-black dark:text-black">
+          <p class="mb-2 text-black dark:text-black">Two amazing gentlemen from the UK, <b>Mr. Angel and Mr. Zion</b> (they're super cool and you'll meet them soon!), were sitting in London thinking: "Hey, what if we could help talented people in Africa earn some good money from creating websites without needing any degrees or coding skills?"</p>
+          <p class="text-black dark:text-black">And BOOM! 💥 <strong>African Website Builders</strong> was born!</p>
         </div>
           <p class="mb-4">Today, their vision has become reality! Hundreds of Africans from various backgrounds are building sustainable livelihoods through AWB. They're not just earning extra income - they're transforming their lives and communities! 🌍</p>
 
@@ -624,8 +624,8 @@ const defaultCourseModules = [
           <p class="mb-4">Remember how easy it is to post on social media? Well, building websites with our tool (we call it Zylosite) is JUST AS EASY! No kidding! 😉<p>Forget everything you've heard about website building being complicated! With Zylosite, our revolutionary web tool, you'll be creating stunning websites in minutes - yes, MINUTES! ⏰</p><br>
             
           <div class="bg-blue-50 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold text-black">Why Zylosite is Different:</h5>
-          <ul class="list-disc pl-6 space-y-2 text-black">
+          <h5 class="font-semibold text-black dark:text-black">Why Zylosite is Different:</h5>
+          <ul class="list-disc pl-6 space-y-2 text-black dark:text-black">
             <li>Zero programming knowledge needed! (seriously, not even a single line of code!) 🚫</li>
             <li>Simple drag-and-drop interface (If you can create a social media post, you can build a website! 💪)</li>
             <li>Professional templates ready to customize</li>
@@ -638,8 +638,8 @@ const defaultCourseModules = [
             <h4 class="font-semibold text-xl mb-4">Now, Let's Talk About The Money, Bro! 🤑</h4>
             <p class="mb-4">This is where it gets SUPER exciting (I'm actually bouncing in my chair as I write this!) 🤗</p>            
             <div class="bg-green-50 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold text-black">The AWB Income Formula:</h5>
-            <ul class="list-disc pl-6 space-y-2 text-black">
+            <h5 class="font-semibold text-black dark:text-black">The AWB Income Formula:</h5>
+            <ul class="list-disc pl-6 space-y-2 text-black dark:text-black">
               <li>Each active website = £7 monthly recurring income</li>
               <li>Your goal: Build 20 active websites</li>
               <li>Monthly potential: £140 in passive income!</li>
@@ -657,30 +657,30 @@ const defaultCourseModules = [
               <h5 class="font-semibold">Your Income Potential (As of December 2024):</h5>
               <div class="space-y-4">
               <div class="p-3 bg-white/70 rounded">
-    <p class="font-semibold text-black">Per Website: 💰</p>
-    <ul class="list-disc pl-6 text-black">
-      <li>£7 per month</li>
-      <li>That's approximately UGX 34,300 per website, per month!</li>
-    </ul>
-  </div>
+              <p class="font-semibold text-black dark:text-black">Per Website: 💰</p>
+              <ul class="list-disc pl-6 text-black dark:text-black">
+                <li>£7 per month</li>
+                <li>That's approximately UGX 34,300 per website, per month!</li>
+              </ul>
+            </div>
       
-  <div class="p-3 bg-white/70 rounded">
-  <p class="font-semibold text-black">Target Goal - 20 Websites: 🎯</p>
-  <ul class="list-disc pl-6 text-black">
-    <li>£140 monthly = UGX 686,000</li>
-    <li>That's more than many entry-level jobs in Kampala!</li>
-  </ul>
-</div>
+            <div class="p-3 bg-white/70 rounded">
+            <p class="font-semibold text-black dark:text-black">Target Goal - 20 Websites: 🎯</p>
+            <ul class="list-disc pl-6 text-black dark:text-black">
+              <li>£140 monthly = UGX 686,000</li>
+              <li>That's more than many entry-level jobs in Kampala!</li>
+            </ul>
+          </div>
       
-<div class="p-3 bg-white/70 rounded">
-<p class="font-semibold text-black">Yearly Potential: 🤯</p>
-<ul class="list-disc pl-6 text-black">
-  <li>With 20 websites: £1,680 annually</li>
-  <li>That's approximately UGX 8,232,000 per year!</li>
-  <li>Now we are talking! 😜</li>
-</ul>
-</div>
-</div>
+          <div class="p-3 bg-white/70 rounded">
+          <p class="font-semibold text-black dark:text-black">Yearly Potential: 🤯</p>
+          <ul class="list-disc pl-6 text-black dark:text-black">
+            <li>With 20 websites: £1,680 annually</li>
+            <li>That's approximately UGX 8,232,000 per year!</li>
+            <li>Now we are talking! 😜</li>
+          </ul>
+        </div>
+      </div>
             </div>
     
             <div class="p-4 border-2 border-yellow-400 rounded-lg">
