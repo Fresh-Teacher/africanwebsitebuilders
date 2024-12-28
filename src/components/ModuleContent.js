@@ -847,80 +847,360 @@ const defaultCourseModules = [
       },
       {
         id: 3,
-        title: "Create an Account (Sign Up)",
+        title: "Create an Account (Sign Up) and Logging In (Sign In)",
         content: `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Creating Your Zylosite Account</h2>
-        
-        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-4">Sign Up Process</h3>
-          <ol class="list-decimal pl-6 space-y-2">
-            <li>Visit www.zylosite.com</li>
-            <li>Click the "Sign Up" button</li>
-            <li>Fill in required information</li>
-            <li>Verify your email</li>
-            <li>Complete your profile</li>
-          </ol>
-        </div>
 
-        <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-4">Important Tips</h3>
-          <ul class="list-disc pl-6 space-y-2">
-            <li>Use a strong password</li>
-            <li>Keep your credentials secure</li>
-            <li>Use a professional email address</li>
-          </ul>
+        <h2 class="text-2xl font-bold">Sign Up vs Sign In: What's the Difference? 🤔</h2>
+          <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/VID-20241224-WA0089.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">🔑 Your Gateway to African Website Builders!</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "The journey of a thousand websites begins with a single login!"
+            <footer class="text-sm mt-2">- Fresh Teacher -AWB Team</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">Sign Up vs Sign In</h4>
+            <p class="mb-4">Just like starting at a new school, your journey here begins with two important steps:</p>
+            
+            <div class="grid md:grid-cols-2 gap-4 mb-6">
+              <div class="bg-blue-50 p-4 rounded-lg">
+                <h4 class="font-semibold">📝 Sign Up (First Day)</h4>
+                <p>Like your first day at school:</p>
+                <ul class="list-disc pl-6 mt-2">
+                  <li>Fill out admission forms (your details)</li>
+                  <li>Get your student ID (email verification)</li>
+                  <li>Choose your locker combination (password)</li>
+                </ul>
+              </div>
+              
+              <div class="bg-green-50 p-4 rounded-lg">
+                <h4 class="font-semibold">🎒 Sign In (Daily Return)</h4>
+                <p>Like each school day after:</p>
+                <ul class="list-disc pl-6 mt-2">
+                  <li>Show your ID (enter email)</li>
+                  <li>Use your locker combo (password)</li>
+                  <li>Head to class (Login!)</li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="bg-purple-50 p-4 rounded-lg mb-6">
+              <h4 class="font-semibold text-xl mb-4">🌟 Your Learning Journey</h4>
+              <div class="grid md:grid-cols-3 gap-4">
+                <div class="bg-white/50 p-3 rounded-lg">
+                  <h5 class="font-semibold mb-1">Grade 1: Explorer</h5>
+                  <p>Start your web building basics! 📚</p>
+                </div>
+                <div class="bg-white/50 p-3 rounded-lg">
+                  <h5 class="font-semibold mb-1">Grade 2: Creator</h5>
+                  <p>Design amazing websites! 🎨</p>
+                </div>
+                <div class="bg-white/50 p-3 rounded-lg">
+                  <h5 class="font-semibold mb-1">Grade 3: Master</h5>
+                  <p>Become a web pro! 🎓</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="space-y-8">
+              <div class="bg-yellow-50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold mb-4">📝 Enrolment Process (How to Sign Up)</h3>
+                <div class="space-y-4">
+                  <div class="flex items-start gap-3">
+                    <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
+                    <div>
+                      <p><span class="font-semibold">Visit the AWB Website:</span> Type www.africanwebsitebuilders.com in your browser</p>
+                      <p class="text-sm text-gray-600">Just like finding your way to a new school! 🏫</p>
+                    </div>
+                  </div>
+                  
+                  <div class="flex items-start gap-3">
+                    <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">2</div>
+                    <div>
+                      <p>Click <span class="bg-red-500 text-white px-2 py-1 rounded">GET STARTED</span> in the top right (or humburger menu on mobile 📱)</p>
+                      <p class="text-sm text-gray-600">It's like walking into the admission office!</p>
+                    </div>
+                  </div>
+      
+                  <div class="flex items-start gap-3">
+                    <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">3</div>
+                    <div>
+                      <p>Click <span class="bg-green-500 text-white px-2 py-1 rounded">ENTER 'ZYLOSITE' WEBSITE BUILDER</span></p>
+                      <p class="text-sm text-gray-600">Just like entering your classroom</p>
+                    </div>
+                  </div>
+      
+                  <div class="flex items-start gap-3">
+                    <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">4</div>
+                    <div>
+                      <p>Fill in your admission form (first name, last name, email, password)</p>
+                      <p class="text-sm text-gray-600">Just like your school registration! 📋</p>
+                    </div>
+                  </div>
+      
+                  <div class="flex items-start gap-3">
+                    <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">5</div>
+                    <div>
+                      <p>Check the Cloudflare security box</p>
+                      <p class="text-sm text-gray-600">Help beat the robots by proving that you're human! 🤖)</p>
+                    </div>
+                  </div>
+      
+                  <div class="flex items-start gap-3">
+                    <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">6</div>
+                    <div>
+                      <p>Click <span class="bg-purple-500 text-white px-2 py-1 rounded">Create account</span></p>
+                      <p class="text-sm text-gray-600">You're officially enroled! 🎉</p>
+                    </div>
+                  </div>
+      
+                  <div class="flex items-start gap-3">
+                    <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">7</div>
+                    <div>
+                      <p>Check your email for the verification link</p>
+                      <p class="text-sm text-gray-600">Like getting your official acceptance letter! ✉️</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-8">
+              <div className="bg-yellow-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-4">🆕 Getting Your Digital Student ID (Sign Up)</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <Home className="text-gray-600" size={18} />
+                        <p>Head to <span className="font-semibold">www.digitalschoolhub.com</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">2</div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <Menu className="text-gray-600" size={18} />
+                        <p>Look for the <span className="bg-blue-500 text-white px-2 py-1 rounded">JOIN CLASS</span> button (it's like finding your classroom! 🏫)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">3</div>
+                    <p>Click <span className="bg-green-500 text-white px-2 py-1 rounded">NEW STUDENT SIGNUP</span></p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">4</div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <Mail className="text-gray-600" size={18} />
+                        <p>Fill in your details - like your digital school enrollment form! 📝</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">5</div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <CheckSquare className="text-gray-600" size={18} />
+                        <p>Complete the quick security check (no robots in our class! 🤖)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">6</div>
+                    <p>Click <span className="bg-purple-500 text-white px-2 py-1 rounded">Join Class</span> and you're in!</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">7</div>
+                    <p>Check your email to verify - it's like getting your official school badge! 🌟</p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="bg-blue-50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold mb-4">🔄 How to Sign In (Return to Your Account)</h3>
+                <div class="space-y-4">
+                  <div class="flex items-start gap-3">
+                    <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
+                    <div>
+                      <p>Click <span class="bg-blue-500 text-white px-2 py-1 rounded">MEMBER AREA in the top right (or menu on mobile) </span></p>
+                      <p class="text-sm text-gray-600">Like walking through the school gate 🚶‍♂️</p>
+                    </div>
+                  </div>
+      
+                  <div class="flex items-start gap-3">
+                    <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">2</div>
+                    <div>
+                      <p>Enter your email and password</p>
+                      <p class="text-sm text-gray-600">Enter your email and password (Pro tip: Check "Remember me" to save time next time! ⚡)</p>
+                    </div>
+                  </div>
+      
+                  <div class="flex items-start gap-3">
+                    <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">3</div>
+                    <div>
+                      <p>Check the Cloudflare security box</p>
+                      <p class="text-sm text-gray-600">Quick security check! ✋</p>
+                    </div>
+                  </div>
+      
+                  <div class="flex items-start gap-3">
+                    <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">4</div>
+                    <div>
+                      <p>Click <span class="bg-green-500 text-white px-2 py-1 rounded">Login</span></p>
+                      <p class="text-sm text-gray-600"> ...and BOOM! You're in, ready to learn!📚</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="bg-orange-50 p-4 rounded-lg">
+                <h4 class="font-semibold mb-2">💡 School Safety Tips</h4>
+                <ul class="space-y-2">
+                  <li>• Use a strong password (mix of letters, numbers, and symbols) - like keeping your school locker combination safe!</li>
+                  <li>• Always verify your email (it's like your official school ID!)</li>
+                  <li>• Keep your login details secret (like your diary! 🤫)</li>
+                  <li>• Need help? Your digital teachers are just a message away! 🙋‍♂️</li>
+             </ul>
+              </div>
+      
+              <div class="bg-green-50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold mb-4">🎓 Digital School Fun Facts!</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div class="bg-white/50 p-4 rounded-lg">
+                    <h4 class="font-semibold mb-2">Did You Know? 🤓</h4>
+                    <p>The most common password is "123"! That's like leaving your school locker wide open! Create a super-strong password (mix it up like a DJ! 🎧)</p>
+                  </div>
+                  <div class="bg-white/50 p-4 rounded-lg">
+                    <h4 class="font-semibold mb-2">Security Challenge! 🏆</h4>
+                    <p>Create a password that will give headache to hackers. Try to get a password that would take over 100 years to crack! Hint: Mix uppercase, lowercase, numbers, and symbols!</p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="bg-pink-50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold mb-4">📚 Your Amazing Journey Begins!</h3>
+                <div class="space-y-4">
+                  <p>Remember that butterfly feeling on your first day of school? That excitement of new possibilities? That's exactly what awaits you here in your digital classroom! 🌈</p>
+                  <div class="bg-white/50 p-4 rounded-lg">
+                    <h4 class="font-semibold mb-2">Remember... ⭐</h4>
+                    <p>Every web development expert started as a beginner student. Take your time, ask questions, and enjoy the learning journey. We're all here to learn together!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>`,
-        quiz: [
-          {
-            question: "What is the first step in creating a Zylosite account?",
-            options: ["Fill in profile", "Visit zylosite.com", "Verify email", "Choose template"],
-            correct: 1
-          },
-          {
-            question: "Which of these is recommended for account security?",
-            options: ["Simple password", "Using birthday as password", "Strong password", "Sharing credentials"],
-            correct: 2
-          }
-        ]
-      },
-      {
-        id: 4,
-        title: "Login",
-        content: `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Logging into Zylosite</h2>
-        
-        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-4">Login Process</h3>
-          <ol class="list-decimal pl-6 space-y-2">
-            <li>Navigate to the login page</li>
-            <li>Enter your email</li>
-            <li>Enter your password</li>
-            <li>Click "Login"</li>
-          </ol>
-        </div>
-
-        <div class="bg-red-50 dark:bg-red-900/30 p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-4">Troubleshooting</h3>
-          <ul class="list-disc pl-6 space-y-2">
-            <li>Forgot password recovery</li>
-            <li>Account lockout procedures</li>
-            <li>Contact support if needed</li>
-          </ul>
-        </div>
-      </div>`,
-        quiz: [
-          {
-            question: "What should you do if you forget your password?",
-            options: ["Create new account", "Use password recovery", "Contact friend", "Wait 24 hours"],
-            correct: 1
-          },
-          {
-            question: "What information is required to log in?",
-            options: ["Name and phone", "Email and password", "Username only", "Phone number only"],
-            correct: 1
-          }
-        ]
+      "quiz": [
+        {
+          "question": "What is the first step to create a new account on African Website Builders?",
+          "options": [
+            "Click 'Member Area'",
+            "Visit africanwebsitebuilders.com",
+            "Check your email",
+            "Fill out your password"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which button do you click to begin the sign-up process?",
+          "options": [
+            "LOGIN",
+            "MEMBER AREA",
+            "GET STARTED",
+            "CREATE ACCOUNT"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What security feature must you complete during both sign-up and sign-in?",
+          "options": [
+            "Enter your phone number",
+            "Upload a profile picture",
+            "Check the Cloudflare security box",
+            "Answer security questions"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
+          "options": [
+            "A confirmation page",
+            "A login form",
+            "A form to fill in your details",
+            "The account dashboard"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What does the email from AWB support include?",
+          "options": [
+            "A discount code",
+            "A verification link",
+            "An account creation tutorial",
+            "Your login credentials"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should you do after submitting your sign-up form?",
+          "options": [
+            "Start building immediately",
+            "Call support",
+            "Check your email for verification",
+            "Create a password"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What helpful feature can save time during future sign-ins?",
+          "options": [
+            "Remember me checkbox",
+            "Face recognition",
+            "Fingerprint scanning",
+            "Auto-login"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What is the purpose of the Cloudflare security checkbox?",
+          "options": [
+            "To save your login details",
+            "To verify you are not a robot",
+            "To activate two-factor authentication",
+            "To encrypt your password"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which button do returning users click to access their account?",
+          "options": [
+            "GET STARTED",
+            "MEMBER AREA",
+            "SIGN UP",
+            "CREATE ACCOUNT"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the name of the website builder you access after a successful sign in?",
+          "options": [
+            "SiteCraft",
+            "ZyloSite",
+            "WebMaker",
+            "BuildFast"
+          ],
+          "correct": 1
+        }
+      ]
       },
       {
         id: 5,
@@ -963,44 +1243,6 @@ const defaultCourseModules = [
             question: "What is the purpose of the dashboard?",
             options: ["Only for logout", "Email management", "Central control hub", "Password reset"],
             correct: 2
-          }
-        ]
-      },
-      {
-        id: 6,
-        title: "Logout",
-        content: `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Logging Out Securely</h2>
-        
-        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-4">Logout Process</h3>
-          <ol class="list-decimal pl-6 space-y-2">
-            <li>Save all current work</li>
-            <li>Click profile icon</li>
-            <li>Select "Logout"</li>
-            <li>Confirm logout if prompted</li>
-          </ol>
-        </div>
-
-        <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-4">Security Tips</h3>
-          <ul class="list-disc pl-6 space-y-2">
-            <li>Always logout when finished</li>
-            <li>Clear browser cache if on public computer</li>
-            <li>Never leave account logged in on shared devices</li>
-          </ul>
-        </div>
-      </div>`,
-        quiz: [
-          {
-            question: "What should you do before logging out?",
-            options: ["Delete cookies", "Save your work", "Clear history", "Change password"],
-            correct: 1
-          },
-          {
-            question: "What is recommended when using a public computer?",
-            options: ["Stay logged in", "Clear browser cache", "Share credentials", "Save password"],
-            correct: 1
           }
         ]
       }
