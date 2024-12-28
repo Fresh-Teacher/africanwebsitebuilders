@@ -376,13 +376,13 @@ const defaultCourseModules = [
           <footer class="text-sm mt-2">- Bill Gates, Microsoft Founder</footer>
         </blockquote>
     
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🤔 Let's Start With a Story...</h4>
             <p class="mb-4">Meet Sarah, a small business owner in Kampala. She makes beautiful traditional clothing but only sells to people who walk past her shop. One day, a customer from London found her shop online (through a website her nephew quickly made) and ordered 50 pieces! Sarah's business transformed overnight. This is the power of having an online presence!</p>
             <p>Now, imagine being the person who can create such transformative opportunities for businesses across Africa! That's exactly what you're about to become.</p>
           </div>
     
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🌍 The Digital Divide: A Golden Opportunity</h4>
             <ul class="list-disc pl-6 space-y-2">
             <li>While 95% of businesses in developed countries have websites, only 20% of African businesses have an online presence</li>
@@ -397,7 +397,7 @@ const defaultCourseModules = [
     
         <div class="bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/30 dark:to-blue-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">🎯 Your Mission (Should You Choose to Accept It!)</h3>
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <p class="text-lg mb-4">Become a professional website builder and help bridge the digital divide while building a successful career! Here's what makes this opportunity exciting:</p>
             <ul class="list-disc pl-6 space-y-3">
               <li><span class="font-semibold">Massive Market:</span> 80% of African businesses need websites</li>
@@ -412,7 +412,7 @@ const defaultCourseModules = [
         <div class="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/30 dark:to-orange-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">🎓 Your 4-Week Learning Adventure</h3>
           
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 1: BEGINNERS</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-blue-500 pl-4">
@@ -422,7 +422,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 2: INTERMEDIATE</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-green-500 pl-4">
@@ -432,7 +432,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 3: AFFILIATE</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-purple-500 pl-4">
@@ -442,7 +442,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 4: SALES</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-yellow-500 pl-4">
@@ -457,7 +457,7 @@ const defaultCourseModules = [
         <div class="bg-gradient-to-r from-pink-50 to-red-50 dark:from-pink-900/30 dark:to-red-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">💰 Your Income Potential</h3>
           
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">Let's Do The Math! 🧮</h4>
             
             <div class="space-y-4">
@@ -605,21 +605,21 @@ const defaultCourseModules = [
             <footer class="text-sm mt-2">- Mr. Angel & Mr. Zion, AWB Co-founders</footer>
           </blockquote>
     
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
           <h4 class="font-semibold text-xl mb-4">👉 Quick Question For You...</h4>
           <p class="mb-4">Ever dreamt of earning real money while you sleep? Or maybe you've thought, "I wish I could build websites and make some money, but I don't know how to code..." Well, guess what? You're in exactly the right place! 😎</p>
           
           <p class="mb-4">Let me tell you a quick story that'll blow your mind... 🤯</p>
           
-          <div class="bg-purple-50 p-4 rounded-lg mb-4">
-            <p class="mb-2">Two amazing gentlemen from the UK, <b>Mr. Angel and Mr. Zion</b> (they're super cool and you'll meet them soon!), were sitting in London thinking: "Hey, what if we could help talented people in Africa earn some good money from creating websites without needing any degrees or coding skills?"</p>
+          <div class="bg-yellow-50 p-4 rounded-lg mb-4 text-black">
+          <p class="mb-2">Two amazing gentlemen from the UK, <b>Mr. Angel and Mr. Zion</b> (they're super cool and you'll meet them soon!), were sitting in London thinking: "Hey, what if we could help talented people in Africa earn some good money from creating websites without needing any degrees or coding skills?"</p>
             <p>And BOOM! 💥 <strong>African Website Builders</strong> was born!</p>
           </div>
           <p class="mb-4">Today, their vision has become reality! Hundreds of Africans from various backgrounds are building sustainable livelihoods through AWB. They're not just earning extra income - they're transforming their lives and communities! 🌍</p>
 
         </div>
     
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
           <h4 class="font-semibold text-xl mb-4">🎮 The Coolest Part? It's Like Playing a Game!</h4>
           <p class="mb-4">Remember how easy it is to post on social media? Well, building websites with our tool (we call it Zylosite) is JUST AS EASY! No kidding! 😉<p>Forget everything you've heard about website building being complicated! With Zylosite, our revolutionary web tool, you'll be creating stunning websites in minutes - yes, MINUTES! ⏰</p><br>
             
@@ -634,7 +634,7 @@ const defaultCourseModules = [
             </div>
           </div>
     
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">Now, Let's Talk About The Money, Bro! 🤑</h4>
             <p class="mb-4">This is where it gets SUPER exciting (I'm actually bouncing in my chair as I write this!) 🤗</p>            
             <div class="bg-green-50 p-4 rounded-lg mb-4">
@@ -648,7 +648,7 @@ const defaultCourseModules = [
               </ul>
             </div>
 
-            <div class="bg-orange/50 p-6 rounded-lg mb-6">
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4"> Let's Talk Real Money - In Your Own Currency! 💷</h4>
             <p class="mb-4">We know you're thinking: "Okay, pounds sound great, but what does this mean for me in Uganda?" Let's break it down! 📊</p>
               
@@ -688,7 +688,7 @@ const defaultCourseModules = [
             </div>
           </div>
     
-          <div class="bg-orange/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🎓 Your Complete Success Package</h4>
             <p class="mb-4">We don't just train you - we launch your career! Here's what you get:</p>
             
