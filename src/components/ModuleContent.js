@@ -361,59 +361,400 @@ const defaultCourseModules = [
       {
         id: 1,
         title: "Learn Website Sequence",
-        content: `This unit introduces the basic structure and sequence of creating a website on the Zylosite platform. Students will learn the tools and steps involved in setting up and managing a website.`,
-        quiz: [
-          {
-            question: "What is AWB in full?",
-            options: ["African Web Builders", "African Website Builders", "African World Builders", "African Work Builders"],
-            correct: 1
-          },
-          {
-            question: "Who are the founders of the African Website Builder's Platform?",
-            options: ["Fresh Teacher", "Ms. Grace & Mr. John", "Mr. Angel & Mr. Zion", "Dr. Ali & Mr. Moses"],
-            correct: 2
-          },
-          {
-            question: "What is the first step in building a website on Zylosite?",
-            options: ["Choose a theme", "Sign up", "Publish the website", "Add a domain name"],
-            correct: 1
-          },
-          {
-            question: "Which feature allows you to edit your website layout?",
-            options: ["Dashboard", "Theme Editor", "Content Manager", "Analytics"],
-            correct: 1
-          }
-        ]
-      },
-      {
-        id: 2,
-        title: "Website Tour & Practice",
-        content: `This unit provides a comprehensive tour of the Zylosite interface and includes hands-on practice to familiarize students with the platform's features and tools.`,
-        quiz: [
-          {
-            question: "How much money will you pay for the course?",
-            options: ["£1", "£1.5", "£2", "£2.5"],
-            correct: 2
-          },
-          {
-            question: "Which platform does AWB use to develop websites?",
-            options: ["Zylo", "WordPress", "Wix", "Shopify"],
-            correct: 0
-          },
-          {
-            question: "What tool is used to track website visitors on Zylosite?",
-            options: ["Analytics Dashboard", "Theme Manager", "Content Editor", "Quiz Module"],
-            correct: 0
-          },
-          {
-            question: "Which of the following can you do in the Practice section?",
-            options: ["Build a complete website", "Learn about SEO tools", "Edit a template", "All of the above"],
-            correct: 3
-          }
-        ]
-      }
-    ]
-  },
+        content: `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Welcome to Your Website Building Adventure! 🚀</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">🌟 The Future is Digital! 🌟</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "If your business is not on the internet, then you are not in business."
+          <footer class="text-sm mt-2">- Bill Gates, Microsoft Founder</footer>
+        </blockquote>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🤔 Let's Start With a Story...</h4>
+            <p class="mb-4">Meet Sarah, a small business owner in Lagos. She makes beautiful traditional clothing but only sells to people who walk past her shop. One day, a customer from London found her shop online (through a website her nephew quickly made) and ordered 50 pieces! Sarah's business transformed overnight. This is the power of having an online presence!</p>
+            <p>Now, imagine being the person who can create such transformative opportunities for businesses across Africa! That's exactly what you're about to become.</p>
+          </div>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🌍 The Digital Divide: A Golden Opportunity</h4>
+            <ul class="list-disc pl-6 space-y-2">
+            <li>While 95% of businesses in developed countries have websites, only 20% of African businesses have an online presence</li>
+            <li>Over 60% of consumers check online before making purchases</li>
+            <li>Businesses with websites are 2.8 times more likely to grow than those without</li>
+          </ul>
+          </div>
+          <p class="font-semibold text-lg">THIS IS WHERE YOU COME IN! 💪</p>
+          <p>You're about to become part of the solution, helping African businesses step into the digital age while building a rewarding career for yourself.</p>
+        </div>
+        </div>
+    
+        <div class="bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/30 dark:to-blue-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">🎯 Your Mission (Should You Choose to Accept It!)</h3>
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <p class="text-lg mb-4">Become a professional website builder and help bridge the digital divide while building a successful career! Here's what makes this opportunity exciting:</p>
+            <ul class="list-disc pl-6 space-y-3">
+              <li><span class="font-semibold">Massive Market:</span> 80% of African businesses need websites</li>
+              <li><span class="font-semibold">Recurring Income:</span> Earn monthly from each active website</li>
+              <li><span class="font-semibold">Growing Demand:</span> Digital presence is becoming essential</li>
+              <li><span class="font-semibold">Low Competition:</span> Few skilled website builders in the market</li>
+              <li><span class="font-semibold">Future-Proof Skills:</span> Digital skills are always in demand</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/30 dark:to-orange-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">🎓 Your 4-Week Learning Adventure</h3>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-lg mb-4">WEEK 1: BEGINNERS</h4>
+            <div class="space-y-4">
+              <div class="border-l-4 border-blue-500 pl-4">
+                <h5 class="font-semibold">Navigating The System</h5>
+                <p>The first week of training focuses on website building, with participants following daily 2-hour lectures by Mr. Zion and Mr. Angel from London. Each day you learn essential skills guided by three key meetings on Google Meet — at the start, middle, and end of the week.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-lg mb-4">WEEK 2: INTERMEDIATE</h4>
+            <div class="space-y-4">
+              <div class="border-l-4 border-green-500 pl-4">
+                <h5 class="font-semibold">Hands-in Practice</h5>
+                <p>In the second week, you will undergo intensive training on the Zylo website building system. Throughout this week, you will be required to create three test websites. At the end of the week, our team will provide you with valuable tips and guidance to help you achieve better results and enhance your skills.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-lg mb-4">WEEK 3: AFFILIATE</h4>
+            <div class="space-y-4">
+              <div class="border-l-4 border-purple-500 pl-4">
+                <h5 class="font-semibold">Marketing</h5>
+                <p>Week 3, participants will learn how to make money with commissions from affiliate products, eCommerce, and online marketing. These high-powered classes are compulsory for those wishing to earn recurring income and are only available to participants who complete the first two weeks.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-lg mb-4">WEEK 4: SALES</h4>
+            <div class="space-y-4">
+              <div class="border-l-4 border-yellow-500 pl-4">
+                <h5 class="font-semibold">Sales Mastery</h5>
+                <p>Week 4 features a sales course created by Mr. Brown, an American entrepreneur with a proven track record of generating millions in revenue through sales and business-to-business transactions. These lessons provide valuable insights on how to earn $500 per month by attracting local and international clients to purchase your websites.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+        <div class="bg-gradient-to-r from-pink-50 to-red-50 dark:from-pink-900/30 dark:to-red-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">💰 Your Income Potential</h3>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-lg mb-4">Let's Do The Math! 🧮</h4>
+            
+            <div class="space-y-4">
+              <div class="p-4 border border-green-500 rounded-lg">
+                <h5 class="font-semibold text-green-700">Monthly Recurring Revenue</h5>
+                <ul class="list-disc pl-6">
+                  <li>Each active website: £7/month</li>
+                  <li>Target: 20 websites</li>
+                  <li>Potential monthly income: £140</li>
+                  <li>Annual recurring revenue: £1,680</li>
+                </ul>
+              </div>
+              
+              <div class="p-4 border border-blue-500 rounded-lg">
+                <h5 class="font-semibold text-blue-700">Additional Income Streams</h5>
+                <ul class="list-disc pl-6">
+                  <li>Affiliate marketing commissions</li>
+                  <li>Custom website projects</li>
+                  <li>Maintenance services</li>
+                  <li>Consultation fees</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>`,
+  quiz: [
+    {
+      question: "According to Bill Gates' quote in the course introduction, what happens if your business is not on the internet?",
+      options: [
+        "It grows more slowly",
+        "You are not in business",
+        "It costs more to run",
+        "You need better marketing"
+      ],
+      correct: 1,
+      explanation: "Bill Gates emphasizes that in today's digital age, not having an online presence is equivalent to not being in business at all."
+    },
+    {
+      question: "What unique opportunity does the AWB course address in the African market?",
+      options: [
+        "Teaching coding languages",
+        "Building mobile apps",
+        "The 80% of African businesses without websites",
+        "Social media marketing"
+      ],
+      correct: 2,
+      explanation: "The course addresses the significant gap where 80% of African businesses lack an online presence, creating a massive opportunity for website builders."
+    },
+    {
+      question: "How much recurring monthly income can you earn per active website built through AWB?",
+      options: [
+        "£5",
+        "£6",
+        "£7",
+        "£8"
+      ],
+      correct: 2,
+      explanation: "AWB offers £7 monthly recurring income for each active website you build and maintain."
+    },
+    {
+      question: "What is the recommended target number of active websites to build for optimal income?",
+      options: [
+        "10 websites",
+        "15 websites",
+        "20 websites",
+        "25 websites"
+      ],
+      correct: 2,
+      explanation: "The course recommends building 20 active websites, which would generate £140 in monthly recurring income."
+    },
+    {
+      question: "How long does the complete AWB training program last?",
+      options: [
+        "2 weeks",
+        "3 weeks",
+        "4 weeks",
+        "6 weeks"
+      ],
+      correct: 2,
+      explanation: "The AWB training is a comprehensive 4-week hands-on practice program designed to turn you into a professional website builder."
+    },
+    {
+      question: "What additional income stream does the AWB course teach besides website building?",
+      options: [
+        "Social media management",
+        "Content writing",
+        "Affiliate marketing",
+        "Email marketing"
+      ],
+      correct: 2,
+      explanation: "The course includes training in affiliate marketing as an additional income stream alongside website building."
+    },
+    {
+      question: "What is required to receive the AWB certification?",
+      options: [
+        "Build 5 websites",
+        "Pass the online test",
+        "Complete 6 months of work",
+        "Pay a certification fee"
+      ],
+      correct: 1,
+      explanation: "To receive certification, students must pass an online test after completing the training program."
+    },
+    {
+      question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
+      options: [
+        "£120",
+        "£130",
+        "£140",
+        "£150"
+      ],
+      correct: 2,
+      explanation: "With 20 active websites at £7 each, you can earn £140 in monthly recurring income."
+    },
+    {
+      question: "What type of practical experience does the AWB course provide?",
+      options: [
+        "Theoretical learning only",
+        "Video tutorials only",
+        "Hands-on website building practice",
+        "Written assignments"
+      ],
+      correct: 2,
+      explanation: "The course provides hands-on practice in website building, allowing you to learn by doing real projects."
+    },
+    {
+      question: "How often are payments made for active websites maintained through AWB?",
+      options: [
+        "Weekly",
+        "Monthly",
+        "Quarterly",
+        "Annually"
+      ],
+      correct: 1,
+      explanation: "AWB provides recurring monthly payments for each active website you maintain."
+    }
+  ]
+    },
+    {
+      id: 2,
+      title: "Create an Account (Sign Up)",
+      content: `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Creating Your Zylosite Account</h2>
+        
+        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Sign Up Process</h3>
+          <ol class="list-decimal pl-6 space-y-2">
+            <li>Visit www.zylosite.com</li>
+            <li>Click the "Sign Up" button</li>
+            <li>Fill in required information</li>
+            <li>Verify your email</li>
+            <li>Complete your profile</li>
+          </ol>
+        </div>
+
+        <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Important Tips</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Use a strong password</li>
+            <li>Keep your credentials secure</li>
+            <li>Use a professional email address</li>
+          </ul>
+        </div>
+      </div>`,
+      quiz: [
+        {
+          question: "What is the first step in creating a Zylosite account?",
+          options: ["Fill in profile", "Visit zylosite.com", "Verify email", "Choose template"],
+          correct: 1
+        },
+        {
+          question: "Which of these is recommended for account security?",
+          options: ["Simple password", "Using birthday as password", "Strong password", "Sharing credentials"],
+          correct: 2
+        }
+      ]
+    },
+    {
+      id: 3,
+      title: "Login",
+      content: `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Logging into Zylosite</h2>
+        
+        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Login Process</h3>
+          <ol class="list-decimal pl-6 space-y-2">
+            <li>Navigate to the login page</li>
+            <li>Enter your email</li>
+            <li>Enter your password</li>
+            <li>Click "Login"</li>
+          </ol>
+        </div>
+
+        <div class="bg-red-50 dark:bg-red-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Troubleshooting</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Forgot password recovery</li>
+            <li>Account lockout procedures</li>
+            <li>Contact support if needed</li>
+          </ul>
+        </div>
+      </div>`,
+      quiz: [
+        {
+          question: "What should you do if you forget your password?",
+          options: ["Create new account", "Use password recovery", "Contact friend", "Wait 24 hours"],
+          correct: 1
+        },
+        {
+          question: "What information is required to log in?",
+          options: ["Name and phone", "Email and password", "Username only", "Phone number only"],
+          correct: 1
+        }
+      ]
+    },
+    {
+      id: 4,
+      title: "Website Navigation",
+      content: `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Navigating Your Website Dashboard</h2>
+        
+        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Dashboard Elements</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Main menu overview</li>
+            <li>Quick access tools</li>
+            <li>Recent projects section</li>
+            <li>Settings and preferences</li>
+          </ul>
+        </div>
+
+        <div class="bg-green-50 dark:bg-green-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Key Features</h3>
+          <div class="space-y-4">
+            <div>
+              <h4 class="font-semibold">Projects Panel</h4>
+              <p>Access and manage all your website projects.</p>
+            </div>
+            
+            <div>
+              <h4 class="font-semibold">Tools Section</h4>
+              <p>Quick access to commonly used website building tools.</p>
+            </div>
+          </div>
+        </div>
+      </div>`,
+      quiz: [
+        {
+          question: "Where can you find your website projects?",
+          options: ["Settings menu", "Projects panel", "Help section", "Login page"],
+          correct: 1
+        },
+        {
+          question: "What is the purpose of the dashboard?",
+          options: ["Only for logout", "Email management", "Central control hub", "Password reset"],
+          correct: 2
+        }
+      ]
+    },
+    {
+      id: 5,
+      title: "Logout",
+      content: `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Logging Out Securely</h2>
+        
+        <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Logout Process</h3>
+          <ol class="list-decimal pl-6 space-y-2">
+            <li>Save all current work</li>
+            <li>Click profile icon</li>
+            <li>Select "Logout"</li>
+            <li>Confirm logout if prompted</li>
+          </ol>
+        </div>
+
+        <div class="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Security Tips</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Always logout when finished</li>
+            <li>Clear browser cache if on public computer</li>
+            <li>Never leave account logged in on shared devices</li>
+          </ul>
+        </div>
+      </div>`,
+      quiz: [
+        {
+          question: "What should you do before logging out?",
+          options: ["Delete cookies", "Save your work", "Clear history", "Change password"],
+          correct: 1
+        },
+        {
+          question: "What is recommended when using a public computer?",
+          options: ["Stay logged in", "Clear browser cache", "Share credentials", "Save password"],
+          correct: 1
+        }
+      ]
+    }
+  ]
+},
   {
     id: 2,
     title: "Advanced Website Building Techniques",
