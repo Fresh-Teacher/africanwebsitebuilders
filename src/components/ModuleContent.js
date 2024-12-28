@@ -363,6 +363,28 @@ const defaultCourseModules = [
         title: "Learn Website Sequence",
         content: `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Welcome to Your Website Building Course! 🚀</h2>
+        <div class="flex justify-center mb-6">
+  <a 
+  href="https://awb-silk.vercel.app/CREATING%20A%20ZYLOSITE%20ACCOUNT_compressed.pdf" 
+  download
+    class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors animate-heartbeat"
+  >
+    <svg 
+      class="w-5 h-5 mr-2" 
+      fill="none" 
+      stroke="currentColor" 
+      viewBox="0 0 24 24"
+    >
+      <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        strokeWidth={2} 
+        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+      />
+    </svg>
+    Download PDF Guide
+  </a>
+</div>
         <video className="w-full rounded-lg" controls>
         <source src="https://awb-silk.vercel.app/African Web-Builders Course English (1).mp4" type="video/mp4" />
         Your browser does not support the video tag.
