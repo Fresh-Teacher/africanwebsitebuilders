@@ -368,7 +368,7 @@ const defaultCourseModules = [
         Your browser does not support the video tag.
       </video>
         
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+        <div class="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-purple-900/50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">🖥️The Future is Digital!💻</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
@@ -376,13 +376,13 @@ const defaultCourseModules = [
           <footer class="text-sm mt-2">- Bill Gates, Microsoft Founder</footer>
         </blockquote>
     
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🤔 Let's Start With a Story...</h4>
             <p class="mb-4">Meet Sarah, a small business owner in Kampala. She makes beautiful traditional clothing but only sells to people who walk past her shop. One day, a customer from London found her shop online (through a website her nephew quickly made) and ordered 50 pieces! Sarah's business transformed overnight. This is the power of having an online presence!</p>
             <p>Now, imagine being the person who can create such transformative opportunities for businesses across Africa! That's exactly what you're about to become.</p>
           </div>
     
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🌍 The Digital Divide: A Golden Opportunity</h4>
             <ul class="list-disc pl-6 space-y-2">
             <li>While 95% of businesses in developed countries have websites, only 20% of African businesses have an online presence</li>
@@ -395,9 +395,9 @@ const defaultCourseModules = [
         </div>
         </div>
     
-        <div class="bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/30 dark:to-blue-900/30 p-6 rounded-xl">
+        <div class="bg-gradient-to-r from-emerald-100 to-blue-100 dark:from-emerald-900/50 dark:to-blue-900/50 dark:from-green-900/30 dark:to-blue-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">🎯 Your Mission (Should You Choose to Accept It!)</h3>
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <p class="text-lg mb-4">Become a professional website builder and help bridge the digital divide while building a successful career! Here's what makes this opportunity exciting:</p>
             <ul class="list-disc pl-6 space-y-3">
               <li><span class="font-semibold">Massive Market:</span> 80% of African businesses need websites</li>
@@ -409,10 +409,10 @@ const defaultCourseModules = [
           </div>
         </div>
     
-        <div class="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/30 dark:to-orange-900/30 p-6 rounded-xl">
+        <div class="bg-gradient-to-r from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 dark:from-yellow-900/30 dark:to-orange-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">🎓 Your 4-Week Learning Adventure</h3>
           
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 1: BEGINNERS</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-blue-500 pl-4">
@@ -422,7 +422,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 2: INTERMEDIATE</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-green-500 pl-4">
@@ -432,7 +432,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 3: AFFILIATE</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-purple-500 pl-4">
@@ -442,7 +442,7 @@ const defaultCourseModules = [
             </div>
           </div>
 
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">WEEK 4: SALES</h4>
             <div class="space-y-4">
               <div class="border-l-4 border-yellow-500 pl-4">
@@ -457,7 +457,7 @@ const defaultCourseModules = [
         <div class="bg-gradient-to-r from-pink-50 to-red-50 dark:from-pink-900/30 dark:to-red-900/30 p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-4">💰 Your Income Potential</h3>
           
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-lg mb-4">Let's Do The Math! 🧮</h4>
             
             <div class="space-y-4">
@@ -597,7 +597,7 @@ const defaultCourseModules = [
       <source src="https://awb-silk.vercel.app/VID-20241216-WA0157.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+        <div class="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-purple-900/50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Transforming Lives Through Digital Opportunities!</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
@@ -605,7 +605,7 @@ const defaultCourseModules = [
             <footer class="text-sm mt-2">- Mr. Angel & Mr. Zion, AWB Co-founders</footer>
           </blockquote>
     
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
           <h4 class="font-semibold text-xl mb-4">👉 Quick Question For You...</h4>
           <p class="mb-4">Ever dreamt of earning real money while you sleep? Or maybe you've thought, "I wish I could build websites and make some money, but I don't know how to code..." Well, guess what? You're in exactly the right place! 😎</p>
           
@@ -617,7 +617,7 @@ const defaultCourseModules = [
           </div>
         </div>
     
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
           <h4 class="font-semibold text-xl mb-4">🎮 The Coolest Part? It's Like Playing a Game!</h4>
           <p class="mb-4">Remember how easy it is to post on social media? Well, building websites with our tool (we call it Zylosite) is JUST AS EASY! No kidding! 😉<p>Forget every complicated thing you know about website building! With Zylosite, our revolutionary web tool, you'll be creating stunning websites in minutes - yes, MINUTES! ⏰</p><br>
             
@@ -632,7 +632,7 @@ const defaultCourseModules = [
             </div>
           </div>
     
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">Now, Let's Talk About The Money, Bro! 🤑</h4>
             <p class="mb-4">This is where it gets SUPER exciting (I'm actually bouncing in my chair as I write this!) 🤗</p>            
             <div class="bg-green-50 p-4 rounded-lg mb-4">
@@ -652,7 +652,7 @@ const defaultCourseModules = [
             </div>
           </div>
     
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🎓 Your Complete Success Package</h4>
             <p class="mb-4">We don't just train you - we launch your career! Here's what you get:</p>
             
@@ -694,7 +694,7 @@ const defaultCourseModules = [
             <p class="text-lg font-semibold">That's right - MONTHLY INCOME for work you do just once! 🎉</p>
           </div>
     
-          <div class="bg-white/50 p-6 rounded-lg mt-6">
+          <div class="bg-white/80 dark:bg-gray-800 p-6 rounded-lg mt-6">
         <h4 class="font-semibold text-xl mb-4">🚀 Ready to Join the Crew?</h4>
         <p class="text-lg mb-4">Look, hundreds of people just like you are already crushing it with AWB. They started exactly where you are now - ready to take that first step toward financial freedom. Some started with zero tech knowledge (seriously, some couldn't even create an account! 😅)</p>
         <p class="text-xl font-bold text-center text-blue-600">The only question is... are you ready to be our next success story? Let's make it happen! <br><strong>The digital revolution is here - and YOU are part of it! </strong>🌟</p>
@@ -774,7 +774,7 @@ const defaultCourseModules = [
           "correct": 2
         },
         {
-          "question": "How do website builders earn recurring income?",
+          "question": "How does the AWB website builder earn you recurring income?",
           "options": [
             "Through one-time website sales",
             "From monthly hosting fees",
@@ -791,7 +791,7 @@ const defaultCourseModules = [
             "Wix",
             "Zylosite"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "question": "What ongoing work is required to maintain the passive income?",
