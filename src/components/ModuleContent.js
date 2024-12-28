@@ -611,10 +611,11 @@ const defaultCourseModules = [
           
           <p class="mb-4">Let me tell you a quick story that'll blow your mind... 🤯</p>
           
-          <div class="bg-yellow-50 p-4 rounded-lg mb-4 text-black">
+          <div class="bg-yellow-50 p-4 rounded-lg mb-4" style="color: black;">
           <p class="mb-2">Two amazing gentlemen from the UK, <b>Mr. Angel and Mr. Zion</b> (they're super cool and you'll meet them soon!), were sitting in London thinking: "Hey, what if we could help talented people in Africa earn some good money from creating websites without needing any degrees or coding skills?"</p>
-            <p>And BOOM! 💥 <strong>African Website Builders</strong> was born!</p>
-          </div>
+          <p>And BOOM! 💥 <strong>African Website Builders</strong> was born!</p>
+      </div>
+      
           <p class="mb-4">Today, their vision has become reality! Hundreds of Africans from various backgrounds are building sustainable livelihoods through AWB. They're not just earning extra income - they're transforming their lives and communities! 🌍</p>
 
         </div>
