@@ -691,54 +691,53 @@ const defaultCourseModules = [
             </div>
           </div>
     
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-blue/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🎓 Your Complete Success Package</h4>
             <p class="mb-4">We don't just train you - we launch your career! Here's what you get:</p>
             
             <div class="space-y-4">
-              <div class="bg-blue-50 p-4 rounded-lg">
-                <h5 class="font-semibold">Expert Training</h5>
-                <p>Learn from experienced AWB tutors who know Zylosite inside and out!</p>
-              </div>
-              
-              <div class="bg-purple-50 p-4 rounded-lg">
-                <h5 class="font-semibold">Official Certification</h5>
-                <p>Earn your AWB certification -  your passport to the digital economy!</p>
-              </div>
-              
-              <div class="bg-green-50 p-4 rounded-lg">
-                <h5 class="font-semibold">Zylo Job Market Access</h5>
-                <p>Get listed on our exclusive job marketplace where clients are actively seeking website builders!</p>
-              </div>
-    
-              <div class="bg-orange-50 p-4 rounded-lg">
-                <h5 class="font-semibold">Business Team Support</h5>
-                <p>Our dedicated business team will help market your services and connect you with potential clients!</p>
-                <p>You'll get listed on our Zylo Job Market - where clients are literally waiting to throw money at you!</p>
-
-                </div>
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg">
+              <h5 class="font-semibold">Expert Training</h5>
+              <p>Learn from experienced AWB tutors who know Zylosite inside and out!</p>
+            </div>
+            
+            <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg">
+              <h5 class="font-semibold">Official Certification</h5>
+              <p>Earn your AWB certification - your passport to the digital economy!</p>
+            </div>
+            
+            <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+              <h5 class="font-semibold">Zylo Job Market Access</h5>
+              <p>Get listed on our exclusive job marketplace where clients are actively seeking website builders!</p>
+            </div>
+          
+            <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg">
+              <h5 class="font-semibold">Business Team Support</h5>
+              <p>Our dedicated business team will help market your services and connect you with potential clients!</p>
+              <p>You'll get listed on our Zylo Job Market - where clients are literally waiting to throw money at you!</p>
             </div>
           </div>
-    
-          <div class="bg-gradient-to-r from-yellow-100 to-orange-100 p-6 rounded-lg">
-        <h4 class="font-semibold text-xl mb-4"> But Wait... It Gets Even Better! 😁</h4>
-        <p class="text-lg font-bold text-blue-600 mb-4">BUILD ONCE, EARN FOREVER! 💸</p>
-        <p class="text-lg mb-4">Picture this: You're chilling on your couch, maybe watching Netflix, and BING! 📱 Another payment just dropped into your account! How? Because your websites keep making money EVEN WHILE YOU SLEEP! 😴</p>
-        <p class="text-lg mb-4">Once you build a website and your client loves it (and they will!), you'll keep earning month after month as long as it stays active! Imagine earning money while you...</p>
-            <ol class="list-decimal pl-6 space-y-2 mb-4">
-            <li>Sleep peacefully at night 🛌</li>
-            <li>Enjoy time with family and friends 👨‍👩‍👧‍👦</li>
-            <li>Work on building even more websites 💻</li>
-            <li>Travel and explore the world ✈️</li>
-            </ol>
-            <p class="text-lg font-semibold">That's right - PASSIVE MONTHLY INCOME for work you do just once! 🎉</p>
           </div>
     
-          <div class="bg-white/50 p-6 rounded-lg mt-6">
-        <h4 class="font-semibold text-xl mb-4">🚀 Ready to Join the Crew?</h4>
-        <p class="text-lg mb-4">Remember: Every successful AWB graduate started from here - reading this introduction and dreaming of a better future. The only difference between them and you? They took that first step! They started exactly where you are now - some started with zero tech knowledge (seriously, some couldn't even create an account! 🤓)</p>
-        <p class="text-xl font-bold text-center text-blue-600">The only question is... are you ready to be our next success story? Let's make it happen! <br><strong>The digital revolution is here - and YOU are part of it! </strong>🌟</p>
+          <div class="bg-gradient-to-r from-yellow-100 to-orange-100 dark:from-yellow-800 dark:to-orange-800 p-6 rounded-lg">
+          <h4 class="font-semibold text-xl mb-4">But Wait... It Gets Even Better! 😁</h4>
+          <p class="text-lg font-bold text-blue-600 dark:text-blue-300 mb-4">BUILD ONCE, EARN FOREVER! 💸</p>
+          <p class="text-lg mb-4">Picture this: You're chilling on your couch, maybe watching Netflix, and BING! 📱 Another payment just dropped into your account! How? Because your websites keep making money EVEN WHILE YOU SLEEP! 😴</p>
+          <p class="text-lg mb-4">Once you build a website and your client loves it (and they will!), you'll keep earning month after month as long as it stays active! Imagine earning money while you...</p>
+          <ol class="list-decimal pl-6 space-y-2 mb-4">
+              <li>Sleep peacefully at night 🛌</li>
+              <li>Enjoy time with family and friends 👨‍👩‍👧‍👦</li>
+              <li>Work on building even more websites 💻</li>
+              <li>Travel and explore the world ✈️</li>
+          </ol>
+          <p class="text-lg font-semibold">That's right - PASSIVE MONTHLY INCOME for work you do just once! 🎉</p>
       </div>
+    
+      <div class="bg-white/50 dark:bg-gray-800 p-6 rounded-lg mt-6">
+      <h4 class="font-semibold text-xl mb-4">🚀 Ready to Join the Crew?</h4>
+      <p class="text-lg mb-4">Remember: Every successful AWB graduate started from here - reading this introduction and dreaming of a better future. The only difference between them and you? They took that first step! They started exactly where you are now - some started with zero tech knowledge (seriously, some couldn't even create an account! 🤓)</p>
+      <p class="text-xl font-bold text-center text-blue-600 dark:text-blue-300">The only question is... are you ready to be our next success story? Let's make it happen! <br><strong>The digital revolution is here - and YOU are part of it! </strong>🌟</p>
+  </div>
         </div>
       </div>`,
       "quiz": [
