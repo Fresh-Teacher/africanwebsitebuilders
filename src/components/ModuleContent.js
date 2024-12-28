@@ -447,7 +447,7 @@ const defaultCourseModules = [
             <div class="space-y-4">
               <div class="border-l-4 border-yellow-500 pl-4">
                 <h5 class="font-semibold">Sales Mastery</h5>
-                <p>Week 4 features a sales course created by Mr. Brown, an American entrepreneur with a proven track record of generating millions in revenue through sales and business-to-business transactions. These lessons provide valuable insights on how to earn $500 per month by attracting local and international clients to purchase your websites.</p>
+                <p>Week 4 features a sales course created by Mr. Brown, an American entrepreneur with a proven track record of generating millions in revenue through sales and business-to-business transactions. These lessons provide valuable insights on how to earn  £500 per month by attracting local and international clients to purchase your websites.</p>
               </div>
             </div>
           </div>
@@ -461,15 +461,17 @@ const defaultCourseModules = [
             <h4 class="font-semibold text-lg mb-4">Let's Do The Math! 🧮</h4>
             
             <div class="space-y-4">
-              <div class="p-4 border border-green-500 rounded-lg">
-                <h5 class="font-semibold text-green-700">Monthly Recurring Revenue</h5>
-                <ul class="list-disc pl-6">
-                  <li>Each active website: £7/month</li>
-                  <li>Target: 20 websites</li>
-                  <li>Potential monthly income: £140</li>
-                  <li>Annual recurring revenue: £1,680</li>
-                </ul>
-              </div>
+            <div class="p-4 border border-green-500 rounded-lg">
+              <h5 class="font-semibold text-green-700">Monthly Recurring Revenue</h5>
+              <ul class="list-disc pl-6">
+                <li>Each active website: £7/month (UGX 32,100)</li>
+                <li>Target: 20 websites</li>
+                <li>Potential monthly income: £140 (UGX 641,850)</li>
+                <li>Annual recurring revenue: £1,680 (UGX 7,702,300)</li>
+              </ul>
+            </div>
+          </div>
+          
               
               <div class="p-4 border border-blue-500 rounded-lg">
                 <h5 class="font-semibold text-blue-700">Additional Income Streams</h5>
@@ -496,96 +498,96 @@ const defaultCourseModules = [
             ],
             correct: 1,
           },
-          // {
-          //   question: "What unique opportunity does the AWB course address in the African market?",
-          //   options: [
-          //     "Teaching coding languages",
-          //     "Building mobile apps",
-          //     "To cater for the 80% of African businesses without websites",
-          //     "Social media marketing"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "How much recurring monthly income can you earn per active website built through AWB?",
-          //   options: [
-          //     "£5",
-          //     "£6",
-          //     "£7",
-          //     "£8"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What is the recommended target number of active websites to build for optimal income?",
-          //   options: [
-          //     "10 websites",
-          //     "15 websites",
-          //     "20 websites",
-          //     "25 websites"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "How long does the complete AWB training program last?",
-          //   options: [
-          //     "2 weeks",
-          //     "3 weeks",
-          //     "4 weeks",
-          //     "6 weeks"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What additional income stream does the AWB course teach besides website building?",
-          //   options: [
-          //     "Social media management",
-          //     "Content writing",
-          //     "Affiliate marketing",
-          //     "Email marketing"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What is required to receive the AWB certification?",
-          //   options: [
-          //     "Build 5 websites",
-          //     "Pass the online test",
-          //     "Complete 6 months of work",
-          //     "Pay a certification fee"
-          //   ],
-          //   correct: 1,
-          // },
-          // {
-          //   question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
-          //   options: [
-          //     "£120",
-          //     "£130",
-          //     "£140",
-          //     "£150"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What type of practical experience does the AWB course provide?",
-          //   options: [
-          //     "Theoretical learning only",
-          //     "Video tutorials only",
-          //     "Hands-on website building practice",
-          //     "Written assignments"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "How often are payments made for active websites maintained through AWB?",
-          //   options: [
-          //     "Weekly",
-          //     "Monthly",
-          //     "Quarterly",
-          //     "Annually"
-          //   ],
-          //   correct: 1,
-          // }
+          {
+            question: "What unique opportunity does the AWB course address in the African market?",
+            options: [
+              "Teaching coding languages",
+              "Building mobile apps",
+              "To cater for the 80% of African businesses without websites",
+              "Social media marketing"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How much recurring monthly income can you earn per active website built through AWB?",
+            options: [
+              "£5",
+              "£6",
+              "£7",
+              "£8"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What is the recommended target number of active websites to build for optimal income?",
+            options: [
+              "10 websites",
+              "15 websites",
+              "20 websites",
+              "25 websites"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How long does the complete AWB training program last?",
+            options: [
+              "2 weeks",
+              "3 weeks",
+              "4 weeks",
+              "6 weeks"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What additional income stream does the AWB course teach besides website building?",
+            options: [
+              "Social media management",
+              "Content writing",
+              "Affiliate marketing",
+              "Email marketing"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What is required to receive the AWB certification?",
+            options: [
+              "Build 5 websites",
+              "Pass the online test",
+              "Complete 6 months of work",
+              "Pay a certification fee"
+            ],
+            correct: 1,
+          },
+          {
+            question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
+            options: [
+              "£120",
+              "£130",
+              "£140",
+              "£150"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How much money will you pay for the course?",
+            options: [
+              "T",
+              "Video tutorials only",
+              "Hands-on website building practice",
+              "Written assignments"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How often are payments made for active websites maintained through AWB?",
+            options: [
+              "Weekly",
+              "Monthly",
+              "Quarterly",
+              "Annually"
+            ],
+            correct: 1,
+          }
         ]
       },
       {
@@ -628,7 +630,7 @@ const defaultCourseModules = [
           <h5 class="font-semibold">Why Zylosite is Different:</h5>
           <ul class="list-disc pl-6 space-y-2">
             <li>Zero programming knowledge needed! (seriously, not even a single line of code!) 🚫</li>
-            <li>Simple drag-and-drop interface (If you can create a social media post, you can build a website! 💪)</li>
+            <li>Simple drag-and-drop interface (If you can create a social media post, you can build a website! 🤳)</li>
             <li>Professional templates ready to customize</li>
             <li>Works like WordPress and Wix - but pays you monthly! 💰</li>
           </ul>
