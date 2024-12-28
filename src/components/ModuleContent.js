@@ -100,7 +100,7 @@ const EnhancedBadgeAward = ({ badge, onClose, isLastBadge = false }) => {
         origin: { x: 0 },
         colors: colors
       });
-      
+
       confetti({
         particleCount: 2,
         angle: 120,
@@ -113,7 +113,7 @@ const EnhancedBadgeAward = ({ badge, onClose, isLastBadge = false }) => {
         requestAnimationFrame(frame);
       }
     };
-    
+
     frame();
     setTimeout(() => setShowStars(true), 500);
   }, []);
@@ -219,7 +219,7 @@ const EnhancedBadgeAward = ({ badge, onClose, isLastBadge = false }) => {
 const BadgeDisplay = ({ earnedBadges }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [showAll, setShowAll] = useState(false);
-  
+
   const visibleBadges = 4;
   const totalBadges = Object.keys(badges).length;
   const maxIndex = Math.max(0, totalBadges - visibleBadges);
@@ -266,7 +266,7 @@ const BadgeDisplay = ({ earnedBadges }) => {
             )}
 
             <div className="overflow-hidden">
-              <div 
+              <div
                 className="flex transition-transform duration-300 ease-in-out gap-2 md:gap-4"
                 style={{ transform: `translateX(-${activeIndex * (100 / visibleBadges)}%)` }}
               >
@@ -378,7 +378,7 @@ const defaultCourseModules = [
     
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🤔 Let's Start With a Story...</h4>
-            <p class="mb-4">Meet Sarah, a small business owner in Lagos. She makes beautiful traditional clothing but only sells to people who walk past her shop. One day, a customer from London found her shop online (through a website her nephew quickly made) and ordered 50 pieces! Sarah's business transformed overnight. This is the power of having an online presence!</p>
+            <p class="mb-4">Meet Sarah, a small business owner in Kampala. She makes beautiful traditional clothing but only sells to people who walk past her shop. One day, a customer from London found her shop online (through a website her nephew quickly made) and ordered 50 pieces! Sarah's business transformed overnight. This is the power of having an online presence!</p>
             <p>Now, imagine being the person who can create such transformative opportunities for businesses across Africa! That's exactly what you're about to become.</p>
           </div>
     
@@ -485,123 +485,327 @@ const defaultCourseModules = [
         </div>
     
       </div>`,
-  quiz: [
-    {
-      question: "According to Bill Gates' quote in the course introduction, what happens if your business is not on the internet?",
-      options: [
-        "It grows more slowly",
-        "You are not in business",
-        "It costs more to run",
-        "You need better marketing"
-      ],
-      correct: 1,
-      explanation: "Bill Gates emphasizes that in today's digital age, not having an online presence is equivalent to not being in business at all."
-    },
-    {
-      question: "What unique opportunity does the AWB course address in the African market?",
-      options: [
-        "Teaching coding languages",
-        "Building mobile apps",
-        "The 80% of African businesses without websites",
-        "Social media marketing"
-      ],
-      correct: 2,
-      explanation: "The course addresses the significant gap where 80% of African businesses lack an online presence, creating a massive opportunity for website builders."
-    },
-    {
-      question: "How much recurring monthly income can you earn per active website built through AWB?",
-      options: [
-        "£5",
-        "£6",
-        "£7",
-        "£8"
-      ],
-      correct: 2,
-      explanation: "AWB offers £7 monthly recurring income for each active website you build and maintain."
-    },
-    {
-      question: "What is the recommended target number of active websites to build for optimal income?",
-      options: [
-        "10 websites",
-        "15 websites",
-        "20 websites",
-        "25 websites"
-      ],
-      correct: 2,
-      explanation: "The course recommends building 20 active websites, which would generate £140 in monthly recurring income."
-    },
-    {
-      question: "How long does the complete AWB training program last?",
-      options: [
-        "2 weeks",
-        "3 weeks",
-        "4 weeks",
-        "6 weeks"
-      ],
-      correct: 2,
-      explanation: "The AWB training is a comprehensive 4-week hands-on practice program designed to turn you into a professional website builder."
-    },
-    {
-      question: "What additional income stream does the AWB course teach besides website building?",
-      options: [
-        "Social media management",
-        "Content writing",
-        "Affiliate marketing",
-        "Email marketing"
-      ],
-      correct: 2,
-      explanation: "The course includes training in affiliate marketing as an additional income stream alongside website building."
-    },
-    {
-      question: "What is required to receive the AWB certification?",
-      options: [
-        "Build 5 websites",
-        "Pass the online test",
-        "Complete 6 months of work",
-        "Pay a certification fee"
-      ],
-      correct: 1,
-      explanation: "To receive certification, students must pass an online test after completing the training program."
-    },
-    {
-      question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
-      options: [
-        "£120",
-        "£130",
-        "£140",
-        "£150"
-      ],
-      correct: 2,
-      explanation: "With 20 active websites at £7 each, you can earn £140 in monthly recurring income."
-    },
-    {
-      question: "What type of practical experience does the AWB course provide?",
-      options: [
-        "Theoretical learning only",
-        "Video tutorials only",
-        "Hands-on website building practice",
-        "Written assignments"
-      ],
-      correct: 2,
-      explanation: "The course provides hands-on practice in website building, allowing you to learn by doing real projects."
-    },
-    {
-      question: "How often are payments made for active websites maintained through AWB?",
-      options: [
-        "Weekly",
-        "Monthly",
-        "Quarterly",
-        "Annually"
-      ],
-      correct: 1,
-      explanation: "AWB provides recurring monthly payments for each active website you maintain."
-    }
-  ]
-    },
-    {
-      id: 2,
-      title: "Create an Account (Sign Up)",
-      content: `<div class="space-y-6">
+        quiz: [
+          {
+            question: "According to Bill Gates' quote in the course introduction, what happens if your business is not on the internet?",
+            options: [
+              "It grows more slowly",
+              "You are not in business",
+              "It costs more to run",
+              "You need better marketing"
+            ],
+            correct: 1,
+          },
+          {
+            question: "What unique opportunity does the AWB course address in the African market?",
+            options: [
+              "Teaching coding languages",
+              "Building mobile apps",
+              "To cater for the 80% of African businesses without websites",
+              "Social media marketing"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How much recurring monthly income can you earn per active website built through AWB?",
+            options: [
+              "£5",
+              "£6",
+              "£7",
+              "£8"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What is the recommended target number of active websites to build for optimal income?",
+            options: [
+              "10 websites",
+              "15 websites",
+              "20 websites",
+              "25 websites"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How long does the complete AWB training program last?",
+            options: [
+              "2 weeks",
+              "3 weeks",
+              "4 weeks",
+              "6 weeks"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What additional income stream does the AWB course teach besides website building?",
+            options: [
+              "Social media management",
+              "Content writing",
+              "Affiliate marketing",
+              "Email marketing"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What is required to receive the AWB certification?",
+            options: [
+              "Build 5 websites",
+              "Pass the online test",
+              "Complete 6 months of work",
+              "Pay a certification fee"
+            ],
+            correct: 1,
+          },
+          {
+            question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
+            options: [
+              "£120",
+              "£130",
+              "£140",
+              "£150"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What type of practical experience does the AWB course provide?",
+            options: [
+              "Theoretical learning only",
+              "Video tutorials only",
+              "Hands-on website building practice",
+              "Written assignments"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How often are payments made for active websites maintained through AWB?",
+            options: [
+              "Weekly",
+              "Monthly",
+              "Quarterly",
+              "Annually"
+            ],
+            correct: 1,
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Introduction to African Website Builders",
+        "content": `<div class="space-y-6">
+      <h2 class="text-2xl font-bold">Hey Future Digital Entrepreneur! 👋 Ready for Something Amazing? 🚀</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">🚀 Transforming Lives Through Digital Opportunities!</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "Every African deserves the opportunity to build a sustainable future in the digital age."
+            <footer class="text-sm mt-2">- Mr. Angel & Mr. Zion, AWB Co-founders</footer>
+          </blockquote>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <h4 class="font-semibold text-xl mb-4">👉 Quick Question For You...</h4>
+          <p class="mb-4">Ever dreamt of earning real money while you sleep? Or maybe you've thought, "I wish I could build websites and make some money, but I don't know how to code..." Well, guess what? You're in exactly the right place! 😎</p>
+          
+          <p class="mb-4">Let me tell you a quick story that'll blow your mind... 🤯</p>
+          
+          <div class="bg-yellow-50 p-4 rounded-lg mb-4">
+            <p class="mb-2">Two amazing gentlemen from the UK, <b>Mr. Angel and Mr. Zion</b> (they're super cool and you'll meet them soon!), were sitting in London thinking: "Hey, what if we could help talented people in Africa earn some good money from creating websites without needing any degrees or coding skills?"</p>
+            <p>And BOOM! 💥 <strong>African Website Builders</strong> was born!</p>
+          </div>
+        </div>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <h4 class="font-semibold text-xl mb-4">🎮 The Coolest Part? It's Like Playing a Game!</h4>
+          <p class="mb-4">Remember how easy it is to post on social media? Well, building websites with our tool (we call it Zylosite) is JUST AS EASY! No kidding! 😉<p>Forget every complicated thing you know about website building! With Zylosite, our revolutionary web tool, you'll be creating stunning websites in minutes - yes, MINUTES! ⏰</p><br>
+            
+            <div class="bg-blue-50 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Why Zylosite is Different:</h5>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>Zero programming knowledge needed! (seriously, not even a single line of code!) 🚫</li>
+                <li>Simple drag-and-drop interface (If you can create a social media post, you can build a website! 💪)</li>
+                <li>Professional templates ready to customize</li>
+                <li>Works like WordPress and Wix - but pays you monthly! 💰</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">Now, Let's Talk About The Money, Bro! 🤑</h4>
+            <p class="mb-4">This is where it gets SUPER exciting (I'm actually bouncing in my chair as I write this!) 🤗</p>            
+            <div class="bg-green-50 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">The AWB Income Formula:</h5>
+              <ul class="list-disc pl-6 space-y-2">
+              <li>Each active website = £7 (UGX 33,600) monthly recurring income</li>
+              <li>Your goal: Build 20 active websites</li>
+              <li>Monthly potential: £140 (UGX 672,000) in passive income!</li>
+              <li>Yearly earnings: £1,680 (UGX 8,064,000) for work done once!</li>
+                <li>Income source: Monthly hosting fees from clients</li>
+              </ul>
+            </div>
+    
+            <div class="p-4 border-2 border-yellow-400 rounded-lg">
+              <h5 class="font-semibold text-lg mb-2">💡 Quick Math:</h5>
+              <p>Build just 2 websites per month, and in 10 months you'll hit your target of 20 websites and £140 monthly recurring income!</p>
+            </div>
+          </div>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🎓 Your Complete Success Package</h4>
+            <p class="mb-4">We don't just train you - we launch your career! Here's what you get:</p>
+            
+            <div class="space-y-4">
+              <div class="bg-blue-50 p-4 rounded-lg">
+                <h5 class="font-semibold">Expert Training</h5>
+                <p>Learn from experienced AWB tutors who know Zylosite inside and out!</p>
+              </div>
+              
+              <div class="bg-purple-50 p-4 rounded-lg">
+                <h5 class="font-semibold">Official Certification</h5>
+                <p>Earn your AWB certification - your badge of professional excellence!</p>
+              </div>
+              
+              <div class="bg-green-50 p-4 rounded-lg">
+                <h5 class="font-semibold">Zylo Job Market Access</h5>
+                <p>Get listed on our exclusive job marketplace where clients are actively seeking website builders!</p>
+              </div>
+    
+              <div class="bg-orange-50 p-4 rounded-lg">
+                <h5 class="font-semibold">Business Team Support</h5>
+                <p>Our dedicated business team will help market your services and connect you with potential clients!</p>
+                <p>You'll get listed on our Zylo Job Market - where clients are literally waiting to throw money at you!</p>
+
+                </div>
+            </div>
+          </div>
+    
+          <div class="bg-gradient-to-r from-yellow-100 to-orange-100 p-6 rounded-lg">
+        <h4 class="font-semibold text-xl mb-4"> But Wait... It Gets Even Better! 😁</h4>
+        <p class="text-lg font-bold text-blue-600 mb-4">BUILD ONCE, EARN FOREVER! 💸</p>
+        <p class="text-lg mb-4">Picture this: You're chilling on your couch, maybe watching Netflix, and BING! 📱 Another payment just dropped into your account! How? Because your websites keep making money EVEN WHILE YOU SLEEP! 😴</p>
+            <ol class="list-decimal pl-6 space-y-2 mb-4">
+              <li>Build amazing websites for your clients</li>
+              <li>Keep them updated</li>
+              <li>Get paid monthly from hosting fees</li>
+              <li>Earn passive income as long as sites stay active!</li>
+            </ol>
+            <p class="text-lg font-semibold">That's right - MONTHLY INCOME for work you do just once! 🎉</p>
+          </div>
+    
+          <div class="bg-white/50 p-6 rounded-lg mt-6">
+        <h4 class="font-semibold text-xl mb-4">🚀 Ready to Join the Crew?</h4>
+        <p class="text-lg mb-4">Look, hundreds of people just like you are already crushing it with AWB. They started exactly where you are now - ready to take that first step toward financial freedom. Some started with zero tech knowledge (seriously, some couldn't even create an account! 😅)</p>
+        <p class="text-xl font-bold text-center text-blue-600">The only question is... are you ready to be our next success story? Let's make it happen! <br><strong>The digital revolution is here - and YOU are part of it! </strong>🌟</p>
+      </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "What is the primary mission of African Website Builders?",
+          "options": [
+            "To teach advanced programming",
+            "To provide opportunities for low-income Africans to earn sustainable income",
+            "To build websites for free",
+            "To sell web hosting services"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Who are the co-founders of African Website Builders?",
+          "options": [
+            "Fresh Teacher",
+            "Mr. Angel & Mr. Zion",
+            "Ms. Grace & Mr. Angel",
+            "Mr. Zion & Dr. Smith"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "How much monthly income can you earn per active website?",
+          "options": [
+            "£5 (UGX 24,000)",
+            "£7 (UGX 33,600)",
+            "£10 (UGX 48,000)",
+            "£15 (UGX 72,000)"
+          ],
+          "correct": 1
+        }
+        ,
+        {
+          "question": "What is the target number of websites recommended to build?",
+          "options": [
+            "10 websites",
+            "15 websites",
+            "20 websites",
+            "25 websites"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is the potential yearly earnings from 20 active websites?",
+          "options": [
+            "£1,200 (UGX 5,760,000)",
+            "£1,480 (UGX 7,104,000)",
+            "£1,680 (UGX 8,064,000)",
+            "£2,000 (UGX 9,600,000)"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What makes Zylosite accessible to beginners?",
+          "options": [
+            "It requires coding knowledge",
+            "It needs programming experience",
+            "It has a drag-and-drop interface",
+            "It requires web design certification"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What comprehensive support package does AWB provide?",
+          "options": [
+            "Only technical support",
+            "Just website templates",
+            "Expert training, certification, job market access, and business team support",
+            "Only client connections"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How do website builders earn recurring income?",
+          "options": [
+            "Through one-time website sales",
+            "From monthly hosting fees",
+            "By selling domains",
+            "Through advertising revenue"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which tool will you use to create and manage your website?",
+          "options": [
+            "WordPress",
+            "GoDaddy",
+            "Wix",
+            "Zylosite"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What ongoing work is required to maintain the passive income?",
+          "options": [
+            "Complete website rebuilds",
+            "Daily content updates",
+            "Simple monthly maintenance and updates",
+            "Weekly client meetings"
+          ],
+          "correct": 2
+        }
+      ]
+      },
+      {
+        id: 3,
+        title: "Create an Account (Sign Up)",
+        content: `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Creating Your Zylosite Account</h2>
         
         <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
@@ -624,23 +828,23 @@ const defaultCourseModules = [
           </ul>
         </div>
       </div>`,
-      quiz: [
-        {
-          question: "What is the first step in creating a Zylosite account?",
-          options: ["Fill in profile", "Visit zylosite.com", "Verify email", "Choose template"],
-          correct: 1
-        },
-        {
-          question: "Which of these is recommended for account security?",
-          options: ["Simple password", "Using birthday as password", "Strong password", "Sharing credentials"],
-          correct: 2
-        }
-      ]
-    },
-    {
-      id: 3,
-      title: "Login",
-      content: `<div class="space-y-6">
+        quiz: [
+          {
+            question: "What is the first step in creating a Zylosite account?",
+            options: ["Fill in profile", "Visit zylosite.com", "Verify email", "Choose template"],
+            correct: 1
+          },
+          {
+            question: "Which of these is recommended for account security?",
+            options: ["Simple password", "Using birthday as password", "Strong password", "Sharing credentials"],
+            correct: 2
+          }
+        ]
+      },
+      {
+        id: 4,
+        title: "Login",
+        content: `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Logging into Zylosite</h2>
         
         <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
@@ -662,23 +866,23 @@ const defaultCourseModules = [
           </ul>
         </div>
       </div>`,
-      quiz: [
-        {
-          question: "What should you do if you forget your password?",
-          options: ["Create new account", "Use password recovery", "Contact friend", "Wait 24 hours"],
-          correct: 1
-        },
-        {
-          question: "What information is required to log in?",
-          options: ["Name and phone", "Email and password", "Username only", "Phone number only"],
-          correct: 1
-        }
-      ]
-    },
-    {
-      id: 4,
-      title: "Website Navigation",
-      content: `<div class="space-y-6">
+        quiz: [
+          {
+            question: "What should you do if you forget your password?",
+            options: ["Create new account", "Use password recovery", "Contact friend", "Wait 24 hours"],
+            correct: 1
+          },
+          {
+            question: "What information is required to log in?",
+            options: ["Name and phone", "Email and password", "Username only", "Phone number only"],
+            correct: 1
+          }
+        ]
+      },
+      {
+        id: 5,
+        title: "Website Navigation",
+        content: `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Navigating Your Website Dashboard</h2>
         
         <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
@@ -706,23 +910,23 @@ const defaultCourseModules = [
           </div>
         </div>
       </div>`,
-      quiz: [
-        {
-          question: "Where can you find your website projects?",
-          options: ["Settings menu", "Projects panel", "Help section", "Login page"],
-          correct: 1
-        },
-        {
-          question: "What is the purpose of the dashboard?",
-          options: ["Only for logout", "Email management", "Central control hub", "Password reset"],
-          correct: 2
-        }
-      ]
-    },
-    {
-      id: 5,
-      title: "Logout",
-      content: `<div class="space-y-6">
+        quiz: [
+          {
+            question: "Where can you find your website projects?",
+            options: ["Settings menu", "Projects panel", "Help section", "Login page"],
+            correct: 1
+          },
+          {
+            question: "What is the purpose of the dashboard?",
+            options: ["Only for logout", "Email management", "Central control hub", "Password reset"],
+            correct: 2
+          }
+        ]
+      },
+      {
+        id: 6,
+        title: "Logout",
+        content: `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Logging Out Securely</h2>
         
         <div class="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-xl">
@@ -744,21 +948,21 @@ const defaultCourseModules = [
           </ul>
         </div>
       </div>`,
-      quiz: [
-        {
-          question: "What should you do before logging out?",
-          options: ["Delete cookies", "Save your work", "Clear history", "Change password"],
-          correct: 1
-        },
-        {
-          question: "What is recommended when using a public computer?",
-          options: ["Stay logged in", "Clear browser cache", "Share credentials", "Save password"],
-          correct: 1
-        }
-      ]
-    }
-  ]
-},
+        quiz: [
+          {
+            question: "What should you do before logging out?",
+            options: ["Delete cookies", "Save your work", "Clear history", "Change password"],
+            correct: 1
+          },
+          {
+            question: "What is recommended when using a public computer?",
+            options: ["Stay logged in", "Clear browser cache", "Share credentials", "Save password"],
+            correct: 1
+          }
+        ]
+      }
+    ]
+  },
   {
     id: 2,
     title: "Advanced Website Building Techniques",
@@ -820,16 +1024,16 @@ const useAudio = () => {
   const playNote = useCallback((frequency, startTime, duration, context, gainValue = 0.2) => {
     const oscillator = context.createOscillator();
     const gainNode = context.createGain();
-    
+
     oscillator.connect(gainNode);
     gainNode.connect(context.destination);
-    
+
     oscillator.type = 'sine';
     oscillator.frequency.setValueAtTime(frequency, startTime);
-    
+
     gainNode.gain.setValueAtTime(gainValue, startTime);
     gainNode.gain.exponentialRampToValueAtTime(0.01, startTime + duration);
-    
+
     oscillator.start(startTime);
     oscillator.stop(startTime + duration);
   }, []);
@@ -907,16 +1111,16 @@ const QuizOption = React.memo(({ option, index, isCorrect, selected, showFeedbac
       onClick={() => onClick(index)}
       disabled={showFeedback}
       className={`w-full flex items-center gap-4 p-4 rounded-xl cursor-pointer transition-all text-lg shadow-sm
-        ${showFeedback 
+        ${showFeedback
           ? index === isCorrect ? "bg-green-100 dark:bg-green-900 border-green-500 shadow-green-200"
-          : index === selected
-            ? "bg-red-100 dark:bg-red-900 border-red-500 shadow-red-200"
-            : "border-gray-200 dark:border-gray-700"
-        : "border-gray-200 dark:border-gray-700 hover:border-blue-200 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:shadow-md"
-      } border-2`}
+            : index === selected
+              ? "bg-red-100 dark:bg-red-900 border-red-500 shadow-red-200"
+              : "border-gray-200 dark:border-gray-700"
+          : "border-gray-200 dark:border-gray-700 hover:border-blue-200 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:shadow-md"
+        } border-2`}
     >
       <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center
-        ${showFeedback && index === isCorrect ? "border-green-500" : 
+        ${showFeedback && index === isCorrect ? "border-green-500" :
           showFeedback && index === selected ? "border-red-500" : "border-gray-400"}`}
       >
         {showFeedback && index === isCorrect && "✓"}
@@ -938,20 +1142,19 @@ const QuizOption = React.memo(({ option, index, isCorrect, selected, showFeedbac
 
 // Separate module list item component
 const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
-  const isModuleLocked = module.id !== 1 && !completedUnits.some(unit => 
-    unit.moduleId === module.id - 1 && 
+  const isModuleLocked = module.id !== 1 && !completedUnits.some(unit =>
+    unit.moduleId === module.id - 1 &&
     unit.unitId === defaultCourseModules.find(m => m.id === module.id - 1)?.units?.length
   );
-  
+
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       className="space-y-4"
     >
-      <div className={`p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm border ${
-        isModuleLocked ? 'border-gray-300 dark:border-gray-600 opacity-75' : 'border-gray-200 dark:border-gray-600'
-      }`}>
+      <div className={`p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm border ${isModuleLocked ? 'border-gray-300 dark:border-gray-600 opacity-75' : 'border-gray-200 dark:border-gray-600'
+        }`}>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
             {isModuleLocked ? (
@@ -968,7 +1171,7 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
             </span>
           </div>
         </div>
-        
+
         <div className="space-y-2">
           {module.units.map((unit, index) => {
             const isUnitCompleted = completedUnits.some(
@@ -977,17 +1180,16 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
             const isUnitLocked = index > 0 && !completedUnits.some(
               completed => completed.moduleId === module.id && completed.unitId === unit.id - 1
             );
-            
+
             return (
               <button
                 key={unit.id}
                 onClick={() => !isModuleLocked && !isUnitLocked && onClick(module.id, unit.id)}
                 disabled={isModuleLocked || isUnitLocked}
-                className={`w-full text-left p-3 rounded-md flex items-center justify-between ${
-                  isModuleLocked || isUnitLocked
-                    ? 'bg-gray-100 dark:bg-gray-700 cursor-not-allowed opacity-75' 
+                className={`w-full text-left p-3 rounded-md flex items-center justify-between ${isModuleLocked || isUnitLocked
+                    ? 'bg-gray-100 dark:bg-gray-700 cursor-not-allowed opacity-75'
                     : 'hover:bg-blue-50 dark:hover:bg-blue-900/30'
-                }`}
+                  }`}
               >
                 <span className="flex items-center gap-2">
                   {isUnitCompleted ? (
@@ -1060,10 +1262,10 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
   const handleModuleUnitSelect = useCallback((moduleId, unitId) => {
     const module = modules.find(m => m.id === moduleId);
     if (!module) return;
-    
+
     const unit = module.units.find(u => u.id === unitId);
     if (!unit) return;
-    
+
     setSelectedModule(module);
     setSelectedUnit(unit);
     setQuizState({
@@ -1086,20 +1288,20 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           ...prev,
           { moduleId: selectedModule.id, unitId: selectedUnit.id }
         ];
-        
+
         // Check if current module is complete
         const isModuleComplete = selectedModule.units.every(unit =>
-          newCompletedUnits.some(completed => 
-            completed.moduleId === selectedModule.id && 
+          newCompletedUnits.some(completed =>
+            completed.moduleId === selectedModule.id &&
             completed.unitId === unit.id
           )
         );
-  
+
         // Check if this is the last unit of the last module
         const isLastModule = selectedModule.id === modules.length;
         const isLastUnit = selectedUnit.id === selectedModule.units.length;
         const isLastBadge = isLastModule && isLastUnit;
-  
+
         if (isModuleComplete) {
           setTimeout(() => {
             // Trigger badge award with additional info about course completion
@@ -1111,13 +1313,13 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             triggerConfetti();
           }, 1000);
         }
-  
+
         return newCompletedUnits;
       });
-  
+
       const currentUnitIndex = selectedModule.units.findIndex(u => u.id === selectedUnit.id);
       const nextUnit = selectedModule.units[currentUnitIndex + 1];
-      
+
       if (nextUnit) {
         // Move to next unit in current module
         setTimeout(() => {
@@ -1157,7 +1359,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         }
       }
     }
-    
+
     // Set quiz to submitted state regardless of pass/fail
     setQuizState(prev => ({ ...prev, submitted: true }));
   }, [selectedModule, selectedUnit, modules, badges, setShowBadgeAward, triggerConfetti, scrollModalToTop]);
@@ -1166,16 +1368,16 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
   const handleModuleClick = useCallback(async (moduleId) => {
     const selectedMod = modules.find(m => m.id === moduleId);
-    
+
     if (!selectedMod || !selectedMod.units || !selectedMod.units.length) {
       setSelectedModule({ isComplete: true });
       return;
     }
-  
-    const previousModuleCompleted = moduleId === 1 || completedUnits.some(unit => 
+
+    const previousModuleCompleted = moduleId === 1 || completedUnits.some(unit =>
       unit.moduleId === moduleId - 1
     );
-    
+
     if (!previousModuleCompleted) {
       if (audioContext?.state === 'suspended') {
         await audioContext.resume();
@@ -1183,7 +1385,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       playSound('wrong');
       return;
     }
-    
+
     setSelectedModule(selectedMod);
     setSelectedUnit(selectedMod.units[0]);
     setQuizState({
@@ -1217,31 +1419,31 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
   const handleAnswerSelect = useCallback(async (optionIndex) => {
     if (quizState.showFeedback || !selectedUnit || !selectedUnit.quiz) return;
-    
+
     if (audioContext?.state === 'suspended') {
       await audioContext.resume();
     }
-    
+
     setQuizState(prev => ({ ...prev, selectedAnswer: optionIndex, showFeedback: true }));
-  
+
     const currentQuestion = selectedUnit.quiz[quizState.currentQuestionIndex];
     const isCorrect = optionIndex === currentQuestion.correct;
-    
+
     await new Promise(resolve => setTimeout(resolve, 100));
-    
+
     if (isCorrect) {
       playSound('correct');
       triggerConfetti();
     } else {
       playSound('wrong');
     }
-  
+
     await new Promise(resolve => setTimeout(resolve, 1500));
-  
+
     if (isCorrect) {
       setQuizState(prev => ({ ...prev, correctAnswers: prev.correctAnswers + 1 }));
     }
-  
+
     if (quizState.currentQuestionIndex < selectedUnit.quiz.length - 1) {
       setQuizState(prev => ({
         ...prev,
@@ -1252,7 +1454,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
     } else {
       const finalScore = isCorrect ? quizState.correctAnswers + 1 : quizState.correctAnswers;
       const passed = finalScore >= Math.ceil(selectedUnit.quiz.length * 0.7);
-      
+
       const scorePercentage = (finalScore / selectedUnit.quiz.length) * 100;
       if (scorePercentage === 100) {
         playSound('perfect');
@@ -1261,7 +1463,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       } else {
         playSound('try-again');
       }
-  
+
       if (passed) {
         await new Promise(resolve => setTimeout(resolve, 200));
         triggerConfetti();
@@ -1288,7 +1490,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             }
             return prev;
           });
-          
+
           // Show badge award modal
           setShowBadgeAward({
             ...badges[selectedModule.id],
@@ -1332,7 +1534,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           }
         }
       }
-      
+
       setQuizState(prev => ({ ...prev, submitted: true }));
     }
   }, [quizState, selectedModule, selectedUnit, audioContext, playSound, completedUnits, modules, scrollModalToTop, badges]);
@@ -1343,39 +1545,37 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
     if (!selectedModule || !selectedUnit) return null;
     return selectedUnit.quiz?.[quizState.currentQuestionIndex];
   }, [selectedModule, selectedUnit, quizState.currentQuestionIndex]);
-  
+
   const renderQuiz = useCallback(() => {
     if (!selectedUnit?.quiz) return null;
-    
+
     const currentQuestion = selectedUnit.quiz[quizState.currentQuestionIndex];
-    
+
     if (quizState.submitted) {
       const finalScore = quizState.correctAnswers;
       const totalQuestions = selectedUnit.quiz.length;
       const passed = finalScore >= Math.ceil(totalQuestions * 0.7);
       const isPerfectScore = finalScore === totalQuestions;
-  
+
       return (
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           className="text-center space-y-6"
         >
-          <div className={`p-8 rounded-xl shadow-lg ${
-            isPerfectScore 
+          <div className={`p-8 rounded-xl shadow-lg ${isPerfectScore
               ? "bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200"
-              : passed 
-                ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200" 
+              : passed
+                ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200"
                 : "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200"
-          }`}>
+            }`}>
             <motion.div
               initial={{ rotate: 0 }}
               animate={{ rotate: passed ? 360 : 0 }}
               transition={{ duration: 0.5 }}
             >
-              <Star className={`w-20 h-20 mx-auto mb-4 ${
-                isPerfectScore ? "text-purple-400" : passed ? "text-yellow-400" : "text-gray-400"
-              }`} />
+              <Star className={`w-20 h-20 mx-auto mb-4 ${isPerfectScore ? "text-purple-400" : passed ? "text-yellow-400" : "text-gray-400"
+                }`} />
             </motion.div>
             <h3 className="text-3xl font-bold mb-4">
               {isPerfectScore ? "🌟 Perfect Score! 🌟" : passed ? "🎉 Well Done! 🎉" : "Almost There! 💫"}
@@ -1393,7 +1593,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
               <p className="mt-4 text-lg">Keep going! You're getting better with each try! 🚀</p>
             )}
           </div>
-          
+
           <div className="flex flex-col gap-4">
             {passed && (
               <motion.button
@@ -1408,7 +1608,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                 Continue to Next Course Unit! 🎮 <ArrowRight className="w-6 h-6" />
               </motion.button>
             )}
-            
+
             {!passed && (
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -1428,7 +1628,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                 Try Again! 🚀
               </motion.button>
             )}
-            
+
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -1450,9 +1650,9 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         </motion.div>
       );
     }
-  
+
     if (!currentQuestion) return null;
-    
+
     return (
       <div className="space-y-8">
         <div className="flex justify-between items-center">
@@ -1475,7 +1675,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             </div>
           </div>
         </div>
-  
+
         <motion.div
           key={quizState.currentQuestionIndex}
           initial={{ opacity: 0, x: 50 }}
@@ -1505,7 +1705,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
   return (
     <div className="space-y-8">
       <BadgeDisplay earnedBadges={earnedBadges} />
-      
+
       {selectedModule?.isComplete ? (
         <CourseComplete onClose={() => setSelectedModule(null)} />
       ) : (
@@ -1522,10 +1722,10 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       )}
 
       {showBadgeAward && (
-        <EnhancedBadgeAward 
-          badge={showBadgeAward} 
+        <EnhancedBadgeAward
+          badge={showBadgeAward}
           onClose={() => setShowBadgeAward(null)}
-          isLastBadge={showBadgeAward.isLastBadge} 
+          isLastBadge={showBadgeAward.isLastBadge}
         />
       )}
 
@@ -1535,10 +1735,10 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             <div className="sticky top-0 z-10 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-600 shadow-sm">
               <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
                 <h3 className="text-2xl font-bold text-black dark:text-white flex items-center gap-3">
-                  <span>Module {selectedModule.id}, Unit {selectedUnit.id}:</span> 
+                  <span>Module {selectedModule.id}, Unit {selectedUnit.id}:</span>
                   <span>{selectedUnit.title}</span>
                 </h3>
-                <button 
+                <button
                   onClick={() => {
                     setSelectedModule(null);
                     setSelectedUnit(null);
@@ -1559,9 +1759,9 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
             <div className="max-w-7xl mx-auto px-4 py-8">
               <div className="prose dark:prose-invert max-w-none [&>div]:text-gray-900 [&>div]:dark:text-white">
-                <div 
-                  dangerouslySetInnerHTML={{ __html: selectedUnit.content }} 
-                  className="[&_p]:text-gray-900 [&_p]:dark:text-white [&_li]:text-gray-900 [&_li]:dark:text-white [&_h2]:text-black [&_h2]:dark:text-white [&_h3]:text-black [&_h3]:dark:text-white" 
+                <div
+                  dangerouslySetInnerHTML={{ __html: selectedUnit.content }}
+                  className="[&_p]:text-gray-900 [&_p]:dark:text-white [&_li]:text-gray-900 [&_li]:dark:text-white [&_h2]:text-black [&_h2]:dark:text-white [&_h3]:text-black [&_h3]:dark:text-white"
                 />
                 <div className="mt-12 flex justify-center">
                   <motion.button
