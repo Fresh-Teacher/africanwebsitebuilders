@@ -593,9 +593,12 @@ const defaultCourseModules = [
         "title": "Introduction to African Website Builders",
         "content": `<div class="space-y-6">
       <h2 class="text-2xl font-bold">Hey Future Digital Entrepreneur! 👋 Ready for Something Amazing? 🚀</h2>
-        
+      <video className="w-full rounded-lg" controls>
+      <source src="https://awb-silk.vercel.app/VID-20241216-WA0157.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">🚀 Transforming Lives Through Digital Opportunities!</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-center">Transforming Lives Through Digital Opportunities!</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
             "Every African deserves the opportunity to build a sustainable future in the digital age."
