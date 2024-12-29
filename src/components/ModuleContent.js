@@ -1067,7 +1067,7 @@ const defaultCourseModules = [
                   <div class="flex items-start gap-3">
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">6</div>
                     <div>
-                      <p>Click <span class="bg-purple-500 text-white px-2 py-1 rounded">Create account</span></p>
+                      <p>Click <span class="bg-blue-500 text-white px-2 py-1 rounded">Create account</span></p>
                       <p class="text-sm text-gray-600">You're officially enroled! 🎉</p>
                     </div>
                   </div>
@@ -1168,96 +1168,96 @@ const defaultCourseModules = [
           ],
           "correct": 1
         },
-        // {
-        //   "question": "Which button do you click to begin the sign-up process?",
-        //   "options": [
-        //     "LOGIN",
-        //     "MEMBER AREA",
-        //     "GET STARTED",
-        //     "CREATE ACCOUNT"
-        //   ],
-        //   "correct": 2
-        // },
-        // {
-        //   "question": "What security feature must you complete during both sign-up and sign-in?",
-        //   "options": [
-        //     "Enter your phone number",
-        //     "Upload a profile picture",
-        //     "Check the Cloudflare security box",
-        //     "Answer security questions"
-        //   ],
-        //   "correct": 2
-        // },
-        // {
-        //   "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
-        //   "options": [
-        //     "A confirmation page",
-        //     "A login form",
-        //     "A form to fill in your details",
-        //     "The account dashboard"
-        //   ],
-        //   "correct": 2
-        // },
-        // {
-        //   "question": "What does the email from AWB support include?",
-        //   "options": [
-        //     "A discount code",
-        //     "A verification link",
-        //     "An account creation tutorial",
-        //     "Your login credentials"
-        //   ],
-        //   "correct": 1
-        // },
-        // {
-        //   "question": "What should you do after submitting your sign-up form?",
-        //   "options": [
-        //     "Start building immediately",
-        //     "Call support",
-        //     "Check your email for verification",
-        //     "Create a password"
-        //   ],
-        //   "correct": 2
-        // },
-        // {
-        //   "question": "What helpful feature can save time during future sign-ins?",
-        //   "options": [
-        //     "Remember me checkbox",
-        //     "Face recognition",
-        //     "Fingerprint scanning",
-        //     "Auto-login"
-        //   ],
-        //   "correct": 0
-        // },
-        // {
-        //   "question": "What is the purpose of the Cloudflare security checkbox?",
-        //   "options": [
-        //     "To save your login details",
-        //     "To verify you are not a robot",
-        //     "To activate two-factor authentication",
-        //     "To encrypt your password"
-        //   ],
-        //   "correct": 1
-        // },
-        // {
-        //   "question": "Which button do returning users click to access their account?",
-        //   "options": [
-        //     "GET STARTED",
-        //     "MEMBER AREA",
-        //     "SIGN UP",
-        //     "CREATE ACCOUNT"
-        //   ],
-        //   "correct": 1
-        // },
-        // {
-        //   "question": "What is the name of the website builder you access after a successful sign in?",
-        //   "options": [
-        //     "SiteCraft",
-        //     "ZyloSite",
-        //     "WebMaker",
-        //     "BuildFast"
-        //   ],
-        //   "correct": 1
-        // }
+        {
+          "question": "Which button do you click to begin the sign-up process?",
+          "options": [
+            "LOGIN",
+            "MEMBER AREA",
+            "GET STARTED",
+            "CREATE ACCOUNT"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What security feature must you complete during both sign-up and sign-in?",
+          "options": [
+            "Enter your phone number",
+            "Upload a profile picture",
+            "Check the Cloudflare security box",
+            "Answer security questions"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
+          "options": [
+            "A confirmation page",
+            "A login form",
+            "A form to fill in your details",
+            "The account dashboard"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What does the email from AWB support include?",
+          "options": [
+            "A discount code",
+            "A verification link",
+            "An account creation tutorial",
+            "Your login credentials"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should you do after submitting your sign-up form?",
+          "options": [
+            "Start building immediately",
+            "Call support",
+            "Check your email for verification",
+            "Create a password"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What helpful feature can save time during future sign-ins?",
+          "options": [
+            "Remember me checkbox",
+            "Face recognition",
+            "Fingerprint scanning",
+            "Auto-login"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What is the purpose of the Cloudflare security checkbox?",
+          "options": [
+            "To save your login details",
+            "To verify you are not a robot",
+            "To activate two-factor authentication",
+            "To encrypt your password"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which button do returning users click to access their account?",
+          "options": [
+            "GET STARTED",
+            "MEMBER AREA",
+            "SIGN UP",
+            "CREATE ACCOUNT"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the name of the website builder you access after a successful sign in?",
+          "options": [
+            "SiteCraft",
+            "ZyloSite",
+            "WebMaker",
+            "BuildFast"
+          ],
+          "correct": 1
+        }
       ]
       },
       {
@@ -2524,7 +2524,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
   return (
     <div className="space-y-8">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl">Your Progress</h2>
+        <h2 className="text-2xl font-bold">Your Progress</h2>
         <strong><ResetProgressButton onReset={handleReset} /></strong>
       </div>
       <BadgeDisplay earnedBadges={earnedBadges} />
