@@ -1211,14 +1211,14 @@ const defaultCourseModules = [
           </blockquote>
     
           <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <h4 class="font-semibold text-xl mb-4">🌐 Your Journey to Website Mastery</h4>
-            <p class="mb-4"> Imagine you're building a digital house - that's exactly what creating a website is like! And guess what? You're about to learn how to build not just one, but MANY awesome websites that can earn you money while you sleep! How cool is that? 😎</p>
-            
-            <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-              <p class="mb-2">Here's the fun part: Every website you create needs a home on the internet - we call this hosting. Think of it like renting a space in a massive digital shopping mall! 🏪</p>
-              <p>And here's the BEST news: You'll earn £7 every month for each website you host. Build 20 websites, and that's £140 landing in your pocket every month! 💰</p>
-            </div>
+          <h4 class="font-semibold text-xl mb-4">🌐 Your Journey to Website Mastery</h4>
+          <p class="mb-4"> Imagine you're building a digital house - that's exactly what creating a website is like! And guess what? You're about to learn how to build not just one, but MANY awesome websites that can earn you money while you sleep! How cool is that? 😎</p>
+          
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <p class="mb-2">Here's the fun part: Every website you create needs a home on the internet - we call this hosting. Think of it like renting a space in a massive digital shopping mall! 🏪</p>
+            <p>And here's the BEST news: You'll earn £7 (UGX 34,300) every month for each website you host. Build 20 websites, and that's £140 (UGX 686,000) landing in your pocket every month! 💰</p>
           </div>
+        </div>
     
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🎨 Building Websites: It's Like Playing TETRIS!</h4>
@@ -1291,16 +1291,16 @@ const defaultCourseModules = [
         </div>
   
     
-          <div class="bg-white/50 p-6 rounded-lg">
+        <div class="bg-white/50 p-6 rounded-lg">
             <h4 class="font-semibold text-xl mb-4">🎯 Your Path to Success</h4>
-            <p class="mb-4">Ready to start your awesome journey? Here's your roadmap to earning £140 monthly:</p>
+            <p class="mb-4">Ready to start your awesome journey? Here's your roadmap to earning £140 (UGX 686,000) monthly:</p>
     
             <div class="space-y-4">
               <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg">
                 <h5 class="font-semibold">Month 1-2: Your First Steps 🐣</h5>
                 <ul class="list-disc pl-6">
                   <li>Learn the basics - it's easier than you think!</li>
-                  <li>Build your first 5 websites (that's £35 monthly already!)</li>
+                  <li>Build your first 5 websites (that's £35 (UGX 171,500) monthly already!)</li>
                   <li>Start showing off your cool new skills!</li>
                 </ul>
               </div>
@@ -1309,7 +1309,7 @@ const defaultCourseModules = [
                 <h5 class="font-semibold">Month 3-4: Getting Better and Better 🚀</h5>
                 <ul class="list-disc pl-6">
                   <li>Create 5 more amazing websites</li>
-                  <li>Now you're earning £70 every month!</li>
+                  <li>Now you're earning £70 (UGX 343,000) every month!</li>
                   <li>Learn cool design tricks and tips</li>
                 </ul>
               </div>
@@ -1318,7 +1318,7 @@ const defaultCourseModules = [
                 <h5 class="font-semibold">Month 5-6: Almost There! 🎯</h5>
                 <ul class="list-disc pl-6">
                   <li>Add another 5 websites to your collection</li>
-                  <li>Your monthly earnings jump to £105!</li>
+                  <li>Your monthly earnings jump to £105 (UGX 514,500)!</li>
                   <li>Become a real website pro</li>
                 </ul>
               </div>
@@ -1327,7 +1327,7 @@ const defaultCourseModules = [
                 <h5 class="font-semibold">Month 7-8: Victory! 🏆</h5>
                 <ul class="list-disc pl-6">
                   <li>Complete your final 5 websites</li>
-                  <li>Reach your goal of £140 monthly income!</li>
+                  <li>Reach your goal of £140 (UGX 686,000) monthly income!</li>
                   <li>Celebrate your amazing achievement! 🎉</li>
                 </ul>
               </div>
