@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Lock, Unlock, X, Brain, ArrowRight, ArrowLeft, Star, Volume2, VolumeX, Medal, Trophy } from 'lucide-react';
 import confetti from 'canvas-confetti';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Monitor, Type, Layout, Image, Repeat, Lightbulb, Clock, Search, GraduationCap, Users, ShoppingCart } from 'lucide-react';
 
 
@@ -81,140 +81,6 @@ const badges = {
   }
 };
 
-
-// Badge award animation component
-const EnhancedBadgeAward = ({ badge, onClose, isLastBadge = false }) => {
-  const [showStars, setShowStars] = useState(false);
-
-  useEffect(() => {
-    // Trigger confetti explosion
-    const colors = ['#FFD700', '#FFA500', '#FF6347'];
-    const duration = 3 * 1000;
-    const end = Date.now() + duration;
-
-    const frame = () => {
-      confetti({
-        particleCount: 2,
-        angle: 60,
-        spread: 55,
-        origin: { x: 0 },
-        colors: colors
-      });
-
-      confetti({
-        particleCount: 2,
-        angle: 120,
-        spread: 55,
-        origin: { x: 1 },
-        colors: colors
-      });
-
-      if (Date.now() < end) {
-        requestAnimationFrame(frame);
-      }
-    };
-
-    frame();
-    setTimeout(() => setShowStars(true), 500);
-  }, []);
-
-  return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="fixed inset-0 bg-black/75 backdrop-blur-sm flex items-center justify-center z-50 p-4"
-    >
-      <motion.div
-        initial={{ scale: 0.5, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        exit={{ scale: 0.5, opacity: 0 }}
-        className="bg-white dark:bg-gray-800 rounded-2xl max-w-lg w-full p-8 relative overflow-hidden"
-      >
-        <AnimatePresence mode="wait">
-          {showStars && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="absolute inset-0"
-            >
-              {[...Array(12)].map((_, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, scale: 0 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: i * 0.1 }}
-                  className="absolute"
-                  style={{
-                    top: `${Math.random() * 100}%`,
-                    left: `${Math.random() * 100}%`,
-                    transform: `rotate(${Math.random() * 360}deg)`
-                  }}
-                >
-                  <Star className="w-4 h-4 text-yellow-400" fill="currentColor" />
-                </motion.div>
-              ))}
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        {/* Badge content */}
-        <div className="relative z-10 text-center space-y-6">
-          <motion.div
-            initial={{ y: -20 }}
-            animate={{ y: 0 }}
-            className="flex flex-col items-center"
-          >
-            <Trophy className="w-16 h-16 text-yellow-500 mb-2" />
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-yellow-500 to-amber-500 bg-clip-text text-transparent">
-              Achievement Unlocked!
-            </h2>
-          </motion.div>
-
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ type: "spring", delay: 0.2 }}
-            className={`w-32 h-32 rounded-full ${badge.color} mx-auto flex items-center justify-center`}
-          >
-            {badge.icon}
-          </motion.div>
-
-          <div className="space-y-3">
-            <h3 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-              {badge.name}
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              {badge.description}
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-3 mt-8">
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={onClose}
-              className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors"
-            >
-              {isLastBadge ? (
-                <>
-                  Complete Course
-                  <Medal className="w-5 h-5" />
-                </>
-              ) : (
-                <>
-                  Continue Learning
-                  <ArrowRight className="w-5 h-5" />
-                </>
-              )}
-            </motion.button>
-          </div>
-        </div>
-      </motion.div>
-    </motion.div>
-  );
-};
 
 const BadgeDisplay = ({ earnedBadges }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -1725,8 +1591,161 @@ const setStoredData = (key, value) => {
   }
 };
 
+const ModuleCompletionModal = ({ nextModule, onClose, onNextModule }) => {
+  const [showStars, setShowStars] = useState(false);
 
+  useEffect(() => {
+    // Play applause sound
+    const audio = new Audio('https://awb-silk.vercel.app/claps (1).mp3');
+    audio.volume = 0.5; // Set volume to 50%
+    const playPromise = audio.play().catch(error => {
+      console.log("Audio playback failed:", error);
+    });
 
+    const duration = 3 * 1000;
+    const animationEnd = Date.now() + duration;
+    const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+    const randomInRange = (min, max) => Math.random() * (max - min) + min;
+
+    const interval = setInterval(() => {
+      const timeLeft = animationEnd - Date.now();
+
+      if (timeLeft <= 0) {
+        clearInterval(interval);
+        return;
+      }
+
+      const particleCount = 50 * (timeLeft / duration);
+
+      // Burst confetti from random positions
+      confetti({
+        ...defaults,
+        particleCount,
+        origin: { x: randomInRange(0.1, 0.3), y: randomInRange(0.4, 0.6) },
+        colors: ['#FFD700', '#FFA500', '#FF6347']
+      });
+      confetti({
+        ...defaults,
+        particleCount,
+        origin: { x: randomInRange(0.7, 0.9), y: randomInRange(0.4, 0.6) },
+        colors: ['#FFD700', '#FFA500', '#FF6347']
+      });
+    }, 250);
+
+    // Initial burst
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { x: 0.5, y: 0.5 }
+    });
+
+    setTimeout(() => setShowStars(true), 500);
+
+    // Cleanup function
+    return () => {
+      clearInterval(interval);
+      if (audio) {
+        audio.pause();
+        audio.currentTime = 0;
+      }
+    };
+  }, []);
+
+  return (
+    <div className="fixed inset-0 bg-black/75 backdrop-blur-sm flex items-center justify-center z-[60] p-4">
+      <motion.div
+        initial={{ scale: 0.5, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.5, opacity: 0 }}
+        className="bg-white dark:bg-gray-800 rounded-2xl max-w-lg w-full p-8 relative overflow-hidden"
+      >
+        <div className="absolute inset-0 overflow-hidden">
+          {showStars && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="absolute inset-0"
+            >
+              {[...Array(12)].map((_, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, scale: 0 }}
+                  animate={{ 
+                    opacity: [0, 1, 0],
+                    scale: [0, 1, 0],
+                    rotate: [0, 180, 360]
+                  }}
+                  transition={{ 
+                    duration: 2,
+                    repeat: Infinity,
+                    delay: i * 0.2,
+                    ease: "easeInOut"
+                  }}
+                  className="absolute text-2xl"
+                  style={{
+                    top: `${Math.random() * 100}%`,
+                    left: `${Math.random() * 100}%`
+                  }}
+                >
+                  ⭐
+                </motion.div>
+              ))}
+            </motion.div>
+          )}
+        </div>
+
+        <div className="relative z-10 text-center space-y-6">
+          <motion.div
+            initial={{ y: -20 }}
+            animate={{ y: 0 }}
+            className="flex flex-col items-center"
+          >
+            <Trophy className="w-16 h-16 text-yellow-500 mb-2" />
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-yellow-500 to-amber-500 bg-clip-text text-transparent">
+              Module Complete!
+            </h2>
+          </motion.div>
+
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ type: "spring", delay: 0.2 }}
+            className="p-6 rounded-xl bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20"
+          >
+            <p className="text-xl font-semibold text-gray-800 dark:text-gray-200">
+              Congratulations! You've mastered all units in this module! 🎉
+            </p>
+          </motion.div>
+
+          <div className="flex flex-col gap-3 mt-8">
+            {nextModule ? (
+              <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onNextModule}
+                className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-semibold transition-all"
+              >
+                Continue to {nextModule.title}
+                <ArrowRight className="w-5 h-5" />
+              </motion.button>
+            ) : (
+              <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onClose}
+                className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white rounded-lg font-semibold transition-all"
+              >
+                Complete Course
+                <Trophy className="w-5 h-5" />
+              </motion.button>
+            )}
+          </div>
+        </div>
+      </motion.div>
+    </div>
+  );
+};
 const useAudio = () => {
   const [audioContext, setAudioContext] = useState(null);
   const [soundEnabled, setSoundEnabled] = useState(true);
@@ -1860,6 +1879,63 @@ const QuizOption = React.memo(({ option, index, isCorrect, selected, showFeedbac
     </motion.button>
   );
 });
+
+const ModuleTransition = ({ currentModule, nextModule, onContinue, onClose }) => {
+  useEffect(() => {
+    triggerConfetti();
+  }, []);
+
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[100]">
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-md w-full mx-4 text-center space-y-6">
+        <div className="w-24 h-24 mx-auto bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
+          <Trophy className="w-12 h-12 text-green-600 dark:text-green-400" />
+        </div>
+        
+        <h2 className="text-3xl font-bold">Module Complete! 🎉</h2>
+        <p className="text-xl text-gray-600 dark:text-gray-300">
+          Congratulations! You've completed
+        </p>
+        <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+          {currentModule.title}
+        </p>
+        
+        <div className="py-4">
+          <ArrowRight className="w-8 h-8 mx-auto text-gray-400" />
+        </div>
+        
+        <p className="text-xl text-gray-600 dark:text-gray-300">
+          Ready to begin
+        </p>
+        <p className="text-2xl font-bold text-purple-600 dark:text-purple-400">
+          {nextModule.title}
+        </p>
+
+        <div className="flex flex-col gap-4 pt-4">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={onContinue}
+            className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            Continue to Next Module
+            <ArrowRight className="w-5 h-5" />
+          </motion.button>
+          
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={onClose}
+            className="flex items-center justify-center gap-2 px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+          >
+            Return to Dashboard
+            <ArrowLeft className="w-5 h-5" />
+          </motion.button>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
   const isModuleLocked = module.id !== 1 && !completedUnits.some(unit =>
@@ -2002,6 +2078,7 @@ const ResetProgressButton = ({ onReset }) => {
 };
 
 const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
+  const [showModuleTransition, setShowModuleTransition] = useState(null);
   const [selectedModule, setSelectedModule] = useState(null);
   const [selectedUnit, setSelectedUnit] = useState(null);
   const [completedUnits, setCompletedUnits] = useState(() => 
@@ -2068,12 +2145,6 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           completed => completed.moduleId === moduleId && completed.unitId === unit.id
         )
       );
-
-      if (isModuleCompleted) {
-        setEarnedBadges(prev => [...prev, moduleId]);
-        setShowBadgeAward(badges[moduleId]);
-        triggerConfetti();
-      }
     }
   }, [earnedBadges, completedUnits, modules]);
 
@@ -2116,25 +2187,22 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           )
         );
 
-        // Check if this is the last unit of the last module
-        const isLastModule = selectedModule.id === modules.length;
-        const isLastUnit = selectedUnit.id === selectedModule.units.length;
-        const isLastBadge = isLastModule && isLastUnit;
-
+        // If module is complete and there's a next module, show transition
         if (isModuleComplete) {
-          setTimeout(() => {
-            // Trigger badge award with additional info about course completion
-            setShowBadgeAward({
-              ...badges[selectedModule.id],
-              isLastBadge
-            });
-            // Trigger confetti for module completion
-            triggerConfetti();
-          }, 1000);
+          const nextModule = modules.find(m => m.id === selectedModule.id + 1);
+          if (nextModule) {
+            setTimeout(() => {
+              setShowModuleTransition({
+                currentModule: selectedModule,
+                nextModule: nextModule
+              });
+            }, 1000);
+          }
         }
 
         return newCompletedUnits;
       });
+    
 
       const currentUnitIndex = selectedModule.units.findIndex(u => u.id === selectedUnit.id);
       const nextUnit = selectedModule.units[currentUnitIndex + 1];
@@ -2181,7 +2249,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
     // Set quiz to submitted state regardless of pass/fail
     setQuizState(prev => ({ ...prev, submitted: true }));
-  }, [selectedModule, selectedUnit, modules, badges, setShowBadgeAward, triggerConfetti, scrollModalToTop]);
+  }, [selectedModule, selectedUnit, modules]);
 
   const { playSound, soundEnabled, setSoundEnabled, audioContext } = useAudio();
 
@@ -2343,136 +2411,141 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       const passed = finalScore >= Math.ceil(totalQuestions * 0.7);
       const isPerfectScore = finalScore === totalQuestions;
   
-      // Find next unit in current module
-      const currentUnitIndex = selectedModule.units.findIndex(u => u.id === selectedUnit.id);
-      const nextUnit = selectedModule.units[currentUnitIndex + 1];
-      const nextModule = !nextUnit && modules.find(m => m.id === selectedModule.id + 1);
+      // Check if this was the last unit in the module
+      const isLastUnitInModule = selectedModule.units[selectedModule.units.length - 1].id === selectedUnit.id;
+      const nextModule = modules.find(m => m.id === selectedModule.id + 1);
+      const showModuleCompletion = passed && isLastUnitInModule;
   
       return (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="text-center space-y-6"
-        >
-          <div className={`p-8 rounded-xl shadow-lg ${isPerfectScore
-              ? "bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200"
-              : passed
-                ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200"
-                : "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200"
-            }`}>
-            <motion.div
-              initial={{ rotate: 0 }}
-              animate={{ rotate: passed ? 360 : 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <Star className={`w-20 h-20 mx-auto mb-4 ${isPerfectScore ? "text-purple-400" : passed ? "text-yellow-400" : "text-gray-400"
-                }`} />
-            </motion.div>
-            <h3 className="text-3xl font-bold mb-4">
-              {isPerfectScore ? "🌟 Perfect Score! 🌟" : passed ? "🎉 Well Done! 🎉" : "Almost There! 💫"}
-            </h3>
-            <p className="text-xl mb-2">You've scored {finalScore} out of {totalQuestions} marks!</p>
-            <div className="flex justify-center gap-2 my-4">
-              {Array.from({ length: finalScore }).map((_, i) => (
-                <Star key={i} className="w-8 h-8 text-yellow-400 fill-current" />
-              ))}
-              {Array.from({ length: totalQuestions - finalScore }).map((_, i) => (
-                <Star key={i} className="w-8 h-8 text-gray-300" />
-              ))}
-            </div>
-            {!passed && (
-              <p className="mt-4 text-lg">Keep going! You're getting better with each try! 🚀</p>
-            )}
-          </div>
+        <>
+          {showModuleCompletion && (
+            <ModuleCompletionModal
+              nextModule={nextModule}
+              onClose={() => {
+                setSelectedModule(null);
+                setSelectedUnit(null);
+              }}
+              onNextModule={() => {
+                setSelectedModule(nextModule);
+                setSelectedUnit(nextModule.units[0]);
+                setQuizState({
+                  currentQuestionIndex: 0,
+                  correctAnswers: 0,
+                  submitted: false,
+                  selectedAnswer: null,
+                  showFeedback: false
+                });
+                scrollModalToTop();
+              }}
+            />
+          )}
   
-          <div className="flex flex-col gap-4">
-            {passed && nextUnit && (
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => {
-                  setSelectedUnit(nextUnit);
-                  setQuizState({
-                    currentQuestionIndex: 0,
-                    correctAnswers: 0,
-                    submitted: false,
-                    selectedAnswer: null,
-                    showFeedback: false
-                  });
-                  scrollModalToTop();
-                }}
-                className="flex items-center justify-center gap-3 px-8 py-4 mx-auto bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
-              >
-                Go to Next Unit: {nextUnit.title} <ArrowRight className="w-6 h-6" />
-              </motion.button>
-            )}
-  
-            {passed && !nextUnit && nextModule && (
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => {
-                  setSelectedModule(nextModule);
-                  setSelectedUnit(nextModule.units[0]);
-                  setQuizState({
-                    currentQuestionIndex: 0,
-                    correctAnswers: 0,
-                    submitted: false,
-                    selectedAnswer: null,
-                    showFeedback: false
-                  });
-                  scrollModalToTop();
-                }}
-                className="flex items-center justify-center gap-3 px-8 py-4 mx-auto bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
-              >
-                Next Module: {nextModule.title} <ArrowRight className="w-6 h-6" />
-              </motion.button>
-            )}
-  
-            {!passed && (
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => {
-                  setQuizState({
-                    currentQuestionIndex: 0,
-                    correctAnswers: 0,
-                    submitted: false,
-                    selectedAnswer: null,
-                    showFeedback: false
-                  });
-                  scrollModalToTop();
-                }}
-                className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
-              >
-                Try Again! 🚀
-              </motion.button>
-            )}
-
-<motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => {
-              setSelectedModule(null);
-              setQuizState({
-                currentQuestionIndex: 0,
-                correctAnswers: 0,
-                submitted: false,
-                selectedAnswer: null,
-                showFeedback: false
-              });
-            }}
-            className="px-8 py-4 bg-gray-600 text-white rounded-xl hover:bg-gray-700 transition-colors text-xl font-bold shadow-lg"
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            className="text-center space-y-6"
           >
-            Close Module ✖️
-          </motion.button>
-        </div>
-      </motion.div>
-    );
-  }
-
+            <div className={`p-8 rounded-xl shadow-lg ${
+              isPerfectScore
+                ? "bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200"
+                : passed
+                  ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200"
+                  : "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200"
+            }`}>
+              <motion.div
+                initial={{ rotate: 0 }}
+                animate={{ rotate: passed ? 360 : 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                <Star className={`w-20 h-20 mx-auto mb-4 ${
+                  isPerfectScore ? "text-purple-400" : passed ? "text-yellow-400" : "text-gray-400"
+                }`} />
+              </motion.div>
+              <h3 className="text-3xl font-bold mb-4">
+                {isPerfectScore ? "🌟 Perfect Score! 🌟" : passed ? "🎉 Well Done! 🎉" : "Almost There! 💫"}
+              </h3>
+              <p className="text-xl mb-2">You've scored {finalScore} out of {totalQuestions} marks!</p>
+              <div className="flex justify-center gap-2 my-4">
+                {Array.from({ length: finalScore }).map((_, i) => (
+                  <Star key={i} className="w-8 h-8 text-yellow-400 fill-current" />
+                ))}
+                {Array.from({ length: totalQuestions - finalScore }).map((_, i) => (
+                  <Star key={i} className="w-8 h-8 text-gray-300" />
+                ))}
+              </div>
+              {!passed && (
+                <p className="mt-4 text-lg">Keep going! You're getting better with each try! 🚀</p>
+              )}
+            </div>
+  
+            <div className="flex flex-col gap-4">
+              {passed && !isLastUnitInModule && (
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => {
+                    const nextUnit = selectedModule.units[selectedModule.units.findIndex(u => u.id === selectedUnit.id) + 1];
+                    setSelectedUnit(nextUnit);
+                    setQuizState({
+                      currentQuestionIndex: 0,
+                      correctAnswers: 0,
+                      submitted: false,
+                      selectedAnswer: null,
+                      showFeedback: false
+                    });
+                    scrollModalToTop();
+                  }}
+                  className="flex items-center justify-center gap-3 px-8 py-4 mx-auto bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
+                >
+                  Go to Next Unit <ArrowRight className="w-6 h-6" />
+                </motion.button>
+              )}
+  
+              {!passed && (
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => {
+                    setQuizState({
+                      currentQuestionIndex: 0,
+                      correctAnswers: 0,
+                      submitted: false,
+                      selectedAnswer: null,
+                      showFeedback: false
+                    });
+                    scrollModalToTop();
+                  }}
+                  className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
+                >
+                  Try Again! 🚀
+                </motion.button>
+              )}
+  
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => {
+                  setSelectedModule(null);
+                  setQuizState({
+                    currentQuestionIndex: 0,
+                    correctAnswers: 0,
+                    submitted: false,
+                    selectedAnswer: null,
+                    showFeedback: false
+                  });
+                }}
+                className="px-8 py-4 bg-gray-600 text-white rounded-xl hover:bg-gray-700 transition-colors text-xl font-bold shadow-lg"
+              >
+                Close Module ✖️
+              </motion.button>
+            </div>
+          </motion.div>
+        </>
+      );
+    }
+  
     if (!currentQuestion) return null;
-
+  
     return (
       <div className="space-y-8">
         <div className="flex justify-between items-center">
@@ -2495,7 +2568,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             </div>
           </div>
         </div>
-
+  
         <motion.div
           key={quizState.currentQuestionIndex}
           initial={{ opacity: 0, x: 50 }}
@@ -2520,15 +2593,17 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         </motion.div>
       </div>
     );
-  }, [quizState, selectedUnit, soundEnabled, handleAnswerSelect, handleModuleClick, setQuizState, scrollModalToTop]);
-
+  }, [quizState, selectedModule, selectedUnit, soundEnabled, handleAnswerSelect, scrollModalToTop]);
+  
   return (
     <div className="space-y-8">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold">Your Progress</h2>
         <strong><ResetProgressButton onReset={handleReset} /></strong>
       </div>
+      
       <BadgeDisplay earnedBadges={earnedBadges} />
+      
       {selectedModule?.isComplete ? (
         <CourseComplete onClose={() => setSelectedModule(null)} />
       ) : (
@@ -2544,14 +2619,31 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         </div>
       )}
 
-      {showBadgeAward && (
-        <EnhancedBadgeAward
-          badge={showBadgeAward}
-          onClose={() => setShowBadgeAward(null)}
-          isLastBadge={showBadgeAward.isLastBadge}
+      {showModuleTransition && (
+        <ModuleTransition
+          currentModule={showModuleTransition.currentModule}
+          nextModule={showModuleTransition.nextModule}
+          onContinue={() => {
+            setSelectedModule(showModuleTransition.nextModule);
+            setSelectedUnit(showModuleTransition.nextModule.units[0]);
+            setQuizState({
+              currentQuestionIndex: 0,
+              correctAnswers: 0,
+              submitted: false,
+              selectedAnswer: null,
+              showFeedback: false
+            });
+            setShowModuleTransition(null);
+            scrollModalToTop();
+          }}
+          onClose={() => {
+            setSelectedModule(null);
+            setSelectedUnit(null);
+            setShowModuleTransition(null);
+          }}
         />
       )}
-
+  
       {selectedModule && selectedUnit && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white dark:bg-gray-800 w-full h-full overflow-y-auto">
@@ -2579,7 +2671,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                 </button>
               </div>
             </div>
-
+  
             <div className="max-w-7xl mx-auto px-4 py-8">
               <div className="prose dark:prose-invert max-w-none [&>div]:text-gray-900 [&>div]:dark:text-white">
                 <div
@@ -2601,7 +2693,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                   </motion.button>
                 </div>
               </div>
-
+  
               <div id="quiz-section" className="mt-16 pt-16 border-t border-gray-200 dark:border-gray-600">
                 <h3 className="text-3xl font-bold mb-8 text-center text-black dark:text-white">
                   Unit {selectedUnit.id} Challenge
