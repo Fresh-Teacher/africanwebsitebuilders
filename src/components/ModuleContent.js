@@ -1642,21 +1642,31 @@ const QuizOption = React.memo(({ option, index, isCorrect, selected, showFeedbac
   );
 });
 
-// Separate module list item component
 const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
   const isModuleLocked = module.id !== 1 && !completedUnits.some(unit =>
-    unit.moduleId === module.id - 1 &&
-    unit.unitId === defaultCourseModules.find(m => m.id === module.id - 1)?.units?.length
+    unit.moduleId === module.id - 1
   );
 
+  // Color gradients based on module number
+  const moduleColors = {
+    1: 'from-blue-100 to-cyan-100 dark:from-blue-900/30 dark:to-cyan-900/30',
+    2: 'from-purple-100 to-violet-100 dark:from-purple-900/30 dark:to-violet-900/30',
+    3: 'from-pink-100 to-rose-100 dark:from-pink-900/30 dark:to-rose-900/30',
+    4: 'from-amber-100 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30',
+    5: 'from-emerald-100 to-green-100 dark:from-emerald-900/30 dark:to-green-900/30'
+  };
+  
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       className="space-y-4"
     >
-      <div className={`p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm border ${isModuleLocked ? 'border-gray-300 dark:border-gray-600 opacity-75' : 'border-gray-200 dark:border-gray-600'
-        }`}>
+      <div className={`p-4 rounded-lg shadow-sm border ${
+        isModuleLocked 
+          ? 'border-gray-300 dark:border-gray-600 opacity-75 bg-gray-50 dark:bg-gray-800/50' 
+          : `border-gray-200 dark:border-gray-600 bg-gradient-to-r ${moduleColors[module.id] || moduleColors[1]}`
+      }`}>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
             {isModuleLocked ? (
@@ -1688,9 +1698,10 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
                 key={unit.id}
                 onClick={() => !isModuleLocked && !isUnitLocked && onClick(module.id, unit.id)}
                 disabled={isModuleLocked || isUnitLocked}
-                className={`w-full text-left p-3 rounded-md flex items-center justify-between ${isModuleLocked || isUnitLocked
-                    ? 'bg-gray-100 dark:bg-gray-700 cursor-not-allowed opacity-75'
-                    : 'hover:bg-blue-50 dark:hover:bg-blue-900/30'
+                className={`w-full text-left p-3 rounded-md flex items-center justify-between 
+                  ${isModuleLocked || isUnitLocked
+                    ? 'bg-gray-100/50 dark:bg-gray-700/50 cursor-not-allowed opacity-75'
+                    : 'bg-white/50 dark:bg-gray-800/50 hover:bg-white/80 dark:hover:bg-gray-700/80'
                   }`}
               >
                 <span className="flex items-center gap-2">
