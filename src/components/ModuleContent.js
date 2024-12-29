@@ -519,96 +519,96 @@ const defaultCourseModules = [
             ],
             correct: 1,
           },
-          // {
-          //   question: "What unique opportunity does the AWB course address in the African market?",
-          //   options: [
-          //     "Teaching coding languages",
-          //     "Building mobile apps",
-          //     "To cater for the 80% of African businesses without websites",
-          //     "Social media marketing"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "How much recurring monthly income can you earn per active website built through AWB?",
-          //   options: [
-          //     "£5",
-          //     "£6",
-          //     "£7",
-          //     "£8"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What is the recommended target number of active websites to build for optimal income?",
-          //   options: [
-          //     "10 websites",
-          //     "15 websites",
-          //     "20 websites",
-          //     "25 websites"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "How long does the complete AWB training program last?",
-          //   options: [
-          //     "2 weeks",
-          //     "3 weeks",
-          //     "4 weeks",
-          //     "6 weeks"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What additional income stream does the AWB course teach besides website building?",
-          //   options: [
-          //     "Social media management",
-          //     "Content writing",
-          //     "Affiliate marketing",
-          //     "Email marketing"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What is required to receive the AWB certification?",
-          //   options: [
-          //     "Build 5 websites",
-          //     "Pass the online test",
-          //     "Complete 6 months of work",
-          //     "Pay a certification fee"
-          //   ],
-          //   correct: 1,
-          // },
-          // {
-          //   question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
-          //   options: [
-          //     "£120",
-          //     "£130",
-          //     "£140",
-          //     "£150"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   "question": "How much money will you pay for the course?",
-          //   "options": [
-          //     "£2 (UGX 9,600)",
-          //     "£4 (UGX 19,200)",
-          //     "£6 (UGX 28,800)",
-          //     "£8 (UGX 38,400)"
-          //   ],
-          //   "correct": 3
-          // },          
-          // {
-          //   question: "How often are payments made for active websites maintained through AWB?",
-          //   options: [
-          //     "Weekly",
-          //     "Monthly",
-          //     "Quarterly",
-          //     "Annually"
-          //   ],
-          //   correct: 1,
-          // }
+          {
+            question: "What unique opportunity does the AWB course address in the African market?",
+            options: [
+              "Teaching coding languages",
+              "Building mobile apps",
+              "To cater for the 80% of African businesses without websites",
+              "Social media marketing"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How much recurring monthly income can you earn per active website built through AWB?",
+            options: [
+              "£5",
+              "£6",
+              "£7",
+              "£8"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What is the recommended target number of active websites to build for optimal income?",
+            options: [
+              "10 websites",
+              "15 websites",
+              "20 websites",
+              "25 websites"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How long does the complete AWB training program last?",
+            options: [
+              "2 weeks",
+              "3 weeks",
+              "4 weeks",
+              "6 weeks"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What additional income stream does the AWB course teach besides website building?",
+            options: [
+              "Social media management",
+              "Content writing",
+              "Affiliate marketing",
+              "Email marketing"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What is required to receive the AWB certification?",
+            options: [
+              "Build 5 websites",
+              "Pass the online test",
+              "Complete 6 months of work",
+              "Pay a certification fee"
+            ],
+            correct: 1,
+          },
+          {
+            question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
+            options: [
+              "£120",
+              "£130",
+              "£140",
+              "£150"
+            ],
+            correct: 2,
+          },
+          {
+            "question": "How much money will you pay for the course?",
+            "options": [
+              "£2 (UGX 9,600)",
+              "£4 (UGX 19,200)",
+              "£6 (UGX 28,800)",
+              "£8 (UGX 38,400)"
+            ],
+            "correct": 3
+          },          
+          {
+            question: "How often are payments made for active websites maintained through AWB?",
+            options: [
+              "Weekly",
+              "Monthly",
+              "Quarterly",
+              "Annually"
+            ],
+            correct: 1,
+          }
         ]
       },
       {
@@ -773,97 +773,97 @@ const defaultCourseModules = [
           ],
           "correct": 1
         },
-        // {
-        //   "question": "Who are the co-founders of African Website Builders?",
-        //   "options": [
-        //     "Fresh Teacher",
-        //     "Mr. Angel & Mr. Zion",
-        //     "Ms. Grace & Mr. Angel",
-        //     "Mr. Zion & Dr. Smith"
-        //   ],
-        //   "correct": 1
-        // },
-        // {
-        //   "question": "How much monthly income can you earn per active website?",
-        //   "options": [
-        //     "£5 (UGX 24,000)",
-        //     "£7 (UGX 33,600)",
-        //     "£10 (UGX 48,000)",
-        //     "£15 (UGX 72,000)"
-        //   ],
-        //   "correct": 1
-        // }
-        // ,
-        // {
-        //   "question": "What is the target number of websites recommended to build?",
-        //   "options": [
-        //     "10 websites",
-        //     "15 websites",
-        //     "20 websites",
-        //     "25 websites"
-        //   ],
-        //   "correct": 2
-        // },
-        // {
-        //   "question": "What is the potential yearly earnings from 20 active websites?",
-        //   "options": [
-        //     "£1,200 (UGX 5,760,000)",
-        //     "£1,480 (UGX 7,104,000)",
-        //     "£1,680 (UGX 8,064,000)",
-        //     "£2,000 (UGX 9,600,000)"
-        //   ],
-        //   "correct": 2
-        // },
-        // {
-        //   "question": "What makes Zylosite accessible to beginners?",
-        //   "options": [
-        //     "It requires coding knowledge",
-        //     "It needs programming experience",
-        //     "It has a drag-and-drop interface",
-        //     "It requires web design certification"
-        //   ],
-        //   "correct": 2
-        // },
-        // {
-        //   "question": "What comprehensive support package does AWB provide?",
-        //   "options": [
-        //     "Only technical support",
-        //     "Just website templates",
-        //     "Expert training, certification, job market access, and business team support",
-        //     "Only client connections"
-        //   ],
-        //   "correct": 2
-        // },
-        // {
-        //   "question": "How does the AWB website builder earn you recurring income?",
-        //   "options": [
-        //     "Through one-time website sales",
-        //     "From monthly hosting fees",
-        //     "By selling domains",
-        //     "Through advertising revenue"
-        //   ],
-        //   "correct": 1
-        // },
-        // {
-        //   "question": "Which tool will you use to create and manage your website?",
-        //   "options": [
-        //     "WordPress",
-        //     "GoDaddy",
-        //     "Wix",
-        //     "Zylosite"
-        //   ],
-        //   "correct": 3
-        // },
-        // {
-        //   "question": "What ongoing work is required to maintain the passive income?",
-        //   "options": [
-        //     "Complete website rebuilds",
-        //     "Daily content updates",
-        //     "Simple maintenance and updates",
-        //     "Weekly client meetings"
-        //   ],
-        //   "correct": 2
-        // }
+        {
+          "question": "Who are the co-founders of African Website Builders?",
+          "options": [
+            "Fresh Teacher",
+            "Mr. Angel & Mr. Zion",
+            "Ms. Grace & Mr. Angel",
+            "Mr. Zion & Dr. Smith"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "How much monthly income can you earn per active website?",
+          "options": [
+            "£5 (UGX 24,000)",
+            "£7 (UGX 33,600)",
+            "£10 (UGX 48,000)",
+            "£15 (UGX 72,000)"
+          ],
+          "correct": 1
+        }
+        ,
+        {
+          "question": "What is the target number of websites recommended to build?",
+          "options": [
+            "10 websites",
+            "15 websites",
+            "20 websites",
+            "25 websites"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is the potential yearly earnings from 20 active websites?",
+          "options": [
+            "£1,200 (UGX 5,760,000)",
+            "£1,480 (UGX 7,104,000)",
+            "£1,680 (UGX 8,064,000)",
+            "£2,000 (UGX 9,600,000)"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What makes Zylosite accessible to beginners?",
+          "options": [
+            "It requires coding knowledge",
+            "It needs programming experience",
+            "It has a drag-and-drop interface",
+            "It requires web design certification"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What comprehensive support package does AWB provide?",
+          "options": [
+            "Only technical support",
+            "Just website templates",
+            "Expert training, certification, job market access, and business team support",
+            "Only client connections"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How does the AWB website builder earn you recurring income?",
+          "options": [
+            "Through one-time website sales",
+            "From monthly hosting fees",
+            "By selling domains",
+            "Through advertising revenue"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which tool will you use to create and manage your website?",
+          "options": [
+            "WordPress",
+            "GoDaddy",
+            "Wix",
+            "Zylosite"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What ongoing work is required to maintain the passive income?",
+          "options": [
+            "Complete website rebuilds",
+            "Daily content updates",
+            "Simple maintenance and updates",
+            "Weekly client meetings"
+          ],
+          "correct": 2
+        }
       ]
       },
       {
@@ -1376,91 +1376,91 @@ const defaultCourseModules = [
           ],
           correct: 2
         },
-        // {
-        //   question: "What is the relationship between websites and hosting?",
-        //   options: [
-        //     "Websites don't need hosting",
-        //     "Websites need space on the internet called hosting",
-        //     "Hosting is only for large websites",
-        //     "Hosting is only for storing domain names"
-        //   ],
-        //   correct: 1
-        // },
-        // {
-        //   question: "What does hosting store?",
-        //   options: [
-        //     "Only text files",
-        //     "Only images",
-        //     "Media files like photos, videos, audio and documents",
-        //     "Only website addresses"
-        //   ],
-        //   correct: 2
-        // },
-        // {
-        //   question: "How much can you earn monthly from hosting one website?",
-        //   options: [
-        //     "5 pounds",
-        //     "7 pounds",
-        //     "10 pounds",
-        //     "20 pounds"
-        //   ],
-        //   correct: 1
-        // },
-        // {
-        //   question: "What is your target number of websites to build?",
-        //   options: [
-        //     "10 websites",
-        //     "15 websites",
-        //     "20 websites",
-        //     "25 websites"
-        //   ],
-        //   correct: 2
-        // },
-        // {
-        //   question: "What makes Zylosite easy to use for creating websites?",
-        //   options: [
-        //     "It has pre-made templates to customize",
-        //     "It's completely free",
-        //     "It works offline",
-        //     "It automatically builds websites"
-        //   ],
-        //   correct: 0
-        // },
-        // {
-        //   question: "What method does Zylosite use for building websites?",
-        //   options: [
-        //     "Coding only",
-        //     "Drag and drop blocks",
-        //     "Voice commands",
-        //     "Automatic generation"
-        //   ],
-        //   correct: 1
-        // },
-        // {
-        //   question: "How do website owners contribute to your earnings?",
-        //   options: [
-        //     "They pay domain fees",
-        //     "They pay hosting fees",
-        //     "They pay template fees",
-        //     "They pay design fees"
-        //   ],
-        //   correct: 1
-        // },
-        // {
-        //   question: "What's the main benefit of using Zylosite's block system?",
-        //   options: [
-        //     "It's free",
-        //     "It makes website creation easier",
-        //     "It provides hosting",
-        //     "It manages domain names"
-        //   ],
-        //   correct: 1
-        // },
-        // {
-        //   question: "What is the official website of AWB?",
-        //   options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
-        //   correct: 0
-        // }
+        {
+          question: "What is the relationship between websites and hosting?",
+          options: [
+            "Websites don't need hosting",
+            "Websites need space on the internet called hosting",
+            "Hosting is only for large websites",
+            "Hosting is only for storing domain names"
+          ],
+          correct: 1
+        },
+        {
+          question: "What does hosting store?",
+          options: [
+            "Only text files",
+            "Only images",
+            "Media files like photos, videos, audio and documents",
+            "Only website addresses"
+          ],
+          correct: 2
+        },
+        {
+          question: "How much can you earn monthly from hosting one website?",
+          options: [
+            "5 pounds",
+            "7 pounds",
+            "10 pounds",
+            "20 pounds"
+          ],
+          correct: 1
+        },
+        {
+          question: "What is your target number of websites to build?",
+          options: [
+            "10 websites",
+            "15 websites",
+            "20 websites",
+            "25 websites"
+          ],
+          correct: 2
+        },
+        {
+          question: "What makes Zylosite easy to use for creating websites?",
+          options: [
+            "It has pre-made templates to customize",
+            "It's completely free",
+            "It works offline",
+            "It automatically builds websites"
+          ],
+          correct: 0
+        },
+        {
+          question: "What method does Zylosite use for building websites?",
+          options: [
+            "Coding only",
+            "Drag and drop blocks",
+            "Voice commands",
+            "Automatic generation"
+          ],
+          correct: 1
+        },
+        {
+          question: "How do website owners contribute to your earnings?",
+          options: [
+            "They pay domain fees",
+            "They pay hosting fees",
+            "They pay template fees",
+            "They pay design fees"
+          ],
+          correct: 1
+        },
+        {
+          question: "What's the main benefit of using Zylosite's block system?",
+          options: [
+            "It's free",
+            "It makes website creation easier",
+            "It provides hosting",
+            "It manages domain names"
+          ],
+          correct: 1
+        },
+        {
+          question: "What is the official website of AWB?",
+          options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
+          correct: 0
+        }
       ]
       }
     ]
