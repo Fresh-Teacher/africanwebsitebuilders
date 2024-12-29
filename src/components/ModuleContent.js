@@ -1714,7 +1714,7 @@ const ModuleCompletionModal = ({ nextModule, onClose, onNextModule }) => {
             className="p-6 rounded-xl bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20"
           >
             <p className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-              Congratulations! You've mastered all units in this module! 🎉
+              Congratulations! You've completed this module and received a new badge! ✪ 
             </p>
           </motion.div>
 
