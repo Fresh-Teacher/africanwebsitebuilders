@@ -1631,6 +1631,33 @@ const defaultCourseModules = [
   }
 ];
 
+const STORAGE_KEYS = {
+  COMPLETED_UNITS: 'quiz_completed_units',
+  EARNED_BADGES: 'quiz_earned_badges',
+  CURRENT_PROGRESS: 'quiz_current_progress'
+};
+
+// Utility function to safely parse JSON from localStorage
+const getStoredData = (key, defaultValue) => {
+  try {
+    const stored = localStorage.getItem(key);
+    return stored ? JSON.parse(stored) : defaultValue;
+  } catch (error) {
+    console.error(`Error reading from localStorage:`, error);
+    return defaultValue;
+  }
+};
+
+// Utility function to safely store JSON in localStorage
+const setStoredData = (key, value) => {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (error) {
+    console.error(`Error writing to localStorage:`, error);
+  }
+};
+
+
 
 const useAudio = () => {
   const [audioContext, setAudioContext] = useState(null);
@@ -1860,19 +1887,84 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
   );
 });
 
+const ResetProgressButton = ({ onReset }) => {
+  const [showConfirm, setShowConfirm] = useState(false);
+
+  const handleReset = () => {
+    Object.values(STORAGE_KEYS).forEach(key => localStorage.removeItem(key));
+    onReset();
+    setShowConfirm(false);
+  };
+
+  if (showConfirm) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 max-w-md w-full mx-4">
+          <h3 className="text-xl font-bold mb-4">Reset Progress?</h3>
+          <p className="text-gray-600 dark:text-gray-300 mb-6">
+            This will remove all your earned badges and completed units. This action cannot be undone.
+          </p>
+          <div className="flex gap-4">
+            <button
+              onClick={() => setShowConfirm(false)}
+              className="flex-1 px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+            >
+              Cancel
+            </button>
+            <button
+              onClick={handleReset}
+              className="flex-1 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <button
+      onClick={() => setShowConfirm(true)}
+      className="px-4 py-2 text-sm text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/30 rounded-lg transition-colors"
+    >
+      Reset Progress
+    </button>
+  );
+};
+
 const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
   const [selectedModule, setSelectedModule] = useState(null);
   const [selectedUnit, setSelectedUnit] = useState(null);
-  const [completedUnits, setCompletedUnits] = useState([]);
-  const [earnedBadges, setEarnedBadges] = useState([]);
+  const [completedUnits, setCompletedUnits] = useState(() => 
+    getStoredData(STORAGE_KEYS.COMPLETED_UNITS, [])
+  );
+  const [earnedBadges, setEarnedBadges] = useState(() => 
+    getStoredData(STORAGE_KEYS.EARNED_BADGES, [])
+  );
   const [showBadgeAward, setShowBadgeAward] = useState(null);
-  const [quizState, setQuizState] = useState({
-    currentQuestionIndex: 0,
-    correctAnswers: 0,
-    submitted: false,
-    selectedAnswer: null,
-    showFeedback: false
-  });
+  const [quizState, setQuizState] = useState(() => 
+    getStoredData(STORAGE_KEYS.CURRENT_PROGRESS, {
+      currentQuestionIndex: 0,
+      correctAnswers: 0,
+      submitted: false,
+      selectedAnswer: null,
+      showFeedback: false
+    })
+  );
+
+  // Add these useEffect hooks to persist state changes
+  useEffect(() => {
+    setStoredData(STORAGE_KEYS.COMPLETED_UNITS, completedUnits);
+  }, [completedUnits]);
+
+  useEffect(() => {
+    setStoredData(STORAGE_KEYS.EARNED_BADGES, earnedBadges);
+  }, [earnedBadges]);
+
+  useEffect(() => {
+    setStoredData(STORAGE_KEYS.CURRENT_PROGRESS, quizState);
+  }, [quizState]);
 
   // Helper function to scroll to top of modal
   const scrollModalToTop = useCallback(() => {
@@ -1883,6 +1975,20 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         behavior: 'smooth'
       });
     }
+  }, []);
+
+  const handleReset = useCallback(() => {
+    setCompletedUnits([]);
+    setEarnedBadges([]);
+    setQuizState({
+      currentQuestionIndex: 0,
+      correctAnswers: 0,
+      submitted: false,
+      selectedAnswer: null,
+      showFeedback: false
+    });
+    setSelectedModule(null);
+    setSelectedUnit(null);
   }, []);
 
   // Check if module is completed and award badge
@@ -2349,8 +2455,11 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
   return (
     <div className="space-y-8">
+      <div className="flex justify-between items-center">
+        <h2 className="text-2xl font-bold">Your Progress</h2>
+        <strong><ResetProgressButton onReset={handleReset} /></strong>
+      </div>
       <BadgeDisplay earnedBadges={earnedBadges} />
-
       {selectedModule?.isComplete ? (
         <CourseComplete onClose={() => setSelectedModule(null)} />
       ) : (
