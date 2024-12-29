@@ -224,7 +224,6 @@ const BadgeDisplay = ({ earnedBadges }) => {
   const totalBadges = Object.keys(badges).length;
   const maxIndex = Math.max(0, totalBadges - visibleBadges);
 
-  // Move scroll function inside component where setActiveIndex is available
   const scroll = (direction) => {
     setActiveIndex(prev => {
       if (direction === 'left') {
@@ -234,7 +233,6 @@ const BadgeDisplay = ({ earnedBadges }) => {
     });
   };
 
-  // Move visibleSlots inside the component where earnedBadges is available
   const visibleSlots = Array.from({ length: totalBadges }, (_, index) => {
     const moduleId = index + 1;
     const isEarned = earnedBadges.includes(moduleId);
@@ -242,12 +240,14 @@ const BadgeDisplay = ({ earnedBadges }) => {
   });
 
   return (
-    <div className="mt-4 md:mt-8 p-4 md:p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
+    <div className="p-6 rounded-xl bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 shadow-xl">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 md:gap-0 mb-6">
-        <h3 className="text-xl md:text-2xl font-bold">Achievement Badges</h3>
+        <h3 className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
+          Achievement Badges
+        </h3>
         <button
           onClick={() => setShowAll(!showAll)}
-          className="px-3 py-1.5 md:px-4 md:py-2 text-sm font-medium text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-lg transition-colors"
+          className="px-4 py-2 text-sm font-medium rounded-lg bg-white/10 hover:bg-white/20 text-white transition-all duration-300 backdrop-blur-sm"
         >
           {showAll ? 'Show Less' : 'View All'}
         </button>
@@ -259,15 +259,15 @@ const BadgeDisplay = ({ earnedBadges }) => {
             {activeIndex > 0 && (
               <button
                 onClick={() => scroll('left')}
-                className="absolute left-0 top-1/2 -translate-y-1/2 -ml-2 md:-ml-4 p-1.5 md:p-2 bg-white dark:bg-gray-700 rounded-full shadow-lg z-10 hover:bg-gray-100 dark:hover:bg-gray-600"
+                className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 p-2 bg-white/10 hover:bg-white/20 rounded-full shadow-lg z-10 transition-all duration-300 backdrop-blur-sm"
               >
-                <ChevronLeft className="w-4 h-4 md:w-6 md:h-6" />
+                <ChevronLeft className="w-6 h-6 text-white" />
               </button>
             )}
 
             <div className="overflow-hidden">
               <div
-                className="flex transition-transform duration-300 ease-in-out gap-2 md:gap-4"
+                className="flex transition-transform duration-300 ease-in-out gap-4"
                 style={{ transform: `translateX(-${activeIndex * (100 / visibleBadges)}%)` }}
               >
                 {visibleSlots.map((badge, index) => (
@@ -275,7 +275,41 @@ const BadgeDisplay = ({ earnedBadges }) => {
                     key={index}
                     className="flex-none w-1/2 md:w-1/4"
                   >
-                    {renderBadge(badge)}
+                    {badge ? (
+                      <div className="group cursor-pointer rounded-xl overflow-hidden transition-all duration-300 hover:scale-105">
+                        <div className="p-6 h-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10">
+                          <div className="flex flex-col items-center text-center space-y-3">
+                            <div className="relative w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br from-blue-400 to-purple-400 p-0.5">
+                              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-400 to-purple-400 animate-pulse opacity-50"></div>
+                              {badge.icon}
+                            </div>
+                            <h4 className="font-bold text-sm text-white">{badge.name}</h4>
+                            <span className="text-xs font-medium px-3 py-1 rounded-full bg-green-400/20 text-green-300 backdrop-blur-sm border border-green-400/30">
+                              EARNED
+                            </span>
+                          </div>
+                          <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-br from-blue-900/90 to-purple-900/90 flex items-center justify-center p-4 backdrop-blur-sm">
+                            <p className="text-white text-xs text-center">
+                              {badge.description}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="rounded-xl overflow-hidden transition-all duration-300">
+                        <div className="p-6 h-full bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-white/5">
+                          <div className="flex flex-col items-center text-center space-y-3">
+                            <div className="relative w-16 h-16 rounded-full flex items-center justify-center bg-gray-700/50">
+                              <Lock className="w-8 h-8 text-gray-400" />
+                            </div>
+                            <h4 className="font-bold text-sm text-gray-400">Locked Badge</h4>
+                            <span className="text-xs font-medium px-3 py-1 rounded-full bg-gray-700/30 text-gray-500">
+                              LOCKED
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
@@ -284,9 +318,9 @@ const BadgeDisplay = ({ earnedBadges }) => {
             {activeIndex < maxIndex && (
               <button
                 onClick={() => scroll('right')}
-                className="absolute right-0 top-1/2 -translate-y-1/2 -mr-2 md:-mr-4 p-1.5 md:p-2 bg-white dark:bg-gray-700 rounded-full shadow-lg z-10 hover:bg-gray-100 dark:hover:bg-gray-600"
+                className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 p-2 bg-white/10 hover:bg-white/20 rounded-full shadow-lg z-10 transition-all duration-300 backdrop-blur-sm"
               >
-                <ChevronRight className="w-4 h-4 md:w-6 md:h-6" />
+                <ChevronRight className="w-6 h-6 text-white" />
               </button>
             )}
           </>
@@ -296,7 +330,41 @@ const BadgeDisplay = ({ earnedBadges }) => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {visibleSlots.map((badge, index) => (
               <div key={index} className="w-full">
-                {renderBadge(badge)}
+                {badge ? (
+                  <div className="group cursor-pointer rounded-xl overflow-hidden transition-all duration-300 hover:scale-105">
+                    <div className="p-6 h-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10">
+                      <div className="flex flex-col items-center text-center space-y-3">
+                        <div className="relative w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br from-blue-400 to-purple-400 p-0.5">
+                          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-400 to-purple-400 animate-pulse opacity-50"></div>
+                          {badge.icon}
+                        </div>
+                        <h4 className="font-bold text-sm text-white">{badge.name}</h4>
+                        <span className="text-xs font-medium px-3 py-1 rounded-full bg-green-400/20 text-green-300 backdrop-blur-sm border border-green-400/30">
+                          EARNED
+                        </span>
+                      </div>
+                      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-br from-blue-900/90 to-purple-900/90 flex items-center justify-center p-4 backdrop-blur-sm">
+                        <p className="text-white text-xs text-center">
+                          {badge.description}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="rounded-xl overflow-hidden transition-all duration-300">
+                    <div className="p-6 h-full bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-white/5">
+                      <div className="flex flex-col items-center text-center space-y-3">
+                        <div className="relative w-16 h-16 rounded-full flex items-center justify-center bg-gray-700/50">
+                          <Lock className="w-8 h-8 text-gray-400" />
+                        </div>
+                        <h4 className="font-bold text-sm text-gray-400">Locked Badge</h4>
+                        <span className="text-xs font-medium px-3 py-1 rounded-full bg-gray-700/30 text-gray-500">
+                          LOCKED
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -304,8 +372,8 @@ const BadgeDisplay = ({ earnedBadges }) => {
       </div>
 
       {earnedBadges.length === 0 && (
-        <div className="text-center mt-4 md:mt-6 p-3 md:p-4 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
-          <p className="text-sm md:text-base text-blue-600 dark:text-blue-400">
+        <div className="mt-6 p-4 rounded-lg bg-blue-500/20 backdrop-blur-sm border border-blue-400/30">
+          <p className="text-center text-blue-300">
             Complete modules to unlock achievement badges! 🏆
           </p>
         </div>
