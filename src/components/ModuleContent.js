@@ -2524,7 +2524,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
   return (
     <div className="space-y-8">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl font-bold">Your Progress</h2>
+        <h2 className="text-2xl">Your Progress</h2>
         <strong><ResetProgressButton onReset={handleReset} /></strong>
       </div>
       <BadgeDisplay earnedBadges={earnedBadges} />
