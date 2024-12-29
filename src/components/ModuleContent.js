@@ -1647,15 +1647,15 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
     unit.moduleId === module.id - 1
   );
 
-  // Color gradients based on module number
+  // Darker color gradients based on module number
   const moduleColors = {
-    1: 'from-blue-100 to-cyan-100 dark:from-blue-900/30 dark:to-cyan-900/30',
-    2: 'from-purple-100 to-violet-100 dark:from-purple-900/30 dark:to-violet-900/30',
-    3: 'from-pink-100 to-rose-100 dark:from-pink-900/30 dark:to-rose-900/30',
-    4: 'from-amber-100 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30',
-    5: 'from-emerald-100 to-green-100 dark:from-emerald-900/30 dark:to-green-900/30'
+    1: 'from-blue-600 to-cyan-500 dark:from-blue-800 dark:to-cyan-700',
+    2: 'from-purple-600 to-violet-500 dark:from-purple-800 dark:to-violet-700',
+    3: 'from-pink-600 to-rose-500 dark:from-pink-800 dark:to-rose-700',
+    4: 'from-amber-600 to-yellow-500 dark:from-amber-800 dark:to-yellow-700',
+    5: 'from-emerald-600 to-green-500 dark:from-emerald-800 dark:to-green-700'
   };
-  
+
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
@@ -1665,19 +1665,19 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
       <div className={`p-4 rounded-lg shadow-sm border ${
         isModuleLocked 
           ? 'border-gray-300 dark:border-gray-600 opacity-75 bg-gray-50 dark:bg-gray-800/50' 
-          : `border-gray-200 dark:border-gray-600 bg-gradient-to-r ${moduleColors[module.id] || moduleColors[1]}`
+          : `border-transparent bg-gradient-to-r ${moduleColors[module.id] || moduleColors[1]} text-white`
       }`}>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
             {isModuleLocked ? (
               <Lock className="w-5 h-5 text-gray-500" />
             ) : (
-              <Unlock className="w-5 h-5 text-green-500" />
+              <Unlock className="w-5 h-5 text-white" />
             )}
             <h3 className="text-lg font-semibold">Module {module.id}: {module.title}</h3>
           </div>
           <div className="flex items-center gap-2">
-            <Trophy className="w-5 h-5 text-yellow-500" />
+            <Trophy className="w-5 h-5 text-yellow-300" />
             <span className="text-sm font-medium">
               {completedUnits.filter(unit => unit.moduleId === module.id).length}/{module.units.length} units
             </span>
@@ -1700,22 +1700,22 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
                 disabled={isModuleLocked || isUnitLocked}
                 className={`w-full text-left p-3 rounded-md flex items-center justify-between 
                   ${isModuleLocked || isUnitLocked
-                    ? 'bg-gray-100/50 dark:bg-gray-700/50 cursor-not-allowed opacity-75'
-                    : 'bg-white/50 dark:bg-gray-800/50 hover:bg-white/80 dark:hover:bg-gray-700/80'
+                    ? 'bg-white/10 cursor-not-allowed opacity-75'
+                    : 'bg-white/20 hover:bg-white/30 transition-colors'
                   }`}
               >
                 <span className="flex items-center gap-2">
                   {isUnitCompleted ? (
-                    <Medal className="w-5 h-5 text-green-500" />
+                    <Medal className="w-5 h-5 text-yellow-300" />
                   ) : isModuleLocked || isUnitLocked ? (
-                    <Lock className="w-5 h-5 text-gray-400" />
+                    <Lock className="w-5 h-5 text-white/60" />
                   ) : (
-                    <Brain className="w-5 h-5 text-blue-500" />
+                    <Brain className="w-5 h-5 text-white" />
                   )}
                   Unit {unit.id}: {unit.title}
                 </span>
                 {isUnitCompleted && (
-                  <span className="text-sm px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full">
+                  <span className="text-sm px-2 py-1 bg-white/20 text-white rounded-full">
                     Completed
                   </span>
                 )}
