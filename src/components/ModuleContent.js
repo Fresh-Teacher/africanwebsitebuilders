@@ -362,6 +362,28 @@ const defaultCourseModules = [
         id: 1,
         title: "Learn Website Sequence",
         content: `<div class="space-y-6">
+        <div class="flex justify-center mb-6">
+  <a 
+  href="https://awb-silk.vercel.app/DOC-20241216-WA0234..pdf" 
+  download
+    class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors animate-heartbeat"
+  >
+    <svg 
+      class="w-5 h-5 mr-2" 
+      fill="none" 
+      stroke="currentColor" 
+      viewBox="0 0 24 24"
+    >
+      <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        strokeWidth={2} 
+        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+      />
+    </svg>
+    Download PDF Guide
+  </a>
+</div>
         <h2 class="text-2xl font-bold">Welcome to Your Website Building Course! 🚀</h2>
         <video className="w-full rounded-lg" controls>
         <source src="https://awb-silk.vercel.app/African Web-Builders Course English (1).mp4" type="video/mp4" />
@@ -1185,12 +1207,12 @@ const defaultCourseModules = [
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
           "Imagine stepping into a MASSIVE digital city - bigger than Kampala, Mpigi, and Masaka combined! That's the internet, and you're about to become its next master builder! 🏗️"
-          - AWB Training Team            <footer class="text-sm mt-2">- AWB Training Team</footer>
+                  <footer class="text-sm mt-2">- AWB Training Team</footer>
           </blockquote>
     
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <h4 class="font-semibold text-xl mb-4">🌐 Your Journey to Website Mastery</h4>
-            <p class="mb-4">Hey there! Ready to learn something super exciting? Imagine you're building a digital house - that's exactly what creating a website is like! And guess what? You're about to learn how to build not just one, but MANY awesome websites that can earn you money while you sleep! How cool is that? 😎</p>
+            <p class="mb-4"> Imagine you're building a digital house - that's exactly what creating a website is like! And guess what? You're about to learn how to build not just one, but MANY awesome websites that can earn you money while you sleep! How cool is that? 😎</p>
             
             <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
               <p class="mb-2">Here's the fun part: Every website you create needs a home on the internet - we call this hosting. Think of it like renting a space in a massive digital shopping mall! 🏪</p>
@@ -1435,15 +1457,10 @@ const defaultCourseModules = [
           correct: 1
         },
         {
-          question: "How is revenue generated from the Zylosite Platform?",
-          options: [
-            "Domain registration fees",
-            "Hosting service charges",
-            "Template licensing",
-            "Design consultation"
-          ],
-          correct: 1
-        },
+          question: "What is the official website of AWB?",
+          options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
+          correct: 0
+        }
       ]
       }
     ]
@@ -2279,6 +2296,5 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
     </div>
   );
 };
-
 
 export default React.memo(ModuleContent);
