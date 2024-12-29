@@ -9,73 +9,73 @@ import { ChevronLeft, ChevronRight, Monitor, Type, Layout, Image, Repeat, Lightb
 const badges = {
   1: {
     name: "Website Pioneer",
-    description: "Introduction to Zylosite, Website Tour & Practice",
+     description: "Introduction to Zylosite, Website Tour & Practice",
     icon: <Monitor className="w-8 h-8 md:w-12 md:h-12 text-blue-500" />,
     color: "bg-blue-100 dark:bg-blue-900/30"
   },
   2: {
     name: "Content Crafter",
-    description: "Text, Button & Block Editing, Add Video",
+     description: "Text, Button & Block Editing, Add Video",
     icon: <Type className="w-8 h-8 md:w-12 md:h-12 text-purple-500" />,
     color: "bg-purple-100 dark:bg-purple-900/30"
   },
   3: {
-    name: "Layout Master",
-    description: "Cogs, Grids, Components, Pages & Pop-Ups",
+    name: "Layout Whiz",
+     description: "Cogs, Grids, Components, Pages & Pop-Ups",
     icon: <Layout className="w-8 h-8 md:w-12 md:h-12 text-green-500" />,
     color: "bg-green-100 dark:bg-green-900/30"
   },
   4: {
-    name: "Design Virtuoso",
-    description: "Parallax, Padding, Slide Show, Forms",
+    name: "Design Guru",
+     description: "Parallax, Padding, Slide Show, Forms",
     icon: <Image className="w-8 h-8 md:w-12 md:h-12 text-yellow-500" />,
     color: "bg-yellow-100 dark:bg-yellow-900/30"
   },
   5: {
     name: "Site Builder Pro",
-    description: "Re-Create Site from Scratch",
+     description: "Re-Create Site from Scratch",
     icon: <Repeat className="w-8 h-8 md:w-12 md:h-12 text-red-500" />,
     color: "bg-red-100 dark:bg-red-900/30"
   },
   6: {
-    name: "AI Expert",
-    description: "Chat GPT and Speed Test",
+    name: "AI Master",
+     description: "Chat GPT and Speed Test",
     icon: <Brain className="w-8 h-8 md:w-12 md:h-12 text-indigo-500" />,
     color: "bg-indigo-100 dark:bg-indigo-900/30"
   },
   7: {
-    name: "Master Practitioner",
+    name: "Computer Wizard",
     description: "Recap Test and Practicals",
     icon: <Lightbulb className="w-8 h-8 md:w-12 md:h-12 text-pink-500" />,
     color: "bg-pink-100 dark:bg-pink-900/30"
   },
   8: {
-    name: "Time Wizard",
-    description: "Creating Countdowns with Zylo Modules",
+    name: "Time Tamer",
+     description: "Creating Countdowns with Zylo Modules",
     icon: <Clock className="w-8 h-8 md:w-12 md:h-12 text-orange-500" />,
     color: "bg-orange-100 dark:bg-orange-900/30"
   },
   9: {
-    name: "SEO Specialist",
-    description: "Website SEO, Favicons & Social Media",
+    name: "Meta Master",
+     description: "Website SEO, Favicons & Social Media",
     icon: <Search className="w-8 h-8 md:w-12 md:h-12 text-teal-500" />,
     color: "bg-teal-100 dark:bg-teal-900/30"
   },
   10: {
-    name: "Master Tutor",
+    name: "Website Professor",
     description: "AWB Tutor Course Training",
     icon: <GraduationCap className="w-8 h-8 md:w-12 md:h-12 text-cyan-500" />,
     color: "bg-cyan-100 dark:bg-cyan-900/30"
   },
   11: {
-    name: "Freelance Pro",
-    description: "Become Freelance Ready",
+    name: "Enterprise Explorer",
+     description: "Become Freelance Ready",
     icon: <Users className="w-8 h-8 md:w-12 md:h-12 text-emerald-500" />,
     color: "bg-emerald-100 dark:bg-emerald-900/30"
   },
   12: {
-    name: "Sales Master",
-    description: "Sales Online and Local",
+    name: "Trade Tycoon",
+     description: "Sales Online and Local",
     icon: <ShoppingCart className="w-8 h-8 md:w-12 md:h-12 text-violet-500" />,
     color: "bg-violet-100 dark:bg-violet-900/30"
   }
@@ -587,96 +587,96 @@ const defaultCourseModules = [
             ],
             correct: 1,
           },
-          {
-            question: "What unique opportunity does the AWB course address in the African market?",
-            options: [
-              "Teaching coding languages",
-              "Building mobile apps",
-              "To cater for the 80% of African businesses without websites",
-              "Social media marketing"
-            ],
-            correct: 2,
-          },
-          {
-            question: "How much recurring monthly income can you earn per active website built through AWB?",
-            options: [
-              "£5",
-              "£6",
-              "£7",
-              "£8"
-            ],
-            correct: 2,
-          },
-          {
-            question: "What is the recommended target number of active websites to build for optimal income?",
-            options: [
-              "10 websites",
-              "15 websites",
-              "20 websites",
-              "25 websites"
-            ],
-            correct: 2,
-          },
-          {
-            question: "How long does the complete AWB training program last?",
-            options: [
-              "2 weeks",
-              "3 weeks",
-              "4 weeks",
-              "6 weeks"
-            ],
-            correct: 2,
-          },
-          {
-            question: "What additional income stream does the AWB course teach besides website building?",
-            options: [
-              "Social media management",
-              "Content writing",
-              "Affiliate marketing",
-              "Email marketing"
-            ],
-            correct: 2,
-          },
-          {
-            question: "What is required to receive the AWB certification?",
-            options: [
-              "Build 5 websites",
-              "Pass the online test",
-              "Complete 6 months of work",
-              "Pay a certification fee"
-            ],
-            correct: 1,
-          },
-          {
-            question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
-            options: [
-              "£120",
-              "£130",
-              "£140",
-              "£150"
-            ],
-            correct: 2,
-          },
-          {
-            "question": "How much money will you pay for the course?",
-            "options": [
-              "£2 (UGX 9,600)",
-              "£4 (UGX 19,200)",
-              "£6 (UGX 28,800)",
-              "£8 (UGX 38,400)"
-            ],
-            "correct": 3
-          },          
-          {
-            question: "How often are payments made for active websites maintained through AWB?",
-            options: [
-              "Weekly",
-              "Monthly",
-              "Quarterly",
-              "Annually"
-            ],
-            correct: 1,
-          }
+          // {
+          //   question: "What unique opportunity does the AWB course address in the African market?",
+          //   options: [
+          //     "Teaching coding languages",
+          //     "Building mobile apps",
+          //     "To cater for the 80% of African businesses without websites",
+          //     "Social media marketing"
+          //   ],
+          //   correct: 2,
+          // },
+          // {
+          //   question: "How much recurring monthly income can you earn per active website built through AWB?",
+          //   options: [
+          //     "£5",
+          //     "£6",
+          //     "£7",
+          //     "£8"
+          //   ],
+          //   correct: 2,
+          // },
+          // {
+          //   question: "What is the recommended target number of active websites to build for optimal income?",
+          //   options: [
+          //     "10 websites",
+          //     "15 websites",
+          //     "20 websites",
+          //     "25 websites"
+          //   ],
+          //   correct: 2,
+          // },
+          // {
+          //   question: "How long does the complete AWB training program last?",
+          //   options: [
+          //     "2 weeks",
+          //     "3 weeks",
+          //     "4 weeks",
+          //     "6 weeks"
+          //   ],
+          //   correct: 2,
+          // },
+          // {
+          //   question: "What additional income stream does the AWB course teach besides website building?",
+          //   options: [
+          //     "Social media management",
+          //     "Content writing",
+          //     "Affiliate marketing",
+          //     "Email marketing"
+          //   ],
+          //   correct: 2,
+          // },
+          // {
+          //   question: "What is required to receive the AWB certification?",
+          //   options: [
+          //     "Build 5 websites",
+          //     "Pass the online test",
+          //     "Complete 6 months of work",
+          //     "Pay a certification fee"
+          //   ],
+          //   correct: 1,
+          // },
+          // {
+          //   question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
+          //   options: [
+          //     "£120",
+          //     "£130",
+          //     "£140",
+          //     "£150"
+          //   ],
+          //   correct: 2,
+          // },
+          // {
+          //   "question": "How much money will you pay for the course?",
+          //   "options": [
+          //     "£2 (UGX 9,600)",
+          //     "£4 (UGX 19,200)",
+          //     "£6 (UGX 28,800)",
+          //     "£8 (UGX 38,400)"
+          //   ],
+          //   "correct": 3
+          // },          
+          // {
+          //   question: "How often are payments made for active websites maintained through AWB?",
+          //   options: [
+          //     "Weekly",
+          //     "Monthly",
+          //     "Quarterly",
+          //     "Annually"
+          //   ],
+          //   correct: 1,
+          // }
         ]
       },
       {
@@ -841,97 +841,97 @@ const defaultCourseModules = [
           ],
           "correct": 1
         },
-        {
-          "question": "Who are the co-founders of African Website Builders?",
-          "options": [
-            "Fresh Teacher",
-            "Mr. Angel & Mr. Zion",
-            "Ms. Grace & Mr. Angel",
-            "Mr. Zion & Dr. Smith"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "How much monthly income can you earn per active website?",
-          "options": [
-            "£5 (UGX 24,000)",
-            "£7 (UGX 33,600)",
-            "£10 (UGX 48,000)",
-            "£15 (UGX 72,000)"
-          ],
-          "correct": 1
-        }
-        ,
-        {
-          "question": "What is the target number of websites recommended to build?",
-          "options": [
-            "10 websites",
-            "15 websites",
-            "20 websites",
-            "25 websites"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What is the potential yearly earnings from 20 active websites?",
-          "options": [
-            "£1,200 (UGX 5,760,000)",
-            "£1,480 (UGX 7,104,000)",
-            "£1,680 (UGX 8,064,000)",
-            "£2,000 (UGX 9,600,000)"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What makes Zylosite accessible to beginners?",
-          "options": [
-            "It requires coding knowledge",
-            "It needs programming experience",
-            "It has a drag-and-drop interface",
-            "It requires web design certification"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What comprehensive support package does AWB provide?",
-          "options": [
-            "Only technical support",
-            "Just website templates",
-            "Expert training, certification, job market access, and business team support",
-            "Only client connections"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How does the AWB website builder earn you recurring income?",
-          "options": [
-            "Through one-time website sales",
-            "From monthly hosting fees",
-            "By selling domains",
-            "Through advertising revenue"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which tool will you use to create and manage your website?",
-          "options": [
-            "WordPress",
-            "GoDaddy",
-            "Wix",
-            "Zylosite"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What ongoing work is required to maintain the passive income?",
-          "options": [
-            "Complete website rebuilds",
-            "Daily content updates",
-            "Simple maintenance and updates",
-            "Weekly client meetings"
-          ],
-          "correct": 2
-        }
+        // {
+        //   "question": "Who are the co-founders of African Website Builders?",
+        //   "options": [
+        //     "Fresh Teacher",
+        //     "Mr. Angel & Mr. Zion",
+        //     "Ms. Grace & Mr. Angel",
+        //     "Mr. Zion & Dr. Smith"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "How much monthly income can you earn per active website?",
+        //   "options": [
+        //     "£5 (UGX 24,000)",
+        //     "£7 (UGX 33,600)",
+        //     "£10 (UGX 48,000)",
+        //     "£15 (UGX 72,000)"
+        //   ],
+        //   "correct": 1
+        // }
+        // ,
+        // {
+        //   "question": "What is the target number of websites recommended to build?",
+        //   "options": [
+        //     "10 websites",
+        //     "15 websites",
+        //     "20 websites",
+        //     "25 websites"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What is the potential yearly earnings from 20 active websites?",
+        //   "options": [
+        //     "£1,200 (UGX 5,760,000)",
+        //     "£1,480 (UGX 7,104,000)",
+        //     "£1,680 (UGX 8,064,000)",
+        //     "£2,000 (UGX 9,600,000)"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What makes Zylosite accessible to beginners?",
+        //   "options": [
+        //     "It requires coding knowledge",
+        //     "It needs programming experience",
+        //     "It has a drag-and-drop interface",
+        //     "It requires web design certification"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What comprehensive support package does AWB provide?",
+        //   "options": [
+        //     "Only technical support",
+        //     "Just website templates",
+        //     "Expert training, certification, job market access, and business team support",
+        //     "Only client connections"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How does the AWB website builder earn you recurring income?",
+        //   "options": [
+        //     "Through one-time website sales",
+        //     "From monthly hosting fees",
+        //     "By selling domains",
+        //     "Through advertising revenue"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "Which tool will you use to create and manage your website?",
+        //   "options": [
+        //     "WordPress",
+        //     "GoDaddy",
+        //     "Wix",
+        //     "Zylosite"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "What ongoing work is required to maintain the passive income?",
+        //   "options": [
+        //     "Complete website rebuilds",
+        //     "Daily content updates",
+        //     "Simple maintenance and updates",
+        //     "Weekly client meetings"
+        //   ],
+        //   "correct": 2
+        // }
       ]
       },
       {
@@ -1168,96 +1168,96 @@ const defaultCourseModules = [
           ],
           "correct": 1
         },
-        {
-          "question": "Which button do you click to begin the sign-up process?",
-          "options": [
-            "LOGIN",
-            "MEMBER AREA",
-            "GET STARTED",
-            "CREATE ACCOUNT"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What security feature must you complete during both sign-up and sign-in?",
-          "options": [
-            "Enter your phone number",
-            "Upload a profile picture",
-            "Check the Cloudflare security box",
-            "Answer security questions"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
-          "options": [
-            "A confirmation page",
-            "A login form",
-            "A form to fill in your details",
-            "The account dashboard"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What does the email from AWB support include?",
-          "options": [
-            "A discount code",
-            "A verification link",
-            "An account creation tutorial",
-            "Your login credentials"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should you do after submitting your sign-up form?",
-          "options": [
-            "Start building immediately",
-            "Call support",
-            "Check your email for verification",
-            "Create a password"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What helpful feature can save time during future sign-ins?",
-          "options": [
-            "Remember me checkbox",
-            "Face recognition",
-            "Fingerprint scanning",
-            "Auto-login"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What is the purpose of the Cloudflare security checkbox?",
-          "options": [
-            "To save your login details",
-            "To verify you are not a robot",
-            "To activate two-factor authentication",
-            "To encrypt your password"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which button do returning users click to access their account?",
-          "options": [
-            "GET STARTED",
-            "MEMBER AREA",
-            "SIGN UP",
-            "CREATE ACCOUNT"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What is the name of the website builder you access after a successful sign in?",
-          "options": [
-            "SiteCraft",
-            "ZyloSite",
-            "WebMaker",
-            "BuildFast"
-          ],
-          "correct": 1
-        }
+        // {
+        //   "question": "Which button do you click to begin the sign-up process?",
+        //   "options": [
+        //     "LOGIN",
+        //     "MEMBER AREA",
+        //     "GET STARTED",
+        //     "CREATE ACCOUNT"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What security feature must you complete during both sign-up and sign-in?",
+        //   "options": [
+        //     "Enter your phone number",
+        //     "Upload a profile picture",
+        //     "Check the Cloudflare security box",
+        //     "Answer security questions"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
+        //   "options": [
+        //     "A confirmation page",
+        //     "A login form",
+        //     "A form to fill in your details",
+        //     "The account dashboard"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What does the email from AWB support include?",
+        //   "options": [
+        //     "A discount code",
+        //     "A verification link",
+        //     "An account creation tutorial",
+        //     "Your login credentials"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should you do after submitting your sign-up form?",
+        //   "options": [
+        //     "Start building immediately",
+        //     "Call support",
+        //     "Check your email for verification",
+        //     "Create a password"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What helpful feature can save time during future sign-ins?",
+        //   "options": [
+        //     "Remember me checkbox",
+        //     "Face recognition",
+        //     "Fingerprint scanning",
+        //     "Auto-login"
+        //   ],
+        //   "correct": 0
+        // },
+        // {
+        //   "question": "What is the purpose of the Cloudflare security checkbox?",
+        //   "options": [
+        //     "To save your login details",
+        //     "To verify you are not a robot",
+        //     "To activate two-factor authentication",
+        //     "To encrypt your password"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "Which button do returning users click to access their account?",
+        //   "options": [
+        //     "GET STARTED",
+        //     "MEMBER AREA",
+        //     "SIGN UP",
+        //     "CREATE ACCOUNT"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What is the name of the website builder you access after a successful sign in?",
+        //   "options": [
+        //     "SiteCraft",
+        //     "ZyloSite",
+        //     "WebMaker",
+        //     "BuildFast"
+        //   ],
+        //   "correct": 1
+        // }
       ]
       },
       {
@@ -1444,91 +1444,91 @@ const defaultCourseModules = [
           ],
           correct: 2
         },
-        {
-          question: "What is the relationship between websites and hosting?",
-          options: [
-            "Websites don't need hosting",
-            "Websites need space on the internet called hosting",
-            "Hosting is only for large websites",
-            "Hosting is only for storing domain names"
-          ],
-          correct: 1
-        },
-        {
-          question: "What does hosting store?",
-          options: [
-            "Only text files",
-            "Only images",
-            "Media files like photos, videos, audio and documents",
-            "Only website addresses"
-          ],
-          correct: 2
-        },
-        {
-          question: "How much can you earn monthly from hosting one website?",
-          options: [
-            "5 pounds",
-            "7 pounds",
-            "10 pounds",
-            "20 pounds"
-          ],
-          correct: 1
-        },
-        {
-          question: "What is your target number of websites to build?",
-          options: [
-            "10 websites",
-            "15 websites",
-            "20 websites",
-            "25 websites"
-          ],
-          correct: 2
-        },
-        {
-          question: "What makes Zylosite easy to use for creating websites?",
-          options: [
-            "It has pre-made templates to customize",
-            "It's completely free",
-            "It works offline",
-            "It automatically builds websites"
-          ],
-          correct: 0
-        },
-        {
-          question: "What method does Zylosite use for building websites?",
-          options: [
-            "Coding only",
-            "Drag and drop blocks",
-            "Voice commands",
-            "Automatic generation"
-          ],
-          correct: 1
-        },
-        {
-          question: "How do website owners contribute to your earnings?",
-          options: [
-            "They pay domain fees",
-            "They pay hosting fees",
-            "They pay template fees",
-            "They pay design fees"
-          ],
-          correct: 1
-        },
-        {
-          question: "What's the main benefit of using Zylosite's block system?",
-          options: [
-            "It's free",
-            "It makes website creation easier",
-            "It provides hosting",
-            "It manages domain names"
-          ],
-          correct: 1
-        },
-        {
-          question: "What is the official website of AWB?",
-          options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
-          correct: 0
-        }
+        // {
+        //   question: "What is the relationship between websites and hosting?",
+        //   options: [
+        //     "Websites don't need hosting",
+        //     "Websites need space on the internet called hosting",
+        //     "Hosting is only for large websites",
+        //     "Hosting is only for storing domain names"
+        //   ],
+        //   correct: 1
+        // },
+        // {
+        //   question: "What does hosting store?",
+        //   options: [
+        //     "Only text files",
+        //     "Only images",
+        //     "Media files like photos, videos, audio and documents",
+        //     "Only website addresses"
+        //   ],
+        //   correct: 2
+        // },
+        // {
+        //   question: "How much can you earn monthly from hosting one website?",
+        //   options: [
+        //     "5 pounds",
+        //     "7 pounds",
+        //     "10 pounds",
+        //     "20 pounds"
+        //   ],
+        //   correct: 1
+        // },
+        // {
+        //   question: "What is your target number of websites to build?",
+        //   options: [
+        //     "10 websites",
+        //     "15 websites",
+        //     "20 websites",
+        //     "25 websites"
+        //   ],
+        //   correct: 2
+        // },
+        // {
+        //   question: "What makes Zylosite easy to use for creating websites?",
+        //   options: [
+        //     "It has pre-made templates to customize",
+        //     "It's completely free",
+        //     "It works offline",
+        //     "It automatically builds websites"
+        //   ],
+        //   correct: 0
+        // },
+        // {
+        //   question: "What method does Zylosite use for building websites?",
+        //   options: [
+        //     "Coding only",
+        //     "Drag and drop blocks",
+        //     "Voice commands",
+        //     "Automatic generation"
+        //   ],
+        //   correct: 1
+        // },
+        // {
+        //   question: "How do website owners contribute to your earnings?",
+        //   options: [
+        //     "They pay domain fees",
+        //     "They pay hosting fees",
+        //     "They pay template fees",
+        //     "They pay design fees"
+        //   ],
+        //   correct: 1
+        // },
+        // {
+        //   question: "What's the main benefit of using Zylosite's block system?",
+        //   options: [
+        //     "It's free",
+        //     "It makes website creation easier",
+        //     "It provides hosting",
+        //     "It manages domain names"
+        //   ],
+        //   correct: 1
+        // },
+        // {
+        //   question: "What is the official website of AWB?",
+        //   options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
+        //   correct: 0
+        // }
       ]
       }
     ]
@@ -2217,8 +2217,8 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
   }, [completedUnits, audioContext, playSound, modules]);
 
   const CourseComplete = ({ onClose }) => (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-md w-full mx-4 text-center space-y-6">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[100]">
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-md w-full mx-4 text-center space-y-6 relative">
         <div className="w-24 h-24 mx-auto bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
           <GraduationCap className="w-12 h-12 text-green-600 dark:text-green-400" />
         </div>
@@ -2226,7 +2226,12 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         <h2 className="text-3xl font-bold">Course Completed! 🎓</h2>
         <p className="text-gray-600 dark:text-gray-300">Congratulations! You've completed all available modules.</p>
         <button
-          onClick={onClose}
+          onClick={() => {
+            onClose();
+            // Clear the selected module and unit states
+            setSelectedModule(null);
+            setSelectedUnit(null);
+          }}
           className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors mx-auto"
         >
           <ArrowLeft className="w-5 h-5" />
@@ -2238,31 +2243,31 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
   const handleAnswerSelect = useCallback(async (optionIndex) => {
     if (quizState.showFeedback || !selectedUnit || !selectedUnit.quiz) return;
-
+  
     if (audioContext?.state === 'suspended') {
       await audioContext.resume();
     }
-
+  
     setQuizState(prev => ({ ...prev, selectedAnswer: optionIndex, showFeedback: true }));
-
+  
     const currentQuestion = selectedUnit.quiz[quizState.currentQuestionIndex];
     const isCorrect = optionIndex === currentQuestion.correct;
-
+  
     await new Promise(resolve => setTimeout(resolve, 100));
-
+  
     if (isCorrect) {
       playSound('correct');
       triggerConfetti();
     } else {
       playSound('wrong');
     }
-
+  
     await new Promise(resolve => setTimeout(resolve, 1500));
-
+  
     if (isCorrect) {
       setQuizState(prev => ({ ...prev, correctAnswers: prev.correctAnswers + 1 }));
     }
-
+  
     if (quizState.currentQuestionIndex < selectedUnit.quiz.length - 1) {
       setQuizState(prev => ({
         ...prev,
@@ -2273,7 +2278,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
     } else {
       const finalScore = isCorrect ? quizState.correctAnswers + 1 : quizState.correctAnswers;
       const passed = finalScore >= Math.ceil(selectedUnit.quiz.length * 0.7);
-
+  
       const scorePercentage = (finalScore / selectedUnit.quiz.length) * 100;
       if (scorePercentage === 100) {
         playSound('perfect');
@@ -2282,11 +2287,11 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       } else {
         playSound('try-again');
       }
-
+  
       if (passed) {
         await new Promise(resolve => setTimeout(resolve, 200));
         triggerConfetti();
-
+  
         // Update completed units
         const newCompletedUnit = { moduleId: selectedModule.id, unitId: selectedUnit.id };
         setCompletedUnits(prev => {
@@ -2295,69 +2300,31 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           }
           return [...prev, newCompletedUnit];
         });
-
+  
         // Check if this completes the module
         const allModuleUnits = selectedModule.units;
         const completedModuleUnits = completedUnits.filter(unit => unit.moduleId === selectedModule.id);
-        const isModuleComplete = completedModuleUnits.length === allModuleUnits.length - 1; // -1 because current unit isn't in completedUnits yet
-
+        const isModuleComplete = completedModuleUnits.length === allModuleUnits.length - 1;
+  
         if (isModuleComplete) {
-          // Award badge for completing the module
           setEarnedBadges(prev => {
             if (!prev.includes(selectedModule.id)) {
               return [...prev, selectedModule.id];
             }
             return prev;
           });
-
-          // Show badge award modal
+  
           setShowBadgeAward({
             ...badges[selectedModule.id],
             isLastBadge: selectedModule.id === modules.length
           });
         }
-
-        // Find next unit in current module
-        const currentUnitIndex = selectedModule.units.findIndex(u => u.id === selectedUnit.id);
-        const nextUnit = selectedModule.units[currentUnitIndex + 1];
-
-        // If there's a next unit in the current module, move to it
-        if (nextUnit) {
-          setTimeout(() => {
-            setSelectedUnit(nextUnit);
-            setQuizState({
-              currentQuestionIndex: 0,
-              correctAnswers: 0,
-              submitted: false,
-              selectedAnswer: null,
-              showFeedback: false
-            });
-            scrollModalToTop();
-          }, 2000);
-        } else {
-          // Module is complete, prepare to move to next module
-          const nextModule = modules.find(m => m.id === selectedModule.id + 1);
-          if (nextModule) {
-            setTimeout(() => {
-              setSelectedModule(nextModule);
-              setSelectedUnit(nextModule.units[0]);
-              setQuizState({
-                currentQuestionIndex: 0,
-                correctAnswers: 0,
-                submitted: false,
-                selectedAnswer: null,
-                showFeedback: false
-              });
-              scrollModalToTop();
-            }, 2000);
-          }
-        }
       }
-
+  
       setQuizState(prev => ({ ...prev, submitted: true }));
     }
-  }, [quizState, selectedModule, selectedUnit, audioContext, playSound, completedUnits, modules, scrollModalToTop, badges]);
-
+  }, [quizState, selectedModule, selectedUnit, audioContext, playSound, completedUnits, modules, badges]);
+  
 
   // Memoize the current quiz
   const currentQuiz = useMemo(() => {
@@ -2367,15 +2334,20 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
   const renderQuiz = useCallback(() => {
     if (!selectedUnit?.quiz) return null;
-
+  
     const currentQuestion = selectedUnit.quiz[quizState.currentQuestionIndex];
-
+  
     if (quizState.submitted) {
       const finalScore = quizState.correctAnswers;
       const totalQuestions = selectedUnit.quiz.length;
       const passed = finalScore >= Math.ceil(totalQuestions * 0.7);
       const isPerfectScore = finalScore === totalQuestions;
-
+  
+      // Find next unit in current module
+      const currentUnitIndex = selectedModule.units.findIndex(u => u.id === selectedUnit.id);
+      const nextUnit = selectedModule.units[currentUnitIndex + 1];
+      const nextModule = !nextUnit && modules.find(m => m.id === selectedModule.id + 1);
+  
       return (
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
@@ -2412,22 +2384,51 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
               <p className="mt-4 text-lg">Keep going! You're getting better with each try! 🚀</p>
             )}
           </div>
-
+  
           <div className="flex flex-col gap-4">
-            {passed && (
+            {passed && nextUnit && (
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => {
-                  handleModuleClick(selectedModule.id + 1);
+                  setSelectedUnit(nextUnit);
+                  setQuizState({
+                    currentQuestionIndex: 0,
+                    correctAnswers: 0,
+                    submitted: false,
+                    selectedAnswer: null,
+                    showFeedback: false
+                  });
                   scrollModalToTop();
                 }}
                 className="flex items-center justify-center gap-3 px-8 py-4 mx-auto bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
               >
-                Continue to Next Course Unit! 🎮 <ArrowRight className="w-6 h-6" />
+                Go to Next Unit: {nextUnit.title} <ArrowRight className="w-6 h-6" />
               </motion.button>
             )}
-
+  
+            {passed && !nextUnit && nextModule && (
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => {
+                  setSelectedModule(nextModule);
+                  setSelectedUnit(nextModule.units[0]);
+                  setQuizState({
+                    currentQuestionIndex: 0,
+                    correctAnswers: 0,
+                    submitted: false,
+                    selectedAnswer: null,
+                    showFeedback: false
+                  });
+                  scrollModalToTop();
+                }}
+                className="flex items-center justify-center gap-3 px-8 py-4 mx-auto bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors text-xl font-bold shadow-lg"
+              >
+                Next Module: {nextModule.title} <ArrowRight className="w-6 h-6" />
+              </motion.button>
+            )}
+  
             {!passed && (
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -2448,27 +2449,27 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
               </motion.button>
             )}
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => {
-                setSelectedModule(null);
-                setQuizState({
-                  currentQuestionIndex: 0,
-                  correctAnswers: 0,
-                  submitted: false,
-                  selectedAnswer: null,
-                  showFeedback: false
-                });
-              }}
-              className="px-8 py-4 bg-gray-600 text-white rounded-xl hover:bg-gray-700 transition-colors text-xl font-bold shadow-lg"
-            >
-              Close Module ✖️
-            </motion.button>
-          </div>
-        </motion.div>
-      );
-    }
+<motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              setSelectedModule(null);
+              setQuizState({
+                currentQuestionIndex: 0,
+                correctAnswers: 0,
+                submitted: false,
+                selectedAnswer: null,
+                showFeedback: false
+              });
+            }}
+            className="px-8 py-4 bg-gray-600 text-white rounded-xl hover:bg-gray-700 transition-colors text-xl font-bold shadow-lg"
+          >
+            Close Module ✖️
+          </motion.button>
+        </div>
+      </motion.div>
+    );
+  }
 
     if (!currentQuestion) return null;
 
