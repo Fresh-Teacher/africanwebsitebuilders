@@ -323,6 +323,10 @@ const defaultCourseModules = [
         <source src="https://awb-silk.vercel.app/African Web-Builders Course English (1).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <audio className="w-full mt-4" controls>
+  <source src="https://awb-silk.vercel.app/Module 1, Unit 1.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
         
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">🖥️The Future is Digital!💻</h3>
@@ -554,6 +558,10 @@ const defaultCourseModules = [
       <source src="https://awb-silk.vercel.app/VID-20241216-WA0157.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
+    <audio className="w-full mt-4" controls>
+    <source src="https://awb-silk.vercel.app/Module 1, Unit 2.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Transforming Lives Through Digital Opportunities!</h3>
           
@@ -833,6 +841,10 @@ const defaultCourseModules = [
           <source src="https://awb-silk.vercel.app/VID-20241224-WA0089.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <audio className="w-full mt-4" controls>
+        <source src="https://awb-silk.vercel.app/Module 1, Unit 3.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
       
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">🔑 Your Gateway to African Website Builders!</h3>
@@ -1136,6 +1148,10 @@ const defaultCourseModules = [
           <source src="https://awb-silk.vercel.app/VID-20241226-WA0076.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <audio className="w-full mt-4" controls>
+        <source src="https://awb-silk.vercel.app/Module 1, Unit 4.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Let's Start Your Amazing Website Journey! 🚀</h3>
           
