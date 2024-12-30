@@ -1416,167 +1416,284 @@ const defaultCourseModules = [
     ]
   },
   {
-    id: 2,
-    title: "Advanced Website Building Techniques",
-    units: [
+    "id": 2,
+    "title": "Editing Basics",
+    "units": [
       {
-        id: 1,
-        title: "Customizing Templates",
-        content: `This unit focuses on advanced customization techniques, including modifying themes, changing color schemes, and adding unique features to templates.`,
-        quiz: [
+        "id": 1,
+        "title": "Working with text, buttons, and blocks",
+        "content": "This unit introduces the fundamental techniques for editing and customizing text, buttons, and blocks. Students will learn how to modify these elements to align with the overall design and functionality of their website.",
+        "quiz": [
           {
-            question: "What is the purpose of customizing a template?",
-            options: ["To make it visually appealing", "To align with branding", "To add unique features", "All of the above"],
-            correct: 3
+            "question": "What is the primary purpose of editing text, buttons, and blocks?",
+            "options": [
+              "To make the website visually appealing",
+              "To improve functionality",
+              "To align with design goals",
+              "All of the above"
+            ],
+            "correct": 3
           },
           {
-            question: "Which tool is best for editing templates in Zylosite?",
-            options: ["Theme Editor", "Dashboard", "Content Manager", "Quiz Creator"],
-            correct: 0
+            "question": "Which editing tool is primarily used to customise text in Zylosite?",
+            "options": [
+              "Text Editor",
+              "Theme Customizer",
+              "Content Manager",
+              "Visual Builder"
+            ],
+            "correct": 0
           }
         ]
       },
       {
-        id: 2,
-        title: "SEO & Performance Optimization",
-        content: `Students will learn how to optimize their websites for search engines and improve loading speed and overall performance.`,
-        quiz: [
+        "id": 2,
+        "title": "Adding Video",
+        "content": "This unit focuses on embedding video content into websites. Students will learn how to upload videos, add links from platforms like YouTube or Vimeo, and adjust settings for autoplay, looping, and responsiveness.",
+        "quiz": [
           {
-            question: "What does SEO stand for?",
-            options: ["Search Engine Optimization", "Site Evaluation Order", "System Efficiency Online", "Search Enhanced Options"],
-            correct: 0
+            "question": "Which of these platforms can you embed videos from in Zylosite?",
+            "options": [
+              "YouTube",
+              "Vimeo",
+              "Both YouTube and Vimeo",
+              "None of the above"
+            ],
+            "correct": 2
           },
           {
-            question: "Which tool helps improve website performance on Zylosite?",
-            options: ["Performance Dashboard", "Analytics", "Speed Optimizer", "All of the above"],
-            correct: 3
+            "question": "What setting should you enable for videos to play automatically when the page loads?",
+            "options": [
+              "Loop",
+              "Autoplay",
+              "Responsive Mode",
+              "Mute"
+            ],
+            "correct": 1
+          }
+        ]
+      }
+    ]
+  },  
+  {
+    "id": 3,
+    "title": "Advanced Tools",
+    "units": [
+      {
+        "id": 1,
+        "title": "Cogs, Grids, and Components",
+        "content": "Explore advanced tools like cogs for automation, grids for layout organisation, and components for reusable design.",
+        "quiz": [
+          {
+            "question": "What are components primarily used for?",
+            "options": [
+              "Embedding videos",
+              "Creating reusable design elements",
+              "Editing text",
+              "Adding pop-ups"
+            ],
+            "correct": 1
           }
         ]
       },
-      
+      {
+        "id": 2,
+        "title": "Creating Pages and Pop-ups",
+        "content": "Learn to add and manage pages and design pop-ups to enhance user engagement.",
+        "quiz": [
+          {
+            "question": "What is a pop-up used for?",
+            "options": [
+              "To display videos",
+              "To capture user attention with special offers or forms",
+              "To edit content",
+              "To optimise SEO"
+            ],
+            "correct": 1
+          }
+        ]
+      }
     ]
   },
   {
-    id: 3,
-    title: "Advanced Website Building Techniques",
-    units: [
+    "id": 4,
+    "title": "Visual Elements",
+    "units": [
       {
-        id: 1,
-        title: "Customizing Templates",
-        content: `This unit focuses on advanced customization techniques, including modifying themes, changing color schemes, and adding unique features to templates.`,
-        quiz: [
+        "id": 1,
+        "title": "Parallax Effects and Padding",
+        "content": "Understand how to add parallax effects for dynamic visuals and adjust padding for perfect spacing.",
+        "quiz": [
           {
-            question: "What is the purpose of customizing a template?",
-            options: ["To make it visually appealing", "To align with branding", "To add unique features", "All of the above"],
-            correct: 3
-          },
-          {
-            question: "Which tool is best for editing templates in Zylosite?",
-            options: ["Theme Editor", "Dashboard", "Content Manager", "Quiz Creator"],
-            correct: 0
+            "question": "What is a parallax effect?",
+            "options": [
+              "A scrolling effect where background images move slower than foreground",
+              "An animation effect",
+              "A layout design tool",
+              "A form creation tool"
+            ],
+            "correct": 0
           }
         ]
       },
       {
-        id: 2,
-        title: "SEO & Performance Optimization",
-        content: `Students will learn how to optimize their websites for search engines and improve loading speed and overall performance.`,
-        quiz: [
+        "id": 2,
+        "title": "Slideshows and Forms",
+        "content": "Learn to create slideshows for showcasing content and design forms for user interaction.",
+        "quiz": [
           {
-            question: "What does SEO stand for?",
-            options: ["Search Engine Optimization", "Site Evaluation Order", "System Efficiency Online", "Search Enhanced Options"],
-            correct: 0
-          },
-          {
-            question: "Which tool helps improve website performance on Zylosite?",
-            options: ["Performance Dashboard", "Analytics", "Speed Optimizer", "All of the above"],
-            correct: 3
+            "question": "Which form element is essential for capturing user input?",
+            "options": [
+              "Button",
+              "Text field",
+              "Image",
+              "Slider"
+            ],
+            "correct": 1
           }
         ]
-      },
-      
+      }
     ]
   },
   {
-    id: 4,
-    title: "Advanced Website Building Techniques",
-    units: [
+    "id": 5,
+    "title": "Rebuild & Speed Test",
+    "units": [
       {
-        id: 1,
-        title: "Customizing Templates",
-        content: `This unit focuses on advanced customization techniques, including modifying themes, changing color schemes, and adding unique features to templates.`,
-        quiz: [
+        "id": 1,
+        "title": "Recreate a Website",
+        "content": "Rebuild a website from scratch, applying all the techniques learned in previous classes.",
+        "quiz": [
           {
-            question: "What is the purpose of customizing a template?",
-            options: ["To make it visually appealing", "To align with branding", "To add unique features", "All of the above"],
-            correct: 3
-          },
-          {
-            question: "Which tool is best for editing templates in Zylosite?",
-            options: ["Theme Editor", "Dashboard", "Content Manager", "Quiz Creator"],
-            correct: 0
+            "question": "Why is it important to rebuild a site from scratch?",
+            "options": [
+              "To test your knowledge",
+              "To improve your speed",
+              "To master the process",
+              "All of the above"
+            ],
+            "correct": 3
           }
         ]
       },
       {
-        id: 2,
-        title: "SEO & Performance Optimization",
-        content: `Students will learn how to optimize their websites for search engines and improve loading speed and overall performance.`,
-        quiz: [
+        "id": 2,
+        "title": "Speed Optimisation",
+        "content": "Test your site’s performance and learn to improve loading speed using tools like Speed Optimizer.",
+        "quiz": [
           {
-            question: "What does SEO stand for?",
-            options: ["Search Engine Optimization", "Site Evaluation Order", "System Efficiency Online", "Search Enhanced Options"],
-            correct: 0
-          },
-          {
-            question: "Which tool helps improve website performance on Zylosite?",
-            options: ["Performance Dashboard", "Analytics", "Speed Optimizer", "All of the above"],
-            correct: 3
+            "question": "What affects website speed the most?",
+            "options": [
+              "Image sizes",
+              "Code efficiency",
+              "Hosting provider",
+              "All of the above"
+            ],
+            "correct": 3
           }
         ]
-      },
-      
+      }
     ]
   },
   {
-    id: 5,
-    title: "Advanced Website Building Techniques",
-    units: [
+    "id": 6,
+    "title": "Recap and Practice",
+    "units": [
       {
-        id: 1,
-        title: "Customizing Templates",
-        content: `This unit focuses on advanced customization techniques, including modifying themes, changing color schemes, and adding unique features to templates.`,
-        quiz: [
+        "id": 1,
+        "title": "Review and Practical Exercises",
+        "content": "Revise key concepts and complete practical exercises to strengthen your understanding.",
+        "quiz": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Countdowns",
+    "units": [
+      {
+        "id": 1,
+        "title": "Creating Countdown Timers",
+        "content": "Learn to create and customise countdown timers using Zylosite modules.",
+        "quiz": [
           {
-            question: "What is the purpose of customizing a template?",
-            options: ["To make it visually appealing", "To align with branding", "To add unique features", "All of the above"],
-            correct: 3
-          },
-          {
-            question: "Which tool is best for editing templates in Zylosite?",
-            options: ["Theme Editor", "Dashboard", "Content Manager", "Quiz Creator"],
-            correct: 0
+            "question": "What is the purpose of a countdown timer?",
+            "options": [
+              "To display current time",
+              "To create urgency",
+              "To improve SEO",
+              "To add animations"
+            ],
+            "correct": 1
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Optimisation and Branding",
+    "units": [
+      {
+        "id": 1,
+        "title": "Website SEO",
+        "content": "Learn the basics of SEO to improve website visibility and rankings.",
+        "quiz": []
       },
       {
-        id: 2,
-        title: "SEO & Performance Optimization",
-        content: `Students will learn how to optimize their websites for search engines and improve loading speed and overall performance.`,
-        quiz: [
-          {
-            question: "What does SEO stand for?",
-            options: ["Search Engine Optimization", "Site Evaluation Order", "System Efficiency Online", "Search Enhanced Options"],
-            correct: 0
-          },
-          {
-            question: "Which tool helps improve website performance on Zylosite?",
-            options: ["Performance Dashboard", "Analytics", "Speed Optimizer", "All of the above"],
-            correct: 3
-          }
-        ]
-      },
-      
+        "id": 2,
+        "title": "Adding Favicons and Social Media Links",
+        "content": "Add branding elements like favicons and integrate social media for better user connectivity.",
+        "quiz": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "AWB Tutor Course - Part 1",
+    "units": [
+      {
+        "id": 1,
+        "title": "Introduction to Teaching Skills",
+        "content": "Develop teaching skills to share your knowledge with others effectively.",
+        "quiz": []
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "AWB Tutor Course - Part 2",
+    "units": [
+      {
+        "id": 1,
+        "title": "Advanced Teaching Techniques",
+        "content": "Learn advanced teaching strategies to deliver impactful lessons.",
+        "quiz": []
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Freelancing Readiness",
+    "units": [
+      {
+        "id": 1,
+        "title": "Becoming Freelance Ready",
+        "content": "Learn how to set up a profile and attract clients for your website building services.",
+        "quiz": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Sales Strategies",
+    "units": [
+      {
+        "id": 1,
+        "title": "Sales Online and Locally",
+        "content": "Understand strategies to market your services online and in your local area.",
+        "quiz": []
+      }
     ]
   }
 ];
