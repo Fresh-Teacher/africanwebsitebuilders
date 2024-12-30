@@ -1920,29 +1920,259 @@ const defaultCourseModules = [
     {
       "id": 3,
       "title": "Working with Text",
-      "content": "This unit teaches students how to effectively work with text elements. Students will learn about typography, text formatting, spacing, and creating readable content that enhances their website's message.",
-      "quiz": [
-        {
-          "question": "What is the most important factor when choosing text colors?",
-          "options": [
-            "Using your favorite color",
-            "Ensuring contrast with the background",
-            "Making all text bold",
-            "Using multiple fonts"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which text property affects the space between lines of text?",
-          "options": [
-            "Word spacing",
-            "Letter spacing",
-            "Line height",
-            "Text indent"
-          ],
-          "correct": 2
-        }
-      ]
+      "content": `<div class="space-y-6">
+      <h2 class="text-2xl font-bold">Let's Talk Text in Zylosite! ✨  Express Yourself!</h2><div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+      <video className="w-full rounded-lg" controls>
+      <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video><br>
+      <h3 class="text-2xl font-semibold mb-4 text-center">Your Words, Yourself! 📝</h3>
+      
+      <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+      "Plain text is so 2010! Let's jazz up your content and make it impossible to ignore!"
+      <footer class="text-sm mt-2">- AWB Training Team (The Word Police 👮‍♂️)</footer>
+    </blockquote>
+    
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+      <p class="mb-4">      <p class="mb-4">Hey there, text adventurer! 👋 Ready to transform your boring old text into something that'll make your readers go "Wow!"? 😮 
+      We've got three super cool paragraph styles waiting for you:</p>    
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Text Types Available: 📝</h5>
+          <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+            <div class="bg-white/70 p-4 rounded">
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Regular Paragraph:</span> Perfect for main body content, article text, and general information</li>
+                <li><span class="font-semibold">Lead Paragraph:</span> Want to make a statement? This larger, eye-catching style is perfect for those "hey, look at this!" moments and important announcements</li>
+                <li><span class="font-semibold">Small Paragraph:</span> Small Paragraph:</span> Sometimes less is more! Great for those little details, image captions, or when you need to add a quick note</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Quick Start Guide 🚀</h5>
+      <p class="mt-2">Just grab your favorite paragraph style and drop it right onto your canvas! You'll see some "Lorem Ipsum" placeholder text (you know, that fancy-looking Latin stuff that doesn't actually mean anything 😉). Here's how to make it your own:</p>
+
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <p class="font-semibold mb-2">Your Text Controls ⚙️</p>
+        <ul class="list-disc pl-4 space-y-2">
+          <li>Hit that "T" icon to start typing your actual content</li>
+          <li>Use the cog for any extra tweaks</li>
+          <li>Need the same style again? Clone it!</li>
+          <li>Made a mistake? The delete button's got your back</li>
+        </ul>
+      </div>
+    </div>
+
+      <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Your Magical Formatting Toolbox: 🎨</h5>
+        <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+          <div class="bg-white/70 p-4 rounded">
+            <ul class="list-disc pl-4 space-y-2">
+              <li><span class="font-semibold">Bold:</span> When you need to shout without actually shouting! Perfect for those "Hey, look at this!" moments 💪</li>
+              <li><span class="font-semibold">Italics:</span> Add some fancy-pants sophistication or *emphasis* to your words. It's like giving your text a posh accent! 🎭</li>
+              <li><span class="font-semibold">Underline:</span> Because sometimes you need to underline things... you know, for extra "Hey, this is important!" vibes 📏</li>
+              <li><span class="font-semibold">Text Alignment:</span> Left, center, or right - it's like training a dance for your words! Make them march left, centerstage, or right off the page 💃</li>
+              <li><span class="font-semibold">Font Family:</span> Give your text a whole new personality! From serious business to party mode - we've got fonts for every mood 👔</li>
+              <li><span class="font-semibold">Font Color:</span> Paint your words in rainbow! No racism, black is great, but sometimes you need to go full unicorn 🌈</li>
+              <li><span class="font-semibold">Links:</span> Turn your text into magical portals to other content! It's like creating secret passages 🚪</li>
+              <li><span class="font-semibold">Clear Formatting:</span> The magic eraser when you've gone a bit too crazy with the formatting (we've all been there!) 🧹</li>
+              <li><span class="font-semibold">Undo/Redo:</span> Time travel for your text! Made a mistake? No worries, just hit that undo button! ⏰</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Fun Ways to Mix & Match! 🎨</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <p class="font-semibold mb-2">Try These Cool Combos:</p>
+        <ul class="list-disc pl-4 space-y-2">
+          <li><span class="font-bold text-blue-600">Bold + Color</span> - For when you really, REALLY need attention!</li>
+          <li><span class="italic underline">Italics + Underline</span> - Double the emphasis, double the fun!</li>
+          <li><span class="font-serif text-purple-600">Fancy Font + Color</span> - Get that royal vibe going!</li>
+          <li>Center align + Bold - Perfect for those "Ta-da! 🎉" moments</li>
+        </ul>
+      </div>
+    </div>
+
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Did You Know? ⌨️</h5>
+      <p class="mt-2">Hold onto your keyboard, because these shortcuts are about to make you feel like a text-formatting ninja! 🐱‍👤</p>
+
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <p class="font-semibold mb-2">Keyboard Shortcuts That'll Make You Look Like a Computer Wizard! 👨‍💻 </p>
+        <ul class="list-disc pl-4 space-y-2">
+          <li><span class="font-mono">Ctrl/Cmd + B</span> - Bold text</li>
+          <li><span class="font-mono">Ctrl/Cmd + I</span> -Italics</li>
+          <li><span class="font-mono">Ctrl/Cmd + U</span> - Underline</li>
+          <li><span class="font-mono">Ctrl/Cmd + A</span> - Select All</li>
+          <li><span class="font-mono">Ctrl/Cmd + Z</span> - Undo  (Oopsie eraser)</li>
+          <li><span class="font-mono">Ctrl/Cmd + Y</span> - Redo (For when you realize that mistake wasn't actually a mistake 🤓)</li>
+          <li><span class="font-mono">Ctrl/Cmd + Shift + Z</span> - Alternative Redo (For Mac folks who like to be different 😎)</li>
+        </ul>
+      </div>
+    </div>
+
+
+      <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Text Formatting Horror Stories 😱</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <p class="mb-2">Things We've All Done (But Shouldn't have! 🤦🤦‍♂️):</p>
+        <ul class="list-disc pl-4 space-y-2">
+          <li>Using ALL CAPS everywhere (Unless you're trying to scare someone! 👻)</li>
+          <li>Mixing five different fonts in one paragraph (That's not art, that's chaos! 🎨)</li>
+          <li>Forgetting to save and losing all your perfect formatting (The pain! 😭)</li>
+        </ul>
+      </div>
+    </div>
+    
+      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+      <h5 class="font-semibold">Pro Tips from the Text Wizards 🧙‍♂️</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <ul class="list-disc pl-4 space-y-2">
+          <li>Less is more! (Unless it's pizza 🍕, then more is more 😋)</li>
+          <li>Save your work every 5 minutes (Or after every perfect formatting combination you feel proud of! 😌)</li>
+          <li>When in doubt, preview your work (What looks good in the editor might look weird on the actual page! 🥴)</li>
+          <li>Always use the clone option to duplicate text styles (Work smarter, not harder! 🧠)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mt-4">
+    <h5 class="font-semibold">Emergency Formatting Kit! 🚨</h5>
+    <p class="mt-2">Keep these handy when things go wrong (and they will, trust us!):</p>
+    <div class="bg-white/70 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+        <li>The Clear Formatting button - Your "start over" bestie! 🤗</li>
+        <li>Ctrl/Cmd + Z - Your time machine to better choices</li>
+        <li>The preview button - Your reality check buddy</li>
+        <li>The save button - Your guardian angel 👼</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+    <h5 class="font-semibold">Quick Reminder</h5>
+    <p class="mt-2">Don't forget to smash that save button after you've made your changes! Trust us, you don't want to lose your creative genius! 🧠</p>
+  </div>
+    
+  <div class="mt-6 text-center">
+  <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Rock Your Text World? 🎸</p>
+  <p class="text-lg mt-2">Go forth and format your text! </p>
+  <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">P.S. If anyone asks, tell them we taught you everything you know! 😉🙏</p>
+</div>
+</div>
+    `,
+    "quiz": [
+      {
+        "question": "What are the three types of paragraphs available in Zylosite?",
+        "options": [
+          "Large, Medium, Small",
+          "Regular, Lead, Small",
+          "Title, Body, Footer",
+          "Header, Content, Footer"
+        ],
+        "correct": 1
+      },
+ 
+      {
+        "question": "Which icon represents the edit text option?",
+        "options": [
+          "Pencil icon",
+          "Capital T icon",
+          "A icon",
+          "Edit icon"
+        ],
+        "correct": 1
+      },
+  
+      {
+        "question": "Where can you find the text component options in Zylosite?",
+        "options": [
+          "In the Settings menu",
+          "In the Components section",
+          "In the Edit menu",
+          "In the Format menu"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the purpose of the 'Lorem Ipsum' text?",
+        "options": [
+          "It's the final content",
+          "It's meaningful text",
+          "It's dummy placeholder text",
+          "It's system instructions"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which option allows you to remove a text component?",
+        "options": [
+          "Delete option",
+          "Remove button",
+          "Clear text",
+          "Hide component"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the recommended way to modify text content?",
+        "options": [
+          "Right-click and edit",
+          "Click the Capital T icon",
+          "Double-click the text",
+          "Use keyboard shortcuts"
+        ],
+        "correct": 1
+      },
+   
+      {
+        "question": "What happens if you don't save your text changes?",
+        "options": [
+          "Changes are auto-saved",
+          "Changes are lost",
+          "A warning appears",
+          "Text reverts to Lorem Ipsum"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which feature allows you to duplicate text without copying?",
+        "options": [
+          "Duplicate button",
+          "Clone option",
+          "Copy feature",
+          "Text template"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which action is required before leaving the text editor?",
+        "options": [
+          "Preview changes",
+          "Save changes",
+          "Clear cache",
+          "Update settings"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What type of text initially appears in new text components?",
+        "options": [
+          "Blank space",
+          "Default text",
+          "Lorem Ipsum",
+          "Instructions"
+        ],
+        "correct": 2
+      },
+ 
+    ]
     },
       {
         "id": 4,
