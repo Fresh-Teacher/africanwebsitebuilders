@@ -1422,30 +1422,261 @@ const defaultCourseModules = [
       {
         "id": 1,
         "title": "Working with text, buttons, and blocks",
-        "content": "This unit introduces the fundamental techniques for editing and customizing text, buttons, and blocks. Students will learn how to modify these elements to align with the overall design and functionality of their website.",
-        "quiz": [
-          {
-            "question": "What is the primary purpose of editing text, buttons, and blocks?",
-            "options": [
-              "To make the website visually appealing",
-              "To improve functionality",
-              "To align with design goals",
-              "All of the above"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "Which editing tool is primarily used to customise text in Zylosite?",
-            "options": [
-              "Text Editor",
-              "Theme Customizer",
-              "Content Manager",
-              "Visual Builder"
-            ],
-            "correct": 0
-          }
-        ]
-      },
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Building Awesome Websites with Blocks! 🧱 Let's Get Started! ✨</h2>
+      
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Create Something Amazing? 🎯</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "Think of blocks as your website's building pieces - just like a puzzle, each piece has its perfect spot to create something awesome! 🧩"
+            <footer class="text-sm mt-2">- AWB Training Team</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🎯 Getting Started with Zylosite</h4>
+            <p class="mb-4">When you open Zylosite, you'll find your website building tools neatly organized on the left side of your screen. It's like having a well-organized toolbox where everything's easy to find!</p>
+            <!-- Added screenshot image -->
+            <div class="w-full flex justify-center mb-6">
+              <img 
+                src="https://awb-silk.vercel.app/Screenshot%20(861).png" 
+                alt="Zylosite Website Builder Interface" 
+                class="rounded-lg shadow-lg border border-gray-200"
+              />
+            </div>
+            <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Your Building Tools: 🧰</h5>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>🧱 Blocks - Pre-built sections ready to use (That's what we're learning today!)</li>
+                <li>🔧 Components - Smaller elements to customize your blocks</li>
+                <li>📄 Pages - Different sections of your website</li>
+                <li>💫 Popups - Interactive elements that appear when needed</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🎨 Let's Build Something Together!</h4>
+            <p class="mb-4">Want to see how easy it is? Let's create a business website step by step - no complicated stuff, just simple drag and drop! 🎯</p>
+            
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Step 1: Understanding Your Blocks 📚</h5>
+              <p class="mt-2">Click on 'Blocks' and you'll find everything you need to build a great website:</p>
+              <div class="grid grid-cols-2 gap-4 mt-4">
+                <div class="bg-white/70 p-3 rounded">
+                  <ul class="list-disc pl-4 space-y-1">
+                    <li>🎯 Call to Action</li>
+                    <li>📞 Contact Forms</li>
+                    <li>📝 Content Sections</li>
+                    <li>⏰ Countdown Timers</li>
+                    <li>➗ Dividers</li>
+                    <li>🔌 Embed Features</li>
+                    <li>👣 Footers</li>
+                    <li>🖼️ Gallery Displays</li>
+                    <li>👑 Headers</li>
+                  </ul>
+                </div>
+                <div class="bg-white/70 p-3 rounded">
+                  <ul class="list-disc pl-4 space-y-1">
+                    <li>🧭 Navigation Bars</li>
+                    <li>💰 Pricing Tables</li>
+                    <li>📈 Processes</li>
+                    <li>✍️ Signup Forms</li>
+                    <li>🎠 Slideshows</li>
+                    <li>📫 Subscribe Forms</li>
+                    <li>👥 Team Sections</li>
+                    <li>⭐ Testimonials</li>
+                    <li>📑 Titles</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <h4 class="font-semibold text-xl mb-4">🎯 Building Your First Website</h4>
+            
+            <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Example: Creating a Professional Website 🏢</h5>
+              <div class="space-y-4 mt-4">
+                <div class="bg-white/70 p-4 rounded-lg">
+                  <p class="font-semibold">Step 1: Adding Your Header 👑</p>
+                  <ul class="list-disc pl-6">
+                    <li>Find "Headers" in your blocks menu</li>
+                    <li>Browse through the pre-designed options</li>
+                    <li>Pick one that matches your style</li>
+                    <li>Drag it to the top of your page - done!</li>
+                  </ul>
+                </div>
+      
+                <div class="bg-white/70 p-4 rounded-lg">
+                  <p class="font-semibold">Step 2: Features Section 🌟</p>
+                  <ul class="list-disc pl-6">
+                    <li>Look for "Features" in your blocks</li>
+                    <li>Choose a layout that shows your services best</li>
+                    <li>Drag it below your header</li>
+                    <li>Your website is taking shape!</li>
+                  </ul>
+                </div>
+      
+                <div class="bg-white/70 p-4 rounded-lg">
+                  <p class="font-semibold">Step 3: Contact Information 📞</p>
+                  <ul class="list-disc pl-6">
+                    <li>Select "Contact" from your blocks</li>
+                    <li>Find a style that fits your needs</li>
+                    <li>Drag it where you want it</li>
+                    <li>Perfect - visitors can now reach you!</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-gradient-to-r from-green-100 to-teal-100 dark:from-green-800 dark:to-teal-800 p-6 rounded-lg">
+          <h4 class="font-semibold text-xl mb-4">📝 Pro Tips for Better Websites</h4>
+          <div class="bg-white/50 p-4 rounded-lg space-y-4">
+            <div class="space-y-2">
+              <p class="font-semibold">10 Tricks & Hacks: 🎯</p>
+              <ol class="list-decimal pl-6">
+                <li>Start with a plan - know what sections you need</li>
+                <li>Choose blocks that work well together</li>
+                <li>Keep your layout clean and organized</li>
+                <li>Make sure everything looks good on mobile phones</li>
+                <li>Use consistent spacing between blocks for a professional look</li>
+                <li>Stick to 2-3 main colors throughout your website</li>
+                <li>Keep your most important content "above the fold" (visible without scrolling)</li>
+                <li>Use white space effectively - don't crowd your content!</li>
+                <li>Optimize your images before uploading them</li>
+                <li>Don't use too many heavy elements like videos in one section</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        
+      
+              <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mt-4">
+                <p class="font-semibold">Remember: 💡</p>
+                <ul class="list-disc pl-6">
+                  <li>You can always preview how your site looks</li>
+                  <li>Blocks are easy to rearrange - just drag them!</li>
+                  <li>Keep your content clear and readable</li>
+                  <li>Don't be afraid to experiment with different layouts</li>
+                  <li>You can use the Zylosite tool on both mobile and desktop but it looks different on each device. If you're using a mobile phone, go to your browser tools settings and change to Desktop.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Start Building? 🎯</p>
+            <p class="text-lg mt-2">Let's create something awesome together! Your perfect website is just a few blocks away! 💪</p>
+            <p class="text-lg mt-2">Remember: Every great website starts with a single block. Let's start building! 👷‍♂️</p>
+            </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "Which of these block types would you use to showcase client feedback?",
+          "options": [
+            "Process Blocks",
+            "Testimonials",
+            "Gallery Displays",
+            "Subscribe Forms"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which feature allows you to see how your website will look before publishing?",
+          "options": [
+            "Preview",
+            "Components",
+            "Blocks menu",
+            "Pages section"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What type of block would you use to show the steps in a business process?",
+          "options": [
+            "Gallery Displays",
+            "Testimonials",
+            "Processes",
+            "Dividers"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which block type would you use to create a newsletter signup?",
+          "options": [
+            "Gallery Displays",
+            "Subscribe Forms",
+            "Dividers",
+            "Processes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's the recommended way to access Zylosite on a mobile phone?",
+          "options": [
+            "Download a special app",
+            "Use browser tools to change to Desktop mode",
+            "Create a mobile-only account",
+            "Use a different platform"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which block type would you use to showcase your team members?",
+          "options": [
+            "Process Blocks",
+            "Pricing Tables",
+            "Team Sections",
+            "Subscribe Forms"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "When would you use a Call to Action block?",
+          "options": [
+            "Only in the footer",
+            "For displaying team members",
+            "To encourage user engagement or response",
+            "To show pricing information"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is the primary purpose of Divider blocks?",
+          "options": [
+            "To create visual separation between sections",
+            "To display pricing information",
+            "To showcase team members",
+            "To collect email addresses"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which block would you use to display a collection of images in an organized way?",
+          "options": [
+            "Subscribe Forms",
+            "Gallery Displays",
+            "Dividers",
+            "Process Blocks"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which block type would you use for a limited-time offer?",
+          "options": [
+            "Countdown Timers",
+            "Process Blocks",
+            "Gallery Displays",
+            "Dividers"
+          ],
+          "correct": 0
+        }
+      ]
+    },
       {
         "id": 2,
         "title": "Adding Video",
