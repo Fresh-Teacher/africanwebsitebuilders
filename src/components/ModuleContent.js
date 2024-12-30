@@ -1676,8 +1676,276 @@ const defaultCourseModules = [
         }
       ]
     },
+    {
+      "id": 2,
+      "title": "Adding Buttons",
+      "content": ` <div class="space-y-6">
+      <h2 class="text-2xl font-bold">Mastering Buttons in Zylosite! 🔲 Time to Click Away! 🖱️      </h2> <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+      <video className="w-full rounded-lg" controls>
+      <source src="https://awb-silk.vercel.app/Buttons(0).mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video><br>
+      <h3 class="text-2xl font-semibold mb-4 text-center">Your Component Toolbox is Ready! 🎯</h3>
+      
+      <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+        "Buttons are like tiny doorways to action - they need to be inviting, clear, and impossible to miss! 🚪"
+        <footer class="text-sm mt-2">- AWB Training Team</footer>
+      </blockquote>
+  
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <h4 class="font-semibold text-xl mb-4">🧰 Understanding Components</h4>
+        <p class="mb-4">Components are the building blocks that add functionality to your website. Let's explore what each one does!</p>
+        
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Component Types: 🎯</h5>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <div class="bg-white/70 p-4 rounded">
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Grids:</span> Create organized layouts for your content</li>
+                <li><span class="font-semibold">Headings:</span> Add eye-catching titles and subtitles</li>
+                <li><span class="font-semibold">Buttons:</span> Add clickable actions to your pages</li>
+                <li><span class="font-semibold">Media:</span> Insert images and videos</li>
+                <li><span class="font-semibold">Lists:</span> Organize information in bullet points or numbers</li>
+              </ul>
+            </div>
+            <div class="bg-white/70 p-4 rounded">
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Text:</span> Add paragraphs and formatted text</li>
+                <li><span class="font-semibold">Icons:</span> Include visual symbols and indicators</li>
+                <li><span class="font-semibold">Embeds:</span> Add external content to your site</li>
+                <li><span class="font-semibold">Map:</span> Show locations with interactive maps</li>
+                <li><span class="font-semibold">Navigation:</span> Create menus and site navigation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <h4 class="font-semibold text-xl mb-4">🎯 Mastering Buttons<p></h4>
+        <p class="mb-4">Buttons are your website's call-to-action heroes! They guide visitors, encourage clicks, and make your site interactive.</p>
+
+        <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Available Button Types:</h5>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>MEDIUM BUTTON - Perfect for main actions</li>
+            <li>SMALL BUTTON - Great for secondary options</li>
+            <li>EXTRA SMALL BUTTON - Ideal for compact spaces</li>
+            <li>BLOCK BUTTON - Spans the full width of its container</li>
+          </ul>
+        </div>
+  
+        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Customizing Your Button ⚙️</h5>
+          <div class="space-y-4 mt-4">
+            <div class="bg-white/70 p-4 rounded-lg">
+              <p class="font-semibold">Button Controls:</p>
+              <div class="flex items-center space-x-4 mt-2">
+                <div class="flex items-center">
+                  <span>Settings (Cog Icon)</span>
+                </div>
+                <div class="flex items-center">
+                  <span>Duplicate</span>
+                </div>
+                <div class="flex items-center">
+                  <span>Delete</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="bg-white/70 p-4 rounded-lg">
+              <p class="font-semibold">Style Settings:</p>
+              <ul class="list-disc pl-6">
+                <li>Margin - Adjust spacing around the button</li>
+                <li>Background color - Choose your perfect shade</li>
+                <li>Text color - Make sure it's readable</li>
+                <li>Button size - Pick the right dimensions</li>
+                <li>Button block - Make it full-width</li>
+              </ul>
+            </div>
+  
+            <div class="bg-white/70 p-4 rounded-lg">
+              <p class="font-semibold">Link Settings:</p>
+              <ul class="list-disc pl-6">
+                <li>Change button text</li>
+                <li>Set link destination</li>
+                <li>Choose to open in new tab</li>
+                <li>Link to specific blocks</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-gradient-to-r from-green-100 to-teal-100 dark:from-green-800 dark:to-teal-800 p-6 rounded-lg">
+        <h4 class="font-semibold text-xl mb-4">Quick Actions Guide 🚀</h4>
+        <div class="space-y-4">
+          <div class="bg-white/50 p-4 rounded-lg">
+            <p class="font-semibold">How to Duplicate:</p>
+            <p>Click the button → Select copy icon → BOOM! A perfect copy appears! 🎯</p>
+          </div>
+          
+          <div class="bg-white/50 p-4 rounded-lg">
+            <p class="font-semibold">How to Delete:</p>
+            <p>Click the button → Select trash icon → Confirm deletion when prompted 🗑️</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mt-4">
+  <p class="font-semibold">Top 10 Reminders: 💡</p>
+  <ol class="list-decimal pl-6">
+    <li>Use clear, action-oriented text (e.g., "Start Now" instead of "Click Here")</li>
+    <li>Keep consistent styling across your site</li>
+    <li>Make buttons big enough to tap on mobile</li>
+    <li>Use contrasting colors that stand out</li>
+    <li>Add hover effects for better interactivity</li>
+    <li>Ensure text is readable against button color</li>
+    <li>Keep adequate spacing between multiple buttons</li>
+    <li>Test all buttons on different devices</li>
+    <li>Use appropriate sizing for button importance</li>
+    <li>Include loading states for form submissions</li>
+  </ol>
+</div>
+    </div>
+  
+    <div class="mt-6 text-center">
+      <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create? 🎯</p>
+      <p class="text-lg mt-2">Start adding components to make your website come alive! Remember to save your changes! 💪</p>
+    </div>
+  </div>`,
+  "quiz": [
+    {
+      "question": "How many component types are listed in Zylosite?",
+      "options": [
+        "5 components",
+        "8 components",
+        "10 components",
+        "12 components"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which component would you use to integrate third-party widgets?",
+      "options": [
+        "Media",
+        "Embeds",
+        "Icons",
+        "Navigation"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What icon represents the settings in button options?",
+      "options": [
+        "Gear icon",
+        "COG icon",
+        "Settings icon",
+        "Wrench icon"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "After clicking on a button, which option allows you to duplicate it?",
+      "options": [
+        "COG icon",
+        "Clone option",
+        "Trash icon",
+        "Link option"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What happens when you click the trash icon?",
+      "options": [
+        "Button is immediately deleted",
+        "Button is duplicated",
+        "A confirmation prompt appears",
+        "Button is disabled"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which component is used for creating organized layouts?",
+      "options": [
+        "Lists",
+        "Media",
+        "Grids",
+        "Icons"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What MUST you do before leaving the Zylosite editor?",
+      "options": [
+        "Log out",
+        "Save changes",
+        "Clear cache",
+        "Close browser"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What option in Link settings allows content to open in a different window?",
+      "options": [
+        "New window",
+        "Open link in new tab",
+        "Different window",
+        "External link"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which component type is used for adding images and videos?",
+      "options": [
+        "Icons",
+        "Embeds",
+        "Media",
+        "Lists"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What should you do after making any modifications to buttons?",
+      "options": [
+        "Refresh the page",
+        "Log out",
+        "Apply changes",
+        "Clear cache"
+      ],
+      "correct": 2
+    }
+  ]
+    },
+    {
+      "id": 3,
+      "title": "Working with Text",
+      "content": "This unit teaches students how to effectively work with text elements. Students will learn about typography, text formatting, spacing, and creating readable content that enhances their website's message.",
+      "quiz": [
+        {
+          "question": "What is the most important factor when choosing text colors?",
+          "options": [
+            "Using your favorite color",
+            "Ensuring contrast with the background",
+            "Making all text bold",
+            "Using multiple fonts"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which text property affects the space between lines of text?",
+          "options": [
+            "Word spacing",
+            "Letter spacing",
+            "Line height",
+            "Text indent"
+          ],
+          "correct": 2
+        }
+      ]
+    },
       {
-        "id": 2,
+        "id": 4,
         "title": "Adding Video",
         "content": "This unit focuses on embedding video content into websites. Students will learn how to upload videos, add links from platforms like YouTube or Vimeo, and adjust settings for autoplay, looping, and responsiveness.",
         "quiz": [
