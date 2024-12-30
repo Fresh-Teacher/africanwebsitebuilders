@@ -1424,7 +1424,10 @@ const defaultCourseModules = [
         "title": "Working with text, buttons, and blocks",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Building Awesome Websites with Blocks! 🧱 Let's Get Started! ✨</h2>
-      
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Dashboard(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Create Something Amazing? 🎯</h3>
           
@@ -2417,19 +2420,227 @@ const defaultCourseModules = [
     "units": [
       {
         "id": 1,
-        "title": "Cogs, Grids, and Components",
-        "content": "Explore advanced tools like cogs for automation, grids for layout organisation, and components for reusable design.",
-        "quiz": [
-          {
-            "question": "What are components primarily used for?",
-            "options": [
-              "Embedding videos",
-              "Creating reusable design elements",
-              "Editing text",
-              "Adding pop-ups"
-            ],
-            "correct": 1
-          }
+        "title": "Grids",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Let's Build Amazing Grid Layouts! ✨</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Make Your Design Shine? 📐</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+             "Life is like a grid - sometimes you need that perfect balance of elements to make everything click! And unlike life, our grids actually come with an undo button! 😉"
+            <footer class="text-sm mt-2">- Every Web Designer's Philosophy</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Let's Get Started with Grids! 📏</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Don't worry - creating beautiful layouts is easier than you think! Here's how:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Head over to the components menu on your left - you'll find everything you need there</li>
+                  <li>Look for the 'Grids' section - it's packed with layout options for you</li>
+                  <li>Found a layout you like? Just drag it onto your canvas - it's that simple!</li>
+                  <li>Watch your design come together as you add your content</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Choose Your Perfect Layout! 🎨</h5>
+              <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+                <div class="bg-white/70 p-4 rounded">
+                  <p class="mb-4">We've got some fantastic options for you:</p>
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li><span class="font-semibold">Full Width (100%):</span> Need to make a big impact? This layout is perfect for your hero sections!</li>
+                    
+                    <li><span class="font-semibold">Two Column Split (50/50):</span> Great for comparing features or creating balanced layouts. Your content will look perfectly organized!</li>
+                    
+                    <li><span class="font-semibold">Asymmetric Layouts (33/66 or 66/33):</span> Want to highlight something special? These layouts help you create the perfect focus point.</li>
+                    
+                    <li><span class="font-semibold">Three Column (33/33/33):</span> Perfect for showing off your pricing plans or key features. Everything gets equal attention!</li>
+                    
+                    <li><span class="font-semibold">Four Column (25/25/25/25):</span> Showcase your team or products in a clean, organized way. It's like giving everyone their own spotlight!</li>
+                    
+                    <li><span class="font-semibold">Mixed Layouts (25/25/50 or 50/25/25):</span> Want something unique? These layouts give you the best of both worlds!</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Populating Your Grid - Make It Come Alive! 🎯</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Here's how to make your grid come to life:</p>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Pick a grid that matches your vision - trust your instincts!</li>
+                <li>Add your favorite components:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Text that tells your story</li>
+                    <li>Beautiful images that capture attention</li>
+                    <li>Engaging videos that bring your message to life</li>
+                    <li>Eye-catching buttons that guide your visitors</li>
+                    <li>Special components that make your site unique</li>
+                  </ul>
+                </li>
+                <li>Play around until everything feels just right</li>
+              </ol>
+            </div>
+          </div>
+      
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Quick Tips to Keep Your Layout Looking Great! 💫</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Give your content some breathing room - it needs space to shine!</li>
+                <li>Keep your spacing consistent - it makes everything look polished</li>
+                <li>Make sure everything looks balanced - your clients will thank you</li>
+                <li>Check how it looks on phones and tablets - everyone should have a great experience</li>
+                <li>Keep your media files optimized - fast loading pages make happy visitors</li>
+                <li>Mix, match, and rearrange until it looks just right (warning: may cause excessive satisfaction!) 😌</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Secret Grid Wizardry: Pro Tips from the Layout Legends! 🧙‍♂️</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Start simple! Rome wasn't built in a day, and neither should your grid layout be! (Though our drag-and-drop is WAY faster than building Rome!) 🏛️</li>
+              <li>Think mobile-first! Your grid should look stunning on everything from a smartphone to a smart fridge! 📱</li>
+              <li>White space is your friend! Give your content room to shine - think of it as social distancing for design elements! 🌟</li>
+              <li>Test, test, and test again! What looks perfect at 3 AM might look different at noon! ⏰</li>
+              <li>Keep an eye on load times - your users shouldn't have time to go for a nap while waiting for content to load! 😴</li>
+            </ul>
+          </div>
+        </div>
+      
+          <br />
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">One Last Thing! ☝️</h5>
+          <p class="mt-2">Remember to save your work! Because explaining to your client why you lost that perfect layout is no fun! Trust us on this one! 😞</p>
+          <p class="mt-2">And if all else fails, remember: the undo button is your bestie (Ctrl+Z for the win!) 🔄</p>
+        </div>
+    
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Time to Create Something Amazing! ✨</p>
+            <p class="text-lg mt-2">You've got all the tools you need - now let's see what you can build!</p>
+            </div>
+        </div>
+      </div>`,  
+      "quiz": [
+       
+        {
+        "question": "Why is testing across devices important?",
+        "options": [
+        "To increase loading speed",
+        "To ensure consistent experience",
+        "To add more features",
+        "To change colors"
+        ],
+        "correct": 1
+        },
+    
+        {
+        "question": "What helps maintain content clarity in grids?",
+        "options": [
+        "Using many animations",
+        "Proper spacing",
+        "Multiple fonts",
+        "Bright colors"
+        ],
+        "correct": 1
+        },
+        {
+          "question": "Where can you find the Grids option in the interface?",
+          "options": [
+          "In the top menu bar",
+          "In the Components menu on the left",
+          "In the right sidebar",
+          "In the bottom toolbar"
+          ],
+          "correct": 1
+          },
+        {
+        "question": "How should you handle spacing in grids?",
+        "options": [
+        "Vary it randomly",
+        "Keep it consistent",
+        "Minimize it always",
+        "Ignore it completely"
+        ],
+        "correct": 1
+        },
+   
+        {
+        "question": "How should you manage media in grids?",
+        "options": [
+        "Use original sizes",
+        "Add more files",
+        "Optimize for performance",
+        "Ignore file sizes"
+        ],
+        "correct": 2
+        },
+        {
+        "question": "How do you ensure grid consistency?",
+        "options": [
+        "Random layouts",
+        "Regular spacing",
+        "Maximum content",
+        "Constant animation"
+        ],
+        "correct": 1
+        },
+ 
+        {
+        "question": "When should you save grid changes?",
+        "options": [
+        "Only at the end",
+        "Regularly",
+        "Once daily",
+        "When finished"
+        ],
+        "correct": 1
+        },
+        ,
+{
+"question": "What should you do after choosing a grid layout?",
+"options": [
+"Change the colors",
+"Add components",
+"Add animations",
+"Change the font"
+],
+"correct": 1
+},
+  {
+    "question": "What's important to check when designing your grid?",
+    "options": [
+    "Number of images used",
+    "Text color",
+    "Animation speed",
+    "Mobile responsiveness"
+    ],
+    "correct": 3
+    },
+    {
+      "question": "Which layout option is best suited for a hero section?",
+      "options": [
+      "25/25/25/25",
+      "33/33/33",
+      "50/50",
+      "100%"
+      ],
+      "correct": 3
+      },
         ]
       },
       {
