@@ -2630,18 +2630,259 @@ const defaultCourseModules = [
       },
       {
         "id": 2,
-        "title": "Creating Pages and Pop-ups",
-        "content": "Learn to add and manage pages and design pop-ups to enhance user engagement.",
-        "quiz": [
-          {
-            "question": "What is a pop-up used for?",
-            "options": [
-              "To display videos",
-              "To capture user attention with special offers or forms",
-              "To edit content",
-              "To optimise SEO"
-            ],
-            "correct": 1
+        "title": "Headings",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Hey There! Let's Rock Those Headings! 🚀</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Heading(0).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br />
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Make Your Content Super Easy to Read? 📖</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "Think of headings like road signs on a highway - they tell your readers exactly where they're going! No more getting lost in a sea of text! 🗺️"
+            <footer class="text-sm mt-2">- Every Content Creator Who Gets It!</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Why Should You Care About Headings? 🤔</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Let me tell you why headings are totally awesome:</p>
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>They make your content super easy to read (no more walls of text!) ✨</li>
+                  <li>Readers can find exactly what they want </li>
+                  <li>Supports screen reader accessibility</li>
+                  <li>Search engines go crazy for them (hello, better rankings! 📈)</li>
+                  <li>They make everything look neat and organized</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+      <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Understanding Heading Levels</h5>
+        <div class="bg-white/70 p-4 rounded">
+          <p class="mb-4">Let's explore each heading level and its optimal use cases:</p>
+          
+          <div class="space-y-6">
+            <div class="border-l-4 border-blue-300 pl-4">
+              <h6 class="font-semibold text-xl mb-2">Heading 1 (H1) - Primary Page Title</h6>
+              <p class="mb-2">The main identifier for your page content, setting the primary topic or purpose.</p>
+              <p class="mb-2">Appropriate uses:</p>
+              <ul class="list-disc pl-6 mb-2">
+                <li>Main website landing pages</li>
+                <li>Article or blog post titles</li>
+                <li>Product page main titles</li>
+              </ul>
+              <p class="text-sm italic">Note: Limit to one H1 per page to maintain clear content hierarchy.</p>
+            </div>
+
+            <div class="border-l-4 border-green-300 pl-4">
+              <h6 class="font-semibold text-xl mb-2">Heading 2 (H2) - Major Section Headers</h6>
+              <p class="mb-2">Define the main sections of your content, breaking down the primary topic into key areas.</p>
+              <p class="mb-2">Ideal applications:</p>
+              <ul class="list-disc pl-6 mb-2">
+                <li>Primary feature descriptions</li>
+                <li>Main content sections</li>
+                <li>Service categories</li>
+                <li>Key topic divisions</li>
+              </ul>
+              <p class="text-sm italic">Best Practice: H2s should provide a complete content overview when read in sequence.</p>
+            </div>
+
+            <div class="border-l-4 border-yellow-300 pl-4">
+              <h6 class="font-semibold text-xl mb-2">Heading 3 (H3) - Subsection Headers</h6>
+              <p class="mb-2">Further divide main sections into more specific topics.</p>
+              <p class="mb-2">Effective uses:</p>
+              <ul class="list-disc pl-6 mb-2">
+                <li>Feature-specific details</li>
+                <li>Process step descriptions</li>
+                <li>Detailed service breakdowns</li>
+                <li>Category subdivisions</li>
+              </ul>
+              <p class="text-sm italic">Purpose: Organize content into easily digestible segments.</p>
+            </div>
+
+            <div class="border-l-4 border-red-300 pl-4">
+              <h6 class="font-semibold text-xl mb-2">Heading 4 (H4) - Detailed Points</h6>
+              <p class="mb-2">Address specific aspects within subsections.</p>
+              <p class="mb-2">Suitable for:</p>
+              <ul class="list-disc pl-6 mb-2">
+                <li>Technical specifications</li>
+                <li>Detailed examples</li>
+                <li>Step-by-step instructions</li>
+                <li>Specific feature explanations</li>
+              </ul>
+              <p class="text-sm italic">Focus: Provide detailed information while maintaining clear structure.</p>
+            </div>
+
+            <div class="border-l-4 border-purple-300 pl-4">
+              <h6 class="font-semibold text-xl mb-2">Heading 5 (H5) - Specific Details</h6>
+              <p class="mb-2">Used for granular content organization.</p>
+              <p class="mb-2">Appropriate for:</p>
+              <ul class="list-disc pl-6 mb-2">
+                <li>Product specifications</li>
+                <li>Detailed subsections</li>
+                <li>Specific component descriptions</li>
+              </ul>
+              <p class="text-sm italic">Application: Reserved for detailed breakdowns of complex topics.</p>
+            </div>
+
+            <div class="border-l-4 border-pink-300 pl-4">
+              <h6 class="font-semibold text-xl mb-2">Heading 6 (H6) - Fine Details</h6>
+              <p class="mb-2">The most specific level of content organization.</p>
+              <p class="mb-2">Best used for:</p>
+              <ul class="list-disc pl-6 mb-2">
+                <li>Specific examples within detailed sections</li>
+                <li>Individual component details</li>
+                <li>Supplementary information</li>
+              </ul>
+              <p class="text-sm italic">Note: Use sparingly to maintain clear content hierarchy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Quick Tips to Nail Your Headings! 💡</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Keep them short and sweet - no novels in your headings! 📚</li>
+                <li>Make them fun but clear - we're not writing riddles here! 🎯</li>
+                <li>Stay consistent - pick a style and stick to it! 🎨</li>
+                <li>Check how they look on your phone - tiny screens matter too! 📱</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Oops! Don't Do These Things! 🙈</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Using multiple H1s (that's like having too many cooks in the kitchen! 👩‍🍳)</li>
+                <li>Writing super long headings (save the storytelling for your content! 📖)</li>
+                <li>Forgetting about phones (mobile-first is the way to go! 📱)</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+      <h5 class="font-semibold">SEO Optimization for Headings</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <ul class="list-disc pl-4 space-y-2">
+          <li>Incorporate relevant keywords naturally</li>
+          <li>Ensure heading content matches user intent</li>
+          <li>Maintain clear topical focus</li>
+          <li>Create descriptive, meaningful headers</li>
+        </ul>
+      </div>
+    </div>
+        </div>
+      </div>`,   
+      "quiz": [
+        {
+          "question": "Which sequence shows correct size progression?",
+          "options": [
+          "H6 > H5 > H4",
+          "H4 > H5 > H6",
+          "H4 = H5 = H6",
+          "H6 > H4 > H5"
+          ],
+          "correct": 1
+          },
+        {
+        "question": "What is the primary purpose of an H1 heading on a webpage?",
+        "options": [
+        "To make text look bigger",
+        "To indicate the main title or topic of the page",
+        "To improve website loading speed",
+        "To add visual decoration"
+        ],
+        "correct": 1
+        },
+        {
+          "question": "Which heading is the smallest by default?",
+          "options": [
+          "H6",
+          "H5",
+          "H4",
+          "H3"
+          ],
+          "correct": 0
+          },
+        {
+        "question": "Which heading level should be used for main sections of content?",
+        "options": [
+        "H1",
+        "H2",
+        "H5",
+        "H6"
+        ],
+        "correct": 1
+        },
+        {
+        "question": "What is a key SEO benefit of using proper heading structure?",
+        "options": [
+        "Faster page loading",
+        "Better mobile responsiveness",
+        "Improved search engine ranking",
+        "Increased website security"
+        ],
+        "correct": 2
+        },
+        {
+        "question": "What accessibility feature benefits from proper heading structure?",
+        "options": [
+        "Screen readers",
+        "Mouse cursors",
+        "Keyboard shortcuts",
+        "Touch screens"
+        ],
+        "correct": 0
+        },
+        {
+        "question": "What is considered a best practice for heading hierarchy?",
+        "options": [
+        "Skip levels to emphasize importance",
+        "Use only even-numbered headings",
+        "Maintain sequential order (H1 → H2 → H3)",
+        "Use the same level throughout"
+        ],
+        "correct": 2
+        },
+        {
+          "question": "Which heading is the largest in size?",
+          "options": [
+          "H4",
+          "H2",
+          "H3",
+          "H1"
+          ],
+          "correct": 3
+          },
+        {
+        "question": "What's the recommended maximum length for a heading?",
+        "options": [
+        "One word",
+        "A full sentence",
+        "A short, descriptive phrase",
+        "A paragraph"
+        ],
+        "correct": 2
+        },
+        {
+          "question": "Order these headings from largest to smallest:",
+          "options": [
+          "H1, H2, H3, H4",
+          "H4, H3, H2, H1",
+          "H2, H1, H4, H3",
+          "H3, H2, H1, H4"
+          ],
+          "correct": 0
           }
         ]
       }
@@ -2654,8 +2895,135 @@ const defaultCourseModules = [
       {
         "id": 1,
         "title": "Parallax Effects and Padding",
-        "content": "Understand how to add parallax effects for dynamic visuals and adjust padding for perfect spacing.",
-        "quiz": [
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Let's Add Some Media Magic! ✨ Make Your Site Pop!</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+        <video className="w-full rounded-lg" controls>
+          <source src="https://awb-silk.vercel.app/Media(0).mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video><br />
+        
+        <h3 class="text-2xl font-semibold mb-4 text-center">Your Media, Your Story! 🎬</h3>
+        
+        <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "A picture is worth a thousand words, but a video? That's worth a million! Let's make your content unforgettable!"
+          <footer class="text-sm mt-2"></footer>
+        </blockquote>
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Getting Started with Media 🎬</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="mb-4">Super easy steps to add media to your site:</p>
+            <ol class="list-decimal pl-4 space-y-2">
+              <li>Head over to the components menu</li>
+              <li>Look for the media section</li>
+              <li>Choose from three awesome options:
+                <ul class="list-disc pl-6 mt-2">
+                  <li>YouTube Video 📺</li>
+                  <li>Vimeo Player 🎥</li>
+                  <li>Image Upload 🖼️</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Media Types You Can Add: 📸</h5>
+          <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+            <div class="bg-white/70 p-4 rounded">
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Images:</span> JPG, PNG, GIF - make your content pop with eye-catching visuals!</li>
+                <li><span class="font-semibold">Videos:</span>YouTube & Vimeo - bring your story to life! 🎥</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Adding YouTube & Vimeo Videos 🎥</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <p class="mb-4">Let's get those videos rolling! Here's how:</p>
+          <ol class="list-decimal pl-4 space-y-2">
+            <li>Drag that YouTube/Vimeo component right onto your canvas</li>
+            <li>Click on it and find the mechanical cog icon ⚙️</li>
+            <li>In the detail editor, you'll spot a box for the video ID</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="bg-purple-900 dark:bg-purple-700 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Video ID Hunting Guide! 🕵️‍♂️</h5>
+      <div class="bg-blue-800 p-4 rounded mt-4">
+        <div class="mb-4">
+          <p class="font-semibold">Example For YouTube:</p>
+          <p class="mb-2">From: <code class="bg-blue-700 text-blue-100 px-2 py-1 rounded">https://www.youtube.com/watch?v=JYvPnkp8500</code></p>
+          <p>Grab: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">JYvPnkp8500</code> (It's after the v=)</p>
+        </div>
+        
+        <div class="mb-4">
+          <p class="font-semibold">Example For Vimeo:</p>
+          <p class="mb-2">From: <code class="bg-blue-700 text-blue-100 px-2 py-1 rounded">https://vimeo.com/922834495</code></p>
+          <p>Grab: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">922834495</code> (It's after the /)</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg-green-900 dark:bg-green-700 p-4 rounded-lg mb-4">
+    <h5 class="font-semibold">🧙‍♂️ WIZARD TIPS & TRICKS 🧙‍♂️</h5>
+    <div class="bg-blue-800 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+        <li>YouTube ID always comes after <code class="bg-yellow-700 text-yellow-100 px-1 rounded">v=</code> 🎯</li>
+        <li>Vimeo ID is the numbers after the backslash 🔍</li>
+        <li>Got a super long YouTube URL? Don't panic! 😨 Look for <code class="bg-yellow-700 text-yellow-100 px-1 rounded">v=</code> and grab what's after it (before any & signs)</li>
+        <li>Example of a tricky URL: <code class="bg-blue-700 text-sm text-blue-100 px-2 py-1 rounded">https://www.youtube.com/watch?app=desktop&v=JOfK95bzwCA&list=PLWPirh4EWFpEK1RbpruFXrwgzcGUjZ4nV</code></li>
+        <li>The ID here is: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">JOfK95bzwCA</code>  😜</li>
+      </ul>
+    </div>
+  </div>
+
+
+  
+        <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Media Mistakes to Avoid! 🙅🏿</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Super huge photo file sizes. First compress them before uploading (Nobody likes waiting forever! ⏳)</li>
+              <li>Forgetting alt text (Keep it accessible! 🎯)</li>
+              <li>Unoptimized images (Speed is key! 🏃‍♂️)</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Pro Tips from Media Masters 🧙‍♂️</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Compress before upload (Your users' data plans will thank you! 📱)</li>
+              <li>Use responsive sizes (Look good on all screens! 💻)</li>
+              <li>Test your media (What works on your computer might not work everywhere! 🌍)</li>
+            </ul>
+          </div>
+        </div>
+  
+  <br>
+        <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Quick Reminder</h5>
+          <p class="mt-2">Always backup your media files before editing! You never know when you'll need the original! 💾</p>
+        </div>
+  
+        <div class="mt-6 text-center">
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Make Your Site Shine? ✨</p>
+          <p class="text-lg mt-2">Go forth and create something amazing!</p>
+          <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">P.S. Tag us in your awesome creations! We love seeing what you make! 📸</p>
+        </div>
+      </div>`,     
+              "quiz": [
           {
             "question": "What is a parallax effect?",
             "options": [
