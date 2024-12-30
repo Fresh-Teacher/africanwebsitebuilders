@@ -2431,7 +2431,7 @@ const defaultCourseModules = [
           <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Make Your Design Shine? 📐</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-             "Life is like a grid - sometimes you need that perfect balance of elements to make everything click! And unlike life, our grids actually come with an undo button! 😉"
+             "Life is like a grid - sometimes you need that perfect balance of elements to make everything perfect! And unlike life, our grids actually come with an undo button! 😉"
             <footer class="text-sm mt-2">- Every Web Designer's Philosophy</footer>
           </blockquote>
       
@@ -2495,31 +2495,17 @@ const defaultCourseModules = [
           </div>
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Quick Tips to Keep Your Layout Looking Great! 💫</h5>
+            <h5 class="font-semibold">Secret Grid Wizardry: Pro Tips from the Layout Legends! 🧙‍♂️</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Give your content some breathing room - it needs space to shine!</li>
-                <li>Keep your spacing consistent - it makes everything look polished</li>
-                <li>Make sure everything looks balanced - your clients will thank you</li>
-                <li>Check how it looks on phones and tablets - everyone should have a great experience</li>
-                <li>Keep your media files optimized - fast loading pages make happy visitors</li>
-                <li>Mix, match, and rearrange until it looks just right (warning: may cause excessive satisfaction!) 😌</li>
-              </ul>
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Start simple! Rome wasn't built in a day, and neither should your grid layout be! (Though our drag-and-drop is WAY faster than building Rome!) 🏛️</li>
+            <li>Think mobile-first! Your grid should look stunning on everything from a smartphone to a smart fridge! 📱</li>
+            <li>White space is your friend! Give your content room to shine - think of it as social distancing for design elements! 🌟</li>
+            <li>Test, test, and test again! What looks perfect at 3 AM might look different at noon! ⏰</li>
+            <li>Keep an eye on load times - your users shouldn't have time to go for a nap while waiting for content to load! 😴</li>
+          </ul>
             </div>
           </div>
-      
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-          <h5 class="font-semibold">Secret Grid Wizardry: Pro Tips from the Layout Legends! 🧙‍♂️</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
-            <ul class="list-disc pl-4 space-y-2">
-              <li>Start simple! Rome wasn't built in a day, and neither should your grid layout be! (Though our drag-and-drop is WAY faster than building Rome!) 🏛️</li>
-              <li>Think mobile-first! Your grid should look stunning on everything from a smartphone to a smart fridge! 📱</li>
-              <li>White space is your friend! Give your content room to shine - think of it as social distancing for design elements! 🌟</li>
-              <li>Test, test, and test again! What looks perfect at 3 AM might look different at noon! ⏰</li>
-              <li>Keep an eye on load times - your users shouldn't have time to go for a nap while waiting for content to load! 😴</li>
-            </ul>
-          </div>
-        </div>
       
           <br />
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
@@ -2544,17 +2530,6 @@ const defaultCourseModules = [
         "To ensure consistent experience",
         "To add more features",
         "To change colors"
-        ],
-        "correct": 1
-        },
-    
-        {
-        "question": "What helps maintain content clarity in grids?",
-        "options": [
-        "Using many animations",
-        "Proper spacing",
-        "Multiple fonts",
-        "Bright colors"
         ],
         "correct": 1
         },
