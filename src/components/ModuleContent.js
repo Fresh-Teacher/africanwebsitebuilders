@@ -2237,22 +2237,23 @@ const defaultCourseModules = [
         </div>
       </div>
 
-      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-        <h5 class="font-semibold">Video ID Hunting Guide! 🕵️‍♂️</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
-          <div class="mb-4">
-            <p class="font-semibold">Example For YouTube:</p>
-            <p class="mb-2">From: <code class="bg-gray-50 px-2 py-1 rounded">https://www.youtube.com/watch?v=JYvPnkp8500</code></p>
-            <p>Grab: <code class="bg-green-50 px-2 py-1 rounded">JYvPnkp8500</code> (It's after the v=)</p>
-          </div>
-          
-          <div class="mb-4">
-            <p class="font-semibold">Example For Vimeo:</p>
-            <p class="mb-2">From: <code class="bg-gray-50 px-2 py-1 rounded">https://vimeo.com/922834495</code></p>
-            <p>Grab: <code class="bg-green-50 px-2 py-1 rounded">922834495</code> (It's after the /)</p>
-          </div>
+      <div class="bg-purple-900 dark:bg-purple-700 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Video ID Hunting Guide! 🕵️‍♂️</h5>
+      <div class="bg-blue-800 p-4 rounded mt-4">
+        <div class="mb-4">
+          <p class="font-semibold">Example For YouTube:</p>
+          <p class="mb-2">From: <code class="bg-blue-700 text-blue-100 px-2 py-1 rounded">https://www.youtube.com/watch?v=JYvPnkp8500</code></p>
+          <p>Grab: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">JYvPnkp8500</code> (It's after the v=)</p>
+        </div>
+        
+        <div class="mb-4">
+          <p class="font-semibold">Example For Vimeo:</p>
+          <p class="mb-2">From: <code class="bg-blue-700 text-blue-100 px-2 py-1 rounded">https://vimeo.com/922834495</code></p>
+          <p>Grab: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">922834495</code> (It's after the /)</p>
         </div>
       </div>
+    </div>
+
 
       <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">🧙‍♂️ WIZARD TIPS & TRICKS 🧙‍♂️</h5>
