@@ -2239,34 +2239,35 @@ const defaultCourseModules = [
 
       <div class="bg-purple-900 dark:bg-purple-700 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Video ID Hunting Guide! 🕵️‍♂️</h5>
-      <div class="bg-blue-800 p-4 rounded mt-4">
+      <div class="bg-gray-800 p-4 rounded mt-4">
         <div class="mb-4">
           <p class="font-semibold">Example For YouTube:</p>
-          <p class="mb-2">From: <code class="bg-blue-700 text-blue-100 px-2 py-1 rounded">https://www.youtube.com/watch?v=JYvPnkp8500</code></p>
+          <p class="mb-2">From: <code class="bg-gray-700 text-gray-100 px-2 py-1 rounded">https://www.youtube.com/watch?v=JYvPnkp8500</code></p>
           <p>Grab: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">JYvPnkp8500</code> (It's after the v=)</p>
         </div>
         
         <div class="mb-4">
           <p class="font-semibold">Example For Vimeo:</p>
-          <p class="mb-2">From: <code class="bg-blue-700 text-blue-100 px-2 py-1 rounded">https://vimeo.com/922834495</code></p>
+          <p class="mb-2">From: <code class="bg-gray-700 text-gray-100 px-2 py-1 rounded">https://vimeo.com/922834495</code></p>
           <p>Grab: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">922834495</code> (It's after the /)</p>
         </div>
       </div>
     </div>
 
 
-      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
-        <h5 class="font-semibold">🧙‍♂️ WIZARD TIPS & TRICKS 🧙‍♂️</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
-          <ul class="list-disc pl-4 space-y-2">
-            <li>YouTube ID always comes after <code class="bg-yellow-100 px-1">v=</code> 🎯</li>
-            <li>Vimeo ID is the numbers after the backslash 🔍</li>
-            <li>Got a super long YouTube URL? Don't panic! 😨 Look for <code class="bg-yellow-100 px-1">v=</code> and grab what's after it (before any & signs)</li>
-            <li>Example of a tricky URL: <code class="bg-gray-100 text-sm px-2 py-1 rounded">https://www.youtube.com/watch?app=desktop&v=JOfK95bzwCA&list=PLWPirh4EWFpEK1RbpruFXrwgzcGUjZ4nV</code></li>
-            <li>The ID here is: <code class="bg-green-100 px-2 py-1 rounded">JOfK95bzwCA</code>  😜</li>
-          </ul>
-        </div>
-      </div>
+    <div class="bg-green-900 dark:bg-green-700 p-4 rounded-lg mb-4">
+    <h5 class="font-semibold">🧙‍♂️ WIZARD TIPS & TRICKS 🧙‍♂️</h5>
+    <div class="bg-blue-800 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+        <li>YouTube ID always comes after <code class="bg-yellow-700 text-yellow-100 px-1 rounded">v=</code> 🎯</li>
+        <li>Vimeo ID is the numbers after the backslash 🔍</li>
+        <li>Got a super long YouTube URL? Don't panic! 😨 Look for <code class="bg-yellow-700 text-yellow-100 px-1 rounded">v=</code> and grab what's after it (before any & signs)</li>
+        <li>Example of a tricky URL: <code class="bg-blue-700 text-sm text-blue-100 px-2 py-1 rounded">https://www.youtube.com/watch?app=desktop&v=JOfK95bzwCA&list=PLWPirh4EWFpEK1RbpruFXrwgzcGUjZ4nV</code></li>
+        <li>The ID here is: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">JOfK95bzwCA</code>  😜</li>
+      </ul>
+    </div>
+  </div>
+
 
   
         <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
