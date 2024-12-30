@@ -2585,7 +2585,6 @@ const defaultCourseModules = [
         ],
         "correct": 1
         },
-        ,
 {
 "question": "What should you do after choosing a grid layout?",
 "options": [
