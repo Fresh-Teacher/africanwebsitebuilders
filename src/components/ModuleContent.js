@@ -151,7 +151,7 @@ const BadgeDisplay = ({ earnedBadges }) => {
                             </div>
                             <h4 className="font-bold text-sm text-white">{badge.name}</h4>
                             <span className="text-xs font-medium px-3 py-1 rounded-full bg-green-400/20 text-green-300 backdrop-blur-sm border border-green-400/30">
-                              EARNED
+                            EARNED ✪
                             </span>
                           </div>
                           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-br from-blue-900/90 to-purple-900/90 flex items-center justify-center p-4 backdrop-blur-sm">
@@ -170,7 +170,7 @@ const BadgeDisplay = ({ earnedBadges }) => {
                             </div>
                             <h4 className="font-bold text-sm text-gray-400">Locked Badge</h4>
                             <span className="text-xs font-medium px-3 py-1 rounded-full bg-gray-700/30 text-gray-500">
-                              LOCKED
+                              LOCKED 🔐
                             </span>
                           </div>
                         </div>
