@@ -1838,7 +1838,7 @@ const defaultCourseModules = [
     {
       "question": "What icon represents the settings in button options?",
       "options": [
-        "Gear icon",
+        "Wheel icon",
         "COG icon",
         "Settings icon",
         "Wrench icon"
@@ -1856,14 +1856,14 @@ const defaultCourseModules = [
       "correct": 1
     },
     {
-      "question": "What happens when you click the trash icon?",
+      "question": "What is the Map component used for?",
       "options": [
-        "Button is immediately deleted",
-        "Button is duplicated",
-        "A confirmation prompt appears",
-        "Button is disabled"
+        "Creating sitemaps",
+        "Showing locations",
+        "Drawing diagrams",
+        "Making flowcharts"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "question": "Which component is used for creating organized layouts?",
