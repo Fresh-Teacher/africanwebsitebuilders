@@ -2069,12 +2069,12 @@ const defaultCourseModules = [
     `,
     "quiz": [
       {
-        "question": "What are the three types of paragraphs available in Zylosite?",
+        "question": "What key combination makes your text bold?",
         "options": [
-          "Large, Medium, Small",
-          "Regular, Lead, Small",
-          "Title, Body, Footer",
-          "Header, Content, Footer"
+          "Ctrl/Cmd + P",
+          "Ctrl/Cmd + B",
+          "Ctrl/Cmd + V",
+          "Ctrl/Cmd + X"
         ],
         "correct": 1
       },
@@ -2101,14 +2101,14 @@ const defaultCourseModules = [
         "correct": 1
       },
       {
-        "question": "What is the purpose of the 'Lorem Ipsum' text?",
+        "question": "When you want your text to lean, which shortcut will help you add italics?",
         "options": [
-          "It's the final content",
-          "It's meaningful text",
-          "It's dummy placeholder text",
-          "It's system instructions"
+          "Ctrl/Cmd + I",
+          "Ctrl/Cmd + L",
+          "Ctrl/Cmd + K",
+          "Ctrl/Cmd + T"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "Which option allows you to remove a text component?",
@@ -2162,16 +2162,15 @@ const defaultCourseModules = [
         "correct": 1
       },
       {
-        "question": "What type of text initially appears in new text components?",
+        "question": "Which keyboard shortcut underlines your text?",
         "options": [
-          "Blank space",
-          "Default text",
-          "Lorem Ipsum",
-          "Instructions"
+          "Ctrl/Cmd + Y",
+          "Ctrl/Cmd + Z",
+          "Ctrl/Cmd + U",
+          "Ctrl/Cmd + W"
         ],
         "correct": 2
       },
- 
     ]
     },
       {
