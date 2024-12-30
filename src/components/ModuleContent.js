@@ -2533,6 +2533,17 @@ const defaultCourseModules = [
         ],
         "correct": 1
         },
+    
+        {
+        "question": "What helps maintain content clarity in grids?",
+        "options": [
+        "Using many animations",
+        "Proper spacing",
+        "Multiple fonts",
+        "Bright colors"
+        ],
+        "correct": 1
+        },
         {
           "question": "Where can you find the Grids option in the interface?",
           "options": [
