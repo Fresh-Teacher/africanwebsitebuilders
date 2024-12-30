@@ -1557,10 +1557,9 @@ const defaultCourseModules = [
               <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mt-4">
                 <p class="font-semibold">Remember: 💡</p>
                 <ul class="list-disc pl-6">
-                  <li>You can always preview how your site looks</li>
+                  <li>You can always preview how your site looks on mobile, tablet and desktop</li>
                   <li>Blocks are easy to rearrange - just drag them!</li>
                   <li>Keep your content clear and readable</li>
-                  <li>Don't be afraid to experiment with different layouts</li>
                   <li>You can use the Zylosite tool on both mobile and desktop but it looks different on each device. If you're using a mobile phone, go to your browser tools settings and change to Desktop.</li>
                 </ul>
               </div>
