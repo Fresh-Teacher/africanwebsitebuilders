@@ -430,7 +430,7 @@ const defaultCourseModules = [
                 <li>Annual recurring revenue: £1,680 (UGX 7,702,300)</li>
               </ul>
             </div>
-          </div>
+          </div><br>
           
               
               <div class="p-4 border border-blue-500 rounded-lg">
@@ -1943,7 +1943,7 @@ const defaultCourseModules = [
               <ul class="list-disc pl-4 space-y-2">
                 <li><span class="font-semibold">Regular Paragraph:</span> Perfect for main body content, article text, and general information</li>
                 <li><span class="font-semibold">Lead Paragraph:</span> Want to make a statement? This larger, eye-catching style is perfect for those "hey, look at this!" moments and important announcements</li>
-                <li><span class="font-semibold">Small Paragraph:</span> Small Paragraph:</span> Sometimes less is more! Great for those little details, image captions, or when you need to add a quick note</li>
+                <li><span class="font-semibold"></span> <strong>Small Paragraph:</strong></span> Sometimes less is more! Great for those little details, image captions, or when you need to add a quick note</li>
               </ul>
             </div>
           </div>
@@ -2054,7 +2054,7 @@ const defaultCourseModules = [
     </div>
   </div>
 </div>
-
+<br>
     <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
     <h5 class="font-semibold">Quick Reminder</h5>
     <p class="mt-2">Don't forget to smash that save button after you've made your changes! Trust us, you don't want to lose your creative genius! 🧠</p>
@@ -2080,12 +2080,12 @@ const defaultCourseModules = [
       },
  
       {
-        "question": "Which icon represents the edit text option?",
+        "question": "Which feature turns plain words into clickable text?",
         "options": [
-          "Pencil icon",
-          "Capital T icon",
-          "A icon",
-          "Edit icon"
+          "Bold text",
+          "Hyperlinks",
+          "Underlining",
+          "Text color"
         ],
         "correct": 1
       },
@@ -2175,30 +2175,237 @@ const defaultCourseModules = [
     },
       {
         "id": 4,
-        "title": "Adding Video",
-        "content": "This unit focuses on embedding video content into websites. Students will learn how to upload videos, add links from platforms like YouTube or Vimeo, and adjust settings for autoplay, looping, and responsiveness.",
-        "quiz": [
-          {
-            "question": "Which of these platforms can you embed videos from in Zylosite?",
-            "options": [
-              "YouTube",
-              "Vimeo",
-              "Both YouTube and Vimeo",
-              "None of the above"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What setting should you enable for videos to play automatically when the page loads?",
-            "options": [
-              "Loop",
-              "Autoplay",
-              "Responsive Mode",
-              "Mute"
-            ],
-            "correct": 1
-          }
-        ]
+        "title": "Adding Media",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Let's Add Some Media Magic! ✨ Make Your Site Pop!</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+        <video className="w-full rounded-lg" controls>
+          <source src="https://awb-silk.vercel.app/Media(0).mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video><br />
+        
+        <h3 class="text-2xl font-semibold mb-4 text-center">Your Media, Your Story! 🎬</h3>
+        
+        <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "A picture is worth a thousand words, but a video? That's worth a million! Let's make your content unforgettable!"
+          <footer class="text-sm mt-2"></footer>
+        </blockquote>
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Getting Started with Media 🎬</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="mb-4">Super easy steps to add media to your site:</p>
+            <ol class="list-decimal pl-4 space-y-2">
+              <li>Head over to the components menu</li>
+              <li>Look for the media section</li>
+              <li>Choose from three awesome options:
+                <ul class="list-disc pl-6 mt-2">
+                  <li>YouTube Video 📺</li>
+                  <li>Vimeo Player 🎥</li>
+                  <li>Image Upload 🖼️</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Media Types You Can Add: 📸</h5>
+          <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+            <div class="bg-white/70 p-4 rounded">
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Images:</span> JPG, PNG, GIF - make your content pop with eye-catching visuals!</li>
+                <li><span class="font-semibold">Videos:</span>YouTube & Vimeo - bring your story to life! 🎥</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Adding YouTube & Vimeo Videos 🎥</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <p class="mb-4">Let's get those videos rolling! Here's how:</p>
+          <ol class="list-decimal pl-4 space-y-2">
+            <li>Drag that YouTube/Vimeo component right onto your canvas</li>
+            <li>Click on it and find the mechanical cog icon ⚙️</li>
+            <li>In the detail editor, you'll spot a box for the video ID</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Video ID Hunting Guide! 🕵️‍♂️</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="mb-4">
+            <p class="font-semibold">Example For YouTube:</p>
+            <p class="mb-2">From: <code class="bg-gray-100 px-2 py-1 rounded">https://www.youtube.com/watch?v=JYvPnkp8500</code></p>
+            <p>Grab: <code class="bg-green-100 px-2 py-1 rounded">JYvPnkp8500</code> (It's after the v=)</p>
+          </div>
+          
+          <div class="mb-4">
+            <p class="font-semibold">Example For Vimeo:</p>
+            <p class="mb-2">From: <code class="bg-gray-100 px-2 py-1 rounded">https://vimeo.com/922834495</code></p>
+            <p>Grab: <code class="bg-green-100 px-2 py-1 rounded">922834495</code> (It's after the /)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">🧙‍♂️ WIZARD TIPS & TRICKS 🧙‍♂️</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+            <li>YouTube ID always comes after <code class="bg-yellow-100 px-1">v=</code> 🎯</li>
+            <li>Vimeo ID is the numbers after the backslash 🔍</li>
+            <li>Got a super long YouTube URL? Don't panic! 😨 Look for <code class="bg-yellow-100 px-1">v=</code> and grab what's after it (before any & signs)</li>
+            <li>Example of a tricky URL: <code class="bg-gray-100 text-sm px-2 py-1 rounded">https://www.youtube.com/watch?app=desktop&v=JOfK95bzwCA&list=PLWPirh4EWFpEK1RbpruFXrwgzcGUjZ4nV</code></li>
+            <li>The ID here is: <code class="bg-green-100 px-2 py-1 rounded">JOfK95bzwCA</code>  😜</li>
+          </ul>
+        </div>
+      </div>
+
+  
+        <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Media Mistakes to Avoid! 🙅🏿</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Super huge photo file sizes. First compress them before uploading (Nobody likes waiting forever! ⏳)</li>
+              <li>Forgetting alt text (Keep it accessible! 🎯)</li>
+              <li>Unoptimized images (Speed is key! 🏃‍♂️)</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Pro Tips from Media Masters 🧙‍♂️</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Compress before upload (Your users' data plans will thank you! 📱)</li>
+              <li>Use responsive sizes (Look good on all screens! 💻)</li>
+              <li>Test your media (What works on your computer might not work everywhere! 🌍)</li>
+            </ul>
+          </div>
+        </div>
+  
+  <br>
+        <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Quick Reminder</h5>
+          <p class="mt-2">Always backup your media files before editing! You never know when you'll need the original! 💾</p>
+        </div>
+  
+        <div class="mt-6 text-center">
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Make Your Site Shine? ✨</p>
+          <p class="text-lg mt-2">Go forth and create something amazing!</p>
+          <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">P.S. Tag us in your awesome creations! We love seeing what you make! 📸</p>
+        </div>
+      </div>`,     
+      "quiz": [
+        {
+          "question": "Where can you find the media components in Zylosite?",
+          "options": [
+            "In the page settings",
+            "Under the components menu",
+            "In the footer section",
+            "In the header menu"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "How many media options are available when you select the media component?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "For YouTube videos, where in the URL can you find the video ID?",
+          "options": [
+            "After the youtube.com",
+            "After the v=",
+            "Before the https://",
+            "At the beginning of the URL"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "For Vimeo videos, where can you find the video ID?",
+          "options": [
+            "After the backslash /",
+            "Before the domain name",
+            "In the middle of the URL",
+            "After www"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which icon do you need to click to access video settings?",
+          "options": [
+            "Cog icon",
+            "Plus icon",
+            "Star icon",
+            "Play icon"
+          ],
+          "correct": 0
+        },
+      
+        {
+          "question": "What's the recommended action before editing media files?",
+          "options": [
+            "Delete the original",
+            "Backup your media files",
+            "Convert to PDF",
+            "Print them out"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "In a long YouTube URL with multiple equal signs, how do you identify the correct video ID?",
+          "options": [
+            "Take the first set of characters",
+            "Look for the characters after v=",
+            "Use the last set of characters",
+            "Use anything after the first ="
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should you consider about file sizes when adding media?",
+          "options": [
+            "Bigger is always better",
+            "Size doesn't matter",
+            "Compress before upload",
+            "Only use small files"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's important to add to images for accessibility?",
+          "options": [
+            "Watermarks",
+            "Alt text",
+            "Borders",
+            "Shadows"
+          ],
+          "correct": 1
+        },
+
+        {
+          "question": "What's the first step to add a YouTube video?",
+          "options": [
+            "Upload the video to YouTube",
+            "Copy the video URL",
+            "Drag and drop the YouTube component",
+            "Create a new page"
+          ],
+          "correct": 2
+        },
+      ]
       }
     ]
   },  
