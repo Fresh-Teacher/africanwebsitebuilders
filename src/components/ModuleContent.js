@@ -3195,7 +3195,7 @@ const defaultCourseModules = [
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Hey! Let's Put Your Business on the Map! 🗺️</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Map(720p).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
@@ -4252,21 +4252,334 @@ const defaultCourseModules = [
       },
       {
         "id": 6,
-        "title": "Embed",
-        "content": "Master the techniques for embedding external content like videos, maps, and social media feeds.",
-        "quiz": [
-          {
-            "question": "Which HTML tag is used for embedding videos?",
-            "options": [
-              "<video>",
-              "<iframe>",
-              "<embed>",
-              "Any of the above"
-            ],
-            "correct": 3
-          }
-        ]
-      },
+        "title": "Embeds",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Hey Code Enthusiasts! Let's Talk About Embeds! 🚀</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Unleash Your Inner Developer? 👩‍💻👨‍💻</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "Code is poetry written in logic, and embeds are your canvas!" 
+            <footer class="text-sm mt-2">- Every Happy Developer Ever 💻</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Embeds! 🎯</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Hey there, future code wizard! Let's get you started with embeds - it's super easy:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Head over to the Components section (that's where the good stuff is!)</li>
+                  <li>Find that shiny embed template waiting for you</li>
+                  <li>Drag it onto your canvas (anywhere you like - you're the boss!)</li>
+                  <li>Click on it and - boom! - you'll see two icons when you click on the template: the code symbol </> (your new best friend) and the delete icon (just in case!)</li>
+                </ol>
+              </div>
+              <!-- Added screenshot image -->
+              <div class="w-full flex justify-center mb-6">
+                <img 
+                  src="https://awb-silk.vercel.app/Screenshot%20(862).png" 
+                  alt="Zylosite Website Builder Interface" 
+                  class="rounded-lg shadow-lg border border-gray-200"
+                />
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-6">
+          <h5 class="font-semibold">Quick Guide to add Media Elements 📱</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="space-y-6">
+              <!-- Image Section -->
+              <div class="bg-gray-100 p-4 rounded">
+                <p class="text-gray-700 mb-2">📸 Images: A picture's worth a thousand words!</p>
+                <code class="text-sm block">
+                  &lt;!-- Basic responsive image --&gt;<br/>
+                  &lt;img 
+                    src="cool-pic.jpg"
+                    alt="A super cool picture"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                  &gt;
+                  
+                  &lt;!-- Modern picture element --&gt;<br/>
+                  &lt;picture&gt;
+                    &lt;source media="(min-width: 800px)" srcset="big.jpg"&gt;
+                    &lt;source media="(min-width: 400px)" srcset="medium.jpg"&gt;
+                    &lt;img src="small.jpg" alt="Responsive image"&gt;
+                  &lt;/picture&gt;
+                </code>
+              </div>
+         
+              <!-- Video Section -->
+              <div class="bg-gray-100 p-4 rounded">
+                <p class="text-gray-700 mb-2">🎥 Videos: When still images just won't cut it!</p>
+                <code class="text-sm block">
+                  &lt;!-- Video with all the bells & whistles --&gt;<br/>
+                  &lt;video 
+                    controls
+                    width="100%" 
+                    autoplay 
+                    muted
+                    loop
+                    poster="preview.jpg"
+                  &gt;
+                    &lt;source src="video.mp4" type="video/mp4"&gt;
+                    &lt;source src="video.webm" type="video/webm"&gt;
+                    &lt;track 
+                      src="captions.vtt" 
+                      kind="captions" 
+                      srclang="en" 
+                      label="English"
+                    &gt;
+                    Oops! Video not supported 😅
+                  &lt;/video&gt;
+                </code>
+              </div>
+         
+              <!-- Audio Section -->
+              <div class="bg-gray-100 p-4 rounded">
+                <p class="text-gray-700 mb-2">🎵 Audio: Let's make some noise!</p>
+                <code class="text-sm block">
+                  &lt;!-- Audio player with fallbacks --&gt;<br/>
+                  &lt;audio 
+                    controls
+                    preload="auto"
+                    loop
+                  &gt;
+                    &lt;source src="tune.mp3" type="audio/mpeg"&gt;
+                    &lt;source src="tune.ogg" type="audio/ogg"&gt;
+                    &lt;p&gt;
+                      No audio support? Time to upgrade! 🎧
+                    &lt;/p&gt;
+                  &lt;/audio&gt;
+                </code>
+              </div>
+            </div>
+          </div>
+         </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-6">
+            <h5 class="font-semibold">CSS - Making Things Pretty! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Time to add some style to your life! With CSS you can:</p>
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Paint your elements with gorgeous colors</li>
+                <li>Add animations that'll make your users go "Wow!" 😲</li>
+                <li>Create responsive layouts that look great everywhere</li>
+                <li>Style your content to match your brand perfectly</li>
+              </ul>
+              <div class="bg-gray-100 p-4 mt-4 rounded">
+                <p class="text-sm text-gray-600">Example: Want a fancy button that glows on hover?</p>
+                <code class="text-sm block mt-2">
+                  .awesome-button {<br/>
+                  &nbsp;&nbsp;background: linear-gradient(45deg, #ff6b6b, #ff8e53);<br/>
+                  &nbsp;&nbsp;transition: all 0.3s ease;<br/>
+                  }<br/>
+                  <br/>
+                  .awesome-button:hover {<br/>
+                  &nbsp;&nbsp;box-shadow: 0 0 20px rgba(255, 107, 107, 0.6);<br/>
+                  }
+                </code>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-6">
+            <h5 class="font-semibold">JavaScript - Where the Magic Happens! ✨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Now we're talking! JavaScript brings your embeds to life:</p>
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Add interactivity that responds to user actions</li>
+                <li>Create dynamic content that updates in real-time</li>
+                <li>Handle data and make API calls like a ninja</li>
+                <li>Build complex applications right in your embed!</li>
+              </ul>
+              <div class="bg-gray-100 p-4 mt-4 rounded">
+                <p class="text-sm text-gray-600">Example: Want to create a fun counter?</p>
+                <code class="text-sm block mt-2">
+                  let count = 0;<br/>
+                  <br/>
+                  function updateCounter() {<br/>
+                  &nbsp;&nbsp;count++;<br/>
+                  &nbsp;&nbsp;document.getElementById('counter').textContent = count;<br/>
+                  &nbsp;&nbsp;if (count === 100) alert('You're awesome! 🎉');<br/>
+                  }
+                </code>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">🤓 Did You Know? Fun Code Facts!</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>The first web embed was a simple hit counter in the 90s - now look how far we've come! 📊</li>
+              <li>JavaScript was created in just 10 days! Talk about a speedrun! 🏃‍♂️</li>
+              <li>HTML was inspired by tags used in book publishing - meta, right? 📚</li>
+              <li>CSS almost had a competitor called DSSSL - try saying that five times fast! 😅</li>
+              <li>The first animated GIF was of a rotating globe - and we've been embedding spinning things ever since! 🌍</li>
+            </ul>
+          </div>
+        </div>
+
+        
+    
+        <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">🔍 Myth Busters: Code Edition!</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="space-y-4">
+              <div class="border-b pb-4">
+                <p class="font-semibold">Myth: "You need to be a math genius to code" 🔢</p>
+                <p class="mt-2">Reality: While some coding involves math, most web development is about logic and creativity. If you can solve puzzles, you can code! 🧩</p>
+              </div>
+              
+              <div class="border-b pb-4">
+                <p class="font-semibold">Myth: "More code = better code" 📝</p>
+                <p class="mt-2">Reality: Clean, efficient code often means writing less! It's about quality over quantity, folks! 🎯</p>
+              </div>
+              
+              <div class="border-b pb-4">
+                <p class="font-semibold">Myth: "Embeds slow down your site" 🐌</p>
+                <p class="mt-2">Reality: Well-optimized embeds can actually improve user experience and functionality! It's all about how you implement them. ⚡</p>
+              </div> 
+              <div class="border-b pb-4">
+              <p class="font-semibold">Myth: "HTML is a programming language" </p>
+              <p class="mt-2">Reality: HTML is not considered a programming language because it does not contain any programming logic which is needed to write a program. </p>
+            </div>
+              
+              <div>
+                <p class="font-semibold">Myth: "You need to memorize every code syntax" 🧠</p>
+                <p class="mt-2">Reality: Even senior developers Google basic syntax! It's about understanding concepts, not memorizing everything! 🔍</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Web Dev Abbreviations 📚</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+          <li><span class="font-bold">HTML</span> - HyperText Markup Language</li>
+          <li><span class="font-bold">CSS</span> - Cascading Style Sheets</li>
+          <li><span class="font-bold">JS</span> - JavaScript</li>
+       </ul>
+        </div>
+      </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Code Something Amazing? 🚀</p>
+            <p class="text-lg mt-2">Remember, every awesome website started with a single line of code! Go forth and create something incredible! 💫</p>
+          </div>
+        </div>
+      </div>
+      `,
+      "quiz": [
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Transfer Markup Language",
+            "HyperText Markup Language",
+            "High Text Markup Language",
+            "Hyper Technical Modern Language"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Where can you find the embed template in the interface?",
+          "options": [
+            "In the Edit menu",
+            "In the Components section",
+            "In the Settings panel",
+            "In the Format menu"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which icons appear when you click on an embed?",
+          "options": [
+            "Edit and delete icons",
+            "Code symbol and delete icon",
+            "Settings and code icons",
+            "Copy and paste icons"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What type of code can you include in an embed?",
+          "options": [
+            "Only HTML",
+            "Only JavaScript",
+            "Only CSS",
+            "HTML, CSS, and JavaScript"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "How do you add custom code to an embed?",
+          "options": [
+            "Click the code symbol and paste code",
+            "Right-click and select 'Add Code'",
+            "Double-click the embed",
+            "Use the settings panel"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What is the primary purpose of HTML in an embed?",
+          "options": [
+            "Adding styling",
+            "Creating animations",
+            "Structuring content",
+            "Handling events"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which language is used for styling in embeds?",
+          "options": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Python"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is JavaScript primarily used for in embeds?",
+          "options": [
+            "Structuring content",
+            "Styling elements",
+            "Adding interactivity",
+            "Creating layouts"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What does CSS mean?",
+          "options": [
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Cascading Style Sheets",
+            "Controlled Style System"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How can you add external resources like photos and videos to an embed?",
+          "options": [
+            "Using link and script tags",
+            "Importing directly in JavaScript",
+            "Adding them to the settings",
+            "Through the format menu"
+          ],
+          "correct": 0
+        }
+      ]
+    },
       {
         "id": 7,
         "title": "Features",
@@ -4338,36 +4651,425 @@ const defaultCourseModules = [
       {
         "id": 11,
         "title": "Maps",
-        "content": "Implement interactive maps for locations and geographic data visualization.",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Hey! Let's Put Your Business on the Map! 🗺️</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Map(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Show Everyone Where to Find You? 📍</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+             "Getting lost is an adventure, but let's make sure your customers don't have to! A well-placed map is like a friendly guide saying 'You are welcome here!' 🎯"
+            <footer class="text-sm mt-2">- Every Local Business Owner Ever</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Let's Get Your Map Up and Running! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Adding a map is easier than folding one (remember those days? 😅)</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Head over to Components </li>
+                  <li>Find your perfect map template</li>
+                  <li>Just drag and drop it where you want it (like moving furniture, but way easier)</li>
+                  <li>Click that little cog icon to make it your own! ⚙️</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Making Your Map Look Amazing! 🎨</h5>
+              <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+                <div class="bg-white/70 p-4 rounded">
+                  <p class="mb-4">Let's explore your style options (it's like dressing up your map!):</p>
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li><span class="font-semibold">Height:</span> Tall, short, or just right - you decide how much space your map needs!</li>
+                    
+                    <li><span class="font-semibold">Margin Top:</span> Give it some breathing room up top - nobody likes feeling cramped!</li>
+                    
+                    <li><span class="font-semibold">Margin Bottom:</span> Same goes for the bottom - let's keep things balanced!</li>
+                    
+                    <li><span class="font-semibold">Black & White Toggle:</span> Feeling fancy? Switch to B&W for that classic look! </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Let's Make It Informative! 📝</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Time to tell your story on the map:</p>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Click the Map option </li>
+                <li>You'll see two important text boxes:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Your Address: Paste in the link of where you live </li>
+                    <li>Info Box Message: This is your chance to shine! Add opening hours, parking tips, or your famous welcome message 🌟</li>
+                  </ul>
+                </li>
+                <li>Play with the zoom level - too close? Too far? Make it juuust right! 🔍</li>
+                <li>Try the B&W toggle - sometimes Black and White nails it!</li>
+                <li>Hit "Apply Changes" and voilà - you're on the map! 🎉</li>
+              </ol>
+            </div>
+          </div>
+
+        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Fun Map Facts!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Did you know? The first digital map was created in 1967! We've come a long way from paper maps! 🗺️</li>
+            <li>A good map can increase your website visits by helping people find you IRL (In Real Life)! 📈</li>
+            <li>Black and white maps can reduce page load time - sneaky performance boost! ⚡</li>
+            <li>People spend 40% more time on pages with maps - they're just that engaging! ⏰</li>
+          </ul>
+            </div>
+          </div>
+
+        <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Map Best Practices</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Keep your info box short and sweet - nobody's reading a novel on a map! 📝</li>
+            <li>Update your address if you move - obvious, but easy to forget! 🏠</li>
+            <li>Test your map on different devices - it should look great everywhere! 💻</li>
+            <li>Consider your colour scheme - that's why we gave you the B&W (Black and White) option! 🎨</li>
+          </ul>
+            </div>
+          </div>
+      
+          <br />
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">One Last Thing! ☝️</h5>
+          <p class="mt-2">Remember to save your work - because redoing your perfect map setup is no fun! 😅</p>
+          <p class="mt-2">And hey, if you get lost in the settings, just hit refresh and start afresh! 🔄</p>
+        </div>
+    
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Get on the Map? ✨</p>
+            <p class="text-lg mt-2">Go ahead - show the world exactly where to find your awesome business!</p>
+            </div>
+        </div>
+      </div>`,
         "quiz": [
           {
-            "question": "Which API is commonly used for maps?",
+            "question": "Where can you find maps in the Zylosite website builder?",
             "options": [
-              "Google Maps",
-              "OpenStreetMap",
-              "Mapbox",
-              "All of the above"
+              "Under the Components section",
+              "In the Settings menu",
+              "Under the Layout section",
+              "In the Theme options"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How do you access the map editing options?",
+            "options": [
+              "Double click the map",
+              "Click on the cog icon",
+              "Right click the map",
+              "Press the Edit button"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How many main options are available in the detail editor for maps?",
+            "options": [
+              "Three (Style, Map, and Layout)",
+              "Four (Style, Map, Size, and Position)",
+              "Two (Style and Map)",
+              "One (Map settings)"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which text box is used to input the location?",
+            "options": [
+              "Info box message",
+              "Location details",
+              "Map address",
+              "Your address",
             ],
             "correct": 3
+          },
+          {
+            "question": "What type of toggle is available in the map options?",
+            "options": [
+              "Satellite view",
+              "Black and white",
+              "3D view",
+              "Traffic view"
+            ],
+            "correct": 1
+          },
+
+          {
+            "question": "What should you do after making changes to your map?",
+            "options": [
+              "Click Apply Changes",
+              "Refresh the page",
+              "Save and exit",
+              "Close the editor"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What's recommended to include in the info box message?",
+            "options": [
+              "Full company history",
+              "Employee biographies",
+              "Opening hours and parking tips",
+              "Product catalog"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What benefit can black and white maps provide?",
+            "options": [
+              "Reduced page load time",
+              "Better visibility",
+              "Increased map size",
+              "More accurate directions"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How do you add a map to your canvas?",
+            "options": [
+              "Copy and paste",
+              "Double click",
+              "Right click and select Add",
+              "Drag and drop"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What should you consider when choosing a zoom level?",
+            "options": [
+              "Global view of the country",
+              "Satellite imagery quality",
+              "Visibility of nearby streets",
+              "Traffic patterns"
+            ],
+            "correct": 2
           }
         ]
       },
       {
         "id": 12,
-        "title": "Navigation bars",
-        "content": "Create responsive navigation systems that enhance user experience.",
-        "quiz": [
-          {
-            "question": "What is important for mobile navigation?",
-            "options": [
-              "Hamburger menu",
-              "Touch targets",
-              "Simplified structure",
-              "All of the above"
-            ],
-            "correct": 3
-          }
-        ]
+        "title": "Navigation Bar",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Navigate Like a Pro! 🧭</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Navigation_Bar(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Create an Amazing Navigation Bar! 🎯</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+             "A great navigation bar is like a roadmap to your website - make it clear, make it simple! 🗺️"
+            <footer class="text-sm mt-2">- Every Web Designer Ever</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Your Nav Bar! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Let's build your perfect navigation bar:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Go to Components and find the Navigation section</li>
+                  <li>Browse through different nav bar designs</li>
+                  <li>Drag your favorite design onto the canvas</li>
+                  <li>Click any element to see options: Change text, Clone, or Delete ⚙️</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Add Links to Your Nav Bar! 🔗</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Click the button you want to link</li>
+                  <li>Click the cog icon in the menu</li>
+                  <li>In the Detail Modal, choose 'Link'</li>
+                  <li>Paste your URL or select a page</li>
+                  <li>Optional: Toggle 'Open in new tab' 🔄</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Style Your Nav Bar Elements! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Click any nav bar element</li>
+                <li>Click the cog icon</li>
+                <li>In Detail Modal, select 'Style'</li>
+                <li>Customize the appearance:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Colors and backgrounds 🎨</li>
+                    <li>Text size and font 📝</li>
+                    <li>Padding and spacing 📏</li>
+                    <li>Hover effects ✨</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Nav Bar Facts!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Users spend 6.48 seconds on average looking at your navigation! Make it count! ⏱️</li>
+            <li>Clear navigation can reduce bounce rates by up to 30%! 📈</li>
+            <li>Most users prefer navigation with 7 or fewer main items! 🔢</li>
+            <li>89% of visitors leave a website due to poor navigation! 🚪</li>
+          </ul>
+            </div>
+          </div>
+
+        <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Navigation Best Practices</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Keep menu items short and clear - no fancy words needed! 📝</li>
+            <li>Test all your links before going live! 🔗</li>
+            <li>Make your logo clickable - it should always lead home! 🏠</li>
+            <li>Ensure high contrast for better readability! 👀</li>
+          </ul>
+            </div>
+          </div>
+      
+          <br />
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Pro Tip! 💡</h5>
+          <p class="mt-2">Save frequently while editing your nav bar - better safe than sorry! 💾</p>
+          <p class="mt-2">Need to undo changes? Use the reset button to start fresh! 🔄</p>
+        </div>
+    
+      
+          <div class="mt-6 text-center">
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Guide Your Visitors? ✨</p>
+          <p class="text-lg mt-2">You've got this! Let's create something amazing together! ✨</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "Where can you find navigation bar templates?",
+          "options": [
+            "In the Components section",
+            "In the Edit menu",
+            "In the Format menu",
+            "In the Settings panel"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "How do you add a navigation bar to the canvas?",
+          "options": [
+            "Copy and paste",
+            "Double click",
+            "Right click and select 'Add'",
+            "Drag and drop"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What appears when you click on a navigation bar component?",
+          "options": [
+            "A color picker",
+            "A text editor",
+            "A delete button only",
+            "A menu with editing options"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which icon do you click to access the Detail Modal?",
+          "options": [
+            "Star icon",
+            "Plus icon",
+            "Pencil icon",
+            "Cog icon"
+          ],
+          "correct": 3
+        },
+     
+        {
+          "question": "How do you add a link to a navigation bar element?",
+          "options": [
+            "Double click and enter URL",
+            "Drag a link from browser",
+            "Click cog icon, select Link option, and paste URL",
+            "Right-click and select 'Add Link'"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is an optional setting when adding a link?",
+          "options": [
+            "Add animation",
+            "Set link color",
+            "Add password protection",
+            "Open in new tab"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What is the first step to style a navigation element?",
+          "options": [
+            "Open Settings panel",
+            "Open Style menu",
+            "Right-click the element",
+            "Click the element"
+          ],
+          "correct": 3
+        },
+ 
+        {
+          "question": "What happens when you click the cog icon?",
+          "options": [
+            "Shows preview",
+            "Shows Detail Modal",
+            "Opens Style panel directly",
+            "Deletes component"
+          ],
+          "correct": 1
+        },
+   
+        {
+          "question": "What feature allows you to duplicate a nav bar element?",
+          "options": [
+            "Duplicate option",
+            "Copy button",
+            "Repeat tool",
+            "Clone feature"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Where are the style settings located?",
+          "options": [
+            "Main menu",
+            "Format bar",
+            "Quick panel",
+            "Detail Modal"
+          ],
+          "correct": 3
+        }
+      ]
       },
       {
         "id": 13,
