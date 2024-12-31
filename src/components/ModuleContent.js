@@ -6658,19 +6658,208 @@ const defaultCourseModules = [
       {
         "id": 18,
         "title": "Team",
-        "content": "Create engaging team member showcases and organizational structures.",
-        "quiz": [
-          {
-            "question": "What should team sections include?",
-            "options": [
-              "Photos",
-              "Names and roles",
-              "Contact info",
-              "All of the above"
-            ],
-            "correct": 3
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Engaging Team Sections! 👥</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Build Team Pages That Connect & Inspire! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed team section doesn't just display profiles - it tells a story and creates a human connection that builds trust with visitors! 🤝"
+            <footer class="text-sm mt-2">- Team Page Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Team Sections! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective team sections:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Choose the right layout structure</li>
+                  <li>Optimize profile photo quality</li>
+                  <li>Create consistent bio formats</li>
+                  <li>Add social media links</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Profile photos:</span> Professional quality!</li>
+                  <li><span class="font-semibold">Bio sections:</span> Engaging stories</li>
+                  <li><span class="font-semibold">Team filters:</span> Easy navigation</li>
+                  <li><span class="font-semibold">Mobile design:</span> All devices</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use consistent photo dimensions</li>
+                <li>Implement hover states</li>
+                <li>Create clear hierarchies</li>
+                <li>Add smooth transitions</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Team Section Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Team sections increase trust by 70%! 👀</li>
+                <li>Personal bios improve connection by 45%! 📊</li>
+                <li>Profile interactions increase by 55% on mobile! 📱</li>
+                <li>Department filtering boosts engagement by 38%! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Performance Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Optimize profile photos for web 🖼️</li>
+                <li>Use lazy loading for images 🚀</li>
+                <li>Implement pagination for large teams ♾️</li>
+                <li>Cache team member data effectively 💨</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Inconsistent photo quality</li>
+                <li>Missing role descriptions</li>
+                <li>Poor mobile layouts</li>
+                <li>No department filtering</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">Monitor which team members get most profile views!</p>
+            <p class="mt-2">Use progressive loading for better performance! ⚡</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Team? 🎨</p>
+            <p class="text-lg mt-2">Create team sections that highlight your people and build trust!</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "How much do professional team photos improve credibility?",
+          "options": [
+            "45%",
+            "50%",
+            "55%",
+            "60%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By how much do personal bios increase engagement?",
+          "options": [
+            "28%",
+            "33%",
+            "38%",
+            "43%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much do team sections boost brand trust?",
+          "options": [
+            "32%",
+            "37%",
+            "42%",
+            "47%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By what percentage do filtered team sections improve navigation?",
+          "options": [
+            "22%",
+            "27%",
+            "32%",
+            "37%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's most important for team section design?",
+          "options": [
+            "Animation",
+            "Consistency",
+            "Decoration",
+            "Colors"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's a common team section mistake?",
+          "options": [
+            "Using professional photos",
+            "Maintaining consistency",
+            "Overusing effects",
+            "Following grid"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What improves team section accessibility?",
+          "options": [
+            "More animation",
+            "Semantic HTML",
+            "Bright colors",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should be used for consistent styling?",
+          "options": [
+            "Inline styles",
+            "Hard-coded values",
+            "CSS custom properties",
+            "Random values"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's essential for mobile team sections?",
+          "options": [
+            "Animations",
+            "Responsive design",
+            "Decorations",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What helps maintain visual hierarchy?",
+          "options": [
+            "Random spacing",
+            "Varying weights",
+            "Multiple styles",
+            "Consistent layout"
+          ],
+          "correct": 3
+        }
+      ]
       },
       {
         "id": 19,
