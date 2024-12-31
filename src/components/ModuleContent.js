@@ -4601,19 +4601,208 @@ const defaultCourseModules = [
       {
         "id": 5,
         "title": "Dividers",
-        "content": "Explore various types of dividers to separate content sections effectively.",
-        "quiz": [
-          {
-            "question": "What is the HTML element commonly used for dividers?",
-            "options": [
-              "<div>",
-              "<hr>",
-              "<br>",
-              "<span>"
-            ],
-            "correct": 1
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Stunning Image Galleries! 🖼️</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Design Galleries That Captivate & Convert! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed gallery doesn't just display images - it tells a story and creates an immersive visual experience that keeps visitors engaged! 📸"
+            <footer class="text-sm mt-2">- Gallery Design Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Galleries! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective galleries:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Choose the right layout pattern</li>
+                  <li>Optimize image loading speed</li>
+                  <li>Implement smooth transitions</li>
+                  <li>Add intuitive navigation</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Image optimization:</span> Fast loading!</li>
+                  <li><span class="font-semibold">Lightbox feature:</span> Enhanced viewing</li>
+                  <li><span class="font-semibold">Filtering options:</span> Easy discovery</li>
+                  <li><span class="font-semibold">Responsive design:</span> All devices</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Maintain consistent image ratios</li>
+                <li>Implement lazy loading</li>
+                <li>Use thumbnails effectively</li>
+                <li>Add hover effects and animations</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Gallery Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Visual content increases engagement by 70%! 👀</li>
+                <li>Grid layouts improve recall by 45%! 📊</li>
+                <li>Lightbox views increase by 55% on mobile! 📱</li>
+                <li>Filtered galleries boost interaction by 38%! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Performance Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Compress images without quality loss 🖼️</li>
+                <li>Use WebP format when possible 🚀</li>
+                <li>Implement infinite scroll for large galleries ♾️</li>
+                <li>Cache gallery assets effectively 💨</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Unoptimized image sizes</li>
+                <li>Missing alt text for accessibility</li>
+                <li>Poor mobile experience</li>
+                <li>No filtering or sorting options</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">Track user interactions to optimize layout!</p>
+            <p class="mt-2">Use dynamic loading for better performance! ⚡</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Images? 🎨</p>
+            <p class="text-lg mt-2">Create galleries that engage visitors and showcase your content perfectly!</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "How much do clear sections improve readability?",
+          "options": [
+            "45%",
+            "50%",
+            "55%",
+            "60%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By how much does proper spacing increase comprehension?",
+          "options": [
+            "28%",
+            "33%",
+            "38%",
+            "43%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much do themed dividers boost brand recall?",
+          "options": [
+            "32%",
+            "37%",
+            "42%",
+            "47%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By what percentage do visual breaks reduce cognitive load?",
+          "options": [
+            "22%",
+            "27%",
+            "32%",
+            "37%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's most important for divider design?",
+          "options": [
+            "Animation",
+            "Consistency",
+            "Decoration",
+            "Colors"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's a common divider mistake?",
+          "options": [
+            "Using subtle colors",
+            "Maintaining consistency",
+            "Overusing decoration",
+            "Following grid"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What improves divider accessibility?",
+          "options": [
+            "More animation",
+            "Semantic HTML",
+            "Bright colors",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should be used for consistent styling?",
+          "options": [
+            "Inline styles",
+            "Hard-coded values",
+            "CSS custom properties",
+            "Random values"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's essential for mobile dividers?",
+          "options": [
+            "Animations",
+            "Responsive design",
+            "Decorations",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What helps maintain visual hierarchy?",
+          "options": [
+            "Random spacing",
+            "Varying weights",
+            "Multiple styles",
+            "Consistent thickness"
+          ],
+          "correct": 3
+        }
+      ]
       },
       {
         "id": 6,
