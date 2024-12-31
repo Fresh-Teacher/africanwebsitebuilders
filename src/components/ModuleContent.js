@@ -2424,7 +2424,7 @@ const defaultCourseModules = [
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Let's Build Amazing Grid Layouts! ✨</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Grids(0).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
@@ -2975,7 +2975,7 @@ const defaultCourseModules = [
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Hey There! Let's Play with Some Icons! ✨</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Icons(0).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
@@ -3203,20 +3203,216 @@ const defaultCourseModules = [
       },
       {
         "id": 2,
-        "title": "Slideshows and Forms",
-        "content": "Learn to create slideshows for showcasing content and design forms for user interaction.",
-        "quiz": [
-          {
-            "question": "Which form element is essential for capturing user input?",
-            "options": [
-              "Button",
-              "Text field",
-              "Image",
-              "Slider"
-            ],
-            "correct": 1
-          }
-        ]
+        "title": "Maps",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Hey! Let's Put Your Business on the Map! 🗺️</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Show Everyone Where to Find You? 📍</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+             "Getting lost is an adventure, but let's make sure your customers don't have to! A well-placed map is like a friendly guide saying 'You are welcome here!' 🎯"
+            <footer class="text-sm mt-2">- Every Local Business Owner Ever</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Let's Get Your Map Up and Running! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Adding a map is easier than folding one (remember those days? 😅)</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Head over to Components </li>
+                  <li>Find your perfect map template</li>
+                  <li>Just drag and drop it where you want it (like moving furniture, but way easier)</li>
+                  <li>Click that little cog icon to make it your own! ⚙️</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Making Your Map Look Amazing! 🎨</h5>
+              <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+                <div class="bg-white/70 p-4 rounded">
+                  <p class="mb-4">Let's explore your style options (it's like dressing up your map!):</p>
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li><span class="font-semibold">Height:</span> Tall, short, or just right - you decide how much space your map needs!</li>
+                    
+                    <li><span class="font-semibold">Margin Top:</span> Give it some breathing room up top - nobody likes feeling cramped!</li>
+                    
+                    <li><span class="font-semibold">Margin Bottom:</span> Same goes for the bottom - let's keep things balanced!</li>
+                    
+                    <li><span class="font-semibold">Black & White Toggle:</span> Feeling fancy? Switch to B&W for that classic look! </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Let's Make It Informative! 📝</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Time to tell your story on the map:</p>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Click the Map option </li>
+                <li>You'll see two important text boxes:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Your Address: Paste in the link of where you live </li>
+                    <li>Info Box Message: This is your chance to shine! Add opening hours, parking tips, or your famous welcome message 🌟</li>
+                  </ul>
+                </li>
+                <li>Play with the zoom level - too close? Too far? Make it juuust right! 🔍</li>
+                <li>Try the B&W toggle - sometimes Black and White nails it!</li>
+                <li>Hit "Apply Changes" and voilà - you're on the map! 🎉</li>
+              </ol>
+            </div>
+          </div>
+
+        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Fun Map Facts!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Did you know? The first digital map was created in 1967! We've come a long way from paper maps! 🗺️</li>
+            <li>A good map can increase your website visits by helping people find you IRL (In Real Life)! 📈</li>
+            <li>Black and white maps can reduce page load time - sneaky performance boost! ⚡</li>
+            <li>People spend 40% more time on pages with maps - they're just that engaging! ⏰</li>
+          </ul>
+            </div>
+          </div>
+
+        <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Map Best Practices</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Keep your info box short and sweet - nobody's reading a novel on a map! 📝</li>
+            <li>Update your address if you move - obvious, but easy to forget! 🏠</li>
+            <li>Test your map on different devices - it should look great everywhere! 💻</li>
+            <li>Consider your colour scheme - that's why we gave you the B&W (Black and White) option! 🎨</li>
+          </ul>
+            </div>
+          </div>
+      
+          <br />
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">One Last Thing! ☝️</h5>
+          <p class="mt-2">Remember to save your work - because redoing your perfect map setup is no fun! 😅</p>
+          <p class="mt-2">And hey, if you get lost in the settings, just hit refresh and start afresh! 🔄</p>
+        </div>
+    
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Get on the Map? ✨</p>
+            <p class="text-lg mt-2">Go ahead - show the world exactly where to find your awesome business!</p>
+            </div>
+        </div>
+      </div>`,   
+      "quiz": [
+        {
+          "question": "Where can you find maps in the Zylosite website builder?",
+          "options": [
+            "Under the Components section",
+            "In the Settings menu",
+            "Under the Layout section",
+            "In the Theme options"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "How do you access the map editing options?",
+          "options": [
+            "Double click the map",
+            "Click on the cog icon",
+            "Right click the map",
+            "Press the Edit button"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "How many main options are available in the detail editor for maps?",
+          "options": [
+            "Three (Style, Map, and Layout)",
+            "Four (Style, Map, Size, and Position)",
+            "Two (Style and Map)",
+            "One (Map settings)"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which text box is used to input the location?",
+          "options": [
+            "Info box message",
+            "Location details",
+            "Map address",
+            "Your address",
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What type of toggle is available in the map options?",
+          "options": [
+            "Satellite view",
+            "Black and white",
+            "3D view",
+            "Traffic view"
+          ],
+          "correct": 1
+        },
+   
+        {
+          "question": "What should you do after making changes to your map?",
+          "options": [
+            "Click Apply Changes",
+            "Refresh the page",
+            "Save and exit",
+            "Close the editor"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What's recommended to include in the info box message?",
+          "options": [
+            "Full company history",
+            "Employee biographies",
+            "Opening hours and parking tips",
+            "Product catalog"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What benefit can black and white maps provide?",
+          "options": [
+            "Reduced page load time",
+            "Better visibility",
+            "Increased map size",
+            "More accurate directions"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "How do you add a map to your canvas?",
+          "options": [
+            "Copy and paste",
+            "Double click",
+            "Right click and select Add",
+            "Drag and drop"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What should you consider when choosing a zoom level?",
+          "options": [
+            "Global view of the country",
+            "Satellite imagery quality",
+            "Visibility of nearby streets",
+            "Traffic patterns"
+          ],
+          "correct": 2
+        }
+      ]
       }
     ]
   },
