@@ -4168,17 +4168,205 @@ const defaultCourseModules = [
       {
         "id": 1,
         "title": "Call to action",
-        "content": "Learn how to create effective call-to-action buttons and sections that drive user engagement and conversions.",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Irresistible Calls to Action! 🎯</h2>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Master the Art of CTAs! ✨</h3> <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "A great CTA is like a friendly guide showing the way - clear, inviting, and impossible to miss!" 
+          <footer class="text-sm mt-2">- Every Marketing Expert Ever</footer>
+        </blockquote>
+        
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Getting Started with CTAs! 🚀</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Creating effective CTAs is easy:</p>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Head to Components section</li>
+                <li>Find the Call to Action templates</li>
+                <li>Pick your favorite design and drag it to the canvas</li>
+                <li>Click to edit text, style, and links ⚙️</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Your Perfect CTA! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Essential elements to consider:</p>
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Button Text:</span> Clear, action-oriented words</li>
+                <li><span class="font-semibold">Colors:</span> High contrast for visibility</li>
+                <li><span class="font-semibold">Size:</span> Large enough to stand out</li>
+                <li><span class="font-semibold">Placement:</span> Strategic positioning on the page</li>
+                <li><span class="font-semibold">White Space:</span> Room to breathe and grab attention</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Writing Compelling CTA Copy! ✍️</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="mb-4">Power words that work:</p>
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Start with action verbs: Get, Start, Join, Discover</li>
+              <li>Create urgency: Now, Today, Limited Time</li>
+              <li>Show value: Free, Save, Exclusive, Instant</li>
+              <li>Keep it short: 2-5 words is perfect!</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">🤓 CTA Facts!</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Red CTAs can boost conversion rates by up to 21%! 🔴</li>
+              <li>Personalized CTAs perform 202% better than default versions! 🎯</li>
+              <li>90% of visitors read CTAs that are based on button text! 👀</li>
+              <li>Adding CTAs to articles can increase conversions by 285%! 📈</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">🎯 CTA Best Practices</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Use contrasting colors that pop! 🎨</li>
+              <li>Keep text clear and action-oriented! 📝</li>
+              <li>Place CTAs above the fold when possible! ⬆️</li>
+              <li>Test different versions to find what works! 🧪</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Common CTA Mistakes to Avoid! ⚠️</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Using vague or generic text like "Click Here"</li>
+              <li>Making buttons too small or hard to spot</li>
+              <li>Overwhelming visitors with too many CTAs</li>
+              <li>Using colors that blend into the background</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Pro Tips! 💡</h5>
+          <p class="mt-2">A/B test different CTA versions to find what resonates with your audience! 📊</p>
+          <p class="mt-2">Mobile users need larger touch targets - size accordingly! 📱</p>
+        </div>
+        
+        <div class="mt-6 text-center">
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Some Converting CTAs? ✨</p>
+          <p class="text-lg mt-2">Let's turn those visitors into customers! 🚀</p>
+        </div> </div>
+        </div>`,      
         "quiz": [
           {
-            "question": "What is the primary purpose of a call-to-action?",
+            "question": "What is the recommended length for CTA button text?",
             "options": [
-              "To look attractive",
-              "To prompt user action",
-              "To fill empty space",
-              "To add color"
+              "1 word",
+              "2-5 words",
+              "6-10 words",
+              "More than 10 words"
             ],
             "correct": 1
+          },
+          {
+            "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
+            "options": [
+              "Blue",
+              "Green",
+              "Red",
+              "Yellow"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage better do personalized CTAs perform compared to default versions?",
+            "options": [
+              "102%",
+              "152%",
+              "202%",
+              "252%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which of these is a best practice for CTA design?",
+            "options": [
+              "Use subtle, blending colors",
+              "Make buttons small and discrete",
+              "Use contrasting colors that pop",
+              "Add multiple CTAs everywhere"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What type of words should you start CTA text with?",
+            "options": [
+              "Adjectives",
+              "Action verbs",
+              "Nouns",
+              "Articles"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Where is the ideal placement for important CTAs?",
+            "options": [
+              "At the very bottom of the page",
+              "In the footer",
+              "Above the fold",
+              "In the sidebar"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which is considered a CTA copywriting mistake?",
+            "options": [
+              "Using action verbs",
+              "Creating urgency",
+              "Using 'Click Here'",
+              "Showing value"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage of visitors read CTAs based on button text?",
+            "options": [
+              "70%",
+              "80%",
+              "90%",
+              "100%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is an effective way to optimize CTA performance?",
+            "options": [
+              "A/B testing",
+              "Using multiple CTAs",
+              "Making them smaller",
+              "Using passive language"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "By what percentage can adding CTAs to articles increase conversions?",
+            "options": [
+              "185%",
+              "235%",
+              "285%",
+              "335%"
+            ],
+            "correct": 2
           }
         ]
       },
@@ -5210,19 +5398,211 @@ const defaultCourseModules = [
       {
         "id": 21,
         "title": "Popups",
-        "content": "Implement user-friendly modal windows and popup notifications.",
-        "quiz": [
-          {
-            "question": "What is important for popup UX?",
-            "options": [
-              "Easy dismissal",
-              "Clear purpose",
-              "Timing",
-              "All of the above"
-            ],
-            "correct": 3
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Pop Into Action! 🎉</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Let's Make Those Popups Pop! 💫</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-timed popup is like a friendly tap on the shoulder - helpful, not intrusive!" 
+            <footer class="text-sm mt-2">- Every UX Designer Ever</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Popups! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Creating popups is super easy:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Head to Components and find the Popup section</li>
+                  <li>Choose from various popup templates</li>
+                  <li>Drag your chosen popup onto the canvas</li>
+                  <li>Click the popup to see your magic options: Edit, Clone, or Delete ⚙️</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Customize Your Popup! 🎨</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Make it yours with these options:</p>
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Timing:</span> Set when your popup appears</li>
+                  <li><span class="font-semibold">Animation:</span> Choose how it enters the scene</li>
+                  <li><span class="font-semibold">Size:</span> Pick the perfect dimensions</li>
+                  <li><span class="font-semibold">Position:</span> Place it just right on the screen</li>
+                  <li><span class="font-semibold">Backdrop:</span> Set the background overlay style</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Make It Interactive! 🎮</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Add these elements to engage visitors:</p>
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Eye-catching headlines that grab attention 👀</li>
+                <li>Clear call-to-action buttons that pop! 🎯</li>
+                <li>Form fields for collecting info (if needed) 📝</li>
+                <li>Easy-to-spot close buttons (don't hide these!) ❌</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Popup Facts!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Well-designed popups can increase conversions by up to 40%! 📈</li>
+                <li>The average person sees 2-3 popups per website visit! 👀</li>
+                <li>Exit-intent popups can save up to 35% of lost visitors! 🚪</li>
+                <li>Mobile users are 2x more likely to close popups immediately! 📱</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Popup Best Practices</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Wait at least 5 seconds before showing a popup! ⏰</li>
+                <li>Always provide a clear way to close it! ❌</li>
+                <li>Keep mobile users in mind - size matters! 📱</li>
+                <li>Don't show the same popup twice in one session! 🔄</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Popup Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Showing popups immediately (let visitors explore first!)</li>
+                <li>Making close buttons tiny or hard to find</li>
+                <li>Using aggressive or pushy language</li>
+                <li>Showing too many popups at once</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💡</h5>
+            <p class="mt-2">Test your popups on different devices - what works on desktop might not work on mobile! 📱</p>
+            <p class="mt-2">Use analytics to find the perfect timing for your popups! 📊</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Some Amazing Popups? ✨</p>
+            <p class="text-lg mt-2">Let's make them helpful, not annoying! Your visitors will thank you! 🙏</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "Where can you find popup templates in the interface?",
+          "options": [
+            "In the Components section",
+            "In the Settings menu",
+            "In the Layout options",
+            "In the Format panel"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What is the recommended minimum wait time before showing a popup?",
+          "options": [
+            "Immediately",
+            "3 seconds",
+            "5 seconds",
+            "10 seconds"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which of these is a best practice for popup design?",
+          "options": [
+            "Hide the close button to increase engagement",
+            "Show multiple popups simultaneously",
+            "Provide a clear way to close the popup",
+            "Use aggressive language to drive action"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What percentage of lost visitors can exit-intent popups potentially save?",
+          "options": [
+            "15%",
+            "25%",
+            "35%",
+            "45%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How do mobile users typically interact with popups compared to desktop users?",
+          "options": [
+            "They engage more often",
+            "They're twice as likely to close them",
+            "They spend more time reading them",
+            "They convert at higher rates"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which element should always be included in a popup?",
+          "options": [
+            "Social media links",
+            "Video content",
+            "Close button",
+            "Animation effects"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's an important consideration when designing popup timing?",
+          "options": [
+            "Show it immediately for maximum impact",
+            "Wait for user engagement",
+            "Display multiple popups at once",
+            "Ignore mobile users"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's the recommended approach for popup frequency?",
+          "options": [
+            "Show the same popup multiple times",
+            "Show different popups simultaneously",
+            "Don't show the same popup twice in one session",
+            "Show popups on every page load"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which feature can help optimize popup performance?",
+          "options": [
+            "Analytics tracking",
+            "Automatic popups",
+            "Random timing",
+            "Multiple animations"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What's a key consideration for mobile popup design?",
+          "options": [
+            "Using smaller close buttons",
+            "Appropriate sizing for mobile screens",
+            "Adding more content",
+            "Using multiple popups"
+          ],
+          "correct": 1
+        }
+      ]
       }
     ]
   },
@@ -5236,14 +5616,104 @@ const defaultCourseModules = [
         "content": "Test your site’s performance and learn to improve loading speed using tools like Speed Optimizer.",
         "quiz": [
           {
-            "question": "What affects website speed the most?",
+            "question": "What is the recommended length for CTA button text?",
             "options": [
-              "Image sizes",
-              "Code efficiency",
-              "Hosting provider",
-              "All of the above"
+              "1 word",
+              "2-5 words",
+              "6-10 words",
+              "More than 10 words"
             ],
-            "correct": 3
+            "correct": 1
+          },
+          {
+            "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
+            "options": [
+              "Blue",
+              "Green",
+              "Red",
+              "Yellow"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage better do personalized CTAs perform compared to default versions?",
+            "options": [
+              "102%",
+              "152%",
+              "202%",
+              "252%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which of these is a best practice for CTA design?",
+            "options": [
+              "Use subtle, blending colors",
+              "Make buttons small and discrete",
+              "Use contrasting colors that pop",
+              "Add multiple CTAs everywhere"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What type of words should you start CTA text with?",
+            "options": [
+              "Adjectives",
+              "Action verbs",
+              "Nouns",
+              "Articles"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Where is the ideal placement for important CTAs?",
+            "options": [
+              "At the very bottom of the page",
+              "In the footer",
+              "Above the fold",
+              "In the sidebar"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which is considered a CTA copywriting mistake?",
+            "options": [
+              "Using action verbs",
+              "Creating urgency",
+              "Using 'Click Here'",
+              "Showing value"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage of visitors read CTAs based on button text?",
+            "options": [
+              "70%",
+              "80%",
+              "90%",
+              "100%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is an effective way to optimize CTA performance?",
+            "options": [
+              "A/B testing",
+              "Using multiple CTAs",
+              "Making them smaller",
+              "Using passive language"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "By what percentage can adding CTAs to articles increase conversions?",
+            "options": [
+              "185%",
+              "235%",
+              "285%",
+              "335%"
+            ],
+            "correct": 2
           }
         ]
       }
