@@ -5439,17 +5439,206 @@ const defaultCourseModules = [
       {
         "id": 13,
         "title": "Pricing",
-        "content": "Design clear pricing tables that effectively communicate value propositions.",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Perfect Pricing Tables! 💰</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Show Your Value with Style! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed pricing table doesn't just list prices - it tells a story about value and helps customers make the perfect choice! 🎯"
+            <footer class="text-sm mt-2">- Pricing Strategy Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Pricing Tables! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective pricing tables:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Choose a clean, readable layout</li>
+                  <li>Highlight your recommended plan</li>
+                  <li>Keep feature descriptions clear and concise</li>
+                  <li>Make CTAs stand out with contrasting colors</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Clear plan names:</span> Make them meaningful!</li>
+                  <li><span class="font-semibold">Prominent pricing:</span> Show value clearly</li>
+                  <li><span class="font-semibold">Feature lists:</span> Highlight what matters</li>
+                  <li><span class="font-semibold">Action buttons:</span> Make them compelling</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use consistent spacing and alignment</li>
+                <li>Make your recommended plan stand out</li>
+                <li>Keep mobile users in mind - ensure good readability</li>
+                <li>Use icons to make features more scannable</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Pricing Table Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>The "Rule of Three" makes decision-making easier! 🧠</li>
+                <li>Center-stage pricing plans get 40% more attention! 👀</li>
+                <li>Highlighting savings can increase conversions by 25%! 💰</li>
+                <li>90% of users compare all columns before deciding! 📊</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Conversion Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Add a money-back guarantee to build trust 🤝</li>
+                <li>Show monthly and annual pricing options 📅</li>
+                <li>Include social proof near pricing tables ⭐</li>
+                <li>Make feature comparisons easy to scan 👁️</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Too many pricing tiers - keep it simple!</li>
+                <li>Unclear feature descriptions</li>
+                <li>Hidden costs or asterisks</li>
+                <li>Poor mobile responsiveness</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">A/B test different layouts and pricing structures!</p>
+            <p class="mt-2">Keep your pricing tables up-to-date and competitive! 🚀</p>
+          </div>
+    
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Value? 💎</p>
+            <p class="text-lg mt-2">Create pricing tables that convert visitors into customers!</p>
+          </div>
+        </div>
+      </div>`,
         "quiz": [
           {
-            "question": "What should pricing tables include?",
+            "question": "What is the 'Rule of Three' in pricing tables?",
             "options": [
-              "Price",
-              "Features",
-              "CTA button",
-              "All of the above"
+              "Three payment methods",
+              "Three pricing tiers",
+              "Three features per plan",
+              "Three months minimum"
             ],
-            "correct": 3
+            "correct": 1
+          },
+          {
+            "question": "How much more attention do center-stage pricing plans receive?",
+            "options": [
+              "20% more",
+              "30% more",
+              "40% more",
+              "50% more"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage of users compare all columns before deciding?",
+            "options": [
+              "70%",
+              "80%",
+              "90%",
+              "95%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which element should stand out most in a pricing table?",
+            "options": [
+              "Company logo",
+              "Feature list",
+              "Call-to-action buttons",
+              "Social proof"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What can increase conversions by 25% in pricing tables?",
+            "options": [
+              "Highlighting savings",
+              "Adding more features",
+              "Using animations",
+              "Including testimonials"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which is a common mistake in pricing tables?",
+            "options": [
+              "Using consistent spacing",
+              "Having too many tiers",
+              "Showing monthly prices",
+              "Including CTAs"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should you always include near pricing tables?",
+            "options": [
+              "Company history",
+              "Social proof",
+              "Blog posts",
+              "Contact form"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which pricing table element builds trust?",
+            "options": [
+              "Animated features",
+              "Multiple colors",
+              "Money-back guarantee",
+              "Large fonts"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What makes features easier to scan?",
+            "options": [
+              "More text",
+              "Using icons",
+              "Bright colors",
+              "Animations"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should you do regularly with pricing tables?",
+            "options": [
+              "Change colors",
+              "Add features",
+              "A/B test layouts",
+              "Remove options"
+            ],
+            "correct": 2
           }
         ]
       },
