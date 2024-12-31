@@ -2962,6 +2962,451 @@ const defaultCourseModules = [
           "correct": 0
           }
         ]
+      },
+      {
+        "id": 4,
+        "title": "Icons",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Hey There! Let's Play with Some Icons! ✨</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Icons(0).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Want to Give Your Site Some Extra Sparkle? 🎨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+             "You know what's fun about icons? They're like emojis for your website - but way cooler! And guess what? They're super easy to add! 😉"
+            <footer class="text-sm mt-2">- That One Designer Friend We All Need</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Alright, Let's Get This Party Started! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Trust me, this is going to be super easy - here's what you do:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Pop over to the Components section</li>
+                  <li>Look for the Icons option - it's got this cute little gift box icon 🎁</li>
+                  <li>You'll see three sizes - like coffee cups, you know? Small, medium, and large!</li>
+                  <li>Just grab one and drop it wherever you want - seriously, that's it! Easy peasy 😉</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Now for the Fun Part - Making It Your Own! 🍰</h5>
+              <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+                <div class="bg-white/70 p-4 rounded">
+                  <p class="mb-4">Here's all the cool stuff you can do with your icons:</p>
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li><span class="font-semibold">Style it up:</span> Want it bigger? Smaller? Different color? Go wild!</li>
+                    
+                    <li><span class="font-semibold">Make it clickable:</span> Yeah, you can make it take people places - how cool is that?</li>
+                    
+                    <li><span class="font-semibold">Switch it up:</span> Not feeling that icon anymore? No worries, just pick another one!</li>
+                    
+                    <li><span class="font-semibold">Size options:</span> Like I said - small, medium, or large. It's like ordering at a coffee shop, but way less pressure! ☕</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Here's How to Make Changes (It's a Piece of Cake!) ✨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Ready? This is super straightforward:</p>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Click your icon (you know, the one you just dropped in)</li>
+                <li>See that little cog icon? ⚙️ Click it! (It's like the settings button on your phone)</li>
+                <li>You'll get three options:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Style - make it look fabulous</li>
+                    <li>Link - make it do something when clicked</li>
+                    <li>Icons - pick a different icon if you've changed your mind</li>
+                  </ul>
+                </li>
+                <li>Play around until you love it</li>
+                <li>Hit "Apply changes" and boom - you're done!</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">🤓 Fun Facts About Icons! (Bet You Didn't Know These!)</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+          <li>The word "icon" comes from the Greek word "eikōn" meaning "image" or "likeness" - fancy, right? 🎨</li>
+          <li>The first computer icon was created in 1981 at Xerox - and look how far we've come! 💻</li>
+          <li>Icons can increase your website's engagement by up to 50%! People love clicking on cute little pictures! 📈</li>
+          <li>The human brain processes images 60,000 times faster than text - that's why icons work so well! 🧠</li>
+          <li>Color-changing icons (like on hover) can increase click rates by up to 30%! ✨</li>
+          <li>You should consider color-blind users when choosing icon colors - about 8% of males are color-blind! 🎨</li>
+
+          </ul>
+          </div>
+        </div>
+
+      <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">🎯 Icon Accessibility Tips</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+          <li>Always add alt text to your icons - screen readers need love too! 🗣️</li>
+          <li>Make sure your icon colors have enough contrast - visibility matters! 👀</li>
+          <li>Consider color-blind users when choosing icon colors - about 8% of males are color-blind! 🎨</li>
+          <li>Test your icons with keyboard navigation - not everyone uses a mouse! ⌨️</li>
+        </ul>
+          </div>
+        </div>
+      
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Quick Tips from Your Icon-Loving Friend! 🧙‍♂️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Try out different sizes - sometimes what looks perfect in your head needs a little tweaking! 📏</li>
+            <li>Made something clickable? Give it a test click - better safe than sorry! 🔗</li>
+            <li>Keep it consistent - your website should look put together, not like it got dressed in the dark! ☾⋆</li>
+            <li>Can't see your icon? Maybe try a different background color - we want people to actually see it! 👀</li>
+            <li>Save your work! (I may have learnt this the hard way... 😅)</li>
+          </ul>
+            </div>
+          </div>
+      
+          <br />
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Oh! One More Thing! ☝️</h5>
+          <p class="mt-2">Don't forget to save before you go - trust me, you don't want to redo all your awesome work! 😅</p>
+          <p class="mt-2">Hit that save button like it's your favorite emoji! 💾</p>
+        </div>
+    
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Design Those Icons? ✨</p>
+            <p class="text-lg mt-2">Go ahead, make your site look amazing - you've totally got this!</p>
+            </div>
+        </div>
+      </div>`,       
+      "quiz": [
+        {
+          "question": "Where can you find icons in the Zylosite website builder?",
+          "options": [
+            "In the Settings menu",
+            "Under the Layout section",
+            "Under the Components section",
+            "In the Theme options"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What happens when you click the cog icon on an icon element?",
+          "options": [
+            "The icon gets deleted",
+            "The icon changes color",
+            "Nothing happens",
+            "The Detail editor appears",
+
+          ],
+          "correct": 3
+        },
+        {
+          "question": "How many size options are available for icons in Zylosite?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word comes from the Greek word 'eikōn'?",
+          "options": [
+            "Icon",
+            "Image",
+            "Symbol",
+            "Logo"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "When was the first computer icon created?",
+          "options": [
+            "1975",
+            "1990",
+            "1981",
+            "1985"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What are the three options available in the Detail editor for icons?",
+          "options": [
+            "Size, Color, and Shape",
+            "Width, Height, and Color",
+            "Font, Size, and Style",
+            "Style, Link, and Icons",
+          ],
+          "correct": 3
+        },
+   
+        {
+          "question": "How do you add an icon to your canvas in Zylosite?",
+          "options": [
+            "Drag and drop",
+            "Double click",
+            "Right click and select 'Add'",
+            "Copy and paste"
+          ],
+          "correct": 0
+        },
+    
+        {
+          "question": "What's the quickest way to duplicate an icon?",
+          "options": [
+            "Right-click the icon",
+            "Press Ctrl+D",
+            "Double-click the icon",
+            "Click on the clone icon"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which icon is used to delete icons",
+          "options": [
+            "The power symbol",
+            "The shopping cart",
+            "The Trash icon",
+            "The menu icon"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What does the Icons icon look like in the components menu?",
+          "options": [
+            "The power symbol",
+            "The gift emoji",
+            "The Trash icon",
+            "The menu icon"
+          ],
+          "correct": 1
+        }
+      ]
+      },
+      {
+        "id": 5,
+        "title": "Maps",
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Hey! Let's Put Your Business on the Map! 🗺️</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Show Everyone Where to Find You? 📍</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+             "Getting lost is an adventure, but let's make sure your customers don't have to! A well-placed map is like a friendly guide saying 'You are welcome here!' 🎯"
+            <footer class="text-sm mt-2">- Every Local Business Owner Ever</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Let's Get Your Map Up and Running! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Adding a map is easier than folding one (remember those days? 😅)</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Head over to Components </li>
+                  <li>Find your perfect map template</li>
+                  <li>Just drag and drop it where you want it (like moving furniture, but way easier)</li>
+                  <li>Click that little cog icon to make it your own! ⚙️</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Making Your Map Look Amazing! 🎨</h5>
+              <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+                <div class="bg-white/70 p-4 rounded">
+                  <p class="mb-4">Let's explore your style options (it's like dressing up your map!):</p>
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li><span class="font-semibold">Height:</span> Tall, short, or just right - you decide how much space your map needs!</li>
+                    
+                    <li><span class="font-semibold">Margin Top:</span> Give it some breathing room up top - nobody likes feeling cramped!</li>
+                    
+                    <li><span class="font-semibold">Margin Bottom:</span> Same goes for the bottom - let's keep things balanced!</li>
+                    
+                    <li><span class="font-semibold">Black & White Toggle:</span> Feeling fancy? Switch to B&W for that classic look! </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Let's Make It Informative! 📝</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Time to tell your story on the map:</p>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Click the Map option </li>
+                <li>You'll see two important text boxes:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Your Address: Paste in the link of where you live </li>
+                    <li>Info Box Message: This is your chance to shine! Add opening hours, parking tips, or your famous welcome message 🌟</li>
+                  </ul>
+                </li>
+                <li>Play with the zoom level - too close? Too far? Make it juuust right! 🔍</li>
+                <li>Try the B&W toggle - sometimes Black and White nails it!</li>
+                <li>Hit "Apply Changes" and voilà - you're on the map! 🎉</li>
+              </ol>
+            </div>
+          </div>
+
+        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Fun Map Facts!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Did you know? The first digital map was created in 1967! We've come a long way from paper maps! 🗺️</li>
+            <li>A good map can increase your website visits by helping people find you IRL (In Real Life)! 📈</li>
+            <li>Black and white maps can reduce page load time - sneaky performance boost! ⚡</li>
+            <li>People spend 40% more time on pages with maps - they're just that engaging! ⏰</li>
+          </ul>
+            </div>
+          </div>
+
+        <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Map Best Practices</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Keep your info box short and sweet - nobody's reading a novel on a map! 📝</li>
+            <li>Update your address if you move - obvious, but easy to forget! 🏠</li>
+            <li>Test your map on different devices - it should look great everywhere! 💻</li>
+            <li>Consider your colour scheme - that's why we gave you the B&W (Black and White) option! 🎨</li>
+          </ul>
+            </div>
+          </div>
+      
+          <br />
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">One Last Thing! ☝️</h5>
+          <p class="mt-2">Remember to save your work - because redoing your perfect map setup is no fun! 😅</p>
+          <p class="mt-2">And hey, if you get lost in the settings, just hit refresh and start afresh! 🔄</p>
+        </div>
+    
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Get on the Map? ✨</p>
+            <p class="text-lg mt-2">Go ahead - show the world exactly where to find your awesome business!</p>
+            </div>
+        </div>
+      </div>`,   
+      "quiz": [
+        {
+          "question": "Where can you find maps in the Zylosite website builder?",
+          "options": [
+            "Under the Components section",
+            "In the Settings menu",
+            "Under the Layout section",
+            "In the Theme options"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "How do you access the map editing options?",
+          "options": [
+            "Double click the map",
+            "Click on the cog icon",
+            "Right click the map",
+            "Press the Edit button"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "How many main options are available in the detail editor for maps?",
+          "options": [
+            "Three (Style, Map, and Layout)",
+            "Four (Style, Map, Size, and Position)",
+            "Two (Style and Map)",
+            "One (Map settings)"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which text box is used to input the location?",
+          "options": [
+            "Info box message",
+            "Location details",
+            "Map address",
+            "Your address",
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What type of toggle is available in the map options?",
+          "options": [
+            "Satellite view",
+            "Black and white",
+            "3D view",
+            "Traffic view"
+          ],
+          "correct": 1
+        },
+   
+        {
+          "question": "What should you do after making changes to your map?",
+          "options": [
+            "Click Apply Changes",
+            "Refresh the page",
+            "Save and exit",
+            "Close the editor"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What's recommended to include in the info box message?",
+          "options": [
+            "Full company history",
+            "Employee biographies",
+            "Opening hours and parking tips",
+            "Product catalog"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What benefit can black and white maps provide?",
+          "options": [
+            "Reduced page load time",
+            "Better visibility",
+            "Increased map size",
+            "More accurate directions"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "How do you add a map to your canvas?",
+          "options": [
+            "Copy and paste",
+            "Double click",
+            "Right click and select Add",
+            "Drag and drop"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What should you consider when choosing a zoom level?",
+          "options": [
+            "Global view of the country",
+            "Satellite imagery quality",
+            "Visibility of nearby streets",
+            "Traffic patterns"
+          ],
+          "correct": 2
+        }
+      ]
       }
     ]
   },
