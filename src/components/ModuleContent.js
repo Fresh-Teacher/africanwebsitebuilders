@@ -2654,7 +2654,7 @@ const defaultCourseModules = [
                   <li>They make your content super easy to read (no more walls of text!) ✨</li>
                   <li>Readers can find exactly what they want </li>
                   <li>Supports screen reader accessibility</li>
-                  <li>Search engines go crazy for them (hello, better rankings! 📈)</li>
+                  <li>Search engines go crazy for them (hello, better SEO! 📈)</li>
                   <li>They make everything look neat and organized</li>
                 </ul>
               </div>
@@ -2665,7 +2665,7 @@ const defaultCourseModules = [
       <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Understanding Heading Levels</h5>
         <div class="bg-white/70 p-4 rounded">
-          <p class="mb-4">Let's explore each heading level and its optimal use cases:</p>
+          <p class="mb-4">Let's explore each heading level and its use cases:</p>
           
           <div class="space-y-6">
             <div class="border-l-4 border-blue-300 pl-4">
@@ -2751,10 +2751,11 @@ const defaultCourseModules = [
             <h5 class="font-semibold">Quick Tips to Nail Your Headings! 💡</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>Keep them short and sweet - no novels in your headings! 📚</li>
+                <li>Keep them short and precise - no novels in your headings! 📚</li>
                 <li>Make them fun but clear - we're not writing riddles here! 🎯</li>
                 <li>Stay consistent - pick a style and stick to it! 🎨</li>
                 <li>Check how they look on your phone - tiny screens matter too! 📱</li>
+                <p>Not too long, not too short - make your headings juuust right! Aim for 4-10 words.</p>
               </ul>
             </div>
           </div>
@@ -2763,7 +2764,7 @@ const defaultCourseModules = [
             <h5 class="font-semibold">Oops! Don't Do These Things! 🙈</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>Using multiple H1s (that's like having too many cooks in the kitchen! 👩‍🍳)</li>
+                <li>Using multiple H1s (that's like having too many cooks in the kitchen! And too many cooks...spoil the website! 👩‍🍳)</li>
                 <li>Writing super long headings (save the storytelling for your content! 📖)</li>
                 <li>Forgetting about phones (mobile-first is the way to go! 📱)</li>
               </ul>
@@ -2781,6 +2782,82 @@ const defaultCourseModules = [
         </ul>
       </div>
     </div>
+    <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+    <h5 class="font-semibold">Mind-Blowing Heading Facts! 🤯</h5>
+    <div class="bg-white/70 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-3">
+        <li>
+          <span class="font-semibold">The Counter-Intuitive Numbering:</span> Many newcomers to HTML assume H6 is larger than H1 (I mean, 6 is bigger than 1, right?). But nope! H1 is actually the big boss! This convention comes from document outlining, where "1" represents the main title and subsequent numbers represent increasingly detailed subsections.
+        </li>
+        <li>
+          <span class="font-semibold">Historical Origins:</span> HTML headings were inspired by traditional document processing systems from the 1960s, which used similar hierarchical numbering systems for document organization.
+        </li>
+        <li>
+          <span class="font-semibold">Screen Reader Navigation:</span> Many screen reader users actually jump between headings using keyboard shortcuts to quickly scan content - making proper heading hierarchy even more crucial! How cool is that? 😎
+          </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+    <h5 class="font-semibold">Myth Busters: Heading Edition! 🔍</h5>
+    <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="space-y-4">
+        <div class="border-l-4 border-orange-300 pl-4">
+          <p class="font-semibold">Myth: "More headings = better SEO"</p>
+          <p>Reality: Nah fam! Google is way too smart for that now. Consider quality over quantity! Well-structured, relevant headings are more valuable than many unnecessary ones.</p>
+        </div>
+        
+        <div class="border-l-4 border-orange-300 pl-4">
+          <p class="font-semibold">Myth: "H1s don't matter anymore for SEO"</p>
+          <p>Truth Bomb: As if! H1s remain crucial for both SEO and user experience, helping search engines and users understand your page's main topic.</p>
+        </div>
+        
+        <div class="border-l-4 border-orange-300 pl-4">
+          <p class="font-semibold">Myth: "Headings are just for styling"</p>
+          <p>Truth Bomb: While headings can be styled, their primary purpose is structural organization and accessibility.</p>
+        </div>
+        
+        <div class="border-l-4 border-orange-300 pl-4">
+          <p class="font-semibold">Myth: "You can skip heading levels if they look wrong"</p>
+          <p>Truth Bomb:             <p>Truth Bomb: Oh no no no! That's like skipping stairs on a staircase - someone's gonna trip! 😩 Skipping levels confuses screen readers and breaks the document outline.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+    <h5 class="font-semibold">Pro Tips & Tricks 🎯</h5>
+    <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="space-y-4">
+        <div class="border-l-4 border-indigo-300 pl-4">
+          <p class="font-semibold">The 3-Second Rule</p>
+          <p>A user should be able to understand what your page is about within 3 seconds of looking at your H1. If your bestie can't get what your page is about in 3 seconds, your H1 needs work!</p>
+        </div>
+        
+        <div class="border-l-4 border-indigo-300 pl-4">
+          <p class="font-semibold">The Question Technique</p>
+          <p>Try writing your H2s as questions your users might ask - it often leads to more engaging and relevant section titles!</p>
+        </div>
+        
+        <div class="border-l-4 border-indigo-300 pl-4">
+          <p class="font-semibold">The Outline Test</p>
+          <p>If someone only read your headings, would they get the gist? No? Time for a heading makeover!</p>
+        </div>
+        
+        <div class="border-l-4 border-indigo-300 pl-4">
+          <p class="font-semibold">The Mobile Check</p>
+          <p>Preview your headings on mobile first - if they're too long, they'll wrap awkwardly on smaller screens.</p>
+        </div>
+        
+        <div class="border-l-4 border-indigo-300 pl-4">
+          <p class="font-semibold">The Clarity Challenge</p>
+          <p>Ask someone to read just your headings and explain what they think the content is about. If they're confused, back to the drawing board!</p>
+        </div>
+      </div>
+    </div>
+  </div>
         </div>
       </div>`,   
       "quiz": [
