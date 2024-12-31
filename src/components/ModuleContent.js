@@ -1417,11 +1417,11 @@ const defaultCourseModules = [
   },
   {
     "id": 2,
-    "title": "Editing Basics",
+    "title": "Blocks",
     "units": [
       {
         "id": 1,
-        "title": "Blocks",
+        "title": "Introduction",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Building Awesome Websites with Blocks! 🧱 Let's Get Started! ✨</h2>
         <video className="w-full rounded-lg" controls>
@@ -4186,7 +4186,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 6,
+    "id": 4,
     "title": "Recap and Practice",
     "units": [
       {
@@ -4198,7 +4198,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 7,
+    "id": 5,
     "title": "Countdowns",
     "units": [
       {
@@ -4221,7 +4221,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 8,
+    "id": 6,
     "title": "Optimisation and Branding",
     "units": [
       {
@@ -4239,7 +4239,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 9,
+    "id": 7,
     "title": "AWB Tutor Course - Part 1",
     "units": [
       {
@@ -4251,7 +4251,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 10,
+    "id": 8,
     "title": "AWB Tutor Course - Part 2",
     "units": [
       {
@@ -4263,7 +4263,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 11,
+    "id": 9,
     "title": "Freelancing Readiness",
     "units": [
       {
@@ -4275,7 +4275,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 12,
+    "id": 10,
     "title": "Sales Strategies",
     "units": [
       {
