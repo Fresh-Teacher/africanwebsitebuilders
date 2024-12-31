@@ -5885,17 +5885,206 @@ const defaultCourseModules = [
       {
         "id": 17,
         "title": "Subscribe",
-        "content": "Design effective newsletter subscription forms and sections.",
-        "quiz": [
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Converting Subscribe Forms! 📧</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Turn Visitors into Subscribers! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed subscription form doesn't just collect emails - it starts a relationship and builds your community! 🌟"
+            <footer class="text-sm mt-2">- Email Marketing Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Subscribe Forms! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective subscription forms:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Keep form fields minimal and essential</li>
+                  <li>Clearly communicate the value proposition</li>
+                  <li>Make the CTA button stand out</li>
+                  <li>Include trust indicators and social proof</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Compelling headline:</span> Hook their interest!</li>
+                  <li><span class="font-semibold">Clear benefits:</span> Show subscriber value</li>
+                  <li><span class="font-semibold">Simple form:</span> Remove friction</li>
+                  <li><span class="font-semibold">Strong CTA:</span> Drive action</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use contrasting colors for the CTA button</li>
+                <li>Keep the form above the fold</li>
+                <li>Include mobile-responsive design</li>
+                <li>Add visual hierarchy to guide attention</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Subscription Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Social proof can boost conversions by 50%! 🧠</li>
+                <li>Single-column forms convert 30% better! 📈</li>
+                <li>FOMO increases signups by 35%! ⚡</li>
+                <li>85% prefer two-step opt-in process! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Conversion Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Offer a compelling lead magnet 🎁</li>
+                <li>Add urgency with limited-time offers ⏰</li>
+                <li>Display subscriber counts for social proof 👥</li>
+                <li>Use micro-interactions for engagement ✨</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Asking for too much information upfront</li>
+                <li>Unclear value proposition</li>
+                <li>Poor mobile optimization</li>
+                <li>Weak or generic CTAs</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">A/B test different form layouts and CTAs!</p>
+            <p class="mt-2">Always include a privacy policy link! 🔒</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Grow Your List? 📈</p>
+            <p class="text-lg mt-2">Create subscription forms that convert visitors into loyal subscribers!</p>
+          </div>
+        </div>
+      </div>`,
+              "quiz": [
           {
-            "question": "What makes subscribe forms effective?",
+            "question": "How much can social proof boost subscription conversions?",
             "options": [
-              "Clear value proposition",
-              "Simple form fields",
-              "Success feedback",
-              "All of the above"
+              "20%",
+              "35%",
+              "50%",
+              "65%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage better do single-column forms convert?",
+            "options": [
+              "10%",
+              "20%",
+              "30%",
+              "40%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage of users prefer a two-step opt-in process?",
+            "options": [
+              "65%",
+              "75%",
+              "85%",
+              "95%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "By how much can FOMO increase signup rates?",
+            "options": [
+              "25%",
+              "30%",
+              "35%",
+              "40%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which element should be above the fold?",
+            "options": [
+              "Privacy policy",
+              "Testimonials",
+              "Social media links",
+              "Subscribe form"
             ],
             "correct": 3
+          },
+          {
+            "question": "Which is a common mistake in subscription forms?",
+            "options": [
+              "Including a privacy policy",
+              "Using contrasting colors",
+              "Asking for too much information",
+              "Having a clear CTA"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What should you always test in subscription forms?",
+            "options": [
+              "Logo size",
+              "Form layouts and CTAs",
+              "Background patterns",
+              "Font families"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What increases form engagement?",
+            "options": [
+              "Long forms",
+              "Multiple columns",
+              "Micro-interactions",
+              "Complex animations"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What's most effective for driving subscriptions?",
+            "options": [
+              "Company history",
+              "Lead magnet",
+              "Complex design",
+              "Multiple forms"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What's most important for mobile subscription forms?",
+            "options": [
+              "Animations",
+              "Responsiveness",
+              "Multiple columns",
+              "Video content"
+            ],
+            "correct": 1
           }
         ]
       },
