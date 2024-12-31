@@ -5915,19 +5915,208 @@ const defaultCourseModules = [
       {
         "id": 1,
         "title": "Creating Countdown Timers",
-        "content": "Learn to create and customise countdown timers using Zylosite modules.",
-        "quiz": [
-          {
-            "question": "What is the purpose of a countdown timer?",
-            "options": [
-              "To display current time",
-              "To create urgency",
-              "To improve SEO",
-              "To add animations"
-            ],
-            "correct": 1
-          }
-        ]
+        "content": `<div class="space-y-6">
+    <h2 class="text-2xl font-bold">Create Exciting Countdown Timers! ⏰</h2>
+    
+    <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+      <h3 class="text-2xl font-semibold mb-4 text-center">Add Some Excitement to Your Site! ✨</h3>
+      
+      <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+        "Nothing creates urgency and excitement quite like a countdown timer - it's like giving your website its own heartbeat! ⏱️"
+        <footer class="text-sm mt-2">- Time Management Guru</footer>
+      </blockquote>
+  
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Getting Started with Countdown Timers! 🚀</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="mb-4">Here's how to create your perfect countdown:</p>
+            <ol class="list-decimal pl-4 space-y-2">
+              <li>Choose your timer style from the Components section</li>
+              <li>Set your target date and time</li>
+              <li>Customize the appearance to match your site</li>
+              <li>Add engaging messages for before and after the countdown</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Perfect Use Cases! 🎯</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li><span class="font-semibold">Product launches:</span> Build anticipation!</li>
+              <li><span class="font-semibold">Special offers:</span> Create urgency</li>
+              <li><span class="font-semibold">Event countdowns:</span> Get people excited</li>
+              <li><span class="font-semibold">Coming soon pages:</span> Keep visitors interested</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Customization Options! 🎨</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Choose from different display formats (days/hours/minutes/seconds)</li>
+            <li>Select custom colors and fonts to match your brand</li>
+            <li>Add animations and effects for more impact</li>
+            <li>Set up actions for when the countdown ends</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">🤓 Cool Timer Facts!</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Countdown timers can increase conversion rates by up to 40%! 📈</li>
+            <li>They tap into FOMO (Fear of Missing Out) psychology! 🧠</li>
+            <li>Users spend 3x more time on pages with interactive timers! ⚡</li>
+            <li>The most effective countdown length is usually under 24 hours! ⏰</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">🎯 Best Practices</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Keep time zones in mind - specify them clearly! 🌍</li>
+            <li>Test your timer across different devices 📱</li>
+            <li>Plan what happens when the timer hits zero ⏰</li>
+            <li>Make sure the countdown is clearly visible 👀</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Pro Tips! 💫</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Use contrasting colors to make your timer stand out</li>
+            <li>Add engaging messages that create excitement</li>
+            <li>Consider mobile users - ensure text is readable on small screens</li>
+            <li>Test different placements to find the most effective spot</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+        <h5 class="font-semibold">Important Reminder! ⚡</h5>
+        <p class="mt-2">Always test your countdown timer thoroughly - especially the end-time behavior!</p>
+        <p class="mt-2">Time waits for no one, and neither should your website! 🚀</p>
+      </div>
+
+      <div class="mt-6 text-center">
+        <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Add Some Excitement? ⏰</p>
+        <p class="text-lg mt-2">Let's get counting down to something amazing!</p>
+      </div>
+    </div>
+  </div>`,
+  "quiz": [
+    {
+      "question": "What psychological principle do countdown timers tap into?",
+      "options": [
+        "FOMO (Fear of Missing Out)",
+        "Decision Paralysis",
+        "Cognitive Dissonance",
+        "Social Proof"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "By how much can countdown timers increase conversion rates?",
+      "options": [
+        "Up to 20%",
+        "Up to 30%",
+        "Up to 40%",
+        "Up to 50%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What's the most effective countdown length for engagement?",
+      "options": [
+        "Under 12 hours",
+        "Under 24 hours",
+        "Under 48 hours",
+        "Under 72 hours"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What's an important factor to consider when setting up a countdown timer?",
+      "options": [
+        "Background music",
+        "Time zones",
+        "Social media links",
+        "Video content"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How much longer do users spend on pages with interactive timers?",
+      "options": [
+        "1.5x more time",
+        "2x more time",
+        "3x more time",
+        "4x more time"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which is NOT a common use case for countdown timers?",
+      "options": [
+        "Product launches",
+        "Blog posts",
+        "Special offers",
+        "Event countdowns"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What should you plan carefully when setting up a countdown?",
+      "options": [
+        "End-time behavior",
+        "Background color",
+        "Font family",
+        "Border style"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which display format is typically included in countdown timers?",
+      "options": [
+        "Weeks",
+        "Decades",
+        "Seconds",
+        "Months"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What's most important to test about a countdown timer?",
+      "options": [
+        "Animation speed",
+        "Cross-device compatibility",
+        "Color schemes",
+        "Font sizes"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which element should be clearly specified with countdown timers?",
+      "options": [
+        "Social links",
+        "Company logo",
+        "Time zone",
+        "Page title"
+      ],
+      "correct": 2
+    }
+  ]
       }
     ]
   },
