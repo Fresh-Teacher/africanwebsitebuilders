@@ -1421,7 +1421,7 @@ const defaultCourseModules = [
     "units": [
       {
         "id": 1,
-        "title": "Introduction",
+        "title": "Dashboard",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Building Awesome Websites with Blocks! 🧱 Let's Get Started! ✨</h2>
         <video className="w-full rounded-lg" controls>
@@ -4161,9 +4161,371 @@ const defaultCourseModules = [
       }
     ]
   },
- 
   {
-    "id": 3,
+    "id": 4,
+    "title": "Components",
+    "units": [
+      {
+        "id": 1,
+        "title": "Call to action",
+        "content": "Learn how to create effective call-to-action buttons and sections that drive user engagement and conversions.",
+        "quiz": [
+          {
+            "question": "What is the primary purpose of a call-to-action?",
+            "options": [
+              "To look attractive",
+              "To prompt user action",
+              "To fill empty space",
+              "To add color"
+            ],
+            "correct": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Contact",
+        "content": "Master the art of creating user-friendly contact forms and sections that encourage communication.",
+        "quiz": [
+          {
+            "question": "Which field is typically required in a contact form?",
+            "options": [
+              "Phone number",
+              "Email address",
+              "Company name",
+              "Website URL"
+            ],
+            "correct": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Content",
+        "content": "Understand how to structure and present content effectively using various layout techniques.",
+        "quiz": [
+          {
+            "question": "What is the recommended maximum width for readable content?",
+            "options": [
+              "400px",
+              "600px",
+              "800px",
+              "1000px"
+            ],
+            "correct": 2
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Countdown timers",
+        "content": "Learn to implement dynamic countdown timers for events, launches, and promotions.",
+        "quiz": [
+          {
+            "question": "What is a common use for countdown timers?",
+            "options": [
+              "Product launches",
+              "Limited time offers",
+              "Event countdowns",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Dividers",
+        "content": "Explore various types of dividers to separate content sections effectively.",
+        "quiz": [
+          {
+            "question": "What is the HTML element commonly used for dividers?",
+            "options": [
+              "<div>",
+              "<hr>",
+              "<br>",
+              "<span>"
+            ],
+            "correct": 1
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Embed",
+        "content": "Master the techniques for embedding external content like videos, maps, and social media feeds.",
+        "quiz": [
+          {
+            "question": "Which HTML tag is used for embedding videos?",
+            "options": [
+              "<video>",
+              "<iframe>",
+              "<embed>",
+              "Any of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Features",
+        "content": "Learn to showcase product or service features effectively using various layout patterns.",
+        "quiz": [
+          {
+            "question": "What makes feature sections effective?",
+            "options": [
+              "Clear icons",
+              "Concise descriptions",
+              "Relevant benefits",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Footers",
+        "content": "Design functional footers that provide navigation and important site information.",
+        "quiz": [
+          {
+            "question": "What should always be included in a footer?",
+            "options": [
+              "Social media links",
+              "Contact information",
+              "Copyright notice",
+              "Newsletter signup"
+            ],
+            "correct": 2
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Gallery",
+        "content": "Create responsive image galleries with various layout options and interactions.",
+        "quiz": [
+          {
+            "question": "What is important for gallery performance?",
+            "options": [
+              "Image optimization",
+              "Lazy loading",
+              "Proper sizing",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Headers",
+        "content": "Design effective headers that provide navigation and establish brand identity.",
+        "quiz": [
+          {
+            "question": "What is a key component of a header?",
+            "options": [
+              "Logo",
+              "Navigation menu",
+              "Search bar",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Maps",
+        "content": "Implement interactive maps for locations and geographic data visualization.",
+        "quiz": [
+          {
+            "question": "Which API is commonly used for maps?",
+            "options": [
+              "Google Maps",
+              "OpenStreetMap",
+              "Mapbox",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Navigation bars",
+        "content": "Create responsive navigation systems that enhance user experience.",
+        "quiz": [
+          {
+            "question": "What is important for mobile navigation?",
+            "options": [
+              "Hamburger menu",
+              "Touch targets",
+              "Simplified structure",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Pricing",
+        "content": "Design clear pricing tables that effectively communicate value propositions.",
+        "quiz": [
+          {
+            "question": "What should pricing tables include?",
+            "options": [
+              "Price",
+              "Features",
+              "CTA button",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Processes",
+        "content": "Learn to visualize steps, workflows, and processes effectively.",
+        "quiz": [
+          {
+            "question": "What makes process visualization effective?",
+            "options": [
+              "Clear steps",
+              "Visual hierarchy",
+              "Progress indicators",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Signup",
+        "content": "Create user-friendly signup forms with proper validation and feedback.",
+        "quiz": [
+          {
+            "question": "What is essential for signup forms?",
+            "options": [
+              "Error handling",
+              "Password requirements",
+              "Clear instructions",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Slideshows",
+        "content": "Implement engaging slideshows and carousels for content presentation.",
+        "quiz": [
+          {
+            "question": "What controls should slideshows include?",
+            "options": [
+              "Next/Previous",
+              "Pause/Play",
+              "Navigation dots",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "title": "Subscribe",
+        "content": "Design effective newsletter subscription forms and sections.",
+        "quiz": [
+          {
+            "question": "What makes subscribe forms effective?",
+            "options": [
+              "Clear value proposition",
+              "Simple form fields",
+              "Success feedback",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "title": "Team",
+        "content": "Create engaging team member showcases and organizational structures.",
+        "quiz": [
+          {
+            "question": "What should team sections include?",
+            "options": [
+              "Photos",
+              "Names and roles",
+              "Contact info",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "title": "Testimonials",
+        "content": "Display customer testimonials and reviews effectively.",
+        "quiz": [
+          {
+            "question": "What makes testimonials credible?",
+            "options": [
+              "Full names",
+              "Photos",
+              "Company names",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "title": "Titles",
+        "content": "Learn to create impactful page titles and section headings.",
+        "quiz": [
+          {
+            "question": "What makes a good title?",
+            "options": [
+              "Clarity",
+              "Relevance",
+              "Proper hierarchy",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "title": "Popups",
+        "content": "Implement user-friendly modal windows and popup notifications.",
+        "quiz": [
+          {
+            "question": "What is important for popup UX?",
+            "options": [
+              "Easy dismissal",
+              "Clear purpose",
+              "Timing",
+              "All of the above"
+            ],
+            "correct": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
     "title": "Rebuild & Speed Test",
     "units": [
       {
@@ -4186,7 +4548,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Recap and Practice",
     "units": [
       {
@@ -4198,7 +4560,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Countdowns",
     "units": [
       {
@@ -4221,7 +4583,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Optimisation and Branding",
     "units": [
       {
@@ -4239,7 +4601,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "AWB Tutor Course - Part 1",
     "units": [
       {
@@ -4251,7 +4613,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "AWB Tutor Course - Part 2",
     "units": [
       {
@@ -4263,7 +4625,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Freelancing Readiness",
     "units": [
       {
@@ -4275,7 +4637,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Sales Strategies",
     "units": [
       {
