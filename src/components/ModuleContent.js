@@ -5171,19 +5171,208 @@ const defaultCourseModules = [
       {
         "id": 9,
         "title": "Gallery",
-        "content": "Create responsive image galleries with various layout options and interactions.",
-        "quiz": [
-          {
-            "question": "What is important for gallery performance?",
-            "options": [
-              "Image optimization",
-              "Lazy loading",
-              "Proper sizing",
-              "All of the above"
-            ],
-            "correct": 3
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Stunning Image Galleries! 🖼️</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Design Galleries That Captivate & Convert! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed gallery doesn't just display images - it tells a story and creates an immersive visual experience that keeps visitors engaged! 📸"
+            <footer class="text-sm mt-2">- Gallery Design Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Galleries! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective galleries:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Choose the right layout pattern</li>
+                  <li>Optimize image loading speed</li>
+                  <li>Implement smooth transitions</li>
+                  <li>Add intuitive navigation</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Image optimization:</span> Fast loading!</li>
+                  <li><span class="font-semibold">Lightbox feature:</span> Enhanced viewing</li>
+                  <li><span class="font-semibold">Filtering options:</span> Easy discovery</li>
+                  <li><span class="font-semibold">Responsive design:</span> All devices</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Maintain consistent image ratios</li>
+                <li>Implement lazy loading</li>
+                <li>Use thumbnails effectively</li>
+                <li>Add hover effects and animations</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Gallery Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Visual content increases engagement by 70%! 👀</li>
+                <li>Grid layouts improve recall by 45%! 📊</li>
+                <li>Lightbox views increase by 55% on mobile! 📱</li>
+                <li>Filtered galleries boost interaction by 38%! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Performance Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Compress images without quality loss 🖼️</li>
+                <li>Use WebP format when possible 🚀</li>
+                <li>Implement infinite scroll for large galleries ♾️</li>
+                <li>Cache gallery assets effectively 💨</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Unoptimized image sizes</li>
+                <li>Missing alt text for accessibility</li>
+                <li>Poor mobile experience</li>
+                <li>No filtering or sorting options</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">Track user interactions to optimize layout!</p>
+            <p class="mt-2">Use dynamic loading for better performance! ⚡</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Images? 🎨</p>
+            <p class="text-lg mt-2">Create galleries that engage visitors and showcase your content perfectly!</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "By how much does visual content increase engagement?",
+          "options": [
+            "50%",
+            "60%",
+            "70%",
+            "80%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much do grid layouts improve content recall?",
+          "options": [
+            "35%",
+            "40%",
+            "45%",
+            "50%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's the increase in lightbox views on mobile?",
+          "options": [
+            "45%",
+            "50%",
+            "55%",
+            "60%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much do filtered galleries boost interaction?",
+          "options": [
+            "28%",
+            "33%",
+            "38%",
+            "43%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which image format is recommended for modern galleries?",
+          "options": [
+            "PNG",
+            "JPEG",
+            "WebP",
+            "GIF"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's a common gallery mistake?",
+          "options": [
+            "Using lazy loading",
+            "Adding alt text",
+            "Unoptimized images",
+            "Having filters"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What improves gallery performance most?",
+          "options": [
+            "More animations",
+            "Lazy loading",
+            "Larger images",
+            "Auto-play"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's essential for large galleries?",
+          "options": [
+            "Auto-play",
+            "Music",
+            "Infinite scroll",
+            "Slideshow"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What should always be included with images?",
+          "options": [
+            "Alt text",
+            "Borders",
+            "Shadows",
+            "Animation"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which loading technique is best for galleries?",
+          "options": [
+            "Load all at once",
+            "Dynamic loading",
+            "Manual loading",
+            "Random loading"
+          ],
+          "correct": 1
+        }
+      ]
       },
       {
         "id": 10,
