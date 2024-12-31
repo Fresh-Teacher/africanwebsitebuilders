@@ -9,37 +9,37 @@ import { ChevronLeft, ChevronRight, Monitor, Type, Layout, Image, Repeat, Lightb
 const badges = {
   1: {
     name: "Website Pioneer",
-     description: "Introduction to Zylosite, Website Tour & Practice",
+    description: "Introduction to Zylosite, Website Tour & Practice",
     icon: <Monitor className="w-8 h-8 md:w-12 md:h-12 text-blue-500" />,
     color: "bg-blue-100 dark:bg-blue-900/30"
   },
   2: {
     name: "Content Crafter",
-     description: "Text, Button & Block Editing, Add Video",
+    description: "Text, Button & Block Editing, Add Video",
     icon: <Type className="w-8 h-8 md:w-12 md:h-12 text-purple-500" />,
     color: "bg-purple-100 dark:bg-purple-900/30"
   },
   3: {
     name: "Layout Whiz",
-     description: "Cogs, Grids, Components, Pages & Pop-Ups",
+    description: "Cogs, Grids, Components, Pages & Pop-Ups",
     icon: <Layout className="w-8 h-8 md:w-12 md:h-12 text-green-500" />,
     color: "bg-green-100 dark:bg-green-900/30"
   },
   4: {
     name: "Design Guru",
-     description: "Parallax, Padding, Slide Show, Forms",
+    description: "Parallax, Padding, Slide Show, Forms",
     icon: <Image className="w-8 h-8 md:w-12 md:h-12 text-yellow-500" />,
     color: "bg-yellow-100 dark:bg-yellow-900/30"
   },
   5: {
     name: "Site Builder Pro",
-     description: "Re-Create Site from Scratch",
+    description: "Re-Create Site from Scratch",
     icon: <Repeat className="w-8 h-8 md:w-12 md:h-12 text-red-500" />,
     color: "bg-red-100 dark:bg-red-900/30"
   },
   6: {
     name: "AI Master",
-     description: "Chat GPT and Speed Test",
+    description: "Chat GPT and Speed Test",
     icon: <Brain className="w-8 h-8 md:w-12 md:h-12 text-indigo-500" />,
     color: "bg-indigo-100 dark:bg-indigo-900/30"
   },
@@ -51,13 +51,13 @@ const badges = {
   },
   8: {
     name: "Time Tamer",
-     description: "Creating Countdowns with Zylo Modules",
+    description: "Creating Countdowns with Zylo Modules",
     icon: <Clock className="w-8 h-8 md:w-12 md:h-12 text-orange-500" />,
     color: "bg-orange-100 dark:bg-orange-900/30"
   },
   9: {
     name: "Meta Master",
-     description: "Website SEO, Favicons & Social Media",
+    description: "Website SEO, Favicons & Social Media",
     icon: <Search className="w-8 h-8 md:w-12 md:h-12 text-teal-500" />,
     color: "bg-teal-100 dark:bg-teal-900/30"
   },
@@ -69,13 +69,13 @@ const badges = {
   },
   11: {
     name: "Enterprise Explorer",
-     description: "Become Freelance Ready",
+    description: "Become Freelance Ready",
     icon: <Users className="w-8 h-8 md:w-12 md:h-12 text-emerald-500" />,
     color: "bg-emerald-100 dark:bg-emerald-900/30"
   },
   12: {
     name: "Trade Tycoon",
-     description: "Sales Online and Local",
+    description: "Sales Online and Local",
     icon: <ShoppingCart className="w-8 h-8 md:w-12 md:h-12 text-violet-500" />,
     color: "bg-violet-100 dark:bg-violet-900/30"
   }
@@ -151,7 +151,7 @@ const BadgeDisplay = ({ earnedBadges }) => {
                             </div>
                             <h4 className="font-bold text-sm text-white">{badge.name}</h4>
                             <span className="text-xs font-medium px-3 py-1 rounded-full bg-green-400/20 text-green-300 backdrop-blur-sm border border-green-400/30">
-                            EARNED ✪
+                              EARNED ✪
                             </span>
                           </div>
                           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-br from-blue-900/90 to-purple-900/90 flex items-center justify-center p-4 backdrop-blur-sm">
@@ -536,7 +536,7 @@ const defaultCourseModules = [
               "£8 (UGX 38,400)"
             ],
             "correct": 3
-          },          
+          },
           {
             question: "How often are payments made for active websites maintained through AWB?",
             options: [
@@ -704,109 +704,109 @@ const defaultCourseModules = [
   </div>
         </div>
       </div>`,
-      "quiz": [
-        {
-          "question": "What is the primary mission of African Website Builders?",
-          "options": [
-            "To teach advanced programming",
-            "To provide opportunities for low-income Africans to earn sustainable income",
-            "To build websites for free",
-            "To sell web hosting services"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Who are the co-founders of African Website Builders?",
-          "options": [
-            "Fresh Teacher",
-            "Mr. Angel & Mr. Zion",
-            "Ms. Grace & Mr. Angel",
-            "Mr. Zion & Dr. Smith"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "How much monthly income can you earn per active website?",
-          "options": [
-            "£5 (UGX 24,000)",
-            "£7 (UGX 33,600)",
-            "£10 (UGX 48,000)",
-            "£15 (UGX 72,000)"
-          ],
-          "correct": 1
-        }
-        ,
-        {
-          "question": "What is the target number of websites recommended to build?",
-          "options": [
-            "10 websites",
-            "15 websites",
-            "20 websites",
-            "25 websites"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What is the potential yearly earnings from 20 active websites?",
-          "options": [
-            "£1,200 (UGX 5,760,000)",
-            "£1,480 (UGX 7,104,000)",
-            "£1,680 (UGX 8,064,000)",
-            "£2,000 (UGX 9,600,000)"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What makes Zylosite accessible to beginners?",
-          "options": [
-            "It requires coding knowledge",
-            "It needs programming experience",
-            "It has a drag-and-drop interface",
-            "It requires web design certification"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What comprehensive support package does AWB provide?",
-          "options": [
-            "Only technical support",
-            "Just website templates",
-            "Expert training, certification, job market access, and business team support",
-            "Only client connections"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How does the AWB website builder earn you recurring income?",
-          "options": [
-            "Through one-time website sales",
-            "From monthly hosting fees",
-            "By selling domains",
-            "Through advertising revenue"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which tool will you use to create and manage your website?",
-          "options": [
-            "WordPress",
-            "GoDaddy",
-            "Wix",
-            "Zylosite"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What ongoing work is required to maintain the passive income?",
-          "options": [
-            "Complete website rebuilds",
-            "Daily content updates",
-            "Simple maintenance and updates",
-            "Weekly client meetings"
-          ],
-          "correct": 2
-        }
-      ]
+        "quiz": [
+          {
+            "question": "What is the primary mission of African Website Builders?",
+            "options": [
+              "To teach advanced programming",
+              "To provide opportunities for low-income Africans to earn sustainable income",
+              "To build websites for free",
+              "To sell web hosting services"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Who are the co-founders of African Website Builders?",
+            "options": [
+              "Fresh Teacher",
+              "Mr. Angel & Mr. Zion",
+              "Ms. Grace & Mr. Angel",
+              "Mr. Zion & Dr. Smith"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How much monthly income can you earn per active website?",
+            "options": [
+              "£5 (UGX 24,000)",
+              "£7 (UGX 33,600)",
+              "£10 (UGX 48,000)",
+              "£15 (UGX 72,000)"
+            ],
+            "correct": 1
+          }
+          ,
+          {
+            "question": "What is the target number of websites recommended to build?",
+            "options": [
+              "10 websites",
+              "15 websites",
+              "20 websites",
+              "25 websites"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is the potential yearly earnings from 20 active websites?",
+            "options": [
+              "£1,200 (UGX 5,760,000)",
+              "£1,480 (UGX 7,104,000)",
+              "£1,680 (UGX 8,064,000)",
+              "£2,000 (UGX 9,600,000)"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What makes Zylosite accessible to beginners?",
+            "options": [
+              "It requires coding knowledge",
+              "It needs programming experience",
+              "It has a drag-and-drop interface",
+              "It requires web design certification"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What comprehensive support package does AWB provide?",
+            "options": [
+              "Only technical support",
+              "Just website templates",
+              "Expert training, certification, job market access, and business team support",
+              "Only client connections"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "How does the AWB website builder earn you recurring income?",
+            "options": [
+              "Through one-time website sales",
+              "From monthly hosting fees",
+              "By selling domains",
+              "Through advertising revenue"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which tool will you use to create and manage your website?",
+            "options": [
+              "WordPress",
+              "GoDaddy",
+              "Wix",
+              "Zylosite"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What ongoing work is required to maintain the passive income?",
+            "options": [
+              "Complete website rebuilds",
+              "Daily content updates",
+              "Simple maintenance and updates",
+              "Weekly client meetings"
+            ],
+            "correct": 2
+          }
+        ]
       },
       {
         id: 3,
@@ -1035,108 +1035,108 @@ const defaultCourseModules = [
         </div>
       </div>
     </div>`,
-      "quiz": [
-        {
-          "question": "What is the first step to create a new account on African Website Builders?",
-          "options": [
-            "Click 'Member Area'",
-            "Visit africanwebsitebuilders.com",
-            "Check your email",
-            "Fill out your password"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which button do you click to begin the sign-up process?",
-          "options": [
-            "LOGIN",
-            "MEMBER AREA",
-            "GET STARTED",
-            "CREATE ACCOUNT"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What security feature must you complete during both sign-up and sign-in?",
-          "options": [
-            "Enter your phone number",
-            "Upload a profile picture",
-            "Check the Cloudflare security box",
-            "Answer security questions"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
-          "options": [
-            "A confirmation page",
-            "A login form",
-            "A form to fill in your details",
-            "The account dashboard"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What does the email from AWB support include?",
-          "options": [
-            "A discount code",
-            "A verification link",
-            "An account creation tutorial",
-            "Your login credentials"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should you do after submitting your sign-up form?",
-          "options": [
-            "Start building immediately",
-            "Call support",
-            "Check your email for verification",
-            "Create a password"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What helpful feature can save time during future sign-ins?",
-          "options": [
-            "Remember me checkbox",
-            "Face recognition",
-            "Fingerprint scanning",
-            "Auto-login"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What is the purpose of the Cloudflare security checkbox?",
-          "options": [
-            "To save your login details",
-            "To verify you are not a robot",
-            "To activate two-factor authentication",
-            "To encrypt your password"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which button do returning users click to access their account?",
-          "options": [
-            "GET STARTED",
-            "MEMBER AREA",
-            "SIGN UP",
-            "CREATE ACCOUNT"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What is the name of the website builder you access after a successful sign in?",
-          "options": [
-            "SiteCraft",
-            "ZyloSite",
-            "WebMaker",
-            "BuildFast"
-          ],
-          "correct": 1
-        }
-      ]
+        "quiz": [
+          {
+            "question": "What is the first step to create a new account on African Website Builders?",
+            "options": [
+              "Click 'Member Area'",
+              "Visit africanwebsitebuilders.com",
+              "Check your email",
+              "Fill out your password"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which button do you click to begin the sign-up process?",
+            "options": [
+              "LOGIN",
+              "MEMBER AREA",
+              "GET STARTED",
+              "CREATE ACCOUNT"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What security feature must you complete during both sign-up and sign-in?",
+            "options": [
+              "Enter your phone number",
+              "Upload a profile picture",
+              "Check the Cloudflare security box",
+              "Answer security questions"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
+            "options": [
+              "A confirmation page",
+              "A login form",
+              "A form to fill in your details",
+              "The account dashboard"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What does the email from AWB support include?",
+            "options": [
+              "A discount code",
+              "A verification link",
+              "An account creation tutorial",
+              "Your login credentials"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should you do after submitting your sign-up form?",
+            "options": [
+              "Start building immediately",
+              "Call support",
+              "Check your email for verification",
+              "Create a password"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What helpful feature can save time during future sign-ins?",
+            "options": [
+              "Remember me checkbox",
+              "Face recognition",
+              "Fingerprint scanning",
+              "Auto-login"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is the purpose of the Cloudflare security checkbox?",
+            "options": [
+              "To save your login details",
+              "To verify you are not a robot",
+              "To activate two-factor authentication",
+              "To encrypt your password"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which button do returning users click to access their account?",
+            "options": [
+              "GET STARTED",
+              "MEMBER AREA",
+              "SIGN UP",
+              "CREATE ACCOUNT"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is the name of the website builder you access after a successful sign in?",
+            "options": [
+              "SiteCraft",
+              "ZyloSite",
+              "WebMaker",
+              "BuildFast"
+            ],
+            "correct": 1
+          }
+        ]
       },
       {
         id: 4,
@@ -1315,103 +1315,103 @@ const defaultCourseModules = [
           </div>
         </div>
       </div>`,
-      quiz: [
-        {
-          question: "Can two websites have the same domain name?",
-          options: [
-            "Yes, if they pay extra",
-            "Yes, if they're in different countries",
-            "No, domain names must be unique",
-            "Yes, if they're small websites"
-          ],
-          correct: 2
-        },
-        {
-          question: "What is the relationship between websites and hosting?",
-          options: [
-            "Websites don't need hosting",
-            "Websites need space on the internet called hosting",
-            "Hosting is only for large websites",
-            "Hosting is only for storing domain names"
-          ],
-          correct: 1
-        },
-        {
-          question: "What does hosting store?",
-          options: [
-            "Only text files",
-            "Only images",
-            "Media files like photos, videos, audio and documents",
-            "Only website addresses"
-          ],
-          correct: 2
-        },
-        {
-          question: "How much can you earn monthly from hosting one website?",
-          options: [
-            "5 pounds",
-            "7 pounds",
-            "10 pounds",
-            "20 pounds"
-          ],
-          correct: 1
-        },
-        {
-          question: "What is your target number of websites to build?",
-          options: [
-            "10 websites",
-            "15 websites",
-            "20 websites",
-            "25 websites"
-          ],
-          correct: 2
-        },
-        {
-          question: "What makes Zylosite easy to use for creating websites?",
-          options: [
-            "It has pre-made templates to customize",
-            "It's completely free",
-            "It works offline",
-            "It automatically builds websites"
-          ],
-          correct: 0
-        },
-        {
-          question: "What method does Zylosite use for building websites?",
-          options: [
-            "Coding only",
-            "Drag and drop blocks",
-            "Voice commands",
-            "Automatic generation"
-          ],
-          correct: 1
-        },
-        {
-          question: "How do website owners contribute to your earnings?",
-          options: [
-            "They pay domain fees",
-            "They pay hosting fees",
-            "They pay template fees",
-            "They pay design fees"
-          ],
-          correct: 1
-        },
-        {
-          question: "What's the main benefit of using Zylosite's block system?",
-          options: [
-            "It's free",
-            "It makes website creation easier",
-            "It provides hosting",
-            "It manages domain names"
-          ],
-          correct: 1
-        },
-        {
-          question: "What is the official website of AWB?",
-          options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
-          correct: 0
-        }
-      ]
+        quiz: [
+          {
+            question: "Can two websites have the same domain name?",
+            options: [
+              "Yes, if they pay extra",
+              "Yes, if they're in different countries",
+              "No, domain names must be unique",
+              "Yes, if they're small websites"
+            ],
+            correct: 2
+          },
+          {
+            question: "What is the relationship between websites and hosting?",
+            options: [
+              "Websites don't need hosting",
+              "Websites need space on the internet called hosting",
+              "Hosting is only for large websites",
+              "Hosting is only for storing domain names"
+            ],
+            correct: 1
+          },
+          {
+            question: "What does hosting store?",
+            options: [
+              "Only text files",
+              "Only images",
+              "Media files like photos, videos, audio and documents",
+              "Only website addresses"
+            ],
+            correct: 2
+          },
+          {
+            question: "How much can you earn monthly from hosting one website?",
+            options: [
+              "5 pounds",
+              "7 pounds",
+              "10 pounds",
+              "20 pounds"
+            ],
+            correct: 1
+          },
+          {
+            question: "What is your target number of websites to build?",
+            options: [
+              "10 websites",
+              "15 websites",
+              "20 websites",
+              "25 websites"
+            ],
+            correct: 2
+          },
+          {
+            question: "What makes Zylosite easy to use for creating websites?",
+            options: [
+              "It has pre-made templates to customize",
+              "It's completely free",
+              "It works offline",
+              "It automatically builds websites"
+            ],
+            correct: 0
+          },
+          {
+            question: "What method does Zylosite use for building websites?",
+            options: [
+              "Coding only",
+              "Drag and drop blocks",
+              "Voice commands",
+              "Automatic generation"
+            ],
+            correct: 1
+          },
+          {
+            question: "How do website owners contribute to your earnings?",
+            options: [
+              "They pay domain fees",
+              "They pay hosting fees",
+              "They pay template fees",
+              "They pay design fees"
+            ],
+            correct: 1
+          },
+          {
+            question: "What's the main benefit of using Zylosite's block system?",
+            options: [
+              "It's free",
+              "It makes website creation easier",
+              "It provides hosting",
+              "It manages domain names"
+            ],
+            correct: 1
+          },
+          {
+            question: "What is the official website of AWB?",
+            options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
+            correct: 0
+          }
+        ]
       }
     ]
   },
@@ -1576,113 +1576,113 @@ const defaultCourseModules = [
             </div>
         </div>
       </div>`,
-      "quiz": [
-        {
-          "question": "Which of these block types would you use to showcase client feedback?",
-          "options": [
-            "Process Blocks",
-            "Testimonials",
-            "Gallery Displays",
-            "Subscribe Forms"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which feature allows you to see how your website will look before publishing?",
-          "options": [
-            "Preview",
-            "Components",
-            "Blocks menu",
-            "Pages section"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What type of block would you use to show the steps in a business process?",
-          "options": [
-            "Gallery Displays",
-            "Testimonials",
-            "Processes",
-            "Dividers"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which block type would you use to create a newsletter signup?",
-          "options": [
-            "Gallery Displays",
-            "Subscribe Forms",
-            "Dividers",
-            "Processes"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's the recommended way to access Zylosite on a mobile phone?",
-          "options": [
-            "Download a special app",
-            "Use browser tools to change to Desktop mode",
-            "Create a mobile-only account",
-            "Use a different platform"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which block type would you use to showcase your team members?",
-          "options": [
-            "Process Blocks",
-            "Pricing Tables",
-            "Team Sections",
-            "Subscribe Forms"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "When would you use a Call to Action block?",
-          "options": [
-            "Only in the footer",
-            "For displaying team members",
-            "To encourage user engagement or response",
-            "To show pricing information"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What is the primary purpose of Divider blocks?",
-          "options": [
-            "To create visual separation between sections",
-            "To display pricing information",
-            "To showcase team members",
-            "To collect email addresses"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "Which block would you use to display a collection of images in an organized way?",
-          "options": [
-            "Subscribe Forms",
-            "Gallery Displays",
-            "Dividers",
-            "Process Blocks"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which block type would you use for a limited-time offer?",
-          "options": [
-            "Countdown Timers",
-            "Process Blocks",
-            "Gallery Displays",
-            "Dividers"
-          ],
-          "correct": 0
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Adding Buttons",
-      "content": ` <div class="space-y-6">
+        "quiz": [
+          {
+            "question": "Which of these block types would you use to showcase client feedback?",
+            "options": [
+              "Process Blocks",
+              "Testimonials",
+              "Gallery Displays",
+              "Subscribe Forms"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which feature allows you to see how your website will look before publishing?",
+            "options": [
+              "Preview",
+              "Components",
+              "Blocks menu",
+              "Pages section"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What type of block would you use to show the steps in a business process?",
+            "options": [
+              "Gallery Displays",
+              "Testimonials",
+              "Processes",
+              "Dividers"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which block type would you use to create a newsletter signup?",
+            "options": [
+              "Gallery Displays",
+              "Subscribe Forms",
+              "Dividers",
+              "Processes"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What's the recommended way to access Zylosite on a mobile phone?",
+            "options": [
+              "Download a special app",
+              "Use browser tools to change to Desktop mode",
+              "Create a mobile-only account",
+              "Use a different platform"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which block type would you use to showcase your team members?",
+            "options": [
+              "Process Blocks",
+              "Pricing Tables",
+              "Team Sections",
+              "Subscribe Forms"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "When would you use a Call to Action block?",
+            "options": [
+              "Only in the footer",
+              "For displaying team members",
+              "To encourage user engagement or response",
+              "To show pricing information"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is the primary purpose of Divider blocks?",
+            "options": [
+              "To create visual separation between sections",
+              "To display pricing information",
+              "To showcase team members",
+              "To collect email addresses"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which block would you use to display a collection of images in an organized way?",
+            "options": [
+              "Subscribe Forms",
+              "Gallery Displays",
+              "Dividers",
+              "Process Blocks"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which block type would you use for a limited-time offer?",
+            "options": [
+              "Countdown Timers",
+              "Process Blocks",
+              "Gallery Displays",
+              "Dividers"
+            ],
+            "correct": 0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Adding Buttons",
+        "content": ` <div class="space-y-6">
       <h2 class="text-2xl font-bold">Mastering Buttons in Zylosite! 🔲 Time to Click Away! 🖱️      </h2> <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
       <video className="w-full rounded-lg" controls>
       <source src="https://awb-silk.vercel.app/Buttons(0).mp4" type="video/mp4" />
@@ -1817,113 +1817,113 @@ const defaultCourseModules = [
       <p class="text-lg mt-2">Start adding components to make your website come alive! Remember to save your changes! 💪</p>
     </div>
   </div>`,
-  "quiz": [
-    {
-      "question": "How many component types are listed in Zylosite?",
-      "options": [
-        "5 components",
-        "8 components",
-        "10 components",
-        "12 components"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which component would you use to integrate third-party widgets?",
-      "options": [
-        "Media",
-        "Embeds",
-        "Icons",
-        "Navigation"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What icon represents the settings in button options?",
-      "options": [
-        "Wheel icon",
-        "COG icon",
-        "Settings icon",
-        "Wrench icon"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "After clicking on a button, which option allows you to duplicate it?",
-      "options": [
-        "COG icon",
-        "Clone option",
-        "Trash icon",
-        "Link option"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the Map component used for?",
-      "options": [
-        "Creating sitemaps",
-        "Showing locations",
-        "Drawing diagrams",
-        "Making flowcharts"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which component is used for creating organized layouts?",
-      "options": [
-        "Lists",
-        "Media",
-        "Grids",
-        "Icons"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What MUST you do before leaving the Zylosite editor?",
-      "options": [
-        "Log out",
-        "Save changes",
-        "Clear cache",
-        "Close browser"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What option in Link settings allows content to open in a different window?",
-      "options": [
-        "New window",
-        "Open link in new tab",
-        "Different window",
-        "External link"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which component type is used for adding images and videos?",
-      "options": [
-        "Icons",
-        "Embeds",
-        "Media",
-        "Lists"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What should you do after making any modifications to buttons?",
-      "options": [
-        "Refresh the page",
-        "Log out",
-        "Apply changes",
-        "Clear cache"
-      ],
-      "correct": 2
-    }
-  ]
-    },
-    {
-      "id": 3,
-      "title": "Working with Text",
-      "content": `<div class="space-y-6">
+        "quiz": [
+          {
+            "question": "How many component types are listed in Zylosite?",
+            "options": [
+              "5 components",
+              "8 components",
+              "10 components",
+              "12 components"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which component would you use to integrate third-party widgets?",
+            "options": [
+              "Media",
+              "Embeds",
+              "Icons",
+              "Navigation"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What icon represents the settings in button options?",
+            "options": [
+              "Wheel icon",
+              "COG icon",
+              "Settings icon",
+              "Wrench icon"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "After clicking on a button, which option allows you to duplicate it?",
+            "options": [
+              "COG icon",
+              "Clone option",
+              "Trash icon",
+              "Link option"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is the Map component used for?",
+            "options": [
+              "Creating sitemaps",
+              "Showing locations",
+              "Drawing diagrams",
+              "Making flowcharts"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which component is used for creating organized layouts?",
+            "options": [
+              "Lists",
+              "Media",
+              "Grids",
+              "Icons"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What MUST you do before leaving the Zylosite editor?",
+            "options": [
+              "Log out",
+              "Save changes",
+              "Clear cache",
+              "Close browser"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What option in Link settings allows content to open in a different window?",
+            "options": [
+              "New window",
+              "Open link in new tab",
+              "Different window",
+              "External link"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which component type is used for adding images and videos?",
+            "options": [
+              "Icons",
+              "Embeds",
+              "Media",
+              "Lists"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What should you do after making any modifications to buttons?",
+            "options": [
+              "Refresh the page",
+              "Log out",
+              "Apply changes",
+              "Clear cache"
+            ],
+            "correct": 2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Working with Text",
+        "content": `<div class="space-y-6">
       <h2 class="text-2xl font-bold">Let's Talk Text in Zylosite! ✨  Express Yourself!</h2><div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
       <video className="w-full rounded-lg" controls>
       <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
@@ -2070,112 +2070,112 @@ const defaultCourseModules = [
 </div>
 </div>
     `,
-    "quiz": [
-      {
-        "question": "What key combination makes your text bold?",
-        "options": [
-          "Ctrl/Cmd + P",
-          "Ctrl/Cmd + B",
-          "Ctrl/Cmd + V",
-          "Ctrl/Cmd + X"
-        ],
-        "correct": 1
+        "quiz": [
+          {
+            "question": "What key combination makes your text bold?",
+            "options": [
+              "Ctrl/Cmd + P",
+              "Ctrl/Cmd + B",
+              "Ctrl/Cmd + V",
+              "Ctrl/Cmd + X"
+            ],
+            "correct": 1
+          },
+
+          {
+            "question": "Which feature turns plain words into clickable text?",
+            "options": [
+              "Bold text",
+              "Hyperlinks",
+              "Underlining",
+              "Text color"
+            ],
+            "correct": 1
+          },
+
+          {
+            "question": "Where can you find the text component options in Zylosite?",
+            "options": [
+              "In the Settings menu",
+              "In the Components section",
+              "In the Edit menu",
+              "In the Format menu"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "When you want your text to lean, which shortcut will help you add italics?",
+            "options": [
+              "Ctrl/Cmd + I",
+              "Ctrl/Cmd + L",
+              "Ctrl/Cmd + K",
+              "Ctrl/Cmd + T"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which option allows you to remove a text component?",
+            "options": [
+              "Delete option",
+              "Remove button",
+              "Clear text",
+              "Hide component"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is the recommended way to modify text content?",
+            "options": [
+              "Right-click and edit",
+              "Click the Capital T icon",
+              "Double-click the text",
+              "Use keyboard shortcuts"
+            ],
+            "correct": 1
+          },
+
+          {
+            "question": "What happens if you don't save your text changes?",
+            "options": [
+              "Changes are auto-saved",
+              "Changes are lost",
+              "A warning appears",
+              "Text reverts to Lorem Ipsum"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which feature allows you to duplicate text without copying?",
+            "options": [
+              "Duplicate button",
+              "Clone option",
+              "Copy feature",
+              "Text template"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which action is required before leaving the text editor?",
+            "options": [
+              "Preview changes",
+              "Save changes",
+              "Clear cache",
+              "Update settings"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which keyboard shortcut underlines your text?",
+            "options": [
+              "Ctrl/Cmd + Y",
+              "Ctrl/Cmd + Z",
+              "Ctrl/Cmd + U",
+              "Ctrl/Cmd + W"
+            ],
+            "correct": 2
+          },
+        ]
       },
- 
-      {
-        "question": "Which feature turns plain words into clickable text?",
-        "options": [
-          "Bold text",
-          "Hyperlinks",
-          "Underlining",
-          "Text color"
-        ],
-        "correct": 1
-      },
-  
-      {
-        "question": "Where can you find the text component options in Zylosite?",
-        "options": [
-          "In the Settings menu",
-          "In the Components section",
-          "In the Edit menu",
-          "In the Format menu"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "When you want your text to lean, which shortcut will help you add italics?",
-        "options": [
-          "Ctrl/Cmd + I",
-          "Ctrl/Cmd + L",
-          "Ctrl/Cmd + K",
-          "Ctrl/Cmd + T"
-        ],
-        "correct": 0
-      },
-      {
-        "question": "Which option allows you to remove a text component?",
-        "options": [
-          "Delete option",
-          "Remove button",
-          "Clear text",
-          "Hide component"
-        ],
-        "correct": 0
-      },
-      {
-        "question": "What is the recommended way to modify text content?",
-        "options": [
-          "Right-click and edit",
-          "Click the Capital T icon",
-          "Double-click the text",
-          "Use keyboard shortcuts"
-        ],
-        "correct": 1
-      },
-   
-      {
-        "question": "What happens if you don't save your text changes?",
-        "options": [
-          "Changes are auto-saved",
-          "Changes are lost",
-          "A warning appears",
-          "Text reverts to Lorem Ipsum"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "Which feature allows you to duplicate text without copying?",
-        "options": [
-          "Duplicate button",
-          "Clone option",
-          "Copy feature",
-          "Text template"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "Which action is required before leaving the text editor?",
-        "options": [
-          "Preview changes",
-          "Save changes",
-          "Clear cache",
-          "Update settings"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "Which keyboard shortcut underlines your text?",
-        "options": [
-          "Ctrl/Cmd + Y",
-          "Ctrl/Cmd + Z",
-          "Ctrl/Cmd + U",
-          "Ctrl/Cmd + W"
-        ],
-        "correct": 2
-      },
-    ]
-    },
       {
         "id": 4,
         "title": "Adding Media",
@@ -2306,114 +2306,114 @@ const defaultCourseModules = [
           <p class="text-lg mt-2">Go forth and create something amazing!</p>
           <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">P.S. Tag us in your awesome creations! We love seeing what you make! 📸</p>
         </div>
-      </div>`,     
-      "quiz": [
-        {
-          "question": "Where can you find the media components in Zylosite?",
-          "options": [
-            "In the page settings",
-            "Under the components menu",
-            "In the footer section",
-            "In the header menu"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "How many media options are available when you select the media component?",
-          "options": [
-            "Two",
-            "Three",
-            "Four",
-            "Five"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "For YouTube videos, where in the URL can you find the video ID?",
-          "options": [
-            "After the youtube.com",
-            "After the v=",
-            "Before the https://",
-            "At the beginning of the URL"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "For Vimeo videos, where can you find the video ID?",
-          "options": [
-            "After the backslash /",
-            "Before the domain name",
-            "In the middle of the URL",
-            "After www"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "Which icon do you need to click to access video settings?",
-          "options": [
-            "Cog icon",
-            "Plus icon",
-            "Star icon",
-            "Play icon"
-          ],
-          "correct": 0
-        },
-      
-        {
-          "question": "What's the recommended action before editing media files?",
-          "options": [
-            "Delete the original",
-            "Backup your media files",
-            "Convert to PDF",
-            "Print them out"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "In a long YouTube URL with multiple equal signs, how do you identify the correct video ID?",
-          "options": [
-            "Take the first set of characters",
-            "Look for the characters after v=",
-            "Use the last set of characters",
-            "Use anything after the first ="
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should you consider about file sizes when adding media?",
-          "options": [
-            "Bigger is always better",
-            "Size doesn't matter",
-            "Compress before upload",
-            "Only use small files"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's important to add to images for accessibility?",
-          "options": [
-            "Watermarks",
-            "Alt text",
-            "Borders",
-            "Shadows"
-          ],
-          "correct": 1
-        },
+      </div>`,
+        "quiz": [
+          {
+            "question": "Where can you find the media components in Zylosite?",
+            "options": [
+              "In the page settings",
+              "Under the components menu",
+              "In the footer section",
+              "In the header menu"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How many media options are available when you select the media component?",
+            "options": [
+              "Two",
+              "Three",
+              "Four",
+              "Five"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "For YouTube videos, where in the URL can you find the video ID?",
+            "options": [
+              "After the youtube.com",
+              "After the v=",
+              "Before the https://",
+              "At the beginning of the URL"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "For Vimeo videos, where can you find the video ID?",
+            "options": [
+              "After the backslash /",
+              "Before the domain name",
+              "In the middle of the URL",
+              "After www"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which icon do you need to click to access video settings?",
+            "options": [
+              "Cog icon",
+              "Plus icon",
+              "Star icon",
+              "Play icon"
+            ],
+            "correct": 0
+          },
 
-        {
-          "question": "What's the first step to add a YouTube video?",
-          "options": [
-            "Upload the video to YouTube",
-            "Copy the video URL",
-            "Drag and drop the YouTube component",
-            "Create a new page"
-          ],
-          "correct": 2
-        },
-      ]
+          {
+            "question": "What's the recommended action before editing media files?",
+            "options": [
+              "Delete the original",
+              "Backup your media files",
+              "Convert to PDF",
+              "Print them out"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "In a long YouTube URL with multiple equal signs, how do you identify the correct video ID?",
+            "options": [
+              "Take the first set of characters",
+              "Look for the characters after v=",
+              "Use the last set of characters",
+              "Use anything after the first ="
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should you consider about file sizes when adding media?",
+            "options": [
+              "Bigger is always better",
+              "Size doesn't matter",
+              "Compress before upload",
+              "Only use small files"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What's important to add to images for accessibility?",
+            "options": [
+              "Watermarks",
+              "Alt text",
+              "Borders",
+              "Shadows"
+            ],
+            "correct": 1
+          },
+
+          {
+            "question": "What's the first step to add a YouTube video?",
+            "options": [
+              "Upload the video to YouTube",
+              "Copy the video URL",
+              "Drag and drop the YouTube component",
+              "Create a new page"
+            ],
+            "correct": 2
+          },
+        ]
       }
     ]
-  },  
+  },
   {
     "id": 3,
     "title": "Advanced Tools",
@@ -2520,112 +2520,112 @@ const defaultCourseModules = [
             <p class="text-lg mt-2">You've got all the tools you need - now let's see what you can build!</p>
             </div>
         </div>
-      </div>`,  
-      "quiz": [
-       
-        {
-        "question": "Why is testing across devices important?",
-        "options": [
-        "To increase loading speed",
-        "To ensure consistent experience",
-        "To add more features",
-        "To change colors"
-        ],
-        "correct": 1
-        },
-    
-        {
-        "question": "What helps maintain content clarity in grids?",
-        "options": [
-        "Using many animations",
-        "Proper spacing",
-        "Multiple fonts",
-        "Bright colors"
-        ],
-        "correct": 1
-        },
-        {
-          "question": "Where can you find the Grids option in the interface?",
-          "options": [
-          "In the top menu bar",
-          "In the Components menu on the left",
-          "In the right sidebar",
-          "In the bottom toolbar"
-          ],
-          "correct": 1
+      </div>`,
+        "quiz": [
+
+          {
+            "question": "Why is testing across devices important?",
+            "options": [
+              "To increase loading speed",
+              "To ensure consistent experience",
+              "To add more features",
+              "To change colors"
+            ],
+            "correct": 1
           },
-        {
-        "question": "How should you handle spacing in grids?",
-        "options": [
-        "Vary it randomly",
-        "Keep it consistent",
-        "Minimize it always",
-        "Ignore it completely"
-        ],
-        "correct": 1
-        },
-   
-        {
-        "question": "How should you manage media in grids?",
-        "options": [
-        "Use original sizes",
-        "Add more files",
-        "Optimize for performance",
-        "Ignore file sizes"
-        ],
-        "correct": 2
-        },
-        {
-        "question": "How do you ensure grid consistency?",
-        "options": [
-        "Random layouts",
-        "Regular spacing",
-        "Maximum content",
-        "Constant animation"
-        ],
-        "correct": 1
-        },
- 
-        {
-        "question": "When should you save grid changes?",
-        "options": [
-        "Only at the end",
-        "Regularly",
-        "Once daily",
-        "When finished"
-        ],
-        "correct": 1
-        },
-{
-"question": "What should you do after choosing a grid layout?",
-"options": [
-"Change the colors",
-"Add components",
-"Add animations",
-"Change the font"
-],
-"correct": 1
-},
-  {
-    "question": "What's important to check when designing your grid?",
-    "options": [
-    "Number of images used",
-    "Text color",
-    "Animation speed",
-    "Mobile responsiveness"
-    ],
-    "correct": 3
-    },
-    {
-      "question": "Which layout option is best suited for a hero section?",
-      "options": [
-      "25/25/25/25",
-      "33/33/33",
-      "50/50",
-      "100%"
-      ],
-      "correct": 3
-      },
+
+          {
+            "question": "What helps maintain content clarity in grids?",
+            "options": [
+              "Using many animations",
+              "Proper spacing",
+              "Multiple fonts",
+              "Bright colors"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Where can you find the Grids option in the interface?",
+            "options": [
+              "In the top menu bar",
+              "In the Components menu on the left",
+              "In the right sidebar",
+              "In the bottom toolbar"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How should you handle spacing in grids?",
+            "options": [
+              "Vary it randomly",
+              "Keep it consistent",
+              "Minimize it always",
+              "Ignore it completely"
+            ],
+            "correct": 1
+          },
+
+          {
+            "question": "How should you manage media in grids?",
+            "options": [
+              "Use original sizes",
+              "Add more files",
+              "Optimize for performance",
+              "Ignore file sizes"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "How do you ensure grid consistency?",
+            "options": [
+              "Random layouts",
+              "Regular spacing",
+              "Maximum content",
+              "Constant animation"
+            ],
+            "correct": 1
+          },
+
+          {
+            "question": "When should you save grid changes?",
+            "options": [
+              "Only at the end",
+              "Regularly",
+              "Once daily",
+              "When finished"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should you do after choosing a grid layout?",
+            "options": [
+              "Change the colors",
+              "Add components",
+              "Add animations",
+              "Change the font"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What's important to check when designing your grid?",
+            "options": [
+              "Number of images used",
+              "Text color",
+              "Animation speed",
+              "Mobile responsiveness"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which layout option is best suited for a hero section?",
+            "options": [
+              "25/25/25/25",
+              "33/33/33",
+              "50/50",
+              "100%"
+            ],
+            "correct": 3
+          },
         ]
       },
       {
@@ -2859,107 +2859,107 @@ const defaultCourseModules = [
     </div>
   </div>
         </div>
-      </div>`,   
-      "quiz": [
-        {
-          "question": "Which sequence shows correct size progression?",
-          "options": [
-          "H6 > H5 > H4",
-          "H4 > H5 > H6",
-          "H4 = H5 = H6",
-          "H6 > H4 > H5"
-          ],
-          "correct": 1
+      </div>`,
+        "quiz": [
+          {
+            "question": "Which sequence shows correct size progression?",
+            "options": [
+              "H6 > H5 > H4",
+              "H4 > H5 > H6",
+              "H4 = H5 = H6",
+              "H6 > H4 > H5"
+            ],
+            "correct": 1
           },
-        {
-        "question": "What is the primary purpose of an H1 heading on a webpage?",
-        "options": [
-        "To make text look bigger",
-        "To indicate the main title or topic of the page",
-        "To improve website loading speed",
-        "To add visual decoration"
-        ],
-        "correct": 1
-        },
-        {
-          "question": "Which heading is the smallest by default?",
-          "options": [
-          "H6",
-          "H5",
-          "H4",
-          "H3"
-          ],
-          "correct": 0
+          {
+            "question": "What is the primary purpose of an H1 heading on a webpage?",
+            "options": [
+              "To make text look bigger",
+              "To indicate the main title or topic of the page",
+              "To improve website loading speed",
+              "To add visual decoration"
+            ],
+            "correct": 1
           },
-        {
-        "question": "Which heading level should be used for main sections of content?",
-        "options": [
-        "H1",
-        "H2",
-        "H5",
-        "H6"
-        ],
-        "correct": 1
-        },
-        {
-        "question": "What is a key SEO benefit of using proper heading structure?",
-        "options": [
-        "Faster page loading",
-        "Better mobile responsiveness",
-        "Improved search engine ranking",
-        "Increased website security"
-        ],
-        "correct": 2
-        },
-        {
-        "question": "What accessibility feature benefits from proper heading structure?",
-        "options": [
-        "Screen readers",
-        "Mouse cursors",
-        "Keyboard shortcuts",
-        "Touch screens"
-        ],
-        "correct": 0
-        },
-        {
-        "question": "What is considered a best practice for heading hierarchy?",
-        "options": [
-        "Skip levels to emphasize importance",
-        "Use only even-numbered headings",
-        "Maintain sequential order (H1 → H2 → H3)",
-        "Use the same level throughout"
-        ],
-        "correct": 2
-        },
-        {
-          "question": "Which heading is the largest in size?",
-          "options": [
-          "H4",
-          "H2",
-          "H3",
-          "H1"
-          ],
-          "correct": 3
+          {
+            "question": "Which heading is the smallest by default?",
+            "options": [
+              "H6",
+              "H5",
+              "H4",
+              "H3"
+            ],
+            "correct": 0
           },
-        {
-        "question": "What's the recommended maximum length for a heading?",
-        "options": [
-        "One word",
-        "A full sentence",
-        "A short, descriptive phrase",
-        "A paragraph"
-        ],
-        "correct": 2
-        },
-        {
-          "question": "Order these headings from largest to smallest:",
-          "options": [
-          "H1, H2, H3, H4",
-          "H4, H3, H2, H1",
-          "H2, H1, H4, H3",
-          "H3, H2, H1, H4"
-          ],
-          "correct": 0
+          {
+            "question": "Which heading level should be used for main sections of content?",
+            "options": [
+              "H1",
+              "H2",
+              "H5",
+              "H6"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is a key SEO benefit of using proper heading structure?",
+            "options": [
+              "Faster page loading",
+              "Better mobile responsiveness",
+              "Improved search engine ranking",
+              "Increased website security"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What accessibility feature benefits from proper heading structure?",
+            "options": [
+              "Screen readers",
+              "Mouse cursors",
+              "Keyboard shortcuts",
+              "Touch screens"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is considered a best practice for heading hierarchy?",
+            "options": [
+              "Skip levels to emphasize importance",
+              "Use only even-numbered headings",
+              "Maintain sequential order (H1 → H2 → H3)",
+              "Use the same level throughout"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which heading is the largest in size?",
+            "options": [
+              "H4",
+              "H2",
+              "H3",
+              "H1"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What's the recommended maximum length for a heading?",
+            "options": [
+              "One word",
+              "A full sentence",
+              "A short, descriptive phrase",
+              "A paragraph"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Order these headings from largest to smallest:",
+            "options": [
+              "H1, H2, H3, H4",
+              "H4, H3, H2, H1",
+              "H2, H1, H4, H3",
+              "H3, H2, H1, H4"
+            ],
+            "correct": 0
           }
         ]
       },
@@ -3088,112 +3088,112 @@ const defaultCourseModules = [
             <p class="text-lg mt-2">Go ahead, make your site look amazing - you've totally got this!</p>
             </div>
         </div>
-      </div>`,       
-      "quiz": [
-        {
-          "question": "Where can you find icons in the Zylosite website builder?",
-          "options": [
-            "In the Settings menu",
-            "Under the Layout section",
-            "Under the Components section",
-            "In the Theme options"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What happens when you click the cog icon on an icon element?",
-          "options": [
-            "The icon gets deleted",
-            "The icon changes color",
-            "Nothing happens",
-            "The Detail editor appears",
+      </div>`,
+        "quiz": [
+          {
+            "question": "Where can you find icons in the Zylosite website builder?",
+            "options": [
+              "In the Settings menu",
+              "Under the Layout section",
+              "Under the Components section",
+              "In the Theme options"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What happens when you click the cog icon on an icon element?",
+            "options": [
+              "The icon gets deleted",
+              "The icon changes color",
+              "Nothing happens",
+              "The Detail editor appears",
 
-          ],
-          "correct": 3
-        },
-        {
-          "question": "How many size options are available for icons in Zylosite?",
-          "options": [
-            "Two",
-            "Three",
-            "Four",
-            "Five"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which word comes from the Greek word 'eikōn'?",
-          "options": [
-            "Icon",
-            "Image",
-            "Symbol",
-            "Logo"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "When was the first computer icon created?",
-          "options": [
-            "1975",
-            "1990",
-            "1981",
-            "1985"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What are the three options available in the Detail editor for icons?",
-          "options": [
-            "Size, Color, and Shape",
-            "Width, Height, and Color",
-            "Font, Size, and Style",
-            "Style, Link, and Icons",
-          ],
-          "correct": 3
-        },
-   
-        {
-          "question": "How do you add an icon to your canvas in Zylosite?",
-          "options": [
-            "Drag and drop",
-            "Double click",
-            "Right click and select 'Add'",
-            "Copy and paste"
-          ],
-          "correct": 0
-        },
-    
-        {
-          "question": "What's the quickest way to duplicate an icon?",
-          "options": [
-            "Right-click the icon",
-            "Press Ctrl+D",
-            "Double-click the icon",
-            "Click on the clone icon"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "Which icon is used to delete icons",
-          "options": [
-            "The power symbol",
-            "The shopping cart",
-            "The Trash icon",
-            "The menu icon"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What does the Icons icon look like in the components menu?",
-          "options": [
-            "The power symbol",
-            "The gift emoji",
-            "The Trash icon",
-            "The menu icon"
-          ],
-          "correct": 1
-        }
-      ]
+            ],
+            "correct": 3
+          },
+          {
+            "question": "How many size options are available for icons in Zylosite?",
+            "options": [
+              "Two",
+              "Three",
+              "Four",
+              "Five"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which word comes from the Greek word 'eikōn'?",
+            "options": [
+              "Icon",
+              "Image",
+              "Symbol",
+              "Logo"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "When was the first computer icon created?",
+            "options": [
+              "1975",
+              "1990",
+              "1981",
+              "1985"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What are the three options available in the Detail editor for icons?",
+            "options": [
+              "Size, Color, and Shape",
+              "Width, Height, and Color",
+              "Font, Size, and Style",
+              "Style, Link, and Icons",
+            ],
+            "correct": 3
+          },
+
+          {
+            "question": "How do you add an icon to your canvas in Zylosite?",
+            "options": [
+              "Drag and drop",
+              "Double click",
+              "Right click and select 'Add'",
+              "Copy and paste"
+            ],
+            "correct": 0
+          },
+
+          {
+            "question": "What's the quickest way to duplicate an icon?",
+            "options": [
+              "Right-click the icon",
+              "Press Ctrl+D",
+              "Double-click the icon",
+              "Click on the clone icon"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which icon is used to delete icons",
+            "options": [
+              "The power symbol",
+              "The shopping cart",
+              "The Trash icon",
+              "The menu icon"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What does the Icons icon look like in the components menu?",
+            "options": [
+              "The power symbol",
+              "The gift emoji",
+              "The Trash icon",
+              "The menu icon"
+            ],
+            "correct": 1
+          }
+        ]
       },
       {
         "id": 5,
@@ -3303,110 +3303,110 @@ const defaultCourseModules = [
             <p class="text-lg mt-2">Go ahead - show the world exactly where to find your awesome business!</p>
             </div>
         </div>
-      </div>`,   
-      "quiz": [
-        {
-          "question": "Where can you find maps in the Zylosite website builder?",
-          "options": [
-            "Under the Components section",
-            "In the Settings menu",
-            "Under the Layout section",
-            "In the Theme options"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "How do you access the map editing options?",
-          "options": [
-            "Double click the map",
-            "Click on the cog icon",
-            "Right click the map",
-            "Press the Edit button"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "How many main options are available in the detail editor for maps?",
-          "options": [
-            "Three (Style, Map, and Layout)",
-            "Four (Style, Map, Size, and Position)",
-            "Two (Style and Map)",
-            "One (Map settings)"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which text box is used to input the location?",
-          "options": [
-            "Info box message",
-            "Location details",
-            "Map address",
-            "Your address",
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What type of toggle is available in the map options?",
-          "options": [
-            "Satellite view",
-            "Black and white",
-            "3D view",
-            "Traffic view"
-          ],
-          "correct": 1
-        },
-   
-        {
-          "question": "What should you do after making changes to your map?",
-          "options": [
-            "Click Apply Changes",
-            "Refresh the page",
-            "Save and exit",
-            "Close the editor"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What's recommended to include in the info box message?",
-          "options": [
-            "Full company history",
-            "Employee biographies",
-            "Opening hours and parking tips",
-            "Product catalog"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What benefit can black and white maps provide?",
-          "options": [
-            "Reduced page load time",
-            "Better visibility",
-            "Increased map size",
-            "More accurate directions"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "How do you add a map to your canvas?",
-          "options": [
-            "Copy and paste",
-            "Double click",
-            "Right click and select Add",
-            "Drag and drop"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What should you consider when choosing a zoom level?",
-          "options": [
-            "Global view of the country",
-            "Satellite imagery quality",
-            "Visibility of nearby streets",
-            "Traffic patterns"
-          ],
-          "correct": 2
-        }
-      ]
+      </div>`,
+        "quiz": [
+          {
+            "question": "Where can you find maps in the Zylosite website builder?",
+            "options": [
+              "Under the Components section",
+              "In the Settings menu",
+              "Under the Layout section",
+              "In the Theme options"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How do you access the map editing options?",
+            "options": [
+              "Double click the map",
+              "Click on the cog icon",
+              "Right click the map",
+              "Press the Edit button"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How many main options are available in the detail editor for maps?",
+            "options": [
+              "Three (Style, Map, and Layout)",
+              "Four (Style, Map, Size, and Position)",
+              "Two (Style and Map)",
+              "One (Map settings)"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which text box is used to input the location?",
+            "options": [
+              "Info box message",
+              "Location details",
+              "Map address",
+              "Your address",
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What type of toggle is available in the map options?",
+            "options": [
+              "Satellite view",
+              "Black and white",
+              "3D view",
+              "Traffic view"
+            ],
+            "correct": 1
+          },
+
+          {
+            "question": "What should you do after making changes to your map?",
+            "options": [
+              "Click Apply Changes",
+              "Refresh the page",
+              "Save and exit",
+              "Close the editor"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What's recommended to include in the info box message?",
+            "options": [
+              "Full company history",
+              "Employee biographies",
+              "Opening hours and parking tips",
+              "Product catalog"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What benefit can black and white maps provide?",
+            "options": [
+              "Reduced page load time",
+              "Better visibility",
+              "Increased map size",
+              "More accurate directions"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How do you add a map to your canvas?",
+            "options": [
+              "Copy and paste",
+              "Double click",
+              "Right click and select Add",
+              "Drag and drop"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What should you consider when choosing a zoom level?",
+            "options": [
+              "Global view of the country",
+              "Satellite imagery quality",
+              "Visibility of nearby streets",
+              "Traffic patterns"
+            ],
+            "correct": 2
+          }
+        ]
       }
     ]
   },
@@ -3416,235 +3416,220 @@ const defaultCourseModules = [
     "units": [
       {
         "id": 1,
-        "title": "Icons",
+        "title": "Lists",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Hey There! Let's Play with Some Icons! ✨</h2>
+        <h2 class="text-2xl font-bold">Hey There! Let's Master Your List Controls! 🎮</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Icons(0).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Lists(0).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Want to Give Your Site Some Extra Sparkle? 🎨</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-center">Your Complete Guide to List Magic ✨</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-             "You know what's fun about icons? They're like emojis for your website - but way cooler! And guess what? They're super easy to add! 😉"
-            <footer class="text-sm mt-2">- That One Designer Friend We All Need</footer>
+            "The best lists are the ones you can customize just the way you want them - and we're here to show you how!" 
+            <footer class="text-sm mt-2">- Your Friendly List Guide 📝</footer>
           </blockquote>
       
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Alright, Let's Get This Party Started! 🚀</h5>
+              <h5 class="font-semibold">First Things First: Getting Your List Ready! 🚀</h5>
               <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Trust me, this is going to be super easy - here's what you do:</p>
+                <p class="mb-4">Let me walk you through getting started - it's easy peasy, I promise! 🤞</p>
                 <ol class="list-decimal pl-4 space-y-2">
-                  <li>Pop over to the Components section</li>
-                  <li>Look for the Icons option - it's got this cute little gift box icon 🎁</li>
-                  <li>You'll see three sizes - like coffee cups, you know? Small, medium, and large!</li>
-                  <li>Just grab one and drop it wherever you want - seriously, that's it! Easy peasy 😉</li>
+                  <li>Head over to the Components section</li>
+                  <li>When you select Lists, you'll find two fantastic options: bulleted lists (perfect for when order doesn't matter) and unbulleted lists (great for a cleaner look)</li>
+                  <li>See one you like? Just grab it with your mouse - yep, just click and hold!</li>
+                  <li>Now for the fun part - drag it anywhere on your canvas. Don't worry about getting it perfect; you can always move it later! 🎯</li>
                 </ol>
               </div>
             </div>
           </div>
-          
+      
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Now for the Fun Part - Making It Your Own! 🍰</h5>
-              <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
-                <div class="bg-white/70 p-4 rounded">
-                  <p class="mb-4">Here's all the cool stuff you can do with your icons:</p>
-                  <ul class="list-disc pl-4 space-y-2">
-                    <li><span class="font-semibold">Style it up:</span> Want it bigger? Smaller? Different color? Go wild!</li>
-                    
-                    <li><span class="font-semibold">Make it clickable:</span> Yeah, you can make it take people places - how cool is that?</li>
-                    
-                    <li><span class="font-semibold">Switch it up:</span> Not feeling that icon anymore? No worries, just pick another one!</li>
-                    
-                    <li><span class="font-semibold">Size options:</span> Like I said - small, medium, or large. It's like ordering at a coffee shop, but way less pressure! ☕</li>
-                  </ul>
+              <h5 class="font-semibold">Your Awesome Editing Toolkit - Let's Dive In! 🛠️</h5>
+              <div class="bg-white/70 p-4 rounded">
+                <p class="mb-4">Once you've got your list placed, click on it and - ta-da! - you'll see four helpful tools appear. Let me tell you all about them:</p>
+                
+                <div class="space-y-6">
+                  <div class="bg-white/80 p-4 rounded-lg">
+                    <h6 class="font-semibold text-blue-600">📝 The Text Editor (That's the T icon!)</h6>
+                    <p class="mt-2">Oh boy, this is where you can really make your list shine! In here you can:</p>
+                    <ul class="list-disc pl-6 mt-2 space-y-2">
+                      <li>Type out all your list items (go wild - add as many as you need!)</li>
+                      <li>Edit existing items (because sometimes we change our minds, right?)</li>
+                      <li>Rearrange things by cutting and pasting (organization is key!)</li>
+                      <li>Format your text - make it bold, italic, or add links if you're feeling fancy!</li>
+                      <li>Change colors to match your style (want purple bullets? Go for it!)</li>
+                      </ul>
+                  </div>
+      
+                  <div class="bg-white/80 p-4 rounded-lg">
+                    <h6 class="font-semibold text-blue-600">⚙️ The Settings (The Cog Icon)</h6>
+                    <p class="mt-2">This is where the magic happens! Click this little guy to:</p>
+                    <ul class="list-disc pl-6 mt-2 space-y-2">
+                      <li>Adjust the margins on top and bottom of the items (because breathing room matters)</li>
+                      <li>Tweak indentation for nested items (perfect for those complex lists)</li>
+                    </ul>
+                  </div>
+      
+                  <div class="bg-white/80 p-4 rounded-lg">
+                    <h6 class="font-semibold text-blue-600">📋 The Clone Tool (Looking Like Two Pages)</h6>
+                    <p class="mt-2">This is such a time-saver! When you click this:</p>
+                    <ul class="list-disc pl-6 mt-2 space-y-2">
+                      <li>You get an exact copy of your list - formatting and all!</li>
+                      <li>The clone appears right next to the original (BOOM! like magic! ✨)</li>
+                      <li>Perfect for when you need similar lists across your content</li>
+                      <li>Great for creating templates you can reuse later</li>
+                    </ul>
+                  </div>
+      
+                  <div class="bg-white/80 p-4 rounded-lg">
+                    <h6 class="font-semibold text-blue-600">🗑️ The Delete Option</h6>
+                    <p class="mt-2">Sometimes we need a fresh start, and that's what this is for!</p>
+                    <ul class="list-disc pl-6 mt-2 space-y-2">
+                      <li>Removes the entire list in one click (but don't worry, it'll ask you if you're sure 🤔)</li>
+                      <li>Can't be undone, so use it wisely! Maybe save a clone first? 😉</li>
+                      <li>Perfect for when you're reorganizing your content</li>
+                      <li>Helps keep your workspace clean and tidy</li>
+                      <p class="mt-1">Remove lists you no longer need - but do it with care, there's no undo button!</p>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Here's How to Make Changes (It's a Piece of Cake!) ✨</h5>
+            <h5 class="font-semibold">Super Helpful Tips! 💡</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
-              <p class="mb-4">Ready? This is super straightforward:</p>
-              <ol class="list-decimal pl-4 space-y-2">
-                <li>Click your icon (you know, the one you just dropped in)</li>
-                <li>See that little cog icon? ⚙️ Click it! (It's like the settings button on your phone)</li>
-                <li>You'll get three options:
-                  <ul class="list-disc pl-6 mt-2">
-                    <li>Style - make it look fabulous</li>
-                    <li>Link - make it do something when clicked</li>
-                    <li>Icons - pick a different icon if you've changed your mind</li>
-                  </ul>
-                </li>
-                <li>Play around until you love it</li>
-                <li>Hit "Apply changes" and boom - you're done!</li>
-              </ol>
-            </div>
-          </div>
-
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">🤓 Fun Facts About Icons! (Bet You Didn't Know These!)</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
-          <ul class="list-disc pl-4 space-y-2">
-          <li>The word "icon" comes from the Greek word "eikōn" meaning "image" or "likeness" - fancy, right? 🎨</li>
-          <li>The first computer icon was created in 1981 at Xerox - and look how far we've come! 💻</li>
-          <li>Icons can increase your website's engagement by up to 50%! People love clicking on cute little pictures! 📈</li>
-          <li>The human brain processes images 60,000 times faster than text - that's why icons work so well! 🧠</li>
-          <li>Color-changing icons (like on hover) can increase click rates by up to 30%! ✨</li>
-          <li>You should consider color-blind users when choosing icon colors - about 8% of males are color-blind! 🎨</li>
-
-          </ul>
-          </div>
-        </div>
-
-      <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">🎯 Icon Accessibility Tips</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
-          <ul class="list-disc pl-4 space-y-2">
-          <li>Always add alt text to your icons - screen readers need love too! 🗣️</li>
-          <li>Make sure your icon colors have enough contrast - visibility matters! 👀</li>
-          <li>Consider color-blind users when choosing icon colors - about 8% of males are color-blind! 🎨</li>
-          <li>Test your icons with keyboard navigation - not everyone uses a mouse! ⌨️</li>
-        </ul>
-          </div>
-        </div>
-      
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Quick Tips from Your Icon-Loving Friend! 🧙‍♂️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-            <ul class="list-disc pl-4 space-y-2">
-            <li>Try out different sizes - sometimes what looks perfect in your head needs a little tweaking! 📏</li>
-            <li>Made something clickable? Give it a test click - better safe than sorry! 🔗</li>
-            <li>Keep it consistent - your website should look put together, not like it got dressed in the dark! ☾⋆</li>
-            <li>Can't see your icon? Maybe try a different background color - we want people to actually see it! 👀</li>
-            <li>Save your work! (I may have learnt this the hard way... 😅)</li>
-          </ul>
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Not sure which tool to use? Hover over each icon - a helpful tooltip will appear! 🎈</li>
+                <li>Made a mistake? Don't panic! You can always clone your list before making big changes </li>
+                <li>Want to experiment? Try creating a few different versions using the clone tool 🔬</li>
+                <li>Remember: Your most-used settings will become second nature in no time! 🌟</li>
+              </ul>
             </div>
           </div>
       
-          <br />
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-          <h5 class="font-semibold">Oh! One More Thing! ☝️</h5>
-          <p class="mt-2">Don't forget to save before you go - trust me, you don't want to redo all your awesome work! 😅</p>
-          <p class="mt-2">Hit that save button like it's your favorite emoji! 💾</p>
-        </div>
-    
+            <h5 class="font-semibold">One Last Thing! ☝️</h5>
+            <p class="mt-2">Remember, there's no "right" way to use these tools - it's all about what works best for you! Play around, experiment, and have fun creating amazing lists! 🎨</p>
+            <p class="mt-2">And hey, if you ever get stuck or want to start over, that's totally okay too! That's what the delete button is for (just remember to clone first if you're unsure!) 😉</p>
+          </div>
       
           <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Design Those Icons? ✨</p>
-            <p class="text-lg mt-2">Go ahead, make your site look amazing - you've totally got this!</p>
-            </div>
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Edit Like a Pro? ✨</p>
+          <p class="text-lg mt-2">Go ahead - give these tools a try! And remember, we're here if you need any help! 🙌</p>
+          </div>
         </div>
-      </div>`,       
-      "quiz": [
-        {
-          "question": "Where can you find icons in the Zylosite website builder?",
-          "options": [
-            "In the Settings menu",
-            "Under the Layout section",
-            "Under the Components section",
-            "In the Theme options"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What happens when you click the cog icon on an icon element?",
-          "options": [
-            "The icon gets deleted",
-            "The icon changes color",
-            "Nothing happens",
-            "The Detail editor appears",
+      </div>`,
+        "quiz": [
+          {
+            "question": "Where can you find icons in the Zylosite website builder?",
+            "options": [
+              "In the Settings menu",
+              "Under the Layout section",
+              "Under the Components section",
+              "In the Theme options"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What happens when you click the cog icon on an icon element?",
+            "options": [
+              "The icon gets deleted",
+              "The icon changes color",
+              "Nothing happens",
+              "The Detail editor appears",
 
-          ],
-          "correct": 3
-        },
-        {
-          "question": "How many size options are available for icons in Zylosite?",
-          "options": [
-            "Two",
-            "Three",
-            "Four",
-            "Five"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which word comes from the Greek word 'eikōn'?",
-          "options": [
-            "Icon",
-            "Image",
-            "Symbol",
-            "Logo"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "When was the first computer icon created?",
-          "options": [
-            "1975",
-            "1990",
-            "1981",
-            "1985"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What are the three options available in the Detail editor for icons?",
-          "options": [
-            "Size, Color, and Shape",
-            "Width, Height, and Color",
-            "Font, Size, and Style",
-            "Style, Link, and Icons",
-          ],
-          "correct": 3
-        },
-   
-        {
-          "question": "How do you add an icon to your canvas in Zylosite?",
-          "options": [
-            "Drag and drop",
-            "Double click",
-            "Right click and select 'Add'",
-            "Copy and paste"
-          ],
-          "correct": 0
-        },
-    
-        {
-          "question": "What's the quickest way to duplicate an icon?",
-          "options": [
-            "Right-click the icon",
-            "Press Ctrl+D",
-            "Double-click the icon",
-            "Click on the clone icon"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "Which icon is used to delete icons",
-          "options": [
-            "The power symbol",
-            "The shopping cart",
-            "The Trash icon",
-            "The menu icon"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What does the Icons icon look like in the components menu?",
-          "options": [
-            "The power symbol",
-            "The gift emoji",
-            "The Trash icon",
-            "The menu icon"
-          ],
-          "correct": 1
-        }
-      ]
+            ],
+            "correct": 3
+          },
+          {
+            "question": "How many size options are available for icons in Zylosite?",
+            "options": [
+              "Two",
+              "Three",
+              "Four",
+              "Five"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which word comes from the Greek word 'eikōn'?",
+            "options": [
+              "Icon",
+              "Image",
+              "Symbol",
+              "Logo"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "When was the first computer icon created?",
+            "options": [
+              "1975",
+              "1990",
+              "1981",
+              "1985"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What are the three options available in the Detail editor for icons?",
+            "options": [
+              "Size, Color, and Shape",
+              "Width, Height, and Color",
+              "Font, Size, and Style",
+              "Style, Link, and Icons",
+            ],
+            "correct": 3
+          },
+
+          {
+            "question": "How do you add an icon to your canvas in Zylosite?",
+            "options": [
+              "Drag and drop",
+              "Double click",
+              "Right click and select 'Add'",
+              "Copy and paste"
+            ],
+            "correct": 0
+          },
+
+          {
+            "question": "What's the quickest way to duplicate an icon?",
+            "options": [
+              "Right-click the icon",
+              "Press Ctrl+D",
+              "Double-click the icon",
+              "Click on the clone icon"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which icon is used to delete icons",
+            "options": [
+              "The power symbol",
+              "The shopping cart",
+              "The Trash icon",
+              "The menu icon"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What does the Icons icon look like in the components menu?",
+            "options": [
+              "The power symbol",
+              "The gift emoji",
+              "The Trash icon",
+              "The menu icon"
+            ],
+            "correct": 1
+          }
+        ]
       },
       {
         "id": 2,
@@ -3754,108 +3739,108 @@ const defaultCourseModules = [
             <p class="text-lg mt-2">Go ahead - show the world exactly where to find your awesome business!</p>
             </div>
         </div>
-      </div>`,   
+      </div>`,
       "quiz": [
         {
-          "question": "Where can you find maps in the Zylosite website builder?",
+          "question": "Where can you find list templates in the interface?",
           "options": [
-            "Under the Components section",
-            "In the Settings menu",
-            "Under the Layout section",
-            "In the Theme options"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "How do you access the map editing options?",
-          "options": [
-            "Double click the map",
-            "Click on the cog icon",
-            "Right click the map",
-            "Press the Edit button"
+            "In the Settings panel",
+            "In the Components section",
+            "In the Edit menu",
+            "In the Format panel"
           ],
           "correct": 1
         },
         {
-          "question": "How many main options are available in the detail editor for maps?",
+          "question": "What types of lists are available by default?",
           "options": [
-            "Three (Style, Map, and Layout)",
-            "Four (Style, Map, Size, and Position)",
-            "Two (Style and Map)",
-            "One (Map settings)"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which text box is used to input the location?",
-          "options": [
-            "Info box message",
-            "Location details",
-            "Map address",
-            "Your address",
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What type of toggle is available in the map options?",
-          "options": [
-            "Satellite view",
-            "Black and white",
-            "3D view",
-            "Traffic view"
+            "Numbered and alphabetical",
+            "Bulleted and unbulleted",
+            "Ordered and unordered",
+            "Custom and standard"
           ],
           "correct": 1
         },
-   
         {
-          "question": "What should you do after making changes to your map?",
+          "question": "What icon represents the text editing option for lists?",
           "options": [
-            "Click Apply Changes",
-            "Refresh the page",
-            "Save and exit",
-            "Close the editor"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What's recommended to include in the info box message?",
-          "options": [
-            "Full company history",
-            "Employee biographies",
-            "Opening hours and parking tips",
-            "Product catalog"
+            "A pencil icon",
+            "An A icon",
+            "A T icon",
+            "An edit icon"
           ],
           "correct": 2
         },
         {
-          "question": "What benefit can black and white maps provide?",
+          "question": "What happens when you click the trash icon?",
           "options": [
-            "Reduced page load time",
-            "Better visibility",
-            "Increased map size",
-            "More accurate directions"
+            "It immediately deletes the list",
+            "It asks for confirmation before deleting",
+            "It moves the list to a recycle bin",
+            "It clears all list items but keeps the format"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
-          "question": "How do you add a map to your canvas?",
+          "question": "How do you add a new list to your canvas?",
           "options": [
-            "Copy and paste",
-            "Double click",
-            "Right click and select Add",
-            "Drag and drop"
+            "Click and type",
+            "Use the plus button",
+            "Drag and drop from Components",
+            "Right-click and select 'Add List'"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What appears when you click on a list?",
+          "options": [
+            "Only the edit option",
+            "A context menu",
+            "Four control icons",
+            "A formatting toolbar"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How can you modify the text within a list?",
+          "options": [
+            "Double-click any item",
+            "Click the T icon",
+            "Right-click and select edit",
+            "Use the settings panel"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What happens when you clone a list?",
+          "options": [
+            "It creates a blank list template",
+            "It copies only the format",
+            "It duplicates the list with all content and styling",
+            "It links two lists together"
+          ],
+          "correct": 2
+        },
+     
+        {
+          "question": "What happens if you try to delete a list?",
+          "options": [
+            "It can be undone immediately",
+            "A confirmation prompt appears",
+            "It goes to a recycle bin",
+            "Nothing can be done"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's the benefit of using the clone feature?",
+          "options": [
+            "Saves time formatting",
+            "Creates backup copies",
+            "Maintains consistency",
+            "All of the above"
           ],
           "correct": 3
-        },
-        {
-          "question": "What should you consider when choosing a zoom level?",
-          "options": [
-            "Global view of the country",
-            "Satellite imagery quality",
-            "Visibility of nearby streets",
-            "Traffic patterns"
-          ],
-          "correct": 2
         }
       ]
       }
@@ -4110,12 +4095,12 @@ const ModuleCompletionModal = ({ nextModule, onClose, onNextModule }) => {
                 <motion.div
                   key={i}
                   initial={{ opacity: 0, scale: 0 }}
-                  animate={{ 
+                  animate={{
                     opacity: [0, 1, 0],
                     scale: [0, 1, 0],
                     rotate: [0, 180, 360]
                   }}
-                  transition={{ 
+                  transition={{
                     duration: 2,
                     repeat: Infinity,
                     delay: i * 0.2,
@@ -4153,7 +4138,7 @@ const ModuleCompletionModal = ({ nextModule, onClose, onNextModule }) => {
             className="p-6 rounded-xl bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20"
           >
             <p className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-              Congratulations! You've completed this module and received a new badge! ✪ 
+              Congratulations! You've completed this module and received a new badge! ✪
             </p>
           </motion.div>
 
@@ -4330,7 +4315,7 @@ const ModuleTransition = ({ currentModule, nextModule, onContinue, onClose }) =>
         <div className="w-24 h-24 mx-auto bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
           <Trophy className="w-12 h-12 text-green-600 dark:text-green-400" />
         </div>
-        
+
         <h2 className="text-3xl font-bold">Module Complete! 🎉</h2>
         <p className="text-xl text-gray-600 dark:text-gray-300">
           Congratulations! You've completed
@@ -4338,11 +4323,11 @@ const ModuleTransition = ({ currentModule, nextModule, onContinue, onClose }) =>
         <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
           {currentModule.title}
         </p>
-        
+
         <div className="py-4">
           <ArrowRight className="w-8 h-8 mx-auto text-gray-400" />
         </div>
-        
+
         <p className="text-xl text-gray-600 dark:text-gray-300">
           Ready to begin
         </p>
@@ -4360,7 +4345,7 @@ const ModuleTransition = ({ currentModule, nextModule, onContinue, onClose }) =>
             Continue to Next Module
             <ArrowRight className="w-5 h-5" />
           </motion.button>
-          
+
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -4396,11 +4381,10 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
       animate={{ opacity: 1, x: 0 }}
       className="space-y-4"
     >
-      <div className={`p-4 rounded-lg shadow-sm border ${
-        isModuleLocked 
-          ? 'border-gray-300 dark:border-gray-700 bg-gray-800 dark:bg-gray-900 text-white opacity-80' 
+      <div className={`p-4 rounded-lg shadow-sm border ${isModuleLocked
+          ? 'border-gray-300 dark:border-gray-700 bg-gray-800 dark:bg-gray-900 text-white opacity-80'
           : `border-transparent bg-gradient-to-r ${moduleColors[module.id] || moduleColors[1]} text-white`
-      }`}>
+        }`}>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
             {isModuleLocked ? (
@@ -4453,11 +4437,10 @@ const ModuleListItem = React.memo(({ module, completedUnits, onClick }) => {
                   </span>
                 </span>
                 {isUnitCompleted && (
-                  <span className={`text-sm px-2 py-1 ${
-                    isModuleLocked 
+                  <span className={`text-sm px-2 py-1 ${isModuleLocked
                       ? 'bg-gray-600/30 text-gray-400'
                       : 'bg-white/20 text-white'
-                  } rounded-full`}>
+                    } rounded-full`}>
                     Completed
                   </span>
                 )}
@@ -4520,14 +4503,14 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
   const [showModuleTransition, setShowModuleTransition] = useState(null);
   const [selectedModule, setSelectedModule] = useState(null);
   const [selectedUnit, setSelectedUnit] = useState(null);
-  const [completedUnits, setCompletedUnits] = useState(() => 
+  const [completedUnits, setCompletedUnits] = useState(() =>
     getStoredData(STORAGE_KEYS.COMPLETED_UNITS, [])
   );
-  const [earnedBadges, setEarnedBadges] = useState(() => 
+  const [earnedBadges, setEarnedBadges] = useState(() =>
     getStoredData(STORAGE_KEYS.EARNED_BADGES, [])
   );
   const [showBadgeAward, setShowBadgeAward] = useState(null);
-  const [quizState, setQuizState] = useState(() => 
+  const [quizState, setQuizState] = useState(() =>
     getStoredData(STORAGE_KEYS.CURRENT_PROGRESS, {
       currentQuestionIndex: 0,
       correctAnswers: 0,
@@ -4641,7 +4624,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
         return newCompletedUnits;
       });
-    
+
 
       const currentUnitIndex = selectedModule.units.findIndex(u => u.id === selectedUnit.id);
       const nextUnit = selectedModule.units[currentUnitIndex + 1];
@@ -4750,31 +4733,31 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
   const handleAnswerSelect = useCallback(async (optionIndex) => {
     if (quizState.showFeedback || !selectedUnit || !selectedUnit.quiz) return;
-  
+
     if (audioContext?.state === 'suspended') {
       await audioContext.resume();
     }
-  
+
     setQuizState(prev => ({ ...prev, selectedAnswer: optionIndex, showFeedback: true }));
-  
+
     const currentQuestion = selectedUnit.quiz[quizState.currentQuestionIndex];
     const isCorrect = optionIndex === currentQuestion.correct;
-  
+
     await new Promise(resolve => setTimeout(resolve, 100));
-  
+
     if (isCorrect) {
       playSound('correct');
       triggerConfetti();
     } else {
       playSound('wrong');
     }
-  
+
     await new Promise(resolve => setTimeout(resolve, 1500));
-  
+
     if (isCorrect) {
       setQuizState(prev => ({ ...prev, correctAnswers: prev.correctAnswers + 1 }));
     }
-  
+
     if (quizState.currentQuestionIndex < selectedUnit.quiz.length - 1) {
       setQuizState(prev => ({
         ...prev,
@@ -4785,7 +4768,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
     } else {
       const finalScore = isCorrect ? quizState.correctAnswers + 1 : quizState.correctAnswers;
       const passed = finalScore >= Math.ceil(selectedUnit.quiz.length * 0.7);
-  
+
       const scorePercentage = (finalScore / selectedUnit.quiz.length) * 100;
       if (scorePercentage === 100) {
         playSound('perfect');
@@ -4794,11 +4777,11 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       } else {
         playSound('try-again');
       }
-  
+
       if (passed) {
         await new Promise(resolve => setTimeout(resolve, 200));
         triggerConfetti();
-  
+
         // Update completed units
         const newCompletedUnit = { moduleId: selectedModule.id, unitId: selectedUnit.id };
         setCompletedUnits(prev => {
@@ -4807,12 +4790,12 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           }
           return [...prev, newCompletedUnit];
         });
-  
+
         // Check if this completes the module
         const allModuleUnits = selectedModule.units;
         const completedModuleUnits = completedUnits.filter(unit => unit.moduleId === selectedModule.id);
         const isModuleComplete = completedModuleUnits.length === allModuleUnits.length - 1;
-  
+
         if (isModuleComplete) {
           setEarnedBadges(prev => {
             if (!prev.includes(selectedModule.id)) {
@@ -4820,18 +4803,18 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             }
             return prev;
           });
-  
+
           setShowBadgeAward({
             ...badges[selectedModule.id],
             isLastBadge: selectedModule.id === modules.length
           });
         }
       }
-  
+
       setQuizState(prev => ({ ...prev, submitted: true }));
     }
   }, [quizState, selectedModule, selectedUnit, audioContext, playSound, completedUnits, modules, badges]);
-  
+
 
   // Memoize the current quiz
   const currentQuiz = useMemo(() => {
@@ -4841,20 +4824,20 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
 
   const renderQuiz = useCallback(() => {
     if (!selectedUnit?.quiz) return null;
-  
+
     const currentQuestion = selectedUnit.quiz[quizState.currentQuestionIndex];
-  
+
     if (quizState.submitted) {
       const finalScore = quizState.correctAnswers;
       const totalQuestions = selectedUnit.quiz.length;
       const passed = finalScore >= Math.ceil(totalQuestions * 0.7);
       const isPerfectScore = finalScore === totalQuestions;
-  
+
       // Check if this was the last unit in the module
       const isLastUnitInModule = selectedModule.units[selectedModule.units.length - 1].id === selectedUnit.id;
       const nextModule = modules.find(m => m.id === selectedModule.id + 1);
       const showModuleCompletion = passed && isLastUnitInModule;
-  
+
       return (
         <>
           {showModuleCompletion && (
@@ -4878,27 +4861,25 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
               }}
             />
           )}
-  
+
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             className="text-center space-y-6"
           >
-            <div className={`p-8 rounded-xl shadow-lg ${
-              isPerfectScore
+            <div className={`p-8 rounded-xl shadow-lg ${isPerfectScore
                 ? "bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200"
                 : passed
                   ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200"
                   : "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200"
-            }`}>
+              }`}>
               <motion.div
                 initial={{ rotate: 0 }}
                 animate={{ rotate: passed ? 360 : 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <Star className={`w-20 h-20 mx-auto mb-4 ${
-                  isPerfectScore ? "text-purple-400" : passed ? "text-yellow-400" : "text-gray-400"
-                }`} />
+                <Star className={`w-20 h-20 mx-auto mb-4 ${isPerfectScore ? "text-purple-400" : passed ? "text-yellow-400" : "text-gray-400"
+                  }`} />
               </motion.div>
               <h3 className="text-3xl font-bold mb-4">
                 {isPerfectScore ? "🌟 Perfect Score! 🌟" : passed ? "🎉 Well Done! 🎉" : "Almost There! 💫"}
@@ -4916,7 +4897,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                 <p className="mt-4 text-lg">Keep going! You're getting better with each try! 🚀</p>
               )}
             </div>
-  
+
             <div className="flex flex-col gap-4">
               {passed && !isLastUnitInModule && (
                 <motion.button
@@ -4939,7 +4920,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                   Go to Next Unit <ArrowRight className="w-6 h-6" />
                 </motion.button>
               )}
-  
+
               {!passed && (
                 <motion.button
                   whileHover={{ scale: 1.05 }}
@@ -4959,7 +4940,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                   Try Again! 🚀
                 </motion.button>
               )}
-  
+
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -4982,9 +4963,9 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         </>
       );
     }
-  
+
     if (!currentQuestion) return null;
-  
+
     return (
       <div className="space-y-8">
         <div className="flex justify-between items-center">
@@ -5007,7 +4988,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
             </div>
           </div>
         </div>
-  
+
         <motion.div
           key={quizState.currentQuestionIndex}
           initial={{ opacity: 0, x: 50 }}
@@ -5033,16 +5014,16 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
       </div>
     );
   }, [quizState, selectedModule, selectedUnit, soundEnabled, handleAnswerSelect, scrollModalToTop]);
-  
+
   return (
     <div className="space-y-8">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold">Your Progress</h2>
         <strong><ResetProgressButton onReset={handleReset} /></strong>
       </div>
-      
+
       <BadgeDisplay earnedBadges={earnedBadges} />
-      
+
       {selectedModule?.isComplete ? (
         <CourseComplete onClose={() => setSelectedModule(null)} />
       ) : (
@@ -5082,7 +5063,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
           }}
         />
       )}
-  
+
       {selectedModule && selectedUnit && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white dark:bg-gray-800 w-full h-full overflow-y-auto">
@@ -5110,7 +5091,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                 </button>
               </div>
             </div>
-  
+
             <div className="max-w-7xl mx-auto px-4 py-8">
               <div className="prose dark:prose-invert max-w-none [&>div]:text-gray-900 [&>div]:dark:text-white">
                 <div
@@ -5132,7 +5113,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                   </motion.button>
                 </div>
               </div>
-  
+
               <div id="quiz-section" className="mt-16 pt-16 border-t border-gray-200 dark:border-gray-600">
                 <h3 className="text-3xl font-bold mb-8 text-center text-black dark:text-white">
                   Unit {selectedUnit.id} Challenge
