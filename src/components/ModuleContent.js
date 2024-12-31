@@ -4965,19 +4965,208 @@ const defaultCourseModules = [
       {
         "id": 8,
         "title": "Footers",
-        "content": "Design functional footers that provide navigation and important site information.",
-        "quiz": [
-          {
-            "question": "What should always be included in a footer?",
-            "options": [
-              "Social media links",
-              "Contact information",
-              "Copyright notice",
-              "Newsletter signup"
-            ],
-            "correct": 2
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Perfect Website Footers! 🏗️</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Design Footers That Convert & Connect! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed footer isn't just a page ending - it's a powerful navigation hub and trust builder that can significantly impact user experience! 🎯"
+            <footer class="text-sm mt-2">- UX Design Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Footers! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective footers:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Organize content in clear sections</li>
+                  <li>Include essential legal information</li>
+                  <li>Add secondary navigation options</li>
+                  <li>Optimize for all screen sizes</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Contact information:</span> Stay accessible!</li>
+                  <li><span class="font-semibold">Legal links:</span> Build trust</li>
+                  <li><span class="font-semibold">Social media:</span> Connect channels</li>
+                  <li><span class="font-semibold">Navigation:</span> Guide users</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use clear hierarchy in information layout</li>
+                <li>Maintain brand consistency</li>
+                <li>Ensure mobile responsiveness</li>
+                <li>Keep navigation intuitive</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Footer Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>65% of users expect contact info in footer! 📞</li>
+                <li>Newsletter signups increase 25% in footer! 📈</li>
+                <li>Trust seals boost conversions by 42%! 🛡️</li>
+                <li>30% of clicks occur in footer navigation! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Engagement Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Include a mini site map for easy navigation 🗺️</li>
+                <li>Add social proof elements ⭐</li>
+                <li>Display trust badges and certifications 🏆</li>
+                <li>Optimize CTAs for engagement 🎯</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Overcrowding with too much information</li>
+                <li>Missing important legal links</li>
+                <li>Poor mobile optimization</li>
+                <li>Broken or outdated links</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">Monitor footer link clicks to optimize layout!</p>
+            <p class="mt-2">Update copyright year automatically! 📅</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Perfect Your Footer? 🚀</p>
+            <p class="text-lg mt-2">Create footers that enhance user experience and drive conversions!</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "What percentage of users expect contact information in the footer?",
+          "options": [
+            "45%",
+            "55%",
+            "65%",
+            "75%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much can newsletter signups increase when placed in the footer?",
+          "options": [
+            "15%",
+            "20%",
+            "25%",
+            "30%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What percentage of clicks occur in footer navigation?",
+          "options": [
+            "20%",
+            "25%",
+            "30%",
+            "35%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much can trust seals boost conversions?",
+          "options": [
+            "32%",
+            "37%",
+            "42%",
+            "47%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which is most important to include in a footer?",
+          "options": [
+            "Company blog",
+            "Contact information",
+            "Social media feeds",
+            "Newsletter archive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's a common footer mistake?",
+          "options": [
+            "Including contact info",
+            "Adding social links",
+            "Overcrowding content",
+            "Using clear headers"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What should you monitor in footers?",
+          "options": [
+            "Font sizes",
+            "Link clicks",
+            "Background colors",
+            "Logo placement"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What improves footer usability?",
+          "options": [
+            "Complex animations",
+            "Lengthy text",
+            "Clear hierarchy",
+            "Multiple columns"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What should be automatically updated?",
+          "options": [
+            "Copyright year",
+            "Social media icons",
+            "Contact form",
+            "Navigation links"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What's most important for mobile footers?",
+          "options": [
+            "Animations",
+            "Responsiveness",
+            "Multiple columns",
+            "Video content"
+          ],
+          "correct": 1
+        }
+      ]
       },
       {
         "id": 9,
