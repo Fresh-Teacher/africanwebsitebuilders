@@ -2971,147 +2971,235 @@ const defaultCourseModules = [
     "units": [
       {
         "id": 1,
-        "title": "Parallax Effects and Padding",
+        "title": "Icons",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Let's Add Some Media Magic! ✨ Make Your Site Pop!</h2>
-        
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+        <h2 class="text-2xl font-bold">Hey There! Let's Play with Some Icons! ✨</h2>
         <video className="w-full rounded-lg" controls>
-          <source src="https://awb-silk.vercel.app/Media(0).mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video><br />
-        
-        <h3 class="text-2xl font-semibold mb-4 text-center">Your Media, Your Story! 🎬</h3>
-        
-        <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-          "A picture is worth a thousand words, but a video? That's worth a million! Let's make your content unforgettable!"
-          <footer class="text-sm mt-2"></footer>
-        </blockquote>
-        <div class="bg-white/50 p-6 rounded-lg mb-6">
-        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">Getting Started with Media 🎬</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
-            <p class="mb-4">Super easy steps to add media to your site:</p>
-            <ol class="list-decimal pl-4 space-y-2">
-              <li>Head over to the components menu</li>
-              <li>Look for the media section</li>
-              <li>Choose from three awesome options:
-                <ul class="list-disc pl-6 mt-2">
-                  <li>YouTube Video 📺</li>
-                  <li>Vimeo Player 🎥</li>
-                  <li>Image Upload 🖼️</li>
-                </ul>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
+        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Want to Give Your Site Some Extra Sparkle? 🎨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+             "You know what's fun about icons? They're like emojis for your website - but way cooler! And guess what? They're super easy to add! 😉"
+            <footer class="text-sm mt-2">- That One Designer Friend We All Need</footer>
+          </blockquote>
       
-      <div class="bg-white/50 p-6 rounded-lg mb-6">
-        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">Media Types You Can Add: 📸</h5>
-          <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
-            <div class="bg-white/70 p-4 rounded">
-              <ul class="list-disc pl-4 space-y-2">
-                <li><span class="font-semibold">Images:</span> JPG, PNG, GIF - make your content pop with eye-catching visuals!</li>
-                <li><span class="font-semibold">Videos:</span>YouTube & Vimeo - bring your story to life! 🎥</li>
-              </ul>
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Alright, Let's Get This Party Started! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Trust me, this is going to be super easy - here's what you do:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Pop over to the Components section</li>
+                  <li>Look for the Icons option - it's got this cute little gift box icon 🎁</li>
+                  <li>You'll see three sizes - like coffee cups, you know? Small, medium, and large!</li>
+                  <li>Just grab one and drop it wherever you want - seriously, that's it! Easy peasy 😉</li>
+                </ol>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Now for the Fun Part - Making It Your Own! 🍰</h5>
+              <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+                <div class="bg-white/70 p-4 rounded">
+                  <p class="mb-4">Here's all the cool stuff you can do with your icons:</p>
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li><span class="font-semibold">Style it up:</span> Want it bigger? Smaller? Different color? Go wild!</li>
+                    
+                    <li><span class="font-semibold">Make it clickable:</span> Yeah, you can make it take people places - how cool is that?</li>
+                    
+                    <li><span class="font-semibold">Switch it up:</span> Not feeling that icon anymore? No worries, just pick another one!</li>
+                    
+                    <li><span class="font-semibold">Size options:</span> Like I said - small, medium, or large. It's like ordering at a coffee shop, but way less pressure! ☕</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Here's How to Make Changes (It's a Piece of Cake!) ✨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Ready? This is super straightforward:</p>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Click your icon (you know, the one you just dropped in)</li>
+                <li>See that little cog icon? ⚙️ Click it! (It's like the settings button on your phone)</li>
+                <li>You'll get three options:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Style - make it look fabulous</li>
+                    <li>Link - make it do something when clicked</li>
+                    <li>Icons - pick a different icon if you've changed your mind</li>
+                  </ul>
+                </li>
+                <li>Play around until you love it</li>
+                <li>Hit "Apply changes" and boom - you're done!</li>
+              </ol>
+            </div>
+          </div>
 
-      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-        <h5 class="font-semibold">Adding YouTube & Vimeo Videos 🎥</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
-          <p class="mb-4">Let's get those videos rolling! Here's how:</p>
-          <ol class="list-decimal pl-4 space-y-2">
-            <li>Drag that YouTube/Vimeo component right onto your canvas</li>
-            <li>Click on it and find the mechanical cog icon ⚙️</li>
-            <li>In the detail editor, you'll spot a box for the video ID</li>
-          </ol>
-        </div>
-      </div>
-
-      <div class="bg-purple-900 dark:bg-purple-700 p-4 rounded-lg mb-4">
-      <h5 class="font-semibold">Video ID Hunting Guide! 🕵️‍♂️</h5>
-      <div class="bg-blue-800 p-4 rounded mt-4">
-        <div class="mb-4">
-          <p class="font-semibold">Example For YouTube:</p>
-          <p class="mb-2">From: <code class="bg-blue-700 text-blue-100 px-2 py-1 rounded">https://www.youtube.com/watch?v=JYvPnkp8500</code></p>
-          <p>Grab: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">JYvPnkp8500</code> (It's after the v=)</p>
-        </div>
-        
-        <div class="mb-4">
-          <p class="font-semibold">Example For Vimeo:</p>
-          <p class="mb-2">From: <code class="bg-blue-700 text-blue-100 px-2 py-1 rounded">https://vimeo.com/922834495</code></p>
-          <p>Grab: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">922834495</code> (It's after the /)</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="bg-green-900 dark:bg-green-700 p-4 rounded-lg mb-4">
-    <h5 class="font-semibold">🧙‍♂️ WIZARD TIPS & TRICKS 🧙‍♂️</h5>
-    <div class="bg-blue-800 p-4 rounded mt-4">
-      <ul class="list-disc pl-4 space-y-2">
-        <li>YouTube ID always comes after <code class="bg-yellow-700 text-yellow-100 px-1 rounded">v=</code> 🎯</li>
-        <li>Vimeo ID is the numbers after the backslash 🔍</li>
-        <li>Got a super long YouTube URL? Don't panic! 😨 Look for <code class="bg-yellow-700 text-yellow-100 px-1 rounded">v=</code> and grab what's after it (before any & signs)</li>
-        <li>Example of a tricky URL: <code class="bg-blue-700 text-sm text-blue-100 px-2 py-1 rounded">https://www.youtube.com/watch?app=desktop&v=JOfK95bzwCA&list=PLWPirh4EWFpEK1RbpruFXrwgzcGUjZ4nV</code></li>
-        <li>The ID here is: <code class="bg-green-700 text-green-100 px-2 py-1 rounded">JOfK95bzwCA</code>  😜</li>
-      </ul>
-    </div>
-  </div>
-
-
-  
-        <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">Media Mistakes to Avoid! 🙅🏿</h5>
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">🤓 Fun Facts About Icons! (Bet You Didn't Know These!)</h5>
           <div class="bg-white/70 p-4 rounded mt-4">
-            <ul class="list-disc pl-4 space-y-2">
-              <li>Super huge photo file sizes. First compress them before uploading (Nobody likes waiting forever! ⏳)</li>
-              <li>Forgetting alt text (Keep it accessible! 🎯)</li>
-              <li>Unoptimized images (Speed is key! 🏃‍♂️)</li>
-            </ul>
+          <ul class="list-disc pl-4 space-y-2">
+          <li>The word "icon" comes from the Greek word "eikōn" meaning "image" or "likeness" - fancy, right? 🎨</li>
+          <li>The first computer icon was created in 1981 at Xerox - and look how far we've come! 💻</li>
+          <li>Icons can increase your website's engagement by up to 50%! People love clicking on cute little pictures! 📈</li>
+          <li>The human brain processes images 60,000 times faster than text - that's why icons work so well! 🧠</li>
+          <li>Color-changing icons (like on hover) can increase click rates by up to 30%! ✨</li>
+          <li>You should consider color-blind users when choosing icon colors - about 8% of males are color-blind! 🎨</li>
+
+          </ul>
           </div>
         </div>
-  
-        <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-          <h5 class="font-semibold">Pro Tips from Media Masters 🧙‍♂️</h5>
+
+      <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">🎯 Icon Accessibility Tips</h5>
           <div class="bg-white/70 p-4 rounded mt-4">
-            <ul class="list-disc pl-4 space-y-2">
-              <li>Compress before upload (Your users' data plans will thank you! 📱)</li>
-              <li>Use responsive sizes (Look good on all screens! 💻)</li>
-              <li>Test your media (What works on your computer might not work everywhere! 🌍)</li>
-            </ul>
+          <ul class="list-disc pl-4 space-y-2">
+          <li>Always add alt text to your icons - screen readers need love too! 🗣️</li>
+          <li>Make sure your icon colors have enough contrast - visibility matters! 👀</li>
+          <li>Consider color-blind users when choosing icon colors - about 8% of males are color-blind! 🎨</li>
+          <li>Test your icons with keyboard navigation - not everyone uses a mouse! ⌨️</li>
+        </ul>
           </div>
         </div>
-  
-  <br>
-        <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-          <h5 class="font-semibold">Quick Reminder</h5>
-          <p class="mt-2">Always backup your media files before editing! You never know when you'll need the original! 💾</p>
+      
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Quick Tips from Your Icon-Loving Friend! 🧙‍♂️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+            <li>Try out different sizes - sometimes what looks perfect in your head needs a little tweaking! 📏</li>
+            <li>Made something clickable? Give it a test click - better safe than sorry! 🔗</li>
+            <li>Keep it consistent - your website should look put together, not like it got dressed in the dark! ☾⋆</li>
+            <li>Can't see your icon? Maybe try a different background color - we want people to actually see it! 👀</li>
+            <li>Save your work! (I may have learnt this the hard way... 😅)</li>
+          </ul>
+            </div>
+          </div>
+      
+          <br />
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Oh! One More Thing! ☝️</h5>
+          <p class="mt-2">Don't forget to save before you go - trust me, you don't want to redo all your awesome work! 😅</p>
+          <p class="mt-2">Hit that save button like it's your favorite emoji! 💾</p>
         </div>
-  
-        <div class="mt-6 text-center">
-          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Make Your Site Shine? ✨</p>
-          <p class="text-lg mt-2">Go forth and create something amazing!</p>
-          <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">P.S. Tag us in your awesome creations! We love seeing what you make! 📸</p>
+    
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Design Those Icons? ✨</p>
+            <p class="text-lg mt-2">Go ahead, make your site look amazing - you've totally got this!</p>
+            </div>
         </div>
-      </div>`,     
-              "quiz": [
-          {
-            "question": "What is a parallax effect?",
-            "options": [
-              "A scrolling effect where background images move slower than foreground",
-              "An animation effect",
-              "A layout design tool",
-              "A form creation tool"
-            ],
-            "correct": 0
-          }
-        ]
+      </div>`,       
+      "quiz": [
+        {
+          "question": "Where can you find icons in the Zylosite website builder?",
+          "options": [
+            "In the Settings menu",
+            "Under the Layout section",
+            "Under the Components section",
+            "In the Theme options"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What happens when you click the cog icon on an icon element?",
+          "options": [
+            "The icon gets deleted",
+            "The icon changes color",
+            "Nothing happens",
+            "The Detail editor appears",
+
+          ],
+          "correct": 3
+        },
+        {
+          "question": "How many size options are available for icons in Zylosite?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word comes from the Greek word 'eikōn'?",
+          "options": [
+            "Icon",
+            "Image",
+            "Symbol",
+            "Logo"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "When was the first computer icon created?",
+          "options": [
+            "1975",
+            "1990",
+            "1981",
+            "1985"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What are the three options available in the Detail editor for icons?",
+          "options": [
+            "Size, Color, and Shape",
+            "Width, Height, and Color",
+            "Font, Size, and Style",
+            "Style, Link, and Icons",
+          ],
+          "correct": 3
+        },
+   
+        {
+          "question": "How do you add an icon to your canvas in Zylosite?",
+          "options": [
+            "Drag and drop",
+            "Double click",
+            "Right click and select 'Add'",
+            "Copy and paste"
+          ],
+          "correct": 0
+        },
+    
+        {
+          "question": "What's the quickest way to duplicate an icon?",
+          "options": [
+            "Right-click the icon",
+            "Press Ctrl+D",
+            "Double-click the icon",
+            "Click on the clone icon"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which icon is used to delete icons",
+          "options": [
+            "The power symbol",
+            "The shopping cart",
+            "The Trash icon",
+            "The menu icon"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What does the Icons icon look like in the components menu?",
+          "options": [
+            "The power symbol",
+            "The gift emoji",
+            "The Trash icon",
+            "The menu icon"
+          ],
+          "correct": 1
+        }
+      ]
       },
       {
         "id": 2,
