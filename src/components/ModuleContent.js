@@ -4373,8 +4373,95 @@ const defaultCourseModules = [
       {
         "id": 2,
         "title": "Contact",
-        "content": "Master the art of creating user-friendly contact forms and sections that encourage communication.",
-        "quiz": [
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Let's Make Your Contact Form Awesome! ✨</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Connect with Your Visitors? 🤝</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A great contact form is like a friendly handshake - it makes people feel welcome and heard! Let's make yours amazing! 😊"
+            <footer class="text-sm mt-2">- Your Friendly Web Design Guide</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">First Things First - The Essentials! 📝</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's what makes a contact form truly effective:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Keep it simple - nobody likes filling out long forms!</li>
+                  <li>Make sure it's mobile-friendly - people love using their phones</li>
+                  <li>Add clear labels - no one should have to guess what goes where</li>
+                  <li>Include helpful error messages - guide users when they make mistakes</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Must-Have Form Fields! 🎯</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Name field:</span> Make it personal!</li>
+                  <li><span class="font-semibold">Email address:</span> Keep in touch!</li>
+                  <li><span class="font-semibold">Message box:</span> Let them share their thoughts</li>
+                  <li><span class="font-semibold">Submit button:</span> Make it stand out!</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Pro Tips for Success! 🌟</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Add a friendly success message - people love knowing their message went through!</li>
+                <li>Include a privacy notice - build trust with your visitors</li>
+                <li>Show estimated response time - manage expectations nicely</li>
+                <li>Make the submit button pop with color - guide them to action!</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Fun Facts About Contact Forms!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Forms with social proof nearby get 30% more submissions! 📈</li>
+                <li>The perfect contact form takes less than 30 seconds to fill out ⚡</li>
+                <li>Adding a photo near your contact form can increase trust by 35%! 🤝</li>
+                <li>Mobile users abandon forms 50% more than desktop users - make it mobile-friendly! 📱</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Accessibility Matters!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use proper ARIA labels - everyone should be able to reach you! 🗣️</li>
+                <li>Ensure keyboard navigation works - test with Tab key ⌨️</li>
+                <li>Make error messages screen-reader friendly 🎯</li>
+                <li>Use sufficient color contrast for all text 👀</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Remember! 💫</h5>
+            <p class="mt-2">A great contact form can be the beginning of wonderful relationships with your visitors!</p>
+            <p class="mt-2">Make it friendly, make it easy, make it work! 🚀</p>
+          </div>
+    
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Your Contact Form? ✨</p>
+            <p class="text-lg mt-2">You've got all the tools - now go make something amazing!</p>
+          </div>
+        </div>
+      </div>`,
+              "quiz": [
           {
             "question": "Which field is typically required in a contact form?",
             "options": [
@@ -4393,14 +4480,104 @@ const defaultCourseModules = [
         "content": "Understand how to structure and present content effectively using various layout techniques.",
         "quiz": [
           {
-            "question": "What is the recommended maximum width for readable content?",
+            "question": "Which field is typically required in a contact form?",
             "options": [
-              "400px",
-              "600px",
-              "800px",
-              "1000px"
+              "Phone number",
+              "Email address",
+              "Company name",
+              "Website URL"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is the recommended maximum completion time for a contact form?",
+            "options": [
+              "15 seconds",
+              "30 seconds",
+              "60 seconds",
+              "120 seconds"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which accessibility feature is essential for contact forms?",
+            "options": [
+              "Animated backgrounds",
+              "Auto-complete disabled",
+              "ARIA labels",
+              "Captcha on all fields"
             ],
             "correct": 2
+          },
+          {
+            "question": "What should happen immediately after form submission?",
+            "options": [
+              "Redirect to homepage",
+              "Show a success message",
+              "Send an automatic email",
+              "Clear all fields"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which element can increase form submission trust by 35%?",
+            "options": [
+              "A nearby photo",
+              "Captcha verification",
+              "Password field",
+              "Social media links"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What percentage more do mobile users abandon forms compared to desktop?",
+            "options": [
+              "25%",
+              "35%",
+              "50%",
+              "75%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which button should stand out most on a contact form?",
+            "options": [
+              "Reset button",
+              "Submit button",
+              "Cancel button",
+              "Help button"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should be included near a contact form to build trust?",
+            "options": [
+              "Privacy notice",
+              "Company history",
+              "Mission statement",
+              "Team photos"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which feature helps manage user expectations?",
+            "options": [
+              "Multiple captchas",
+              "Required phone number",
+              "Estimated response time",
+              "Social media links"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What should be tested specifically for keyboard users?",
+            "options": [
+              "Color schemes",
+              "Tab navigation",
+              "Font sizes",
+              "Animation speed"
+            ],
+            "correct": 1
           }
         ]
       },
