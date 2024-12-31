@@ -4477,109 +4477,208 @@ const defaultCourseModules = [
       {
         "id": 3,
         "title": "Content",
-        "content": "Understand how to structure and present content effectively using various layout techniques.",
-        "quiz": [
-          {
-            "question": "Which field is typically required in a contact form?",
-            "options": [
-              "Phone number",
-              "Email address",
-              "Company name",
-              "Website URL"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What is the recommended maximum completion time for a contact form?",
-            "options": [
-              "15 seconds",
-              "30 seconds",
-              "60 seconds",
-              "120 seconds"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which accessibility feature is essential for contact forms?",
-            "options": [
-              "Animated backgrounds",
-              "Auto-complete disabled",
-              "ARIA labels",
-              "Captcha on all fields"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What should happen immediately after form submission?",
-            "options": [
-              "Redirect to homepage",
-              "Show a success message",
-              "Send an automatic email",
-              "Clear all fields"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which element can increase form submission trust by 35%?",
-            "options": [
-              "A nearby photo",
-              "Captcha verification",
-              "Password field",
-              "Social media links"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "What percentage more do mobile users abandon forms compared to desktop?",
-            "options": [
-              "25%",
-              "35%",
-              "50%",
-              "75%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which button should stand out most on a contact form?",
-            "options": [
-              "Reset button",
-              "Submit button",
-              "Cancel button",
-              "Help button"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should be included near a contact form to build trust?",
-            "options": [
-              "Privacy notice",
-              "Company history",
-              "Mission statement",
-              "Team photos"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "Which feature helps manage user expectations?",
-            "options": [
-              "Multiple captchas",
-              "Required phone number",
-              "Estimated response time",
-              "Social media links"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What should be tested specifically for keyboard users?",
-            "options": [
-              "Color schemes",
-              "Tab navigation",
-              "Font sizes",
-              "Animation speed"
-            ],
-            "correct": 1
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Engaging Content Sections! ✍️</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Build Content That Captivates & Converts! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "Great content doesn't just fill space - it tells your story, engages your audience, and drives action! 📝"
+            <footer class="text-sm mt-2">- Content Strategy Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Content! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective content sections:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Plan your content hierarchy</li>
+                  <li>Create compelling headlines</li>
+                  <li>Structure your paragraphs</li>
+                  <li>Add visual elements</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Headlines:</span> Grab attention!</li>
+                  <li><span class="font-semibold">Subheadings:</span> Guide readers</li>
+                  <li><span class="font-semibold">Visuals:</span> Enhance message</li>
+                  <li><span class="font-semibold">CTAs:</span> Drive action</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use readable typography</li>
+                <li>Include white space</li>
+                <li>Add content blocks</li>
+                <li>Implement rich media</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Content Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Visual content increases engagement by 70%! 👀</li>
+                <li>Structured text improves readability by 45%! 📊</li>
+                <li>Interactive elements boost retention by 55%! 📱</li>
+                <li>Clear CTAs increase conversions by 38%! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Performance Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Optimize images for web 🖼️</li>
+                <li>Use lazy loading 🚀</li>
+                <li>Implement content blocks ♾️</li>
+                <li>Cache dynamic content 💨</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Walls of text</li>
+                <li>Poor formatting</li>
+                <li>Missing hierarchy</li>
+                <li>Weak headlines</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">Track content engagement metrics!</p>
+            <p class="mt-2">Use A/B testing for headlines! ⚡</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Great Content? 🎨</p>
+            <p class="text-lg mt-2">Build content sections that engage and convert your visitors!</p>
+          </div>
+        </div>
+      </div>`,      
+      "quiz": [
+        {
+          "question": "How much does visual content increase engagement?",
+          "options": [
+            "45%",
+            "50%",
+            "55%",
+            "60%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By how much does structured text improve readability?",
+          "options": [
+            "28%",
+            "33%",
+            "38%",
+            "43%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much do interactive elements boost retention?",
+          "options": [
+            "32%",
+            "37%",
+            "42%",
+            "47%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By what percentage do clear CTAs increase conversions?",
+          "options": [
+            "22%",
+            "27%",
+            "32%",
+            "37%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's most important for content design?",
+          "options": [
+            "Animation",
+            "Hierarchy",
+            "Decoration",
+            "Colors"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's a common content mistake?",
+          "options": [
+            "Using visuals",
+            "Clear structure",
+            "Walls of text",
+            "Using headings"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What improves content accessibility?",
+          "options": [
+            "More animation",
+            "Semantic HTML",
+            "Bright colors",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should be used for consistent styling?",
+          "options": [
+            "Inline styles",
+            "Hard-coded values",
+            "CSS custom properties",
+            "Random values"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's essential for mobile content?",
+          "options": [
+            "Animations",
+            "Responsive design",
+            "Decorations",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What helps maintain readability?",
+          "options": [
+            "Dense paragraphs",
+            "No spacing",
+            "Small text",
+            "Proper formatting"
+          ],
+          "correct": 3
+        }
+      ]
       },
       {
         "id": 4,
@@ -6212,36 +6311,414 @@ const defaultCourseModules = [
       {
         "id": 14,
         "title": "Processes",
-        "content": "Learn to visualize steps, workflows, and processes effectively.",
-        "quiz": [
-          {
-            "question": "What makes process visualization effective?",
-            "options": [
-              "Clear steps",
-              "Visual hierarchy",
-              "Progress indicators",
-              "All of the above"
-            ],
-            "correct": 3
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Clear Process Sections! 🔄</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Build Process Pages That Guide & Inform! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed process section doesn't just list steps - it guides users through your workflow and builds confidence in your methodology! 🎯"
+            <footer class="text-sm mt-2">- UX Process Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Process Sections! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective process sections:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Plan your process flow</li>
+                  <li>Create clear step markers</li>
+                  <li>Add progress indicators</li>
+                  <li>Include visual elements</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Step numbers:</span> Clear progression!</li>
+                  <li><span class="font-semibold">Timeline:</span> Visual flow</li>
+                  <li><span class="font-semibold">Icons:</span> Easy recognition</li>
+                  <li><span class="font-semibold">Responsive:</span> All devices</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use consistent step formats</li>
+                <li>Add connecting lines</li>
+                <li>Include progress bars</li>
+                <li>Implement animations</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Process Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Clear processes increase understanding by 70%! 👀</li>
+                <li>Visual timelines improve retention by 45%! 📊</li>
+                <li>Interactive steps boost engagement by 55%! 📱</li>
+                <li>Progress indicators reduce dropout by 38%! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Performance Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Optimize timeline animations 🖼️</li>
+                <li>Use SVG for icons 🚀</li>
+                <li>Implement smooth transitions ♾️</li>
+                <li>Cache process steps data 💨</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Unclear step progression</li>
+                <li>Missing visual connections</li>
+                <li>Poor mobile adaptation</li>
+                <li>Overcomplicated design</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">Track where users drop off in your process!</p>
+            <p class="mt-2">Use micro-animations for better engagement! ⚡</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Map Your Process? 🎨</p>
+            <p class="text-lg mt-2">Create process sections that guide users smoothly through your workflow!</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "How much do clear process steps improve understanding?",
+          "options": [
+            "45%",
+            "50%",
+            "55%",
+            "60%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By how much do visual timelines increase retention?",
+          "options": [
+            "28%",
+            "33%",
+            "38%",
+            "43%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much do interactive processes boost engagement?",
+          "options": [
+            "32%",
+            "37%",
+            "42%",
+            "47%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By what percentage do progress indicators reduce dropouts?",
+          "options": [
+            "22%",
+            "27%",
+            "32%",
+            "37%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's most important for process design?",
+          "options": [
+            "Animation",
+            "Clarity",
+            "Decoration",
+            "Colors"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's a common process section mistake?",
+          "options": [
+            "Using clear steps",
+            "Maintaining flow",
+            "Complex design",
+            "Following order"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What improves process accessibility?",
+          "options": [
+            "More animation",
+            "Semantic HTML",
+            "Bright colors",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should be used for consistent styling?",
+          "options": [
+            "Inline styles",
+            "Hard-coded values",
+            "CSS custom properties",
+            "Random values"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's essential for mobile processes?",
+          "options": [
+            "Animations",
+            "Responsive design",
+            "Decorations",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What helps maintain process flow?",
+          "options": [
+            "Random spacing",
+            "Varying styles",
+            "Multiple designs",
+            "Visual connectors"
+          ],
+          "correct": 3
+        }
+      ]
       },
       {
         "id": 15,
         "title": "Signup",
-        "content": "Create user-friendly signup forms with proper validation and feedback.",
-        "quiz": [
-          {
-            "question": "What is essential for signup forms?",
-            "options": [
-              "Error handling",
-              "Password requirements",
-              "Clear instructions",
-              "All of the above"
-            ],
-            "correct": 3
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Converting Sign-up Forms! 📝</h2>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Build Sign-up Forms That Convert & Delight! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed sign-up form doesn't just collect data - it welcomes users and starts their journey on the right note! 🚀"
+            <footer class="text-sm mt-2">- Conversion Rate Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Sign-ups! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective sign-up forms:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Minimize required fields</li>
+                  <li>Add clear validation</li>
+                  <li>Implement social sign-up</li>
+                  <li>Show progress steps</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Form fields:</span> Clear labels!</li>
+                  <li><span class="font-semibold">Validation:</span> Real-time feedback</li>
+                  <li><span class="font-semibold">Buttons:</span> Clear CTAs</li>
+                  <li><span class="font-semibold">Mobile:</span> Touch-friendly</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Single-column layout</li>
+                <li>Inline validation</li>
+                <li>Password strength meter</li>
+                <li>Auto-formatting inputs</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Sign-up Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Social proof boosts conversions by 70%! 👀</li>
+                <li>Real-time validation improves completion by 45%! 📊</li>
+                <li>Mobile optimization increases signups by 55%! 📱</li>
+                <li>Progress indicators reduce abandonment by 38%! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Performance Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Optimize form submission 🖼️</li>
+                <li>Use async validation 🚀</li>
+                <li>Implement auto-save ♾️</li>
+                <li>Cache form data locally 💨</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Too many required fields</li>
+                <li>Unclear error messages</li>
+                <li>Poor mobile experience</li>
+                <li>No password guidance</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">Track form abandonment points!</p>
+            <p class="mt-2">Use smart defaults for better UX! ⚡</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Convert Visitors? 🎨</p>
+            <p class="text-lg mt-2">Create sign-up forms that make registration a breeze!</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "How much does social proof increase sign-up rates?",
+          "options": [
+            "45%",
+            "50%",
+            "55%",
+            "60%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By how much does real-time validation improve completion?",
+          "options": [
+            "28%",
+            "33%",
+            "38%",
+            "43%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much does mobile optimization boost signups?",
+          "options": [
+            "32%",
+            "37%",
+            "42%",
+            "47%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By what percentage do progress indicators reduce abandonment?",
+          "options": [
+            "22%",
+            "27%",
+            "32%",
+            "37%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's most important for sign-up forms?",
+          "options": [
+            "Animation",
+            "Simplicity",
+            "Decoration",
+            "Colors"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's a common sign-up form mistake?",
+          "options": [
+            "Clear labels",
+            "Validation",
+            "Too many fields",
+            "Progress bars"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What improves form accessibility?",
+          "options": [
+            "More animation",
+            "Semantic HTML",
+            "Bright colors",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should be used for consistent styling?",
+          "options": [
+            "Inline styles",
+            "Hard-coded values",
+            "CSS custom properties",
+            "Random values"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's essential for mobile forms?",
+          "options": [
+            "Animations",
+            "Touch-friendly",
+            "Decorations",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What helps reduce form abandonment?",
+          "options": [
+            "More fields",
+            "Complex validation",
+            "No feedback",
+            "Clear progress"
+          ],
+          "correct": 3
+        }
+      ]
       },
       {
         "id": 16,
