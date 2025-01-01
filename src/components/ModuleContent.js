@@ -8720,7 +8720,99 @@ const defaultCourseModules = [
         "id": 1,
         "title": "Review and Practical Exercises",
         "content": "Revise key concepts and complete practical exercises to strengthen your understanding.",
-        "quiz": []
+        "quiz": [
+          {
+            "question": "Who are the co-founders of African Website Builders?",
+            "options": [
+              "Fresh Teacher",
+              "Mr. Angel & Mr. Zion",
+              "Ms. Grace & Mr. Angel",
+              "Mr. Zion & Dr. Smith"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How much monthly income can you earn per active website?",
+            "options": [
+              "£5 (UGX 24,000)",
+              "£7 (UGX 33,600)",
+              "£10 (UGX 48,000)",
+              "£15 (UGX 72,000)"
+            ],
+            "correct": 1
+          }
+          ,
+          {
+            "question": "What is the target number of websites recommended to build?",
+            "options": [
+              "10 websites",
+              "15 websites",
+              "20 websites",
+              "25 websites"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is the potential yearly earnings from 20 active websites?",
+            "options": [
+              "£1,200 (UGX 5,760,000)",
+              "£1,480 (UGX 7,104,000)",
+              "£1,680 (UGX 8,064,000)",
+              "£2,000 (UGX 9,600,000)"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What makes Zylosite accessible to beginners?",
+            "options": [
+              "It requires coding knowledge",
+              "It needs programming experience",
+              "It has a drag-and-drop interface",
+              "It requires web design certification"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What comprehensive support package does AWB provide?",
+            "options": [
+              "Only technical support",
+              "Just website templates",
+              "Expert training, certification, job market access, and business team support",
+              "Only client connections"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "How does the AWB website builder earn you recurring income?",
+            "options": [
+              "Through one-time website sales",
+              "From monthly hosting fees",
+              "By selling domains",
+              "Through advertising revenue"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which tool will you use to create and manage your website?",
+            "options": [
+              "WordPress",
+              "GoDaddy",
+              "Wix",
+              "Zylosite"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What ongoing work is required to maintain the passive income?",
+            "options": [
+              "Complete website rebuilds",
+              "Daily content updates",
+              "Simple maintenance and updates",
+              "Weekly client meetings"
+            ],
+            "correct": 2
+          }
+        ]
       }
     ]
   },
