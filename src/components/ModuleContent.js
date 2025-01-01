@@ -4170,6 +4170,10 @@ const defaultCourseModules = [
         "title": "Call to action",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Irresistible Calls to Action! 🎯</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Call_To_Action(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Master the Art of CTAs! ✨</h3> <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
           "A great CTA is like a friendly guide showing the way - clear, inviting, and impossible to miss!" 
@@ -4375,7 +4379,10 @@ const defaultCourseModules = [
         "title": "Contact",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Let's Make Your Contact Form Awesome! ✨</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Contact(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Connect with Your Visitors? 🤝</h3>
           
@@ -4479,7 +4486,10 @@ const defaultCourseModules = [
         "title": "Content",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Engaging Content Sections! ✍️</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Content(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Build Content That Captivates & Converts! ✨</h3>
           
@@ -4683,26 +4693,221 @@ const defaultCourseModules = [
       {
         "id": 4,
         "title": "Countdown timers",
-        "content": "Learn to implement dynamic countdown timers for events, launches, and promotions.",
-        "quiz": [
-          {
-            "question": "What is a common use for countdown timers?",
-            "options": [
-              "Product launches",
-              "Limited time offers",
-              "Event countdowns",
-              "All of the above"
-            ],
-            "correct": 3
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create Engaging Countdown Timers! ⏰</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Countdown_timer(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Build Countdowns That Create Urgency & Drive Action! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed countdown doesn't just show time - it creates excitement and motivates action through urgency! ⚡"
+            <footer class="text-sm mt-2">- Conversion Design Expert</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Getting Started with Countdowns! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Here's your guide to creating effective countdown timers:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Choose timer format</li>
+                  <li>Set clear deadlines</li>
+                  <li>Add visual elements</li>
+                  <li>Include call-to-actions</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li><span class="font-semibold">Timer display:</span> Clear digits!</li>
+                  <li><span class="font-semibold">Labels:</span> Time units</li>
+                  <li><span class="font-semibold">Animation:</span> Smooth ticking</li>
+                  <li><span class="font-semibold">Mobile:</span> Responsive design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use clear typography</li>
+                <li>Add visual separators</li>
+                <li>Include progress bars</li>
+                <li>Implement flip animations</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🤓 Countdown Psychology!</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Urgency increases conversions by 70%! 👀</li>
+                <li>Visual timers boost engagement by 45%! 📊</li>
+                <li>Mobile countdowns improve CTR by 55%! 📱</li>
+                <li>Animated timers increase attention by 38%! 🎯</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">🎯 Performance Tips</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Optimize animations 🖼️</li>
+                <li>Use requestAnimationFrame 🚀</li>
+                <li>Implement server sync ♾️</li>
+                <li>Cache time calculations 💨</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Inaccurate timers</li>
+                <li>Missing time zones</li>
+                <li>Poor mobile display</li>
+                <li>Unclear deadlines</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <p class="mt-2">Track engagement metrics near deadlines!</p>
+            <p class="mt-2">Use dynamic CTAs based on time left! ⚡</p>
+          </div>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Urgency? ⏱️</p>
+            <p class="text-lg mt-2">Build countdown timers that motivate action and drive conversions!</p>
+          </div>
+        </div>
+      </div>`,      
+      "quiz": [
+        {
+          "question": "How much do countdown timers increase conversion rates?",
+          "options": [
+            "45%",
+            "50%",
+            "55%",
+            "60%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By how much do visual timers boost engagement?",
+          "options": [
+            "28%",
+            "33%",
+            "38%",
+            "43%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How much do mobile countdowns improve CTR?",
+          "options": [
+            "32%",
+            "37%",
+            "42%",
+            "47%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "By what percentage do animated timers increase attention?",
+          "options": [
+            "22%",
+            "27%",
+            "32%",
+            "37%"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's most important for countdown design?",
+          "options": [
+            "Animation",
+            "Accuracy",
+            "Decoration",
+            "Colors"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What's a common countdown mistake?",
+          "options": [
+            "Clear display",
+            "Regular updates",
+            "Time zone issues",
+            "Visual feedback"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What improves countdown accessibility?",
+          "options": [
+            "More animation",
+            "Semantic HTML",
+            "Bright colors",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should be used for consistent styling?",
+          "options": [
+            "Inline styles",
+            "Hard-coded values",
+            "CSS custom properties",
+            "Random values"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's essential for mobile countdowns?",
+          "options": [
+            "Animations",
+            "Responsive digits",
+            "Decorations",
+            "Gradients"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What helps increase countdown effectiveness?",
+          "options": [
+            "Random timers",
+            "No labels",
+            "Hidden digits",
+            "Clear deadlines"
+          ],
+          "correct": 3
+        }
+      ]
       },
       {
         "id": 5,
         "title": "Dividers",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Stunning Image Galleries! 🖼️</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Dividers(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Design Galleries That Captivate & Convert! ✨</h3>
           
@@ -5233,29 +5438,210 @@ const defaultCourseModules = [
         }
       ]
     },
-      {
-        "id": 7,
-        "title": "Features",
-        "content": "Learn to showcase product or service features effectively using various layout patterns.",
-        "quiz": [
-          {
-            "question": "What makes feature sections effective?",
-            "options": [
-              "Clear icons",
-              "Concise descriptions",
-              "Relevant benefits",
-              "All of the above"
-            ],
-            "correct": 3
-          }
-        ]
-      },
+    {
+      "id": 7,
+      "title": "Features",
+      "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Let's Master Feature Sections! 🎯</h2>
+        
+        <div class="bg-gradient-to-r from-green-50 to-teal-50 dark:from-green-900/30 dark:to-teal-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Transform Your Features into Success Stories! ✨</h3>
+          
+          <blockquote class="border-l-4 border-green-500 pl-4 italic mb-4 text-lg">
+            "Features tell, benefits sell - but together, they excel!" 
+            <footer class="text-sm mt-2">- Marketing Wisdom 101 💫</footer>
+          </blockquote>
+    
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-emerald-50 dark:bg-emerald-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Feature Section Essentials! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Ready to create stunning feature sections? Here's your game plan:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Choose a clear, organized layout that guides the eye</li>
+                  <li>Use consistent, meaningful icons that represent each feature</li>
+                  <li>Write compelling headlines that grab attention</li>
+                  <li>Add concise descriptions that focus on benefits</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+    
+          <div class="bg-teal-50 dark:bg-teal-800 p-4 rounded-lg mb-6">
+            <h5 class="font-semibold">Popular Feature Layouts 📋</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="space-y-4">
+                <div class="border-b pb-4">
+                  <p class="font-semibold">Grid Layout 📱</p>
+                  <p class="mt-2">Perfect for showcasing multiple features with equal importance. Creates a clean, organized look that's easy to scan.</p>
+                </div>
+                
+                <div class="border-b pb-4">
+                  <p class="font-semibold">List Format 📝</p>
+                  <p class="mt-2">Ideal for detailed features that need more explanation. Great for step-by-step processes or complex features.</p>
+                </div>
+                
+                <div class="border-b pb-4">
+                  <p class="font-semibold">Cards Design 🎴</p>
+                  <p class="mt-2">Excellent for visual separation and highlighting individual features. Perfect for responsive designs!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="bg-cyan-50 dark:bg-cyan-800 p-4 rounded-lg mb-6">
+            <h5 class="font-semibold">Writing Feature Copy That Converts! ✍️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Start with a clear, benefit-driven headline</li>
+                <li>Use active voice and power words</li>
+                <li>Focus on solving user problems</li>
+                <li>Include social proof when possible</li>
+                <li>Keep descriptions scannable and concise</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-6">
+            <h5 class="font-semibold">Pro Tips for Feature Design! 💡</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="space-y-4">
+                <div class="border-b pb-4">
+                  <p class="font-semibold">Use White Space Wisely 🎨</p>
+                  <p class="mt-2">Give your features room to breathe! Proper spacing improves readability and visual appeal.</p>
+                </div>
+                
+                <div class="border-b pb-4">
+                  <p class="font-semibold">Maintain Consistency 🎯</p>
+                  <p class="mt-2">Keep your icons, colors, and typography consistent throughout your feature section.</p>
+                </div>
+                
+                <div class="border-b pb-4">
+                  <p class="font-semibold">Mobile-First Approach 📱</p>
+                  <p class="mt-2">Design with mobile users in mind first, then expand for larger screens.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-teal-600 dark:text-teal-300">Ready to Create Amazing Feature Sections? 🌟</p>
+            <p class="text-lg mt-2">Remember, great features don't just list what your product does - they show how it makes your users' lives better! 💪</p>
+          </div>
+        </div>
+      </div>`,
+      "quiz": [
+        {
+          "question": "What is the primary purpose of a feature section?",
+          "options": [
+            "To list product specifications",
+            "To showcase company history",
+            "To demonstrate value and benefits to users",
+            "To display pricing information"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which layout is best for showcasing multiple features with equal importance?",
+          "options": [
+            "Grid Layout",
+            "List Format",
+            "Timeline Layout",
+            "Carousel Layout"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What is an essential element of effective feature copy?",
+          "options": [
+            "Technical jargon",
+            "Long descriptions",
+            "Benefit-driven headlines",
+            "Complex explanations"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How should you approach feature section design?",
+          "options": [
+            "Desktop-first",
+            "Mobile-first",
+            "Tablet-first",
+            "Print-first"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What makes card design effective for featuring products?",
+          "options": [
+            "It's more expensive",
+            "It's harder to implement",
+            "It provides visual separation",
+            "It requires more code"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What should you maintain throughout your feature section?",
+          "options": [
+            "Varying fonts",
+            "Different color schemes",
+            "Consistency in design",
+            "Random layouts"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which is a key principle of writing feature descriptions?",
+          "options": [
+            "Use technical language",
+            "Focus on solving user problems",
+            "Write long paragraphs",
+            "Avoid mentioning benefits"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What role does white space play in feature design?",
+          "options": [
+            "It wastes space",
+            "It improves readability",
+            "It reduces content",
+            "It increases costs"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should you include with feature descriptions when possible?",
+          "options": [
+            "Company history",
+            "Social proof",
+            "Pricing details",
+            "Legal disclaimers"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which format is best for explaining complex features in detail?",
+          "options": [
+            "Grid Layout",
+            "List Format",
+            "Card Design",
+            "Carousel Format"
+          ],
+          "correct": 1
+        }
+      ]
+    },
       {
         "id": 8,
         "title": "Footers",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Perfect Website Footers! 🏗️</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Footer(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Design Footers That Convert & Connect! ✨</h3>
           
@@ -5461,7 +5847,10 @@ const defaultCourseModules = [
         "title": "Gallery",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Stunning Image Galleries! 🖼️</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Gallery(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Design Galleries That Captivate & Convert! ✨</h3>
           
@@ -5665,17 +6054,218 @@ const defaultCourseModules = [
       {
         "id": 10,
         "title": "Headers",
-        "content": "Design effective headers that provide navigation and establish brand identity.",
+        "content": `<div class="space-y-6">
+          <h2 class="text-2xl font-bold">Let's Create Awesome Headers! 🎨</h2>
+          <video className="w-full rounded-lg" controls>
+          <source src="https://awb-silk.vercel.app/Header(720p).mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video><br>
+          <div class="bg-gradient-to-r from-indigo-50 to-violet-50 dark:from-indigo-900/30 dark:to-violet-900/30 p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-4 text-center">Make That First Impression Count! 🌟</h3>
+            
+            <blockquote class="border-l-4 border-indigo-500 pl-4 italic mb-4 text-lg">
+              "Your header is your website's handshake - make it firm, friendly, and memorable!" 
+              <footer class="text-sm mt-2">- Web Design Wisdom 🤝</footer>
+            </blockquote>
+      
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+              <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Header Must-Haves! 🎯</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                  <p class="mb-4">Here's your header checklist for success:</p>
+                  <ol class="list-decimal pl-4 space-y-2">
+                    <li>Clear, visible logo or brand name</li>
+                    <li>Intuitive navigation menu</li>
+                    <li>Call-to-action button</li>
+                    <li>Responsive design that works on all devices</li>
+                    <li>Quick-access links to key pages</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+      
+            <div class="bg-violet-50 dark:bg-violet-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Popular Header Styles 🎨</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="space-y-4">
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Classic Fixed Header 📌</p>
+                    <p class="mt-2">Stays at the top while scrolling. Perfect for easy navigation on long pages!</p>
+                  </div>
+                  
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Hamburger Menu 🍔</p>
+                    <p class="mt-2">Space-saving icon that expands into a full menu. Great for mobile and minimal designs!</p>
+                  </div>
+                  
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Transparent Header 🌈</p>
+                    <p class="mt-2">Blends with the hero section for a seamless look. Perfect for landing pages!</p>
+                  </div>
+      
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Mega Menu Header 🌟</p>
+                    <p class="mt-2">Expandable menu with multiple columns. Ideal for sites with lots of content!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Header Design Best Practices! 💡</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>Keep it clean and uncluttered</li>
+                  <li>Ensure text is readable against the background</li>
+                  <li>Maintain consistent branding</li>
+                  <li>Include search functionality if needed</li>
+                  <li>Make CTAs stand out with contrasting colors</li>
+                  <li>Consider mobile users first</li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="bg-fuchsia-50 dark:bg-fuchsia-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Header Components & Features 🛠️</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="space-y-4">
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Navigation Elements 🧭</p>
+                    <p class="mt-2">Logo, menu items, search bar, language selector, and user account options.</p>
+                  </div>
+                  
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Interactive Features 🎮</p>
+                    <p class="mt-2">Dropdown menus, search autocomplete, and hover effects.</p>
+                  </div>
+                  
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Responsive Behaviors 📱</p>
+                    <p class="mt-2">Collapsible menus, adaptive layouts, and touch-friendly elements.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Common Header Mistakes to Avoid! ⚠️</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>Too many menu items causing confusion</li>
+                  <li>Poor contrast making text hard to read</li>
+                  <li>Oversized logos taking up too much space</li>
+                  <li>Non-responsive designs breaking on mobile</li>
+                  <li>Missing clear call-to-action buttons</li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="mt-6 text-center">
+              <p class="text-xl font-bold text-indigo-600 dark:text-indigo-300">Ready to Create Your Perfect Header? 🚀</p>
+              <p class="text-lg mt-2">Remember, a great header guides your visitors and makes your site a joy to navigate! Let's build something amazing! 💫</p>
+            </div>
+          </div>
+        </div>`,
         "quiz": [
           {
-            "question": "What is a key component of a header?",
+            "question": "What is the primary purpose of a website header?",
             "options": [
-              "Logo",
-              "Navigation menu",
-              "Search bar",
-              "All of the above"
+              "To make the website prettier",
+              "To provide navigation and branding",
+              "To fill empty space",
+              "To show advertisements"
             ],
-            "correct": 3
+            "correct": 1
+          },
+          {
+            "question": "Which header style is best for mobile-first designs?",
+            "options": [
+              "Mega Menu",
+              "Hamburger Menu",
+              "Fixed Header",
+              "Transparent Header"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is a must-have element in a website header?",
+            "options": [
+              "Social media links",
+              "Weather widget",
+              "Logo or brand name",
+              "Newsletter signup"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What makes a fixed header useful?",
+            "options": [
+              "It uses less code",
+              "It stays visible while scrolling",
+              "It loads faster",
+              "It costs less"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which header component is essential for sites with lots of content?",
+            "options": [
+              "Search functionality",
+              "Social media icons",
+              "Language selector",
+              "Weather widget"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What's a key consideration for header CTAs?",
+            "options": [
+              "Using multiple fonts",
+              "Making them blend in",
+              "Using contrasting colors",
+              "Making them small"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which is a common header design mistake?",
+            "options": [
+              "Too few menu items",
+              "Too many menu items",
+              "Using a logo",
+              "Including navigation"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What type of header works well with hero sections?",
+            "options": [
+              "Fixed Header",
+              "Mega Menu",
+              "Transparent Header",
+              "Hamburger Menu"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What should be prioritized when designing a header?",
+            "options": [
+              "Desktop users",
+              "Mobile users",
+              "Tablet users",
+              "Print layout"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which is a key principle of header design?",
+            "options": [
+              "Cluttered layout",
+              "Clean and uncluttered design",
+              "Multiple fonts",
+              "Small text"
+            ],
+            "correct": 1
           }
         ]
       },
@@ -6107,7 +6697,10 @@ const defaultCourseModules = [
         "title": "Pricing",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Perfect Pricing Tables! 💰</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Pricing(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Show Your Value with Style! ✨</h3>
           
@@ -6313,7 +6906,10 @@ const defaultCourseModules = [
         "title": "Processes",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Clear Process Sections! 🔄</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Processes(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Build Process Pages That Guide & Inform! ✨</h3>
           
@@ -6519,7 +7115,10 @@ const defaultCourseModules = [
         "title": "Signup",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Converting Sign-up Forms! 📝</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Sign_Up(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Build Sign-up Forms That Convert & Delight! ✨</h3>
           
@@ -6931,7 +7530,10 @@ const defaultCourseModules = [
         "title": "Subscribe",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Converting Subscribe Forms! 📧</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Subscribe(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Turn Visitors into Subscribers! ✨</h3>
           
@@ -7137,7 +7739,10 @@ const defaultCourseModules = [
         "title": "Team",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Engaging Team Sections! 👥</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Team(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Build Team Pages That Connect & Inspire! ✨</h3>
           
@@ -7343,7 +7948,10 @@ const defaultCourseModules = [
         "title": "Testimonials",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Powerful Testimonials! 💬</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Testimonal(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Build Trust With Authentic Customer Stories! ✨</h3>
           
@@ -7548,17 +8156,232 @@ const defaultCourseModules = [
       {
         "id": 20,
         "title": "Titles",
-        "content": "Learn to create impactful page titles and section headings.",
+        "content": `<div class="space-y-6">
+          <h2 class="text-2xl font-bold">Craft Perfect Titles That Grab Attention! 📝</h2>
+          <video className="w-full rounded-lg" controls>
+          <source src="https://awb-silk.vercel.app/Titles(720p).mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video><br>
+          <div class="bg-gradient-to-r from-rose-50 to-orange-50 dark:from-rose-900/30 dark:to-orange-900/30 p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-4 text-center">Make Your Titles Stand Out! ✨</h3>
+            
+            <blockquote class="border-l-4 border-rose-500 pl-4 italic mb-4 text-lg">
+              "A great title is like a key - it unlocks your reader's attention!" 
+              <footer class="text-sm mt-2">- Content Creation 101 🔑</footer>
+            </blockquote>
+      
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+              <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Title Writing Essentials! 🎯</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                  <p class="mb-4">Your title checklist for success:</p>
+                  <ol class="list-decimal pl-4 space-y-2">
+                    <li>Clear and concise messaging</li>
+                    <li>Compelling keywords that grab attention</li>
+                    <li>Proper length for different platforms</li>
+                    <li>Alignment with content purpose</li>
+                    <li>SEO-friendly structure</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+      
+            <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Title Types & Their Uses 📚</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="space-y-4">
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Question Titles ❓</p>
+                    <p class="mt-2">Engage readers by addressing their curiosity. Perfect for blog posts and FAQs!</p>
+                  </div>
+                  
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">How-To Titles 🛠️</p>
+                    <p class="mt-2">Clear, action-oriented titles that promise solutions. Great for tutorials and guides!</p>
+                  </div>
+                  
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">List Titles 📋</p>
+                    <p class="mt-2">Numbers grab attention and set clear expectations. Ideal for tips and strategies!</p>
+                  </div>
+      
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Statement Titles 📢</p>
+                    <p class="mt-2">Bold declarations that make readers think. Perfect for thought leadership!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="bg-amber-50 dark:bg-amber-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Title Writing Best Practices! 💡</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>Use power words that evoke emotion</li>
+                  <li>Keep it under 60 characters for SEO</li>
+                  <li>Include relevant keywords naturally</li>
+                  <li>Make it specific and meaningful</li>
+                  <li>Test different variations</li>
+                  <li>Ensure it matches the content</li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Title Formatting Tips 🎨</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="space-y-4">
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Typography 🔤</p>
+                    <p class="mt-2">Choose readable fonts, proper sizing, and clear hierarchy.</p>
+                  </div>
+                  
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Color & Contrast 🎨</p>
+                    <p class="mt-2">Ensure readability with appropriate color choices and contrast ratios.</p>
+                  </div>
+                  
+                  <div class="border-b pb-4">
+                    <p class="font-semibold">Spacing & Alignment ↔️</p>
+                    <p class="mt-2">Give titles room to breathe with proper margins and padding.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Common Title Mistakes to Avoid! ⚠️</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>Clickbait that doesn't deliver</li>
+                  <li>Keyword stuffing</li>
+                  <li>Being too vague or generic</li>
+                  <li>Making it too long</li>
+                  <li>Forgetting mobile optimization</li>
+                  <li>Inconsistent capitalization</li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-6">
+              <h5 class="font-semibold">Title SEO Tips 🔍</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>Include primary keyword near the beginning</li>
+                  <li>Use numbers and power words</li>
+                  <li>Keep it under 60 characters</li>
+                  <li>Make it unique and descriptive</li>
+                  <li>Use modifiers like "best," "guide," "how to"</li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="mt-6 text-center">
+              <p class="text-xl font-bold text-rose-600 dark:text-rose-300">Ready to Write Attention-Grabbing Titles? 🌟</p>
+              <p class="text-lg mt-2">Remember, your title is your content's first impression - make it count! Let's create something amazing! 💫</p>
+            </div>
+          </div>
+        </div>`,
         "quiz": [
           {
-            "question": "What makes a good title?",
+            "question": "What is the recommended character limit for SEO-friendly titles?",
             "options": [
-              "Clarity",
-              "Relevance",
-              "Proper hierarchy",
-              "All of the above"
+              "40 characters",
+              "60 characters",
+              "80 characters",
+              "100 characters"
             ],
-            "correct": 3
+            "correct": 1
+          },
+          {
+            "question": "Which type of title is best for tutorial content?",
+            "options": [
+              "Question Titles",
+              "How-To Titles",
+              "List Titles",
+              "Statement Titles"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Where should the primary keyword be placed in a title?",
+            "options": [
+              "At the end",
+              "In the middle",
+              "Near the beginning",
+              "Anywhere is fine"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is a common title writing mistake?",
+            "options": [
+              "Using power words",
+              "Including numbers",
+              "Keyword stuffing",
+              "Being specific"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which element is most important for title formatting?",
+            "options": [
+              "Fancy fonts",
+              "Multiple colors",
+              "Readability",
+              "Animation"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What makes list titles effective?",
+            "options": [
+              "They're longer",
+              "They use numbers",
+              "They're mysterious",
+              "They use jargon"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should you consider when formatting titles?",
+            "options": [
+              "Only desktop view",
+              "Only mobile view",
+              "Multiple device views",
+              "Print view only"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which is a recommended SEO practice for titles?",
+            "options": [
+              "Using misleading keywords",
+              "Making it as long as possible",
+              "Using power words",
+              "Avoiding keywords"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What makes a title 'clickbait'?",
+            "options": [
+              "Being specific",
+              "Not delivering on promises",
+              "Using numbers",
+              "Including keywords"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should a great title always do?",
+            "options": [
+              "Be as long as possible",
+              "Use technical jargon",
+              "Match the content",
+              "Avoid keywords"
+            ],
+            "correct": 2
           }
         ]
       },
@@ -7567,7 +8390,10 @@ const defaultCourseModules = [
         "title": "Popups",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Pop Into Action! 🎉</h2>
-        
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Pop_Ups(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Let's Make Those Popups Pop! 💫</h3>
           
@@ -7907,7 +8733,10 @@ const defaultCourseModules = [
         "title": "Creating Countdown Timers",
         "content": `<div class="space-y-6">
     <h2 class="text-2xl font-bold">Create Exciting Countdown Timers! ⏰</h2>
-    
+    <video className="w-full rounded-lg" controls>
+    <source src="https://awb-silk.vercel.app/Countdown_timer(720p).mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video><br>
     <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
       <h3 class="text-2xl font-semibold mb-4 text-center">Add Some Excitement to Your Site! ✨</h3>
       
