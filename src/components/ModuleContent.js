@@ -4162,7 +4162,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Components",
     "units": [
       {
@@ -7774,7 +7774,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Rebuild & Speed Test",
     "units": [
       {
@@ -7887,7 +7887,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Recap and Practice",
     "units": [
       {
@@ -7899,7 +7899,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "Countdowns",
     "units": [
       {
@@ -8111,7 +8111,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Optimisation and Branding",
     "units": [
       {
@@ -8129,7 +8129,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "AWB Tutor Course - Part 1",
     "units": [
       {
@@ -8141,7 +8141,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "AWB Tutor Course - Part 2",
     "units": [
       {
@@ -8153,7 +8153,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Freelancing Readiness",
     "units": [
       {
@@ -8165,7 +8165,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Sales Strategies",
     "units": [
       {
