@@ -4043,7 +4043,7 @@ const defaultCourseModules = [
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
           <h5 class="font-semibold">Pro Tip! 💡</h5>
           <p class="mt-2">Save frequently while editing your nav bar - better safe than sorry! 💾</p>
-          <p class="mt-2">Need to undo changes? Use the reset button to start fresh! 🔄</p>
+          <p class="mt-2">Need to undo changes? Use the referesh button to start afresh! 🔄</p>
         </div>
     
       
@@ -4169,209 +4169,283 @@ const defaultCourseModules = [
         "id": 1,
         "title": "Call to action",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Irresistible Calls to Action! 🎯</h2>
+        <h2 class="text-2xl font-bold">Create Irresistible Call-to-Actions! 🎯</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Call_To_Action(720p).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Master the Art of CTAs! ✨</h3> <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-          "A great CTA is like a friendly guide showing the way - clear, inviting, and impossible to miss!" 
-          <footer class="text-sm mt-2">- Every Marketing Expert Ever</footer>
-        </blockquote>
-        
-        <div class="bg-white/50 p-6 rounded-lg mb-6">
-          <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Getting Started with CTAs! 🚀</h5>
+          <h3 class="text-2xl font-semibold mb-4 text-center">Let's Make Your Visitors Click! ✨</h3>
+          
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+             "A great Call-to-Action is like a friendly invitation to dance - make it hard to resist! 💃"
+            <footer class="text-sm mt-2">- Your Marketing Buddy</footer>
+          </blockquote>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Let's Get Started! 🚀</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Creating your perfect CTA is super fun! Here's how:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Skip over to the Blocks Section</li>
+                  <li>Find the magical Call-to-Action button</li>
+                  <li>Pick a template that makes you go "Wow!" 🤩</li>
+                  <li>Just drag and drop it where you want the magic to happen!</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Make It Pretty! 🎨</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Time to style your CTA (the fun part!):</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Click the friendly cog icon</li>
+                  <li>Play with these cool options:
+                    <ul class="list-disc pl-6 mt-2">
+                      <li>Pick your perfect background color 🎨</li>
+                      <li>Add a fancy overlay effect ✨</li>
+                      <li>Choose a stunning background image 🖼️</li>
+                      <li>Adjust padding (top and bottom) for that perfect fit 📏</li>
+                      <li>Position it just right (center, left, right) 🎯</li>
+                      <li>Toggle Parallax for some extra wow! 🌟</li>
+                    </ul>
+                  </li>
+                  <li>Don't forget to hit "Apply Changes" - super important! 💫</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Add Some Eye-Candy! 🖼️</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
-              <p class="mb-4">Creating effective CTAs is easy:</p>
+              <p class="mb-4">Let's add a gorgeous image:</p>
               <ol class="list-decimal pl-4 space-y-2">
-                <li>Head to Components section</li>
-                <li>Find the Call to Action templates</li>
-                <li>Pick your favorite design and drag it to the canvas</li>
-                <li>Click to edit text, style, and links ⚙️</li>
+                <li>Click "Background Image" (exciting!)</li>
+                <li>Choose from:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>My Images (your personal collection) 📁</li>
+                    <li>Other Images (pre-loaded goodies) 🎁</li>
+                    <li>Free Stock Photos (endless possibilities!) 📸</li>
+                  </ul>
+                </li>
+                <li>Pick your favorite and upload! 🚀</li>
               </ol>
             </div>
           </div>
-        </div>
-        
-        <div class="bg-white/50 p-6 rounded-lg mb-6">
-          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Your Perfect CTA! 🎨</h5>
+
+        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Make Your Text Pop! 📝</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
-              <p class="mb-4">Essential elements to consider:</p>
-              <ul class="list-disc pl-4 space-y-2">
-                <li><span class="font-semibold">Button Text:</span> Clear, action-oriented words</li>
-                <li><span class="font-semibold">Colors:</span> High contrast for visibility</li>
-                <li><span class="font-semibold">Size:</span> Large enough to stand out</li>
-                <li><span class="font-semibold">Placement:</span> Strategic positioning on the page</li>
-                <li><span class="font-semibold">White Space:</span> Room to breathe and grab attention</li>
-              </ul>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Click that handy cog icon again</li>
+                <li>Choose between:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Style: Make it look amazing! ✨
+                      <ul class="list-disc pl-6 mt-2">
+                        <li>Play with margins (top and bottom)</li>
+                        <li>Pick perfect colors (background, border, text)</li>
+                        <li>Choose your size (huge, default, small, extra small)</li>
+                        <li>Make it block-style if you want!</li>
+                      </ul>
+                    </li>
+                    <li>Link: Make it clickable! 🔗
+                      <ul class="list-disc pl-6 mt-2">
+                        <li>Add a URL (go anywhere!)</li>
+                        <li>Use # to scroll to sections (smooth!)</li>
+                        <li>Link to other pages (explore!)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ol>
             </div>
           </div>
-        </div>
-        
-        <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">Writing Compelling CTA Copy! ✍️</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
-            <p class="mb-4">Power words that work:</p>
-            <ul class="list-disc pl-4 space-y-2">
-              <li>Start with action verbs: Get, Start, Join, Discover</li>
-              <li>Create urgency: Now, Today, Limited Time</li>
-              <li>Show value: Free, Save, Exclusive, Instant</li>
-              <li>Keep it short: 2-5 words is perfect!</li>
-            </ul>
-          </div>
-        </div>
-        
-        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">🤓 CTA Facts!</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
-            <ul class="list-disc pl-4 space-y-2">
-              <li>Red CTAs can boost conversion rates by up to 21%! 🔴</li>
-              <li>Personalized CTAs perform 202% better than default versions! 🎯</li>
-              <li>90% of visitors read CTAs that are based on button text! 👀</li>
-              <li>Adding CTAs to articles can increase conversions by 285%! 📈</li>
-            </ul>
-          </div>
-        </div>
-        
+
         <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">🎯 CTA Best Practices</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+            <h5 class="font-semibold">Pro Tips for Success! 💫</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
-              <li>Use contrasting colors that pop! 🎨</li>
-              <li>Keep text clear and action-oriented! 📝</li>
-              <li>Place CTAs above the fold when possible! ⬆️</li>
-              <li>Test different versions to find what works! 🧪</li>
-            </ul>
+            <li>Keep your message short and sweet - nobody likes to read an essay! 📝</li>
+            <li>Use contrasting colors to make your button pop! 🎨</li>
+            <li>Test your links before going live - always! 🔍</li>
+            <li>Make sure your CTA looks great on phones too! 📱</li>
+          </ul>
+            </div>
+          </div>
+
+          <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Pro Tips for Success! 💫</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+          <li>Keep your button text between 2-5 words - short and punchy wins the race! 🎯</li>
+          <li>Start with action verbs - they're like little motivational speakers! 🗣️</li>
+          <li>Red buttons tend to catch more attention - give them a try! 🚀</li>
+          <li>Place important CTAs above the fold - that's prime real estate! ⭐</li>
+          <li>Avoid generic phrases like 'Click Here' - be creative and specific! ✍️</li>
+          <li>Most visitors read CTA button text - make those words count! 👀</li>
+          </ul>
           </div>
         </div>
-        
-        <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">Common CTA Mistakes to Avoid! ⚠️</h5>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Amazing CTA Facts! 🤓</h5>
           <div class="bg-white/70 p-4 rounded mt-4">
-            <ul class="list-disc pl-4 space-y-2">
-              <li>Using vague or generic text like "Click Here"</li>
-              <li>Making buttons too small or hard to spot</li>
-              <li>Overwhelming visitors with too many CTAs</li>
-              <li>Using colors that blend into the background</li>
-            </ul>
+          <ul class="list-disc pl-4 space-y-2">
+          <li>Personalized CTAs perform significantly better than generic ones! 📈</li>
+          <li>Adding CTAs to your articles can seriously boost engagement! 🎉</li>
+          <li>A/B testing is your secret weapon for optimizing CTAs - try it out! 🔍</li>
+          <li>Contrasting colors make your CTAs pop - stand out from the crowd! 🎨</li>
+        </ul>
           </div>
         </div>
-        
+    
+        <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Quick Checklist for Perfect CTAs! ✅</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+          <li>✓ Used an action verb to start your CTA text?</li>
+          <li>✓ Kept the text between 2-5 words?</li>
+          <li>✓ Placed it where everyone can see it?</li>
+          <li>✓ Used contrasting colors that pop?</li>
+          <li>✓ Made it personal and specific?</li>
+          <li>✓ Tested different versions?</li>
+        </ul>
+          </div>
+        </div>
+
+        <br />
         <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-          <h5 class="font-semibold">Pro Tips! 💡</h5>
-          <p class="mt-2">A/B test different CTA versions to find what resonates with your audience! 📊</p>
-          <p class="mt-2">Mobile users need larger touch targets - size accordingly! 📱</p>
+        <h5 class="font-semibold">One Last Thing! 💝</h5>
+        <p class="mt-2">Remember: Your CTA is like a friendly invitation to take action - make it irresistible! ✨</p>
+        <p class="mt-2">If something's not quite right, you can always start fresh! 🔄</p>
         </div>
-        
+  
+    
         <div class="mt-6 text-center">
-          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Some Converting CTAs? ✨</p>
-          <p class="text-lg mt-2">Let's turn those visitors into customers! 🚀</p>
-        </div> </div>
-        </div>`,      
-        "quiz": [
-          {
-            "question": "What is the recommended length for CTA button text?",
-            "options": [
-              "1 word",
-              "2-5 words",
-              "6-10 words",
-              "More than 10 words"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
-            "options": [
-              "Blue",
-              "Green",
-              "Red",
-              "Yellow"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage better do personalized CTAs perform compared to default versions?",
-            "options": [
-              "102%",
-              "152%",
-              "202%",
-              "252%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which of these is a best practice for CTA design?",
-            "options": [
-              "Use subtle, blending colors",
-              "Make buttons small and discrete",
-              "Use contrasting colors that pop",
-              "Add multiple CTAs everywhere"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What type of words should you start CTA text with?",
-            "options": [
-              "Adjectives",
-              "Action verbs",
-              "Nouns",
-              "Articles"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Where is the ideal placement for important CTAs?",
-            "options": [
-              "At the very bottom of the page",
-              "In the footer",
-              "Above the fold",
-              "In the sidebar"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which is considered a CTA copywriting mistake?",
-            "options": [
-              "Using action verbs",
-              "Creating urgency",
-              "Using 'Click Here'",
-              "Showing value"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage of visitors read CTAs based on button text?",
-            "options": [
-              "70%",
-              "80%",
-              "90%",
-              "100%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is an effective way to optimize CTA performance?",
-            "options": [
-              "A/B testing",
-              "Using multiple CTAs",
-              "Making them smaller",
-              "Using passive language"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "By what percentage can adding CTAs to articles increase conversions?",
-            "options": [
-              "185%",
-              "235%",
-              "285%",
-              "335%"
-            ],
-            "correct": 2
-          }
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Converting CTAs? 🎯</p>
+          <p class="text-lg mt-2">Armed with these tips, you're all set to make CTAs that wow! ✨</p>
+        </div>
+      </div>
+    </div>
+
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Eye-Catching CTAs? 🎯</p>
+            <p class="text-lg mt-2">Go ahead - make something that'll wow your visitors! ✨</p>
+          </div>
+        </div>
+      </div>`,      
+      "quiz": [
+        {
+        "question": "Where can you find the Call to Action option in the interface?",
+        "options": [
+        "Components Section",
+        "Blocks Section",
+        "Elements Section",
+        "Layout Section"
+        ],
+        "correct": 1
+        },
+    
+        {
+        "question": "What appears when you click the cog icon?",
+        "options": [
+        "Image library",
+        "Color picker",
+        "Detailed editor",
+        "Template selector"
+        ],
+        "correct": 2
+        },
+    
+        {
+        "question": "What's an important setting to remember after making changes?",
+        "options": [
+        "Reset Changes",
+        "Save Draft",
+        "Apply Changes",
+        "Preview Changes"
+        ],
+        "correct": 2
+        },
+        {
+        "question": "What are the available button size options?",
+        "options": [
+        "Tiny, small, medium, large",
+        "Mini, standard, mega, ultra",
+        "Huge, default, small, extra small",
+        "XS, S, M, L, XL"
+        ],
+        "correct": 2
+        },
+      
+        {
+        "question": "What happens when you click on 'Background Image'?",
+        "options": [
+        "Opens file explorer",
+        "Opens image library panel",
+        "Opens camera",
+        "Opens web search"
+        ],
+        "correct": 1
+        },
+   
+        {
+        "question": "What are the two main options in the detailed editor?",
+        "options": [
+        "Color and Size",
+        "Style and Link",
+        "Text and Image",
+        "Layout and Design"
+        ],
+        "correct": 1
+        },
+   
+        {
+        "question": "What's the process for adding a CTA template?",
+        "options": [
+        "Copy and paste",
+        "Drag and drop",
+        "Double click",
+        "Right click and select"
+        ],
+        "correct": 1
+        },
+        {
+        "question": "Where do you find the button customization options?",
+        "options": [
+        "In the main menu",
+        "In the cog icon settings",
+        "In the template gallery",
+        "In the page settings"
+        ],
+        "correct": 1
+        },
+        {
+        "question": "What can you do with the background overlay feature?",
+        "options": [
+        "Add video backgrounds",
+        "Add color over background images",
+        "Add animations",
+        "Add patterns"
+        ],
+        "correct": 1
+        },
+        {
+        "question": "How can you make a button full-width?",
+        "options": [
+        "Use huge size",
+        "Enable Button block",
+        "Increase padding",
+        "Add margin"
+        ],
+        "correct": 1
+        },
+      
         ]
       },
       {
@@ -8601,119 +8675,6 @@ const defaultCourseModules = [
   },
   {
     "id": 4,
-    "title": "Rebuild & Speed Test",
-    "units": [
-      {
-        "id": 1,
-        "title": "Speed Optimisation",
-        "content": "Test your site’s performance and learn to improve loading speed using tools like Speed Optimizer.",
-        "quiz": [
-          {
-            "question": "What is the recommended length for CTA button text?",
-            "options": [
-              "1 word",
-              "2-5 words",
-              "6-10 words",
-              "More than 10 words"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
-            "options": [
-              "Blue",
-              "Green",
-              "Red",
-              "Yellow"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage better do personalized CTAs perform compared to default versions?",
-            "options": [
-              "102%",
-              "152%",
-              "202%",
-              "252%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which of these is a best practice for CTA design?",
-            "options": [
-              "Use subtle, blending colors",
-              "Make buttons small and discrete",
-              "Use contrasting colors that pop",
-              "Add multiple CTAs everywhere"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What type of words should you start CTA text with?",
-            "options": [
-              "Adjectives",
-              "Action verbs",
-              "Nouns",
-              "Articles"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Where is the ideal placement for important CTAs?",
-            "options": [
-              "At the very bottom of the page",
-              "In the footer",
-              "Above the fold",
-              "In the sidebar"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which is considered a CTA copywriting mistake?",
-            "options": [
-              "Using action verbs",
-              "Creating urgency",
-              "Using 'Click Here'",
-              "Showing value"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage of visitors read CTAs based on button text?",
-            "options": [
-              "70%",
-              "80%",
-              "90%",
-              "100%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is an effective way to optimize CTA performance?",
-            "options": [
-              "A/B testing",
-              "Using multiple CTAs",
-              "Making them smaller",
-              "Using passive language"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "By what percentage can adding CTAs to articles increase conversions?",
-            "options": [
-              "185%",
-              "235%",
-              "285%",
-              "335%"
-            ],
-            "correct": 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 5,
     "title": "Countdowns",
     "units": [
       {
@@ -8927,6 +8888,120 @@ const defaultCourseModules = [
       }
     ]
   },
+  {
+    "id": 5,
+    "title": "Rebuild & Speed Test",
+    "units": [
+      {
+        "id": 1,
+        "title": "Speed Optimisation",
+        "content": "Test your site’s performance and learn to improve loading speed using tools like Speed Optimizer.",
+        "quiz": [
+          {
+            "question": "What is the recommended length for CTA button text?",
+            "options": [
+              "1 word",
+              "2-5 words",
+              "6-10 words",
+              "More than 10 words"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
+            "options": [
+              "Blue",
+              "Green",
+              "Red",
+              "Yellow"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage better do personalized CTAs perform compared to default versions?",
+            "options": [
+              "102%",
+              "152%",
+              "202%",
+              "252%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which of these is a best practice for CTA design?",
+            "options": [
+              "Use subtle, blending colors",
+              "Make buttons small and discrete",
+              "Use contrasting colors that pop",
+              "Add multiple CTAs everywhere"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What type of words should you start CTA text with?",
+            "options": [
+              "Adjectives",
+              "Action verbs",
+              "Nouns",
+              "Articles"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Where is the ideal placement for important CTAs?",
+            "options": [
+              "At the very bottom of the page",
+              "In the footer",
+              "Above the fold",
+              "In the sidebar"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which is considered a CTA copywriting mistake?",
+            "options": [
+              "Using action verbs",
+              "Creating urgency",
+              "Using 'Click Here'",
+              "Showing value"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What percentage of visitors read CTAs based on button text?",
+            "options": [
+              "70%",
+              "80%",
+              "90%",
+              "100%"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is an effective way to optimize CTA performance?",
+            "options": [
+              "A/B testing",
+              "Using multiple CTAs",
+              "Making them smaller",
+              "Using passive language"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "By what percentage can adding CTAs to articles increase conversions?",
+            "options": [
+              "185%",
+              "235%",
+              "285%",
+              "335%"
+            ],
+            "correct": 2
+          }
+        ]
+      }
+    ]
+  },
+
   {
     "id": 6,
     "title": "Recap and Practice",
