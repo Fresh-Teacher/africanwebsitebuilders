@@ -4977,209 +4977,247 @@ const defaultCourseModules = [
         "id": 5,
         "title": "Dividers",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Stunning Image Galleries! 🖼️</h2>
+        <h2 class="text-2xl font-bold">Divide and Conquer 💪</h2>
         <video className="w-full rounded-lg" controls>
         <source src="https://awb-silk.vercel.app/Dividers(720p).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Design Galleries That Captivate & Convert! ✨</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-center">Mastering Dividers! 🎨</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed gallery doesn't just display images - it tells a story and creates an immersive visual experience that keeps visitors engaged! 📸"
-            <footer class="text-sm mt-2">- Gallery Design Expert</footer>
+            "Dividers aren't just lines - they're the visual rhythm that guides your visitors through your content!"
           </blockquote>
       
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Galleries! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective galleries:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Choose the right layout pattern</li>
-                  <li>Optimize image loading speed</li>
-                  <li>Implement smooth transitions</li>
-                  <li>Add intuitive navigation</li>
-                </ol>
-              </div>
+          <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Why Use Dividers? 🤔</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Create clear visual separation between sections 📏</li>
+                <li>Guide visitors' attention through your content 👀</li>
+                <li>Add style and personality to your layout ✨</li>
+                <li>Break up long content into digestible chunks 📚</li>
+                <li>Enhance your site's visual hierarchy 🏗️</li>
+              </ul>
             </div>
           </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+      
+          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Finding Your Perfect Divider 🔍</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Navigate to the blocks section</li>
+                <li>Click on the navigation option</li>
+                <li>Browse our divider collection:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Simple lines</li>
+                    <li>Text-enhanced dividers</li>
+                    <li>Dotted designs</li>
+                    <li>Gradient effects</li>
+                  </ul>
+                </li>
+                <li>Drag & drop your chosen divider onto the canvas</li>
+              </ol>
+            </div>
+          </div>
+      
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Customization Magic ✨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="mb-6">
+                <p class="font-semibold mb-2">Text Customization:</p>
                 <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Image optimization:</span> Fast loading!</li>
-                  <li><span class="font-semibold">Lightbox feature:</span> Enhanced viewing</li>
-                  <li><span class="font-semibold">Filtering options:</span> Easy discovery</li>
-                  <li><span class="font-semibold">Responsive design:</span> All devices</li>
+                  <li>Click the text element</li>
+                  <li>Select the capital T icon</li>
+                  <li>Edit your message</li>
+                  <li>Style your text for impact!</li>
+                </ul>
+              </div>
+      
+              <div class="mb-6">
+                <p class="font-semibold mb-2">Divider Settings (via the cog ⚙️):</p>
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>Spacing controls:
+                    <ul class="list-circle pl-6 mt-2">
+                      <li>Adjust top margin</li>
+                      <li>Adjust bottom margin</li>
+                      <li>Fine-tune spacing for perfect balance</li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
       
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Maintain consistent image ratios</li>
-                <li>Implement lazy loading</li>
-                <li>Use thumbnails effectively</li>
-                <li>Add hover effects and animations</li>
-              </ul>
-            </div>
-          </div>
-      
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Gallery Psychology!</h5>
+            <h5 class="font-semibold">Background Brilliance 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Click the divider's outline</li>
+                <li>Select the cog icon</li>
+                <li>Customize your background:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Choose background images 🖼️</li>
+                    <li>Set background colors 🎨</li>
+                    <li>Add overlay effects ✨</li>
+                    <li>Adjust padding (top/bottom) 📏</li>
+                    <li>Position background images 🎯</li>
+                    <li>Enable/disable parallax effects 🌟</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+      
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Pro Tips 🌟</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>Visual content increases engagement by 70%! 👀</li>
-                <li>Grid layouts improve recall by 45%! 📊</li>
-                <li>Lightbox views increase by 55% on mobile! 📱</li>
-                <li>Filtered galleries boost interaction by 38%! 🎯</li>
+                <li>Design Tips:
+                  <ul class="list-circle pl-6 mt-2">
+                    <li>Match dividers to your site's style</li>
+                    <li>Use consistent spacing throughout</li>
+                    <li>Choose readable fonts for text dividers</li>
+                    <li>Consider mobile appearance</li>
+                  </ul>
+                </li>
+                <li>Usage Tips:
+                  <ul class="list-circle pl-6 mt-2">
+                    <li>Don't overuse - less is more!</li>
+                    <li>Ensure sufficient contrast</li>
+                    <li>Test parallax on different devices</li>
+                    <li>Keep text concise and impactful</li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
       
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Performance Tips</h5>
+          <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg">
+            <h5 class="font-semibold">IMPORTANT REMINDERS! ⚠️</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>Compress images without quality loss 🖼️</li>
-                <li>Use WebP format when possible 🚀</li>
-                <li>Implement infinite scroll for large galleries ♾️</li>
-                <li>Cache gallery assets effectively 💨</li>
+                <li>Always apply changes to save your work! 💾</li>
+                <li>Preview on multiple screen sizes! 📱</li>
+                <li>Check text readability with your background! 👀</li>
+                <li>Maintain consistent style across your site! 🎨</li>
               </ul>
             </div>
-          </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Unoptimized image sizes</li>
-                <li>Missing alt text for accessibility</li>
-                <li>Poor mobile experience</li>
-                <li>No filtering or sorting options</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Track user interactions to optimize layout!</p>
-            <p class="mt-2">Use dynamic loading for better performance! ⚡</p>
           </div>
       
           <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Images? 🎨</p>
-            <p class="text-lg mt-2">Create galleries that engage visitors and showcase your content perfectly!</p>
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Divide and Conquer? ⚔️</p>
+            <p class="text-lg mt-2">Let's make your content flow beautifully!</p>
+            <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Great dividers are like great punctuation - they help tell your story better! 📖</p>
           </div>
         </div>
       </div>`,
       "quiz": [
+         {
+      "question": "Which settings can you adjust for a divider's background?",
+      "options": [
+        "Only color",
+        "Only image",
+        "Color and image",
+        "Color, image, overlay, padding, position, and parallax"
+      ],
+      "correct": 3
+    },
         {
-          "question": "How much do clear sections improve readability?",
+          "question": "Where can you find divider options in the interface?",
           "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
+            "Components section",
+            "Blocks section",
+            "Design menu",
+            "Layout panel"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "How do you add a divider to your canvas?",
+          "options": [
+            "Click and select",
+            "Copy and paste",
+            "Drag and drop",
+            "Double click"
           ],
           "correct": 2
         },
         {
-          "question": "By how much does proper spacing increase comprehension?",
+          "question": "Which icon allows you to edit text in a divider?",
           "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
+            "Capital T icon",
+            "Pencil icon",
+            "Text bubble icon",
+            "Edit icon"
+          ],
+          "correct": 0
+        },
+     
+        {
+          "question": "What must you do after making changes to a divider?",
+          "options": [
+            "Refresh the page",
+            "Preview changes",
+            "Apply changes",
+            "Save draft"
           ],
           "correct": 2
         },
         {
-          "question": "How much do themed dividers boost brand recall?",
+          "question": "What margin settings can be adjusted for dividers?",
           "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
+            "Only top margin",
+            "Only bottom margin",
+            "Both top and bottom margins",
+            "All margins (top, bottom, left, right)"
           ],
           "correct": 2
         },
+       
         {
-          "question": "By what percentage do visual breaks reduce cognitive load?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for divider design?",
+          "question": "What type of background effect can be enabled for dividers?",
           "options": [
             "Animation",
-            "Consistency",
-            "Decoration",
-            "Colors"
+            "Parallax",
+            "Transition",
+            "Fade"
+          ],
+          "correct": 1
+        },
+    
+        {
+          "question": "How can you duplicate a divider?",
+          "options": [
+            "Copy and paste",
+            "Use clone option",
+            "Drag again from blocks",
+            "Duplicate button"
           ],
           "correct": 1
         },
         {
-          "question": "What's a common divider mistake?",
+          "question": "What happens if you don't apply changes to a divider?",
           "options": [
-            "Using subtle colors",
-            "Maintaining consistency",
-            "Overusing decoration",
-            "Following grid"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves divider accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
+            "Changes save automatically",
+            "Changes are lost",
+            "A warning appears",
+            "Changes are temporary"
           ],
           "correct": 1
         },
+       
         {
-          "question": "What should be used for consistent styling?",
+          "question": "How do you adjust the spacing between divider content and other elements?",
           "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
+            "Using margin settings",
+            "Using padding settings",
+            "Using spacing tool",
+            "Using gap adjustment"
           ],
-          "correct": 2
+          "correct": 0
         },
-        {
-          "question": "What's essential for mobile dividers?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain visual hierarchy?",
-          "options": [
-            "Random spacing",
-            "Varying weights",
-            "Multiple styles",
-            "Consistent thickness"
-          ],
-          "correct": 3
-        }
+      
       ]
       },
       {
