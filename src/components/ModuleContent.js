@@ -8853,210 +8853,242 @@ const defaultCourseModules = [
         "id": 1,
         "title": "Creating Countdown Timers",
         "content": `<div class="space-y-6">
-    <h2 class="text-2xl font-bold">Create Exciting Countdown Timers! ⏰</h2>
-    <video className="w-full rounded-lg" controls>
-    <source src="https://awb-silk.vercel.app/Countdown_timer(720p).mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video><br>
-    <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-      <h3 class="text-2xl font-semibold mb-4 text-center">Add Some Excitement to Your Site! ✨</h3>
-      
-      <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-        "Nothing creates urgency and excitement quite like a countdown timer - it's like giving your website its own heartbeat! ⏱️"
-        <footer class="text-sm mt-2">- Time Management Guru</footer>
-      </blockquote>
+        <h2 class="text-2xl font-bold">⏱️ Let's Make Time Fun! Create Awesome Countdown Timers 🎉</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Countdown_timer(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-orange-50 to-red-50 dark:from-orange-900/30 dark:to-red-900/30 p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-4 text-center">Hey Time Wizard! Ready to Create Some Magic? ✨</h3>
+            
+            <blockquote class="border-l-4 border-orange-500 pl-4 italic mb-4 text-lg">
+            "Every second counts! Let's make them exciting with countdown timers."
+                        </blockquote>
+    
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+                <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+                    <h5 class="font-semibold">Let's Get This Party Started! 🎈</h5>
+                    <div class="bg-white/70 p-4 rounded mt-4">
+                        <p class="mb-4">Creating your first countdown timer is super easy and fun! Here's how:</p>
+                        <ol class="list-decimal pl-4 space-y-2">
+                            <li>Head over to the components section (that's where all the cool stuff lives! 😎)</li>
+                            <li>Look for 'Timers' - we've got some awesome templates waiting for you!</li>
+                            <li>Found one that makes you go "Wow!"? Just drag and drop it onto your canvas</li>
+                            <li>Click on your timer and look for the magical cog icon - that's where the real fun begins! ✨</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+                <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+                    <h5 class="font-semibold">Time to Make it Your Own! 🎨</h5>
+                    <div class="bg-white/70 p-4 rounded mt-4">
+                        <p class="mb-4">Once you click that cog icon, you'll find two amazing menus ready to help you create the perfect timer:</p>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">1. Style Settings - Make it Pop! 💅</h6>
+                                <p class="mb-2">This is where your timer gets its personality! Play around with:</p>
+                                <ul class="list-disc pl-4">
+                                    <li>Colors that match your vibe</li>
+                                    <li>Fonts that speak your style</li>
+                                    <li>Sizes that catch the eye</li>
+                                    <li>Layouts that wow your visitors</li>
+                                    <li>Animations that bring it to life!</li>
+                                </ul>
+                            </div>
+    
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">2. Countdown Settings - The Heart of Your Timer! ⏰</h6>
+                                <p class="mb-2">Here's where the magic happens! You've got so many cool options:</p>
+                                
+                                <div class="space-y-4">
+                                    <div class="bg-white/50 p-4 rounded">
+                                        <h6 class="font-semibold">Time Settings 📅</h6>
+                                        <ul class="list-disc pl-4">
+                                            <li>Pick your perfect date and time (big event coming up? 🎊)</li>
+                                            <li>Choose between one-time or daily countdowns (perfect for daily specials!)</li>
+                                            <li>Set up timezone handling (your global audience will thank you! 🌍)</li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="bg-white/50 p-4 rounded">
+                                        <h6 class="font-semibold">Display Options 👀</h6>
+                                        <ul class="list-disc pl-4">
+                                            <li>Show days, hours, minutes - mix and match!</li>
+                                            <li>Add custom labels (get creative! 🎨)</li>
+                                            <li>Style your numbers and separators</li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="bg-white/50 p-4 rounded">
+                                        <h6 class="font-semibold">Behavior Settings 🎯</h6>
+                                        <ul class="list-disc pl-4">
+                                            <li>Keep counting on next visit (for those return customers!)</li>
+                                            <li>Reset with every visit (perfect for limited-time offers!)</li>
+                                            <li>Daily resets (great for "Deal of the Day"!)</li>
+                                            <li>Redirect when time's up (surprise your visitors! 🎁)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Psst! Some Super Secret Pro Tips! 🤫</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <ul class="list-disc pl-4 space-y-2">
+                        <li>Want to see your timer in action? Use the preview mode - it's like a sneak peek into the future! 👀</li>
+                        <li>Got global visitors? Remember to think about timezones (we've got you covered with options! 🌍)</li>
+                        <li>Test your timer with different scenarios - it's like being a time detective! 🕵️‍♂️</li>
+                        <li>Setting up redirects? Make sure those URLs are perfect - we don't want any time travellers getting lost! 🚀</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Quick Heads Up! 📢</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <p class="mb-2">Just so you know:</p>
+                    <ul class="list-disc pl-4 space-y-2">
+                        <li>Your timer won't tick in the page builder (maybe it's shy! 🙈)</li>
+                        <li>But don't worry - hit that preview button to see it dance! 💃</li>
+                        <li>Always test your countdown scenarios before going live (better safe than sorry! 🥺)</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+                <h5 class="font-semibold">Cool Ways to Use Your Timer! 💡</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <ul class="list-disc pl-4 space-y-2">
+                        <li>Product launches (3... 2... 1... BLAST OFF! 🚀)</li>
+                        <li>Special offers (Quick! Before time runs out! ⚡)</li>
+                        <li>Event countdowns (The party's about to start! 🎉)</li>
+                        <li>Daily deals (New day, new awesome deal! 🎁)</li>
+                        <li>Holiday specials (Ho ho ho! 🎅)</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="mt-6 text-center">
+                <p class="text-xl font-bold text-orange-600 dark:text-orange-300">Ready to Make Time Exciting? Let's Go! 🚀</p>
+                <p class="text-lg mt-2">Your countdown adventure awaits!</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Time waits for no one - let's make it tick! ⏰</p>
+            </div>
+        </div>
+    </div>`,
+    "quiz": [
+      {
+        "question": "Where do you find countdown timer templates?",
+        "options": [
+          "Settings panel",
+          "Components section",
+          "Media library",
+          "Format menu"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which icon do you click to access the timer editor?",
+        "options": [
+          "Star icon",
+          "Plus icon",
+          "Pencil icon",
+          "Cog icon"
+        ],
+        "correct": 3
+      },
+ 
+      {
+        "question": "Where can you see the countdown timer functioning?",
+        "options": [
+          "Page builder",
+          "Preview mode",
+          "Edit mode",
+          "Style panel"
+        ],
+        "correct": 1
+      },
   
-      <div class="bg-white/50 p-6 rounded-lg mb-6">
-        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">Getting Started with Countdown Timers! 🚀</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
-            <p class="mb-4">Here's how to create your perfect countdown:</p>
-            <ol class="list-decimal pl-4 space-y-2">
-              <li>Choose your timer style from the Components section</li>
-              <li>Set your target date and time</li>
-              <li>Customize the appearance to match your site</li>
-              <li>Add engaging messages for before and after the countdown</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-      
-      <div class="bg-white/50 p-6 rounded-lg mb-6">
-        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">Perfect Use Cases! 🎯</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
-            <ul class="list-disc pl-4 space-y-2">
-              <li><span class="font-semibold">Product launches:</span> Build anticipation!</li>
-              <li><span class="font-semibold">Special offers:</span> Create urgency</li>
-              <li><span class="font-semibold">Event countdowns:</span> Get people excited</li>
-              <li><span class="font-semibold">Coming soon pages:</span> Keep visitors interested</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-        <h5 class="font-semibold">Customization Options! 🎨</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
-          <ul class="list-disc pl-4 space-y-2">
-            <li>Choose from different display formats (days/hours/minutes/seconds)</li>
-            <li>Select custom colors and fonts to match your brand</li>
-            <li>Add animations and effects for more impact</li>
-            <li>Set up actions for when the countdown ends</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-        <h5 class="font-semibold">🤓 Cool Timer Facts!</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
-          <ul class="list-disc pl-4 space-y-2">
-            <li>Countdown timers can increase conversion rates by up to 40%! 📈</li>
-            <li>They tap into FOMO (Fear of Missing Out) psychology! 🧠</li>
-            <li>Users spend 3x more time on pages with interactive timers! ⚡</li>
-            <li>The most effective countdown length is usually under 24 hours! ⏰</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-        <h5 class="font-semibold">🎯 Best Practices</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
-          <ul class="list-disc pl-4 space-y-2">
-            <li>Keep time zones in mind - specify them clearly! 🌍</li>
-            <li>Test your timer across different devices 📱</li>
-            <li>Plan what happens when the timer hits zero ⏰</li>
-            <li>Make sure the countdown is clearly visible 👀</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-        <h5 class="font-semibold">Pro Tips! 💫</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
-          <ul class="list-disc pl-4 space-y-2">
-            <li>Use contrasting colors to make your timer stand out</li>
-            <li>Add engaging messages that create excitement</li>
-            <li>Consider mobile users - ensure text is readable on small screens</li>
-            <li>Test different placements to find the most effective spot</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-        <h5 class="font-semibold">Important Reminder! ⚡</h5>
-        <p class="mt-2">Always test your countdown timer thoroughly - especially the end-time behavior!</p>
-        <p class="mt-2">Time waits for no one, and neither should your website! 🚀</p>
-      </div>
-
-      <div class="mt-6 text-center">
-        <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Add Some Excitement? ⏰</p>
-        <p class="text-lg mt-2">Let's get counting down to something amazing!</p>
-      </div>
-    </div>
-  </div>`,
-  "quiz": [
-    {
-      "question": "What psychological principle do countdown timers tap into?",
-      "options": [
-        "FOMO (Fear of Missing Out)",
-        "Decision Paralysis",
-        "Cognitive Dissonance",
-        "Social Proof"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "By how much can countdown timers increase conversion rates?",
-      "options": [
-        "Up to 20%",
-        "Up to 30%",
-        "Up to 40%",
-        "Up to 50%"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What's the most effective countdown length for engagement?",
-      "options": [
-        "Under 12 hours",
-        "Under 24 hours",
-        "Under 48 hours",
-        "Under 72 hours"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What's an important factor to consider when setting up a countdown timer?",
-      "options": [
-        "Background music",
-        "Time zones",
-        "Social media links",
-        "Video content"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "How much longer do users spend on pages with interactive timers?",
-      "options": [
-        "1.5x more time",
-        "2x more time",
-        "3x more time",
-        "4x more time"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which is NOT a common use case for countdown timers?",
-      "options": [
-        "Product launches",
-        "Blog posts",
-        "Special offers",
-        "Event countdowns"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What should you plan carefully when setting up a countdown?",
-      "options": [
-        "End-time behavior",
-        "Background color",
-        "Font family",
-        "Border style"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Which display format is typically included in countdown timers?",
-      "options": [
-        "Weeks",
-        "Decades",
-        "Seconds",
-        "Months"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What's most important to test about a countdown timer?",
-      "options": [
-        "Animation speed",
-        "Cross-device compatibility",
-        "Color schemes",
-        "Font sizes"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which element should be clearly specified with countdown timers?",
-      "options": [
-        "Social links",
-        "Company logo",
-        "Time zone",
-        "Page title"
-      ],
-      "correct": 2
-    }
-  ]
+      {
+        "question": "What's a feature of the timer display?",
+        "options": [
+          "Animation only",
+          "Sound effects",
+          "Days, hours, minutes",
+          "Seconds only"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What happens when the countdown reaches zero?",
+        "options": [
+          "Timer stops",
+          "Timer restarts",
+          "Can redirect to another page",
+          "Shows error"
+        ],
+        "correct": 2
+      },
+     
+      {
+        "question": "How do you add a timer to your canvas?",
+        "options": [
+          "Double click",
+          "Right click",
+          "Drag and drop",
+          "Copy paste"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What can you modify in Style settings?",
+        "options": [
+          "Only colors",
+          "Only fonts",
+          "Visual appearance and layout",
+          "Only size"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What's a visit-based timer option?",
+        "options": [
+          "Save progress",
+          "Reset at every visit",
+          "Pause timer",
+          "Skip countdown"
+        ],
+        "correct": 1
+      },
+   
+      {
+        "question": "When should you test redirect functionality?",
+        "options": [
+          "After publishing",
+          "During editing",
+          "Before publishing",
+          "Never"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What's possible with daily countdowns?",
+        "options": [
+          "Monthly events only",
+          "One-time events only",
+          "Regular daily events",
+          "Yearly events only"
+        ],
+        "correct": 2
+      },
+   
+    ]
       }
     ]
   },
