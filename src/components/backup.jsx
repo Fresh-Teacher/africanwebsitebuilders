@@ -715,97 +715,97 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "Who are the co-founders of African Website Builders?",
-            "options": [
-              "Fresh Teacher",
-              "Mr. Angel & Mr. Zion",
-              "Ms. Grace & Mr. Angel",
-              "Mr. Zion & Dr. Smith"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "How much monthly income can you earn per active website?",
-            "options": [
-              "£5 (UGX 24,000)",
-              "£7 (UGX 33,600)",
-              "£10 (UGX 48,000)",
-              "£15 (UGX 72,000)"
-            ],
-            "correct": 1
-          }
-          ,
-          {
-            "question": "What is the target number of websites recommended to build?",
-            "options": [
-              "10 websites",
-              "15 websites",
-              "20 websites",
-              "25 websites"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is the potential yearly earnings from 20 active websites?",
-            "options": [
-              "£1,200 (UGX 5,760,000)",
-              "£1,480 (UGX 7,104,000)",
-              "£1,680 (UGX 8,064,000)",
-              "£2,000 (UGX 9,600,000)"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes Zylosite accessible to beginners?",
-            "options": [
-              "It requires coding knowledge",
-              "It needs programming experience",
-              "It has a drag-and-drop interface",
-              "It requires web design certification"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What comprehensive support package does AWB provide?",
-            "options": [
-              "Only technical support",
-              "Just website templates",
-              "Expert training, certification, job market access, and business team support",
-              "Only client connections"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "How does the AWB website builder earn you recurring income?",
-            "options": [
-              "Through one-time website sales",
-              "From monthly hosting fees",
-              "By selling domains",
-              "Through advertising revenue"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which tool will you use to create and manage your website?",
-            "options": [
-              "WordPress",
-              "GoDaddy",
-              "Wix",
-              "Zylosite"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "What ongoing work is required to maintain the passive income?",
-            "options": [
-              "Complete website rebuilds",
-              "Daily content updates",
-              "Simple maintenance and updates",
-              "Weekly client meetings"
-            ],
-            "correct": 2
-          }
+          // {
+          //   "question": "Who are the co-founders of African Website Builders?",
+          //   "options": [
+          //     "Fresh Teacher",
+          //     "Mr. Angel & Mr. Zion",
+          //     "Ms. Grace & Mr. Angel",
+          //     "Mr. Zion & Dr. Smith"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "How much monthly income can you earn per active website?",
+          //   "options": [
+          //     "£5 (UGX 24,000)",
+          //     "£7 (UGX 33,600)",
+          //     "£10 (UGX 48,000)",
+          //     "£15 (UGX 72,000)"
+          //   ],
+          //   "correct": 1
+          // }
+          // ,
+          // {
+          //   "question": "What is the target number of websites recommended to build?",
+          //   "options": [
+          //     "10 websites",
+          //     "15 websites",
+          //     "20 websites",
+          //     "25 websites"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What is the potential yearly earnings from 20 active websites?",
+          //   "options": [
+          //     "£1,200 (UGX 5,760,000)",
+          //     "£1,480 (UGX 7,104,000)",
+          //     "£1,680 (UGX 8,064,000)",
+          //     "£2,000 (UGX 9,600,000)"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What makes Zylosite accessible to beginners?",
+          //   "options": [
+          //     "It requires coding knowledge",
+          //     "It needs programming experience",
+          //     "It has a drag-and-drop interface",
+          //     "It requires web design certification"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What comprehensive support package does AWB provide?",
+          //   "options": [
+          //     "Only technical support",
+          //     "Just website templates",
+          //     "Expert training, certification, job market access, and business team support",
+          //     "Only client connections"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "How does the AWB website builder earn you recurring income?",
+          //   "options": [
+          //     "Through one-time website sales",
+          //     "From monthly hosting fees",
+          //     "By selling domains",
+          //     "Through advertising revenue"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which tool will you use to create and manage your website?",
+          //   "options": [
+          //     "WordPress",
+          //     "GoDaddy",
+          //     "Wix",
+          //     "Zylosite"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "What ongoing work is required to maintain the passive income?",
+          //   "options": [
+          //     "Complete website rebuilds",
+          //     "Daily content updates",
+          //     "Simple maintenance and updates",
+          //     "Weekly client meetings"
+          //   ],
+          //   "correct": 2
+          // }
         ]
       },
       {
@@ -1046,96 +1046,96 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "Which button do you click to begin the sign-up process?",
-            "options": [
-              "LOGIN",
-              "MEMBER AREA",
-              "GET STARTED",
-              "CREATE ACCOUNT"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What security feature must you complete during both sign-up and sign-in?",
-            "options": [
-              "Enter your phone number",
-              "Upload a profile picture",
-              "Check the Cloudflare security box",
-              "Answer security questions"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
-            "options": [
-              "A confirmation page",
-              "A login form",
-              "A form to fill in your details",
-              "The account dashboard"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What does the email from AWB support include?",
-            "options": [
-              "A discount code",
-              "A verification link",
-              "An account creation tutorial",
-              "Your login credentials"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should you do after submitting your sign-up form?",
-            "options": [
-              "Start building immediately",
-              "Call support",
-              "Check your email for verification",
-              "Create a password"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What helpful feature can save time during future sign-ins?",
-            "options": [
-              "Remember me checkbox",
-              "Face recognition",
-              "Fingerprint scanning",
-              "Auto-login"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "What is the purpose of the Cloudflare security checkbox?",
-            "options": [
-              "To save your login details",
-              "To verify you are not a robot",
-              "To activate two-factor authentication",
-              "To encrypt your password"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which button do returning users click to access their account?",
-            "options": [
-              "GET STARTED",
-              "MEMBER AREA",
-              "SIGN UP",
-              "CREATE ACCOUNT"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What is the name of the website builder you access after a successful sign in?",
-            "options": [
-              "SiteCraft",
-              "ZyloSite",
-              "WebMaker",
-              "BuildFast"
-            ],
-            "correct": 1
-          }
+          // {
+          //   "question": "Which button do you click to begin the sign-up process?",
+          //   "options": [
+          //     "LOGIN",
+          //     "MEMBER AREA",
+          //     "GET STARTED",
+          //     "CREATE ACCOUNT"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What security feature must you complete during both sign-up and sign-in?",
+          //   "options": [
+          //     "Enter your phone number",
+          //     "Upload a profile picture",
+          //     "Check the Cloudflare security box",
+          //     "Answer security questions"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What appears after clicking the 'ENTER ZYLOSITE WEBSITE BUILDER' button?",
+          //   "options": [
+          //     "A confirmation page",
+          //     "A login form",
+          //     "A form to fill in your details",
+          //     "The account dashboard"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What does the email from AWB support include?",
+          //   "options": [
+          //     "A discount code",
+          //     "A verification link",
+          //     "An account creation tutorial",
+          //     "Your login credentials"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What should you do after submitting your sign-up form?",
+          //   "options": [
+          //     "Start building immediately",
+          //     "Call support",
+          //     "Check your email for verification",
+          //     "Create a password"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What helpful feature can save time during future sign-ins?",
+          //   "options": [
+          //     "Remember me checkbox",
+          //     "Face recognition",
+          //     "Fingerprint scanning",
+          //     "Auto-login"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "What is the purpose of the Cloudflare security checkbox?",
+          //   "options": [
+          //     "To save your login details",
+          //     "To verify you are not a robot",
+          //     "To activate two-factor authentication",
+          //     "To encrypt your password"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which button do returning users click to access their account?",
+          //   "options": [
+          //     "GET STARTED",
+          //     "MEMBER AREA",
+          //     "SIGN UP",
+          //     "CREATE ACCOUNT"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What is the name of the website builder you access after a successful sign in?",
+          //   "options": [
+          //     "SiteCraft",
+          //     "ZyloSite",
+          //     "WebMaker",
+          //     "BuildFast"
+          //   ],
+          //   "correct": 1
+          // }
         ]
       },
       {
@@ -1326,91 +1326,91 @@ const defaultCourseModules = [
             ],
             correct: 2
           },
-          {
-            question: "What is the relationship between websites and hosting?",
-            options: [
-              "Websites don't need hosting",
-              "Websites need space on the internet called hosting",
-              "Hosting is only for large websites",
-              "Hosting is only for storing domain names"
-            ],
-            correct: 1
-          },
-          {
-            question: "What does hosting store?",
-            options: [
-              "Only text files",
-              "Only images",
-              "Media files like photos, videos, audio and documents",
-              "Only website addresses"
-            ],
-            correct: 2
-          },
-          {
-            question: "How much can you earn monthly from hosting one website?",
-            options: [
-              "5 pounds",
-              "7 pounds",
-              "10 pounds",
-              "20 pounds"
-            ],
-            correct: 1
-          },
-          {
-            question: "What is your target number of websites to build?",
-            options: [
-              "10 websites",
-              "15 websites",
-              "20 websites",
-              "25 websites"
-            ],
-            correct: 2
-          },
-          {
-            question: "What makes Zylosite easy to use for creating websites?",
-            options: [
-              "It has pre-made templates to customize",
-              "It's completely free",
-              "It works offline",
-              "It automatically builds websites"
-            ],
-            correct: 0
-          },
-          {
-            question: "What method does Zylosite use for building websites?",
-            options: [
-              "Coding only",
-              "Drag and drop blocks",
-              "Voice commands",
-              "Automatic generation"
-            ],
-            correct: 1
-          },
-          {
-            question: "How do website owners contribute to your earnings?",
-            options: [
-              "They pay domain fees",
-              "They pay hosting fees",
-              "They pay template fees",
-              "They pay design fees"
-            ],
-            correct: 1
-          },
-          {
-            question: "What's the main benefit of using Zylosite's block system?",
-            options: [
-              "It's free",
-              "It makes website creation easier",
-              "It provides hosting",
-              "It manages domain names"
-            ],
-            correct: 1
-          },
-          {
-            question: "What is the official website of AWB?",
-            options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
-            correct: 0
-          }
+          // {
+          //   question: "What is the relationship between websites and hosting?",
+          //   options: [
+          //     "Websites don't need hosting",
+          //     "Websites need space on the internet called hosting",
+          //     "Hosting is only for large websites",
+          //     "Hosting is only for storing domain names"
+          //   ],
+          //   correct: 1
+          // },
+          // {
+          //   question: "What does hosting store?",
+          //   options: [
+          //     "Only text files",
+          //     "Only images",
+          //     "Media files like photos, videos, audio and documents",
+          //     "Only website addresses"
+          //   ],
+          //   correct: 2
+          // },
+          // {
+          //   question: "How much can you earn monthly from hosting one website?",
+          //   options: [
+          //     "5 pounds",
+          //     "7 pounds",
+          //     "10 pounds",
+          //     "20 pounds"
+          //   ],
+          //   correct: 1
+          // },
+          // {
+          //   question: "What is your target number of websites to build?",
+          //   options: [
+          //     "10 websites",
+          //     "15 websites",
+          //     "20 websites",
+          //     "25 websites"
+          //   ],
+          //   correct: 2
+          // },
+          // {
+          //   question: "What makes Zylosite easy to use for creating websites?",
+          //   options: [
+          //     "It has pre-made templates to customize",
+          //     "It's completely free",
+          //     "It works offline",
+          //     "It automatically builds websites"
+          //   ],
+          //   correct: 0
+          // },
+          // {
+          //   question: "What method does Zylosite use for building websites?",
+          //   options: [
+          //     "Coding only",
+          //     "Drag and drop blocks",
+          //     "Voice commands",
+          //     "Automatic generation"
+          //   ],
+          //   correct: 1
+          // },
+          // {
+          //   question: "How do website owners contribute to your earnings?",
+          //   options: [
+          //     "They pay domain fees",
+          //     "They pay hosting fees",
+          //     "They pay template fees",
+          //     "They pay design fees"
+          //   ],
+          //   correct: 1
+          // },
+          // {
+          //   question: "What's the main benefit of using Zylosite's block system?",
+          //   options: [
+          //     "It's free",
+          //     "It makes website creation easier",
+          //     "It provides hosting",
+          //     "It manages domain names"
+          //   ],
+          //   correct: 1
+          // },
+          // {
+          //   question: "What is the official website of AWB?",
+          //   options: ["www.africanwebsitebuilders.com", "www.awbplatform.com", "www.zylosite.com", "www.websitebuildersafrica.com"],
+          //   correct: 0
+          // }
         ]
       }
     ]
@@ -1587,96 +1587,96 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "Which feature allows you to see how your website will look before publishing?",
-            "options": [
-              "Preview",
-              "Components",
-              "Blocks menu",
-              "Pages section"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "What type of block would you use to show the steps in a business process?",
-            "options": [
-              "Gallery Displays",
-              "Testimonials",
-              "Processes",
-              "Dividers"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which block type would you use to create a newsletter signup?",
-            "options": [
-              "Gallery Displays",
-              "Subscribe Forms",
-              "Dividers",
-              "Processes"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What's the recommended way to access Zylosite on a mobile phone?",
-            "options": [
-              "Download a special app",
-              "Use browser tools to change to Desktop mode",
-              "Create a mobile-only account",
-              "Use a different platform"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which block type would you use to showcase your team members?",
-            "options": [
-              "Process Blocks",
-              "Pricing Tables",
-              "Team Sections",
-              "Subscribe Forms"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "When would you use a Call to Action block?",
-            "options": [
-              "Only in the footer",
-              "For displaying team members",
-              "To encourage user engagement or response",
-              "To show pricing information"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is the primary purpose of Divider blocks?",
-            "options": [
-              "To create visual separation between sections",
-              "To display pricing information",
-              "To showcase team members",
-              "To collect email addresses"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "Which block would you use to display a collection of images in an organized way?",
-            "options": [
-              "Subscribe Forms",
-              "Gallery Displays",
-              "Dividers",
-              "Process Blocks"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which block type would you use for a limited-time offer?",
-            "options": [
-              "Countdown Timers",
-              "Process Blocks",
-              "Gallery Displays",
-              "Dividers"
-            ],
-            "correct": 0
-          }
+          // {
+          //   "question": "Which feature allows you to see how your website will look before publishing?",
+          //   "options": [
+          //     "Preview",
+          //     "Components",
+          //     "Blocks menu",
+          //     "Pages section"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "What type of block would you use to show the steps in a business process?",
+          //   "options": [
+          //     "Gallery Displays",
+          //     "Testimonials",
+          //     "Processes",
+          //     "Dividers"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which block type would you use to create a newsletter signup?",
+          //   "options": [
+          //     "Gallery Displays",
+          //     "Subscribe Forms",
+          //     "Dividers",
+          //     "Processes"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What's the recommended way to access Zylosite on a mobile phone?",
+          //   "options": [
+          //     "Download a special app",
+          //     "Use browser tools to change to Desktop mode",
+          //     "Create a mobile-only account",
+          //     "Use a different platform"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which block type would you use to showcase your team members?",
+          //   "options": [
+          //     "Process Blocks",
+          //     "Pricing Tables",
+          //     "Team Sections",
+          //     "Subscribe Forms"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "When would you use a Call to Action block?",
+          //   "options": [
+          //     "Only in the footer",
+          //     "For displaying team members",
+          //     "To encourage user engagement or response",
+          //     "To show pricing information"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What is the primary purpose of Divider blocks?",
+          //   "options": [
+          //     "To create visual separation between sections",
+          //     "To display pricing information",
+          //     "To showcase team members",
+          //     "To collect email addresses"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "Which block would you use to display a collection of images in an organized way?",
+          //   "options": [
+          //     "Subscribe Forms",
+          //     "Gallery Displays",
+          //     "Dividers",
+          //     "Process Blocks"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which block type would you use for a limited-time offer?",
+          //   "options": [
+          //     "Countdown Timers",
+          //     "Process Blocks",
+          //     "Gallery Displays",
+          //     "Dividers"
+          //   ],
+          //   "correct": 0
+          // }
         ]
       },
       {
@@ -1828,96 +1828,96 @@ const defaultCourseModules = [
             ],
             "correct": 2
           },
-          {
-            "question": "Which component would you use to integrate third-party widgets?",
-            "options": [
-              "Media",
-              "Embeds",
-              "Icons",
-              "Navigation"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What icon represents the settings in button options?",
-            "options": [
-              "Wheel icon",
-              "COG icon",
-              "Settings icon",
-              "Wrench icon"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "After clicking on a button, which option allows you to duplicate it?",
-            "options": [
-              "COG icon",
-              "Clone option",
-              "Trash icon",
-              "Link option"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What is the Map component used for?",
-            "options": [
-              "Creating sitemaps",
-              "Showing locations",
-              "Drawing diagrams",
-              "Making flowcharts"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which component is used for creating organized layouts?",
-            "options": [
-              "Lists",
-              "Media",
-              "Grids",
-              "Icons"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What MUST you do before leaving the Zylosite editor?",
-            "options": [
-              "Log out",
-              "Save changes",
-              "Clear cache",
-              "Close browser"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What option in Link settings allows content to open in a different window?",
-            "options": [
-              "New window",
-              "Open link in new tab",
-              "Different window",
-              "External link"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which component type is used for adding images and videos?",
-            "options": [
-              "Icons",
-              "Embeds",
-              "Media",
-              "Lists"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What should you do after making any modifications to buttons?",
-            "options": [
-              "Refresh the page",
-              "Log out",
-              "Apply changes",
-              "Clear cache"
-            ],
-            "correct": 2
-          }
+          // {
+          //   "question": "Which component would you use to integrate third-party widgets?",
+          //   "options": [
+          //     "Media",
+          //     "Embeds",
+          //     "Icons",
+          //     "Navigation"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What icon represents the settings in button options?",
+          //   "options": [
+          //     "Wheel icon",
+          //     "COG icon",
+          //     "Settings icon",
+          //     "Wrench icon"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "After clicking on a button, which option allows you to duplicate it?",
+          //   "options": [
+          //     "COG icon",
+          //     "Clone option",
+          //     "Trash icon",
+          //     "Link option"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What is the Map component used for?",
+          //   "options": [
+          //     "Creating sitemaps",
+          //     "Showing locations",
+          //     "Drawing diagrams",
+          //     "Making flowcharts"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which component is used for creating organized layouts?",
+          //   "options": [
+          //     "Lists",
+          //     "Media",
+          //     "Grids",
+          //     "Icons"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What MUST you do before leaving the Zylosite editor?",
+          //   "options": [
+          //     "Log out",
+          //     "Save changes",
+          //     "Clear cache",
+          //     "Close browser"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What option in Link settings allows content to open in a different window?",
+          //   "options": [
+          //     "New window",
+          //     "Open link in new tab",
+          //     "Different window",
+          //     "External link"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which component type is used for adding images and videos?",
+          //   "options": [
+          //     "Icons",
+          //     "Embeds",
+          //     "Media",
+          //     "Lists"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What should you do after making any modifications to buttons?",
+          //   "options": [
+          //     "Refresh the page",
+          //     "Log out",
+          //     "Apply changes",
+          //     "Clear cache"
+          //   ],
+          //   "correct": 2
+          // }
         ]
       },
       {
@@ -2082,98 +2082,98 @@ const defaultCourseModules = [
             "correct": 1
           },
 
-          {
-            "question": "Which feature turns plain words into clickable text?",
-            "options": [
-              "Bold text",
-              "Hyperlinks",
-              "Underlining",
-              "Text color"
-            ],
-            "correct": 1
-          },
+          // {
+          //   "question": "Which feature turns plain words into clickable text?",
+          //   "options": [
+          //     "Bold text",
+          //     "Hyperlinks",
+          //     "Underlining",
+          //     "Text color"
+          //   ],
+          //   "correct": 1
+          // },
 
-          {
-            "question": "Where can you find the text component options in Zylosite?",
-            "options": [
-              "In the Settings menu",
-              "In the Components section",
-              "In the Edit menu",
-              "In the Format menu"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "When you want your text to lean, which shortcut will help you add italics?",
-            "options": [
-              "Ctrl/Cmd + I",
-              "Ctrl/Cmd + L",
-              "Ctrl/Cmd + K",
-              "Ctrl/Cmd + T"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "Which option allows you to remove a text component?",
-            "options": [
-              "Delete option",
-              "Remove button",
-              "Clear text",
-              "Hide component"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "What is the recommended way to modify text content?",
-            "options": [
-              "Right-click and edit",
-              "Click the Capital T icon",
-              "Double-click the text",
-              "Use keyboard shortcuts"
-            ],
-            "correct": 1
-          },
+          // {
+          //   "question": "Where can you find the text component options in Zylosite?",
+          //   "options": [
+          //     "In the Settings menu",
+          //     "In the Components section",
+          //     "In the Edit menu",
+          //     "In the Format menu"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "When you want your text to lean, which shortcut will help you add italics?",
+          //   "options": [
+          //     "Ctrl/Cmd + I",
+          //     "Ctrl/Cmd + L",
+          //     "Ctrl/Cmd + K",
+          //     "Ctrl/Cmd + T"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "Which option allows you to remove a text component?",
+          //   "options": [
+          //     "Delete option",
+          //     "Remove button",
+          //     "Clear text",
+          //     "Hide component"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "What is the recommended way to modify text content?",
+          //   "options": [
+          //     "Right-click and edit",
+          //     "Click the Capital T icon",
+          //     "Double-click the text",
+          //     "Use keyboard shortcuts"
+          //   ],
+          //   "correct": 1
+          // },
 
-          {
-            "question": "What happens if you don't save your text changes?",
-            "options": [
-              "Changes are auto-saved",
-              "Changes are lost",
-              "A warning appears",
-              "Text reverts to Lorem Ipsum"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which feature allows you to duplicate text without copying?",
-            "options": [
-              "Duplicate button",
-              "Clone option",
-              "Copy feature",
-              "Text template"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which action is required before leaving the text editor?",
-            "options": [
-              "Preview changes",
-              "Save changes",
-              "Clear cache",
-              "Update settings"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which keyboard shortcut underlines your text?",
-            "options": [
-              "Ctrl/Cmd + Y",
-              "Ctrl/Cmd + Z",
-              "Ctrl/Cmd + U",
-              "Ctrl/Cmd + W"
-            ],
-            "correct": 2
-          },
+          // {
+          //   "question": "What happens if you don't save your text changes?",
+          //   "options": [
+          //     "Changes are auto-saved",
+          //     "Changes are lost",
+          //     "A warning appears",
+          //     "Text reverts to Lorem Ipsum"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which feature allows you to duplicate text without copying?",
+          //   "options": [
+          //     "Duplicate button",
+          //     "Clone option",
+          //     "Copy feature",
+          //     "Text template"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which action is required before leaving the text editor?",
+          //   "options": [
+          //     "Preview changes",
+          //     "Save changes",
+          //     "Clear cache",
+          //     "Update settings"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which keyboard shortcut underlines your text?",
+          //   "options": [
+          //     "Ctrl/Cmd + Y",
+          //     "Ctrl/Cmd + Z",
+          //     "Ctrl/Cmd + U",
+          //     "Ctrl/Cmd + W"
+          //   ],
+          //   "correct": 2
+          // },
         ]
       },
       {
@@ -2318,98 +2318,98 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "How many media options are available when you select the media component?",
-            "options": [
-              "Two",
-              "Three",
-              "Four",
-              "Five"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "For YouTube videos, where in the URL can you find the video ID?",
-            "options": [
-              "After the youtube.com",
-              "After the v=",
-              "Before the https://",
-              "At the beginning of the URL"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "For Vimeo videos, where can you find the video ID?",
-            "options": [
-              "After the backslash /",
-              "Before the domain name",
-              "In the middle of the URL",
-              "After www"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "Which icon do you need to click to access video settings?",
-            "options": [
-              "Cog icon",
-              "Plus icon",
-              "Star icon",
-              "Play icon"
-            ],
-            "correct": 0
-          },
+          // {
+          //   "question": "How many media options are available when you select the media component?",
+          //   "options": [
+          //     "Two",
+          //     "Three",
+          //     "Four",
+          //     "Five"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "For YouTube videos, where in the URL can you find the video ID?",
+          //   "options": [
+          //     "After the youtube.com",
+          //     "After the v=",
+          //     "Before the https://",
+          //     "At the beginning of the URL"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "For Vimeo videos, where can you find the video ID?",
+          //   "options": [
+          //     "After the backslash /",
+          //     "Before the domain name",
+          //     "In the middle of the URL",
+          //     "After www"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "Which icon do you need to click to access video settings?",
+          //   "options": [
+          //     "Cog icon",
+          //     "Plus icon",
+          //     "Star icon",
+          //     "Play icon"
+          //   ],
+          //   "correct": 0
+          // },
 
-          {
-            "question": "What's the recommended action before editing media files?",
-            "options": [
-              "Delete the original",
-              "Backup your media files",
-              "Convert to PDF",
-              "Print them out"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "In a long YouTube URL with multiple equal signs, how do you identify the correct video ID?",
-            "options": [
-              "Take the first set of characters",
-              "Look for the characters after v=",
-              "Use the last set of characters",
-              "Use anything after the first ="
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should you consider about file sizes when adding media?",
-            "options": [
-              "Bigger is always better",
-              "Size doesn't matter",
-              "Compress before upload",
-              "Only use small files"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What's important to add to images for accessibility?",
-            "options": [
-              "Watermarks",
-              "Alt text",
-              "Borders",
-              "Shadows"
-            ],
-            "correct": 1
-          },
+          // {
+          //   "question": "What's the recommended action before editing media files?",
+          //   "options": [
+          //     "Delete the original",
+          //     "Backup your media files",
+          //     "Convert to PDF",
+          //     "Print them out"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "In a long YouTube URL with multiple equal signs, how do you identify the correct video ID?",
+          //   "options": [
+          //     "Take the first set of characters",
+          //     "Look for the characters after v=",
+          //     "Use the last set of characters",
+          //     "Use anything after the first ="
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What should you consider about file sizes when adding media?",
+          //   "options": [
+          //     "Bigger is always better",
+          //     "Size doesn't matter",
+          //     "Compress before upload",
+          //     "Only use small files"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What's important to add to images for accessibility?",
+          //   "options": [
+          //     "Watermarks",
+          //     "Alt text",
+          //     "Borders",
+          //     "Shadows"
+          //   ],
+          //   "correct": 1
+          // },
 
-          {
-            "question": "What's the first step to add a YouTube video?",
-            "options": [
-              "Upload the video to YouTube",
-              "Copy the video URL",
-              "Drag and drop the YouTube component",
-              "Create a new page"
-            ],
-            "correct": 2
-          },
+          // {
+          //   "question": "What's the first step to add a YouTube video?",
+          //   "options": [
+          //     "Upload the video to YouTube",
+          //     "Copy the video URL",
+          //     "Drag and drop the YouTube component",
+          //     "Create a new page"
+          //   ],
+          //   "correct": 2
+          // },
         ]
       },
       {
@@ -2528,98 +2528,98 @@ const defaultCourseModules = [
             "correct": 1
           },
 
-          {
-            "question": "What helps maintain content clarity in grids?",
-            "options": [
-              "Using many animations",
-              "Proper spacing",
-              "Multiple fonts",
-              "Bright colors"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Where can you find the Grids option in the interface?",
-            "options": [
-              "In the top menu bar",
-              "In the Components menu on the left",
-              "In the right sidebar",
-              "In the bottom toolbar"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "How should you handle spacing in grids?",
-            "options": [
-              "Vary it randomly",
-              "Keep it consistent",
-              "Minimize it always",
-              "Ignore it completely"
-            ],
-            "correct": 1
-          },
+          // {
+          //   "question": "What helps maintain content clarity in grids?",
+          //   "options": [
+          //     "Using many animations",
+          //     "Proper spacing",
+          //     "Multiple fonts",
+          //     "Bright colors"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Where can you find the Grids option in the interface?",
+          //   "options": [
+          //     "In the top menu bar",
+          //     "In the Components menu on the left",
+          //     "In the right sidebar",
+          //     "In the bottom toolbar"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "How should you handle spacing in grids?",
+          //   "options": [
+          //     "Vary it randomly",
+          //     "Keep it consistent",
+          //     "Minimize it always",
+          //     "Ignore it completely"
+          //   ],
+          //   "correct": 1
+          // },
 
-          {
-            "question": "How should you manage media in grids?",
-            "options": [
-              "Use original sizes",
-              "Add more files",
-              "Optimize for performance",
-              "Ignore file sizes"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "How do you ensure grid consistency?",
-            "options": [
-              "Random layouts",
-              "Regular spacing",
-              "Maximum content",
-              "Constant animation"
-            ],
-            "correct": 1
-          },
+          // {
+          //   "question": "How should you manage media in grids?",
+          //   "options": [
+          //     "Use original sizes",
+          //     "Add more files",
+          //     "Optimize for performance",
+          //     "Ignore file sizes"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "How do you ensure grid consistency?",
+          //   "options": [
+          //     "Random layouts",
+          //     "Regular spacing",
+          //     "Maximum content",
+          //     "Constant animation"
+          //   ],
+          //   "correct": 1
+          // },
 
-          {
-            "question": "When should you save grid changes?",
-            "options": [
-              "Only at the end",
-              "Regularly",
-              "Once daily",
-              "When finished"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should you do after choosing a grid layout?",
-            "options": [
-              "Change the colors",
-              "Add components",
-              "Add animations",
-              "Change the font"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What's important to check when designing your grid?",
-            "options": [
-              "Number of images used",
-              "Text color",
-              "Animation speed",
-              "Mobile responsiveness"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "Which layout option is best suited for a hero section?",
-            "options": [
-              "25/25/25/25",
-              "33/33/33",
-              "50/50",
-              "100%"
-            ],
-            "correct": 3
-          },
+          // {
+          //   "question": "When should you save grid changes?",
+          //   "options": [
+          //     "Only at the end",
+          //     "Regularly",
+          //     "Once daily",
+          //     "When finished"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What should you do after choosing a grid layout?",
+          //   "options": [
+          //     "Change the colors",
+          //     "Add components",
+          //     "Add animations",
+          //     "Change the font"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What's important to check when designing your grid?",
+          //   "options": [
+          //     "Number of images used",
+          //     "Text color",
+          //     "Animation speed",
+          //     "Mobile responsiveness"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "Which layout option is best suited for a hero section?",
+          //   "options": [
+          //     "25/25/25/25",
+          //     "33/33/33",
+          //     "50/50",
+          //     "100%"
+          //   ],
+          //   "correct": 3
+          // },
         ]
       },
       {
@@ -2865,96 +2865,96 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "What is the primary purpose of an H1 heading on a webpage?",
-            "options": [
-              "To make text look bigger",
-              "To indicate the main title or topic of the page",
-              "To improve website loading speed",
-              "To add visual decoration"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which heading is the smallest by default?",
-            "options": [
-              "H6",
-              "H5",
-              "H4",
-              "H3"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "Which heading level should be used for main sections of content?",
-            "options": [
-              "H1",
-              "H2",
-              "H5",
-              "H6"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What is a key SEO benefit of using proper heading structure?",
-            "options": [
-              "Faster page loading",
-              "Better mobile responsiveness",
-              "Improved search engine ranking",
-              "Increased website security"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What accessibility feature benefits from proper heading structure?",
-            "options": [
-              "Screen readers",
-              "Mouse cursors",
-              "Keyboard shortcuts",
-              "Touch screens"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "What is considered a best practice for heading hierarchy?",
-            "options": [
-              "Skip levels to emphasize importance",
-              "Use only even-numbered headings",
-              "Maintain sequential order (H1 → H2 → H3)",
-              "Use the same level throughout"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which heading is the largest in size?",
-            "options": [
-              "H4",
-              "H2",
-              "H3",
-              "H1"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "What's the recommended maximum length for a heading?",
-            "options": [
-              "One word",
-              "A full sentence",
-              "A short, descriptive phrase",
-              "A paragraph"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Order these headings from largest to smallest:",
-            "options": [
-              "H1, H2, H3, H4",
-              "H4, H3, H2, H1",
-              "H2, H1, H4, H3",
-              "H3, H2, H1, H4"
-            ],
-            "correct": 0
-          }
+          // {
+          //   "question": "What is the primary purpose of an H1 heading on a webpage?",
+          //   "options": [
+          //     "To make text look bigger",
+          //     "To indicate the main title or topic of the page",
+          //     "To improve website loading speed",
+          //     "To add visual decoration"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which heading is the smallest by default?",
+          //   "options": [
+          //     "H6",
+          //     "H5",
+          //     "H4",
+          //     "H3"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "Which heading level should be used for main sections of content?",
+          //   "options": [
+          //     "H1",
+          //     "H2",
+          //     "H5",
+          //     "H6"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What is a key SEO benefit of using proper heading structure?",
+          //   "options": [
+          //     "Faster page loading",
+          //     "Better mobile responsiveness",
+          //     "Improved search engine ranking",
+          //     "Increased website security"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What accessibility feature benefits from proper heading structure?",
+          //   "options": [
+          //     "Screen readers",
+          //     "Mouse cursors",
+          //     "Keyboard shortcuts",
+          //     "Touch screens"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "What is considered a best practice for heading hierarchy?",
+          //   "options": [
+          //     "Skip levels to emphasize importance",
+          //     "Use only even-numbered headings",
+          //     "Maintain sequential order (H1 → H2 → H3)",
+          //     "Use the same level throughout"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which heading is the largest in size?",
+          //   "options": [
+          //     "H4",
+          //     "H2",
+          //     "H3",
+          //     "H1"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "What's the recommended maximum length for a heading?",
+          //   "options": [
+          //     "One word",
+          //     "A full sentence",
+          //     "A short, descriptive phrase",
+          //     "A paragraph"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Order these headings from largest to smallest:",
+          //   "options": [
+          //     "H1, H2, H3, H4",
+          //     "H4, H3, H2, H1",
+          //     "H2, H1, H4, H3",
+          //     "H3, H2, H1, H4"
+          //   ],
+          //   "correct": 0
+          // }
         ]
       },
       {
@@ -3094,99 +3094,99 @@ const defaultCourseModules = [
             ],
             "correct": 2
           },
-          {
-            "question": "What happens when you click the cog icon on an icon element?",
-            "options": [
-              "The icon gets deleted",
-              "The icon changes color",
-              "Nothing happens",
-              "The Detail editor appears",
+          // {
+          //   "question": "What happens when you click the cog icon on an icon element?",
+          //   "options": [
+          //     "The icon gets deleted",
+          //     "The icon changes color",
+          //     "Nothing happens",
+          //     "The Detail editor appears",
 
-            ],
-            "correct": 3
-          },
-          {
-            "question": "How many size options are available for icons in Zylosite?",
-            "options": [
-              "Two",
-              "Three",
-              "Four",
-              "Five"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which word comes from the Greek word 'eikōn'?",
-            "options": [
-              "Icon",
-              "Image",
-              "Symbol",
-              "Logo"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "When was the first computer icon created?",
-            "options": [
-              "1975",
-              "1990",
-              "1981",
-              "1985"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What are the three options available in the Detail editor for icons?",
-            "options": [
-              "Size, Color, and Shape",
-              "Width, Height, and Color",
-              "Font, Size, and Style",
-              "Style, Link, and Icons",
-            ],
-            "correct": 3
-          },
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "How many size options are available for icons in Zylosite?",
+          //   "options": [
+          //     "Two",
+          //     "Three",
+          //     "Four",
+          //     "Five"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which word comes from the Greek word 'eikōn'?",
+          //   "options": [
+          //     "Icon",
+          //     "Image",
+          //     "Symbol",
+          //     "Logo"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "When was the first computer icon created?",
+          //   "options": [
+          //     "1975",
+          //     "1990",
+          //     "1981",
+          //     "1985"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What are the three options available in the Detail editor for icons?",
+          //   "options": [
+          //     "Size, Color, and Shape",
+          //     "Width, Height, and Color",
+          //     "Font, Size, and Style",
+          //     "Style, Link, and Icons",
+          //   ],
+          //   "correct": 3
+          // },
 
-          {
-            "question": "How do you add an icon to your canvas in Zylosite?",
-            "options": [
-              "Drag and drop",
-              "Double click",
-              "Right click and select 'Add'",
-              "Copy and paste"
-            ],
-            "correct": 0
-          },
+          // {
+          //   "question": "How do you add an icon to your canvas in Zylosite?",
+          //   "options": [
+          //     "Drag and drop",
+          //     "Double click",
+          //     "Right click and select 'Add'",
+          //     "Copy and paste"
+          //   ],
+          //   "correct": 0
+          // },
 
-          {
-            "question": "What's the quickest way to duplicate an icon?",
-            "options": [
-              "Right-click the icon",
-              "Press Ctrl+D",
-              "Double-click the icon",
-              "Click on the clone icon"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "Which icon is used to delete icons",
-            "options": [
-              "The power symbol",
-              "The shopping cart",
-              "The Trash icon",
-              "The menu icon"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What does the Icons icon look like in the components menu?",
-            "options": [
-              "The power symbol",
-              "The gift emoji",
-              "The Trash icon",
-              "The menu icon"
-            ],
-            "correct": 1
-          }
+          // {
+          //   "question": "What's the quickest way to duplicate an icon?",
+          //   "options": [
+          //     "Right-click the icon",
+          //     "Press Ctrl+D",
+          //     "Double-click the icon",
+          //     "Click on the clone icon"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "Which icon is used to delete icons",
+          //   "options": [
+          //     "The power symbol",
+          //     "The shopping cart",
+          //     "The Trash icon",
+          //     "The menu icon"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What does the Icons icon look like in the components menu?",
+          //   "options": [
+          //     "The power symbol",
+          //     "The gift emoji",
+          //     "The Trash icon",
+          //     "The menu icon"
+          //   ],
+          //   "correct": 1
+          // }
         ]
       },
       {
@@ -3309,97 +3309,97 @@ const defaultCourseModules = [
             ],
             "correct": 0
           },
-          {
-            "question": "How do you access the map editing options?",
-            "options": [
-              "Double click the map",
-              "Click on the cog icon",
-              "Right click the map",
-              "Press the Edit button"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "How many main options are available in the detail editor for maps?",
-            "options": [
-              "Three (Style, Map, and Layout)",
-              "Four (Style, Map, Size, and Position)",
-              "Two (Style and Map)",
-              "One (Map settings)"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which text box is used to input the location?",
-            "options": [
-              "Info box message",
-              "Location details",
-              "Map address",
-              "Your address",
-            ],
-            "correct": 3
-          },
-          {
-            "question": "What type of toggle is available in the map options?",
-            "options": [
-              "Satellite view",
-              "Black and white",
-              "3D view",
-              "Traffic view"
-            ],
-            "correct": 1
-          },
+          // {
+          //   "question": "How do you access the map editing options?",
+          //   "options": [
+          //     "Double click the map",
+          //     "Click on the cog icon",
+          //     "Right click the map",
+          //     "Press the Edit button"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "How many main options are available in the detail editor for maps?",
+          //   "options": [
+          //     "Three (Style, Map, and Layout)",
+          //     "Four (Style, Map, Size, and Position)",
+          //     "Two (Style and Map)",
+          //     "One (Map settings)"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which text box is used to input the location?",
+          //   "options": [
+          //     "Info box message",
+          //     "Location details",
+          //     "Map address",
+          //     "Your address",
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "What type of toggle is available in the map options?",
+          //   "options": [
+          //     "Satellite view",
+          //     "Black and white",
+          //     "3D view",
+          //     "Traffic view"
+          //   ],
+          //   "correct": 1
+          // },
 
-          {
-            "question": "What should you do after making changes to your map?",
-            "options": [
-              "Click Apply Changes",
-              "Refresh the page",
-              "Save and exit",
-              "Close the editor"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "What's recommended to include in the info box message?",
-            "options": [
-              "Full company history",
-              "Employee biographies",
-              "Opening hours and parking tips",
-              "Product catalog"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What benefit can black and white maps provide?",
-            "options": [
-              "Reduced page load time",
-              "Better visibility",
-              "Increased map size",
-              "More accurate directions"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "How do you add a map to your canvas?",
-            "options": [
-              "Copy and paste",
-              "Double click",
-              "Right click and select Add",
-              "Drag and drop"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "What should you consider when choosing a zoom level?",
-            "options": [
-              "Global view of the country",
-              "Satellite imagery quality",
-              "Visibility of nearby streets",
-              "Traffic patterns"
-            ],
-            "correct": 2
-          }
+          // {
+          //   "question": "What should you do after making changes to your map?",
+          //   "options": [
+          //     "Click Apply Changes",
+          //     "Refresh the page",
+          //     "Save and exit",
+          //     "Close the editor"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "What's recommended to include in the info box message?",
+          //   "options": [
+          //     "Full company history",
+          //     "Employee biographies",
+          //     "Opening hours and parking tips",
+          //     "Product catalog"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What benefit can black and white maps provide?",
+          //   "options": [
+          //     "Reduced page load time",
+          //     "Better visibility",
+          //     "Increased map size",
+          //     "More accurate directions"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "How do you add a map to your canvas?",
+          //   "options": [
+          //     "Copy and paste",
+          //     "Double click",
+          //     "Right click and select Add",
+          //     "Drag and drop"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "What should you consider when choosing a zoom level?",
+          //   "options": [
+          //     "Global view of the country",
+          //     "Satellite imagery quality",
+          //     "Visibility of nearby streets",
+          //     "Traffic patterns"
+          //   ],
+          //   "correct": 2
+          // }
         ]
       },
       {
@@ -3524,99 +3524,99 @@ const defaultCourseModules = [
             ],
             "correct": 2
           },
-          {
-            "question": "What happens when you click the cog icon on an icon element?",
-            "options": [
-              "The icon gets deleted",
-              "The icon changes color",
-              "Nothing happens",
-              "The Detail editor appears",
+          // {
+          //   "question": "What happens when you click the cog icon on an icon element?",
+          //   "options": [
+          //     "The icon gets deleted",
+          //     "The icon changes color",
+          //     "Nothing happens",
+          //     "The Detail editor appears",
 
-            ],
-            "correct": 3
-          },
-          {
-            "question": "How many size options are available for icons in Zylosite?",
-            "options": [
-              "Two",
-              "Three",
-              "Four",
-              "Five"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which word comes from the Greek word 'eikōn'?",
-            "options": [
-              "Icon",
-              "Image",
-              "Symbol",
-              "Logo"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "When was the first computer icon created?",
-            "options": [
-              "1975",
-              "1990",
-              "1981",
-              "1985"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What are the three options available in the Detail editor for icons?",
-            "options": [
-              "Size, Color, and Shape",
-              "Width, Height, and Color",
-              "Font, Size, and Style",
-              "Style, Link, and Icons",
-            ],
-            "correct": 3
-          },
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "How many size options are available for icons in Zylosite?",
+          //   "options": [
+          //     "Two",
+          //     "Three",
+          //     "Four",
+          //     "Five"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which word comes from the Greek word 'eikōn'?",
+          //   "options": [
+          //     "Icon",
+          //     "Image",
+          //     "Symbol",
+          //     "Logo"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "When was the first computer icon created?",
+          //   "options": [
+          //     "1975",
+          //     "1990",
+          //     "1981",
+          //     "1985"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What are the three options available in the Detail editor for icons?",
+          //   "options": [
+          //     "Size, Color, and Shape",
+          //     "Width, Height, and Color",
+          //     "Font, Size, and Style",
+          //     "Style, Link, and Icons",
+          //   ],
+          //   "correct": 3
+          // },
 
-          {
-            "question": "How do you add an icon to your canvas in Zylosite?",
-            "options": [
-              "Drag and drop",
-              "Double click",
-              "Right click and select 'Add'",
-              "Copy and paste"
-            ],
-            "correct": 0
-          },
+          // {
+          //   "question": "How do you add an icon to your canvas in Zylosite?",
+          //   "options": [
+          //     "Drag and drop",
+          //     "Double click",
+          //     "Right click and select 'Add'",
+          //     "Copy and paste"
+          //   ],
+          //   "correct": 0
+          // },
 
-          {
-            "question": "What's the quickest way to duplicate an icon?",
-            "options": [
-              "Right-click the icon",
-              "Press Ctrl+D",
-              "Double-click the icon",
-              "Click on the clone icon"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "Which icon is used to delete icons",
-            "options": [
-              "The power symbol",
-              "The shopping cart",
-              "The Trash icon",
-              "The menu icon"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What does the Icons icon look like in the components menu?",
-            "options": [
-              "The power symbol",
-              "The gift emoji",
-              "The Trash icon",
-              "The menu icon"
-            ],
-            "correct": 1
-          }
+          // {
+          //   "question": "What's the quickest way to duplicate an icon?",
+          //   "options": [
+          //     "Right-click the icon",
+          //     "Press Ctrl+D",
+          //     "Double-click the icon",
+          //     "Click on the clone icon"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "Which icon is used to delete icons",
+          //   "options": [
+          //     "The power symbol",
+          //     "The shopping cart",
+          //     "The Trash icon",
+          //     "The menu icon"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What does the Icons icon look like in the components menu?",
+          //   "options": [
+          //     "The power symbol",
+          //     "The gift emoji",
+          //     "The Trash icon",
+          //     "The menu icon"
+          //   ],
+          //   "correct": 1
+          // }
         ]
       },
       {
@@ -3857,96 +3857,96 @@ const defaultCourseModules = [
           ],
           "correct": 1
         },
-        {
-          "question": "Where can you find the embed template in the interface?",
-          "options": [
-            "In the Edit menu",
-            "In the Components section",
-            "In the Settings panel",
-            "In the Format menu"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which icons appear when you click on an embed?",
-          "options": [
-            "Edit and delete icons",
-            "Code symbol and delete icon",
-            "Settings and code icons",
-            "Copy and paste icons"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What type of code can you include in an embed?",
-          "options": [
-            "Only HTML",
-            "Only JavaScript",
-            "Only CSS",
-            "HTML, CSS, and JavaScript"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "How do you add custom code to an embed?",
-          "options": [
-            "Click the code symbol and paste code",
-            "Right-click and select 'Add Code'",
-            "Double-click the embed",
-            "Use the settings panel"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What is the primary purpose of HTML in an embed?",
-          "options": [
-            "Adding styling",
-            "Creating animations",
-            "Structuring content",
-            "Handling events"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which language is used for styling in embeds?",
-          "options": [
-            "JavaScript",
-            "HTML",
-            "CSS",
-            "Python"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What is JavaScript primarily used for in embeds?",
-          "options": [
-            "Structuring content",
-            "Styling elements",
-            "Adding interactivity",
-            "Creating layouts"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What does CSS mean?",
-          "options": [
-            "Computer Style Sheets",
-            "Creative Style System",
-            "Cascading Style Sheets",
-            "Controlled Style System"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How can you add external resources like photos and videos to an embed?",
-          "options": [
-            "Using link and script tags",
-            "Importing directly in JavaScript",
-            "Adding them to the settings",
-            "Through the format menu"
-          ],
-          "correct": 0
-        }
+        // {
+        //   "question": "Where can you find the embed template in the interface?",
+        //   "options": [
+        //     "In the Edit menu",
+        //     "In the Components section",
+        //     "In the Settings panel",
+        //     "In the Format menu"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "Which icons appear when you click on an embed?",
+        //   "options": [
+        //     "Edit and delete icons",
+        //     "Code symbol and delete icon",
+        //     "Settings and code icons",
+        //     "Copy and paste icons"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What type of code can you include in an embed?",
+        //   "options": [
+        //     "Only HTML",
+        //     "Only JavaScript",
+        //     "Only CSS",
+        //     "HTML, CSS, and JavaScript"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "How do you add custom code to an embed?",
+        //   "options": [
+        //     "Click the code symbol and paste code",
+        //     "Right-click and select 'Add Code'",
+        //     "Double-click the embed",
+        //     "Use the settings panel"
+        //   ],
+        //   "correct": 0
+        // },
+        // {
+        //   "question": "What is the primary purpose of HTML in an embed?",
+        //   "options": [
+        //     "Adding styling",
+        //     "Creating animations",
+        //     "Structuring content",
+        //     "Handling events"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "Which language is used for styling in embeds?",
+        //   "options": [
+        //     "JavaScript",
+        //     "HTML",
+        //     "CSS",
+        //     "Python"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What is JavaScript primarily used for in embeds?",
+        //   "options": [
+        //     "Structuring content",
+        //     "Styling elements",
+        //     "Adding interactivity",
+        //     "Creating layouts"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What does CSS mean?",
+        //   "options": [
+        //     "Computer Style Sheets",
+        //     "Creative Style System",
+        //     "Cascading Style Sheets",
+        //     "Controlled Style System"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How can you add external resources like photos and videos to an embed?",
+        //   "options": [
+        //     "Using link and script tags",
+        //     "Importing directly in JavaScript",
+        //     "Adding them to the settings",
+        //     "Through the format menu"
+        //   ],
+        //   "correct": 0
+        // }
       ]
     },
       {
@@ -4064,99 +4064,99 @@ const defaultCourseModules = [
           ],
           "correct": 0
         },
-        {
-          "question": "How do you add a navigation bar to the canvas?",
-          "options": [
-            "Copy and paste",
-            "Double click",
-            "Right click and select 'Add'",
-            "Drag and drop"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What appears when you click on a navigation bar component?",
-          "options": [
-            "A color picker",
-            "A text editor",
-            "A delete button only",
-            "A menu with editing options"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "Which icon do you click to access the Detail Modal?",
-          "options": [
-            "Star icon",
-            "Plus icon",
-            "Pencil icon",
-            "Cog icon"
-          ],
-          "correct": 3
-        },
+        // {
+        //   "question": "How do you add a navigation bar to the canvas?",
+        //   "options": [
+        //     "Copy and paste",
+        //     "Double click",
+        //     "Right click and select 'Add'",
+        //     "Drag and drop"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "What appears when you click on a navigation bar component?",
+        //   "options": [
+        //     "A color picker",
+        //     "A text editor",
+        //     "A delete button only",
+        //     "A menu with editing options"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "Which icon do you click to access the Detail Modal?",
+        //   "options": [
+        //     "Star icon",
+        //     "Plus icon",
+        //     "Pencil icon",
+        //     "Cog icon"
+        //   ],
+        //   "correct": 3
+        // },
      
-        {
-          "question": "How do you add a link to a navigation bar element?",
-          "options": [
-            "Double click and enter URL",
-            "Drag a link from browser",
-            "Click cog icon, select Link option, and paste URL",
-            "Right-click and select 'Add Link'"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What is an optional setting when adding a link?",
-          "options": [
-            "Add animation",
-            "Set link color",
-            "Add password protection",
-            "Open in new tab"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What is the first step to style a navigation element?",
-          "options": [
-            "Open Settings panel",
-            "Open Style menu",
-            "Right-click the element",
-            "Click the element"
-          ],
-          "correct": 3
-        },
+        // {
+        //   "question": "How do you add a link to a navigation bar element?",
+        //   "options": [
+        //     "Double click and enter URL",
+        //     "Drag a link from browser",
+        //     "Click cog icon, select Link option, and paste URL",
+        //     "Right-click and select 'Add Link'"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What is an optional setting when adding a link?",
+        //   "options": [
+        //     "Add animation",
+        //     "Set link color",
+        //     "Add password protection",
+        //     "Open in new tab"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "What is the first step to style a navigation element?",
+        //   "options": [
+        //     "Open Settings panel",
+        //     "Open Style menu",
+        //     "Right-click the element",
+        //     "Click the element"
+        //   ],
+        //   "correct": 3
+        // },
  
-        {
-          "question": "What happens when you click the cog icon?",
-          "options": [
-            "Shows preview",
-            "Shows Detail Modal",
-            "Opens Style panel directly",
-            "Deletes component"
-          ],
-          "correct": 1
-        },
+        // {
+        //   "question": "What happens when you click the cog icon?",
+        //   "options": [
+        //     "Shows preview",
+        //     "Shows Detail Modal",
+        //     "Opens Style panel directly",
+        //     "Deletes component"
+        //   ],
+        //   "correct": 1
+        // },
    
-        {
-          "question": "What feature allows you to duplicate a nav bar element?",
-          "options": [
-            "Duplicate option",
-            "Copy button",
-            "Repeat tool",
-            "Clone feature"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "Where are the style settings located?",
-          "options": [
-            "Main menu",
-            "Format bar",
-            "Quick panel",
-            "Detail Modal"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "What feature allows you to duplicate a nav bar element?",
+        //   "options": [
+        //     "Duplicate option",
+        //     "Copy button",
+        //     "Repeat tool",
+        //     "Clone feature"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "Where are the style settings located?",
+        //   "options": [
+        //     "Main menu",
+        //     "Format bar",
+        //     "Quick panel",
+        //     "Detail Modal"
+        //   ],
+        //   "correct": 3
+        // }
       ]
       }
     ]
@@ -4282,96 +4282,96 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
-            "options": [
-              "Blue",
-              "Green",
-              "Red",
-              "Yellow"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage better do personalized CTAs perform compared to default versions?",
-            "options": [
-              "102%",
-              "152%",
-              "202%",
-              "252%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which of these is a best practice for CTA design?",
-            "options": [
-              "Use subtle, blending colors",
-              "Make buttons small and discrete",
-              "Use contrasting colors that pop",
-              "Add multiple CTAs everywhere"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What type of words should you start CTA text with?",
-            "options": [
-              "Adjectives",
-              "Action verbs",
-              "Nouns",
-              "Articles"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Where is the ideal placement for important CTAs?",
-            "options": [
-              "At the very bottom of the page",
-              "In the footer",
-              "Above the fold",
-              "In the sidebar"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which is considered a CTA copywriting mistake?",
-            "options": [
-              "Using action verbs",
-              "Creating urgency",
-              "Using 'Click Here'",
-              "Showing value"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage of visitors read CTAs based on button text?",
-            "options": [
-              "70%",
-              "80%",
-              "90%",
-              "100%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is an effective way to optimize CTA performance?",
-            "options": [
-              "A/B testing",
-              "Using multiple CTAs",
-              "Making them smaller",
-              "Using passive language"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "By what percentage can adding CTAs to articles increase conversions?",
-            "options": [
-              "185%",
-              "235%",
-              "285%",
-              "335%"
-            ],
-            "correct": 2
-          }
+          // {
+          //   "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
+          //   "options": [
+          //     "Blue",
+          //     "Green",
+          //     "Red",
+          //     "Yellow"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What percentage better do personalized CTAs perform compared to default versions?",
+          //   "options": [
+          //     "102%",
+          //     "152%",
+          //     "202%",
+          //     "252%"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which of these is a best practice for CTA design?",
+          //   "options": [
+          //     "Use subtle, blending colors",
+          //     "Make buttons small and discrete",
+          //     "Use contrasting colors that pop",
+          //     "Add multiple CTAs everywhere"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What type of words should you start CTA text with?",
+          //   "options": [
+          //     "Adjectives",
+          //     "Action verbs",
+          //     "Nouns",
+          //     "Articles"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Where is the ideal placement for important CTAs?",
+          //   "options": [
+          //     "At the very bottom of the page",
+          //     "In the footer",
+          //     "Above the fold",
+          //     "In the sidebar"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which is considered a CTA copywriting mistake?",
+          //   "options": [
+          //     "Using action verbs",
+          //     "Creating urgency",
+          //     "Using 'Click Here'",
+          //     "Showing value"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What percentage of visitors read CTAs based on button text?",
+          //   "options": [
+          //     "70%",
+          //     "80%",
+          //     "90%",
+          //     "100%"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What is an effective way to optimize CTA performance?",
+          //   "options": [
+          //     "A/B testing",
+          //     "Using multiple CTAs",
+          //     "Making them smaller",
+          //     "Using passive language"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "By what percentage can adding CTAs to articles increase conversions?",
+          //   "options": [
+          //     "185%",
+          //     "235%",
+          //     "285%",
+          //     "335%"
+          //   ],
+          //   "correct": 2
+          // }
         ]
       },
       {
@@ -4598,96 +4598,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "By how much does structured text improve readability?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do interactive elements boost retention?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do clear CTAs increase conversions?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for content design?",
-          "options": [
-            "Animation",
-            "Hierarchy",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common content mistake?",
-          "options": [
-            "Using visuals",
-            "Clear structure",
-            "Walls of text",
-            "Using headings"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves content accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile content?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain readability?",
-          "options": [
-            "Dense paragraphs",
-            "No spacing",
-            "Small text",
-            "Proper formatting"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "By how much does structured text improve readability?",
+        //   "options": [
+        //     "28%",
+        //     "33%",
+        //     "38%",
+        //     "43%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much do interactive elements boost retention?",
+        //   "options": [
+        //     "32%",
+        //     "37%",
+        //     "42%",
+        //     "47%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "By what percentage do clear CTAs increase conversions?",
+        //   "options": [
+        //     "22%",
+        //     "27%",
+        //     "32%",
+        //     "37%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's most important for content design?",
+        //   "options": [
+        //     "Animation",
+        //     "Hierarchy",
+        //     "Decoration",
+        //     "Colors"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's a common content mistake?",
+        //   "options": [
+        //     "Using visuals",
+        //     "Clear structure",
+        //     "Walls of text",
+        //     "Using headings"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What improves content accessibility?",
+        //   "options": [
+        //     "More animation",
+        //     "Semantic HTML",
+        //     "Bright colors",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should be used for consistent styling?",
+        //   "options": [
+        //     "Inline styles",
+        //     "Hard-coded values",
+        //     "CSS custom properties",
+        //     "Random values"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's essential for mobile content?",
+        //   "options": [
+        //     "Animations",
+        //     "Responsive design",
+        //     "Decorations",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What helps maintain readability?",
+        //   "options": [
+        //     "Dense paragraphs",
+        //     "No spacing",
+        //     "Small text",
+        //     "Proper formatting"
+        //   ],
+        //   "correct": 3
+        // }
       ]
       },
       {
@@ -4807,96 +4807,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "By how much do visual timers boost engagement?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do mobile countdowns improve CTR?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do animated timers increase attention?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for countdown design?",
-          "options": [
-            "Animation",
-            "Accuracy",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common countdown mistake?",
-          "options": [
-            "Clear display",
-            "Regular updates",
-            "Time zone issues",
-            "Visual feedback"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves countdown accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile countdowns?",
-          "options": [
-            "Animations",
-            "Responsive digits",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps increase countdown effectiveness?",
-          "options": [
-            "Random timers",
-            "No labels",
-            "Hidden digits",
-            "Clear deadlines"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "By how much do visual timers boost engagement?",
+        //   "options": [
+        //     "28%",
+        //     "33%",
+        //     "38%",
+        //     "43%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much do mobile countdowns improve CTR?",
+        //   "options": [
+        //     "32%",
+        //     "37%",
+        //     "42%",
+        //     "47%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "By what percentage do animated timers increase attention?",
+        //   "options": [
+        //     "22%",
+        //     "27%",
+        //     "32%",
+        //     "37%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's most important for countdown design?",
+        //   "options": [
+        //     "Animation",
+        //     "Accuracy",
+        //     "Decoration",
+        //     "Colors"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's a common countdown mistake?",
+        //   "options": [
+        //     "Clear display",
+        //     "Regular updates",
+        //     "Time zone issues",
+        //     "Visual feedback"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What improves countdown accessibility?",
+        //   "options": [
+        //     "More animation",
+        //     "Semantic HTML",
+        //     "Bright colors",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should be used for consistent styling?",
+        //   "options": [
+        //     "Inline styles",
+        //     "Hard-coded values",
+        //     "CSS custom properties",
+        //     "Random values"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's essential for mobile countdowns?",
+        //   "options": [
+        //     "Animations",
+        //     "Responsive digits",
+        //     "Decorations",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What helps increase countdown effectiveness?",
+        //   "options": [
+        //     "Random timers",
+        //     "No labels",
+        //     "Hidden digits",
+        //     "Clear deadlines"
+        //   ],
+        //   "correct": 3
+        // }
       ]
       },
       {
@@ -5016,96 +5016,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "By how much does proper spacing increase comprehension?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do themed dividers boost brand recall?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do visual breaks reduce cognitive load?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for divider design?",
-          "options": [
-            "Animation",
-            "Consistency",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common divider mistake?",
-          "options": [
-            "Using subtle colors",
-            "Maintaining consistency",
-            "Overusing decoration",
-            "Following grid"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves divider accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile dividers?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain visual hierarchy?",
-          "options": [
-            "Random spacing",
-            "Varying weights",
-            "Multiple styles",
-            "Consistent thickness"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "By how much does proper spacing increase comprehension?",
+        //   "options": [
+        //     "28%",
+        //     "33%",
+        //     "38%",
+        //     "43%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much do themed dividers boost brand recall?",
+        //   "options": [
+        //     "32%",
+        //     "37%",
+        //     "42%",
+        //     "47%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "By what percentage do visual breaks reduce cognitive load?",
+        //   "options": [
+        //     "22%",
+        //     "27%",
+        //     "32%",
+        //     "37%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's most important for divider design?",
+        //   "options": [
+        //     "Animation",
+        //     "Consistency",
+        //     "Decoration",
+        //     "Colors"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's a common divider mistake?",
+        //   "options": [
+        //     "Using subtle colors",
+        //     "Maintaining consistency",
+        //     "Overusing decoration",
+        //     "Following grid"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What improves divider accessibility?",
+        //   "options": [
+        //     "More animation",
+        //     "Semantic HTML",
+        //     "Bright colors",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should be used for consistent styling?",
+        //   "options": [
+        //     "Inline styles",
+        //     "Hard-coded values",
+        //     "CSS custom properties",
+        //     "Random values"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's essential for mobile dividers?",
+        //   "options": [
+        //     "Animations",
+        //     "Responsive design",
+        //     "Decorations",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What helps maintain visual hierarchy?",
+        //   "options": [
+        //     "Random spacing",
+        //     "Varying weights",
+        //     "Multiple styles",
+        //     "Consistent thickness"
+        //   ],
+        //   "correct": 3
+        // }
       ]
       },
       {
@@ -5346,96 +5346,96 @@ const defaultCourseModules = [
           ],
           "correct": 1
         },
-        {
-          "question": "Where can you find the embed template in the interface?",
-          "options": [
-            "In the Edit menu",
-            "In the Components section",
-            "In the Settings panel",
-            "In the Format menu"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which icons appear when you click on an embed?",
-          "options": [
-            "Edit and delete icons",
-            "Code symbol and delete icon",
-            "Settings and code icons",
-            "Copy and paste icons"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What type of code can you include in an embed?",
-          "options": [
-            "Only HTML",
-            "Only JavaScript",
-            "Only CSS",
-            "HTML, CSS, and JavaScript"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "How do you add custom code to an embed?",
-          "options": [
-            "Click the code symbol and paste code",
-            "Right-click and select 'Add Code'",
-            "Double-click the embed",
-            "Use the settings panel"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What is the primary purpose of HTML in an embed?",
-          "options": [
-            "Adding styling",
-            "Creating animations",
-            "Structuring content",
-            "Handling events"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which language is used for styling in embeds?",
-          "options": [
-            "JavaScript",
-            "HTML",
-            "CSS",
-            "Python"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What is JavaScript primarily used for in embeds?",
-          "options": [
-            "Structuring content",
-            "Styling elements",
-            "Adding interactivity",
-            "Creating layouts"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What does CSS mean?",
-          "options": [
-            "Computer Style Sheets",
-            "Creative Style System",
-            "Cascading Style Sheets",
-            "Controlled Style System"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How can you add external resources like photos and videos to an embed?",
-          "options": [
-            "Using link and script tags",
-            "Importing directly in JavaScript",
-            "Adding them to the settings",
-            "Through the format menu"
-          ],
-          "correct": 0
-        }
+        // {
+        //   "question": "Where can you find the embed template in the interface?",
+        //   "options": [
+        //     "In the Edit menu",
+        //     "In the Components section",
+        //     "In the Settings panel",
+        //     "In the Format menu"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "Which icons appear when you click on an embed?",
+        //   "options": [
+        //     "Edit and delete icons",
+        //     "Code symbol and delete icon",
+        //     "Settings and code icons",
+        //     "Copy and paste icons"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What type of code can you include in an embed?",
+        //   "options": [
+        //     "Only HTML",
+        //     "Only JavaScript",
+        //     "Only CSS",
+        //     "HTML, CSS, and JavaScript"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "How do you add custom code to an embed?",
+        //   "options": [
+        //     "Click the code symbol and paste code",
+        //     "Right-click and select 'Add Code'",
+        //     "Double-click the embed",
+        //     "Use the settings panel"
+        //   ],
+        //   "correct": 0
+        // },
+        // {
+        //   "question": "What is the primary purpose of HTML in an embed?",
+        //   "options": [
+        //     "Adding styling",
+        //     "Creating animations",
+        //     "Structuring content",
+        //     "Handling events"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "Which language is used for styling in embeds?",
+        //   "options": [
+        //     "JavaScript",
+        //     "HTML",
+        //     "CSS",
+        //     "Python"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What is JavaScript primarily used for in embeds?",
+        //   "options": [
+        //     "Structuring content",
+        //     "Styling elements",
+        //     "Adding interactivity",
+        //     "Creating layouts"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What does CSS mean?",
+        //   "options": [
+        //     "Computer Style Sheets",
+        //     "Creative Style System",
+        //     "Cascading Style Sheets",
+        //     "Controlled Style System"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How can you add external resources like photos and videos to an embed?",
+        //   "options": [
+        //     "Using link and script tags",
+        //     "Importing directly in JavaScript",
+        //     "Adding them to the settings",
+        //     "Through the format menu"
+        //   ],
+        //   "correct": 0
+        // }
       ]
     },
     {
@@ -5541,96 +5541,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "Which layout is best for showcasing multiple features with equal importance?",
-          "options": [
-            "Grid Layout",
-            "List Format",
-            "Timeline Layout",
-            "Carousel Layout"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What is an essential element of effective feature copy?",
-          "options": [
-            "Technical jargon",
-            "Long descriptions",
-            "Benefit-driven headlines",
-            "Complex explanations"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How should you approach feature section design?",
-          "options": [
-            "Desktop-first",
-            "Mobile-first",
-            "Tablet-first",
-            "Print-first"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What makes card design effective for featuring products?",
-          "options": [
-            "It's more expensive",
-            "It's harder to implement",
-            "It provides visual separation",
-            "It requires more code"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should you maintain throughout your feature section?",
-          "options": [
-            "Varying fonts",
-            "Different color schemes",
-            "Consistency in design",
-            "Random layouts"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which is a key principle of writing feature descriptions?",
-          "options": [
-            "Use technical language",
-            "Focus on solving user problems",
-            "Write long paragraphs",
-            "Avoid mentioning benefits"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What role does white space play in feature design?",
-          "options": [
-            "It wastes space",
-            "It improves readability",
-            "It reduces content",
-            "It increases costs"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should you include with feature descriptions when possible?",
-          "options": [
-            "Company history",
-            "Social proof",
-            "Pricing details",
-            "Legal disclaimers"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which format is best for explaining complex features in detail?",
-          "options": [
-            "Grid Layout",
-            "List Format",
-            "Card Design",
-            "Carousel Format"
-          ],
-          "correct": 1
-        }
+        // {
+        //   "question": "Which layout is best for showcasing multiple features with equal importance?",
+        //   "options": [
+        //     "Grid Layout",
+        //     "List Format",
+        //     "Timeline Layout",
+        //     "Carousel Layout"
+        //   ],
+        //   "correct": 0
+        // },
+        // {
+        //   "question": "What is an essential element of effective feature copy?",
+        //   "options": [
+        //     "Technical jargon",
+        //     "Long descriptions",
+        //     "Benefit-driven headlines",
+        //     "Complex explanations"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How should you approach feature section design?",
+        //   "options": [
+        //     "Desktop-first",
+        //     "Mobile-first",
+        //     "Tablet-first",
+        //     "Print-first"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What makes card design effective for featuring products?",
+        //   "options": [
+        //     "It's more expensive",
+        //     "It's harder to implement",
+        //     "It provides visual separation",
+        //     "It requires more code"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What should you maintain throughout your feature section?",
+        //   "options": [
+        //     "Varying fonts",
+        //     "Different color schemes",
+        //     "Consistency in design",
+        //     "Random layouts"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "Which is a key principle of writing feature descriptions?",
+        //   "options": [
+        //     "Use technical language",
+        //     "Focus on solving user problems",
+        //     "Write long paragraphs",
+        //     "Avoid mentioning benefits"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What role does white space play in feature design?",
+        //   "options": [
+        //     "It wastes space",
+        //     "It improves readability",
+        //     "It reduces content",
+        //     "It increases costs"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should you include with feature descriptions when possible?",
+        //   "options": [
+        //     "Company history",
+        //     "Social proof",
+        //     "Pricing details",
+        //     "Legal disclaimers"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "Which format is best for explaining complex features in detail?",
+        //   "options": [
+        //     "Grid Layout",
+        //     "List Format",
+        //     "Card Design",
+        //     "Carousel Format"
+        //   ],
+        //   "correct": 1
+        // }
       ]
     },
       {
@@ -5750,96 +5750,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "How much can newsletter signups increase when placed in the footer?",
-          "options": [
-            "15%",
-            "20%",
-            "25%",
-            "30%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What percentage of clicks occur in footer navigation?",
-          "options": [
-            "20%",
-            "25%",
-            "30%",
-            "35%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much can trust seals boost conversions?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which is most important to include in a footer?",
-          "options": [
-            "Company blog",
-            "Contact information",
-            "Social media feeds",
-            "Newsletter archive"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common footer mistake?",
-          "options": [
-            "Including contact info",
-            "Adding social links",
-            "Overcrowding content",
-            "Using clear headers"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should you monitor in footers?",
-          "options": [
-            "Font sizes",
-            "Link clicks",
-            "Background colors",
-            "Logo placement"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What improves footer usability?",
-          "options": [
-            "Complex animations",
-            "Lengthy text",
-            "Clear hierarchy",
-            "Multiple columns"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should be automatically updated?",
-          "options": [
-            "Copyright year",
-            "Social media icons",
-            "Contact form",
-            "Navigation links"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What's most important for mobile footers?",
-          "options": [
-            "Animations",
-            "Responsiveness",
-            "Multiple columns",
-            "Video content"
-          ],
-          "correct": 1
-        }
+        // {
+        //   "question": "How much can newsletter signups increase when placed in the footer?",
+        //   "options": [
+        //     "15%",
+        //     "20%",
+        //     "25%",
+        //     "30%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What percentage of clicks occur in footer navigation?",
+        //   "options": [
+        //     "20%",
+        //     "25%",
+        //     "30%",
+        //     "35%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much can trust seals boost conversions?",
+        //   "options": [
+        //     "32%",
+        //     "37%",
+        //     "42%",
+        //     "47%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "Which is most important to include in a footer?",
+        //   "options": [
+        //     "Company blog",
+        //     "Contact information",
+        //     "Social media feeds",
+        //     "Newsletter archive"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's a common footer mistake?",
+        //   "options": [
+        //     "Including contact info",
+        //     "Adding social links",
+        //     "Overcrowding content",
+        //     "Using clear headers"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What should you monitor in footers?",
+        //   "options": [
+        //     "Font sizes",
+        //     "Link clicks",
+        //     "Background colors",
+        //     "Logo placement"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What improves footer usability?",
+        //   "options": [
+        //     "Complex animations",
+        //     "Lengthy text",
+        //     "Clear hierarchy",
+        //     "Multiple columns"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What should be automatically updated?",
+        //   "options": [
+        //     "Copyright year",
+        //     "Social media icons",
+        //     "Contact form",
+        //     "Navigation links"
+        //   ],
+        //   "correct": 0
+        // },
+        // {
+        //   "question": "What's most important for mobile footers?",
+        //   "options": [
+        //     "Animations",
+        //     "Responsiveness",
+        //     "Multiple columns",
+        //     "Video content"
+        //   ],
+        //   "correct": 1
+        // }
       ]
       },
       {
@@ -5959,96 +5959,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "How much do grid layouts improve content recall?",
-          "options": [
-            "35%",
-            "40%",
-            "45%",
-            "50%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's the increase in lightbox views on mobile?",
-          "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do filtered galleries boost interaction?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which image format is recommended for modern galleries?",
-          "options": [
-            "PNG",
-            "JPEG",
-            "WebP",
-            "GIF"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's a common gallery mistake?",
-          "options": [
-            "Using lazy loading",
-            "Adding alt text",
-            "Unoptimized images",
-            "Having filters"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves gallery performance most?",
-          "options": [
-            "More animations",
-            "Lazy loading",
-            "Larger images",
-            "Auto-play"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's essential for large galleries?",
-          "options": [
-            "Auto-play",
-            "Music",
-            "Infinite scroll",
-            "Slideshow"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should always be included with images?",
-          "options": [
-            "Alt text",
-            "Borders",
-            "Shadows",
-            "Animation"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "Which loading technique is best for galleries?",
-          "options": [
-            "Load all at once",
-            "Dynamic loading",
-            "Manual loading",
-            "Random loading"
-          ],
-          "correct": 1
-        }
+        // {
+        //   "question": "How much do grid layouts improve content recall?",
+        //   "options": [
+        //     "35%",
+        //     "40%",
+        //     "45%",
+        //     "50%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's the increase in lightbox views on mobile?",
+        //   "options": [
+        //     "45%",
+        //     "50%",
+        //     "55%",
+        //     "60%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much do filtered galleries boost interaction?",
+        //   "options": [
+        //     "28%",
+        //     "33%",
+        //     "38%",
+        //     "43%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "Which image format is recommended for modern galleries?",
+        //   "options": [
+        //     "PNG",
+        //     "JPEG",
+        //     "WebP",
+        //     "GIF"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's a common gallery mistake?",
+        //   "options": [
+        //     "Using lazy loading",
+        //     "Adding alt text",
+        //     "Unoptimized images",
+        //     "Having filters"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What improves gallery performance most?",
+        //   "options": [
+        //     "More animations",
+        //     "Lazy loading",
+        //     "Larger images",
+        //     "Auto-play"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's essential for large galleries?",
+        //   "options": [
+        //     "Auto-play",
+        //     "Music",
+        //     "Infinite scroll",
+        //     "Slideshow"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What should always be included with images?",
+        //   "options": [
+        //     "Alt text",
+        //     "Borders",
+        //     "Shadows",
+        //     "Animation"
+        //   ],
+        //   "correct": 0
+        // },
+        // {
+        //   "question": "Which loading technique is best for galleries?",
+        //   "options": [
+        //     "Load all at once",
+        //     "Dynamic loading",
+        //     "Manual loading",
+        //     "Random loading"
+        //   ],
+        //   "correct": 1
+        // }
       ]
       },
       {
@@ -6177,96 +6177,96 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "Which header style is best for mobile-first designs?",
-            "options": [
-              "Mega Menu",
-              "Hamburger Menu",
-              "Fixed Header",
-              "Transparent Header"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What is a must-have element in a website header?",
-            "options": [
-              "Social media links",
-              "Weather widget",
-              "Logo or brand name",
-              "Newsletter signup"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes a fixed header useful?",
-            "options": [
-              "It uses less code",
-              "It stays visible while scrolling",
-              "It loads faster",
-              "It costs less"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which header component is essential for sites with lots of content?",
-            "options": [
-              "Search functionality",
-              "Social media icons",
-              "Language selector",
-              "Weather widget"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "What's a key consideration for header CTAs?",
-            "options": [
-              "Using multiple fonts",
-              "Making them blend in",
-              "Using contrasting colors",
-              "Making them small"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which is a common header design mistake?",
-            "options": [
-              "Too few menu items",
-              "Too many menu items",
-              "Using a logo",
-              "Including navigation"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What type of header works well with hero sections?",
-            "options": [
-              "Fixed Header",
-              "Mega Menu",
-              "Transparent Header",
-              "Hamburger Menu"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What should be prioritized when designing a header?",
-            "options": [
-              "Desktop users",
-              "Mobile users",
-              "Tablet users",
-              "Print layout"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which is a key principle of header design?",
-            "options": [
-              "Cluttered layout",
-              "Clean and uncluttered design",
-              "Multiple fonts",
-              "Small text"
-            ],
-            "correct": 1
-          }
+          // {
+          //   "question": "Which header style is best for mobile-first designs?",
+          //   "options": [
+          //     "Mega Menu",
+          //     "Hamburger Menu",
+          //     "Fixed Header",
+          //     "Transparent Header"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What is a must-have element in a website header?",
+          //   "options": [
+          //     "Social media links",
+          //     "Weather widget",
+          //     "Logo or brand name",
+          //     "Newsletter signup"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What makes a fixed header useful?",
+          //   "options": [
+          //     "It uses less code",
+          //     "It stays visible while scrolling",
+          //     "It loads faster",
+          //     "It costs less"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which header component is essential for sites with lots of content?",
+          //   "options": [
+          //     "Search functionality",
+          //     "Social media icons",
+          //     "Language selector",
+          //     "Weather widget"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "What's a key consideration for header CTAs?",
+          //   "options": [
+          //     "Using multiple fonts",
+          //     "Making them blend in",
+          //     "Using contrasting colors",
+          //     "Making them small"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which is a common header design mistake?",
+          //   "options": [
+          //     "Too few menu items",
+          //     "Too many menu items",
+          //     "Using a logo",
+          //     "Including navigation"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What type of header works well with hero sections?",
+          //   "options": [
+          //     "Fixed Header",
+          //     "Mega Menu",
+          //     "Transparent Header",
+          //     "Hamburger Menu"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What should be prioritized when designing a header?",
+          //   "options": [
+          //     "Desktop users",
+          //     "Mobile users",
+          //     "Tablet users",
+          //     "Print layout"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which is a key principle of header design?",
+          //   "options": [
+          //     "Cluttered layout",
+          //     "Clean and uncluttered design",
+          //     "Multiple fonts",
+          //     "Small text"
+          //   ],
+          //   "correct": 1
+          // }
         ]
       },
       {
@@ -6389,97 +6389,97 @@ const defaultCourseModules = [
             ],
             "correct": 0
           },
-          {
-            "question": "How do you access the map editing options?",
-            "options": [
-              "Double click the map",
-              "Click on the cog icon",
-              "Right click the map",
-              "Press the Edit button"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "How many main options are available in the detail editor for maps?",
-            "options": [
-              "Three (Style, Map, and Layout)",
-              "Four (Style, Map, Size, and Position)",
-              "Two (Style and Map)",
-              "One (Map settings)"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which text box is used to input the location?",
-            "options": [
-              "Info box message",
-              "Location details",
-              "Map address",
-              "Your address",
-            ],
-            "correct": 3
-          },
-          {
-            "question": "What type of toggle is available in the map options?",
-            "options": [
-              "Satellite view",
-              "Black and white",
-              "3D view",
-              "Traffic view"
-            ],
-            "correct": 1
-          },
+          // {
+          //   "question": "How do you access the map editing options?",
+          //   "options": [
+          //     "Double click the map",
+          //     "Click on the cog icon",
+          //     "Right click the map",
+          //     "Press the Edit button"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "How many main options are available in the detail editor for maps?",
+          //   "options": [
+          //     "Three (Style, Map, and Layout)",
+          //     "Four (Style, Map, Size, and Position)",
+          //     "Two (Style and Map)",
+          //     "One (Map settings)"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which text box is used to input the location?",
+          //   "options": [
+          //     "Info box message",
+          //     "Location details",
+          //     "Map address",
+          //     "Your address",
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "What type of toggle is available in the map options?",
+          //   "options": [
+          //     "Satellite view",
+          //     "Black and white",
+          //     "3D view",
+          //     "Traffic view"
+          //   ],
+          //   "correct": 1
+          // },
 
-          {
-            "question": "What should you do after making changes to your map?",
-            "options": [
-              "Click Apply Changes",
-              "Refresh the page",
-              "Save and exit",
-              "Close the editor"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "What's recommended to include in the info box message?",
-            "options": [
-              "Full company history",
-              "Employee biographies",
-              "Opening hours and parking tips",
-              "Product catalog"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What benefit can black and white maps provide?",
-            "options": [
-              "Reduced page load time",
-              "Better visibility",
-              "Increased map size",
-              "More accurate directions"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "How do you add a map to your canvas?",
-            "options": [
-              "Copy and paste",
-              "Double click",
-              "Right click and select Add",
-              "Drag and drop"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "What should you consider when choosing a zoom level?",
-            "options": [
-              "Global view of the country",
-              "Satellite imagery quality",
-              "Visibility of nearby streets",
-              "Traffic patterns"
-            ],
-            "correct": 2
-          }
+          // {
+          //   "question": "What should you do after making changes to your map?",
+          //   "options": [
+          //     "Click Apply Changes",
+          //     "Refresh the page",
+          //     "Save and exit",
+          //     "Close the editor"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "What's recommended to include in the info box message?",
+          //   "options": [
+          //     "Full company history",
+          //     "Employee biographies",
+          //     "Opening hours and parking tips",
+          //     "Product catalog"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What benefit can black and white maps provide?",
+          //   "options": [
+          //     "Reduced page load time",
+          //     "Better visibility",
+          //     "Increased map size",
+          //     "More accurate directions"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "How do you add a map to your canvas?",
+          //   "options": [
+          //     "Copy and paste",
+          //     "Double click",
+          //     "Right click and select Add",
+          //     "Drag and drop"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "What should you consider when choosing a zoom level?",
+          //   "options": [
+          //     "Global view of the country",
+          //     "Satellite imagery quality",
+          //     "Visibility of nearby streets",
+          //     "Traffic patterns"
+          //   ],
+          //   "correct": 2
+          // }
         ]
       },
       {
@@ -6597,99 +6597,99 @@ const defaultCourseModules = [
           ],
           "correct": 0
         },
-        {
-          "question": "How do you add a navigation bar to the canvas?",
-          "options": [
-            "Copy and paste",
-            "Double click",
-            "Right click and select 'Add'",
-            "Drag and drop"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What appears when you click on a navigation bar component?",
-          "options": [
-            "A color picker",
-            "A text editor",
-            "A delete button only",
-            "A menu with editing options"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "Which icon do you click to access the Detail Modal?",
-          "options": [
-            "Star icon",
-            "Plus icon",
-            "Pencil icon",
-            "Cog icon"
-          ],
-          "correct": 3
-        },
+        // {
+        //   "question": "How do you add a navigation bar to the canvas?",
+        //   "options": [
+        //     "Copy and paste",
+        //     "Double click",
+        //     "Right click and select 'Add'",
+        //     "Drag and drop"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "What appears when you click on a navigation bar component?",
+        //   "options": [
+        //     "A color picker",
+        //     "A text editor",
+        //     "A delete button only",
+        //     "A menu with editing options"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "Which icon do you click to access the Detail Modal?",
+        //   "options": [
+        //     "Star icon",
+        //     "Plus icon",
+        //     "Pencil icon",
+        //     "Cog icon"
+        //   ],
+        //   "correct": 3
+        // },
      
-        {
-          "question": "How do you add a link to a navigation bar element?",
-          "options": [
-            "Double click and enter URL",
-            "Drag a link from browser",
-            "Click cog icon, select Link option, and paste URL",
-            "Right-click and select 'Add Link'"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What is an optional setting when adding a link?",
-          "options": [
-            "Add animation",
-            "Set link color",
-            "Add password protection",
-            "Open in new tab"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What is the first step to style a navigation element?",
-          "options": [
-            "Open Settings panel",
-            "Open Style menu",
-            "Right-click the element",
-            "Click the element"
-          ],
-          "correct": 3
-        },
+        // {
+        //   "question": "How do you add a link to a navigation bar element?",
+        //   "options": [
+        //     "Double click and enter URL",
+        //     "Drag a link from browser",
+        //     "Click cog icon, select Link option, and paste URL",
+        //     "Right-click and select 'Add Link'"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What is an optional setting when adding a link?",
+        //   "options": [
+        //     "Add animation",
+        //     "Set link color",
+        //     "Add password protection",
+        //     "Open in new tab"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "What is the first step to style a navigation element?",
+        //   "options": [
+        //     "Open Settings panel",
+        //     "Open Style menu",
+        //     "Right-click the element",
+        //     "Click the element"
+        //   ],
+        //   "correct": 3
+        // },
  
-        {
-          "question": "What happens when you click the cog icon?",
-          "options": [
-            "Shows preview",
-            "Shows Detail Modal",
-            "Opens Style panel directly",
-            "Deletes component"
-          ],
-          "correct": 1
-        },
+        // {
+        //   "question": "What happens when you click the cog icon?",
+        //   "options": [
+        //     "Shows preview",
+        //     "Shows Detail Modal",
+        //     "Opens Style panel directly",
+        //     "Deletes component"
+        //   ],
+        //   "correct": 1
+        // },
    
-        {
-          "question": "What feature allows you to duplicate a nav bar element?",
-          "options": [
-            "Duplicate option",
-            "Copy button",
-            "Repeat tool",
-            "Clone feature"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "Where are the style settings located?",
-          "options": [
-            "Main menu",
-            "Format bar",
-            "Quick panel",
-            "Detail Modal"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "What feature allows you to duplicate a nav bar element?",
+        //   "options": [
+        //     "Duplicate option",
+        //     "Copy button",
+        //     "Repeat tool",
+        //     "Clone feature"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "Where are the style settings located?",
+        //   "options": [
+        //     "Main menu",
+        //     "Format bar",
+        //     "Quick panel",
+        //     "Detail Modal"
+        //   ],
+        //   "correct": 3
+        // }
       ]
       },
       {
@@ -6809,96 +6809,96 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "How much more attention do center-stage pricing plans receive?",
-            "options": [
-              "20% more",
-              "30% more",
-              "40% more",
-              "50% more"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage of users compare all columns before deciding?",
-            "options": [
-              "70%",
-              "80%",
-              "90%",
-              "95%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which element should stand out most in a pricing table?",
-            "options": [
-              "Company logo",
-              "Feature list",
-              "Call-to-action buttons",
-              "Social proof"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What can increase conversions by 25% in pricing tables?",
-            "options": [
-              "Highlighting savings",
-              "Adding more features",
-              "Using animations",
-              "Including testimonials"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "Which is a common mistake in pricing tables?",
-            "options": [
-              "Using consistent spacing",
-              "Having too many tiers",
-              "Showing monthly prices",
-              "Including CTAs"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should you always include near pricing tables?",
-            "options": [
-              "Company history",
-              "Social proof",
-              "Blog posts",
-              "Contact form"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which pricing table element builds trust?",
-            "options": [
-              "Animated features",
-              "Multiple colors",
-              "Money-back guarantee",
-              "Large fonts"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes features easier to scan?",
-            "options": [
-              "More text",
-              "Using icons",
-              "Bright colors",
-              "Animations"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should you do regularly with pricing tables?",
-            "options": [
-              "Change colors",
-              "Add features",
-              "A/B test layouts",
-              "Remove options"
-            ],
-            "correct": 2
-          }
+          // {
+          //   "question": "How much more attention do center-stage pricing plans receive?",
+          //   "options": [
+          //     "20% more",
+          //     "30% more",
+          //     "40% more",
+          //     "50% more"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What percentage of users compare all columns before deciding?",
+          //   "options": [
+          //     "70%",
+          //     "80%",
+          //     "90%",
+          //     "95%"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which element should stand out most in a pricing table?",
+          //   "options": [
+          //     "Company logo",
+          //     "Feature list",
+          //     "Call-to-action buttons",
+          //     "Social proof"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What can increase conversions by 25% in pricing tables?",
+          //   "options": [
+          //     "Highlighting savings",
+          //     "Adding more features",
+          //     "Using animations",
+          //     "Including testimonials"
+          //   ],
+          //   "correct": 0
+          // },
+          // {
+          //   "question": "Which is a common mistake in pricing tables?",
+          //   "options": [
+          //     "Using consistent spacing",
+          //     "Having too many tiers",
+          //     "Showing monthly prices",
+          //     "Including CTAs"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What should you always include near pricing tables?",
+          //   "options": [
+          //     "Company history",
+          //     "Social proof",
+          //     "Blog posts",
+          //     "Contact form"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which pricing table element builds trust?",
+          //   "options": [
+          //     "Animated features",
+          //     "Multiple colors",
+          //     "Money-back guarantee",
+          //     "Large fonts"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What makes features easier to scan?",
+          //   "options": [
+          //     "More text",
+          //     "Using icons",
+          //     "Bright colors",
+          //     "Animations"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What should you do regularly with pricing tables?",
+          //   "options": [
+          //     "Change colors",
+          //     "Add features",
+          //     "A/B test layouts",
+          //     "Remove options"
+          //   ],
+          //   "correct": 2
+          // }
         ]
       },
       {
@@ -7018,96 +7018,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "By how much do visual timelines increase retention?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do interactive processes boost engagement?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do progress indicators reduce dropouts?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for process design?",
-          "options": [
-            "Animation",
-            "Clarity",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common process section mistake?",
-          "options": [
-            "Using clear steps",
-            "Maintaining flow",
-            "Complex design",
-            "Following order"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves process accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile processes?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain process flow?",
-          "options": [
-            "Random spacing",
-            "Varying styles",
-            "Multiple designs",
-            "Visual connectors"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "By how much do visual timelines increase retention?",
+        //   "options": [
+        //     "28%",
+        //     "33%",
+        //     "38%",
+        //     "43%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much do interactive processes boost engagement?",
+        //   "options": [
+        //     "32%",
+        //     "37%",
+        //     "42%",
+        //     "47%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "By what percentage do progress indicators reduce dropouts?",
+        //   "options": [
+        //     "22%",
+        //     "27%",
+        //     "32%",
+        //     "37%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's most important for process design?",
+        //   "options": [
+        //     "Animation",
+        //     "Clarity",
+        //     "Decoration",
+        //     "Colors"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's a common process section mistake?",
+        //   "options": [
+        //     "Using clear steps",
+        //     "Maintaining flow",
+        //     "Complex design",
+        //     "Following order"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What improves process accessibility?",
+        //   "options": [
+        //     "More animation",
+        //     "Semantic HTML",
+        //     "Bright colors",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should be used for consistent styling?",
+        //   "options": [
+        //     "Inline styles",
+        //     "Hard-coded values",
+        //     "CSS custom properties",
+        //     "Random values"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's essential for mobile processes?",
+        //   "options": [
+        //     "Animations",
+        //     "Responsive design",
+        //     "Decorations",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What helps maintain process flow?",
+        //   "options": [
+        //     "Random spacing",
+        //     "Varying styles",
+        //     "Multiple designs",
+        //     "Visual connectors"
+        //   ],
+        //   "correct": 3
+        // }
       ]
       },
       {
@@ -7227,96 +7227,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "By how much does real-time validation improve completion?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much does mobile optimization boost signups?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do progress indicators reduce abandonment?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for sign-up forms?",
-          "options": [
-            "Animation",
-            "Simplicity",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common sign-up form mistake?",
-          "options": [
-            "Clear labels",
-            "Validation",
-            "Too many fields",
-            "Progress bars"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves form accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile forms?",
-          "options": [
-            "Animations",
-            "Touch-friendly",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps reduce form abandonment?",
-          "options": [
-            "More fields",
-            "Complex validation",
-            "No feedback",
-            "Clear progress"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "By how much does real-time validation improve completion?",
+        //   "options": [
+        //     "28%",
+        //     "33%",
+        //     "38%",
+        //     "43%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much does mobile optimization boost signups?",
+        //   "options": [
+        //     "32%",
+        //     "37%",
+        //     "42%",
+        //     "47%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "By what percentage do progress indicators reduce abandonment?",
+        //   "options": [
+        //     "22%",
+        //     "27%",
+        //     "32%",
+        //     "37%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's most important for sign-up forms?",
+        //   "options": [
+        //     "Animation",
+        //     "Simplicity",
+        //     "Decoration",
+        //     "Colors"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's a common sign-up form mistake?",
+        //   "options": [
+        //     "Clear labels",
+        //     "Validation",
+        //     "Too many fields",
+        //     "Progress bars"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What improves form accessibility?",
+        //   "options": [
+        //     "More animation",
+        //     "Semantic HTML",
+        //     "Bright colors",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should be used for consistent styling?",
+        //   "options": [
+        //     "Inline styles",
+        //     "Hard-coded values",
+        //     "CSS custom properties",
+        //     "Random values"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's essential for mobile forms?",
+        //   "options": [
+        //     "Animations",
+        //     "Touch-friendly",
+        //     "Decorations",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What helps reduce form abandonment?",
+        //   "options": [
+        //     "More fields",
+        //     "Complex validation",
+        //     "No feedback",
+        //     "Clear progress"
+        //   ],
+        //   "correct": 3
+        // }
       ]
       },
       {
@@ -7433,96 +7433,96 @@ const defaultCourseModules = [
           ],
           "correct": 1
         },
-        {
-          "question": "How much faster is visual content processed compared to text?",
-          "options": [
-            "30,000x faster",
-            "40,000x faster",
-            "50,000x faster",
-            "60,000x faster"
-          ],
-          "correct": 3
-        },
-        {
-          "question": "What percentage of information retention is visual?",
-          "options": [
-            "55%",
-            "65%",
-            "75%",
-            "85%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What is the 10-20-30 rule?",
-          "options": [
-            "10 slides, 20 minutes, 30-point font",
-            "10 minutes, 20 slides, 30 seconds each",
-            "10 sections, 20 slides, 30 minutes",
-            "10 points, 20 words, 30 slides"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "By how much can stories increase audience engagement?",
-          "options": [
-            "20%",
-            "30%",
-            "40%",
-            "50%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which is a common mistake in slideshows?",
-          "options": [
-            "Using visual aids",
-            "Including white space",
-            "Too much text per slide",
-            "Having backup slides"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should always be included in your opening slide?",
-          "options": [
-            "Company history",
-            "Hook statement",
-            "Full agenda",
-            "Speaker biography"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain visual hierarchy in slides?",
-          "options": [
-            "Using all caps",
-            "Multiple fonts",
-            "Contrasting colors",
-            "Dense text"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What makes slides easier to follow?",
-          "options": [
-            "Multiple topics per slide",
-            "One key point per slide",
-            "Complex animations",
-            "Small font sizes"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should you always do before presenting?",
-          "options": [
-            "Add more text",
-            "Remove all images",
-            "Practice delivery",
-            "Increase animations"
-          ],
-          "correct": 2
-        }
+        // {
+        //   "question": "How much faster is visual content processed compared to text?",
+        //   "options": [
+        //     "30,000x faster",
+        //     "40,000x faster",
+        //     "50,000x faster",
+        //     "60,000x faster"
+        //   ],
+        //   "correct": 3
+        // },
+        // {
+        //   "question": "What percentage of information retention is visual?",
+        //   "options": [
+        //     "55%",
+        //     "65%",
+        //     "75%",
+        //     "85%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What is the 10-20-30 rule?",
+        //   "options": [
+        //     "10 slides, 20 minutes, 30-point font",
+        //     "10 minutes, 20 slides, 30 seconds each",
+        //     "10 sections, 20 slides, 30 minutes",
+        //     "10 points, 20 words, 30 slides"
+        //   ],
+        //   "correct": 0
+        // },
+        // {
+        //   "question": "By how much can stories increase audience engagement?",
+        //   "options": [
+        //     "20%",
+        //     "30%",
+        //     "40%",
+        //     "50%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "Which is a common mistake in slideshows?",
+        //   "options": [
+        //     "Using visual aids",
+        //     "Including white space",
+        //     "Too much text per slide",
+        //     "Having backup slides"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What should always be included in your opening slide?",
+        //   "options": [
+        //     "Company history",
+        //     "Hook statement",
+        //     "Full agenda",
+        //     "Speaker biography"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What helps maintain visual hierarchy in slides?",
+        //   "options": [
+        //     "Using all caps",
+        //     "Multiple fonts",
+        //     "Contrasting colors",
+        //     "Dense text"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What makes slides easier to follow?",
+        //   "options": [
+        //     "Multiple topics per slide",
+        //     "One key point per slide",
+        //     "Complex animations",
+        //     "Small font sizes"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should you always do before presenting?",
+        //   "options": [
+        //     "Add more text",
+        //     "Remove all images",
+        //     "Practice delivery",
+        //     "Increase animations"
+        //   ],
+        //   "correct": 2
+        // }
       ]
       },
       {
@@ -7642,96 +7642,96 @@ const defaultCourseModules = [
             ],
             "correct": 2
           },
-          {
-            "question": "What percentage better do single-column forms convert?",
-            "options": [
-              "10%",
-              "20%",
-              "30%",
-              "40%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage of users prefer a two-step opt-in process?",
-            "options": [
-              "65%",
-              "75%",
-              "85%",
-              "95%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "By how much can FOMO increase signup rates?",
-            "options": [
-              "25%",
-              "30%",
-              "35%",
-              "40%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which element should be above the fold?",
-            "options": [
-              "Privacy policy",
-              "Testimonials",
-              "Social media links",
-              "Subscribe form"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "Which is a common mistake in subscription forms?",
-            "options": [
-              "Including a privacy policy",
-              "Using contrasting colors",
-              "Asking for too much information",
-              "Having a clear CTA"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What should you always test in subscription forms?",
-            "options": [
-              "Logo size",
-              "Form layouts and CTAs",
-              "Background patterns",
-              "Font families"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What increases form engagement?",
-            "options": [
-              "Long forms",
-              "Multiple columns",
-              "Micro-interactions",
-              "Complex animations"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What's most effective for driving subscriptions?",
-            "options": [
-              "Company history",
-              "Lead magnet",
-              "Complex design",
-              "Multiple forms"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What's most important for mobile subscription forms?",
-            "options": [
-              "Animations",
-              "Responsiveness",
-              "Multiple columns",
-              "Video content"
-            ],
-            "correct": 1
-          }
+          // {
+          //   "question": "What percentage better do single-column forms convert?",
+          //   "options": [
+          //     "10%",
+          //     "20%",
+          //     "30%",
+          //     "40%"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What percentage of users prefer a two-step opt-in process?",
+          //   "options": [
+          //     "65%",
+          //     "75%",
+          //     "85%",
+          //     "95%"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "By how much can FOMO increase signup rates?",
+          //   "options": [
+          //     "25%",
+          //     "30%",
+          //     "35%",
+          //     "40%"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which element should be above the fold?",
+          //   "options": [
+          //     "Privacy policy",
+          //     "Testimonials",
+          //     "Social media links",
+          //     "Subscribe form"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "Which is a common mistake in subscription forms?",
+          //   "options": [
+          //     "Including a privacy policy",
+          //     "Using contrasting colors",
+          //     "Asking for too much information",
+          //     "Having a clear CTA"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What should you always test in subscription forms?",
+          //   "options": [
+          //     "Logo size",
+          //     "Form layouts and CTAs",
+          //     "Background patterns",
+          //     "Font families"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What increases form engagement?",
+          //   "options": [
+          //     "Long forms",
+          //     "Multiple columns",
+          //     "Micro-interactions",
+          //     "Complex animations"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What's most effective for driving subscriptions?",
+          //   "options": [
+          //     "Company history",
+          //     "Lead magnet",
+          //     "Complex design",
+          //     "Multiple forms"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What's most important for mobile subscription forms?",
+          //   "options": [
+          //     "Animations",
+          //     "Responsiveness",
+          //     "Multiple columns",
+          //     "Video content"
+          //   ],
+          //   "correct": 1
+          // }
         ]
       },
       {
@@ -7851,96 +7851,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "By how much do personal bios increase engagement?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do team sections boost brand trust?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do filtered team sections improve navigation?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for team section design?",
-          "options": [
-            "Animation",
-            "Consistency",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common team section mistake?",
-          "options": [
-            "Using professional photos",
-            "Maintaining consistency",
-            "Overusing effects",
-            "Following grid"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves team section accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile team sections?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain visual hierarchy?",
-          "options": [
-            "Random spacing",
-            "Varying weights",
-            "Multiple styles",
-            "Consistent layout"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "By how much do personal bios increase engagement?",
+        //   "options": [
+        //     "28%",
+        //     "33%",
+        //     "38%",
+        //     "43%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much do team sections boost brand trust?",
+        //   "options": [
+        //     "32%",
+        //     "37%",
+        //     "42%",
+        //     "47%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "By what percentage do filtered team sections improve navigation?",
+        //   "options": [
+        //     "22%",
+        //     "27%",
+        //     "32%",
+        //     "37%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's most important for team section design?",
+        //   "options": [
+        //     "Animation",
+        //     "Consistency",
+        //     "Decoration",
+        //     "Colors"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's a common team section mistake?",
+        //   "options": [
+        //     "Using professional photos",
+        //     "Maintaining consistency",
+        //     "Overusing effects",
+        //     "Following grid"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What improves team section accessibility?",
+        //   "options": [
+        //     "More animation",
+        //     "Semantic HTML",
+        //     "Bright colors",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should be used for consistent styling?",
+        //   "options": [
+        //     "Inline styles",
+        //     "Hard-coded values",
+        //     "CSS custom properties",
+        //     "Random values"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's essential for mobile team sections?",
+        //   "options": [
+        //     "Animations",
+        //     "Responsive design",
+        //     "Decorations",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What helps maintain visual hierarchy?",
+        //   "options": [
+        //     "Random spacing",
+        //     "Varying weights",
+        //     "Multiple styles",
+        //     "Consistent layout"
+        //   ],
+        //   "correct": 3
+        // }
       ]
       },
       {
@@ -8060,96 +8060,96 @@ const defaultCourseModules = [
           ],
           "correct": 2
         },
-        {
-          "question": "By how much do video testimonials boost engagement?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do testimonials increase conversion rates?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do filtered testimonials improve relevance?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for testimonial design?",
-          "options": [
-            "Animation",
-            "Authenticity",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common testimonial mistake?",
-          "options": [
-            "Using real photos",
-            "Maintaining consistency",
-            "Using fake reviews",
-            "Following grid"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves testimonial accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile testimonials?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain testimonial credibility?",
-          "options": [
-            "Random spacing",
-            "Varying weights",
-            "Multiple styles",
-            "Verification badges"
-          ],
-          "correct": 3
-        }
+        // {
+        //   "question": "By how much do video testimonials boost engagement?",
+        //   "options": [
+        //     "28%",
+        //     "33%",
+        //     "38%",
+        //     "43%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "How much do testimonials increase conversion rates?",
+        //   "options": [
+        //     "32%",
+        //     "37%",
+        //     "42%",
+        //     "47%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "By what percentage do filtered testimonials improve relevance?",
+        //   "options": [
+        //     "22%",
+        //     "27%",
+        //     "32%",
+        //     "37%"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's most important for testimonial design?",
+        //   "options": [
+        //     "Animation",
+        //     "Authenticity",
+        //     "Decoration",
+        //     "Colors"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What's a common testimonial mistake?",
+        //   "options": [
+        //     "Using real photos",
+        //     "Maintaining consistency",
+        //     "Using fake reviews",
+        //     "Following grid"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What improves testimonial accessibility?",
+        //   "options": [
+        //     "More animation",
+        //     "Semantic HTML",
+        //     "Bright colors",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What should be used for consistent styling?",
+        //   "options": [
+        //     "Inline styles",
+        //     "Hard-coded values",
+        //     "CSS custom properties",
+        //     "Random values"
+        //   ],
+        //   "correct": 2
+        // },
+        // {
+        //   "question": "What's essential for mobile testimonials?",
+        //   "options": [
+        //     "Animations",
+        //     "Responsive design",
+        //     "Decorations",
+        //     "Gradients"
+        //   ],
+        //   "correct": 1
+        // },
+        // {
+        //   "question": "What helps maintain testimonial credibility?",
+        //   "options": [
+        //     "Random spacing",
+        //     "Varying weights",
+        //     "Multiple styles",
+        //     "Verification badges"
+        //   ],
+        //   "correct": 3
+        // }
       ]
     
       },
@@ -8293,96 +8293,96 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "Which type of title is best for tutorial content?",
-            "options": [
-              "Question Titles",
-              "How-To Titles",
-              "List Titles",
-              "Statement Titles"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Where should the primary keyword be placed in a title?",
-            "options": [
-              "At the end",
-              "In the middle",
-              "Near the beginning",
-              "Anywhere is fine"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is a common title writing mistake?",
-            "options": [
-              "Using power words",
-              "Including numbers",
-              "Keyword stuffing",
-              "Being specific"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which element is most important for title formatting?",
-            "options": [
-              "Fancy fonts",
-              "Multiple colors",
-              "Readability",
-              "Animation"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes list titles effective?",
-            "options": [
-              "They're longer",
-              "They use numbers",
-              "They're mysterious",
-              "They use jargon"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should you consider when formatting titles?",
-            "options": [
-              "Only desktop view",
-              "Only mobile view",
-              "Multiple device views",
-              "Print view only"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which is a recommended SEO practice for titles?",
-            "options": [
-              "Using misleading keywords",
-              "Making it as long as possible",
-              "Using power words",
-              "Avoiding keywords"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes a title 'clickbait'?",
-            "options": [
-              "Being specific",
-              "Not delivering on promises",
-              "Using numbers",
-              "Including keywords"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should a great title always do?",
-            "options": [
-              "Be as long as possible",
-              "Use technical jargon",
-              "Match the content",
-              "Avoid keywords"
-            ],
-            "correct": 2
-          }
+          // {
+          //   "question": "Which type of title is best for tutorial content?",
+          //   "options": [
+          //     "Question Titles",
+          //     "How-To Titles",
+          //     "List Titles",
+          //     "Statement Titles"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Where should the primary keyword be placed in a title?",
+          //   "options": [
+          //     "At the end",
+          //     "In the middle",
+          //     "Near the beginning",
+          //     "Anywhere is fine"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What is a common title writing mistake?",
+          //   "options": [
+          //     "Using power words",
+          //     "Including numbers",
+          //     "Keyword stuffing",
+          //     "Being specific"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which element is most important for title formatting?",
+          //   "options": [
+          //     "Fancy fonts",
+          //     "Multiple colors",
+          //     "Readability",
+          //     "Animation"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What makes list titles effective?",
+          //   "options": [
+          //     "They're longer",
+          //     "They use numbers",
+          //     "They're mysterious",
+          //     "They use jargon"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What should you consider when formatting titles?",
+          //   "options": [
+          //     "Only desktop view",
+          //     "Only mobile view",
+          //     "Multiple device views",
+          //     "Print view only"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "Which is a recommended SEO practice for titles?",
+          //   "options": [
+          //     "Using misleading keywords",
+          //     "Making it as long as possible",
+          //     "Using power words",
+          //     "Avoiding keywords"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What makes a title 'clickbait'?",
+          //   "options": [
+          //     "Being specific",
+          //     "Not delivering on promises",
+          //     "Using numbers",
+          //     "Including keywords"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "What should a great title always do?",
+          //   "options": [
+          //     "Be as long as possible",
+          //     "Use technical jargon",
+          //     "Match the content",
+          //     "Avoid keywords"
+          //   ],
+          //   "correct": 2
+          // }
         ]
       },
       {
@@ -8505,215 +8505,215 @@ const defaultCourseModules = [
           ],
           "correct": 0
         },
-        {
-          "question": "What is the recommended minimum wait time before showing a popup?",
-          "options": [
-            "Immediately",
-            "3 seconds",
-            "5 seconds",
-            "10 seconds"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which of these is a best practice for popup design?",
-          "options": [
-            "Hide the close button to increase engagement",
-            "Show multiple popups simultaneously",
-            "Provide a clear way to close the popup",
-            "Use aggressive language to drive action"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What percentage of lost visitors can exit-intent popups potentially save?",
-          "options": [
-            "15%",
-            "25%",
-            "35%",
-            "45%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How do mobile users typically interact with popups compared to desktop users?",
-          "options": [
-            "They engage more often",
-            "They're twice as likely to close them",
-            "They spend more time reading them",
-            "They convert at higher rates"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which element should always be included in a popup?",
-          "options": [
-            "Social media links",
-            "Video content",
-            "Close button",
-            "Animation effects"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's an important consideration when designing popup timing?",
-          "options": [
-            "Show it immediately for maximum impact",
-            "Wait for user engagement",
-            "Display multiple popups at once",
-            "Ignore mobile users"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's the recommended approach for popup frequency?",
-          "options": [
-            "Show the same popup multiple times",
-            "Show different popups simultaneously",
-            "Don't show the same popup twice in one session",
-            "Show popups on every page load"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which feature can help optimize popup performance?",
-          "options": [
-            "Analytics tracking",
-            "Automatic popups",
-            "Random timing",
-            "Multiple animations"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What's a key consideration for mobile popup design?",
-          "options": [
-            "Using smaller close buttons",
-            "Appropriate sizing for mobile screens",
-            "Adding more content",
-            "Using multiple popups"
-          ],
-          "correct": 1
-        }
-      ]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Rebuild & Speed Test",
-    "units": [
-      {
-        "id": 1,
-        "title": "Speed Optimisation",
-        "content": "Test your site’s performance and learn to improve loading speed using tools like Speed Optimizer.",
-        "quiz": [
-          {
-            "question": "What is the recommended length for CTA button text?",
-            "options": [
-              "1 word",
-              "2-5 words",
-              "6-10 words",
-              "More than 10 words"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
-            "options": [
-              "Blue",
-              "Green",
-              "Red",
-              "Yellow"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage better do personalized CTAs perform compared to default versions?",
-            "options": [
-              "102%",
-              "152%",
-              "202%",
-              "252%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which of these is a best practice for CTA design?",
-            "options": [
-              "Use subtle, blending colors",
-              "Make buttons small and discrete",
-              "Use contrasting colors that pop",
-              "Add multiple CTAs everywhere"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What type of words should you start CTA text with?",
-            "options": [
-              "Adjectives",
-              "Action verbs",
-              "Nouns",
-              "Articles"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Where is the ideal placement for important CTAs?",
-            "options": [
-              "At the very bottom of the page",
-              "In the footer",
-              "Above the fold",
-              "In the sidebar"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which is considered a CTA copywriting mistake?",
-            "options": [
-              "Using action verbs",
-              "Creating urgency",
-              "Using 'Click Here'",
-              "Showing value"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage of visitors read CTAs based on button text?",
-            "options": [
-              "70%",
-              "80%",
-              "90%",
-              "100%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is an effective way to optimize CTA performance?",
-            "options": [
-              "A/B testing",
-              "Using multiple CTAs",
-              "Making them smaller",
-              "Using passive language"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "By what percentage can adding CTAs to articles increase conversions?",
-            "options": [
-              "185%",
-              "235%",
-              "285%",
-              "335%"
-            ],
-            "correct": 2
-          }
+  //       {
+  //         "question": "What is the recommended minimum wait time before showing a popup?",
+  //         "options": [
+  //           "Immediately",
+  //           "3 seconds",
+  //           "5 seconds",
+  //           "10 seconds"
+  //         ],
+  //         "correct": 2
+  //       },
+  //       {
+  //         "question": "Which of these is a best practice for popup design?",
+  //         "options": [
+  //           "Hide the close button to increase engagement",
+  //           "Show multiple popups simultaneously",
+  //           "Provide a clear way to close the popup",
+  //           "Use aggressive language to drive action"
+  //         ],
+  //         "correct": 2
+  //       },
+  //       {
+  //         "question": "What percentage of lost visitors can exit-intent popups potentially save?",
+  //         "options": [
+  //           "15%",
+  //           "25%",
+  //           "35%",
+  //           "45%"
+  //         ],
+  //         "correct": 2
+  //       },
+  //       {
+  //         "question": "How do mobile users typically interact with popups compared to desktop users?",
+  //         "options": [
+  //           "They engage more often",
+  //           "They're twice as likely to close them",
+  //           "They spend more time reading them",
+  //           "They convert at higher rates"
+  //         ],
+  //         "correct": 1
+  //       },
+  //       {
+  //         "question": "Which element should always be included in a popup?",
+  //         "options": [
+  //           "Social media links",
+  //           "Video content",
+  //           "Close button",
+  //           "Animation effects"
+  //         ],
+  //         "correct": 2
+  //       },
+  //       {
+  //         "question": "What's an important consideration when designing popup timing?",
+  //         "options": [
+  //           "Show it immediately for maximum impact",
+  //           "Wait for user engagement",
+  //           "Display multiple popups at once",
+  //           "Ignore mobile users"
+  //         ],
+  //         "correct": 1
+  //       },
+  //       {
+  //         "question": "What's the recommended approach for popup frequency?",
+  //         "options": [
+  //           "Show the same popup multiple times",
+  //           "Show different popups simultaneously",
+  //           "Don't show the same popup twice in one session",
+  //           "Show popups on every page load"
+  //         ],
+  //         "correct": 2
+  //       },
+  //       {
+  //         "question": "Which feature can help optimize popup performance?",
+  //         "options": [
+  //           "Analytics tracking",
+  //           "Automatic popups",
+  //           "Random timing",
+  //           "Multiple animations"
+  //         ],
+  //         "correct": 0
+  //       },
+  //       {
+  //         "question": "What's a key consideration for mobile popup design?",
+  //         "options": [
+  //           "Using smaller close buttons",
+  //           "Appropriate sizing for mobile screens",
+  //           "Adding more content",
+  //           "Using multiple popups"
+  //         ],
+  //         "correct": 1
+  //       }
+  //     ]
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": 4,
+  //   "title": "Rebuild & Speed Test",
+  //   "units": [
+  //     {
+  //       "id": 1,
+  //       "title": "Speed Optimisation",
+  //       "content": "Test your site’s performance and learn to improve loading speed using tools like Speed Optimizer.",
+  //       "quiz": [
+  //         {
+  //           "question": "What is the recommended length for CTA button text?",
+  //           "options": [
+  //             "1 word",
+  //             "2-5 words",
+  //             "6-10 words",
+  //             "More than 10 words"
+  //           ],
+  //           "correct": 1
+  //         },
+  //         {
+  //           "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
+  //           "options": [
+  //             "Blue",
+  //             "Green",
+  //             "Red",
+  //             "Yellow"
+  //           ],
+  //           "correct": 2
+  //         },
+  //         {
+  //           "question": "What percentage better do personalized CTAs perform compared to default versions?",
+  //           "options": [
+  //             "102%",
+  //             "152%",
+  //             "202%",
+  //             "252%"
+  //           ],
+  //           "correct": 2
+  //         },
+  //         {
+  //           "question": "Which of these is a best practice for CTA design?",
+  //           "options": [
+  //             "Use subtle, blending colors",
+  //             "Make buttons small and discrete",
+  //             "Use contrasting colors that pop",
+  //             "Add multiple CTAs everywhere"
+  //           ],
+  //           "correct": 2
+  //         },
+  //         {
+  //           "question": "What type of words should you start CTA text with?",
+  //           "options": [
+  //             "Adjectives",
+  //             "Action verbs",
+  //             "Nouns",
+  //             "Articles"
+  //           ],
+  //           "correct": 1
+  //         },
+  //         {
+  //           "question": "Where is the ideal placement for important CTAs?",
+  //           "options": [
+  //             "At the very bottom of the page",
+  //             "In the footer",
+  //             "Above the fold",
+  //             "In the sidebar"
+  //           ],
+  //           "correct": 2
+  //         },
+  //         {
+  //           "question": "Which is considered a CTA copywriting mistake?",
+  //           "options": [
+  //             "Using action verbs",
+  //             "Creating urgency",
+  //             "Using 'Click Here'",
+  //             "Showing value"
+  //           ],
+  //           "correct": 2
+  //         },
+  //         {
+  //           "question": "What percentage of visitors read CTAs based on button text?",
+  //           "options": [
+  //             "70%",
+  //             "80%",
+  //             "90%",
+  //             "100%"
+  //           ],
+  //           "correct": 2
+  //         },
+  //         {
+  //           "question": "What is an effective way to optimize CTA performance?",
+  //           "options": [
+  //             "A/B testing",
+  //             "Using multiple CTAs",
+  //             "Making them smaller",
+  //             "Using passive language"
+  //           ],
+  //           "correct": 0
+  //         },
+  //         {
+  //           "question": "By what percentage can adding CTAs to articles increase conversions?",
+  //           "options": [
+  //             "185%",
+  //             "235%",
+  //             "285%",
+  //             "335%"
+  //           ],
+  //           "correct": 2
+  //         }
         ]
       }
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Countdowns",
     "units": [
       {
@@ -8833,102 +8833,102 @@ const defaultCourseModules = [
       ],
       "correct": 0
     },
-    {
-      "question": "By how much can countdown timers increase conversion rates?",
-      "options": [
-        "Up to 20%",
-        "Up to 30%",
-        "Up to 40%",
-        "Up to 50%"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What's the most effective countdown length for engagement?",
-      "options": [
-        "Under 12 hours",
-        "Under 24 hours",
-        "Under 48 hours",
-        "Under 72 hours"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What's an important factor to consider when setting up a countdown timer?",
-      "options": [
-        "Background music",
-        "Time zones",
-        "Social media links",
-        "Video content"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "How much longer do users spend on pages with interactive timers?",
-      "options": [
-        "1.5x more time",
-        "2x more time",
-        "3x more time",
-        "4x more time"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Which is NOT a common use case for countdown timers?",
-      "options": [
-        "Product launches",
-        "Blog posts",
-        "Special offers",
-        "Event countdowns"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What should you plan carefully when setting up a countdown?",
-      "options": [
-        "End-time behavior",
-        "Background color",
-        "Font family",
-        "Border style"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Which display format is typically included in countdown timers?",
-      "options": [
-        "Weeks",
-        "Decades",
-        "Seconds",
-        "Months"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "What's most important to test about a countdown timer?",
-      "options": [
-        "Animation speed",
-        "Cross-device compatibility",
-        "Color schemes",
-        "Font sizes"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Which element should be clearly specified with countdown timers?",
-      "options": [
-        "Social links",
-        "Company logo",
-        "Time zone",
-        "Page title"
-      ],
-      "correct": 2
-    }
+    // {
+    //   "question": "By how much can countdown timers increase conversion rates?",
+    //   "options": [
+    //     "Up to 20%",
+    //     "Up to 30%",
+    //     "Up to 40%",
+    //     "Up to 50%"
+    //   ],
+    //   "correct": 2
+    // },
+    // {
+    //   "question": "What's the most effective countdown length for engagement?",
+    //   "options": [
+    //     "Under 12 hours",
+    //     "Under 24 hours",
+    //     "Under 48 hours",
+    //     "Under 72 hours"
+    //   ],
+    //   "correct": 1
+    // },
+    // {
+    //   "question": "What's an important factor to consider when setting up a countdown timer?",
+    //   "options": [
+    //     "Background music",
+    //     "Time zones",
+    //     "Social media links",
+    //     "Video content"
+    //   ],
+    //   "correct": 1
+    // },
+    // {
+    //   "question": "How much longer do users spend on pages with interactive timers?",
+    //   "options": [
+    //     "1.5x more time",
+    //     "2x more time",
+    //     "3x more time",
+    //     "4x more time"
+    //   ],
+    //   "correct": 2
+    // },
+    // {
+    //   "question": "Which is NOT a common use case for countdown timers?",
+    //   "options": [
+    //     "Product launches",
+    //     "Blog posts",
+    //     "Special offers",
+    //     "Event countdowns"
+    //   ],
+    //   "correct": 1
+    // },
+    // {
+    //   "question": "What should you plan carefully when setting up a countdown?",
+    //   "options": [
+    //     "End-time behavior",
+    //     "Background color",
+    //     "Font family",
+    //     "Border style"
+    //   ],
+    //   "correct": 0
+    // },
+    // {
+    //   "question": "Which display format is typically included in countdown timers?",
+    //   "options": [
+    //     "Weeks",
+    //     "Decades",
+    //     "Seconds",
+    //     "Months"
+    //   ],
+    //   "correct": 2
+    // },
+    // {
+    //   "question": "What's most important to test about a countdown timer?",
+    //   "options": [
+    //     "Animation speed",
+    //     "Cross-device compatibility",
+    //     "Color schemes",
+    //     "Font sizes"
+    //   ],
+    //   "correct": 1
+    // },
+    // {
+    //   "question": "Which element should be clearly specified with countdown timers?",
+    //   "options": [
+    //     "Social links",
+    //     "Company logo",
+    //     "Time zone",
+    //     "Page title"
+    //   ],
+    //   "correct": 2
+    // }
   ]
       }
     ]
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Recap and Practice",
     "units": [
       {
@@ -8946,94 +8946,94 @@ const defaultCourseModules = [
             ],
             "correct": 1
           },
-          {
-            "question": "How much monthly income can you earn per active website?",
-            "options": [
-              "£5 (UGX 24,000)",
-              "£7 (UGX 33,600)",
-              "£10 (UGX 48,000)",
-              "£15 (UGX 72,000)"
-            ],
-            "correct": 1
-          }
-          ,
-          {
-            "question": "What is the target number of websites recommended to build?",
-            "options": [
-              "10 websites",
-              "15 websites",
-              "20 websites",
-              "25 websites"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is the potential yearly earnings from 20 active websites?",
-            "options": [
-              "£1,200 (UGX 5,760,000)",
-              "£1,480 (UGX 7,104,000)",
-              "£1,680 (UGX 8,064,000)",
-              "£2,000 (UGX 9,600,000)"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes Zylosite accessible to beginners?",
-            "options": [
-              "It requires coding knowledge",
-              "It needs programming experience",
-              "It has a drag-and-drop interface",
-              "It requires web design certification"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What comprehensive support package does AWB provide?",
-            "options": [
-              "Only technical support",
-              "Just website templates",
-              "Expert training, certification, job market access, and business team support",
-              "Only client connections"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "How does the AWB website builder earn you recurring income?",
-            "options": [
-              "Through one-time website sales",
-              "From monthly hosting fees",
-              "By selling domains",
-              "Through advertising revenue"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which tool will you use to create and manage your website?",
-            "options": [
-              "WordPress",
-              "GoDaddy",
-              "Wix",
-              "Zylosite"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "What ongoing work is required to maintain the passive income?",
-            "options": [
-              "Complete website rebuilds",
-              "Daily content updates",
-              "Simple maintenance and updates",
-              "Weekly client meetings"
-            ],
-            "correct": 2
-          }
+          // {
+          //   "question": "How much monthly income can you earn per active website?",
+          //   "options": [
+          //     "£5 (UGX 24,000)",
+          //     "£7 (UGX 33,600)",
+          //     "£10 (UGX 48,000)",
+          //     "£15 (UGX 72,000)"
+          //   ],
+          //   "correct": 1
+          // }
+          // ,
+          // {
+          //   "question": "What is the target number of websites recommended to build?",
+          //   "options": [
+          //     "10 websites",
+          //     "15 websites",
+          //     "20 websites",
+          //     "25 websites"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What is the potential yearly earnings from 20 active websites?",
+          //   "options": [
+          //     "£1,200 (UGX 5,760,000)",
+          //     "£1,480 (UGX 7,104,000)",
+          //     "£1,680 (UGX 8,064,000)",
+          //     "£2,000 (UGX 9,600,000)"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What makes Zylosite accessible to beginners?",
+          //   "options": [
+          //     "It requires coding knowledge",
+          //     "It needs programming experience",
+          //     "It has a drag-and-drop interface",
+          //     "It requires web design certification"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "What comprehensive support package does AWB provide?",
+          //   "options": [
+          //     "Only technical support",
+          //     "Just website templates",
+          //     "Expert training, certification, job market access, and business team support",
+          //     "Only client connections"
+          //   ],
+          //   "correct": 2
+          // },
+          // {
+          //   "question": "How does the AWB website builder earn you recurring income?",
+          //   "options": [
+          //     "Through one-time website sales",
+          //     "From monthly hosting fees",
+          //     "By selling domains",
+          //     "Through advertising revenue"
+          //   ],
+          //   "correct": 1
+          // },
+          // {
+          //   "question": "Which tool will you use to create and manage your website?",
+          //   "options": [
+          //     "WordPress",
+          //     "GoDaddy",
+          //     "Wix",
+          //     "Zylosite"
+          //   ],
+          //   "correct": 3
+          // },
+          // {
+          //   "question": "What ongoing work is required to maintain the passive income?",
+          //   "options": [
+          //     "Complete website rebuilds",
+          //     "Daily content updates",
+          //     "Simple maintenance and updates",
+          //     "Weekly client meetings"
+          //   ],
+          //   "correct": 2
+          // }
         ]
       }
     ]
   },
  
   {
-    "id": 7,
+    "id": 6,
     "title": "Optimisation and Branding",
     "units": [
       {
@@ -9051,7 +9051,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "AWB Tutor Course - Part 1",
     "units": [
       {
@@ -9063,7 +9063,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "AWB Tutor Course - Part 2",
     "units": [
       {
@@ -9075,7 +9075,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Freelancing Readiness",
     "units": [
       {
@@ -9087,7 +9087,7 @@ const defaultCourseModules = [
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Sales Strategies",
     "units": [
       {
