@@ -7543,206 +7543,232 @@ const defaultCourseModules = [
         "id": 16,
         "title": "Slideshows",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Engaging Slideshows! 🎯</h2>
-        
+        <h2 class="text-2xl font-bold">Create Stunning Slideshows! Let's Make Your Images Dance 💃🏻𓀤🕺🏽</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/SlideShow(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Present Your Ideas with Impact! ✨</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-center">Your Images, Your Story! 🎭</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A great slideshow doesn't just share information - it tells a compelling story and keeps your audience engaged from start to finish! 🎭"
-            <footer class="text-sm mt-2">- Presentation Design Expert</footer>
+            "Why settle for static when you can slide into awesome? Let's make your content move and glide!"
           </blockquote>
-      
+          <footer class="text-sm mt-2">- The Slideshow Wizards 🧙‍♂️</footer>
+
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Slideshows! 🚀</h5>
+              <h5 class="font-semibold">Getting Started with Slideshows 🎬</h5>
               <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective slideshows:</p>
+                <p class="mb-4">Creating your first slideshow is a breeze! Here's how:</p>
                 <ol class="list-decimal pl-4 space-y-2">
-                  <li>Start with a clear outline and structure</li>
-                  <li>Keep each slide focused on one key point</li>
-                  <li>Use visuals to support your message</li>
-                  <li>Practice smooth transitions between slides</li>
+                  <li>First things first! Head over to the blocks section - that's where the fun begins!</li>
+                  <li> You'll find some amazing templates waiting to jazz up your page. Look for the 'Slideshow' option - you can't miss it</li>
+                  <li>Browse through our beautiful templates (we've got something for everyone)</li>
+                  <li>Found one you love? Just drag and drop it onto your canvas - it's as easy as pie! 🥧</li>
                 </ol>
               </div>
             </div>
           </div>
+
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+      <div class="pl-4 space-y-4">        
+        <p>Each slideshow comes with space for three fantastic images - perfect for telling your visual story! 📸</p>
+      </div>
+    </div>
           
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <h5 class="font-semibold">Customizing Your Slideshow ✨</h5>
               <div class="bg-white/70 p-4 rounded mt-4">
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Strong opening:</span> Hook your audience!</li>
-                  <li><span class="font-semibold">Clear headlines:</span> Guide understanding</li>
-                  <li><span class="font-semibold">Visual hierarchy:</span> Direct attention</li>
-                  <li><span class="font-semibold">Call-to-action:</span> End with impact</li>
-                </ul>
+                <p class="mb-4">Time to Make It Your Own! 🎨
+                Click the slideshow and look for the magic cog icon. You'll find three  customization menus:</p>
+                
+                <div class="space-y-4">
+                  <div class="bg-white/50 p-4 rounded">
+                    <h6 class="font-semibold mb-2">1. Style Settings 🎨</h6>
+                    <ul class="list-disc pl-4 space-y-2">
+                      <li>Round those corners just right with radius controls for each corner</li>
+                      <li>Add a perfect border:
+                        <ul class="list-disc pl-6 mt-2">
+                          <li>Pick your favorite color</li>
+                          <li>Choose your style (none, dotted, dashed, or solid)</li>
+                          <li>Set the perfect width</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+      
+                  <div class="bg-white/50 p-4 rounded">
+                    <h6 class="font-semibold mb-2">2. Link Options 🔗</h6>
+                    <ul class="list-disc pl-4 space-y-2">
+                      <li>Make your slides clickable with these options:
+                        <ul class="list-disc pl-6 mt-2">
+                          <li>Open in new tab (great for external content)</li>
+                          <li>Link to another page on your site</li>
+                          <li>Smooth scroll to a specific block (#pageid)</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+      
+                  <div class="bg-white/50 p-4 rounded">
+                    <h6 class="font-semibold mb-2">3. Image Management 🖼️</h6>
+                    <ul class="list-disc pl-4 space-y-2">
+                      <li>Upload up to three beautiful images</li>
+                      <li>Arrange them in your preferred order</li>
+                      <li>Preview how they'll look together</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
+            <h5 class="font-semibold">Pro Tips for Picture-Perfect Slideshows 💫</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>Follow consistent design templates</li>
-                <li>Use contrasting colors for readability</li>
-                <li>Maintain white space for visual breathing room</li>
-                <li>Choose readable fonts and sizes</li>
+                <li>Keep your image sizes consistent for smooth transitions</li>
+                <li>Use high-quality images that tell your story</li>
+                <li>Test your links before publishing</li>
+                <li>Consider your audience when setting transition speeds</li>
               </ul>
             </div>
           </div>
       
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Presentation Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>The "Rule of Three" helps audience retention! 🧠</li>
-                <li>Visual content is processed 60,000x faster than text! 👀</li>
-                <li>Stories increase audience engagement by 40%! 📈</li>
-                <li>75% of information retention is visual! 🎯</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Engagement Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Include interactive elements to maintain attention 🤝</li>
-                <li>Use the 10-20-30 rule for timing ⏱️</li>
-                <li>Add relevant case studies and examples 📊</li>
-                <li>Incorporate audience participation moments 👥</li>
-              </ul>
-            </div>
-          </div>
-          
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <h5 class="font-semibold">Things to Keep in Mind 🤔</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>Too much text per slide - keep it concise!</li>
-                <li>Inconsistent design elements</li>
-                <li>Poor color contrast</li>
-                <li>Reading directly from slides</li>
+                <li>Optimize your images for faster loading</li>
+                <li>Test how your slideshow looks on mobile devices</li>
+                <li>Make sure your links work properly</li>
+                <li>Save your work regularly as you customize</li>
               </ul>
             </div>
           </div>
-          
+      
+          <br />
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Always have a backup of your presentation!</p>
-            <p class="mt-2">Practice your delivery multiple times! 🎤</p>
+            <h5 class="font-semibold">Quick Reminder</h5>
+            <p class="mt-2">Don't forget to preview your slideshow before publishing - your audience will thank you! 🌟</p>
           </div>
       
           <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Impact? 💎</p>
-            <p class="text-lg mt-2">Design slideshows that captivate and inspire your audience!</p>
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Some Slideshow Magic? ✨</p>
+            <p class="text-lg mt-2">Your images are about to look amazing!</p>
+            <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">We'd love to see your slideshows in action - share them with us! 📸</p>
           </div>
         </div>
       </div>`,
       "quiz": [
         {
-          "question": "What is the 'Rule of Three' in presentations?",
+          "question": "Where do you find slideshow templates?",
           "options": [
-            "Three slides per section",
-            "Three key points per presentation",
-            "Three seconds per slide",
-            "Three fonts maximum"
+            "Settings panel",
+            "Blocks section",
+            "Media library",
+            "Navigation menu"
           ],
           "correct": 1
         },
         {
-          "question": "How much faster is visual content processed compared to text?",
+          "question": "How many images can each slideshow accommodate by default?",
           "options": [
-            "30,000x faster",
-            "40,000x faster",
-            "50,000x faster",
-            "60,000x faster"
+            "Two",
+            "Five",
+            "Three",
+            "Four"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which icon do you click to access customization menus?",
+          "options": [
+            "Star icon",
+            "Plus icon",
+            "Pencil icon",
+            "Cog icon"
           ],
           "correct": 3
         },
+       
         {
-          "question": "What percentage of information retention is visual?",
+          "question": "Which border styles are available?",
           "options": [
-            "55%",
-            "65%",
-            "75%",
-            "85%"
+            "Only solid",
+            "Solid and dotted",
+            "None, dotted, dashed, and solid",
+            "Only dashed"
           ],
           "correct": 2
         },
+     
         {
-          "question": "What is the 10-20-30 rule?",
+          "question": "What's the first step in creating a slideshow?",
           "options": [
-            "10 slides, 20 minutes, 30-point font",
-            "10 minutes, 20 slides, 30 seconds each",
-            "10 sections, 20 slides, 30 minutes",
-            "10 points, 20 words, 30 slides"
+            "Upload images",
+            "Go to blocks section",
+            "Set transitions",
+            "Choose colors"
           ],
-          "correct": 0
+          "correct": 1
         },
+      
         {
-          "question": "By how much can stories increase audience engagement?",
+          "question": "What's recommended for smooth transitions?",
           "options": [
-            "20%",
-            "30%",
-            "40%",
-            "50%"
+            "Fast internet",
+            "Optimised image sizes",
+            "Small file sizes",
+            "Dark backgrounds"
+          ],
+          "correct": 1
+        },
+     
+        {
+          "question": "How do you add a slideshow to your canvas?",
+          "options": [
+            "Copy and paste",
+            "Double click",
+            "Drag and drop",
+            "Right click"
           ],
           "correct": 2
         },
+     
         {
-          "question": "Which is a common mistake in slideshows?",
+          "question": "What should you consider when setting transition speeds?",
           "options": [
-            "Using visual aids",
-            "Including white space",
-            "Too much text per slide",
-            "Having backup slides"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should always be included in your opening slide?",
-          "options": [
-            "Company history",
-            "Hook statement",
-            "Full agenda",
-            "Speaker biography"
+            "Website theme",
+            "Your audience",
+            "Image size",
+            "Page layout"
           ],
           "correct": 1
         },
         {
-          "question": "What helps maintain visual hierarchy in slides?",
+          "question": "When should you preview slideshow appearance?",
           "options": [
-            "Using all caps",
-            "Multiple fonts",
-            "Contrasting colors",
-            "Dense text"
+            "Only on desktop",
+            "Only on mobile",
+            "Before publishing",
+            "Only after publishing"
           ],
           "correct": 2
         },
         {
-          "question": "What makes slides easier to follow?",
+          "question": "What's recommended during customization?",
           "options": [
-            "Multiple topics per slide",
-            "One key point per slide",
-            "Complex animations",
-            "Small font sizes"
+            "Continuous previews",
+            "Regular saving",
+            "Fast editing",
+            "Multiple versions"
           ],
           "correct": 1
         },
-        {
-          "question": "What should you always do before presenting?",
-          "options": [
-            "Add more text",
-            "Remove all images",
-            "Practice delivery",
-            "Increase animations"
-          ],
-          "correct": 2
-        }
+       
       ]
       },
       {
