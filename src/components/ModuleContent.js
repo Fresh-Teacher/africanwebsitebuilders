@@ -4171,7 +4171,7 @@ const defaultCourseModules = [
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Create Irresistible Call-to-Actions! 🎯</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Text(0).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Call_To_Action(720p).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
@@ -5711,206 +5711,314 @@ const defaultCourseModules = [
         "id": 8,
         "title": "Footers",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Perfect Website Footers! 🏗️</h2>
+        <h2 class="text-2xl font-bold">Let's Make Your Footer Fantastic! 👣 The Ultimate Guide</h2>
         <video className="w-full rounded-lg" controls>
         <source src="https://awb-silk.vercel.app/Footer(720p).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Design Footers That Convert & Connect! ✨</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-center">Your Footer, Your Style! 🎨</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed footer isn't just a page ending - it's a powerful navigation hub and trust builder that can significantly impact user experience! 🎯"
-            <footer class="text-sm mt-2">- UX Design Expert</footer>
+            "The footer isn't just the bottom of your page - it's the foundation of your site's navigation, branding, and user experience!"
           </blockquote>
-      
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Footers! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective footers:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Organize content in clear sections</li>
-                  <li>Include essential legal information</li>
-                  <li>Add secondary navigation options</li>
-                  <li>Optimize for all screen sizes</li>
-                </ol>
-              </div>
+  
+          <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Why Footers Matter </h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>They're your site's navigation hub - like a mini map for visitors! 🗺️</li>
+                <li>Perfect spot for contact info - make it easy for people to reach you! 📞</li>
+                <li>Great for SEO - search engines love well-structured footers! 🔍</li>
+                <li>Builds trust - shows you're a legit business with all the important info right there! 🤝</li>
+                <li>Keeps visitors engaged - gives them more places to explore! 🌟</li>
+              </ul>
             </div>
           </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+  
+          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Finding Your Perfect Footer 👣</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ol class="list-decimal pl-4 space-y-2">
+                <li class="mb-4">Navigate to the blocks section </li>
+                <li class="mb-4">Click on the navigation option</li>
+                <li class="mb-4">Browse our footer collection:
+                  <ul class="list-disc pl-6 mt-2">
+                    <li>Simple and clean designs</li>
+                    <li>Multi-column layouts</li>
+                    <li>Newsletter-focused footers</li>
+                    <li>Social media-heavy options</li>
+                    <li>Business-focused layouts</li>
+                  </ul>
+                </li>
+                <li>Drag & drop your favorite onto the canvas</li>
+              </ol>
+            </div>
+          </div>
+  
+          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Customization Station 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="mb-6">
+                <p class="font-semibold mb-2">Basic Controls:</p>
                 <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Contact information:</span> Stay accessible!</li>
-                  <li><span class="font-semibold">Legal links:</span> Build trust</li>
-                  <li><span class="font-semibold">Social media:</span> Connect channels</li>
-                  <li><span class="font-semibold">Navigation:</span> Guide users</li>
+                  <li>Click any element to reveal its menu! </li>
+                  <li>Change text </li>
+                  <li>Clone elements (because sometimes one isn't enough! 👯‍♂️)</li>
+                  <li>Delete stuff (when less is more! 🗑️)</li>
+                  <li>Drag to rearrange (find that perfect spot! 🎯)</li>
+                </ul>
+              </div>
+  
+              <div class="mb-6">
+                <p class="font-semibold mb-2">Advanced Editing (via the mechanical cog ⚙️):</p>
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>Typography options:
+                    <ul class="list-circle pl-6 mt-2">
+                      <li>Font styles (get fancy! 🎩)</li>
+                      <li>Text sizes (big or small, we've got it all! 📏)</li>
+                      <li>Colors (rainbow time! 🌈)</li>
+                      <li>Spacing (give your text room to breathe! 💨)</li>
+                    </ul>
+                  </li>
+                  <li>Layout tweaks:
+                    <ul class="list-circle pl-6 mt-2">
+                      <li>Column widths (perfect proportions! 📐)</li>
+                      <li>Alignment (everything in its place! ⚖️)</li>
+                      <li>Padding and margins (spacing is everything! 📏)</li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Use clear hierarchy in information layout</li>
-                <li>Maintain brand consistency</li>
-                <li>Ensure mobile responsiveness</li>
-                <li>Keep navigation intuitive</li>
-              </ul>
-            </div>
-          </div>
-      
+  
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Footer Psychology!</h5>
+            <h5 class="font-semibold">Social Media Masterclass ✨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="mb-6">
+                <p class="font-semibold mb-2">Icon Customization:</p>
+                <ol class="list-decimal pl-4 space-y-2">
+                  <li>Click any social icon (they don't bite! 😉)</li>
+                  <li>Find the trusty cog icon ⚙️</li>
+                  <li>Enter the magical detailed editor where you can:
+                    <ul class="list-disc pl-6 mt-2">
+                      <li>Style your icons:
+                        <ul class="list-circle pl-6 mt-2">
+                          <li>Pick your colors (go wild! 🎨)</li>
+                          <li>Change sizes (tiny or mighty! 📏)</li>
+                          <li>Add hover effects (ooh, fancy! ✨)</li>
+                        </ul>
+                      </li>
+                      <li>Add your links:
+                        <ul class="list-circle pl-6 mt-2">
+                          <li>Paste your profile URLs 🔗</li>
+                          <li>Set "Open link in new tab" for new tabs 📑</li>
+                        </ul>
+                      </li>
+                      <li>Choose different icons:
+                        <ul class="list-circle pl-6 mt-2">
+                          <li>Scroll through our huge collection 📜</li>
+                          <li>Preview before applying 👀</li>
+                          <li>Mix and match styles 🎨</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+  
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Footer Content Ideas 💡</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>65% of users expect contact info in footer! 📞</li>
-                <li>Newsletter signups increase 25% in footer! 📈</li>
-                <li>Trust seals boost conversions by 42%! 🛡️</li>
-                <li>30% of clicks occur in footer navigation! 🎯</li>
+                <li>Essential Links:
+                  <ul class="list-circle pl-6 mt-2">
+                    <li>About Us (tell your story! 📖)</li>
+                    <li>Contact Info (be reachable! 📞)</li>
+                    <li>Privacy Policy (keep it legal! ⚖️)</li>
+                    <li>Terms of Service (set the rules! 📜)</li>
+                  </ul>
+                </li>
+                <li>Cool Features:
+                  <ul class="list-circle pl-6 mt-2">
+                    <li>Newsletter signup (grow that list! 📧)</li>
+                    <li>Social media feeds (stay connected! 🤳)</li>
+                    <li>Recent blog posts (fresh content! 📚)</li>
+                    <li>Awards & certifications (show off a little! 🏆)</li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
-      
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Engagement Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Include a mini site map for easy navigation 🗺️</li>
-                <li>Add social proof elements ⭐</li>
-                <li>Display trust badges and certifications 🏆</li>
-                <li>Optimize CTAs for engagement 🎯</li>
-              </ul>
-            </div>
-          </div>
-          
+  
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <h5 class="font-semibold">Common Footer Mistakes to Avoid! 🚫</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>Overcrowding with too much information</li>
-                <li>Missing important legal links</li>
-                <li>Poor mobile optimization</li>
-                <li>Broken or outdated links</li>
+                <li>Too much information (don't overwhelm! 😵)</li>
+                <li>Broken links (test everything! 🔍)</li>
+                <li>Outdated social media links (keep it fresh! 🌱)</li>
+                <li>Inconsistent styling (match your brand! 🎨)</li>
+                <li>No mobile optimization (small screens matter! 📱)</li>
               </ul>
             </div>
           </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Monitor footer link clicks to optimize layout!</p>
-            <p class="mt-2">Update copyright year automatically! 📅</p>
+  
+          <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Pro Tips & Tricks 🧙‍♂️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Layout Tips:
+                  <ul class="list-circle pl-6 mt-2">
+                    <li>Keep important links above the fold</li>
+                    <li>Group similar items together</li>
+                    <li>Use clear headings for sections</li>
+                    <li>Maintain breathing room between elements</li>
+                  </ul>
+                </li>
+                <li>Style Tips:
+                  <ul class="list-circle pl-6 mt-2">
+                    <li>Match your website's color scheme</li>
+                    <li>Use consistent icon styles</li>
+                    <li>Keep fonts readable</li>
+                    <li>Mind the contrast for accessibility</li>
+                  </ul>
+                </li>
+                <li>Content Tips:
+                  <ul class="list-circle pl-6 mt-2">
+                    <li>Update contact info regularly</li>
+                    <li>Check links often</li>
+                    <li>Refresh content seasonally</li>
+                    <li>Add new social platforms as needed</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-      
+  
+          <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg">
+            <h5 class="font-semibold">SUPER IMPORTANT! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Always click 'Apply Changes' to save your work! 💾</li>
+                <li>Preview on mobile before publishing! 📱</li>
+                <li>Test all links before going live! 🔍</li>
+                <li>Keep your footer style consistent with your site's theme 🎨</li>
+              </ul>
+            </div>
+          </div>
+  
           <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Perfect Your Footer? 🚀</p>
-            <p class="text-lg mt-2">Create footers that enhance user experience and drive conversions!</p>
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Rock Your Footer? 🎸</p>
+            <p class="text-lg mt-2">Let's make your site's foundation rock solid! </p>
+            <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: A great footer is like a great friend - always there behind you when you need it! 🤝</p>
           </div>
         </div>
       </div>`,
       "quiz": [
         {
-          "question": "What percentage of users expect contact information in the footer?",
+          "question": "Where can you find the footer options in Zylosite?",
           "options": [
-            "45%",
-            "55%",
-            "65%",
-            "75%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much can newsletter signups increase when placed in the footer?",
-          "options": [
-            "15%",
-            "20%",
-            "25%",
-            "30%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What percentage of clicks occur in footer navigation?",
-          "options": [
-            "20%",
-            "25%",
-            "30%",
-            "35%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much can trust seals boost conversions?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which is most important to include in a footer?",
-          "options": [
-            "Company blog",
-            "Contact information",
-            "Social media feeds",
-            "Newsletter archive"
+            "In the pages section",
+            "Under the blocks section in navigation",
+            "In the media gallery",
+            "In site settings"
           ],
           "correct": 1
         },
         {
-          "question": "What's a common footer mistake?",
+          "question": "What icon do you need to click to access detailed footer element settings?",
           "options": [
-            "Including contact info",
-            "Adding social links",
-            "Overcrowding content",
-            "Using clear headers"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should you monitor in footers?",
-          "options": [
-            "Font sizes",
-            "Link clicks",
-            "Background colors",
-            "Logo placement"
+            "Plus icon",
+            "Cog/gear icon",
+            "Star icon",
+            "Menu icon"
           ],
           "correct": 1
         },
         {
-          "question": "What improves footer usability?",
+          "question": "What happens when you click on a social media icon in the footer?",
           "options": [
-            "Complex animations",
-            "Lengthy text",
-            "Clear hierarchy",
-            "Multiple columns"
+            "It immediately opens the social media site",
+            "Nothing happens",
+            "A menu appears with options",
+            "It gets deleted"
           ],
           "correct": 2
         },
         {
-          "question": "What should be automatically updated?",
+          "question": "How do you add a footer to your canvas?",
           "options": [
-            "Copyright year",
-            "Social media icons",
-            "Contact form",
-            "Navigation links"
+            "Type it manually",
+            "Import from another site",
+            "Drag and drop from the footer designs",
+            "Copy and paste"
           ],
-          "correct": 0
+          "correct": 2
+        },
+       
+        {
+          "question": "How do you save changes made to footer elements?",
+          "options": [
+            "Changes save automatically",
+            "Click 'Apply Changes'",
+            "Press Enter",
+            "Close the editor"
+          ],
+          "correct": 1
         },
         {
-          "question": "What's most important for mobile footers?",
+          "question": "What's the recommended way to organize footer content?",
           "options": [
-            "Animations",
-            "Responsiveness",
-            "Multiple columns",
-            "Video content"
+            "Put everything in one column",
+            "Group similar items together",
+            "Randomly arrange items",
+            "Leave it as default"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should you do before publishing your footer?",
+          "options": [
+            "Nothing special",
+            "Print it out",
+            "Test all links",
+            "Delete old content"
+          ],
+          "correct": 2
+        },
+       
+        {
+          "question": "What type of content is recommended for footers?",
+          "options": [
+            "Only contact information",
+            "Only social media links",
+            "Essential links, contact info, and social media",
+            "Decorative elements only"
+          ],
+          "correct": 2
+        },
+    
+        {
+          "question": "When changing social media icons, what should you check?",
+          "options": [
+            "Only the color",
+            "Only the size",
+            "That the URL is correct",
+            "The icon name"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's the purpose of cloning footer elements?",
+          "options": [
+            "To create backups",
+            "To duplicate identical elements",
+            "To test different styles",
+            "To fix broken links"
           ],
           "correct": 1
         }
