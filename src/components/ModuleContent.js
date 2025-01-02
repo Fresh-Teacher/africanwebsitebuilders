@@ -457,96 +457,96 @@ const defaultCourseModules = [
             ],
             correct: 1,
           },
-          // {
-          //   question: "What unique opportunity does the AWB course address in the African market?",
-          //   options: [
-          //     "Teaching coding languages",
-          //     "Building mobile apps",
-          //     "To cater for the 80% of African businesses without websites",
-          //     "Social media marketing"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "How much recurring monthly income can you earn per active website built through AWB?",
-          //   options: [
-          //     "£5",
-          //     "£6",
-          //     "£7",
-          //     "£8"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What is the recommended target number of active websites to build for optimal income?",
-          //   options: [
-          //     "10 websites",
-          //     "15 websites",
-          //     "20 websites",
-          //     "25 websites"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "How long does the complete AWB training program last?",
-          //   options: [
-          //     "2 weeks",
-          //     "3 weeks",
-          //     "4 weeks",
-          //     "6 weeks"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What additional income stream does the AWB course teach besides website building?",
-          //   options: [
-          //     "Social media management",
-          //     "Content writing",
-          //     "Affiliate marketing",
-          //     "Email marketing"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   question: "What is required to receive the AWB certification?",
-          //   options: [
-          //     "Build 5 websites",
-          //     "Pass the online test",
-          //     "Complete 6 months of work",
-          //     "Pay a certification fee"
-          //   ],
-          //   correct: 1,
-          // },
-          // {
-          //   question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
-          //   options: [
-          //     "£120",
-          //     "£130",
-          //     "£140",
-          //     "£150"
-          //   ],
-          //   correct: 2,
-          // },
-          // {
-          //   "question": "How much money will you pay for the course?",
-          //   "options": [
-          //     "£2 (UGX 9,600)",
-          //     "£4 (UGX 19,200)",
-          //     "£6 (UGX 28,800)",
-          //     "£8 (UGX 38,400)"
-          //   ],
-          //   "correct": 3
-          // },
-          // {
-          //   question: "How often are payments made for active websites maintained through AWB?",
-          //   options: [
-          //     "Weekly",
-          //     "Monthly",
-          //     "Quarterly",
-          //     "Annually"
-          //   ],
-          //   correct: 1,
-          // }
+          {
+            question: "What unique opportunity does the AWB course address in the African market?",
+            options: [
+              "Teaching coding languages",
+              "Building mobile apps",
+              "To cater for the 80% of African businesses without websites",
+              "Social media marketing"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How much recurring monthly income can you earn per active website built through AWB?",
+            options: [
+              "£5",
+              "£6",
+              "£7",
+              "£8"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What is the recommended target number of active websites to build for optimal income?",
+            options: [
+              "10 websites",
+              "15 websites",
+              "20 websites",
+              "25 websites"
+            ],
+            correct: 2,
+          },
+          {
+            question: "How long does the complete AWB training program last?",
+            options: [
+              "2 weeks",
+              "3 weeks",
+              "4 weeks",
+              "6 weeks"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What additional income stream does the AWB course teach besides website building?",
+            options: [
+              "Social media management",
+              "Content writing",
+              "Affiliate marketing",
+              "Email marketing"
+            ],
+            correct: 2,
+          },
+          {
+            question: "What is required to receive the AWB certification?",
+            options: [
+              "Build 5 websites",
+              "Pass the online test",
+              "Complete 6 months of work",
+              "Pay a certification fee"
+            ],
+            correct: 1,
+          },
+          {
+            question: "What is the total potential monthly recurring income if you reach the target number of active websites?",
+            options: [
+              "£120",
+              "£130",
+              "£140",
+              "£150"
+            ],
+            correct: 2,
+          },
+          {
+            "question": "How much money will you pay for the course?",
+            "options": [
+              "£2 (UGX 9,600)",
+              "£4 (UGX 19,200)",
+              "£6 (UGX 28,800)",
+              "£8 (UGX 38,400)"
+            ],
+            "correct": 3
+          },
+          {
+            question: "How often are payments made for active websites maintained through AWB?",
+            options: [
+              "Weekly",
+              "Monthly",
+              "Quarterly",
+              "Annually"
+            ],
+            correct: 1,
+          }
         ]
       },
       {
