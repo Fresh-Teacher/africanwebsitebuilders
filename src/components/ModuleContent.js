@@ -7984,210 +7984,233 @@ const defaultCourseModules = [
         "id": 18,
         "title": "Team",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Engaging Team Sections! 👥</h2>
-        <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Team(720p).mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video><br>
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Build Team Pages That Connect & Inspire! ✨</h3>
-          
-          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed team section doesn't just display profiles - it tells a story and creates a human connection that builds trust with visitors! 🤝"
-            <footer class="text-sm mt-2">- Team Page Expert</footer>
-          </blockquote>
-      
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Team Sections! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective team sections:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Choose the right layout structure</li>
-                  <li>Optimize profile photo quality</li>
-                  <li>Create consistent bio formats</li>
-                  <li>Add social media links</li>
-                </ol>
-              </div>
+        <h2 class="text-2xl font-bold">👥 Showcase Your Amazing Team! Let's Make Your Squad Shine! ✨</h2>
+        
+        <div class="bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/30 dark:to-blue-900/30 p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Show Off Your Dream Team? 🌟</h3>
+            <video className="w-full rounded-lg" controls>
+            <source src="https://awb-silk.vercel.app/Team(720p).mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video><br>
+            <blockquote class="border-l-4 border-purple-500 pl-4 italic mb-4 text-lg">
+                "Great teams deserve great spotlights! Let's create something awesome together!"
+            </blockquote>
+            <footer class="text-sm mt-2">- Your Team Section Buddy 🤝</footer>
+    
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+                <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+                    <h5 class="font-semibold">Getting Started is Super Easy! 🚀</h5>
+                    <div class="bg-white/70 p-4 rounded mt-4">
+                        <p class="mb-4">Let's get your team looking fantastic! Here's how:</p>
+                        <ol class="list-decimal pl-4 space-y-2">
+                            <li>Pop over to the blocks section (where all the magic happens! ✨)</li>
+                            <li>Look for 'Team' in the options (we've got some gorgeous templates waiting for you!)</li>
+                            <li>See one you love? Just drag and drop it onto your canvas (it's that easy! 🎯)</li>
+                            <li>Now the fun part begins - let's make it yours! 🎨</li>
+                        </ol>
+                    </div>
+                </div>
             </div>
-          </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Profile photos:</span> Professional quality!</li>
-                  <li><span class="font-semibold">Bio sections:</span> Engaging stories</li>
-                  <li><span class="font-semibold">Team filters:</span> Easy navigation</li>
-                  <li><span class="font-semibold">Mobile design:</span> All devices</li>
-                </ul>
-              </div>
+    
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+                <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+                    <h5 class="font-semibold">Customizing Your Team's Spotlight! 🎭</h5>
+                    <div class="bg-white/70 p-4 rounded mt-4">
+                        <div class="space-y-6">
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">1. Text Magic ✏️</h6>
+                                <p class="mb-2">Time to showcase those awesome team members:</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Click on any text you want to change</li>
+                                    <li>Look for the magical 'T' icon in the popup menu</li>
+                                    <li>Update names, titles, bios - make it personal! 👤</li>
+                                    <li>Pro tip: Keep it consistent with your brand voice! 🎯</li>
+                                </ul>
+                            </div>
+    
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">2. Picture Perfect! 📸</h6>
+                                <p class="mb-2">Let's make those team photos pop:</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Click on any team member's image</li>
+                                    <li>Find the trusty cog icon in the menu</li>
+                                    <li>Welcome to your super-powered image editor! 🦸‍♂️</li>
+                                </ul>
+                            </div>
+    
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">3. The Magical Editor Options 🎮</h6>
+                                <div class="space-y-4">
+                                    <div class="bg-purple-50/50 p-3 rounded">
+                                        <p class="font-semibold">Style Settings 🎨</p>
+                                        <ul class="list-disc pl-4">
+                                            <li>Perfect those corners with border radius</li>
+                                            <li>Add fancy hover effects</li>
+                                            <li>Play with shadows and borders</li>
+                                            <li>Make it match your website's vibe!</li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="bg-blue-50/50 p-3 rounded">
+                                        <p class="font-semibold">Link Powers 🔗</p>
+                                        <ul class="list-disc pl-4">
+                                            <li>Connect to team member profiles</li>
+                                            <li>Add social media links</li>
+                                            <li>Create clickable portfolios</li>
+                                            <li>Choose to open in new tabs!</li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="bg-green-50/50 p-3 rounded">
+                                        <p class="font-semibold">Image Magic 🖼️</p>
+                                        <ul class="list-disc pl-4">
+                                            <li>Upload those awesome team photos</li>
+                                            <li>Adjust size and positioning</li>
+                                            <li>Add alt text for accessibility (so important! 👍)</li>
+                                            <li>Make sure everyone looks their best!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Use consistent photo dimensions</li>
-                <li>Implement hover states</li>
-                <li>Create clear hierarchies</li>
-                <li>Add smooth transitions</li>
-              </ul>
+    
+            <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Pro Tips for Team Section Success! 💫</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <ul class="list-disc pl-4 space-y-2">
+                        <li>Keep photos consistent in size and style (team unity looks great! 🤝)</li>
+                        <li>Use high-quality images (your team deserves to look amazing! ✨)</li>
+                        <li>Write engaging but concise bios (capture personalities! 🎭)</li>
+                        <li>Double-check all those social media links (we don't want any 404s! 🚫)</li>
+                        <li>Consider mobile view (looking good on all devices! 📱)</li>
+                    </ul>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Team Section Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Team sections increase trust by 70%! 👀</li>
-                <li>Personal bios improve connection by 45%! 📊</li>
-                <li>Profile interactions increase by 55% on mobile! 📱</li>
-                <li>Department filtering boosts engagement by 38%! 🎯</li>
-              </ul>
+    
+            <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">⚠️ Don't Forget! Super Important! ⚠️</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <p class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Always click that "Apply Changes" button to save your work! 💾</p>
+                    <p class="mt-2">We don't want to lose any of your awesome customizations!</p>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Performance Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Optimize profile photos for web 🖼️</li>
-                <li>Use lazy loading for images 🚀</li>
-                <li>Implement pagination for large teams ♾️</li>
-                <li>Cache team member data effectively 💨</li>
-              </ul>
+    
+            <div class="mt-6 text-center">
+                <p class="text-xl font-bold text-purple-600 dark:text-purple-300">Ready to Show Off Your Amazing Team? 🌟</p>
+                <p class="text-lg mt-2">Your team deserves the spotlight - let's make it shine! ✨</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Great teams deserve great presentations! 🏆</p>
             </div>
-          </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Inconsistent photo quality</li>
-                <li>Missing role descriptions</li>
-                <li>Poor mobile layouts</li>
-                <li>No department filtering</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Monitor which team members get most profile views!</p>
-            <p class="mt-2">Use progressive loading for better performance! ⚡</p>
-          </div>
-      
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Team? 🎨</p>
-            <p class="text-lg mt-2">Create team sections that highlight your people and build trust!</p>
-          </div>
         </div>
-      </div>`,
-      "quiz": [
-        {
-          "question": "How much do professional team photos improve credibility?",
-          "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By how much do personal bios increase engagement?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do team sections boost brand trust?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do filtered team sections improve navigation?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for team section design?",
-          "options": [
-            "Animation",
-            "Consistency",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common team section mistake?",
-          "options": [
-            "Using professional photos",
-            "Maintaining consistency",
-            "Overusing effects",
-            "Following grid"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves team section accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile team sections?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain visual hierarchy?",
-          "options": [
-            "Random spacing",
-            "Varying weights",
-            "Multiple styles",
-            "Consistent layout"
-          ],
-          "correct": 3
-        }
-      ]
+    </div>`,
+    "quiz": [
+      {
+        "question": "Where do you find team section templates?",
+        "options": [
+          "Components section",
+          "Blocks section",
+          "Media library",
+          "Settings panel"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which icon do you click to modify text content?",
+        "options": [
+          "Cog icon",
+          "Star icon",
+          "'T' icon",
+          "Plus icon"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How many options appear in the detailed editor for images?",
+        "options": [
+          "Two",
+          "Four",
+          "Three",
+          "Five"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How do you add a team section to your canvas?",
+        "options": [
+          "Copy and paste",
+          "Double click",
+          "Drag and drop",
+          "Right click"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which icon opens the image detailed editor?",
+        "options": [
+          "Plus icon",
+          "T icon",
+          "Star icon",
+          "Cog icon"
+        ],
+        "correct": 3
+      },
+   
+      {
+        "question": "What's the final step to save your changes?",
+        "options": [
+          "Press Enter",
+          "Close the editor",
+          "Click Apply Changes",
+          "Refresh page"
+        ],
+        "correct": 2
+      },
+   
+      {
+        "question": "What should you consider for team bios?",
+        "options": [
+          "Length only",
+          "Format only",
+          "Engaging but concise content",
+          "Technical details only"
+        ],
+        "correct": 2
+      },
+ 
+      {
+        "question": "How do you access link settings?",
+        "options": [
+          "Main menu",
+          "Right click",
+          "Through detailed editor",
+          "Settings panel"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What happens if you don't click Apply Changes?",
+        "options": [
+          "Auto-saves",
+          "Prompts warning",
+          "Changes are lost",
+          "Saves draft"
+        ],
+        "correct": 2
+      },
+  
+      {
+        "question": "What's the recommended approach for team photos?",
+        "options": [
+          "Low resolution",
+          "High-quality images",
+          "Small size only",
+          "Black and white only"
+        ],
+        "correct": 1
+      }
+    ]
       },
       {
         "id": 19,
