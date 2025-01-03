@@ -7213,9 +7213,8 @@ const defaultCourseModules = [
             Your browser does not support the video tag.
           </video><br>
             <blockquote class="border-l-4 border-purple-500 pl-4 italic mb-4 text-lg">
-                "Time to turn your process into a masterpiece! Let's make those words dance! 💃"
+                "Time to turn your process into a masterpiece! 👌"
             </blockquote>
-            <footer class="text-sm mt-2">- Your Text Formatting Wizard 🧙‍♂️</footer>
     
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
@@ -7372,108 +7371,112 @@ const defaultCourseModules = [
             </div>
         </div>
     </div>`,
-      "quiz": [
-        {
-          "question": "How much do clear process steps improve understanding?",
-          "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By how much do visual timelines increase retention?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do interactive processes boost engagement?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do progress indicators reduce dropouts?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for process design?",
-          "options": [
-            "Animation",
-            "Clarity",
-            "Decoration",
-            "Colors"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's a common process section mistake?",
-          "options": [
-            "Using clear steps",
-            "Maintaining flow",
-            "Complex design",
-            "Following order"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves process accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be used for consistent styling?",
-          "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile processes?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What helps maintain process flow?",
-          "options": [
-            "Random spacing",
-            "Varying styles",
-            "Multiple designs",
-            "Visual connectors"
-          ],
-          "correct": 3
-        }
-      ]
+    "quiz": [
+      {
+        "question": "What is the first step in creating a process section?",
+        "options": [
+          "Start writing content immediately",
+          "Go to the blocks section",
+          "Choose text formatting",
+          "Set up keyboard shortcuts"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which keyboard shortcut is used for bold text?",
+        "options": [
+          "Ctrl/Cmd + I",
+          "Ctrl/Cmd + U",
+          "Ctrl/Cmd + B",
+          "Ctrl/Cmd + A"
+        ],
+        "correct": 2
+      },
+   
+      {
+        "question": "Which is a recommended combination for headers?",
+        "options": [
+          "Italics + Underline",
+          "Center + Bold",
+          "Bold + Color",
+          "Fancy Font + Color"
+        ],
+        "correct": 1
+      },
+ 
+      {
+        "question": "Which text alignment is considered 'the classic choice'?",
+        "options": [
+          "Center",
+          "Right",
+          "Left",
+          "Justified"
+        ],
+        "correct": 2
+      },
+ {
+        "question": "Which feature helps maintain consistent formatting across elements?",
+        "options": [
+          "Delete button",
+          "Clone button",
+          "Save button",
+          "Preview button"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the keyboard shortcut for selecting all text?",
+        "options": [
+          "Ctrl/Cmd + A",
+          "Ctrl/Cmd + S",
+          "Ctrl/Cmd + Z",
+          "Ctrl/Cmd + X"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "When should you use italics?",
+        "options": [
+          "For all headings",
+          "For emphasis and quotes",
+          "For all links",
+          "For all body text"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the primary purpose of the preview feature?",
+        "options": [
+          "To save progress",
+          "To delete content",
+          "To perform a reality check",
+          "To clone elements"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What should you do before making significant changes?",
+        "options": [
+          "Delete old content",
+          "Change all fonts",
+          "Save your work",
+          "Add new colors"
+        ],
+        "correct": 2
+      },
+   
+      {
+        "question": "What is the purpose of the 'T' icon?",
+        "options": [
+          "To test layouts",
+          "To create tables",
+          "To unleash writing tools",
+          "To change themes"
+        ],
+        "correct": 2
+      },
+ 
+    ]
       },
       {
         "id": 15,
