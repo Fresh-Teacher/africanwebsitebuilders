@@ -6066,210 +6066,289 @@ const defaultCourseModules = [
         "id": 9,
         "title": "Gallery",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Stunning Image Galleries! 🖼️</h2>
-        <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Gallery(720p).mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video><br>
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Design Galleries That Captivate & Convert! ✨</h3>
-          
-          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed gallery doesn't just display images - it tells a story and creates an immersive visual experience that keeps visitors engaged! 📸"
-            <footer class="text-sm mt-2">- Gallery Design Expert</footer>
-          </blockquote>
-      
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <h2 class="text-2xl font-bold">🖼️ Picture Perfect! Let's Create Your Dream Gallery! 📸</h2>
+        
+        <div class="bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/30 dark:to-blue-900/30 p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Show Off Your Amazing Images? 🌟</h3>
+            <video className="w-full rounded-lg" controls>
+            <source src="https://awb-silk.vercel.app/Gallery(720p).mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video><br>
+            <blockquote class="border-l-4 border-purple-500 pl-4 italic mb-4 text-lg">
+                "A picture is worth a thousand words - let's make yours worth a million! 📸"
+            </blockquote>
+        
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Galleries! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective galleries:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Choose the right layout pattern</li>
-                  <li>Optimize image loading speed</li>
-                  <li>Implement smooth transitions</li>
-                  <li>Add intuitive navigation</li>
-                </ol>
-              </div>
+                <h5 class="font-semibold">Let's Get Those Photos Rolling! 🚀</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <p class="mb-4">Creating your stunning gallery is easier than you think! Here's your step-by-step guide:</p>
+                    <ol class="list-decimal pl-4 space-y-2">
+                        <li>Head to the blocks section (that's where all the gallery templates live! ✨)</li>
+                        <li>Browse through our collection of gallery layouts (grid, masonry, carousel - we've got them all! 🎯)</li>
+                        <li>Found the perfect one? Just drag and drop it onto your canvas (it's that simple! 🎨)</li>
+                        <li>Time to make it yours - let's dive into customization! 🚀</li>
+                    </ol>
+                </div>
             </div>
-          </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Image optimization:</span> Fast loading!</li>
-                  <li><span class="font-semibold">Lightbox feature:</span> Enhanced viewing</li>
-                  <li><span class="font-semibold">Filtering options:</span> Easy discovery</li>
-                  <li><span class="font-semibold">Responsive design:</span> All devices</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Maintain consistent image ratios</li>
-                <li>Implement lazy loading</li>
-                <li>Use thumbnails effectively</li>
-                <li>Add hover effects and animations</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Gallery Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Visual content increases engagement by 70%! 👀</li>
-                <li>Grid layouts improve recall by 45%! 📊</li>
-                <li>Lightbox views increase by 55% on mobile! 📱</li>
-                <li>Filtered galleries boost interaction by 38%! 🎯</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Performance Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Compress images without quality loss 🖼️</li>
-                <li>Use WebP format when possible 🚀</li>
-                <li>Implement infinite scroll for large galleries ♾️</li>
-                <li>Cache gallery assets effectively 💨</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Unoptimized image sizes</li>
-                <li>Missing alt text for accessibility</li>
-                <li>Poor mobile experience</li>
-                <li>No filtering or sorting options</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Track user interactions to optimize layout!</p>
-            <p class="mt-2">Use dynamic loading for better performance! ⚡</p>
-          </div>
-      
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Images? 🎨</p>
-            <p class="text-lg mt-2">Create galleries that engage visitors and showcase your content perfectly!</p>
-          </div>
         </div>
-      </div>`,
-      "quiz": [
-        {
-          "question": "By how much does visual content increase engagement?",
-          "options": [
-            "50%",
-            "60%",
-            "70%",
-            "80%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do grid layouts improve content recall?",
-          "options": [
-            "35%",
-            "40%",
-            "45%",
-            "50%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's the increase in lightbox views on mobile?",
-          "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do filtered galleries boost interaction?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which image format is recommended for modern galleries?",
-          "options": [
-            "PNG",
-            "JPEG",
-            "WebP",
-            "GIF"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's a common gallery mistake?",
-          "options": [
-            "Using lazy loading",
-            "Adding alt text",
-            "Unoptimized images",
-            "Having filters"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves gallery performance most?",
-          "options": [
-            "More animations",
-            "Lazy loading",
-            "Larger images",
-            "Auto-play"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's essential for large galleries?",
-          "options": [
-            "Auto-play",
-            "Music",
-            "Infinite scroll",
-            "Slideshow"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should always be included with images?",
-          "options": [
-            "Alt text",
-            "Borders",
-            "Shadows",
-            "Animation"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "Which loading technique is best for galleries?",
-          "options": [
-            "Load all at once",
-            "Dynamic loading",
-            "Manual loading",
-            "Random loading"
-          ],
-          "correct": 1
-        }
-      ]
+
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Making Your Gallery Gorgeous! 🌈</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="space-y-6">
+                        <div class="bg-white/50 p-4 rounded">
+                            <h6 class="font-semibold mb-2">1. Style Settings Spectacular! 🎨</h6>
+                            <p class="mb-2">Let's make those images pop with amazing styles:</p>
+                            
+                            <div class="bg-purple-50/50 p-3 rounded mb-4">
+                                <p class="font-semibold">Border Radius Magic 🔄</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Top-Left Radius: Perfect for creating that subtle curved corner - try values from 0-50px!</li>
+                                    <li>Top-Right Radius: Match it with the left or go asymmetrical - your choice!</li>
+                                    <li>Bottom-Left Radius: Keep the flow going with matching corners</li>
+                                    <li>Bottom-Right Radius: Complete the look with your perfect curve</li>
+                                    <li>Pro tip: Use matching values for a uniform look, or mix it up for creative flair! 🎯</li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-blue-50/50 p-3 rounded mb-4">
+                                <p class="font-semibold">Border Brilliance ✨</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Border Color: Pick from our color picker or use hex codes for perfect matching!</li>
+                                    <li>Border Style Options:
+                                        <ul class="list-disc pl-4 mt-2">
+                                            <li>Solid: Clean and professional</li>
+                                            <li>Dashed: Fun and playful</li>
+                                            <li>Dotted: Subtle and decorative</li>
+                                            <li>Double: Bold and distinctive</li>
+                                        </ul>
+                                    </li>
+                                    <li>Border Width: From hairline thin (1px) to bold and dramatic (10px+)</li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-green-50/50 p-3 rounded">
+                                <p class="font-semibold">Spacing & Layout 📐</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Gap Control: Adjust spacing between images</li>
+                                    <li>Padding Options: Give your images breathing room</li>
+                                    <li>Alignment Tools: Perfect positioning every time</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bg-white/50 p-4 rounded">
+                            <h6 class="font-semibold mb-2">2. Image Management Central! 📸</h6>
+                            <p class="mb-2">Three fantastic ways to populate your gallery:</p>
+                            
+                            <div class="bg-yellow-50/50 p-3 rounded mb-4">
+                                <p class="font-semibold">My Images (1000MB Storage) 🗂️</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Upload your own images directly</li>
+                                    <li>Organize into folders for easy access</li>
+                                    <li>Quick search and filter options</li>
+                                    <li>Drag and drop upload support</li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-orange-50/50 p-3 rounded mb-4">
+                                <p class="font-semibold">Other Images 🌅</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Import from external sources</li>
+                                    <li>URL image support</li>
+                                    <li>Bulk import capabilities</li>
+                                    <li>Format conversion tools</li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-pink-50/50 p-3 rounded">
+                                <p class="font-semibold">Free Stock Images 🎭</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Browse thousands of professional images</li>
+                                    <li>Filter by category, color, or style</li>
+                                    <li>One-click import to your gallery</li>
+                                    <li>Always-free selection</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bg-white/50 p-4 rounded">
+                            <h6 class="font-semibold mb-2">3. Image Dimension Mastery 📏</h6>
+                            <div class="space-y-4">
+                                <div class="bg-purple-50/50 p-3 rounded">
+                                    <p class="font-semibold">Size Control 🎮</p>
+                                    <ul class="list-disc pl-4">
+                                        <li>Width adjustment: Pixel-perfect control</li>
+                                        <li>Height adjustment: Keep everything proportional</li>
+                                        <li>Aspect ratio lock: Maintain image integrity</li>
+                                        <li>Responsive sizing options: Looks great on all devices!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white/50 p-4 rounded">
+                            <h6 class="font-semibold mb-2">4. Quick Access Toolbox 🛠️</h6>
+                            <div class="space-y-4">
+                                <div class="bg-purple-50/50 p-3 rounded">
+                                    <p class="font-semibold">Essential Controls ⚙️</p>
+                                    <ul class="list-disc pl-4">
+                                        <li>Settings Gear Icon: Your gateway to all customization options</li>
+                                        <li>Clone Button: Duplicate your perfectly styled galleries in one click</li>
+                                        <li>Delete Option: Start fresh when you need to</li>
+                                        <li>Quick Edit: Right-click shortcuts for faster workflows</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+            <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Pro Tips for Gallery Greatness! 💫</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <ul class="list-disc pl-4 space-y-2">
+                        <li>Keep image sizes consistent (neat and tidy wins the race! 📏)</li>
+                        <li>Choose high-quality images (no fuzzy photos here! 🔍)</li>
+                        <li>Consider your layout flow (make it easy on the eyes! 👀)</li>
+                        <li>Test on mobile (looking good everywhere! 📱)</li>
+                        <li>Mix up your content (variety is the spice of life! 🌶️)</li>
+                        <li>Loading Speed: Optimize your images for web performance 🚀</li>
+                        <li>Alt Text: Don't forget accessibility for all images! ♿</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">⚠️ Don't Forget! Super Important! ⚠️</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <p class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Hit that "Apply Changes" button before you go! 💾</p>
+                    <li>Preview your gallery before publishing 👀</li>
+                    <li>Check all image links are working 🔗</li>
+                    <li>Back up your original images somewhere safe 🔒</li>
+                    <p class="mt-2">Keep your gorgeous gallery safe and sound. Don't lose your hard work!</p>
+                </div>
+            </div>
+    
+            <div class="mt-6 text-center">
+                <p class="text-xl font-bold text-purple-600 dark:text-purple-300">Ready to Create Your Stunning Gallery? 🌟</p>
+                <p class="text-lg mt-2">Your images deserve the perfect showcase - let's make it happen! ✨</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Every picture tells a story - make yours unforgettable! 📖</p>
+            </div>
+        </div>
+    </div>`,
+    "quiz": [
+      {
+        "question": "What's the first step to add a gallery to your canvas?",
+        "options": [
+          "Upload images first",
+          "Go to blocks section and choose gallery template",
+          "Configure settings",
+          "Set dimensions"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How much storage is available in 'My Images'?",
+        "options": [
+          "500MB",
+          "750MB",
+          "1000MB",
+          "2000MB"
+        ],
+        "correct": 2
+      },
+    
+      {
+        "question": "Which image sources are available in the gallery?",
+        "options": [
+          "My Images only",
+          "My Images and Free Stock Images",
+          "My Images, Other Images, Free Stock Images",
+          "Free Stock Images only"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What can you adjust in border radius settings?",
+        "options": [
+          "Only top corners",
+          "Only bottom corners",
+          "All four corners individually",
+          "Only left corners"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What's recommended for mobile optimization?",
+        "options": [
+          "Only use small images",
+          "Preview on different screen sizes",
+          "Remove border styles",
+          "Use basic layouts only"
+        ],
+        "correct": 1
+      },
+   
+      {
+        "question": "What's the recommended approach for image consistency?",
+        "options": [
+          "Use only square images",
+          "Keep dimensions similar",
+          "Use only vertical images",
+          "Use only horizontal images"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which feature allows quick gallery duplication?",
+        "options": [
+          "Copy-paste",
+          "Clone button",
+          "Duplicate option",
+          "Right-click menu"
+        ],
+        "correct": 1
+      },
+ 
+      {
+        "question": "What's essential for saving your gallery changes?",
+        "options": [
+          "Close the editor",
+          "Click Apply Changes",
+          "Refresh the page",
+          "Preview the gallery"
+        ],
+        "correct": 1
+      },
+    
+      {
+        "question": "What can you control in spacing settings?",
+        "options": [
+          "Gap between images only",
+          "Padding only",
+          "Gap control, padding, and alignment",
+          "Image size only"
+        ],
+        "correct": 2
+      },
+   
+      {
+        "question": "What's recommended for image optimization?",
+        "options": [
+          "High resolution only",
+          "Low resolution only",
+          "Balance between quality and file size",
+          "Maximum file size"
+        ],
+        "correct": 2
+      },
+    
+    ]
       },
       {
         "id": 10,
