@@ -3972,7 +3972,7 @@ const defaultCourseModules = [
               <div class="bg-white/70 p-4 rounded mt-4">
                 <p class="mb-4">Let's build your perfect navigation bar:</p>
                 <ol class="list-decimal pl-4 space-y-2">
-                  <li>Go to Components and find the Navigation section</li>
+                  <li>Go to Blocks and find the Navigation section</li>
                   <li>Browse through different nav bar designs</li>
                   <li>Drag your favorite design onto the canvas</li>
                   <li>Click any element to see options: Change text, Clone, or Delete ⚙️</li>
@@ -4055,9 +4055,9 @@ const defaultCourseModules = [
       </div>`,
       "quiz": [
         {
-          "question": "Where can you find navigation bar templates?",
+          "question": "Where can you find navigation templates?",
           "options": [
-            "In the Components section",
+            "In the Blocks section",
             "In the Edit menu",
             "In the Format menu",
             "In the Settings panel"
@@ -6783,11 +6783,11 @@ const defaultCourseModules = [
       },
       {
         "id": 12,
-        "title": "Navigation Bar",
+        "title": "Navigation",
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Navigate Like a Pro! 🧭</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Navigation_Bar(720p).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Navigation(0).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
@@ -6804,7 +6804,7 @@ const defaultCourseModules = [
               <div class="bg-white/70 p-4 rounded mt-4">
                 <p class="mb-4">Let's build your perfect navigation bar:</p>
                 <ol class="list-decimal pl-4 space-y-2">
-                  <li>Go to Components and find the Navigation section</li>
+                  <li>Go to the Components Section and find the Navigation section</li>
                   <li>Browse through different nav bar designs</li>
                   <li>Drag your favorite design onto the canvas</li>
                   <li>Click any element to see options: Change text, Clone, or Delete ⚙️</li>
@@ -7204,108 +7204,174 @@ const defaultCourseModules = [
         "id": 14,
         "title": "Processes",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Clear Process Sections! 🔄</h2>
-        <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Processes(720p).mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video><br>
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Build Process Pages That Guide & Inform! ✨</h3>
-          
-          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed process section doesn't just list steps - it guides users through your workflow and builds confidence in your methodology! 🎯"
-            <footer class="text-sm mt-2">- UX Process Expert</footer>
-          </blockquote>
-      
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Process Sections! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective process sections:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Plan your process flow</li>
-                  <li>Create clear step markers</li>
-                  <li>Add progress indicators</li>
-                  <li>Include visual elements</li>
-                </ol>
-              </div>
+        <h2 class="text-2xl font-bold">📝 Process Power! Let's Make Your Text Amazing! ✨</h2>
+        
+        <div class="bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/30 dark:to-blue-900/30 p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Create Process Magic? 🎨</h3>
+            <video className="w-full rounded-lg" controls>
+            <source src="https://awb-silk.vercel.app/Team(720p).mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video><br>
+            <blockquote class="border-l-4 border-purple-500 pl-4 italic mb-4 text-lg">
+                "Time to turn your process into a masterpiece! Let's make those words dance! 💃"
+            </blockquote>
+            <footer class="text-sm mt-2">- Your Text Formatting Wizard 🧙‍♂️</footer>
+    
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+                <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+                    <h5 class="font-semibold">Let's Get Started with Process Magic! 🚀</h5>
+                    <div class="bg-white/70 p-4 rounded mt-4">
+                        <p class="mb-4">Creating your process section is a breeze! Here's how:</p>
+                        <ol class="list-decimal pl-4 space-y-2">
+                            <li>Hop over to the blocks section (where process templates live! ✨)</li>
+                            <li>Pick your perfect process layout (we've got tons of cool ones! 🎯)</li>
+                            <li>Drag and drop it onto your canvas (easy peasy! 🎨)</li>
+                            <li>Now let's make those words sparkle! ✨</li>
+                        </ol>
+                    </div>
+                </div>
             </div>
-          </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Step numbers:</span> Clear progression!</li>
-                  <li><span class="font-semibold">Timeline:</span> Visual flow</li>
-                  <li><span class="font-semibold">Icons:</span> Easy recognition</li>
-                  <li><span class="font-semibold">Responsive:</span> All devices</li>
-                </ul>
-              </div>
+    
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+                <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+                    <h5 class="font-semibold">Your Text Control Center! 🎮</h5>
+                    <div class="bg-white/70 p-4 rounded mt-4">
+                        <div class="space-y-6">
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">1. Essential Controls ⚙️</h6>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Click the "T" icon to unleash your inner writer! ✍️</li>
+                                    <li>Use the magical cog for special tweaks ⚙️</li>
+                                    <li>Clone button - because good things deserve doubles! 🎭</li>
+                                    <li>Delete button - for those "let's start fresh" moments! 🧹</li>
+                                </ul>
+                            </div>
+    
+                            <div class="bg-purple-50/50 p-3 rounded mb-4">
+                                <h6 class="font-semibold mb-2">2. Text Formatting Superpowers! 💪</h6>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Bold: Make your words flex! 💪
+                                        <ul class="list-disc pl-4 mt-2">
+                                            <li>Perfect for headings</li>
+                                            <li>Great for important points</li>
+                                            <li>Keyboard ninja move: Ctrl/Cmd + B</li>
+                                        </ul>
+                                    </li>
+                                    <li>Italics: Give your text some sass! 🎭
+                                        <ul class="list-disc pl-4 mt-2">
+                                            <li>Ideal for emphasis</li>
+                                            <li>Perfect for quotes</li>
+                                            <li>Quick trick: Ctrl/Cmd + I</li>
+                                        </ul>
+                                    </li>
+                                    <li>Underline: Because some words need that extra line! 📏
+                                        <ul class="list-disc pl-4 mt-2">
+                                            <li>Great for highlighting key points</li>
+                                            <li>Perfect for links</li>
+                                            <li>Shortcut magic: Ctrl/Cmd + U</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="bg-blue-50/50 p-3 rounded mb-4">
+                                <h6 class="font-semibold mb-2">3. Style Your Text Like a Pro! 🎨</h6>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Text Alignment: Make your words march! 👥
+                                        <ul class="list-disc pl-4 mt-2">
+                                            <li>Left: The classic choice</li>
+                                            <li>Center: For dramatic effect</li>
+                                            <li>Right: When you're feeling rebellious</li>
+                                        </ul>
+                                    </li>
+                                    <li>Font Family: Give your text personality! 👔
+                                        <ul class="list-disc pl-4 mt-2">
+                                            <li>Professional fonts for serious stuff</li>
+                                            <li>Fun fonts for creative vibes</li>
+                                            <li>Mix and match (but not too much!)</li>
+                                        </ul>
+                                    </li>
+                                    <li>Color Magic: Paint your words! 🌈
+                                        <ul class="list-disc pl-4 mt-2">
+                                            <li>Match your brand colors</li>
+                                            <li>Create hierarchy with color</li>
+                                            <li>Don't go rainbow crazy!</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="bg-green-50/50 p-3 rounded">
+                                <h6 class="font-semibold mb-2">4. Keyboard Ninja Moves! ⌨️</h6>
+                                <ul class="list-disc pl-4">
+                                    <li>Select All: Ctrl/Cmd + A</li>
+                                    <li>Undo: Ctrl/Cmd + Z</li>
+                                    <li>Redo: Ctrl/Cmd + Y or Ctrl/Cmd + Shift + Z</li>
+                                    <li>Save yourself some clicks! 🎯</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Use consistent step formats</li>
-                <li>Add connecting lines</li>
-                <li>Include progress bars</li>
-                <li>Implement animations</li>
-              </ul>
+    
+            <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Cool Formatting Combos & Pro Tips! 🌟</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="mb-4">
+                        <p class="font-semibold">Awesome Combinations! 🎨</p>
+                        <ul class="list-disc pl-4 space-y-2">
+                            <li>Bold + Color = Attention grabber!</li>
+                            <li>Italics + Underline = Emphasis extraordinaire!</li>
+                            <li>Fancy Font + Color = Royal vibes!</li>
+                            <li>Center + Bold = Perfect headers!</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-semibold">Pro Tips! 🎓</p>
+                        <ul class="list-disc pl-4 space-y-2">
+                            <li>Save every 5 minutes (or after every brilliant edit! 💾)</li>
+                            <li>Preview regularly - what you see isn't always what you get! 👀</li>
+                            <li>Use clone for consistent formatting 🎭</li>
+                            <li>Keep your font choices consistent (2-3 max!) 📏</li>
+                            <li>Test readability - if you can't read it, neither can your visitors! 👓</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Process Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Clear processes increase understanding by 70%! 👀</li>
-                <li>Visual timelines improve retention by 45%! 📊</li>
-                <li>Interactive steps boost engagement by 55%! 📱</li>
-                <li>Progress indicators reduce dropout by 38%! 🎯</li>
-              </ul>
+    
+            <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">⚠️ Formatting Emergency Kit! 🚨</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <ul class="list-disc pl-4 space-y-2">
+                        <li class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Clear Formatting: Your "start over" button!</li>
+                        <li>Undo/Redo: Your time machine ⏰</li>
+                        <li>Preview: Your reality check 👀</li>
+                        <li>Save Button: Your best friend 💝</li>
+                    </ul>
+                    <p class="mt-4 font-semibold">Remember: Save early, save often! Don't lose your masterpiece! 🎨</p>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Performance Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Optimize timeline animations 🖼️</li>
-                <li>Use SVG for icons 🚀</li>
-                <li>Implement smooth transitions ♾️</li>
-                <li>Cache process steps data 💨</li>
-              </ul>
+    
+            <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">⚠️ Formatting Fails to Avoid! 😱</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <ul class="list-disc pl-4 space-y-2">
+                        <li>ALL CAPS OVERLOAD! (Unless you're really excited! 🎉)</li>
+                        <li>Rainbow text explosion! (Pick 2-3 colors max 🌈)</li>
+                        <li>Font party chaos! (Stick to 2-3 fonts 📚)</li>
+                        <li>Forgetting to save! (The horror! 😱)</li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Unclear step progression</li>
-                <li>Missing visual connections</li>
-                <li>Poor mobile adaptation</li>
-                <li>Overcomplicated design</li>
-              </ul>
+    
+            <div class="mt-6 text-center">
+                <p class="text-xl font-bold text-purple-600 dark:text-purple-300">Ready to Make Your Process Section Shine? 🌟</p>
+                <p class="text-lg mt-2">Let's turn those words into works of art! ✨</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Great formatting makes your content pop! 🎨</p>
             </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Track where users drop off in your process!</p>
-            <p class="mt-2">Use micro-animations for better engagement! ⚡</p>
-          </div>
-      
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Map Your Process? 🎨</p>
-            <p class="text-lg mt-2">Create process sections that guide users smoothly through your workflow!</p>
-          </div>
         </div>
-      </div>`,
+    </div>`,
       "quiz": [
         {
           "question": "How much do clear process steps improve understanding?",
