@@ -8126,16 +8126,7 @@ const defaultCourseModules = [
         ],
         "correct": 2
       },
-      {
-        "question": "How many options appear in the detailed editor for images?",
-        "options": [
-          "Two",
-          "Four",
-          "Three",
-          "Five"
-        ],
-        "correct": 2
-      },
+   
       {
         "question": "How do you add a team section to your canvas?",
         "options": [
@@ -8216,209 +8207,230 @@ const defaultCourseModules = [
         "id": 19,
         "title": "Testimonials",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Powerful Testimonials! 💬</h2>
-        <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Testimonal(720p).mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video><br>
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Build Trust With Authentic Customer Stories! ✨</h3>
-          
-          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-crafted testimonial section doesn't just show reviews - it builds credibility and transforms skeptics into believers! 🌟"
-            <footer class="text-sm mt-2">- Social Proof Expert</footer>
-          </blockquote>
-      
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Testimonials! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective testimonials:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Select impactful customer stories</li>
-                  <li>Structure testimonial layout</li>
-                  <li>Add verification badges</li>
-                  <li>Include customer photos</li>
-                </ol>
-              </div>
+        <h2 className="text-2xl font-bold">💬 Time to Show Off Your Raving Fans! </h2>        
+        <div class="bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/30 dark:to-blue-900/30 p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Show Off Your Amazing Reviews? 🌟</h3>
+            <video className="w-full rounded-lg" controls>
+      <source src="https://awb-silk.vercel.app/Testimonal(720p).mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video><br>
+            <blockquote class="border-l-4 border-purple-500 pl-4 italic mb-4 text-lg">
+            "Nothing sells better than happy customers telling your story!"
+            </blockquote>
+    
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+                <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+                    <h5 class="font-semibold">Getting Started is a Breeze! 🚀</h5>
+                    <div class="bg-white/70 p-4 rounded mt-4">
+                        <p class="mb-4">Let's showcase those amazing reviews! Here's how:</p>
+                        <ol class="list-decimal pl-4 space-y-2">
+                            <li>Head to the blocks section (where the testimonial magic happens! ✨)</li>
+                            <li>Find 'Testimonials' in the options (we've got some stunning layouts ready!)</li>
+                            <li>Love what you see? Just drag and drop onto your canvas (easy peasy! 🎯)</li>
+                            <li>Now let's make those reviews pop! 🎨</li>
+                        </ol>
+                    </div>
+                </div>
             </div>
-          </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Customer photos:</span> Real people!</li>
-                  <li><span class="font-semibold">Verification:</span> Trust indicators</li>
-                  <li><span class="font-semibold">Categories:</span> Easy filtering</li>
-                  <li><span class="font-semibold">Mobile view:</span> All devices</li>
-                </ul>
-              </div>
+    
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+                <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+                    <h5 class="font-semibold">Making Those Reviews Look Amazing! 🌟</h5>
+                    <div class="bg-white/70 p-4 rounded mt-4">
+                        <div class="space-y-6">
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">1. Review Magic ✏️</h6>
+                                <p class="mb-2">Time to make those testimonials shine:</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Click on any testimonial text to edit</li>
+                                    <li>Spot the text editor icon in the popup</li>
+                                    <li>Add customer names, roles, and their amazing feedback! 👤</li>
+                                    <li>Pro tip: Keep testimonials authentic and relatable! 🎯</li>
+                                </ul>
+                            </div>
+    
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">2. Customer Photos Looking Sharp! 📸</h6>
+                                <p class="mb-2">Let's make those customer photos stand out:</p>
+                                <ul class="list-disc pl-4 space-y-2">
+                                    <li>Select any customer's profile picture</li>
+                                    <li>Click the settings icon to open editing options</li>
+                                    <li>Time to make your happy customers look their best! 🦸‍♂️</li>
+                                </ul>
+                            </div>
+    
+                            <div class="bg-white/50 p-4 rounded">
+                                <h6 class="font-semibold mb-2">3. Customization Central 🎮</h6>
+                                <div class="space-y-4">
+                                    <div class="bg-purple-50/50 p-3 rounded">
+                                        <p class="font-semibold">Style Your Reviews 🎨</p>
+                                        <ul class="list-disc pl-4">
+                                            <li>Round those corners for a modern look</li>
+                                            <li>Play with background colors</li>
+                                            <li>Match your website's awesome style!</li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="bg-blue-50/50 p-3 rounded">
+                                        <p class="font-semibold">Connect & Share 🔗</p>
+                                        <ul class="list-disc pl-4">
+                                            <li>Link to full case studies</li>
+                                            <li>Add customer website links</li>
+                                            <li>Connect social proof profiles</li>
+                                            <li>Make everything clickable!</li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="bg-green-50/50 p-3 rounded">
+                                        <p class="font-semibold">Photo Perfect 🖼️</p>
+                                        <ul class="list-disc pl-4">
+                                            <li>Upload those smiling customer photos</li>
+                                            <li>Perfect the image dimensions</li>
+                                             <li>Make every testimonial picture-perfect!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Use consistent formatting</li>
-                <li>Add star ratings</li>
-                <li>Include company logos</li>
-                <li>Implement smooth carousels</li>
-              </ul>
+    
+            <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">Pro Tips for Testimonial Excellence! 💫</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <ul class="list-disc pl-4 space-y-2">
+                        <li>Keep testimonials short and sweet (punchy is perfect! 🎯)</li>
+                        <li>Use high-quality customer photos (real people, real impact! ✨)</li>
+                        <li>Include customer roles and companies (adds credibility! 🏢)</li>
+                        <li>Mix up testimonial lengths (variety is the spice of life! 🌶️)</li>
+                        <li>Test the mobile view (looking good everywhere! 📱)</li>
+                    </ul>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Testimonial Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Social proof increases conversions by 70%! 👀</li>
-                <li>Video testimonials boost trust by 45%! 📊</li>
-                <li>Mobile testimonials engagement up by 55%! 📱</li>
-                <li>Filtered reviews improve relevance by 38%! 🎯</li>
-              </ul>
+    
+            <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+                <h5 class="font-semibold">⚠️ Quick Reminder! Don't Forget! ⚠️</h5>
+                <div class="bg-white/70 p-4 rounded mt-4">
+                    <p class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Hit that "Apply Changes" button to save your masterpiece! 💾</p>
+                    <p class="mt-2">Those amazing testimonials won't save themselves!</p>
+                </div>
             </div>
-          </div>
-      
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Performance Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Optimize customer photos 🖼️</li>
-                <li>Load videos efficiently 🚀</li>
-                <li>Paginate long testimonial lists ♾️</li>
-                <li>Cache testimonial data 💨</li>
-              </ul>
+    
+            <div class="mt-6 text-center">
+                <p class="text-xl font-bold text-purple-600 dark:text-purple-300">Ready to Showcase Your Happy Customers? 🌟</p>
+                <p class="text-lg mt-2">Let their words of praise shine bright! ✨</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Happy customers make the best storytellers! 📖</p>
             </div>
-          </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Using fake testimonials</li>
-                <li>Missing verification details</li>
-                <li>Poor mobile experience</li>
-                <li>No filtering options</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Track which testimonials drive most conversions!</p>
-            <p class="mt-2">Use dynamic loading for better performance! ⚡</p>
-          </div>
-      
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Success Stories? 🌟</p>
-            <p class="text-lg mt-2">Create testimonial sections that convert visitors into customers!</p>
-          </div>
         </div>
-      </div>`,
+    </div>`,
+    
       "quiz": [
         {
-          "question": "How much do verified testimonials increase trust?",
+          "question": "Where can you find testimonial section templates?",
           "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By how much do video testimonials boost engagement?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do testimonials increase conversion rates?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do filtered testimonials improve relevance?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for testimonial design?",
-          "options": [
-            "Animation",
-            "Authenticity",
-            "Decoration",
-            "Colors"
+            "Components library",
+            "Blocks section",
+            "Media gallery",
+            "Settings menu"
           ],
           "correct": 1
         },
         {
-          "question": "What's a common testimonial mistake?",
+          "question": "What's the first step to edit testimonial text?",
           "options": [
-            "Using real photos",
-            "Maintaining consistency",
-            "Using fake reviews",
-            "Following grid"
+            "Right click",
+            "Double click",
+            "Click the text editor icon",
+            "Press Enter"
           ],
           "correct": 2
         },
         {
-          "question": "What improves testimonial accessibility?",
+          "question": "What's recommended for testimonial length?",
           "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
+            "As long as possible",
+            "Short and brief",
+            "Minimum 500 words",
+            "One sentence only"
           ],
           "correct": 1
         },
         {
-          "question": "What should be used for consistent styling?",
+          "question": "How do you add a testimonial section to your canvas?",
           "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
+            "Copy and paste",
+            "Right click to add",
+            "Drag and drop",
+            "Use keyboard shortcut"
           ],
           "correct": 2
         },
+    
         {
-          "question": "What's essential for mobile testimonials?",
+          "question": "What adds credibility to testimonials?",
           "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
+            "Fancy fonts",
+            "Customer roles and companies",
+            "Long paragraphs",
+            "Multiple colors"
           ],
           "correct": 1
         },
         {
-          "question": "What helps maintain testimonial credibility?",
+          "question": "How do you save your testimonial changes?",
           "options": [
-            "Random spacing",
-            "Varying weights",
-            "Multiple styles",
-            "Verification badges"
+            "Auto-saves",
+            "Press Enter",
+            "Click Apply Changes",
+            "Close editor"
           ],
-          "correct": 3
-        }
+          "correct": 2
+        },
+   
+        {
+          "question": "What's important for mobile optimization?",
+          "options": [
+            "Testing the mobile view",
+            "Removing images",
+            "Shorter text only",
+            "Different colors"
+          ],
+          "correct": 0
+        },
+      
+        {
+          "question": "How should testimonial photos be displayed?",
+          "options": [
+            "Random sizes",
+            "Consistent dimensions",
+            "No photos needed",
+            "Text only"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What happens if you don't save changes?",
+          "options": [
+            "Auto-saves",
+            "Prompts warning",
+            "Changes are lost",
+            "Saves draft"
+          ],
+          "correct": 2
+        },
+     
+        {
+          "question": "What's important for testimonial photos?",
+          "options": [
+            "Artistic filters",
+            "Professional headshots only",
+            "Real customer photos",
+            "No photos needed"
+          ],
+          "correct": 2
+        },
+      
       ]
     
       },
