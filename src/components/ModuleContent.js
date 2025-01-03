@@ -8598,6 +8598,73 @@ const defaultCourseModules = [
               "A great title is like a key - it unlocks your reader's attention!" 
               <footer class="text-sm mt-2">- Content Creation 101 🔑</footer>
             </blockquote>
+
+
+            <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Quick Start Guide! 🚀</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ol class="list-decimal pl-4 space-y-2">
+              <li>Find Titles under the Blocks section</li>
+              <li>Browse through different title designs</li>
+              <li>Drag and drop your favorite style</li>
+              <li>Click to customize - it's that easy!</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Customization Magic! 🎯</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li><span class="font-semibold">Background:</span> Colors, overlays, and images!</li>
+              <li><span class="font-semibold">Padding:</span> Perfect spacing above and below</li>
+              <li><span class="font-semibold">Position:</span> 8 different background positions</li>
+              <li><span class="font-semibold">Parallax:</span> Add that cool scrolling effect!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Your Trusty Tools! 🛠️</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+            <li><span class="font-semibold">⚙️ Settings (Cog):</span> Customize everything about your title</li>
+            <li><span class="font-semibold">🔄 Clone:</span> Duplicate your perfectly styled title</li>
+            <li><span class="font-semibold">🗑️ Delete:</span> Remove elements you don't need</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Pro Tips! 💫</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Test parallax in preview mode for the full effect! 🎬</li>
+            <li>Try different background positions for unique looks</li>
+            <li>Use overlays to make text pop against images</li>
+            <li>Keep mobile users in mind when sizing text</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Quick Style Guide! 🎨</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <ul class="list-disc pl-4 space-y-2">
+          <li>Background Position Options:
+            <ul class="list-disc pl-6 mt-2">
+              <li>Top: left, center, right</li>
+              <li>Bottom: left, center, right</li>
+              <li>Center center</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
       
             <div class="bg-white/50 p-6 rounded-lg mb-6">
               <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
@@ -8707,108 +8774,108 @@ const defaultCourseModules = [
       
             <div class="mt-6 text-center">
               <p class="text-xl font-bold text-rose-600 dark:text-rose-300">Ready to Write Attention-Grabbing Titles? 🌟</p>
-              <p class="text-lg mt-2">Remember, your title is your content's first impression - make it count! Let's create something amazing! 💫</p>
+              <p class="text-lg mt-2">Remember, your title is like a handshake - it's the first thing people notice! Make it count!</p>
             </div>
           </div>
         </div>`,
         "quiz": [
           {
-            "question": "What is the recommended character limit for SEO-friendly titles?",
+            "question": "Where can you find the Titles option?",
             "options": [
-              "40 characters",
-              "60 characters",
-              "80 characters",
-              "100 characters"
+              "Components section",
+              "Blocks section",
+              "Elements section",
+              "Design section"
             ],
             "correct": 1
           },
           {
-            "question": "Which type of title is best for tutorial content?",
+            "question": "Which tool allows you to duplicate a title?",
             "options": [
-              "Question Titles",
-              "How-To Titles",
-              "List Titles",
-              "Statement Titles"
+              "Delete tool",
+              "Settings tool",
+              "Clone tool",
+              "Copy tool"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Where should you test parallax effects?",
+            "options": [
+              "In the builder",
+              "In preview mode",
+              "In settings",
+              "In style editor"
             ],
             "correct": 1
           },
           {
-            "question": "Where should the primary keyword be placed in a title?",
+            "question": "How many background position options are available?",
             "options": [
-              "At the end",
-              "In the middle",
-              "Near the beginning",
-              "Anywhere is fine"
+              "6 positions",
+              "7 positions",
+              "8 positions",
+              "9 positions"
             ],
             "correct": 2
           },
           {
-            "question": "What is a common title writing mistake?",
+            "question": "Which icon opens the Detail Editor?",
             "options": [
-              "Using power words",
-              "Including numbers",
-              "Keyword stuffing",
-              "Being specific"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which element is most important for title formatting?",
-            "options": [
-              "Fancy fonts",
-              "Multiple colors",
-              "Readability",
-              "Animation"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes list titles effective?",
-            "options": [
-              "They're longer",
-              "They use numbers",
-              "They're mysterious",
-              "They use jargon"
+              "Hammer icon",
+              "Cog icon",
+              "Pencil icon",
+              "Brush icon"
             ],
             "correct": 1
           },
           {
-            "question": "What should you consider when formatting titles?",
+            "question": "What appears when you click on title text?",
             "options": [
-              "Only desktop view",
-              "Only mobile view",
-              "Multiple device views",
-              "Print view only"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which is a recommended SEO practice for titles?",
-            "options": [
-              "Using misleading keywords",
-              "Making it as long as possible",
-              "Using power words",
-              "Avoiding keywords"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes a title 'clickbait'?",
-            "options": [
-              "Being specific",
-              "Not delivering on promises",
-              "Using numbers",
-              "Including keywords"
+              "Two tools",
+              "Three tools",
+              "Four tools",
+              "Five tools"
             ],
             "correct": 1
           },
           {
-            "question": "What should a great title always do?",
+            "question": "What can you adjust in the padding settings?",
             "options": [
-              "Be as long as possible",
-              "Use technical jargon",
-              "Match the content",
-              "Avoid keywords"
+              "Left and right",
+              "Top and bottom",
+              "All sides",
+              "Center only"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What are the parallax options?",
+            "options": [
+              "On/Off",
+              "High/Low",
+              "Fast/Slow",
+              "Smooth/Sharp"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Where is the background overlay option found?",
+            "options": [
+              "Main menu",
+              "Detail Editor",
+              "Style panel",
+              "Format menu"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How do you access title customization options?",
+            "options": [
+              "Double click",
+              "Right click",
+              "Click outer block",
+              "Drag and drop"
             ],
             "correct": 2
           }
