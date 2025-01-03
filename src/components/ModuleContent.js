@@ -4452,33 +4452,89 @@ const defaultCourseModules = [
         "id": 2,
         "title": "Contact",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Let's Make Your Contact Form Awesome! ✨</h2>
+        <h2 class="text-2xl font-bold">Make Your Contact Section Shine! 📞</h2>
         <video className="w-full rounded-lg" controls>
         <source src="https://awb-silk.vercel.app/Contact(720p).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Connect with Your Visitors? 🤝</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Connect with Your Visitors? Connect With Style! 🤝</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A great contact form is like a friendly handshake - it makes people feel welcome and heard! Let's make yours amazing! 😊"
-            <footer class="text-sm mt-2">- Your Friendly Web Design Guide</footer>
+          "A well-designed contact section turns visitors into clients! Let's make it happen! 🤝"
+
           </blockquote>
-      
+
           <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">First Things First - The Essentials! 📝</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's what makes a contact form truly effective:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Keep it simple - nobody likes filling out long forms!</li>
-                  <li>Make sure it's mobile-friendly - people love using their phones</li>
-                  <li>Add clear labels - no one should have to guess what goes where</li>
-                  <li>Include helpful error messages - guide users when they make mistakes</li>
-                </ol>
-              </div>
+          <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">First Things First - The Essentials! 📝</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <p class="mb-4">Here's what makes a contact form truly effective:</p>
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Keep it simple - nobody likes filling out long forms!</li>
+                <li>Make sure it's mobile-friendly - people love using their phones</li>
+                <li>Add clear labels - no one should have to guess what goes where</li>
+                <li>Include helpful error messages - guide users when they make mistakes</li>
+                <li>Add a friendly success message - people love knowing their message went through!</li>
+                <li>Include a privacy notice - build trust with your visitors</li>
+                <li>Show estimated response time - manage expectations nicely</li>
+              </ol>
             </div>
           </div>
+        </div>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Quick Setup Guide! 🚀</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ol class="list-decimal pl-4 space-y-2">
+                <li>Find Contact under Blocks</li>
+                <li>Choose your preferred template</li>
+                <li>Drag and drop onto your page</li>
+                <li>Customize with the settings (cog) icon</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Styling Options! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Background:</span> Colors, images, overlays</li>
+                <li><span class="font-semibold">Spacing:</span> Custom padding options</li>
+                <li><span class="font-semibold">Position:</span> Multiple background positions</li>
+                <li><span class="font-semibold">Parallax:</span> Optional scrolling effects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Essential Tools! 🛠️</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li><span class="font-semibold">⚙️ Settings:</span> Customize design & functionality</li>
+              <li><span class="font-semibold">🔄 Clone:</span> Copy your contact section</li>
+              <li><span class="font-semibold">🗑️ Delete:</span> Remove unwanted elements</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Pro Tips! 💫</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Test form submissions before going live 📧</li>
+              <li>Keep mobile users in mind when spacing fields</li>
+              <li>Add clear success messages</li>
+              <li>Include a privacy notice near forms</li>
+            </ul>
+          </div>
+        </div>
+        
+         
           
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
@@ -4494,42 +4550,7 @@ const defaultCourseModules = [
             </div>
           </div>
       
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Pro Tips for Success! 🌟</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Add a friendly success message - people love knowing their message went through!</li>
-                <li>Include a privacy notice - build trust with your visitors</li>
-                <li>Show estimated response time - manage expectations nicely</li>
-                <li>Make the submit button pop with color - guide them to action!</li>
-              </ul>
-            </div>
-          </div>
     
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Fun Facts About Contact Forms!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Forms with social proof nearby get 30% more submissions! 📈</li>
-                <li>The perfect contact form takes less than 30 seconds to fill out ⚡</li>
-                <li>Adding a photo near your contact form can increase trust by 35%! 🤝</li>
-                <li>Mobile users abandon forms 50% more than desktop users - make it mobile-friendly! 📱</li>
-              </ul>
-            </div>
-          </div>
-    
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Accessibility Matters!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Use proper ARIA labels - everyone should be able to reach you! 🗣️</li>
-                <li>Ensure keyboard navigation works - test with Tab key ⌨️</li>
-                <li>Make error messages screen-reader friendly 🎯</li>
-                <li>Use sufficient color contrast for all text 👀</li>
-              </ul>
-            </div>
-          </div>
-          
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
             <h5 class="font-semibold">Remember! 💫</h5>
             <p class="mt-2">A great contact form can be the beginning of wonderful relationships with your visitors!</p>
@@ -4663,104 +4684,104 @@ const defaultCourseModules = [
       </div>`,      
       "quiz": [
         {
-          "question": "How much does visual content increase engagement?",
+          "question": "Where do you find Contact templates?",
           "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By how much does structured text improve readability?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much do interactive elements boost retention?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do clear CTAs increase conversions?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for content design?",
-          "options": [
-            "Animation",
-            "Hierarchy",
-            "Decoration",
-            "Colors"
+            "Elements section",
+            "Blocks section",
+            "Components section",
+            "Widgets section"
           ],
           "correct": 1
         },
         {
-          "question": "What's a common content mistake?",
+          "question": "Which icon opens the customization settings?",
           "options": [
-            "Using visuals",
-            "Clear structure",
-            "Walls of text",
-            "Using headings"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What improves content accessibility?",
-          "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
+            "Star icon",
+            "Cog icon",
+            "Pencil icon",
+            "Brush icon"
           ],
           "correct": 1
         },
         {
-          "question": "What should be used for consistent styling?",
+          "question": "What should you do before publishing a contact form?",
           "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's essential for mobile content?",
-          "options": [
-            "Animations",
-            "Responsive design",
-            "Decorations",
-            "Gradients"
+            "Change colors",
+            "Test submissions",
+            "Add images",
+            "Change fonts"
           ],
           "correct": 1
         },
         {
-          "question": "What helps maintain readability?",
+          "question": "How many tools appear when clicking a contact block?",
           "options": [
-            "Dense paragraphs",
-            "No spacing",
-            "Small text",
-            "Proper formatting"
+            "Two",
+            "Three",
+            "Four",
+            "Five"
           ],
-          "correct": 3
+          "correct": 1
+        },
+        {
+          "question": "What's important to consider when spacing fields?",
+          "options": [
+            "Desktop layout",
+            "Mobile users",
+            "Color scheme",
+            "Font size"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What should be included near contact forms?",
+          "options": [
+            "Social media",
+            "Privacy notice",
+            "Company history",
+            "Blog posts"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which tool duplicates a contact section?",
+          "options": [
+            "Copy tool",
+            "Paste tool",
+            "Clone tool",
+            "Duplicate tool"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's the first step in adding a contact section?",
+          "options": [
+            "Choose template",
+            "Set background",
+            "Add fields",
+            "Style form"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What should you add after form submission?",
+          "options": [
+            "Social links",
+            "Success message",
+            "Company logo",
+            "Background image"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which setting affects scroll behavior?",
+          "options": [
+            "Overlay",
+            "Padding",
+            "Parallax",
+            "Position"
+          ],
+          "correct": 2
         }
       ]
       },
