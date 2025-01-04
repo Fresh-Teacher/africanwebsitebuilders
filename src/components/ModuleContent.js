@@ -5670,196 +5670,233 @@ const defaultCourseModules = [
       "id": 7,
       "title": "Features",
       "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Let's Master Feature Sections! 🎯</h2>
-        
-        <div class="bg-gradient-to-r from-green-50 to-teal-50 dark:from-green-900/30 dark:to-teal-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Transform Your Features into Success Stories! ✨</h3>
-          
-          <blockquote class="border-l-4 border-green-500 pl-4 italic mb-4 text-lg">
-            "Features tell, benefits sell - but together, they excel!" 
-            <footer class="text-sm mt-2">- Marketing Wisdom 101 💫</footer>
-          </blockquote>
-    
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-emerald-50 dark:bg-emerald-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Feature Section Essentials! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Ready to create stunning feature sections? Here's your game plan:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Choose a clear, organized layout that guides the eye</li>
-                  <li>Use consistent, meaningful icons that represent each feature</li>
-                  <li>Write compelling headlines that grab attention</li>
-                  <li>Add concise descriptions that focus on benefits</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-    
-          <div class="bg-teal-50 dark:bg-teal-800 p-4 rounded-lg mb-6">
-            <h5 class="font-semibold">Popular Feature Layouts 📋</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <div class="space-y-4">
-                <div class="border-b pb-4">
-                  <p class="font-semibold">Grid Layout 📱</p>
-                  <p class="mt-2">Perfect for showcasing multiple features with equal importance. Creates a clean, organized look that's easy to scan.</p>
-                </div>
-                
-                <div class="border-b pb-4">
-                  <p class="font-semibold">List Format 📝</p>
-                  <p class="mt-2">Ideal for detailed features that need more explanation. Great for step-by-step processes or complex features.</p>
-                </div>
-                
-                <div class="border-b pb-4">
-                  <p class="font-semibold">Cards Design 🎴</p>
-                  <p class="mt-2">Excellent for visual separation and highlighting individual features. Perfect for responsive designs!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <div class="bg-cyan-50 dark:bg-cyan-800 p-4 rounded-lg mb-6">
-            <h5 class="font-semibold">Writing Feature Copy That Converts! ✍️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Start with a clear, benefit-driven headline</li>
-                <li>Use active voice and power words</li>
-                <li>Focus on solving user problems</li>
-                <li>Include social proof when possible</li>
-                <li>Keep descriptions scannable and concise</li>
-              </ul>
-            </div>
-          </div>
-    
-          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-6">
-            <h5 class="font-semibold">Pro Tips for Feature Design! 💡</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <div class="space-y-4">
-                <div class="border-b pb-4">
-                  <p class="font-semibold">Use White Space Wisely 🎨</p>
-                  <p class="mt-2">Give your features room to breathe! Proper spacing improves readability and visual appeal.</p>
-                </div>
-                
-                <div class="border-b pb-4">
-                  <p class="font-semibold">Maintain Consistency 🎯</p>
-                  <p class="mt-2">Keep your icons, colors, and typography consistent throughout your feature section.</p>
-                </div>
-                
-                <div class="border-b pb-4">
-                  <p class="font-semibold">Mobile-First Approach 📱</p>
-                  <p class="mt-2">Design with mobile users in mind first, then expand for larger screens.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-teal-600 dark:text-teal-300">Ready to Create Amazing Feature Sections? 🌟</p>
-            <p class="text-lg mt-2">Remember, great features don't just list what your product does - they show how it makes your users' lives better! 💪</p>
-          </div>
-        </div>
-      </div>`,
-      "quiz": [
-        {
-          "question": "What is the primary purpose of a feature section?",
-          "options": [
-            "To list product specifications",
-            "To showcase company history",
-            "To demonstrate value and benefits to users",
-            "To display pricing information"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which layout is best for showcasing multiple features with equal importance?",
-          "options": [
-            "Grid Layout",
-            "List Format",
-            "Timeline Layout",
-            "Carousel Layout"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What is an essential element of effective feature copy?",
-          "options": [
-            "Technical jargon",
-            "Long descriptions",
-            "Benefit-driven headlines",
-            "Complex explanations"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How should you approach feature section design?",
-          "options": [
-            "Desktop-first",
-            "Mobile-first",
-            "Tablet-first",
-            "Print-first"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What makes card design effective for featuring products?",
-          "options": [
-            "It's more expensive",
-            "It's harder to implement",
-            "It provides visual separation",
-            "It requires more code"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What should you maintain throughout your feature section?",
-          "options": [
-            "Varying fonts",
-            "Different color schemes",
-            "Consistency in design",
-            "Random layouts"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which is a key principle of writing feature descriptions?",
-          "options": [
-            "Use technical language",
-            "Focus on solving user problems",
-            "Write long paragraphs",
-            "Avoid mentioning benefits"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What role does white space play in feature design?",
-          "options": [
-            "It wastes space",
-            "It improves readability",
-            "It reduces content",
-            "It increases costs"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should you include with feature descriptions when possible?",
-          "options": [
-            "Company history",
-            "Social proof",
-            "Pricing details",
-            "Legal disclaimers"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which format is best for explaining complex features in detail?",
-          "options": [
-            "Grid Layout",
-            "List Format",
-            "Card Design",
-            "Carousel Format"
-          ],
-          "correct": 1
-        }
-      ]
+      <h2 class="text-2xl font-bold">Feature Templates - Let's Get Started! 📝</h2>
+      <video className="w-full rounded-lg" controls>
+      <source src="https://awb-silk.vercel.app/Icons(0).mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+      </video><br>
+      <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+      <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Add More Details? 📋</h3> 
+      <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+      "Feature templates help you provide detailed information about someone or something in a clear, organized way!"
+     <footer class="text-sm mt-2">- Your Design Assistant</footer>
+   </blockquote>
+
+   <div class="bg-white/50 p-6 rounded-lg mb-6">
+     <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+       <h5 class="font-semibold">Let's Begin! 🚀</h5>
+       <div class="bg-white/70 p-4 rounded mt-4">
+         <p class="mb-4">Here's how to use feature templates:</p>
+         <ol class="list-decimal pl-4 space-y-2">
+           <li>Navigate to the Components section</li>
+           <li>Find the Feature Templates option</li>
+           <li>Choose from different layout options</li>
+           <li>Add your content - it's that simple!</li>
+         </ol>
+       </div>
+     </div>
+   </div>
+   
+   <div class="bg-white/50 p-6 rounded-lg mb-6">
+     <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+       <h5 class="font-semibold">Customizing Your Feature Template 🎨</h5>
+       <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+         <div class="bg-white/70 p-4 rounded">
+           <p class="mb-4">Here's what you can customize:</p>
+           <ul class="list-disc pl-4 space-y-2">
+             <li><span class="font-semibold">Icons:</span> Choose from our icon library to match your content</li>
+             
+             <li><span class="font-semibold">Text:</span> Replace the placeholder text with your information</li>
+             
+             <li><span class="font-semibold">Layout:</span> Adjust the layout to fit your needs</li>
+             
+             <li><span class="font-semibold">Design:</span> Customize colors and styles to match your brand</li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+     <h5 class="font-semibold">Making Changes to Your Template ⚙️</h5>
+     <div class="bg-white/70 p-4 rounded mt-4">
+       <p class="mb-4">Follow these steps to customize:</p>
+       <ol class="list-decimal pl-4 space-y-2">
+         <li>Select your feature template</li>
+         <li>Click the settings icon to open customization options</li>
+         <li>You'll see these options:
+           <ul class="list-disc pl-6 mt-2">
+             <li>Icon selection - choose your preferred icon</li>
+             <li>Text editor - update your content</li>
+             <li>Layout options - adjust the design</li>
+           </ul>
+         </li>
+         <li>Make your desired changes</li>
+         <li>Save your updates</li>
+       </ol>
+     </div>
+   </div>
+
+   <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+   <h5 class="font-semibold">📚 Tips for Great Feature Templates</h5>
+   <div class="bg-white/70 p-4 rounded mt-4">
+   <ul class="list-disc pl-4 space-y-2">
+   <li>Keep your descriptions clear and concise 📝</li>
+   <li>Use relevant icons that complement your content 🎯</li>
+   <li>Maintain consistent spacing and alignment 📏</li>
+   <li>Structure your information logically 🧩</li>
+   <li>Use headings to organize content sections ✨</li>
+   <li>Preview your changes before saving 👀</li>
+   </ul>
+   </div>
+ </div>
+
+<div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+   <h5 class="font-semibold">🎯 Best Practices</h5>
+   <div class="bg-white/70 p-4 rounded mt-4">
+   <ul class="list-disc pl-4 space-y-2">
+   <li>Use clear and descriptive headings 📖</li>
+   <li>Maintain consistent formatting throughout 📋</li>
+   <li>Choose icons that enhance understanding 🎨</li>
+   <li>Keep your content organized and scannable 📱</li>
+ </ul>
+   </div>
+ </div>
+
+   <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+     <h5 class="font-semibold">Quick Tips for Success! 💡</h5>
+     <div class="bg-white/70 p-4 rounded mt-4">
+     <ul class="list-disc pl-4 space-y-2">
+     <li>Preview your template on different screen sizes 📱</li>
+     <li>Test all interactive elements before saving 🔍</li>
+     <li>Keep your content consistent across templates ✨</li>
+     <li>Update content regularly to keep it relevant 🔄</li>
+     <li>Remember to save your changes! 💾</li>
+   </ul>
+     </div>
+   </div>
+
+   <br />
+   <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+   <h5 class="font-semibold">Important Reminder! ⭐</h5>
+   <p class="mt-2">Always save your changes before leaving the editor!</p>
+   <p class="mt-2">Your work is valuable - don't forget to preserve it! 💾</p>
+ </div>
+
+
+   <div class="mt-6 text-center">
+     <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Your Feature Templates? ✨</p>
+     <p class="text-lg mt-2">Start designing and make your content shine!</p>
+     </div>
+ </div>
+</div>`,
+"quiz": [
+  {
+  "question": "Where can you find Feature Templates in the interface?",
+  "options": [
+  "In the Settings menu",
+  "Under the Layout section",
+  "Under the Components section",
+  "In the Theme options"
+  ],
+  "correct": 2
+  },
+  
+  {
+  "question": "What should you do before leaving the editor?",
+  "options": [
+  "Close the browser",
+  "Delete the template",
+  "Preview the changes",
+  "Save your changes"
+  ],
+  "correct": 3
+  },
+  
+  {
+  "question": "What is the primary purpose of Feature Templates?",
+  "options": [
+  "To add animations",
+  "To provide detailed information",
+  "To change colors",
+  "To add videos"
+  ],
+  "correct": 1
+  },
+  {
+  "question": "What's recommended for organizing content in Feature Templates?",
+  "options": [
+  "Random placement",
+  "Using headings",
+  "Adding more images",
+  "Removing text"
+  ],
+  "correct": 1
+  },
+  {
+  "question": "What should you check before finalizing your feature template?",
+  "options": [
+  "Website traffic",
+  "User comments",
+  "Different screen sizes",
+  "Server status"
+  ],
+  "correct": 2
+  },
+  {
+  "question": "What element helps complement the content in Feature Templates?",
+  "options": [
+  "Videos",
+  "Animations",
+  "Icons",
+  "Audio"
+  ],
+  "correct": 2
+  },
+ 
+ 
+  {
+  "question": "What type of spacing should be maintained in Feature Templates?",
+  "options": [
+  "Random spacing",
+  "Minimal spacing",
+  "Consistent spacing",
+  "Maximum spacing"
+  ],
+  "correct": 2
+  },
+  {
+  "question": "What should you do after making changes to your template?",
+  "options": [
+  "Close immediately",
+  "Preview changes",
+  "Delete backup",
+  "Change password"
+  ],
+  "correct": 1
+  },
+  {
+  "question": "What's included in the customization options?",
+  "options": [
+  "Icon selection only",
+  "Text editor only",
+  "Layout options only",
+  "All of the above"
+  ],
+  "correct": 3
+  },
+  {
+  "question": "How should headings be used in Feature Templates?",
+  "options": [
+  "Descriptively",
+  "Randomly",
+  "Sparingly",
+  "Not at all"
+  ],
+  "correct": 0
+  },
+ 
+  ]
     },
       {
         "id": 8,
