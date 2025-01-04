@@ -7110,106 +7110,81 @@ const defaultCourseModules = [
       {
         "id": 13,
         "title": "Pricing",
-        "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Perfect Pricing Tables! 💰</h2>
-        <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Pricing(720p).mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video><br>
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Show Your Value with Style! ✨</h3>
+        "content": ` <div className="space-y-6">
+        <h2 className="text-2xl font-bold">Time to Make Your Forms Fantastic! 📝</h2>
+        
+        <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 className="text-2xl font-semibold mb-4 text-center">Ready to Connect With Your Visitors? 🤝</h3>
           
-          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed pricing table doesn't just list prices - it tells a story about value and helps customers make the perfect choice! 🎯"
-            <footer class="text-sm mt-2">- Pricing Strategy Expert</footer>
+          <blockquote className="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+            "A well-designed form is like a friendly conversation - it makes people feel heard and valued! 💬"
+            <footer className="text-sm mt-2">- Every Successful Website Owner</footer>
           </blockquote>
-      
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Pricing Tables! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective pricing tables:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Choose a clean, readable layout</li>
-                  <li>Highlight your recommended plan</li>
-                  <li>Keep feature descriptions clear and concise</li>
-                  <li>Make CTAs stand out with contrasting colors</li>
+  
+          <div className="bg-white/50 p-6 rounded-lg mb-6">
+            <div className="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+              <h5 className="font-semibold">Let's Build Your Perfect Form! 🚀</h5>
+              <div className="bg-white/70 p-4 rounded mt-4">
+                <p className="mb-4">Creating forms is easier than filling them out (and way more fun! 😉)</p>
+                <ol className="list-decimal pl-4 space-y-2">
+                  <li>Pop over to the Blocks section</li>
+                  <li>Find your dream form template</li>
+                  <li>Just drag and drop it where you need it (like arranging sticky notes, but digital!)</li>
+                  <li>Click to customize - it's your time to shine! ⭐</li>
                 </ol>
               </div>
             </div>
           </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Clear plan names:</span> Make them meaningful!</li>
-                  <li><span class="font-semibold">Prominent pricing:</span> Show value clearly</li>
-                  <li><span class="font-semibold">Feature lists:</span> Highlight what matters</li>
-                  <li><span class="font-semibold">Action buttons:</span> Make them compelling</li>
+  
+          <div className="bg-white/50 p-6 rounded-lg mb-6">
+            <div className="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 className="font-semibold">Make It Your Own! 🎨</h5>
+              <div className="bg-white/70 p-4 rounded mt-4">
+                <p className="mb-4">Time to customize (it's like decorating, but for forms!):</p>
+                <ul className="list-disc pl-4 space-y-2">
+                  <li>Click any text to see your magical menu appear 🪄</li>
+                  <li><span className="font-semibold">Capital T:</span> Edit your text - make it speak your language!</li>
+                  <li><span className="font-semibold">Cog Icon:</span> Style it up and add links - make it pop! ⚙️</li>
+                  <li><span className="font-semibold">Copy Icon:</span> Clone it - because good things are worth repeating! 📋</li>
+                  <li><span className="font-semibold">Trash Icon:</span> Remove what you don't need - keep it clean! 🗑️</li>
                 </ul>
               </div>
             </div>
           </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Use consistent spacing and alignment</li>
-                <li>Make your recommended plan stand out</li>
-                <li>Keep mobile users in mind - ensure good readability</li>
-                <li>Use icons to make features more scannable</li>
+  
+          <div className="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+            <h5 className="font-semibold">Form Best Practices! 📋</h5>
+            <div className="bg-white/70 p-4 rounded mt-4">
+              <ul className="list-disc pl-4 space-y-2">
+                <li>Keep it simple - nobody likes a marathon form! 🏃‍♀️</li>
+                <li>Label fields clearly - confusion is not your friend!</li>
+                <li>Make required fields obvious - help users succeed! ✨</li>
+                <li>Add a friendly success message - celebrate those submissions! 🎉</li>
               </ul>
             </div>
           </div>
-    
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Pricing Table Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>The "Rule of Three" makes decision-making easier! 🧠</li>
-                <li>Center-stage pricing plans get 40% more attention! 👀</li>
-                <li>Highlighting savings can increase conversions by 25%! 💰</li>
-                <li>90% of users compare all columns before deciding! 📊</li>
+  
+          <div className="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+            <h5 className="font-semibold">🤓 Fun Form Facts!</h5>
+            <div className="bg-white/70 p-4 rounded mt-4">
+              <ul className="list-disc pl-4 space-y-2">
+                <li>Did you know? Forms with social proof get 30% more submissions! 📈</li>
+                <li>The perfect form length? 3-5 fields is the sweet spot! 🎯</li>
+                <li>Mobile-friendly forms get 81% more responses! 📱</li>
+                <li>A simple "thank you" page can boost return visits by 25%! 🙏</li>
               </ul>
             </div>
           </div>
-    
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Conversion Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Add a money-back guarantee to build trust 🤝</li>
-                <li>Show monthly and annual pricing options 📅</li>
-                <li>Include social proof near pricing tables ⭐</li>
-                <li>Make feature comparisons easy to scan 👁️</li>
-              </ul>
-            </div>
+  
+          <div className="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 className="font-semibold">Don't Forget! ☝️</h5>
+            <p className="mt-2">Always save your changes - because redoing your perfect form is no fun! 💾</p>
+            <p className="mt-2">Test your form before going live - be your own first submission! ✅</p>
           </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Too many pricing tiers - keep it simple!</li>
-                <li>Unclear feature descriptions</li>
-                <li>Hidden costs or asterisks</li>
-                <li>Poor mobile responsiveness</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">A/B test different layouts and pricing structures!</p>
-            <p class="mt-2">Keep your pricing tables up-to-date and competitive! 🚀</p>
-          </div>
-    
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Showcase Your Value? 💎</p>
-            <p class="text-lg mt-2">Create pricing tables that convert visitors into customers!</p>
+  
+          <div className="mt-6 text-center">
+            <p className="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Start Collecting Responses? ✨</p>
+            <p className="text-lg mt-2">Go ahead - create a form that your visitors will love filling out!</p>
           </div>
         </div>
       </div>`,
@@ -7598,149 +7573,89 @@ const defaultCourseModules = [
         "id": 15,
         "title": "Signup",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Converting Sign-up Forms! 📝</h2>
+        <h2 class="text-2xl font-bold">Time to Make Your Forms Fantastic! 📝</h2>
         <video className="w-full rounded-lg" controls>
         <source src="https://awb-silk.vercel.app/Sign_Up(720p).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Build Sign-up Forms That Convert & Delight! ✨</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Connect With Your Visitors? 🤝</h3>
           
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed sign-up form doesn't just collect data - it welcomes users and starts their journey on the right note! 🚀"
-            <footer class="text-sm mt-2">- Conversion Rate Expert</footer>
+          "A well-designed form is like a friendly conversation - it makes people feel heard and valued! 💬"
+          - Every Successful Website Owner
           </blockquote>
       
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Sign-ups! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective sign-up forms:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Minimize required fields</li>
-                  <li>Add clear validation</li>
-                  <li>Implement social sign-up</li>
-                  <li>Show progress steps</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          
+          <div className="bg-white/70 p-4 rounded mt-4">
+          <h4 class="text-xl font-semibold mb-4">Let's Build Your Perfect Form! 🚀</h4>
+          <p className="mb-4">Creating forms is easier than filling them out (and way more fun! 😉)</p>
+          <ol className="list-decimal pl-4 space-y-2">
+            <li>Pop over to the Blocks section</li>
+            <li>Find your dream form template</li>
+            <li>Just drag and drop it where you need it (like arranging sticky notes, but digital!)</li>
+            <li>Click to customize - it's your time to shine! ⭐</li>
+          </ol>
+        </div>
+
+        <div className="bg-white/70 p-4 rounded mt-4">
+          <h4 class="text-xl font-semibold mb-4">Make It Your Own! 🎨</h4>
+          <p class="mb-2">Time to customize (it's like decorating, but for forms!):</p>
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Click any text to see your magical menu appear 🪄</li>
+            <li>Capital T: Edit your text - make it speak your language!</li>
+            <li>Cog Icon: Style it up and add links - make it pop! ⚙️</li>
+            <li>Copy Icon: Clone it - because good things are worth repeating! 📋</li>
+            <li>Trash Icon: Remove what you don't need - keep it clean! 🗑️</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="bg-white/70 p-4 rounded mt-4">
+          <h4 class="text-xl font-semibold mb-4">Perfect Your Email Form! 🎨</h4>
+          <p class="mb-2">Focus on what matters:</p>
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Clear value proposition - why should they sign up? 🪄</li>
+            <li>Single email field - remove all friction!</li>
+            <li>Compelling call-to-action button ⚙️</li>
+            <li>Optional: newsletter frequency info ℹ️</li>
+            <li>Simple privacy statement 🔒</li>
+          </ul>
+        </div>
+      </div>
+      
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
+              <h5 class="font-semibold">Form Best Practices! 📋</h5>
               <div class="bg-white/70 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Form fields:</span> Clear labels!</li>
-                  <li><span class="font-semibold">Validation:</span> Real-time feedback</li>
-                  <li><span class="font-semibold">Buttons:</span> Clear CTAs</li>
-                  <li><span class="font-semibold">Mobile:</span> Touch-friendly</li>
+                <li>Just ask for the name email - nothing else! 🎯</li>
+                  <li>Keep it simple - nobody likes a marathon form! 🏃‍♀️</li>
+                  <li>Label fields clearly - confusion is not your friend!</li>
+                  <li>Clear explanation of what they're signing up for ✨</li>
+                  <li>Add a friendly success message - celebrate those submissions! 🎉</li>
                 </ul>
               </div>
             </div>
           </div>
       
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Single-column layout</li>
-                <li>Inline validation</li>
-                <li>Password strength meter</li>
-                <li>Auto-formatting inputs</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Sign-up Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Social proof boosts conversions by 70%! 👀</li>
-                <li>Real-time validation improves completion by 45%! 📊</li>
-                <li>Mobile optimization increases signups by 55%! 📱</li>
-                <li>Progress indicators reduce abandonment by 38%! 🎯</li>
-              </ul>
-            </div>
-          </div>
       
           <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Performance Tips</h5>
+            <h5 class="font-semibold">Don't Forget! ☝️</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
-                <li>Optimize form submission 🖼️</li>
-                <li>Use async validation 🚀</li>
-                <li>Implement auto-save ♾️</li>
-                <li>Cache form data locally 💨</li>
+                <li>Always save your changes - because redoing your perfect form is no fun! 💾</li>
+                <li>Test your form before going live - be your own first submission! ✅</li>
               </ul>
             </div>
-          </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Too many required fields</li>
-                <li>Unclear error messages</li>
-                <li>Poor mobile experience</li>
-                <li>No password guidance</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Track form abandonment points!</p>
-            <p class="mt-2">Use smart defaults for better UX! ⚡</p>
           </div>
       
           <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Convert Visitors? 🎨</p>
-            <p class="text-lg mt-2">Create sign-up forms that make registration a breeze!</p>
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Grow Your Email List? ✨</p>
+          <p class="text-lg mt-2">Create a simple email sign-up form that actually converts!</p>
           </div>
         </div>
       </div>`,
       "quiz": [
-        {
-          "question": "How much does social proof increase sign-up rates?",
-          "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By how much does real-time validation improve completion?",
-          "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How much does mobile optimization boost signups?",
-          "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do progress indicators reduce abandonment?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
         {
           "question": "What's most important for sign-up forms?",
           "options": [
@@ -7762,44 +7677,89 @@ const defaultCourseModules = [
           "correct": 2
         },
         {
-          "question": "What improves form accessibility?",
+          "question": "What's the optimal number of fields for a basic sign-up form?",
           "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
+            "10 fields",
+            "5-6 fields",
+            "1-2 fields",
+            "1 field (email only)"
+          ],
+          "correct": 2
+        },
+    
+        {
+          "question": "What should you collect first from new users?",
+          "options": [
+            "Full name",
+            "Phone number",
+            "Email address",
+            "Birthday"
+          ],
+          "correct": 2
+        },
+      
+        {
+          "question": "What improves mobile form completion rates?",
+          "options": [
+            "More fields",
+            "Fewer fields",
+            "Larger buttons",
+            "More colors"
           ],
           "correct": 1
         },
+     
         {
-          "question": "What should be used for consistent styling?",
+          "question": "What reduces form abandonment?",
           "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
+            "More fields",
+            "Complex validation",
+            "Clear error messages",
+            "No validation"
           ],
           "correct": 2
         },
         {
-          "question": "What's essential for mobile forms?",
+          "question": "When should you ask for additional user information?",
           "options": [
+            "Never",
+            "During signup",
+            "After establishing value",
+            "Before email"
+          ],
+          "correct": 2
+        },
+ 
+        {
+          "question": "How can you increase sign-up form trust?",
+          "options": [
+            "More fields",
+            "Social proof",
             "Animations",
-            "Touch-friendly",
-            "Decorations",
-            "Gradients"
+            "Colors"
           ],
           "correct": 1
         },
         {
-          "question": "What helps reduce form abandonment?",
+          "question": "What should you test before launching a sign-up form?",
           "options": [
-            "More fields",
-            "Complex validation",
-            "No feedback",
-            "Clear progress"
+            "Colors only",
+            "Text only",
+            "Mobile responsiveness",
+            "Nothing"
           ],
-          "correct": 3
+          "correct": 2
+        },
+     
+        {
+          "question": "What's the primary goal of a sign-up form?",
+          "options": [
+            "Collect all data",
+            "Look pretty",
+            "Convert visitors",
+            "Be complex"
+          ],
+          "correct": 2
         }
       ]
       },
