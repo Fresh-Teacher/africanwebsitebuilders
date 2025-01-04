@@ -7944,210 +7944,238 @@ const defaultCourseModules = [
         "id": 17,
         "title": "Subscribe",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Converting Subscribe Forms! 📧</h2>
+        <h2 className="text-2xl font-bold">✉️ Create Your Perfect Subscribe Form! </h2>
+        <div class="bg-gradient-to-r from-green-50 to-teal-50 dark:from-green-900/30 dark:to-teal-900/30 p-6 rounded-xl">
+        <h3 class="text-2xl font-semibold mb-4 text-center">Ready to Transform Visitors into Subscribers? 📧</h3>
         <video className="w-full rounded-lg" controls>
         <source src="https://awb-silk.vercel.app/Subscribe(720p).mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video><br>
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Turn Visitors into Subscribers! ✨</h3>
-          
-          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed subscription form doesn't just collect emails - it starts a relationship and builds your community! 🌟"
-            <footer class="text-sm mt-2">- Email Marketing Expert</footer>
-          </blockquote>
+        </video><br>
+        <blockquote class="border-l-4 border-green-500 pl-4 italic mb-4 text-lg">
+        "The perfect subscribe form is your 24/7 list-building champion. Let's make it irresistible! ✨"
+        </blockquote>
       
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Subscribe Forms! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective subscription forms:</p>
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-teal-50 dark:bg-teal-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Getting Started: Your Journey to Subscribe Form Success! 🚀</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+                <p class="mb-4">Let's create a form that converts! Here's how:</p>
                 <ol class="list-decimal pl-4 space-y-2">
-                  <li>Keep form fields minimal and essential</li>
-                  <li>Clearly communicate the value proposition</li>
-                  <li>Make the CTA button stand out</li>
-                  <li>Include trust indicators and social proof</li>
+                    <li>Navigate to the blocks section (it's your form treasure chest! 💎)</li>
+                    <li>Look for 'Forms' in the sidebar (we've got templates you'll love! 💌)</li>
+                    <li>Browse our amazing collection:</li>
+                    <ul class="list-disc pl-8 mt-2 space-y-1">
+                        <li>Minimalist designs for clean, focused conversion</li>
+                        <li>Feature-rich layouts for detailed sign-ups</li>
+                        <li>Pop-up forms for attention-grabbing moments</li>
+                        <li>Inline forms that flow with your content</li>
+                        <li>Footer forms for that perfect closing touch</li>
+                    </ul>
+                    <li>Found your perfect match? Just drag and drop onto your canvas! 🎯</li>
                 </ol>
-              </div>
             </div>
-          </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Compelling headline:</span> Hook their interest!</li>
-                  <li><span class="font-semibold">Clear benefits:</span> Show subscriber value</li>
-                  <li><span class="font-semibold">Simple form:</span> Remove friction</li>
-                  <li><span class="font-semibold">Strong CTA:</span> Drive action</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Use contrasting colors for the CTA button</li>
-                <li>Keep the form above the fold</li>
-                <li>Include mobile-responsive design</li>
-                <li>Add visual hierarchy to guide attention</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Subscription Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Social proof can boost conversions by 50%! 🧠</li>
-                <li>Single-column forms convert 30% better! 📈</li>
-                <li>FOMO increases signups by 35%! ⚡</li>
-                <li>85% prefer two-step opt-in process! 🎯</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Conversion Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Offer a compelling lead magnet 🎁</li>
-                <li>Add urgency with limited-time offers ⏰</li>
-                <li>Display subscriber counts for social proof 👥</li>
-                <li>Use micro-interactions for engagement ✨</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Asking for too much information upfront</li>
-                <li>Unclear value proposition</li>
-                <li>Poor mobile optimization</li>
-                <li>Weak or generic CTAs</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">A/B test different form layouts and CTAs!</p>
-            <p class="mt-2">Always include a privacy policy link! 🔒</p>
-          </div>
-      
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Grow Your List? 📈</p>
-            <p class="text-lg mt-2">Create subscription forms that convert visitors into loyal subscribers!</p>
-          </div>
         </div>
-      </div>`,
-              "quiz": [
-          {
-            "question": "How much can social proof boost subscription conversions?",
-            "options": [
-              "20%",
-              "35%",
-              "50%",
-              "65%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage better do single-column forms convert?",
-            "options": [
-              "10%",
-              "20%",
-              "30%",
-              "40%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage of users prefer a two-step opt-in process?",
-            "options": [
-              "65%",
-              "75%",
-              "85%",
-              "95%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "By how much can FOMO increase signup rates?",
-            "options": [
-              "25%",
-              "30%",
-              "35%",
-              "40%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which element should be above the fold?",
-            "options": [
-              "Privacy policy",
-              "Testimonials",
-              "Social media links",
-              "Subscribe form"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "Which is a common mistake in subscription forms?",
-            "options": [
-              "Including a privacy policy",
-              "Using contrasting colors",
-              "Asking for too much information",
-              "Having a clear CTA"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What should you always test in subscription forms?",
-            "options": [
-              "Logo size",
-              "Form layouts and CTAs",
-              "Background patterns",
-              "Font families"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What increases form engagement?",
-            "options": [
-              "Long forms",
-              "Multiple columns",
-              "Micro-interactions",
-              "Complex animations"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What's most effective for driving subscriptions?",
-            "options": [
-              "Company history",
-              "Lead magnet",
-              "Complex design",
-              "Multiple forms"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What's most important for mobile subscription forms?",
-            "options": [
-              "Animations",
-              "Responsiveness",
-              "Multiple columns",
-              "Video content"
-            ],
-            "correct": 1
-          }
-        ]
+    </div>
+
+    <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-emerald-50 dark:bg-emerald-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Your Complete Form Editing Toolkit! 🛠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="space-y-6">
+                    <div class="bg-white/50 p-4 rounded">
+                        <h6 class="font-semibold mb-2">1. The Magic Icons - Your Creative Control Center! ⚡</h6>
+                        <p class="mb-2">Each icon is your gateway to form perfection:</p>
+                        <ul class="list-disc pl-4 space-y-2">
+                            <li>⚙️ <span class="font-medium">Settings (Cog) Icon:</span>
+                                <ul class="pl-6 mt-1">
+                                    <li>Adjust form dimensions and spacing 📏</li>
+                                    <li>Change colors and backgrounds 🎨</li>
+                                    <li>Modify borders and corner roundness ⭕</li>
+                                    <li>Set up form actions and integrations 🔄</li>
+                                </ul>
+                            </li>
+                            <li>🔄 <span class="font-medium">Clone Icon:</span>
+                                <ul class="pl-6 mt-1">
+                                    <li>Create instant form copies ⚡</li>
+                                    <li>Perfect for A/B testing 📊</li>
+                                    <li>Use across multiple pages 🔄</li>
+                                </ul>
+                            </li>
+                            <li>🗑️ <span class="font-medium">Delete Icon:</span>
+                                <ul class="pl-6 mt-1">
+                                    <li>Remove unwanted elements 🧹</li>
+                                    <li>Start fresh when needed 🔄</li>
+                                    <li>Don't worry - there's always undo! 💫</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white/50 p-4 rounded">
+                        <h6 class="font-semibold mb-2">2. Text Editing Made Easy! ✏️</h6>
+                        <p class="mb-2">Perfect your form's message:</p>
+                        <ul class="list-disc pl-4 space-y-2">
+                            <li>Find any text you want to change 👆</li>
+                            <li>Click to reveal the editing toolbar 🔧</li>
+                            <li>Look for the 'T' icon - your text editing bestie! ✨</li>
+                            <li>Customize everything:
+                                <ul class="pl-6 mt-1">
+                                    <li>Headlines that grab attention 🎯</li>
+                                    <li>Clear, compelling button text 👆</li>
+                                    <li>Informative field labels 📝</li>
+                                    <li>Engaging placeholder text 💭</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Pro Tips for Subscribe Form Excellence! 💫</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+                <li>Keep your form short and sweet (less fields = more signups! ✨)</li>
+                <li>Use eye-catching button colors (make it pop! 🎨)</li>
+                <li>Write clear value propositions (why should they subscribe? 🤔)</li>
+                <li>Add social proof ("Join 10,000+ subscribers!" 🌟)</li>
+                <li>Include a privacy note (build trust! 🛡️)</li>
+                <li>Test on all devices (mobile-friendly is a must! 📱)</li>
+                <li>Set up thank you messages (make them feel special! 💝)</li>
+                <li>Enable email confirmations (welcome them right! 👋)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">⚠️ Essential Reminders! Don't Forget! ⚠️</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Save Your Work - Click "Apply Changes"! 💾</p>
+            <ul class="list-disc pl-4 mt-2 text-red-600 dark:text-red-400">
+                <li>Save after each major edit ✅</li>
+                <li>Preview before publishing 👀</li>
+                <li>Test the form submission 🔒</li>
+            </ul>
+            <p class="mt-2">Your masterpiece deserves to be saved! 🙏</p>
+        </div>
+    </div>
+
+    <div class="mt-6 text-center">
+        <p class="text-xl font-bold text-green-600 dark:text-green-300">Ready to Grow Your Email List? 🌱</p>
+        <p class="text-lg mt-2">Your perfect subscribe form is just a few clicks away! ✨</p>
+        <p class="text-md mt-2">Need help? We're here for you! 🤝</p>
+        <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Every great email list starts with an amazing subscribe form! 📮</p>
+    </div>
+</div>
+</div>`,
+"quiz": [
+  {
+  "question": "Where do you find form templates?",
+  "options": [
+  "Settings menu",
+  "Blocks section",
+  "Theme options",
+  "Layout panel"
+  ],
+  "correct": 1
+  },
+  {
+  "question": "How do you add a form to your page?",
+  "options": [
+  "Copy and paste",
+  "Click to insert",
+  "Drag and drop",
+  "Double click"
+  ],
+  "correct": 2
+  },
+
+  {
+  "question": "What icon should you click to modify text?",
+  "options": [
+  "Cog icon",
+  "Clone icon",
+  "T icon",
+  "Delete icon"
+  ],
+  "correct": 2
+  },
+  {
+  "question": "What's the first step in adding a form?",
+  "options": [
+  "Select Forms",
+  "Go to blocks section",
+  "Choose a template",
+  "Click edit"
+  ],
+  "correct": 1
+  },
+  {
+  "question": "What is the final important step after creating a form?",
+  "options": [
+  "Preview changes",
+  "Add text",
+  "Save changes",
+  "Select template"
+  ],
+  "correct": 2
+  },
+
+  {
+  "question": "What's the correct sequence for editing text?",
+  "options": [
+  "Click text → Click T icon",
+  "Click T icon → Click text",
+  "Click cog → Click text",
+  "Click clone → Click text"
+  ],
+  "correct": 0
+  },
+ 
+  {
+  "question": "What's the purpose of the cog icon?",
+  "options": [
+  "Delete form",
+  "Edit settings",
+  "Clone form",
+  "Edit text"
+  ],
+  "correct": 1
+  },
+  {
+  "question": "What's the purpose of the clone icon?",
+  "options": [
+  "Delete form",
+  "Edit settings",
+  "Copy form",
+  "Edit text"
+  ],
+  "correct": 2
+  },
+  {
+  "question": "What's the purpose of the delete icon?",
+  "options": [
+  "Remove form",
+  "Edit settings",
+  "Copy form",
+  "Edit text"
+  ],
+  "correct": 0
+  },
+ 
+  {
+  "question": "What's the correct order of steps?",
+  "options": [
+  "Select template → Drag → Edit",
+  "Blocks → Forms → Template → Drag & drop",
+  "Forms → Drag → Template → Edit",
+  "Template → Forms → Drag → Edit"
+  ],
+  "correct": 1
+  }
+  ]
       },
       {
         "id": 18,
