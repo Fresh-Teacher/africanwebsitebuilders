@@ -6480,8 +6480,31 @@ const defaultCourseModules = [
             
             <blockquote class="border-l-4 border-indigo-500 pl-4 italic mb-4 text-lg">
               "Your header is your website's handshake - make it firm, friendly, and memorable!" 
-              <footer class="text-sm mt-2">- Web Design Wisdom 🤝</footer>
             </blockquote>
+
+            <div className="bg-white/70 p-4 rounded mt-4">
+            <h4 class="text-xl font-semibold mb-4">Let's Create Your Header! ✨</h4>
+            <p className="mb-4">Building the perfect header is just a few clicks away!</p>
+            <ol className="list-decimal pl-4 space-y-2">
+              <li>Navigate to the Blocks section</li>
+              <li>Click on the Headers option</li>
+              <li>Browse beautiful header designs</li>
+              <li>Drag your favorite to the canvas ⭐</li>
+            </ol>
+          </div>
+
+          <div className="bg-white/70 p-4 rounded mt-4">
+          <h4 class="text-xl font-semibold mb-4">Customize Like a Pro! 🎨</h4>
+          <p class="mb-2">Master these essential tools:</p>
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Capital T: Edit any text element 📝</li>
+            <li>Cog Icon: Access style settings for backgrounds, colors, spacing ⚙️</li>
+            <li>Clone Icon: Duplicate your header design 📋</li>
+            <li>Trash Icon: Remove unwanted elements 🗑️</li>
+            <li>Apply Settings: Save your masterpiece! 💾</li>
+          </ul>
+        </div>
+      </div>
       
             <div class="bg-white/50 p-6 rounded-lg mb-6">
               <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
@@ -6495,33 +6518,6 @@ const defaultCourseModules = [
                     <li>Responsive design that works on all devices</li>
                     <li>Quick-access links to key pages</li>
                   </ol>
-                </div>
-              </div>
-            </div>
-      
-            <div class="bg-violet-50 dark:bg-violet-800 p-4 rounded-lg mb-6">
-              <h5 class="font-semibold">Popular Header Styles 🎨</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <div class="space-y-4">
-                  <div class="border-b pb-4">
-                    <p class="font-semibold">Classic Fixed Header 📌</p>
-                    <p class="mt-2">Stays at the top while scrolling. Perfect for easy navigation on long pages!</p>
-                  </div>
-                  
-                  <div class="border-b pb-4">
-                    <p class="font-semibold">Hamburger Menu 🍔</p>
-                    <p class="mt-2">Space-saving icon that expands into a full menu. Great for mobile and minimal designs!</p>
-                  </div>
-                  
-                  <div class="border-b pb-4">
-                    <p class="font-semibold">Transparent Header 🌈</p>
-                    <p class="mt-2">Blends with the hero section for a seamless look. Perfect for landing pages!</p>
-                  </div>
-      
-                  <div class="border-b pb-4">
-                    <p class="font-semibold">Mega Menu Header 🌟</p>
-                    <p class="mt-2">Expandable menu with multiple columns. Ideal for sites with lots of content!</p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -6574,114 +6570,130 @@ const defaultCourseModules = [
                 </ul>
               </div>
             </div>
+
+            <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Preview on mobile before saving 📱</li>
+                <li>Use consistent spacing throughout ⚡</li>
+                <li>Keep important elements above the fold 🎯</li>
+                <li>Always click Apply Settings after changes! ✅</li>
+              </ul>
+            </div>
+          </div>
       
             <div class="mt-6 text-center">
               <p class="text-xl font-bold text-indigo-600 dark:text-indigo-300">Ready to Create Your Perfect Header? 🚀</p>
-              <p class="text-lg mt-2">Remember, a great header guides your visitors and makes your site a joy to navigate! Let's build something amazing! 💫</p>
+              <p class="text-lg mt-2">Design a header that makes your website unforgettable! 🧠</p>
             </div>
           </div>
         </div>`,
         "quiz": [
           {
-            "question": "What is the primary purpose of a website header?",
+            "question": "Where do you find header templates?",
             "options": [
-              "To make the website prettier",
-              "To provide navigation and branding",
-              "To fill empty space",
-              "To show advertisements"
+              "Settings menu",
+              "Blocks section",
+              "Footer area",
+              "Side panel"
             ],
             "correct": 1
           },
           {
-            "question": "Which header style is best for mobile-first designs?",
+            "question": "What's the correct way to add a header template?",
             "options": [
-              "Mega Menu",
-              "Hamburger Menu",
-              "Fixed Header",
-              "Transparent Header"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What is a must-have element in a website header?",
-            "options": [
-              "Social media links",
-              "Weather widget",
-              "Logo or brand name",
-              "Newsletter signup"
+              "Copy paste",
+              "Right click",
+              "Drag and drop",
+              "Double click"
             ],
             "correct": 2
           },
           {
-            "question": "What makes a fixed header useful?",
+            "question": "Which icon is used for text editing?",
             "options": [
-              "It uses less code",
-              "It stays visible while scrolling",
-              "It loads faster",
-              "It costs less"
+              "Star icon",
+              "Capital T",
+              "Pencil icon",
+              "Plus icon"
             ],
             "correct": 1
           },
+        
           {
-            "question": "Which header component is essential for sites with lots of content?",
+            "question": "How do you duplicate a header?",
             "options": [
-              "Search functionality",
-              "Social media icons",
-              "Language selector",
-              "Weather widget"
+              "Right click",
+              "Copy/paste",
+              "Clone icon",
+              "New template"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What's the purpose of the trash icon?",
+            "options": [
+              "Save changes",
+              "Add elements",
+              "Delete block",
+              "Preview design"
+            ],
+            "correct": 2
+          },
+            {
+            "question": "What happens if you don't click Apply Settings?",
+            "options": [
+              "Auto-saves",
+              "Reminds later",
+              "Changes lost",
+              "Saves draft"
+            ],
+            "correct": 2
+          },
+   
+          {
+            "question": "How do you start editing header content?",
+            "options": [
+              "Click the element",
+              "Right click",
+              "Press Enter",
+              "Double click"
             ],
             "correct": 0
           },
+        
           {
-            "question": "What's a key consideration for header CTAs?",
+            "question": "What's the first step in header creation?",
             "options": [
-              "Using multiple fonts",
-              "Making them blend in",
-              "Using contrasting colors",
-              "Making them small"
+              "Add text",
+              "Go to Blocks",
+              "Choose colors",
+              "Set margins"
+            ],
+            "correct": 1
+          },
+    {
+            "question": "When should you preview mobile view?",
+            "options": [
+              "Never",
+              "After publishing",
+              "Before saving",
+              "Next day"
             ],
             "correct": 2
           },
           {
-            "question": "Which is a common header design mistake?",
+            "question": "How do you ensure changes are saved?",
             "options": [
-              "Too few menu items",
-              "Too many menu items",
-              "Using a logo",
-              "Including navigation"
+              "Close browser",
+              "Click Apply Settings",
+              "Refresh page",
+              "Wait 5 minutes"
             ],
             "correct": 1
           },
-          {
-            "question": "What type of header works well with hero sections?",
-            "options": [
-              "Fixed Header",
-              "Mega Menu",
-              "Transparent Header",
-              "Hamburger Menu"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What should be prioritized when designing a header?",
-            "options": [
-              "Desktop users",
-              "Mobile users",
-              "Tablet users",
-              "Print layout"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which is a key principle of header design?",
-            "options": [
-              "Cluttered layout",
-              "Clean and uncluttered design",
-              "Multiple fonts",
-              "Small text"
-            ],
-            "correct": 1
-          }
+      
         ]
       },
       {
