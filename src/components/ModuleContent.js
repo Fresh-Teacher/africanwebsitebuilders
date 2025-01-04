@@ -4563,17 +4563,112 @@ const defaultCourseModules = [
           </div>
         </div>
       </div>`,
-              "quiz": [
-          {
-            "question": "Which field is typically required in a contact form?",
-            "options": [
-              "Phone number",
-              "Email address",
-              "Company name",
-              "Website URL"
-            ],
-            "correct": 1
-          }
+      "quiz": [
+        {
+        "question": "What is one of the essential qualities of an effective contact form?",
+        "options": [
+        "Complex design",
+        "Multiple pages",
+        "Simple layout",
+        "Maximum fields"
+        ],
+        "correct": 2
+        },
+        {
+        "question": "Where do you find the Contact templates?",
+        "options": [
+        "Settings menu",
+        "Blocks section",
+        "Theme options",
+        "Header menu"
+        ],
+        "correct": 1
+        },
+        {
+        "question": "Which is a must-have form field mentioned?",
+        "options": [
+        "Age",
+        "Phone number",
+        "Email address",
+        "Company size"
+        ],
+        "correct": 2
+        },
+     
+        {
+        "question": "What should be included to build trust with visitors?",
+        "options": [
+        "Company history",
+        "Privacy notice",
+        "Staff photos",
+        "Office address"
+        ],
+        "correct": 1
+        },
+        {
+        "question": "What's the purpose of the cog icon?",
+        "options": [
+        "Delete form",
+        "Copy form",
+        "Customize design",
+        "Preview form"
+        ],
+        "correct": 2
+        },
+     
+        {
+        "question": "What should be shown to manage visitor expectations?",
+        "options": [
+        "Company size",
+        "Office hours",
+        "Response time",
+        "Staff names"
+        ],
+        "correct": 2
+        },
+        {
+        "question": "What's a key consideration for mobile users?",
+        "options": [
+        "Field spacing",
+        "Background colors",
+        "Font size only",
+        "Button shapes"
+        ],
+        "correct": 0
+        },
+      
+        {
+        "question": "What scrolling effect is mentioned as optional?",
+        "options": [
+        "Fade",
+        "Slide",
+        "Parallax",
+        "Zoom"
+        ],
+        "correct": 2
+        },
+        {
+        "question": "What should be done before making the form live?",
+        "options": [
+        "Add more fields",
+        "Change colors",
+        "Test submissions",
+        "Add animations"
+        ],
+        "correct": 2
+        },
+  
+        {
+        "question": "What type of notice should be near forms?",
+        "options": [
+        "Copyright",
+        "Terms",
+        "Privacy",
+        "Cookie"
+        ],
+        "correct": 2
+        },
+      
         ]
       },
       {
