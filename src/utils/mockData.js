@@ -26,7 +26,7 @@ export const registrationData = {
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0,
+            "amountPaid": 36696,
         },
         {
             "Timestamp": "12/17/2024 18:19:16",
@@ -168,7 +168,7 @@ export const registrationData = {
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0,
+            "amountPaid": 36696,
         },
         {
             "Timestamp": "12/17/2024 18:39:51",
@@ -196,7 +196,7 @@ export const registrationData = {
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0,
+            "amountPaid": 36696,
         },
         {
             "Timestamp": "12/17/2024 18:50:12",
@@ -338,7 +338,7 @@ export const registrationData = {
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0
+            "amountPaid": 36696,
         },
         {
             "Timestamp": "12/17/2024 19:00:36",
@@ -850,7 +850,7 @@ export const registrationData = {
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0,
+            "amountPaid": 36696,
         },
         {
             "Timestamp": "12/17/2024 19:50:08",
@@ -992,7 +992,7 @@ export const registrationData = {
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0,
+            "amountPaid": 36696,
         },
       
         {
