@@ -7110,186 +7110,203 @@ const defaultCourseModules = [
       {
         "id": 13,
         "title": "Pricing",
-        "content": ` <div className="space-y-6">
-        <h2 className="text-2xl font-bold">Time to Make Your Forms Fantastic! 📝</h2>
-        
-        <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 className="text-2xl font-semibold mb-4 text-center">Ready to Connect With Your Visitors? 🤝</h3>
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Create a Converting Pricing Section! 💰</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Pricing(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Design Pricing That Sells! 🎯</h3>
           
-          <blockquote className="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-designed form is like a friendly conversation - it makes people feel heard and valued! 💬"
-            <footer className="text-sm mt-2">- Every Successful Website Owner</footer>
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "Your pricing section isn't just about numbers - it's about showing value and building trust! 💫"
           </blockquote>
-  
-          <div className="bg-white/50 p-6 rounded-lg mb-6">
-            <div className="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 className="font-semibold">Let's Build Your Perfect Form! 🚀</h5>
-              <div className="bg-white/70 p-4 rounded mt-4">
-                <p className="mb-4">Creating forms is easier than filling them out (and way more fun! 😉)</p>
-                <ol className="list-decimal pl-4 space-y-2">
-                  <li>Pop over to the Blocks section</li>
-                  <li>Find your dream form template</li>
-                  <li>Just drag and drop it where you need it (like arranging sticky notes, but digital!)</li>
-                  <li>Click to customize - it's your time to shine! ⭐</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-  
-          <div className="bg-white/50 p-6 rounded-lg mb-6">
-            <div className="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 className="font-semibold">Make It Your Own! 🎨</h5>
-              <div className="bg-white/70 p-4 rounded mt-4">
-                <p className="mb-4">Time to customize (it's like decorating, but for forms!):</p>
-                <ul className="list-disc pl-4 space-y-2">
-                  <li>Click any text to see your magical menu appear 🪄</li>
-                  <li><span className="font-semibold">Capital T:</span> Edit your text - make it speak your language!</li>
-                  <li><span className="font-semibold">Cog Icon:</span> Style it up and add links - make it pop! ⚙️</li>
-                  <li><span className="font-semibold">Copy Icon:</span> Clone it - because good things are worth repeating! 📋</li>
-                  <li><span className="font-semibold">Trash Icon:</span> Remove what you don't need - keep it clean! 🗑️</li>
+      
+          <div className="bg-white/70 p-4 rounded mt-4">
+          <h4 class="text-xl font-semibold mb-4">Let's Build Your Pricing Section! 🚀</h4>
+          <p className="mb-4">Creating the perfect pricing section is easier than you think! 😊</p>
+          <ol className="list-decimal pl-4 space-y-2">
+            <li>Head to the Blocks section</li>
+            <li>Browse pricing templates and pick your favorite</li>
+            <li>Drag and drop it onto your canvas</li>
+            <li>Time to make it yours! ⭐</li>
+          </ol>
+        </div>
+
+        <div className="bg-white/70 p-4 rounded mt-4">
+          <h4 class="text-xl font-semibold mb-4">Customize Your Design! 🎨</h4>
+          <p class="mb-2">Make it perfect with these steps:</p>
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Click any text to reveal the editing menu </li>
+            <li>Hit the T icon to update your pricing copy</li>
+            <li>Use the ⚙️ icon to access advanced styling options</li>
+            <li>Set custom colors, fonts, and spacing</li>
+            <li>Add your own features and benefits ✨</li>
+          </ul>
+        </div>
+      </div>
+      
+          <div class="bg-white/50 p-6 rounded-lg mb-6">
+            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+              <h5 class="font-semibold">Pricing Best Practices! 💎</h5>
+              <div class="bg-white/70 p-4 rounded mt-4">
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>Highlight your recommended plan 🌟</li>
+                  <li>Use clear, benefit-focused language</li>
                 </ul>
               </div>
             </div>
           </div>
-  
-          <div className="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 className="font-semibold">Form Best Practices! 📋</h5>
-            <div className="bg-white/70 p-4 rounded mt-4">
-              <ul className="list-disc pl-4 space-y-2">
-                <li>Keep it simple - nobody likes a marathon form! 🏃‍♀️</li>
-                <li>Label fields clearly - confusion is not your friend!</li>
-                <li>Make required fields obvious - help users succeed! ✨</li>
-                <li>Add a friendly success message - celebrate those submissions! 🎉</li>
+      
+        
+      
+          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Style Your Success! 🎨</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Use contrasting colors for featured plans 🎨</li>
+                <li>Ensure mobile-responsive design 📱</li>
+                <li>Keep spacing consistent throughout 📏</li>
               </ul>
             </div>
           </div>
-  
-          <div className="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 className="font-semibold">🤓 Fun Form Facts!</h5>
-            <div className="bg-white/70 p-4 rounded mt-4">
-              <ul className="list-disc pl-4 space-y-2">
-                <li>Did you know? Forms with social proof get 30% more submissions! 📈</li>
-                <li>The perfect form length? 3-5 fields is the sweet spot! 🎯</li>
-                <li>Mobile-friendly forms get 81% more responses! 📱</li>
-                <li>A simple "thank you" page can boost return visits by 25%! 🙏</li>
+      
+          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Too many pricing tiers</li>
+                <li>Unclear feature descriptions</li>
+                <li>Hidden costs or fees</li>
               </ul>
             </div>
           </div>
-  
-          <div className="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 className="font-semibold">Don't Forget! ☝️</h5>
-            <p className="mt-2">Always save your changes - because redoing your perfect form is no fun! 💾</p>
-            <p className="mt-2">Test your form before going live - be your own first submission! ✅</p>
+          
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+            <h5 class="font-semibold">Pro Tips! 💫</h5>
+            <div class="bg-white/70 p-4 rounded mt-4">
+              <ul class="list-disc pl-4 space-y-2">
+                <li>Update prices regularly ⚡</li>
+                <li>Add FAQ section below pricing 💭</li>
+                <li>Include money-back guarantee badge 🛡️</li>
+              </ul>
+            </div>
           </div>
-  
-          <div className="mt-6 text-center">
-            <p className="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Start Collecting Responses? ✨</p>
-            <p className="text-lg mt-2">Go ahead - create a form that your visitors will love filling out!</p>
+      
+          <div class="mt-6 text-center">
+            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Price Like a Pro? ✨</p>
+            <p class="text-lg mt-2">Create a pricing section that converts browsers into buyers!</p>
           </div>
         </div>
       </div>`,
+      
         "quiz": [
           {
-            "question": "What is the 'Rule of Three' in pricing tables?",
+            "question": "Where do you find pricing templates?",
             "options": [
-              "Three payment methods",
-              "Three pricing tiers",
-              "Three features per plan",
-              "Three months minimum"
+              "Settings menu",
+              "Blocks section",
+              "Help center",
+              "Footer"
             ],
             "correct": 1
           },
           {
-            "question": "How much more attention do center-stage pricing plans receive?",
+            "question": "How do you add a pricing template to your page?",
             "options": [
-              "20% more",
-              "30% more",
-              "40% more",
-              "50% more"
+              "Copy and paste",
+              "Use keyboard shortcuts",
+              "Drag and drop",
+              "Double click"
             ],
             "correct": 2
           },
           {
-            "question": "What percentage of users compare all columns before deciding?",
+            "question": "Which icon do you click to modify text?",
             "options": [
-              "70%",
-              "80%",
-              "90%",
-              "95%"
+              "Cog icon",
+              "T icon",
+              "Plus icon",
+              "Star icon"
             ],
-            "correct": 2
+            "correct": 1
           },
           {
-            "question": "Which element should stand out most in a pricing table?",
+            "question": "How do you access styling options?",
             "options": [
-              "Company logo",
-              "Feature list",
-              "Call-to-action buttons",
-              "Social proof"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What can increase conversions by 25% in pricing tables?",
-            "options": [
-              "Highlighting savings",
-              "Adding more features",
-              "Using animations",
-              "Including testimonials"
+              "Click the cog icon",
+              "Right click",
+              "Double click",
+              "Press spacebar"
             ],
             "correct": 0
           },
           {
-            "question": "Which is a common mistake in pricing tables?",
+            "question": "What's crucial after making changes?",
             "options": [
-              "Using consistent spacing",
-              "Having too many tiers",
-              "Showing monthly prices",
-              "Including CTAs"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "What should you always include near pricing tables?",
-            "options": [
-              "Company history",
-              "Social proof",
-              "Blog posts",
-              "Contact form"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which pricing table element builds trust?",
-            "options": [
-              "Animated features",
-              "Multiple colors",
-              "Money-back guarantee",
-              "Large fonts"
+              "Refresh page",
+              "Log out",
+              "Save changes",
+              "Print page"
             ],
             "correct": 2
           },
           {
-            "question": "What makes features easier to scan?",
+            "question": "What happens if you don't save changes?",
             "options": [
-              "More text",
-              "Using icons",
-              "Bright colors",
-              "Animations"
+              "Auto-saved",
+              "All changes lost",
+              "Partial save",
+              "Reminder sent"
             ],
             "correct": 1
           },
           {
-            "question": "What should you do regularly with pricing tables?",
+            "question": "What's the first step in creating a pricing section?",
             "options": [
-              "Change colors",
-              "Add features",
-              "A/B test layouts",
-              "Remove options"
+              "Add text",
+              "Go to Blocks section",
+              "Choose colors",
+              "Set prices"
+            ],
+            "correct": 1
+          },
+       
+          {
+            "question": "Where should you drag the pricing templates?",
+            "options": [
+              "Sidebar",
+              "Header",
+              "Canvas",
+              "Footer"
             ],
             "correct": 2
-          }
+          },
+        
+          {
+            "question": "What should you do before leaving the editor?",
+            "options": [
+              "Print page",
+              "Save changes",
+              "Clear cache",
+              "Close tab"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How do you duplicate a pricing tier?",
+            "options": [
+              "Copy/paste",
+              "Clone option",
+              "New template",
+              "Rebuild"
+            ],
+            "correct": 1
+          },
+        
         ]
+      
       },
       {
         "id": 14,
