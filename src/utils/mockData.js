@@ -651,7 +651,7 @@ export const registrationData = {
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0,
+            "amountPaid": 36696,
         },
       
         {

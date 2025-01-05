@@ -10603,7 +10603,6 @@ const defaultCourseModules = [
     ],
     "correct": 2
   },
-
   {
     "question": "What should you consider when placing social media icons on mobile?",
     "options": [
