@@ -2,231 +2,36 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Loader2 } from 'lucide-react';
 import { registrationData } from '@/utils/mockData';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-
-// Update your lucide-react imports at the top of the file
-import { 
-  Loader2, 
-  Users, 
-  DollarSign, 
-  BarChart, 
-  Search, 
+import {
+  BarChart,
+  Users,
+  DollarSign,
+  Search,
   LogOut,
-  Calendar,
-  Printer,
-  Check,
-  X  // Add this
 } from 'lucide-react';
-
 import StudentTable from '@/components/StudentTable';
 
 const MotionDiv = motion.div;
 
-// Add this component right after your imports, before StatsCard
-const AttendanceModal = ({ isOpen, onClose }) => {
-  const [students, setStudents] = useState([]);
-  const [period, setPeriod] = useState('morning');
-  const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
-  const [attendanceData, setAttendanceData] = useState({});
-  
-  useEffect(() => {
-    const studentsData = registrationData["Form Responses 1"];
-    const studentsList = studentsData.map(student => ({
-      id: student.id || Math.random().toString(36).substr(2, 9),
-      name: student["Full Name"]
-    }));
-    setStudents(studentsList);
-    
-    // Load existing attendance data
-    const savedData = localStorage.getItem(`attendance_${date}_${period}`);
-    if (savedData) {
-      setAttendanceData(JSON.parse(savedData).data);
-    } else {
-      // Initialize empty attendance data
-      const newData = {};
-      studentsList.forEach(student => {
-        newData[student.id] = 'unmarked';
-      });
-      setAttendanceData(newData);
-    }
-  }, [date, period]);
-
-  const markAttendance = (studentId, status) => {
-    const newData = {
-      ...attendanceData,
-      [studentId]: status
-    };
-    setAttendanceData(newData);
-    
-    // Save to localStorage
-    const timestamp = new Date().toISOString();
-    const storageData = {
-      date,
-      period,
-      timestamp,
-      data: newData
-    };
-    localStorage.setItem(`attendance_${date}_${period}`, JSON.stringify(storageData));
-  };
-
-  const printAttendance = () => {
-    const printWindow = window.open('', '_blank');
-    const attendanceRecords = students.map(student => {
-      return {
-        name: student.name.toUpperCase(), // Convert to uppercase here
-        status: attendanceData[student.id] || 'unmarked',
-        date,
-        period
-      };
-    });
-  
-    printWindow.document.write(`
-      <html>
-        <head>
-          <title>Attendance Record - ${date} ${period}</title>
-          <style>
-            body { font-family: Arial, sans-serif; padding: 20px; }
-            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-            th { background-color: #f4f4f4; }
-            .header { margin-bottom: 20px; }
-            .present { color: green; font-weight: bold; }
-            .absent { color: red; font-weight: bold; }
-            .unmarked { color: gray; }
-            .student-name { font-weight: 500; } /* Added for name styling */
-          </style>
-        </head>
-        <body>
-          <div class="header">
-            <h1>Attendance Record</h1>
-            <p>Date: ${date}</p>
-            <p>Period: ${period}</p>
-            <p>Generated: ${new Date().toLocaleString()}</p>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>Student Name</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${attendanceRecords.map(record => `
-                <tr>
-                  <td class="student-name">${record.name}</td>
-                  <td class="${record.status.toLowerCase()}">${record.status}</td>
-                </tr>
-              `).join('')}
-            </tbody>
-          </table>
-        </body>
-      </html>
-    `);
-    printWindow.document.close();
-    printWindow.print();
-  };
-
-  if (!isOpen) return null;
-
-  return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-      <div className="bg-white rounded-lg p-6 w-full max-w-4xl max-h-[80vh] overflow-y-auto">
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">Take Attendance</h2>
-          <div className="flex gap-4">
-            <button
-              onClick={printAttendance}
-              className="flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-            >
-              <Printer className="w-4 h-4 mr-2" />
-              Print
-            </button>
-            <button
-              onClick={onClose}
-              className="text-gray-500 hover:text-gray-700"
-            >
-              <X className="w-6 h-6" />
-            </button>
-          </div>
-        </div>
-
-        <div className="flex gap-4 mb-6">
-          <input
-            type="date"
-            value={date}
-            onChange={(e) => setDate(e.target.value)}
-            className="border rounded px-3 py-2"
-          />
-          <select
-            value={period}
-            onChange={(e) => setPeriod(e.target.value)}
-            className="border rounded px-3 py-2"
-          >
-            <option value="morning">Morning</option>
-            <option value="evening">Evening</option>
-          </select>
-        </div>
-
-        <div className="grid gap-4">
-        {students.map(student => (
-  <div key={student.id} className="flex items-center justify-between p-4 border rounded">
-    <span className="font-medium uppercase">{student.name}</span> {/* Added uppercase class */}
-    <div className="flex gap-2">
-      <button
-        onClick={() => markAttendance(student.id, 'present')}
-        className={`px-4 py-2 rounded ${
-          attendanceData[student.id] === 'present'
-            ? 'bg-green-600 text-white'
-            : 'bg-gray-100 hover:bg-green-100'
-        }`}
-      >
-        <Check className="w-4 h-4" />
-      </button>
-      <button
-        onClick={() => markAttendance(student.id, 'absent')}
-        className={`px-4 py-2 rounded ${
-          attendanceData[student.id] === 'absent'
-            ? 'bg-red-600 text-white'
-            : 'bg-gray-100 hover:bg-red-100'
-        }`}
-      >
-        <X className="w-4 h-4" />
-      </button>
-    </div>
-  </div>
-))}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-
-
 // Stats Card Component
-const StatsCard = ({ icon, label, value, bgColor, onClick, buttonLabel }) => (
-  <motion.div
+const StatsCard = ({ icon, label, value, bgColor }) => (
+  <MotionDiv
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.6 }}
+    exit={{ opacity: 0, y: -20 }}
+    transition={{ duration: 0.3 }}
     className="bg-white p-6 rounded-lg shadow-sm"
   >
     <div className="flex items-center justify-between mb-4">
       <h3 className="text-gray-500">{label}</h3>
       <div className={`${bgColor} p-2 rounded-full`}>{icon}</div>
     </div>
-    <p className="text-3xl font-bold mb-4">{value}</p>
-    {buttonLabel && (
-      <button
-        onClick={onClick}
-        className="w-full px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
-      >
-        {buttonLabel}
-      </button>
-    )}
-  </motion.div>
+    <p className="text-3xl font-bold">{value}</p>
+  </MotionDiv>
 );
 
 export default function AdminPanel() {
@@ -241,39 +46,6 @@ export default function AdminPanel() {
     totalRevenue: 0
   });
 
-  // Add the new state variables HERE
-  const [isAttendanceModalOpen, setIsAttendanceModalOpen] = useState(false);
-  const [attendanceStats, setAttendanceStats] = useState({ present: 0, total: 0 });
-
-  // Add the new useEffect HERE
-  useEffect(() => {
-    // Calculate attendance stats for today
-    const today = new Date().toISOString().split('T')[0];
-    const morningData = localStorage.getItem(`attendance_${today}_morning`);
-    const eveningData = localStorage.getItem(`attendance_${today}_evening`);
-    
-    let presentCount = 0;
-    let totalCount = 0;
-    
-    if (morningData) {
-      const data = JSON.parse(morningData).data;
-      presentCount += Object.values(data).filter(status => status === 'present').length;
-      totalCount += Object.keys(data).length;
-    }
-    
-    if (eveningData) {
-      const data = JSON.parse(eveningData).data;
-      presentCount += Object.values(data).filter(status => status === 'present').length;
-      totalCount += Object.keys(data).length;
-    }
-    
-    setAttendanceStats({
-      present: presentCount,
-      total: totalCount || registrationData["Form Responses 1"].length * 2 // Morning + Evening
-    });
-  }, [isAttendanceModalOpen]);
-
-  // Your existing useEffect starts here
   useEffect(() => {
     const userRole = sessionStorage.getItem('userRole');
     if (userRole !== 'admin') {
@@ -377,12 +149,10 @@ export default function AdminPanel() {
                   bgColor="bg-blue-100"
                 />
                 <StatsCard
-                  icon={<Calendar className="h-6 w-6 text-green-600" />}
-                  label="Today's Attendance"
-                  value={`${Math.round((attendanceStats.present / attendanceStats.total) * 100)}%`}
+                  icon={<Users className="h-6 w-6 text-green-600" />}
+                  label="Active Students"
+                  value={stats.activeStudents}
                   bgColor="bg-green-100"
-                  buttonLabel="Take Attendance"
-                  onClick={() => setIsAttendanceModalOpen(true)}
                 />
                 <StatsCard
                   icon={<BarChart className="h-6 w-6 text-orange-600" />}
@@ -420,10 +190,7 @@ export default function AdminPanel() {
           </div>
         </div>
       </main>
-<AttendanceModal
-  isOpen={isAttendanceModalOpen}
-  onClose={() => setIsAttendanceModalOpen(false)}
-/>
+      
       <Footer />
     </div>
   );
