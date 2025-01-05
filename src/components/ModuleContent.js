@@ -4675,210 +4675,232 @@ const defaultCourseModules = [
         "id": 3,
         "title": "Content",
         "content": `<div class="space-y-6">
-        <h2 class="text-2xl font-bold">Create Engaging Content Sections! ✍️</h2>
+        <h2 class="text-2xl font-bold">Hey There Content Creator! 🎨</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Content(720p).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Icons(0).mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video><br>
+        </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
-          <h3 class="text-2xl font-semibold mb-4 text-center">Build Content That Captivates & Converts! ✨</h3>
-          
-          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "Great content doesn't just fill space - it tells your story, engages your audience, and drives action! 📝"
-            <footer class="text-sm mt-2">- Content Strategy Expert</footer>
-          </blockquote>
-      
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Content! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Here's your guide to creating effective content sections:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Plan your content hierarchy</li>
-                  <li>Create compelling headlines</li>
-                  <li>Structure your paragraphs</li>
-                  <li>Add visual elements</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Headlines:</span> Grab attention!</li>
-                  <li><span class="font-semibold">Subheadings:</span> Guide readers</li>
-                  <li><span class="font-semibold">Visuals:</span> Enhance message</li>
-                  <li><span class="font-semibold">CTAs:</span> Drive action</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Use readable typography</li>
-                <li>Include white space</li>
-                <li>Add content blocks</li>
-                <li>Implement rich media</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Content Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Visual content increases engagement by 70%! 👀</li>
-                <li>Structured text improves readability by 45%! 📊</li>
-                <li>Interactive elements boost retention by 55%! 📱</li>
-                <li>Clear CTAs increase conversions by 38%! 🎯</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Performance Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Optimize images for web 🖼️</li>
-                <li>Use lazy loading 🚀</li>
-                <li>Implement content blocks ♾️</li>
-                <li>Cache dynamic content 💨</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Walls of text</li>
-                <li>Poor formatting</li>
-                <li>Missing hierarchy</li>
-                <li>Weak headlines</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <p class="mt-2">Track content engagement metrics!</p>
-            <p class="mt-2">Use A/B testing for headlines! ⚡</p>
-          </div>
-      
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Great Content? 🎨</p>
-            <p class="text-lg mt-2">Build content sections that engage and convert your visitors!</p>
-          </div>
-        </div>
-      </div>`,      
-      "quiz": [
-        {
-          "question": "Where do you find Contact templates?",
-          "options": [
-            "Elements section",
-            "Blocks section",
-            "Components section",
-            "Widgets section"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which icon opens the customization settings?",
-          "options": [
-            "Star icon",
-            "Cog icon",
-            "Pencil icon",
-            "Brush icon"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should you do before publishing a contact form?",
-          "options": [
-            "Change colors",
-            "Test submissions",
-            "Add images",
-            "Change fonts"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "How many tools appear when clicking a contact block?",
-          "options": [
-            "Two",
-            "Three",
-            "Four",
-            "Five"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's important to consider when spacing fields?",
-          "options": [
-            "Desktop layout",
-            "Mobile users",
-            "Color scheme",
-            "Font size"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What should be included near contact forms?",
-          "options": [
-            "Social media",
-            "Privacy notice",
-            "Company history",
-            "Blog posts"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which tool duplicates a contact section?",
-          "options": [
-            "Copy tool",
-            "Paste tool",
-            "Clone tool",
-            "Duplicate tool"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's the first step in adding a contact section?",
-          "options": [
-            "Choose template",
-            "Set background",
-            "Add fields",
-            "Style form"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What should you add after form submission?",
-          "options": [
-            "Social links",
-            "Success message",
-            "Company logo",
-            "Background image"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which setting affects scroll behavior?",
-          "options": [
-            "Overlay",
-            "Padding",
-            "Parallax",
-            "Position"
-          ],
-          "correct": 2
-        }
-      ]
+        <h3 class="text-2xl font-semibold mb-4 text-center">Time to Make Your Website Pop! ✨</h3>
+           
+        <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+        "Think of content blocks as LEGO pieces for your website - mix, match, and build something awesome! And guess what? No coding needed! 🎮"
+       <footer class="text-sm mt-2">- Your Website Buddy</footer>
+     </blockquote>
+ 
+     <div class="bg-white/50 p-6 rounded-lg mb-6">
+       <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+         <h5 class="font-semibold">Let's Get This Party Started! 🎉</h5>
+         <div class="bg-white/70 p-4 rounded mt-4">
+           <p class="mb-4">Ready for some website magic? Here's your game plan:</p>
+           <ol class="list-decimal pl-4 space-y-2">
+             <li>Head over to 'Blocks' (it's like your digital toybox! 🧸)</li>
+             <li>Look for 'Content' (psst... it's got all the cool stuff! ✨)</li>
+             <li>See a template you like? Grab it! (Yes, just drag and drop! 🎯)</li>
+             <li>Boom! You're already halfway there! High five! 🙌</li>
+           </ol>
+         </div>
+       </div>
+     </div>
+     
+     <div class="bg-white/50 p-6 rounded-lg mb-6">
+       <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+         <h5 class="font-semibold">Time for the Fun Part - Making It Yours! 🎨</h5>
+         <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+           <div class="bg-white/70 p-4 rounded">
+             <p class="mb-4">Here's all the cool stuff you can do:</p>
+             <ul class="list-disc pl-4 space-y-2">
+               <li><span class="font-semibold">Text Magic:</span> See that 'T' icon? Click it and let your creativity flow! ✍️</li>
+               
+               <li><span class="font-semibold">Layout Fun:</span> Mix it up! Try different templates until you find your perfect match! 💘</li>
+               
+               <li><span class="font-semibold">Media Time:</span> Pictures, videos, GIFs - the more, the merrier! 🎭</li>
+               
+               <li><span class="font-semibold">Style It Up:</span> Colors, fonts, spacing - go wild! (But maybe not too wild! 😉)</li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+ 
+     <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+       <h5 class="font-semibold">Want to Add Some Videos? Easy Peasy! 🎬</h5>
+       <div class="bg-white/70 p-4 rounded mt-4">
+         <p class="mb-4">Here's how to be a video wizard:</p>
+         <ol class="list-decimal pl-4 space-y-2">
+           <li>Grab that YouTube/Vimeo box and drop it wherever you want!</li>
+           <li>See that little cog? Give it a click! ⚙️</li>
+           <li>Time for the secret sauce - your video ID! 🔑</li>
+           <li>Paste it in and watch the magic happen! ✨</li>
+         </ol>
+       </div>
+     </div>
+
+     <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+     <h5 class="font-semibold">🕵️‍♂️ Video ID Treasure Hunt!</h5>
+     <div class="bg-white/70 p-4 rounded mt-4">
+     <ul class="list-disc pl-4 space-y-2">
+     <li>For YouTube Videos:
+       <br>You: "Help! My URL is https://www.youtube.com/watch?v=JYvPnkp8500"
+       <br>Me: "Easy! Grab 'JYvPnkp8500' - it's right after the 'v='! 🎯"</li>
+     <li>For Vimeo Adventures:
+       <br>You: "I've got https://vimeo.com/922834495"
+       <br>Me: "Snag those numbers after the slash - '922834495'! 🎪"</li>
+     <li>Got a super long YouTube link? No sweat! 😎
+       <br>Even if it looks scary like this:
+       <br>https://www.youtube.com/watch?app=desktop&v=JOfK95bzwCA&list=PLWPirh4EWFpEK1RbpruFXrwgzcGUjZ4nV
+       <br>Just grab 'JOfK95bzwCA' - it's always after 'v=' and before any '&' signs! 🎮</li>
+     </ul>
+     </div>
+   </div>
+
+ <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+     <h5 class="font-semibold">🌟 Pro Tips from Your Website BFF!</h5>
+     <div class="bg-white/70 p-4 rounded mt-4">
+     <ul class="list-disc pl-4 space-y-2">
+     <li>Keep things organized - your visitors will thank you! 🙏</li>
+     <li>Headings are like signposts - use them to guide the way! 🗺️</li>
+     <li>Add some pizzazz with pictures and videos! 🎨</li>
+     <li>Keep your style consistent - we're going for 'put together', not 'puzzle pieces'! 🧩</li>
+   </ul>
+     </div>
+   </div>
+ 
+     <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+       <h5 class="font-semibold">Quick Tips for the Win! 🏆</h5>
+       <div class="bg-white/70 p-4 rounded mt-4">
+       <ul class="list-disc pl-4 space-y-2">
+       <li>Check how it looks on your phone - because everyone's scrolling these days! 📱</li>
+       <li>Make sure those videos play nice - nobody likes a frozen screen! 🎥</li>
+       <li>Keep your text snappy - we're not writing a novel here! 📚</li>
+       <li>Break up text with fun stuff - because walls of text are so 2005! 🖼️</li>
+       <li>Save early, save often! (Trust me on this one! 😅)</li>
+     </ul>
+       </div>
+     </div>
+ 
+     <br />
+     <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+     <h5 class="font-semibold">One Last Thing! 🌈</h5>
+     <p class="mt-2">Always take a sneak peek before showing off your masterpiece! 👀</p>
+     <p class="mt-2">And pretty please, with sugar on top - don't forget to save! 🍪</p>
+   </div>
+
+ 
+     <div class="mt-6 text-center">
+       <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Rock Your Website? 🎸</p>
+       <p class="text-lg mt-2">Go ahead, make something awesome - you've totally got this! 🌟</p>
+       </div>
+   </div>
+ </div>`, 
+ "quiz": [
+  {
+  "question": "Where can you find Content templates in the interface?",
+  "options": [
+  "In the Settings menu",
+  "Under the Layout section",
+  "Under the Blocks section",
+  "In the Theme options"
+  ],
+  "correct": 2
+  },
+  {
+  "question": "Which icon should you click to edit text in a content block?",
+  "options": [
+  "Gear icon",
+  "T icon",
+  "Plus icon",
+  "Edit icon"
+  ],
+  "correct": 1
+  },
+  {
+  "question": "In a YouTube URL, where is the video ID located?",
+  "options": [
+  "After the v=",
+  "At the beginning",
+  "After the youtube.com",
+  "At the end"
+  ],
+  "correct": 0
+  },
+  {
+  "question": "In a Vimeo URL, how do you identify the video ID?",
+  "options": [
+  "It's before the domain",
+  "It's in the middle",
+  "It's the numbers after the forward slash",
+  "It's in the query parameters"
+  ],
+  "correct": 2
+  },
+ 
+  {
+  "question": "What should you do before publishing your content?",
+  "options": [
+  "Preview it",
+  "Delete old content",
+  "Change all fonts",
+  "Add more text"
+  ],
+  "correct": 0
+  },
+ 
+  {
+  "question": "What should you check your content on?",
+  "options": [
+  "Only desktop",
+  "Only mobile",
+  "Different devices",
+  "Only tablets"
+  ],
+  "correct": 2
+  },
+ 
+  {
+  "question": "For complex YouTube URLs, where should you look for the video ID?",
+  "options": [
+  "At the end",
+  "After v= but before &",
+  "At the beginning",
+  "In the middle"
+  ],
+  "correct": 1
+  },
+ 
+  {
+  "question": "What should you do with video embeds before publishing?",
+  "options": [
+  "Ignore them",
+  "Delete them",
+  "Test them",
+  "Hide them"
+  ],
+  "correct": 2
+  },
+  {
+  "question": "How often should you save your changes?",
+  "options": [
+  "Never",
+  "Only at the end",
+  "Regularly",
+  "Once a day"
+  ],
+  "correct": 2
+  },
+ 
+  {
+  "question": "Where do you find the detail editor for videos?",
+  "options": [
+  "In settings menu",
+  "After clicking the cog icon",
+  "In theme options",
+  "In layout settings"
+  ],
+  "correct": 1
+  },
+ 
+  ]
       },
       {
         "id": 4,
