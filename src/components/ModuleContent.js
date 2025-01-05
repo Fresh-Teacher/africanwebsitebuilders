@@ -4742,7 +4742,7 @@ const defaultCourseModules = [
      <ul class="list-disc pl-4 space-y-2">
      <li>For YouTube Videos:
        <br>You: "Help! My URL is https://www.youtube.com/watch?v=JYvPnkp8500"
-       <br>Me: "Easy! Grab 'JYvPnkp8500' - it's right after the 'v='! 🎯"</li>
+       <br>Me: "Easy! Grab 'JYvPnkp8500' - it's right after the 'v='"</li>
      <li>For Vimeo Adventures:
        <br>You: "I've got https://vimeo.com/922834495"
        <br>Me: "Snag those numbers after the slash - '922834495'! 🎪"</li>
@@ -9084,206 +9084,251 @@ const defaultCourseModules = [
       </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
           <h3 class="text-2xl font-semibold mb-4 text-center">Let's Make Those Popups Pop! 💫</h3>
-          
           <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
-            "A well-timed popup is like a friendly tap on the shoulder - helpful, not intrusive!" 
-            <footer class="text-sm mt-2">- Every UX Designer Ever</footer>
-          </blockquote>
-      
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Getting Started with Popups! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Creating popups is super easy:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                  <li>Head to Components and find the Popup section</li>
-                  <li>Choose from various popup templates</li>
-                  <li>Drag your chosen popup onto the canvas</li>
-                  <li>Click the popup to see your magic options: Edit, Clone, or Delete ⚙️</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          
-          <div class="bg-white/50 p-6 rounded-lg mb-6">
-            <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-              <h5 class="font-semibold">Customize Your Popup! 🎨</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
-                <p class="mb-4">Make it yours with these options:</p>
-                <ul class="list-disc pl-4 space-y-2">
-                  <li><span class="font-semibold">Timing:</span> Set when your popup appears</li>
-                  <li><span class="font-semibold">Animation:</span> Choose how it enters the scene</li>
-                  <li><span class="font-semibold">Size:</span> Pick the perfect dimensions</li>
-                  <li><span class="font-semibold">Position:</span> Place it just right on the screen</li>
-                  <li><span class="font-semibold">Backdrop:</span> Set the background overlay style</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Make It Interactive! 🎮</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <p class="mb-4">Add these elements to engage visitors:</p>
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Eye-catching headlines that grab attention 👀</li>
-                <li>Clear call-to-action buttons that pop! 🎯</li>
-                <li>Form fields for collecting info (if needed) 📝</li>
-                <li>Easy-to-spot close buttons (don't hide these!) ❌</li>
-              </ul>
-            </div>
-          </div>
-    
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🤓 Popup Facts!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Well-designed popups can increase conversions by up to 40%! 📈</li>
-                <li>The average person sees 2-3 popups per website visit! 👀</li>
-                <li>Exit-intent popups can save up to 35% of lost visitors! 🚪</li>
-                <li>Mobile users are 2x more likely to close popups immediately! 📱</li>
-              </ul>
-            </div>
-          </div>
-    
-          <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">🎯 Popup Best Practices</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Wait at least 5 seconds before showing a popup! ⏰</li>
-                <li>Always provide a clear way to close it! ❌</li>
-                <li>Keep mobile users in mind - size matters! 📱</li>
-                <li>Don't show the same popup twice in one session! 🔄</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
-            <h5 class="font-semibold">Common Popup Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Showing popups immediately (let visitors explore first!)</li>
-                <li>Making close buttons tiny or hard to find</li>
-                <li>Using aggressive or pushy language</li>
-                <li>Showing too many popups at once</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
-            <h5 class="font-semibold">Pro Tips! 💡</h5>
-            <p class="mt-2">Test your popups on different devices - what works on desktop might not work on mobile! 📱</p>
-            <p class="mt-2">Use analytics to find the perfect timing for your popups! 📊</p>
-          </div>
-      
-          <div class="mt-6 text-center">
-            <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Some Amazing Popups? ✨</p>
-            <p class="text-lg mt-2">Let's make them helpful, not annoying! Your visitors will thank you! 🙏</p>
+          "A well-timed popup is like a friendly tap on the shoulder - helpful, not annoying! 😡"
+          <footer class="text-sm mt-2">- Your Pop-Up Pal</footer>
+      </blockquote>
+  
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Ready to Pop? Here's How! 🎈</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="mb-4">It's as easy as pie! Check this out:</p>
+            <ol class="list-decimal pl-4 space-y-2">
+              <li>Hop over to 'Blocks' (that's where the magic happens! ✨)</li>
+              <li>Find the 'Pop Up' option (it's like finding treasure! 💎)</li>
+              <li>See a template you love? Grab it and drop it in! 🎯</li>
+              <li>Ta-da! You're already looking like a pro! 🌟</li>
+            </ol>
           </div>
         </div>
-      </div>`,
-      "quiz": [
-        {
-          "question": "Where can you find popup templates in the interface?",
-          "options": [
-            "In the Components section",
-            "In the Settings menu",
-            "In the Layout options",
-            "In the Format panel"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What is the recommended minimum wait time before showing a popup?",
-          "options": [
-            "Immediately",
-            "3 seconds",
-            "5 seconds",
-            "10 seconds"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which of these is a best practice for popup design?",
-          "options": [
-            "Hide the close button to increase engagement",
-            "Show multiple popups simultaneously",
-            "Provide a clear way to close the popup",
-            "Use aggressive language to drive action"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What percentage of lost visitors can exit-intent popups potentially save?",
-          "options": [
-            "15%",
-            "25%",
-            "35%",
-            "45%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "How do mobile users typically interact with popups compared to desktop users?",
-          "options": [
-            "They engage more often",
-            "They're twice as likely to close them",
-            "They spend more time reading them",
-            "They convert at higher rates"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "Which element should always be included in a popup?",
-          "options": [
-            "Social media links",
-            "Video content",
-            "Close button",
-            "Animation effects"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's an important consideration when designing popup timing?",
-          "options": [
-            "Show it immediately for maximum impact",
-            "Wait for user engagement",
-            "Display multiple popups at once",
-            "Ignore mobile users"
-          ],
-          "correct": 1
-        },
-        {
-          "question": "What's the recommended approach for popup frequency?",
-          "options": [
-            "Show the same popup multiple times",
-            "Show different popups simultaneously",
-            "Don't show the same popup twice in one session",
-            "Show popups on every page load"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "Which feature can help optimize popup performance?",
-          "options": [
-            "Analytics tracking",
-            "Automatic popups",
-            "Random timing",
-            "Multiple animations"
-          ],
-          "correct": 0
-        },
-        {
-          "question": "What's a key consideration for mobile popup design?",
-          "options": [
-            "Using smaller close buttons",
-            "Appropriate sizing for mobile screens",
-            "Adding more content",
-            "Using multiple popups"
-          ],
-          "correct": 1
-        }
-      ]
+      </div>
+      
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">The Anatomy of an Awesome Pop-Up! 🔍</h5>
+          <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+            <div class="bg-white/70 p-4 rounded">
+              <p class="mb-4">Every pop-up has these super cool parts:</p>
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Header:</span> Your attention-grabbing headline! Make it pop! 🎪</li>
+                
+                <li><span class="font-semibold">Text:</span> A friendly little message that makes people want to stay! 💌</li>
+                
+                <li><span class="font-semibold">Email Field:</span> Where the magic connection happens! ✉️</li>
+                
+                <li><span class="font-semibold">Subscribe Button:</span> Make it irresistible to click! 🎯</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Time to Make It Your Own! 🎨</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <p class="mb-4">Here's your super-quick editing toolkit:</p>
+          <ol class="list-decimal pl-4 space-y-2">
+            <li>Click any element you want to change 👆</li>
+            <li>Look at those cool icons that pop up:
+              <ul class="list-disc pl-6 mt-2">
+                <li>T icon = Text magic! ✍️</li>
+                <li>⚙️ icon = Settings!</li>
+                <li>Clone icon = Duplicate the items!</li>
+                <li>Delete icon = Oops, changed my mind!</li>
+              </ul>
+            </li>
+            <li>Click the T icon to wave goodbye to that boring lorem ipsum! 👋</li>
+            <li>Write something that makes people smile! 😊</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">🌟 Pop-Up Pro Tips!</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+      <li>Keep your header short and sweet - like a candy bar! 🍫</li>
+      <li>Write text that makes people feel special! ✨</li>
+      <li>Make your subscribe button fun - "Yes, I want awesome stuff!" 🎁</li>
+      <li>Don't forget to test your pop-up - click all the things! 🔍</li>
+      </ul>
+      </div>
+    </div>
+
+  <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">🎯 Making Pop-Ups People Love!</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+      <li>Be friendly - think of it as saying hi to a friend! 👋</li>
+      <li>Offer something awesome - who doesn't love presents? 🎁</li>
+      <li>Keep it short - less is more (like a tweet, but cuter!) 🐦</li>
+      <li>Make it pretty - because we all love pretty things! 🌈</li>
+    </ul>
+      </div>
+    </div>
+  
+      <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Quick Reminders for Pop-Up Success! 🌟</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+        <ul class="list-disc pl-4 space-y-2">
+        <li>Preview your pop-up - make sure it looks amazing! 👀</li>
+        <li>Test that email field - does it work like a charm? ✉️</li>
+        <li>Check your button - is it clickable and cute? 🎯</li>
+        <li>Mobile check - because phones need love too! 📱</li>
+        <li>And pleeeease don't forget to save! (We love your work too much to lose it! 💝)</li>
+      </ul>
+        </div>
+      </div>
+
+      
+      <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">🎯 Popup Best Practices</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <ul class="list-disc pl-4 space-y-2">
+          <li>Wait at least 5 seconds before showing a popup! ⏰</li>
+          <li>Always provide a clear way to close it! ❌</li>
+          <li>Keep mobile users in mind - size matters! 📱</li>
+          <li>Don't show the same popup twice in one session! 🔄</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Common Popup Mistakes to Avoid! ⚠️</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+        <ul class="list-disc pl-4 space-y-2">
+          <li>Showing popups immediately (let visitors explore first!)</li>
+          <li>Making close buttons tiny or hard to find</li>
+          <li>Using aggressive or pushy language</li>
+          <li>Showing too many popups at once</li>
+        </ul>
+      </div>
+    </div>
+
+  
+      <br />
+      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+      <h5 class="font-semibold">Before You Go! 🌈</h5>
+      <p class="mt-2">Did someone say "Save Changes"? Yes, yes they did! 💾</p>
+      <p class="mt-2">Because nobody likes redoing their awesome work! 🎨</p>
+    </div>
+
+  
+      <div class="mt-6 text-center">
+        <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Make Pop-Up Magic? ✨</p>
+        <p class="text-lg mt-2">Go for it! Your website visitors are gonna love this! 🚀</p>
+        </div>
+    </div>
+  </div>`,
+  "quiz": [
+    {
+    "question": "Where can you find Pop-Up templates in the interface?",
+    "options": [
+    "In the Settings menu",
+    "Under the Layout section",
+    "Under the Blocks section",
+    "In the Theme options"
+    ],
+    "correct": 2
+    },
+   
+    {
+    "question": "Which icon should you click to edit text in a Pop-Up?",
+    "options": [
+    "Delete icon",
+    "Clone icon",
+    "T icon",
+    "Settings icon"
+    ],
+    "correct": 2
+    },
+    {
+    "question": "What icons appear in the quick menu when clicking a Pop-Up element?",
+    "options": [
+    "Only delete icon",
+    "Only settings icon",
+    "Text, settings, clone, and delete icons",
+    "Only text icon"
+    ],
+    "correct": 2
+    },
+    {
+    "question": "What should you do before finalizing your Pop-Up?",
+    "options": [
+    "Delete it",
+    "Test all elements",
+    "Remove all text",
+    "Hide it"
+    ],
+    "correct": 1
+    },
+   
+    {
+    "question": "How should Pop-Up headers be written?",
+    "options": [
+      "At least 1000 words",
+      "Short and engaging",
+    "With no spaces",
+    "All words in capital letters"
+    ],
+    "correct": 1
+    },
+ 
+    {
+    "question": "What's important to check regarding mobile devices?",
+    "options": [
+    "Nothing",
+    "Only the colors",
+    "How the Pop-Up displays on mobile",
+    "Only the text size"
+    ],
+    "correct": 2
+    },
+    {
+    "question": "What happens when you click the clone icon?",
+    "options": [
+    "Deletes the element",
+    "Duplicates the element",
+    "Edits the text",
+    "Changes settings"
+    ],
+    "correct": 1
+    },
+  
+    {
+    "question": "What should you do after making changes to your Pop-Up?",
+    "options": [
+    "Nothing",
+    "Delete it",
+    "Save changes",
+    "Hide it"
+    ],
+    "correct": 2
+    },
+ 
+    {
+    "question": "What's the purpose of previewing your Pop-Up?",
+    "options": [
+    "To delete it",
+    "To check how it looks and functions",
+    "To duplicate it",
+    "To hide it"
+    ],
+    "correct": 1
+    },
+    {
+    "question": "What should you consider when writing Pop-Up content?",
+    "options": [
+    "Use technical terms only",
+    "Make it as long as possible",
+    "Make it user-friendly and engaging",
+    "Use no punctuation"
+    ],
+    "correct": 2
+    },
+  
+    ]
       }
     ]
   },
