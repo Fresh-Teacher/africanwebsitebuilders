@@ -4677,7 +4677,7 @@ const defaultCourseModules = [
         "content": `<div class="space-y-6">
         <h2 class="text-2xl font-bold">Hey There Content Creator! 🎨</h2>
         <video className="w-full rounded-lg" controls>
-        <source src="https://awb-silk.vercel.app/Icons(0).mp4" type="video/mp4" />
+        <source src="https://awb-silk.vercel.app/Content(720p).mp4" type="video/mp4" />
         Your browser does not support the video tag.
         </video><br>
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
