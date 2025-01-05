@@ -9586,109 +9586,209 @@ const defaultCourseModules = [
       {
         "id": 1,
         "title": "Speed Optimisation",
-        "content": "Test your site’s performance and learn to improve loading speed using tools like Speed Optimizer.",
-        "quiz": [
-          {
-            "question": "What is the recommended length for CTA button text?",
-            "options": [
-              "1 word",
-              "2-5 words",
-              "6-10 words",
-              "More than 10 words"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which color CTA buttons can potentially increase conversion rates by 21%?",
-            "options": [
-              "Blue",
-              "Green",
-              "Red",
-              "Yellow"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage better do personalized CTAs perform compared to default versions?",
-            "options": [
-              "102%",
-              "152%",
-              "202%",
-              "252%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which of these is a best practice for CTA design?",
-            "options": [
-              "Use subtle, blending colors",
-              "Make buttons small and discrete",
-              "Use contrasting colors that pop",
-              "Add multiple CTAs everywhere"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What type of words should you start CTA text with?",
-            "options": [
-              "Adjectives",
-              "Action verbs",
-              "Nouns",
-              "Articles"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Where is the ideal placement for important CTAs?",
-            "options": [
-              "At the very bottom of the page",
-              "In the footer",
-              "Above the fold",
-              "In the sidebar"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "Which is considered a CTA copywriting mistake?",
-            "options": [
-              "Using action verbs",
-              "Creating urgency",
-              "Using 'Click Here'",
-              "Showing value"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What percentage of visitors read CTAs based on button text?",
-            "options": [
-              "70%",
-              "80%",
-              "90%",
-              "100%"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is an effective way to optimize CTA performance?",
-            "options": [
-              "A/B testing",
-              "Using multiple CTAs",
-              "Making them smaller",
-              "Using passive language"
-            ],
-            "correct": 0
-          },
-          {
-            "question": "By what percentage can adding CTAs to articles increase conversions?",
-            "options": [
-              "185%",
-              "235%",
-              "285%",
-              "335%"
-            ],
-            "correct": 2
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Show Us What You've Learnt! 🎓</h2>
+        <video className="w-full rounded-lg" controls>
+        <source src="https://awb-silk.vercel.app/Pop_Ups(720p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video><br>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Time for Your Knowledge Check! 💫</h3>
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "Learning is a journey, and you're crushing it!"
+          <footer class="text-sm mt-2">- Your Learning Buddy</footer>
+      </blockquote>
+  
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">The Rebuild Challenge! 🏗️</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="mb-4">Time to put your skills to the test:</p>
+            <ol class="list-decimal pl-4 space-y-2">
+              <li>Study the provided website design carefully 🔍</li>
+              <li>Plan your block and component strategy 📝</li>
+              <li>Start rebuilding from top to bottom 🎯</li>
+              <li>Match the design as closely as possible ✨</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Speed Test Time! ⚡</h5>
+          <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+            <div class="bg-white/70 p-4 rounded">
+              <p class="mb-4">Ready, set, build! Show us how fast you can:</p>
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Create Headers:</span> Set up those eye-catching headlines! 🎪</li>
+                
+                <li><span class="font-semibold">Add Components:</span> Drop in those features like a pro! 🎯</li>
+                
+                <li><span class="font-semibold">Style Elements:</span> Make everything look pixel-perfect! 🎨</li>
+                
+                <li><span class="font-semibold">Test Functionality:</span> Make sure everything works smoothly! ⚙️</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Your Module Mastery! 📚</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <p class="mb-4">You've learned so much! Let's put it all together:</p>
+          <ol class="list-decimal pl-4 space-y-2">
+            <li>Module 2: Blocks
+              <ul class="list-disc pl-6 mt-2">
+                <li>From Dashboards to Navigation 🎯</li>
+                <li>Text, Media, and Grids magic ✨</li>
+                <li>Icons and Maps mastery 🗺️</li>
+              </ul>
+            </li>
+            <li>Module 3: Components
+              <ul class="list-disc pl-6 mt-2">
+                <li>CTAs that convert! 🎯</li>
+                <li>Headers that wow! 🌟</li>
+                <li>Galleries that shine! ✨</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Pro Tips for Success! 💡</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+      <li>Take a deep breath - you've got this! 🧘‍♂️</li>
+      <li>Plan before you build 📝</li>
+      <li>Stay organized with your blocks 🎯</li>
+      <li>Test as you go! 🔍</li>
+      </ul>
+      </div>
+    </div>
+      
+      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+      <h5 class="font-semibold">Ready to Begin? 🚀</h5>
+      <p class="mt-2">Click 'Start Assessment' to begin your challenge!</p>
+      <p class="mt-2">Remember: Every master was once a beginner! 💫</p>
+    </div>
+  
+      <div class="mt-6 text-center">
+        <p class="text-xl font-bold text-blue-600 dark:text-blue-300">You've Got What It Takes! ⭐</p>
+        <p class="text-lg mt-2">Time to shine and show your skills! 🌟</p>
+        </div>
+    </div>
+  </div>`,     
+       "quiz": [
+      
+        {
+          "question": "What component is best suited for displaying user testimonials with profile pictures and ratings?",
+          "options": [
+            "Team",
+            "Gallery",
+            "Testimonials",
+            "Features"
+          ],
+          "correct": 2
+        },
+    
+        {
+          "question": "What block type would you use to create a structured arrangement of images in columns and rows?",
+          "options": [
+            "Media",
+            "Grid",
+            "Gallery",
+            "Layout"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which component is specifically designed to showcase step-by-step instructions or timelines?",
+          "options": [
+            "Features",
+            "Content",
+            "Processes",
+            "Lists"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's the purpose of the Dividers component?",
+          "options": [
+            "To split content sections",
+            "To create navigation menus",
+            "To display images",
+            "To add buttons"
+          ],
+          "correct": 0
+        },
+      
+        {
+          "question": "Which component would you use to display your company's service packages and their prices?",
+          "options": [
+            "Features",
+            "Content",
+            "Pricing",
+            "Lists"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What's the primary purpose of the Call to Action (CTA) component?",
+          "options": [
+            "Display images",
+            "Show pricing",
+            "Prompt user engagement",
+            "List features"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which block allows you to add external content like code for web developers?",
+          "options": [
+            "Media",
+            "Embeds",
+            "Content",
+            "Features"
+          ],
+          "correct": 1
+        },
+     
+        {
+          "question": "What component would you use to create an email newsletter signup form?",
+          "options": [
+            "Contact",
+            "Subscribe",
+            "Signup",
+            "Forms"
+          ],
+          "correct": 1
+        },
+     
+        {
+          "question": "What's the purpose of the Popups component?",
+          "options": [
+            "Display advertisements",
+            "Show notifications",
+            "Asking users to subscribe",
+            "All of the above"
+          ],
+          "correct": 3
+        },
+      
+        {
+          "question": "Which component would you use to display a collection of images?",
+          "options": [
+            "Media",
+            "Slideshow",
+            "Gallery",
+            "Images"
+          ],
+          "correct": 2
+        }
+      ]
       }
     ]
   },
@@ -9700,100 +9800,205 @@ const defaultCourseModules = [
       {
         "id": 1,
         "title": "Review and Practical Exercises",
-        "content": "Revise key concepts and complete practical exercises to strengthen your understanding.",
-        "quiz": [
-          {
-            "question": "Who are the co-founders of African Website Builders?",
-            "options": [
-              "Fresh Teacher",
-              "Mr. Angel & Mr. Zion",
-              "Ms. Grace & Mr. Angel",
-              "Mr. Zion & Dr. Smith"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "How much monthly income can you earn per active website?",
-            "options": [
-              "£5 (UGX 24,000)",
-              "£7 (UGX 33,600)",
-              "£10 (UGX 48,000)",
-              "£15 (UGX 72,000)"
-            ],
-            "correct": 1
-          }
-          ,
-          {
-            "question": "What is the target number of websites recommended to build?",
-            "options": [
-              "10 websites",
-              "15 websites",
-              "20 websites",
-              "25 websites"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What is the potential yearly earnings from 20 active websites?",
-            "options": [
-              "£1,200 (UGX 5,760,000)",
-              "£1,480 (UGX 7,104,000)",
-              "£1,680 (UGX 8,064,000)",
-              "£2,000 (UGX 9,600,000)"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What makes Zylosite accessible to beginners?",
-            "options": [
-              "It requires coding knowledge",
-              "It needs programming experience",
-              "It has a drag-and-drop interface",
-              "It requires web design certification"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "What comprehensive support package does AWB provide?",
-            "options": [
-              "Only technical support",
-              "Just website templates",
-              "Expert training, certification, job market access, and business team support",
-              "Only client connections"
-            ],
-            "correct": 2
-          },
-          {
-            "question": "How does the AWB website builder earn you recurring income?",
-            "options": [
-              "Through one-time website sales",
-              "From monthly hosting fees",
-              "By selling domains",
-              "Through advertising revenue"
-            ],
-            "correct": 1
-          },
-          {
-            "question": "Which tool will you use to create and manage your website?",
-            "options": [
-              "WordPress",
-              "GoDaddy",
-              "Wix",
-              "Zylosite"
-            ],
-            "correct": 3
-          },
-          {
-            "question": "What ongoing work is required to maintain the passive income?",
-            "options": [
-              "Complete website rebuilds",
-              "Daily content updates",
-              "Simple maintenance and updates",
-              "Weekly client meetings"
-            ],
-            "correct": 2
-          }
-        ]
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Your Learning Journey Review! 📚</h2>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Look How Far You've Come! 🌟</h3>
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "Every unit completed is a step toward mastery. And you've mastered them all!"
+          <footer class="text-sm mt-2">- Your Course Guide</footer>
+      </blockquote>
+  
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Module 2: Building Blocks Mastery! 🏗️</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="mb-4">You've mastered all 11 essential building blocks:</p>
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Crafting Dynamic Dashboards for user engagement 📊</li>
+              <li>Creating Interactive Buttons that convert 🎯</li>
+              <li>Mastering Text layouts and typography ✍️</li>
+              <li>Handling Media like a pro 🎥</li>
+              <li>Building Responsive Grids that adapt 📱</li>
+              <li>Designing Eye-catching Headings ✨</li>
+              <li>Implementing Intuitive Icons 🎨</li>
+              <li>Integrating Interactive Maps 🗺️</li>
+              <li>Structuring Clear Lists 📝</li>
+              <li>Working with Embedded Content 🔧</li>
+              <li>Creating Smooth Navigation Bars 🚀</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Module 3: Component Champion! 🏆</h5>
+          <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+            <div class="bg-white/70 p-4 rounded">
+              <p class="mb-4">You've conquered all 21 powerful components:</p>
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Engagement Tools:</span> CTAs, Contact Forms, Subscribe Forms 💌</li>
+                <li><span class="font-semibold">Visual Elements:</span> Galleries, Headers, Titles, Popups ✨</li>
+                <li><span class="font-semibold">Interactive Features:</span> Countdown Timers, Slideshows, Maps 🎯</li>
+                <li><span class="font-semibold">Content Blocks:</span> Features, Processes, Testimonials 📝</li>
+                <li><span class="font-semibold">Structure Elements:</span> Navigation, Footers, Dividers 🏗️</li>
+                <li><span class="font-semibold">Team & Pricing:</span> Team Showcases, Pricing Tables 👥</li>
+                <li><span class="font-semibold">Special Features:</span> Embeds, Signup Forms, Content Blocks ⚡</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Bonus Module: Countdown Champion! ⏱️</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <p class="mb-4">You've mastered the art of time with:</p>
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Creating engaging countdown timers 🎯</li>
+            <li>Building anticipation for launches 🚀</li>
+            <li>Designing time-sensitive promotions ⏰</li>
+            <li>Implementing event countdowns ✨</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Your Achievement Highlights! 🌟</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+      <li>Completed all 33 units across 3 modules! 🎓</li>
+      <li>Mastered both fundamental blocks and advanced components 💪</li>
+      <li>Built real-world practical skills 🛠️</li>
+      <li>Ready for professional web development! 🚀</li>
+      </ul>
+      </div>
+    </div>
+      
+      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+      <h5 class="font-semibold">What's Next? 🎯</h5>
+      <p class="mt-2">Time to put these skills into practice!</p>
+      <p class="mt-2">Your journey to web development mastery continues... 🚀</p>
+    </div>
+  
+      <div class="mt-6 text-center">
+        <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Build Something Amazing? ⭐</p>
+        <p class="text-lg mt-2">Your toolkit is complete - time to create! 🎨</p>
+        </div>
+    </div>
+  </div>`,     
+  
+    "quiz": [
+    
+      {
+        "question": "What component would you use to create a form for visitors to get in touch?",
+        "options": [
+          "Subscribe",
+          "Signup",
+          "Contact",
+          "Features"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which block is essential for creating responsive columns of content?",
+        "options": [
+          "Lists",
+          "Text",
+          "Media",
+          "Grids"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What component is best suited for displaying a limited-time offer?",
+        "options": [
+          "Countdown timers",
+          "Features",
+          "Process",
+          "Titles"
+        ],
+        "correct": 0
+      },
+   
+      {
+        "question": "What block type helps you integrate location-based information?",
+        "options": [
+          "Maps",
+          "Embeds",
+          "Media",
+          "Navigation"
+        ],
+        "correct": 0
+      },
+    
+      {
+        "question": "What component would you use for automatically rotating content or images?",
+        "options": [
+          "Gallery",
+          "Slideshows",
+          "Media",
+          "Features"
+        ],
+        "correct": 1
+      },
+    
+      {
+        "question": "What block type is used for decorative visual elements?",
+        "options": [
+          "Media",
+          "Icons",
+          "Buttons",
+          "Text"
+        ],
+        "correct": 1
+      },
+    
+      {
+        "question": "What component would you use to create a step-by-step guide?",
+        "options": [
+          "Lists",
+          "Content",
+          "Processes",
+          "Features"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which block is used for creating website navigation menus?",
+        "options": [
+          "Lists",
+          "Buttons",
+          "Navigation Bar",
+          "Headers"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which component creates a visual separation between content sections?",
+        "options": [
+          "Dividers",
+          "Spacing",
+          "Layout",
+          "Grid"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What component displays customer feedback and reviews?",
+        "options": [
+          "Content",
+          "Features",
+          "Testimonials",
+          "Team"
+        ],
+        "correct": 2
+      },
+   
+  
+    ]
+  
       }
     ]
   },
@@ -9805,8 +10010,211 @@ const defaultCourseModules = [
       {
         "id": 1,
         "title": "Website SEO",
-        "content": "Learn the basics of SEO to improve website visibility and rankings.",
-        "quiz": []
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Master Website SEO! 🎯</h2>
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 p-6 rounded-xl">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Let's Make Your Website Shine! ✨</h3>
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic mb-4 text-lg">
+          "SEO is like being a friendly lighthouse in the vast internet ocean - helping visitors find their way to you!"
+          <footer class="text-sm mt-2">- Your SEO Guide</footer>
+      </blockquote>
+  
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">On-Page SEO Essentials! 📝</h5>
+          <div class="bg-white/70 p-4 rounded mt-4">
+            <p class="mb-4">Let's master these key elements:</p>
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Title Tags: Your page's perfect first impression! 👋</li>
+              <li>Meta Descriptions: Your website's elevator pitch ✨</li>
+              <li>Header Tags: Organizing content like a pro (H1, H2, H3) 📚</li>
+              <li>URL Structure: Keep it clean and meaningful 🎯</li>
+              <li>Image Alt Text: Help search engines see your images 🖼️</li>
+              <li>Internal Linking: Connect your content naturally 🔗</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white/50 p-6 rounded-lg mb-6">
+        <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Content is King! 👑</h5>
+          <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+            <div class="bg-white/70 p-4 rounded">
+              <p class="mb-4">Create content that visitors (and search engines) love:</p>
+              <ul class="list-disc pl-4 space-y-2">
+                <li><span class="font-semibold">Quality Content:</span> Valuable, original, and engaging! 💎</li>
+                <li><span class="font-semibold">Keyword Research:</span> Find words your audience uses 🔍</li>
+                <li><span class="font-semibold">Content Structure:</span> Easy to read, scan, and understand 📋</li>
+                <li><span class="font-semibold">Regular Updates:</span> Keep your content fresh and relevant ⏰</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold">Technical SEO Magic! ⚡</h5>
+        <div class="bg-white/70 p-4 rounded mt-4">
+          <p class="mb-4">Behind-the-scenes optimization:</p>
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Mobile-Friendly Design: Because phones matter! 📱</li>
+            <li>Site Speed: Fast and smooth loading 🚀</li>
+            <li>XML Sitemaps: Help search engines explore your site 🗺️</li>
+            <li>Robots.txt: Guide search engine crawlers 🤖</li>
+            <li>SSL Certificate: Keep it secure with HTTPS 🔒</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Link Building & Authority! 🌟</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+      <li>Build quality backlinks from trusted sites 🔗</li>
+      <li>Create shareable, link-worthy content 📢</li>
+      <li>Engage with your industry community 👥</li>
+      <li>Monitor your backlink profile 📊</li>
+      </ul>
+      </div>
+    </div>
+
+      <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
+      <h5 class="font-semibold">Local SEO Tips! 🎯</h5>
+      <div class="bg-white/70 p-4 rounded mt-4">
+      <ul class="list-disc pl-4 space-y-2">
+      <li>Google My Business optimization 🏪</li>
+      <li>Local keywords and content 📍</li>
+      <li>Customer reviews and ratings ⭐</li>
+      <li>Local business citations 📑</li>
+      </ul>
+      </div>
+    </div>
+      
+      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
+      <h5 class="font-semibold">SEO Best Practices! 🌈</h5>
+      <p class="mt-2">Remember these golden rules:</p>
+      <ul class="list-disc pl-4 mt-2 space-y-2">
+        <li>Focus on user experience first 👥</li>
+        <li>Create for humans, optimize for search engines 🎯</li>
+        <li>Stay up-to-date with SEO trends 📈</li>
+        <li>Track and measure your results 📊</li>
+      </ul>
+    </div>
+  
+      <div class="mt-6 text-center">
+        <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Optimize? 🚀</p>
+        <p class="text-lg mt-2">Your journey to SEO success starts here! 💫</p>
+        </div>
+    </div>
+  </div>`,     
+  "quiz": [
+    {
+      "question": "What is the purpose of a title tag in SEO?",
+      "options": [
+        "To make text bold",
+        "To appear in search engine results",
+        "To style the website",
+        "To organize images"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which element provides a brief summary of a page's content for search results?",
+      "options": [
+        "Header tag",
+        "Title tag",
+        "Meta description",
+        "Alt text"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the primary purpose of image alt text?",
+      "options": [
+        "Make images load faster",
+        "Make images bigger",
+        "Help search engines understand images",
+        "Change image colors"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which is a best practice for URL structure?",
+      "options": [
+        "Use descriptive keywords",
+        "Make it as long as possible",
+        "Include random numbers",
+        "Use spaces between words"
+      ],
+      "correct": 0
+    },
+ 
+    {
+      "question": "What is the purpose of keywords in SEO?",
+      "options": [
+        "To make text bold",
+        "To match search queries",
+        "To add images",
+        "To change colors"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does HTTPS do for a website?",
+      "options": [
+        "Makes it colorful",
+        "Adds images",
+        "Provides security",
+        "Changes fonts"
+      ],
+      "correct": 2
+    },
+  
+    {
+      "question": "Why is Google My Business important for local SEO?",
+      "options": [
+        "It's not important",
+        "Improves local visibility",
+        "Changes website color",
+        "Adds videos"
+      ],
+      "correct": 1
+    },
+ 
+    {
+      "question": "Which heading tag should be used for the main title of a page?",
+      "options": [
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of robots.txt?",
+      "options": [
+        "To add robots to the site",
+        "To guide search engines",
+        "To add animations",
+        "To change colors"
+      ],
+      "correct": 1
+    },
+  
+    {
+      "question": "How often should you update your website content?",
+      "options": [
+        "Never",
+        "Regularly",
+        "Once a year",
+        "Only when broken"
+      ],
+      "correct": 1
+    },
+  
+  ]
       },
       {
         "id": 2,
