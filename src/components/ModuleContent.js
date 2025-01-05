@@ -10018,7 +10018,47 @@ const defaultCourseModules = [
           "SEO is like being a friendly lighthouse in the vast internet ocean - helping visitors find their way to you!"
           <footer class="text-sm mt-2">- Your SEO Guide</footer>
       </blockquote>
+
+      <!-- New Introduction Section -->
+      <div class="bg-gradient-to-r from-green-50 to-teal-50 dark:from-green-900/30 dark:to-teal-900/30 p-6 rounded-xl mb-6">
+        <h3 class="text-2xl font-semibold mb-4 text-center">What is SEO? 🤔</h3>
+        <div class="bg-white/70 p-4 rounded">
+          <p class="mb-4">SEO (Search Engine Optimization) is how we make websites more visible on search engines like Google. Think of it as:</p>
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Making your website easy to find when people search online 🔍</li>
+            <li>Following best practices to rank higher in search results 📈</li>
+            <li>Attracting the right visitors to your website naturally 🎯</li>
+          </ul>
+        </div>
+      </div>
   
+      <!-- New Why SEO Matters Section -->
+      <div class="bg-gradient-to-r from-orange-50 to-red-50 dark:from-orange-900/30 dark:to-red-900/30 p-6 rounded-xl mb-6">
+        <h3 class="text-xl font-semibold mb-4">Why Should You Care About SEO? 💡</h3>
+        <div class="bg-white/70 p-4 rounded">
+          <ul class="list-disc pl-4 space-y-2">
+            <li>Get more website visitors without paying for ads 💰</li>
+            <li>Build trust with your audience through better visibility 🤝</li>
+            <li>Stay ahead of competitors in search results 🏆</li>
+            <li>Attract visitors who are actually interested in what you offer 🎯</li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- New SEO Fundamentals Section -->
+    <div class="bg-gradient-to-r from-pink-50 to-purple-50 dark:from-pink-900/30 dark:to-purple-900/30 p-6 rounded-xl mb-6">
+      <h3 class="text-xl font-semibold mb-4">SEO Fundamentals for Beginners 📚</h3>
+      <div class="bg-white/70 p-4 rounded">
+        <p class="mb-4">Before diving deep, understand these basic concepts:</p>
+        <ul class="list-disc pl-4 space-y-2">
+          <li><span class="font-semibold">Keywords:</span> Words people use to search for your content 🔤</li>
+          <li><span class="font-semibold">Search Rankings:</span> How high your website appears in search results 📊</li>
+          <li><span class="font-semibold">Organic Traffic:</span> Visitors who find you through unpaid search results 🌱</li>
+          <li><span class="font-semibold">User Experience:</span> How easy and pleasant your website is to use 😊</li>
+        </ul>
+      </div>
+    </div>
+    
       <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">On-Page SEO Essentials! 📝</h5>
