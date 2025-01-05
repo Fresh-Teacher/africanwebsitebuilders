@@ -3879,62 +3879,7 @@ export const registrationData = {
             },
             "amountPaid": 0
         },
-        {
-            "Timestamp": "12/24/2024 8:40:35",
-            "Email Address": "sbazibu679@gmail.com",
-            "Full Name": "BAZIBU SAMUEL MICHAEL",
-            "District of Residence": "JINJA",
-            "School Name": "JINJA SDA PRIMARY SCHOOL",
-            "Level of Institution": "Primary",
-            "Role at School": "Administrator",
-            "WhatsApp number": "+256773559702",
-            "Telephone contact": "0759730311",
-            "Which device will you use for study during the course?": "Phone",
-            "Can you attend physical classes if the training centre is around Kampala?": "No",
-            "courseProgress": {
-                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
-                "Text, Button & Block Editing, Add Video": "Pending",
-                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
-                "Parallax, Padding, Slide Show, Forms": "Pending",
-                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
-                "Chat GPT and Speed Test": "Pending",
-                "Recap Test and Practicals Continue": "Pending",
-                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
-                "Website SEO, Favicons & Social Media": "Pending",
-                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
-                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
-                "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0
-        },
-        {
-            "Timestamp": "12/24/2024 9:07:58",
-            "Email Address": "manirahariaggrey@gmail.com",
-            "Full Name": "MANIRAHARI AGGREY",
-            "District of Residence": "LYANTONDE",
-            "School Name": "TEDDY BEARS PRIMARY SCHOOL",
-            "Level of Institution": "Primary",
-            "Role at School": "Classroom Teacher",
-            "WhatsApp number": "+256753522207",
-            "Telephone contact": "0786244210",
-            "Which device will you use for study during the course?": "Laptop",
-            "Can you attend physical classes if the training centre is around Kampala?": "No",
-            "courseProgress": {
-                "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
-                "Text, Button & Block Editing, Add Video": "Pending",
-                "Cogs, Grids, Components, Make Pages, Pop-Ups and Review": "Pending",
-                "Parallax, Padding, Slide Show, Forms": "Pending",
-                "Re-Create Site from Scratch (Redo Everything You Have Learned)": "Pending",
-                "Chat GPT and Speed Test": "Pending",
-                "Recap Test and Practicals Continue": "Pending",
-                "Learn to Create Countdowns (Using Zylo Modules)": "Pending",
-                "Website SEO, Favicons & Social Media": "Pending",
-                "Learn to Teach: AWB Tutor Course (Compulsory)": "Pending",
-                "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
-                "Sales Online and Local": "Pending"
-            },
-            "amountPaid": 0
-        },
+     
         {
             "Timestamp": "12/24/2024 9:12:17",
             "Email Address": "karlkarx@gmail.com",

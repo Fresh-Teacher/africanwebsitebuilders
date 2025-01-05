@@ -8,6 +8,8 @@ import { Loader2 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import AttendanceComponent from '@/components/AttendanceComponent';
+
 import { 
   PersonCircle, 
   PeopleFill,
@@ -311,6 +313,10 @@ export default function AdminPanel() {
               textColor="text-orange-900"
             />
           </div>
+          
+{/* Attendance Tracker */}
+<AttendanceComponent students={filteredStudents} />
+
 
           {/* Student List */}
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm">            <div className="p-4 sm:p-6 border-b border-gray-200">
