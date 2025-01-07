@@ -183,128 +183,128 @@ const GROUPS = {
     ])]
   };
 
-const loadAttendanceFromStorage = () => {
-  try {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    return saved ? JSON.parse(saved) : {};
-  } catch (error) {
-    console.error('Error loading attendance from storage:', error);
-    return {};
-  }
-};
-
-const saveAttendanceToStorage = (attendance) => {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(attendance));
-  } catch (error) {
-    console.error('Error saving attendance to storage:', error);
-  }
-};
-
-const DateSelector = memo(({ selectedDate, onDateChange }) => {
-  return (
-    <div className="flex items-center space-x-2">
-      <input
-        type="date"
-        value={selectedDate.toISOString().split('T')[0]}
-        onChange={onDateChange}
-        className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-      />
-      <Calendar className="h-5 w-5 text-gray-500 dark:text-gray-400" />
-    </div>
-  );
-});
-
-const GroupSelector = memo(({ selectedGroup, onGroupChange, groups }) => {
-  return (
-    <div className="relative">
-      <select
-        value={selectedGroup}
-        onChange={(e) => onGroupChange(e.target.value)}
-        className="appearance-none px-4 py-2 pr-8 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-      >
-        <option value="">Select Group</option>
-        {Object.keys(groups).map(group => (
-          <option key={group} value={group}>{group}</option>
-        ))}
-      </select>
-      <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-500 dark:text-gray-400 pointer-events-none" />
-    </div>
-  );
-});
-
-const AttendanceButton = memo(({ onClick, isActive, type }) => {
-  const Icon = type === 'present' ? Check : X;
-  const styles = {
-    present: {
-      active: 'bg-green-100 text-green-600 dark:bg-green-900 dark:text-green-300',
-      default: 'hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400'
-    },
-    absent: {
-      active: 'bg-red-100 text-red-600 dark:bg-red-900 dark:text-red-300',
-      default: 'hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400'
+  const loadAttendanceFromStorage = () => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      return saved ? JSON.parse(saved) : {};
+    } catch (error) {
+      console.error('Error loading attendance from storage:', error);
+      return {};
     }
   };
   
-  return (
-    <button
-      onClick={onClick}
-      className={`p-1 rounded-full transition-colors ${isActive ? styles[type].active : styles[type].default}`}
-    >
-      <Icon className="h-4 w-4" />
-    </button>
-  );
-});
-
-const StudentCell = memo(({ student, date, attendance, onAttendanceChange }) => {
-  const dateKey = date.toISOString().split('T')[0];
-  const status = attendance[dateKey]?.[student["Email Address"]];
-
-  const handlePresent = useCallback(() => {
-    onAttendanceChange(student["Email Address"], date, 'present');
-  }, [student, date, onAttendanceChange]);
-
-  const handleAbsent = useCallback(() => {
-    onAttendanceChange(student["Email Address"], date, 'absent');
-  }, [student, date, onAttendanceChange]);
-
-  return (
-    <div className="flex justify-center space-x-1">
-      <AttendanceButton
-        type="present"
-        isActive={status === 'present'}
-        onClick={handlePresent}
-      />
-      <AttendanceButton
-        type="absent"
-        isActive={status === 'absent'}
-        onClick={handleAbsent}
-      />
-    </div>
-  );
-});
-
-const StudentRow = memo(({ student, date, attendance, onAttendanceChange }) => {
-  const studentName = useMemo(() => {
-    return student["Full Name"].toUpperCase();
-  }, [student["Full Name"]]);
-
-  return (
-    <div className="flex items-center justify-between p-4 border rounded-lg bg-gray-50 dark:bg-gray-700">
-      <span className="font-medium text-gray-900 dark:text-gray-100">
-        {studentName}
-      </span>
-      <StudentCell
-        student={student}
-        date={date}
-        attendance={attendance}
-        onAttendanceChange={onAttendanceChange}
-      />
-    </div>
-  );
-});
-
-const GroupedAttendanceComponent = ({ students }) => {
+  const saveAttendanceToStorage = (attendance) => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(attendance));
+    } catch (error) {
+      console.error('Error saving attendance to storage:', error);
+    }
+  };
+  
+  const DateSelector = memo(({ selectedDate, onDateChange }) => {
+    return (
+      <div className="flex items-center space-x-2 w-full sm:w-auto">
+        <input
+          type="date"
+          value={selectedDate.toISOString().split('T')[0]}
+          onChange={onDateChange}
+          className="w-full sm:w-auto px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+        />
+        <Calendar className="h-5 w-5 text-gray-500 dark:text-gray-400" />
+      </div>
+    );
+  });
+  
+  const GroupSelector = memo(({ selectedGroup, onGroupChange, groups }) => {
+    return (
+      <div className="relative w-full sm:w-auto">
+        <select
+          value={selectedGroup}
+          onChange={(e) => onGroupChange(e.target.value)}
+          className="w-full sm:w-auto appearance-none px-4 py-2 pr-8 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+        >
+          <option value="">Select Group</option>
+          {Object.keys(groups).map(group => (
+            <option key={group} value={group}>{group}</option>
+          ))}
+        </select>
+        <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-500 dark:text-gray-400 pointer-events-none" />
+      </div>
+    );
+  });
+  
+  const AttendanceButton = memo(({ onClick, isActive, type }) => {
+    const Icon = type === 'present' ? Check : X;
+    const styles = {
+      present: {
+        active: 'bg-green-100 text-green-600 dark:bg-green-900 dark:text-green-300',
+        default: 'hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400'
+      },
+      absent: {
+        active: 'bg-red-100 text-red-600 dark:bg-red-900 dark:text-red-300',
+        default: 'hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400'
+      }
+    };
+    
+    return (
+      <button
+        onClick={onClick}
+        className={`p-2 sm:p-1 rounded-full transition-colors ${isActive ? styles[type].active : styles[type].default}`}
+      >
+        <Icon className="h-6 w-6 sm:h-4 sm:w-4" />
+      </button>
+    );
+  });
+  
+  const StudentCell = memo(({ student, date, attendance, onAttendanceChange }) => {
+    const dateKey = date.toISOString().split('T')[0];
+    const status = attendance[dateKey]?.[student["Email Address"]];
+  
+    const handlePresent = useCallback(() => {
+      onAttendanceChange(student["Email Address"], date, 'present');
+    }, [student, date, onAttendanceChange]);
+  
+    const handleAbsent = useCallback(() => {
+      onAttendanceChange(student["Email Address"], date, 'absent');
+    }, [student, date, onAttendanceChange]);
+  
+    return (
+      <div className="flex justify-center space-x-2">
+        <AttendanceButton
+          type="present"
+          isActive={status === 'present'}
+          onClick={handlePresent}
+        />
+        <AttendanceButton
+          type="absent"
+          isActive={status === 'absent'}
+          onClick={handleAbsent}
+        />
+      </div>
+    );
+  });
+  
+  const StudentRow = memo(({ student, date, attendance, onAttendanceChange }) => {
+    const studentName = useMemo(() => {
+      return student["Full Name"].toUpperCase();
+    }, [student["Full Name"]]);
+  
+    return (
+      <div className="flex flex-col sm:flex-row items-center justify-between p-4 border rounded-lg bg-gray-50 dark:bg-gray-700 space-y-2 sm:space-y-0">
+        <span className="font-medium text-gray-900 dark:text-gray-100 text-center sm:text-left break-all sm:break-normal">
+          {studentName}
+        </span>
+        <StudentCell
+          student={student}
+          date={date}
+          attendance={attendance}
+          onAttendanceChange={onAttendanceChange}
+        />
+      </div>
+    );
+  });
+  
+  const GroupedAttendanceComponent = ({ students }) => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedGroup, setSelectedGroup] = useState('');
   const [attendance, setAttendance] = useState(() => loadAttendanceFromStorage());
@@ -461,7 +461,7 @@ const GroupedAttendanceComponent = ({ students }) => {
         const doc = new jsPDF();
         
         doc.setFontSize(16);
-        doc.text(`Attendance Report - ${selectedGroup}`, 14, 15);
+        doc.text(`AWB Attendance Report - ${selectedGroup}`, 14, 15);
         
         doc.setFontSize(12);
         doc.text(`Date: ${dateKey}`, 14, 25);
@@ -524,13 +524,13 @@ const GroupedAttendanceComponent = ({ students }) => {
   }, []);
 
   return (
-    <div className="w-full max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg">
-      <div className="p-6 border-b border-gray-200 dark:border-gray-700">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+    <div className="w-full max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg p-2 sm:p-4 md:p-6">
+      <div className="border-b border-gray-200 dark:border-gray-700 pb-4 sm:pb-6">
+        <div className="flex flex-col gap-4">
+          <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100 text-center sm:text-left">
             Group Attendance
           </h1>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 w-full">
             <GroupSelector
               selectedGroup={selectedGroup}
               onGroupChange={setSelectedGroup}
@@ -545,47 +545,47 @@ const GroupedAttendanceComponent = ({ students }) => {
         
         {groupSummary && (
           <>
-            <div className="mt-4 grid grid-cols-4 gap-4">
+            <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4">
               <div className="text-center p-2 bg-gray-100 dark:bg-gray-700 rounded">
-                <div className="text-sm text-gray-600 dark:text-gray-400">Total</div>
+                <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">Total</div>
                 <div className="font-bold text-gray-900 dark:text-gray-100">{groupSummary.total}</div>
               </div>
               <div className="text-center p-2 bg-green-100 dark:bg-green-900 rounded">
-                <div className="text-sm text-green-600 dark:text-green-400">Present</div>
+                <div className="text-xs sm:text-sm text-green-600 dark:text-green-400">Present</div>
                 <div className="font-bold text-green-700 dark:text-green-300">{groupSummary.present}</div>
               </div>
               <div className="text-center p-2 bg-red-100 dark:bg-red-900 rounded">
-                <div className="text-sm text-red-600 dark:text-red-400">Absent</div>
+                <div className="text-xs sm:text-sm text-red-600 dark:text-red-400">Absent</div>
                 <div className="font-bold text-red-700 dark:text-red-300">{groupSummary.absent}</div>
               </div>
               <div className="text-center p-2 bg-gray-100 dark:bg-gray-700 rounded">
-                <div className="text-sm text-gray-600 dark:text-gray-400">Unmarked</div>
+                <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">Unmarked</div>
                 <div className="font-bold text-gray-900 dark:text-gray-100">{groupSummary.unmarked}</div>
               </div>
             </div>
-            <div className="mt-4 flex justify-end gap-2">
-              <div className="relative">
-              <select
-      onChange={(e) => {
-        if (e.target.value) {
-          handleExport(e.target.value);
-          e.target.value = ''; // Reset after export
-        }
-      }}
-      value="" // Controlled component to always show placeholder
-      className="px-3 py-2 bg-blue-100 text-blue-600 dark:bg-blue-900 dark:text-blue-300 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors appearance-none pr-8"
-    >
-      <option value="" disabled className="text-gray-400">Export As...</option>
-      <option value="csv">CSV</option>
-      <option value="xlsx">Excel</option>
-      <option value="json">JSON</option>
-      <option value="pdf">PDF</option>
-    </select>
+            <div className="mt-4 flex flex-col sm:flex-row justify-end gap-2">
+              <div className="relative w-full sm:w-auto">
+                <select
+                  onChange={(e) => {
+                    if (e.target.value) {
+                      handleExport(e.target.value);
+                      e.target.value = '';
+                    }
+                  }}
+                  value=""
+                  className="w-full sm:w-auto px-3 py-2 bg-blue-100 text-blue-600 dark:bg-blue-900 dark:text-blue-300 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors appearance-none pr-8"
+                >
+                  <option value="" disabled>Export As...</option>
+                  <option value="csv">CSV</option>
+                  <option value="xlsx">Excel</option>
+                  <option value="json">JSON</option>
+                  <option value="pdf">PDF</option>
+                </select>
                 <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-blue-600 dark:text-blue-300 pointer-events-none" />
               </div>
               <button
                 onClick={handleClearAttendance}
-                className="px-3 py-2 bg-red-100 text-red-600 dark:bg-red-900 dark:text-red-300 rounded hover:bg-red-200 dark:hover:bg-red-800 transition-colors"
+                className="w-full sm:w-auto px-3 py-2 bg-red-100 text-red-600 dark:bg-red-900 dark:text-red-300 rounded hover:bg-red-200 dark:hover:bg-red-800 transition-colors"
               >
                 Clear All
               </button>
@@ -594,13 +594,13 @@ const GroupedAttendanceComponent = ({ students }) => {
         )}
       </div>
 
-      <div className="p-6">
+      <div className="p-2 sm:p-4 md:p-6">
         {!selectedGroup ? (
           <div className="text-center text-gray-600 dark:text-gray-400">
             Please select a group to take attendance
           </div>
         ) : (
-          <div className="space-y-4">
+          <div className="space-y-2 sm:space-y-4">
             {filteredStudents.map((student) => (
               <StudentRow
                 key={student["Email Address"]}
