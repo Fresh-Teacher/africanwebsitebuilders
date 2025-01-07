@@ -206,9 +206,12 @@ const GROUPS = {
       <div className="flex items-center space-x-2 w-full sm:w-auto">
         <input
           type="date"
-          value={selectedDate.toISOString().split('T')[0]}
+          value={selectedDate instanceof Date && !isNaN(selectedDate) 
+            ? selectedDate.toISOString().split('T')[0]
+            : ''}
           onChange={onDateChange}
-          className="w-full sm:w-auto px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+          className="w-full sm:w-auto px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400"
+          placeholder="Select a date"
         />
         <Calendar className="h-5 w-5 text-gray-500 dark:text-gray-400" />
       </div>
@@ -223,7 +226,7 @@ const GROUPS = {
           onChange={(e) => onGroupChange(e.target.value)}
           className="w-full sm:w-auto appearance-none px-4 py-2 pr-8 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
         >
-          <option value="">Select Group</option>
+          <option value="" disabled className="text-gray-400">Select Group</option>
           {Object.keys(groups).map(group => (
             <option key={group} value={group}>{group}</option>
           ))}
@@ -304,12 +307,13 @@ const GROUPS = {
     );
   });
   
-  const GroupedAttendanceComponent = ({ students }) => {
+const GroupedAttendanceComponent = ({ students }) => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedGroup, setSelectedGroup] = useState('');
   const [attendance, setAttendance] = useState(() => loadAttendanceFromStorage());
   const [isUpdating, setIsUpdating] = useState(false);
 
+  // Add filteredStudents computation
   const filteredStudents = useMemo(() => {
     if (!selectedGroup) return [];
     const groupEmails = GROUPS[selectedGroup];
@@ -317,35 +321,29 @@ const GROUPS = {
   }, [students, selectedGroup]);
 
   const handleDateChange = useCallback((e) => {
-    const newDate = new Date(e.target.value);
-    newDate.setMinutes(newDate.getMinutes() + newDate.getTimezoneOffset());
-    setSelectedDate(newDate);
+    const dateValue = e.target.value;
+    
+    if (!dateValue) {
+      setSelectedDate(new Date());
+      return;
+    }
+
+    const newDate = new Date(dateValue);
+    if (!isNaN(newDate)) {
+      newDate.setMinutes(newDate.getMinutes() + newDate.getTimezoneOffset());
+      setSelectedDate(newDate);
+    }
   }, []);
 
-  const handleAttendanceChange = useCallback((studentId, date, status) => {
-    if (isUpdating) return;
-    
-    setIsUpdating(true);
-    
-    requestAnimationFrame(() => {
-      setAttendance(prev => {
-        const dateKey = date.toISOString().split('T')[0];
-        const newAttendance = {
-          ...prev,
-          [dateKey]: {
-            ...prev[dateKey],
-            [studentId]: status
-          }
-        };
-        saveAttendanceToStorage(newAttendance);
-        return newAttendance;
-      });
-      
-      setIsUpdating(false);
-    });
-  }, [isUpdating]);
+  // Updated getDateKey helper function
+  const getDateKey = useCallback((date) => {
+    if (!(date instanceof Date) || isNaN(date)) {
+      return new Date().toISOString().split('T')[0];
+    }
+    return date.toISOString().split('T')[0];
+  }, []);
 
-  // Move groupSummary calculation before handleExport
+  // Updated groupSummary with proper date handling
   const groupSummary = useMemo(() => {
     if (!selectedGroup || !filteredStudents.length) return {
       total: 0,
@@ -354,7 +352,7 @@ const GROUPS = {
       unmarked: 0
     };
     
-    const dateKey = selectedDate.toISOString().split('T')[0];
+    const dateKey = getDateKey(selectedDate);
     const dayAttendance = attendance[dateKey] || {};
     
     const present = filteredStudents.filter(s => 
@@ -371,10 +369,35 @@ const GROUPS = {
       absent,
       unmarked: filteredStudents.length - present - absent
     };
-  }, [selectedGroup, filteredStudents, attendance, selectedDate]);
+  }, [selectedGroup, filteredStudents, attendance, selectedDate, getDateKey]);
 
+  // Updated handleAttendanceChange
+  const handleAttendanceChange = useCallback((studentId, date, status) => {
+    if (isUpdating) return;
+    
+    setIsUpdating(true);
+    
+    requestAnimationFrame(() => {
+      setAttendance(prev => {
+        const dateKey = getDateKey(date);
+        const newAttendance = {
+          ...prev,
+          [dateKey]: {
+            ...prev[dateKey],
+            [studentId]: status
+          }
+        };
+        saveAttendanceToStorage(newAttendance);
+        return newAttendance;
+      });
+      
+      setIsUpdating(false);
+    });
+  }, [isUpdating, getDateKey]);
+
+  // Updated handleExport with proper date handling
   const handleExport = useCallback((format) => {
-    const dateKey = selectedDate.toISOString().split('T')[0];
+    const dateKey = getDateKey(selectedDate);
     const dayAttendance = attendance[dateKey] || {};
     
     const exportData = filteredStudents.map(student => ({
@@ -514,7 +537,7 @@ const GROUPS = {
       default:
         console.error('Unsupported export format:', format);
     }
-  }, [selectedDate, attendance, filteredStudents, selectedGroup, groupSummary]);
+  }, [selectedDate, attendance, filteredStudents, selectedGroup, groupSummary, getDateKey]);
 
   const handleClearAttendance = useCallback(() => {
     if (window.confirm('Are you sure you want to clear all attendance records? This cannot be undone.')) {
@@ -542,64 +565,67 @@ const GROUPS = {
             />
           </div>
         </div>
-        
-        {groupSummary && (
-          <>
-            <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4">
-              <div className="text-center p-2 bg-gray-100 dark:bg-gray-700 rounded">
-                <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">Total</div>
-                <div className="font-bold text-gray-900 dark:text-gray-100">{groupSummary.total}</div>
-              </div>
-              <div className="text-center p-2 bg-green-100 dark:bg-green-900 rounded">
-                <div className="text-xs sm:text-sm text-green-600 dark:text-green-400">Present</div>
-                <div className="font-bold text-green-700 dark:text-green-300">{groupSummary.present}</div>
-              </div>
-              <div className="text-center p-2 bg-red-100 dark:bg-red-900 rounded">
-                <div className="text-xs sm:text-sm text-red-600 dark:text-red-400">Absent</div>
-                <div className="font-bold text-red-700 dark:text-red-300">{groupSummary.absent}</div>
-              </div>
-              <div className="text-center p-2 bg-gray-100 dark:bg-gray-700 rounded">
-                <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">Unmarked</div>
-                <div className="font-bold text-gray-900 dark:text-gray-100">{groupSummary.unmarked}</div>
-              </div>
-            </div>
-            <div className="mt-4 flex flex-col sm:flex-row justify-end gap-2">
-              <div className="relative w-full sm:w-auto">
-                <select
-                  onChange={(e) => {
-                    if (e.target.value) {
-                      handleExport(e.target.value);
-                      e.target.value = '';
-                    }
-                  }}
-                  value=""
-                  className="w-full sm:w-auto px-3 py-2 bg-blue-100 text-blue-600 dark:bg-blue-900 dark:text-blue-300 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors appearance-none pr-8"
-                >
-                  <option value="" disabled>Export As...</option>
-                  <option value="csv">CSV</option>
-                  <option value="xlsx">Excel</option>
-                  <option value="json">JSON</option>
-                  <option value="pdf">PDF</option>
-                </select>
-                <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-blue-600 dark:text-blue-300 pointer-events-none" />
-              </div>
-              <button
-                onClick={handleClearAttendance}
-                className="w-full sm:w-auto px-3 py-2 bg-red-100 text-red-600 dark:bg-red-900 dark:text-red-300 rounded hover:bg-red-200 dark:hover:bg-red-800 transition-colors"
-              >
-                Clear All
-              </button>
-            </div>
-          </>
-        )}
       </div>
-
+  
       <div className="p-2 sm:p-4 md:p-6">
         {!selectedGroup ? (
           <div className="text-center text-gray-600 dark:text-gray-400">
             Please select a group to take attendance
           </div>
         ) : (
+          <>
+            {/* Stats Grid - Only shown when group is selected */}
+            <div className="mb-6">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4">
+                <div className="text-center p-2 bg-gray-100 dark:bg-gray-700 rounded">
+                  <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">Total</div>
+                  <div className="font-bold text-gray-900 dark:text-gray-100">{groupSummary.total}</div>
+                </div>
+                <div className="text-center p-2 bg-green-100 dark:bg-green-900 rounded">
+                  <div className="text-xs sm:text-sm text-green-600 dark:text-green-400">Present</div>
+                  <div className="font-bold text-green-700 dark:text-green-300">{groupSummary.present}</div>
+                </div>
+                <div className="text-center p-2 bg-red-100 dark:bg-red-900 rounded">
+                  <div className="text-xs sm:text-sm text-red-600 dark:text-red-400">Absent</div>
+                  <div className="font-bold text-red-700 dark:text-red-300">{groupSummary.absent}</div>
+                </div>
+                <div className="text-center p-2 bg-gray-100 dark:bg-gray-700 rounded">
+                  <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">Unmarked</div>
+                  <div className="font-bold text-gray-900 dark:text-gray-100">{groupSummary.unmarked}</div>
+                </div>
+              </div>
+              
+              {/* Export and Clear buttons - Only shown when group is selected */}
+              <div className="mt-4 flex flex-col sm:flex-row justify-end gap-2">
+                <div className="relative w-full sm:w-auto">
+                  <select
+                    onChange={(e) => {
+                      if (e.target.value) {
+                        handleExport(e.target.value);
+                        e.target.value = '';
+                      }
+                    }}
+                    value=""
+                    className="w-full sm:w-auto px-3 py-2 bg-blue-100 text-blue-600 dark:bg-blue-900 dark:text-blue-300 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors appearance-none pr-8"
+                  >
+                    <option value="" disabled>Export As...</option>
+                    <option value="csv">CSV</option>
+                    <option value="xlsx">Excel</option>
+                    <option value="json">JSON</option>
+                    <option value="pdf">PDF</option>
+                  </select>
+                  <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-blue-600 dark:text-blue-300 pointer-events-none" />
+                </div>
+                <button
+                  onClick={handleClearAttendance}
+                  className="w-full sm:w-auto px-3 py-2 bg-red-100 text-red-600 dark:bg-red-900 dark:text-red-300 rounded hover:bg-red-200 dark:hover:bg-red-800 transition-colors"
+                >
+                  Clear All
+                </button>
+              </div>
+            </div>
+
+          {/* Student List */}
           <div className="space-y-2 sm:space-y-4">
             {filteredStudents.map((student) => (
               <StudentRow
@@ -611,10 +637,11 @@ const GROUPS = {
               />
             ))}
           </div>
-        )}
-      </div>
+        </>
+      )}
     </div>
-  );
+  </div>
+);
 };
 
 export default memo(GroupedAttendanceComponent);
