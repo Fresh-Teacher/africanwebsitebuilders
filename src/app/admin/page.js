@@ -313,9 +313,9 @@ export default function AdminPanel() {
               textColor="text-orange-900"
             />
           </div>
-          
+
 {/* Attendance Tracker */}
-<AttendanceComponent students={filteredStudents} />
+<AttendanceComponent students={filteredStudents} /><br></br>
 
 
           {/* Student List */}
