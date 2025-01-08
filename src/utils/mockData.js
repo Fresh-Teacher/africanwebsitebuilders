@@ -39,7 +39,7 @@ export const registrationData = {
             "WhatsApp number": "+256763218845",
             "Telephone contact": "0763218845",
             "Which device will you use for study during the course?": "Phone",
-            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes", //will attend
             "courseProgress": {
                 "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
                 "Text, Button & Block Editing, Add Video": "Pending",
@@ -266,7 +266,7 @@ export const registrationData = {
             "WhatsApp number": "+256775957729",
             "Telephone contact": "0709132196",
             "Which device will you use for study during the course?": "Phone",
-            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes", //away but will attend soon
             "courseProgress": {
                 "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
                 "Text, Button & Block Editing, Add Video": "Pending",
@@ -294,7 +294,7 @@ export const registrationData = {
             "WhatsApp number": "+256751461574",
             "Telephone contact": "0751461574",
             "Which device will you use for study during the course?": "Laptop",
-            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "Can you attend physical classes if the training centre is around Kampala?": "No", 
             "courseProgress": {
                 "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
                 "Text, Button & Block Editing, Add Video": "Pending",
@@ -464,7 +464,7 @@ export const registrationData = {
             "WhatsApp number": "+256760602472",
             "Telephone contact": "0760602472",
             "Which device will you use for study during the course?": "Laptop",
-            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes", //not picking
             "Terms and Conditions\nBy submitting this form, you agree to the following terms and conditions:\nAccuracy of Information:\nYou confirm that the details provided in this form are accurate to the best of your knowledge.\nUse of Information:\nYour contact details will only be used for course-related communication and updates. Your information will not be shared with third parties without your consent.\nParticipation Requirements:\nEnrolment is conditional upon meeting the course eligibility criteria and providing accurate registration details. The course organisers reserve the right to accept or decline applications.\n\nCourse Duration and Structure:\nThe course runs for 4 weeks, with 3 lessons per week, making a total of 12 lessons. Students MUST attend all the 12 lessons. Failure to attend all the lectures without valid justification may require the student to retake the course.\nPayment Terms:\nThe course fee is \u00c2\u00a32 per week which is approximately 9,200 Uganda Shillings (UGX).\n\nParticipation in the course requires full payment of the specified course fees by the deadline provided and failure to make payment on time may result in discontinuation from the course.\n\nPayment details, including methods and deadlines, will be communicated upon successful registration.\n\nCertification:\nSuccessful candidates who complete all the 12 lessons and meet the course requirements will receive an official AWB Certificate.\nRefund Policy:\nFees are non-refundable once the course has commenced. Refund requests before the start date will be reviewed on a case-by-case basis.\nConsent:\nBy registering, you consent to receive updates and notifications about the African Website Builders' Course.": "Eagerly waiting to attend ",
             "courseProgress": {
                 "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
@@ -572,7 +572,7 @@ export const registrationData = {
         {
             "Timestamp": "12/17/2024 19:18:58",
             "Email Address": "banalyaimran925@gmail.com",
-            "Full Name": "Banalya Mulane",
+            "Full Name": "Banalya Suaib Imran",
             "District of Residence": "Wakiso",
             "School Name": "Kyebando Islamic primary school",
             "Level of Institution": "Primary",
@@ -580,7 +580,7 @@ export const registrationData = {
             "WhatsApp number": "+256758608884",
             "Telephone contact": "0758608884",
             "Which device will you use for study during the course?": "Phone",
-            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes", //will attend
             "courseProgress": {
                 "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
                 "Text, Button & Block Editing, Add Video": "Pending",
@@ -636,7 +636,7 @@ export const registrationData = {
             "WhatsApp number": "+256783439555",
             "Telephone contact": "0750544640",
             "Which device will you use for study during the course?": "Phone",
-            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "Can you attend physical classes if the training centre is around Kampala?": "No",
             "courseProgress": {
                 "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Completed",
                 "Text, Button & Block Editing, Add Video": "Completed",
@@ -807,7 +807,7 @@ export const registrationData = {
             "WhatsApp number": "+2567775512717",
             "Telephone contact": "0775512717 ",
             "Which device will you use for study during the course?": "Phone",
-            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes", //will check
             "courseProgress": {
                 "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
                 "Text, Button & Block Editing, Add Video": "Pending",
@@ -892,7 +892,7 @@ export const registrationData = {
             "WhatsApp number": "+256758826060",
             "Telephone contact": "0758826060",
             "Which device will you use for study during the course?": "Phone",
-            "Can you attend physical classes if the training centre is around Kampala?": "Yes",
+            "Can you attend physical classes if the training centre is around Kampala?": "Yes", //will come
             "courseProgress": {
                 "Introduction to Zylosite, Learn Website Sequence (Tour & Practice)": "Pending",
                 "Text, Button & Block Editing, Add Video": "Pending",
@@ -918,7 +918,7 @@ export const registrationData = {
             "Level of Institution": "Primary",
             "Role at School": "Classroom Teacher",
             "WhatsApp number": "+256745346032",
-            "Telephone contact": "0745346032",
+            "Telephone contact": "0745346032",//no answer
             "Which device will you use for study during the course?": "Phone",
             "Can you attend physical classes if the training centre is around Kampala?": "Yes",
             "courseProgress": {

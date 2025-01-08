@@ -1,55 +1,47 @@
-import React, { useState } from 'react';
-import { Play, Pause, Volume2, VolumeX, Maximize, MinimizeIcon } from 'lucide-react';
+import React from 'react';
+import { X } from 'lucide-react';
 
-const VideoPlayer = ({ url, title }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+const ControlButton = ({ onClick, className = '', children, tooltip }) => (
+  <button
+    onClick={onClick}
+    className={`group relative p-1.5 sm:p-2 rounded-full bg-white/10 hover:bg-white/20 
+    transform transition-all duration-200 hover:scale-105 
+    focus:outline-none focus:ring-2 focus:ring-white/50 ${className}`}
+    title={tooltip}
+  >
+    {children}
+    {tooltip && (
+      <span className="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-black/90 
+        text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity
+        pointer-events-none whitespace-nowrap hidden sm:block">
+        {tooltip}
+      </span>
+    )}
+  </button>
+);
 
-  const togglePlay = () => setIsPlaying(!isPlaying);
-  const toggleMute = () => setIsMuted(!isMuted);
-  const toggleFullscreen = () => setIsFullscreen(!isFullscreen);
-
+const VideoPlayer = ({ videoUrl, onClose }) => {
   return (
-    <div className="relative w-full rounded-xl overflow-hidden bg-gray-900 shadow-lg">
-      <div className="aspect-video relative">
-        <iframe 
-          src={`${url}${url.includes('?') ? '&' : '?'}autoplay=${isPlaying ? 1 : 0}&mute=${isMuted ? 1 : 0}`}
-          className="w-full h-full"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        
-        {/* Overlay for title */}
-        <div className="absolute top-0 left-0 right-0 p-4 bg-gradient-to-b from-black/60 to-transparent">
-          <h3 className="text-white font-semibold text-lg">{title}</h3>
-        </div>
+    <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-2 sm:p-4">
+      <div className="relative w-full max-w-3xl rounded-lg overflow-hidden bg-black shadow-2xl">
+        <ControlButton 
+          onClick={onClose}
+          className="absolute top-2 right-2 z-10 bg-black/40 hover:bg-black/60"
+          tooltip="Close"
+        >
+          <X className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+        </ControlButton>
 
-        {/* Controls */}
-        <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent flex items-center gap-4">
-          <button 
-            onClick={togglePlay}
-            className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
+        <div className="aspect-video relative">
+          <video
+            className="w-full h-full"
+            src={videoUrl}
+            controls
+            playsInline
+            autoPlay
           >
-            {isPlaying ? <Pause className="w-5 h-5 text-white" /> : <Play className="w-5 h-5 text-white" />}
-          </button>
-          
-          <button 
-            onClick={toggleMute}
-            className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
-          >
-            {isMuted ? <VolumeX className="w-5 h-5 text-white" /> : <Volume2 className="w-5 h-5 text-white" />}
-          </button>
-          
-          <button 
-            onClick={toggleFullscreen}
-            className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors ml-auto"
-          >
-            {isFullscreen ? 
-              <MinimizeIcon className="w-5 h-5 text-white" /> : 
-              <Maximize className="w-5 h-5 text-white" />
-            }
-          </button>
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>

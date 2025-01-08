@@ -10,6 +10,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import ModuleContent from '@/components/ModuleContent';  
+import LecturesList from '@/components/LecturesList';
+import { lectureData, getUserLectureStatus } from '@/utils/lectureData';
 import { 
   PersonCircle, 
   Building, 
@@ -19,8 +21,9 @@ import {
   GeoAltFill,
   Calendar2Check,
   CheckCircleFill,
-  HourglassSplit,
-  BoxArrowRight
+  PlayCircleFill,
+  LockFill,
+  BoxArrowRight // Added BoxArrowRight import
 } from 'react-bootstrap-icons';
 
 // Constants
@@ -38,7 +41,7 @@ const utils = {
     if (hour >= 5 && hour < 12) return "Good morning";
     if (hour >= 12 && hour < 17) return "Good afternoon";
     if (hour >= 17 && hour < 22) return "Good evening";
-    return "Good night";
+    return "Happy late night";
   },
   
   getLastName: (fullName) => {
@@ -300,22 +303,34 @@ export default function Dashboard() {
                 </div>
                 <FinancialProgress percentage={paymentProgress} />
                 <div className="mt-3 text-sm text-gray-500 dark:text-gray-400 text-right font-medium">
-Balance: {(TUITION_FEE - userData.amountPaid).toLocaleString()} UGX
+                  Balance: {(TUITION_FEE - userData.amountPaid).toLocaleString()} UGX
                 </div>
               </div>
             </AnimatedCard>
           </div>
 
           {/* Course Progress Details */}
-        {/* Course Progress Details */}
-{/* Course Progress Details */}
-<AnimatedCard>
-  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-    <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
-    Self-Study Materials 
-  </h2>
-  <ModuleContent userData={userData} />
-</AnimatedCard>
+          <AnimatedCard>
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+              <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
+              Self-Study Materials 
+            </h2>
+            <ModuleContent userData={userData} />
+          </AnimatedCard>
+
+          {/* Lectures Progress */}
+          <AnimatedCard>
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+              <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
+              Lecture Materials
+            </h2>
+            <LecturesList lectures={Object.entries(lectureData).map(([number, lecture]) => ({
+              number: parseInt(number),
+              title: lecture.title,
+              status: getUserLectureStatus(number, userData.courseProgress || {}),
+              isLocked: getUserLectureStatus(number, userData.courseProgress || {}) === "locked"
+            }))} />
+          </AnimatedCard>
 
           {/* Contact Information */}
           <AnimatedCard>
