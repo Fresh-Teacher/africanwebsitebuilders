@@ -309,17 +309,8 @@ export default function Dashboard() {
             </AnimatedCard>
           </div>
 
-          {/* Course Progress Details */}
-          <AnimatedCard>
-            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-              <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
-              Self-Study Materials 
-            </h2>
-            <ModuleContent userData={userData} />
-          </AnimatedCard>
-
-          {/* Lectures Progress */}
-          <AnimatedCard>
+           {/* Lectures Progress */}
+           <AnimatedCard>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
               <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
               Recorded Lectures
@@ -332,6 +323,17 @@ export default function Dashboard() {
             }))} />
           </AnimatedCard>
 
+
+          {/* Course Progress Details */}
+          <AnimatedCard>
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+              <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
+              Self-Study Materials 
+            </h2>
+            <ModuleContent userData={userData} />
+          </AnimatedCard>
+
+         
           {/* Contact Information */}
           <AnimatedCard>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Contact Information</h2>

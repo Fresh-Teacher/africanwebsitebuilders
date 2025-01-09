@@ -3,25 +3,13 @@ import { useRouter } from 'next/navigation';
 import { ArrowLeft } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { lectureData } from '@/utils/lectureData'; // Import the existing lecture data
 
 const LecturePage = () => {
   const router = useRouter();
   const lectureNumber = router.query?.number;
-
-  const getLectureContent = (number) => {
-    // This would be replaced with actual lecture content
-    const lectures = {
-      1: {
-        title: "Introduction to Web Development",
-        content: "Content for Lecture 1...",
-        videoUrl: "your-video-url-here"
-      }
-      // Add content for other lectures
-    };
-    return lectures[number] || null;
-  };
-
-  const lectureContent = getLectureContent(lectureNumber);
+  
+  const lectureContent = lectureData[lectureNumber];
 
   if (!lectureContent) {
     return <div>Lecture not found</div>;
@@ -51,7 +39,7 @@ const LecturePage = () => {
           
           {/* Content Section */}
           <div className="prose dark:prose-invert max-w-none">
-            {lectureContent.content}
+            {lectureContent.description}
           </div>
         </div>
       </main>

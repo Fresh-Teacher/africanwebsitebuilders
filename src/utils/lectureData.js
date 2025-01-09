@@ -63,10 +63,11 @@ export const lectureData = {
         slides: "/lectures/1/slides.pdf",
         duration: "15 minutes",
         topics: [
-          "Dynamic Title Generation",
-          "Advanced Title Formatting",
-          "Navigation Integration",
-          "Title Management Systems"
+          "Cogs",
+          "Grids",
+          "Pages",
+          "Pop Ups",
+          "Preview Page"
         ],
         assignments: [
           {
