@@ -21,6 +21,15 @@ const ControlButton = ({ onClick, className = '', children, tooltip }) => (
 );
 
 const VideoPlayer = ({ videoUrl, onClose }) => {
+  const isYouTubeVideo = videoUrl.includes('youtube.com') || videoUrl.includes('youtu.be');
+  
+  // Extract YouTube video ID
+  const getYouTubeId = (url) => {
+    const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+    const match = url.match(regExp);
+    return (match && match[2].length === 11) ? match[2] : null;
+  };
+
   return (
     <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-2 sm:p-4">
       <div className="relative w-full max-w-3xl rounded-lg overflow-hidden bg-black shadow-2xl">
@@ -33,15 +42,24 @@ const VideoPlayer = ({ videoUrl, onClose }) => {
         </ControlButton>
 
         <div className="aspect-video relative">
-          <video
-            className="w-full h-full"
-            src={videoUrl}
-            controls
-            playsInline
-            autoPlay
-          >
-            Your browser does not support the video tag.
-          </video>
+          {isYouTubeVideo ? (
+            <iframe
+              className="w-full h-full"
+              src={`https://www.youtube.com/embed/${getYouTubeId(videoUrl)}?autoplay=1`}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <video
+              className="w-full h-full"
+              src={videoUrl}
+              controls
+              playsInline
+              autoPlay
+            >
+              Your browser does not support the video tag.
+            </video>
+          )}
         </div>
       </div>
     </div>

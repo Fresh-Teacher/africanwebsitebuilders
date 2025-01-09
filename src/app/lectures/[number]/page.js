@@ -236,7 +236,7 @@ export default function LecturePage({ params }) {
             transition={{ delay: 0.4 }}
             className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-4 sm:p-6"
           >
-            <h2 className="text-lg sm:text-xl font-bold mb-4">Additional Resources</h2>
+            <h2 className="text-lg sm:text-xl font-bold mb-4">Start Practising</h2>
             <ul className="space-y-2">
               {lecture.resources.map((resource, index) => (
                 <li key={index}>

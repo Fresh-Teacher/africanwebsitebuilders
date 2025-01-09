@@ -322,7 +322,7 @@ export default function Dashboard() {
           <AnimatedCard>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
               <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
-              Lecture Materials
+              Recorded Lectures
             </h2>
             <LecturesList lectures={Object.entries(lectureData).map(([number, lecture]) => ({
               number: parseInt(number),
