@@ -321,7 +321,7 @@ export default function Dashboard() {
               status: getUserLectureStatus(number, userData.courseProgress || {}),
               isLocked: getUserLectureStatus(number, userData.courseProgress || {}) === "locked"
             }))} />
-          </AnimatedCard>
+          </AnimatedCard><br></br>
 
 
           {/* Course Progress Details */}
@@ -331,7 +331,7 @@ export default function Dashboard() {
               Self-Study Materials 
             </h2>
             <ModuleContent userData={userData} />
-          </AnimatedCard>
+          </AnimatedCard><br></br>
 
          
           {/* Contact Information */}
