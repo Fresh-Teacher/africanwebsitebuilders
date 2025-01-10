@@ -12,6 +12,7 @@ import ScrollToTopButton from '@/components/ScrollToTopButton';
 import ModuleContent from '@/components/ModuleContent';
 import LecturesList from '@/components/LecturesList';
 import { lectureData, getUserLectureStatus } from '@/utils/lectureData';
+import AttendanceComponent from '@/components/AttendanceComponent';
 import {
   PersonCircle,
   Building,
@@ -20,9 +21,6 @@ import {
   TelephoneFill,
   GeoAltFill,
   Calendar2Check,
-  CheckCircleFill,
-  PlayCircleFill,
-  LockFill,
   BoxArrowRight // Added BoxArrowRight import
 } from 'react-bootstrap-icons';
 
@@ -156,7 +154,10 @@ export default function Dashboard() {
   const [paymentProgress, setPaymentProgress] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [greeting, setGreeting] = useState('');
-
+  // Add these two new lines:
+  const [allStudents, setAllStudents] = useState([]);
+  const [filteredStudents, setFilteredStudents] = useState([]);
+  
   useEffect(() => {
     const userIndex = sessionStorage.getItem('userIndex');
     if (!userIndex) {
@@ -171,6 +172,14 @@ export default function Dashboard() {
     }
 
     setUserData(user);
+    
+    // Add this new section for coordinator data
+    if (user["Role at School"]?.toLowerCase().includes('coordinator')) {
+      const allStudentsData = registrationData["Form Responses 1"];
+      setAllStudents(allStudentsData);
+      setFilteredStudents(allStudentsData);
+    }
+
     setPaymentProgress(Math.round((user.amountPaid / TUITION_FEE) * 100));
     setGreeting(utils.getTimeBasedGreeting());
     setIsLoading(false);
@@ -332,7 +341,19 @@ export default function Dashboard() {
             </h2>
             <ModuleContent userData={userData} />
           </AnimatedCard><br></br>
-
+          {userData["Role at School"]?.toLowerCase().includes('coordinator') && (
+  <>
+    {/* Attendance Tracker */}
+    <AnimatedCard>
+      <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+        <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
+        Class Attendance Tracker
+      </h2>
+      <AttendanceComponent students={filteredStudents} />
+    </AnimatedCard>
+    <br />
+  </>
+)}
 
           {/* Contact Information */}
           <AnimatedCard>
