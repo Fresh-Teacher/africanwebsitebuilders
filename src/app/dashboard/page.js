@@ -318,6 +318,20 @@ export default function Dashboard() {
             </AnimatedCard>
           </div>
 
+          {userData["Role at School"]?.toLowerCase().includes('coordinator') && (
+  <>
+    {/* Attendance Tracker */}
+    <AnimatedCard>
+      <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+        <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
+        Roll Call
+      </h2>
+      <AttendanceComponent students={filteredStudents} />
+    </AnimatedCard>
+    <br />
+  </>
+)}
+
           {/* Lectures Progress */}
           <AnimatedCard>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
@@ -341,19 +355,7 @@ export default function Dashboard() {
             </h2>
             <ModuleContent userData={userData} />
           </AnimatedCard><br></br>
-          {userData["Role at School"]?.toLowerCase().includes('coordinator') && (
-  <>
-    {/* Attendance Tracker */}
-    <AnimatedCard>
-      <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-        <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
-        Class Attendance Tracker
-      </h2>
-      <AttendanceComponent students={filteredStudents} />
-    </AnimatedCard>
-    <br />
-  </>
-)}
+        
 
           {/* Contact Information */}
           <AnimatedCard>
