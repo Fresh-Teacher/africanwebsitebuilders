@@ -10,19 +10,19 @@ const LectureItem = ({ number, title, status, isLocked }) => {
 
   const getStatusIcon = () => {
     if (isLoading) return <Loader2 className="w-4 h-4 sm:w-5 sm:h-5 text-blue-500 animate-spin" />;
-    if (isLocked) return <LockFill className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400" />;
+    if (isLocked) return <LockFill className="w-4 h-4 sm:w-5 sm:h-5 text-slate-600 dark:text-slate-400" />;
     if (status === 'completed') return <CheckCircleFill className="w-4 h-4 sm:w-5 sm:h-5 text-green-500" />;
     return <PlayCircleFill className="w-4 h-4 sm:w-5 sm:h-5 text-blue-500" />;
   };
 
   const getStatusStyles = () => {
     if (isLocked) {
-      return 'bg-gray-50 border-gray-200 cursor-not-allowed';
+      return 'bg-slate-100 dark:bg-slate-800 border-slate-300 dark:border-slate-700 cursor-not-allowed';
     }
     if (status === 'completed') {
-      return 'bg-green-50 border-green-200 hover:border-green-500 cursor-pointer';
+      return 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800 hover:border-green-500 dark:hover:border-green-600 cursor-pointer';
     }
-    return 'bg-white border-gray-200 hover:border-blue-500 cursor-pointer';
+    return 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-600 cursor-pointer';
   };
 
   const handleClick = () => {
@@ -44,10 +44,10 @@ const LectureItem = ({ number, title, status, isLocked }) => {
     >
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
         <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
-          <span className="text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400">
+          <span className="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-400">
             Lecture {number}
           </span>
-          <h3 className="text-sm sm:text-base font-medium text-gray-900 dark:text-gray-100 mt-1 sm:mt-0">
+          <h3 className="text-sm sm:text-base font-medium text-slate-900 dark:text-slate-100 mt-1 sm:mt-0">
             {title}
           </h3>
         </div>
