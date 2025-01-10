@@ -292,11 +292,41 @@ const GROUPS = {
       return student["Full Name"].toUpperCase();
     }, [student["Full Name"]]);
   
+    const dateKey = date.toISOString().split('T')[0];
+    const status = attendance[dateKey]?.[student["Email Address"]];
+  
+    const getStatusColor = (status) => {
+      switch(status) {
+        case 'present':
+          return 'text-green-600 dark:text-green-400 font-semibold';
+        case 'absent':
+          return 'text-red-600 dark:text-red-400 font-semibold';
+        default:
+          return 'text-gray-600 dark:text-gray-400';
+      }
+    };
+  
+    const getStatusText = (status) => {
+      switch(status) {
+        case 'present':
+          return 'PRESENT';
+        case 'absent':
+          return 'ABSENT';
+        default:
+          return 'UNMARKED';
+      }
+    };
+  
     return (
       <div className="flex flex-col sm:flex-row items-center justify-between p-4 border rounded-lg bg-gray-50 dark:bg-gray-700 space-y-2 sm:space-y-0">
-        <span className="font-medium text-gray-900 dark:text-gray-100 text-center sm:text-left break-all sm:break-normal">
-          {studentName}
-        </span>
+        <div className="flex items-center justify-between w-full sm:w-auto gap-4">
+          <span className="font-medium text-gray-900 dark:text-gray-100 text-center sm:text-left break-all sm:break-normal">
+            {studentName}
+          </span>
+          <span className={`${getStatusColor(status)} text-sm`}>
+            {getStatusText(status)}
+          </span>
+        </div>
         <StudentCell
           student={student}
           date={date}
@@ -400,34 +430,25 @@ const GroupedAttendanceComponent = ({ students }) => {
     const dateKey = getDateKey(selectedDate);
     const dayAttendance = attendance[dateKey] || {};
     
-    const exportData = filteredStudents.map(student => ({
+    const exportData = filteredStudents.map((student, index) => ({
+      Number: index + 1,
       Name: student['Full Name'].toUpperCase(),
-      Email: student['Email Address'],
-      Status: dayAttendance[student['Email Address']] || 'unmarked',
+      Status: (dayAttendance[student['Email Address']] || 'unmarked').toUpperCase(),
       Date: dateKey
     }));
 
+    const getStatusStyle = (status) => {
+      switch(status.toLowerCase()) {
+        case 'present':
+          return { font: { color: { rgb: "008000" } } }; // Green for present
+        case 'absent':
+          return { font: { color: { rgb: "FF0000" } } }; // Red for absent
+        default:
+          return { font: { color: { rgb: "666666" } } }; // Gray for unmarked
+      }
+    };
+
     switch (format) {
-      case 'csv':
-        const csvContent = [
-          ['Name', 'Email', 'Status', 'Date'],
-          ...exportData.map(row => [
-            row.Name,
-            row.Email,
-            row.Status,
-            row.Date
-          ])
-        ].map(row => row.join(',')).join('\n');
-
-        const csvBlob = new Blob([csvContent], { type: 'text/csv' });
-        const csvUrl = window.URL.createObjectURL(csvBlob);
-        const csvLink = document.createElement('a');
-        csvLink.href = csvUrl;
-        csvLink.download = `attendance_${selectedGroup}_${dateKey}.csv`;
-        csvLink.click();
-        window.URL.revokeObjectURL(csvUrl);
-        break;
-
       case 'xlsx':
         const wb = XLSX.utils.book_new();
         
@@ -441,43 +462,32 @@ const GroupedAttendanceComponent = ({ students }) => {
           ['Unmarked', groupSummary.unmarked],
           [],
           ['Detailed Attendance'],
-          ['Name', 'Email', 'Status', 'Date'],
-          ...exportData.map(row => [
-            row.Name,
-            row.Email,
-            row.Status,
-            row.Date
-          ])
+          ['No.', 'Name', 'Status', 'Date']
         ];
+
+        // Add student data with colored status
+        exportData.forEach(row => {
+          summaryData.push([row.Number, row.Name, row.Status, row.Date]);
+        });
         
         const ws = XLSX.utils.aoa_to_sheet(summaryData);
         
+        // Apply colors to Status column
+        for (let i = 11; i < summaryData.length; i++) {
+          const cell = XLSX.utils.encode_cell({ r: i, c: 2 }); // Status column
+          if (!ws[cell]) continue;
+          ws[cell].s = getStatusStyle(ws[cell].v);
+        }
+        
         ws['!cols'] = [
-          { wch: 30 },
-          { wch: 40 },
-          { wch: 15 },
-          { wch: 15 }
+          { wch: 5 },  // Number column width
+          { wch: 30 }, // Name column width
+          { wch: 15 }, // Status column width
+          { wch: 15 }  // Date column width
         ];
         
         XLSX.utils.book_append_sheet(wb, ws, 'Attendance');
         XLSX.writeFile(wb, `attendance_${selectedGroup}_${dateKey}.xlsx`);
-        break;
-
-      case 'json':
-        const jsonContent = JSON.stringify({
-          summary: groupSummary,
-          date: dateKey,
-          group: selectedGroup,
-          attendance: exportData
-        }, null, 2);
-        
-        const jsonBlob = new Blob([jsonContent], { type: 'application/json' });
-        const jsonUrl = window.URL.createObjectURL(jsonBlob);
-        const jsonLink = document.createElement('a');
-        jsonLink.href = jsonUrl;
-        jsonLink.download = `attendance_${selectedGroup}_${dateKey}.json`;
-        jsonLink.click();
-        window.URL.revokeObjectURL(jsonUrl);
         break;
 
       case 'pdf':
@@ -514,8 +524,8 @@ const GroupedAttendanceComponent = ({ students }) => {
         doc.text('Detailed Attendance', 14, doc.lastAutoTable.finalY + 15);
         
         const detailedTable = [
-          ['Name', 'Email', 'Status'],
-          ...exportData.map(row => [row.Name, row.Email, row.Status])
+          ['No.', 'Name', 'Status'],
+          ...exportData.map(row => [row.Number, row.Name, row.Status])
         ];
         
         doc.autoTable({
@@ -525,13 +535,61 @@ const GroupedAttendanceComponent = ({ students }) => {
           theme: 'grid',
           headStyles: { fillColor: [66, 139, 202] },
           columnStyles: {
-            0: { cellWidth: 50 },
-            1: { cellWidth: 80 },
-            2: { cellWidth: 30 }
+            0: { cellWidth: 20 },
+            1: { cellWidth: 100 },
+            2: { cellWidth: 40 }
+          },
+          bodyStyles: { textColor: [100, 100, 100] },
+          didParseCell: function(data) {
+            if (data.column.index === 2) { // Status column
+              const status = data.cell.raw.toLowerCase();
+              if (status === 'present') {
+                data.cell.styles.textColor = [0, 128, 0]; // Green
+              } else if (status === 'absent') {
+                data.cell.styles.textColor = [255, 0, 0]; // Red
+              }
+            }
           }
         });
         
         doc.save(`attendance_${selectedGroup}_${dateKey}.pdf`);
+        break;
+
+      case 'csv':
+        const csvContent = [
+          ['No.', 'Name', 'Status', 'Date'],
+          ...exportData.map(row => [
+            row.Number,
+            row.Name,
+            row.Status,
+            row.Date
+          ])
+        ].map(row => row.join(',')).join('\n');
+
+        const csvBlob = new Blob([csvContent], { type: 'text/csv' });
+        const csvUrl = window.URL.createObjectURL(csvBlob);
+        const csvLink = document.createElement('a');
+        csvLink.href = csvUrl;
+        csvLink.download = `attendance_${selectedGroup}_${dateKey}.csv`;
+        csvLink.click();
+        window.URL.revokeObjectURL(csvUrl);
+        break;
+
+      case 'json':
+        const jsonContent = JSON.stringify({
+          summary: groupSummary,
+          date: dateKey,
+          group: selectedGroup,
+          attendance: exportData
+        }, null, 2);
+        
+        const jsonBlob = new Blob([jsonContent], { type: 'application/json' });
+        const jsonUrl = window.URL.createObjectURL(jsonBlob);
+        const jsonLink = document.createElement('a');
+        jsonLink.href = jsonUrl;
+        jsonLink.download = `attendance_${selectedGroup}_${dateKey}.json`;
+        jsonLink.click();
+        window.URL.revokeObjectURL(jsonUrl);
         break;
 
       default:
