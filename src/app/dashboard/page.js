@@ -9,12 +9,12 @@ import { Loader2 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
-import ModuleContent from '@/components/ModuleContent';  
+import ModuleContent from '@/components/ModuleContent';
 import LecturesList from '@/components/LecturesList';
 import { lectureData, getUserLectureStatus } from '@/utils/lectureData';
-import { 
-  PersonCircle, 
-  Building, 
+import {
+  PersonCircle,
+  Building,
   BarChartFill,
   EnvelopeFill,
   TelephoneFill,
@@ -43,7 +43,7 @@ const utils = {
     if (hour >= 17 && hour < 22) return "Good evening";
     return "Happy late night";
   },
-  
+
   getLastName: (fullName) => {
     const nameParts = fullName.split(' ');
     return nameParts[nameParts.length - 1];
@@ -110,7 +110,7 @@ const AnimatedCard = ({ children, delay = 0 }) => {
 
 const FinancialProgress = ({ percentage }) => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
-  
+
   const getProgressBarColor = (percentage) => {
     if (percentage === 0) return 'bg-red-500';
     if (percentage < 50) return 'bg-orange-500';
@@ -163,13 +163,13 @@ export default function Dashboard() {
       router.push('/');
       return;
     }
-    
+
     const user = registrationData["Form Responses 1"][parseInt(userIndex)];
     if (!user) {
       router.push('/');
       return;
     }
-    
+
     setUserData(user);
     setPaymentProgress(Math.round((user.amountPaid / TUITION_FEE) * 100));
     setGreeting(utils.getTimeBasedGreeting());
@@ -208,7 +208,7 @@ export default function Dashboard() {
       <main className="flex-1 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto p-6">
           {/* Welcome Section */}
-          <MotionDiv 
+          <MotionDiv
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -280,17 +280,17 @@ export default function Dashboard() {
               <div className="flex flex-col">
                 <div className="flex items-center mb-4">
                   <div className="bg-emerald-100 dark:bg-emerald-900 p-3 rounded-full">
-                    <svg 
+                    <svg
                       className="h-6 w-6 text-emerald-600 dark:text-emerald-400"
-                      fill="none" 
-                      viewBox="0 0 24 24" 
+                      fill="none"
+                      viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
-                      <path 
-                        strokeLinecap="round" 
-                        strokeLinejoin="round" 
-                        strokeWidth={2} 
-                        d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" 
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
                   </div>
@@ -309,8 +309,8 @@ export default function Dashboard() {
             </AnimatedCard>
           </div>
 
-           {/* Lectures Progress */}
-           <AnimatedCard>
+          {/* Lectures Progress */}
+          <AnimatedCard>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
               <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
               Recorded Lectures
@@ -328,12 +328,12 @@ export default function Dashboard() {
           <AnimatedCard>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
               <Calendar2Check className="mr-2 text-blue-600 dark:text-blue-400" />
-              Self-Study Materials 
+              Self-Study Materials
             </h2>
             <ModuleContent userData={userData} />
           </AnimatedCard><br></br>
 
-         
+
           {/* Contact Information */}
           <AnimatedCard>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Contact Information</h2>

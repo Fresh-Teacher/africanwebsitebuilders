@@ -45,7 +45,7 @@ const LectureItem = ({ number, title, status, isLocked }) => {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
         <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
           <span className="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-400">
-            Lecture {number}
+            Recording {number}
           </span>
           <h3 className="text-sm sm:text-base font-medium text-slate-900 dark:text-slate-100 mt-1 sm:mt-0">
             {title}
@@ -57,7 +57,7 @@ const LectureItem = ({ number, title, status, isLocked }) => {
               <span className="text-xs sm:text-sm text-blue-600 dark:text-blue-400">In Progress</span>
             )}
             {isLoading && (
-              <span className="text-xs sm:text-sm text-blue-600 dark:text-blue-400">Loading...</span>
+              <span className="text-xs sm:text-sm text-blue-600 dark:text-blue-400">Loading content...</span>
             )}
           </div>
           {getStatusIcon()}
