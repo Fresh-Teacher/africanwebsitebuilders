@@ -4337,7 +4337,7 @@ export const registrationData = {
             "District of Residence": "London",
             "School Name": "African Website Builders",
             "Level of Institution": "Tertiary",
-            "Role at School": "Classroom Teacher",
+            "Role at School": "Coordinator",
             "WhatsApp number": "+447312092779",
             "Telephone contact": "+447312092779",
             "Which device will you use for study during the course?": "Phone",
