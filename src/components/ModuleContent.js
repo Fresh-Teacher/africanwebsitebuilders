@@ -3650,7 +3650,7 @@ const defaultCourseModules = [
                 <img 
                   src="https://awb-silk.vercel.app/Screenshot%20(862).png" 
                   alt="Zylosite Website Builder Interface" 
-                  class="rounded-lg shadow-lg border border-slate-200"
+                  class="rounded-lg shadow-lg border border-gray-200"
                 />
               </div>
             </div>
@@ -3661,8 +3661,8 @@ const defaultCourseModules = [
           <div class="bg-white/70 p-4 rounded mt-4">
             <div class="space-y-6">
               <!-- Image Section -->
-              <div class="bg-slate-100 p-4 rounded">
-                <p class="text-slate-900 dark:text-white mb-2">📸 Images: A picture's worth a thousand words!</p>
+              <div class="bg-gray-100 p-4 rounded">
+                <p class="text-gray-700 mb-2">📸 Images: A picture's worth a thousand words!</p>
                 <code class="text-sm block">
                   &lt;!-- Basic responsive image --&gt;<br/>
                   &lt;img 
@@ -3683,8 +3683,8 @@ const defaultCourseModules = [
               </div>
          
               <!-- Video Section -->
-              <div class="bg-slate-100 p-4 rounded">
-                <p class="text-slate-900 dark:text-white mb-2">🎥 Videos: When still images just won't cut it!</p>
+              <div class="bg-gray-100 p-4 rounded">
+                <p class="text-gray-700 mb-2">🎥 Videos: When still images just won't cut it!</p>
                 <code class="text-sm block">
                   &lt;!-- Video with all the bells & whistles --&gt;<br/>
                   &lt;video 
@@ -3709,8 +3709,8 @@ const defaultCourseModules = [
               </div>
          
               <!-- Audio Section -->
-              <div class="bg-slate-100 p-4 rounded">
-                <p class="text-slate-900 dark:text-white mb-2">🎵 Audio: Let's make some noise!</p>
+              <div class="bg-gray-100 p-4 rounded">
+                <p class="text-gray-700 mb-2">🎵 Audio: Let's make some noise!</p>
                 <code class="text-sm block">
                   &lt;!-- Audio player with fallbacks --&gt;<br/>
                   &lt;audio 
@@ -3740,8 +3740,8 @@ const defaultCourseModules = [
                 <li>Create responsive layouts that look great everywhere</li>
                 <li>Style your content to match your brand perfectly</li>
               </ul>
-              <div class="bg-slate-100 p-4 mt-4 rounded">
-                <p class="text-sm text-slate-900 dark:text-white">Example: Want a fancy button that glows on hover?</p>
+              <div class="bg-gray-100 p-4 mt-4 rounded">
+                <p class="text-sm text-gray-600">Example: Want a fancy button that glows on hover?</p>
                 <code class="text-sm block mt-2">
                   .awesome-button {<br/>
                   &nbsp;&nbsp;background: linear-gradient(45deg, #ff6b6b, #ff8e53);<br/>
@@ -3756,6 +3756,8 @@ const defaultCourseModules = [
             </div>
           </div>
       
+        
+      
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🤓 Did You Know? Fun Code Facts!</h5>
           <div class="bg-white/70 p-4 rounded mt-4">
@@ -3768,6 +3770,8 @@ const defaultCourseModules = [
             </ul>
           </div>
         </div>
+
+        
     
         <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🔍 Myth Busters: Code Edition!</h5>
@@ -3800,6 +3804,7 @@ const defaultCourseModules = [
           </div>
         </div>
 
+
         <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Web Dev Abbreviations 📚</h5>
         <div class="bg-white/70 p-4 rounded mt-4">
@@ -3816,7 +3821,8 @@ const defaultCourseModules = [
             <p class="text-lg mt-2">Remember, every awesome website started with a single line of code! Go forth and create something incredible! 💫</p>
           </div>
         </div>
-      </div>`,
+      </div>
+      `,
       "quiz": [
         {
           "question": "What does HTML stand for?",
@@ -5380,14 +5386,14 @@ const defaultCourseModules = [
             </div>
           </div>
       
-          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-6">
-          <h5 class="font-semibold">Quick Guide to add Media Elements 📱</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-blue-50 dark:bg-blue-900/80 p-4 rounded-lg mb-6">
+          <h5 class="font-semibold text-gray-900 dark:text-white">Quick Guide to add Media Elements 📱</h5>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <div class="space-y-6">
               <!-- Image Section -->
-              <div class="bg-gray-100 p-4 rounded">
-                <p class="text-gray-700 mb-2">📸 Images: A picture's worth a thousand words!</p>
-                <code class="text-sm block">
+              <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded">
+                <p class="text-gray-700 dark:text-gray-200 mb-2">📸 Images: A picture's worth a thousand words!</p>
+                <code class="text-sm block bg-white dark:bg-gray-900 p-2 rounded">
                   &lt;!-- Basic responsive image --&gt;<br/>
                   &lt;img 
                     src="cool-pic.jpg"
@@ -5407,9 +5413,9 @@ const defaultCourseModules = [
               </div>
          
               <!-- Video Section -->
-              <div class="bg-gray-100 p-4 rounded">
-                <p class="text-gray-700 mb-2">🎥 Videos: When still images just won't cut it!</p>
-                <code class="text-sm block">
+              <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded">
+                <p class="text-gray-700 dark:text-gray-200 mb-2">🎥 Videos: When still images just won't cut it!</p>
+                <code class="text-sm block bg-white dark:bg-gray-900 p-2 rounded">
                   &lt;!-- Video with all the bells & whistles --&gt;<br/>
                   &lt;video 
                     controls
@@ -5433,9 +5439,9 @@ const defaultCourseModules = [
               </div>
          
               <!-- Audio Section -->
-              <div class="bg-gray-100 p-4 rounded">
-                <p class="text-gray-700 mb-2">🎵 Audio: Let's make some noise!</p>
-                <code class="text-sm block">
+              <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded">
+                <p class="text-gray-700 dark:text-gray-200 mb-2">🎵 Audio: Let's make some noise!</p>
+                <code class="text-sm block bg-white dark:bg-gray-900 p-2 rounded">
                   &lt;!-- Audio player with fallbacks --&gt;<br/>
                   &lt;audio 
                     controls
@@ -5452,8 +5458,7 @@ const defaultCourseModules = [
               </div>
             </div>
           </div>
-         </div>
-      
+        </div>
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-6">
             <h5 class="font-semibold">CSS - Making Things Pretty! 🎨</h5>
             <div class="bg-white/70 p-4 rounded mt-4">
