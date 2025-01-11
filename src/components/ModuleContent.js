@@ -169,7 +169,7 @@ const BadgeDisplay = ({ earnedBadges }) => {
                               <Lock className="w-8 h-8 text-gray-400" />
                             </div>
                             <h4 className="font-bold text-sm text-gray-400">Locked Badge</h4>
-                            <span className="text-xs font-medium px-3 py-1 rounded-full bg-gray-700/30 dark:text-gray-400">
+                            <span className="text-xs font-medium px-3 py-1 rounded-full bg-gray-700/30 text-gray-500">
                               LOCKED 🔐
                             </span>
                           </div>
@@ -224,7 +224,7 @@ const BadgeDisplay = ({ earnedBadges }) => {
                           <Lock className="w-8 h-8 text-gray-400" />
                         </div>
                         <h4 className="font-bold text-sm text-gray-400">Locked Badge</h4>
-                        <span className="text-xs font-medium px-3 py-1 rounded-full bg-gray-700/30 dark:text-gray-400">
+                        <span className="text-xs font-medium px-3 py-1 rounded-full bg-gray-700/30 text-gray-500">
                           LOCKED
                         </span>
                       </div>
@@ -275,10 +275,10 @@ const renderBadge = (badge) => {
     <div className="relative group cursor-pointer rounded-lg md:rounded-xl overflow-hidden transition-all duration-300 p-3 md:p-4 bg-gray-100 dark:bg-gray-700">
       <div className="flex flex-col items-center text-center space-y-2 md:space-y-3">
         <div className="relative w-12 h-12 md:w-16 md:h-16 rounded-full flex items-center justify-center bg-gray-200 dark:bg-gray-600">
-          <Lock className="w-6 h-6 md:w-8 md:h-8 text-gray-400 dark:dark:text-gray-400" />
+          <Lock className="w-6 h-6 md:w-8 md:h-8 text-gray-400 dark:text-gray-500" />
         </div>
-        <h4 className="font-bold text-xs md:text-sm text-gray-400 dark:dark:text-gray-400">Locked Badge</h4>
-        <span className="text-xs font-medium px-2 py-1 rounded-full bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 dark:text-gray-400">
+        <h4 className="font-bold text-xs md:text-sm text-gray-400 dark:text-gray-500">Locked Badge</h4>
+        <span className="text-xs font-medium px-2 py-1 rounded-full bg-gray-200 dark:bg-gray-600 text-gray-600 dark:text-gray-400">
           LOCKED
         </span>
       </div>
@@ -906,7 +906,7 @@ const defaultCourseModules = [
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
                     <div>
                       <p><span class="font-semibold">Visit the AWB Website:</span> Type www.africanwebsitebuilders.com in your browser</p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">Just like finding your way to a new school! 🏫</p>
+                      <p class="text-sm text-gray-600">Just like finding your way to a new school! 🏫</p>
                     </div>
                   </div>
                   
@@ -914,7 +914,7 @@ const defaultCourseModules = [
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">2</div>
                     <div>
                       <p>Click <span class="bg-red-500 text-white px-2 py-1 rounded">GET STARTED</span> in the top right (or humburger menu on mobile 📱)</p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">It's like walking into the admission office!</p>
+                      <p class="text-sm text-gray-600">It's like walking into the admission office!</p>
                     </div>
                   </div>
       
@@ -922,7 +922,7 @@ const defaultCourseModules = [
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">3</div>
                     <div>
                       <p>Click <span class="bg-green-500 text-white px-2 py-1 rounded">ENTER 'ZYLOSITE' WEBSITE BUILDER</span></p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">Just like entering your classroom</p>
+                      <p class="text-sm text-gray-600">Just like entering your classroom</p>
                     </div>
                   </div>
       
@@ -930,7 +930,7 @@ const defaultCourseModules = [
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">4</div>
                     <div>
                       <p>Fill in your admission form (first name, last name, email, password)</p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">Just like your school registration! 📋</p>
+                      <p class="text-sm text-gray-600">Just like your school registration! 📋</p>
                     </div>
                   </div>
       
@@ -938,7 +938,7 @@ const defaultCourseModules = [
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">5</div>
                     <div>
                       <p>Check the Cloudflare security box</p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">(Help beat the robots by proving that you're human! 🤖)</p>
+                      <p class="text-sm text-gray-600">(Help beat the robots by proving that you're human! 🤖)</p>
                     </div>
                   </div>
       
@@ -946,7 +946,7 @@ const defaultCourseModules = [
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">6</div>
                     <div>
                       <p>Click <span class="bg-blue-500 text-white px-2 py-1 rounded">Create account</span></p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">You're officially enroled! 🎉</p>
+                      <p class="text-sm text-gray-600">You're officially enroled! 🎉</p>
                     </div>
                   </div>
       
@@ -954,7 +954,7 @@ const defaultCourseModules = [
                     <div class="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">7</div>
                     <div>
                       <p>Check your email for the verification link</p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">Like getting your official acceptance letter! ✉️</p>
+                      <p class="text-sm text-gray-600">Like getting your official acceptance letter! ✉️</p>
                     </div>
                   </div>
                 </div>
@@ -967,7 +967,7 @@ const defaultCourseModules = [
                     <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">1</div>
                     <div>
                       <p>Click <span class="bg-gray-500 text-white px-2 py-1 rounded">MEMBER AREA in the top right (or menu on mobile) </span></p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">Like walking through the school gate 🚶‍♂️</p>
+                      <p class="text-sm text-gray-600">Like walking through the school gate 🚶‍♂️</p>
                     </div>
                   </div>
       
@@ -975,7 +975,7 @@ const defaultCourseModules = [
                     <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">2</div>
                     <div>
                       <p>Enter your email and password</p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">Enter your email and password (Pro tip: Check "Remember me" to save time and login automatically next time! ⚡)</p>
+                      <p class="text-sm text-gray-600">Enter your email and password (Pro tip: Check "Remember me" to save time and login automatically next time! ⚡)</p>
                     </div>
                   </div>
       
@@ -983,7 +983,7 @@ const defaultCourseModules = [
                     <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">3</div>
                     <div>
                       <p>Check the Cloudflare security box</p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300">Quick security check! ✋</p>
+                      <p class="text-sm text-gray-600">Quick security check! ✋</p>
                     </div>
                   </div>
       
@@ -991,7 +991,7 @@ const defaultCourseModules = [
                     <div class="bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">4</div>
                     <div>
                       <p>Click <span class="bg-green-500 text-white px-2 py-1 rounded">Login</span></p>
-                      <p class="text-sm text-gray-700 dark:text-gray-300"> ...and BOOM! You're in, ready to learn!📚</p>
+                      <p class="text-sm text-gray-600"> ...and BOOM! You're in, ready to learn!📚</p>
                     </div>
                   </div>
                 </div>
@@ -2066,7 +2066,7 @@ const defaultCourseModules = [
   <div class="mt-6 text-center">
   <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Rock Your Text World? 🎸</p>
   <p class="text-lg mt-2">Go forth and format your text! </p>
-  <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">P.S. If anyone asks, tell them we taught you everything you know! 😉🙏</p>
+  <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">P.S. If anyone asks, tell them we taught you everything you know! 😉🙏</p>
 </div>
 </div>
     `,
@@ -2304,7 +2304,7 @@ const defaultCourseModules = [
         <div class="mt-6 text-center">
           <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Make Your Site Shine? ✨</p>
           <p class="text-lg mt-2">Go forth and create something amazing!</p>
-          <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">P.S. Tag us in your awesome creations! We love seeing what you make! 📸</p>
+          <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">P.S. Tag us in your awesome creations! We love seeing what you make! 📸</p>
         </div>
       </div>`,
         "quiz": [
@@ -3741,7 +3741,7 @@ const defaultCourseModules = [
                 <li>Style your content to match your brand perfectly</li>
               </ul>
               <div class="bg-gray-100 p-4 mt-4 rounded">
-                <p class="text-sm text-gray-700 dark:text-gray-300">Example: Want a fancy button that glows on hover?</p>
+                <p class="text-sm text-gray-600">Example: Want a fancy button that glows on hover?</p>
                 <code class="text-sm block mt-2">
                   .awesome-button {<br/>
                   &nbsp;&nbsp;background: linear-gradient(45deg, #ff6b6b, #ff8e53);<br/>
@@ -5237,7 +5237,7 @@ const defaultCourseModules = [
           <div class="mt-6 text-center">
             <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Divide and Conquer? ⚔️</p>
             <p class="text-lg mt-2">Let's make your content flow beautifully!</p>
-            <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">Remember: Great dividers are like great punctuation - they help tell your story better! 📖</p>
+            <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Great dividers are like great punctuation - they help tell your story better! 📖</p>
           </div>
         </div>
       </div>`,
@@ -5471,7 +5471,7 @@ const defaultCourseModules = [
                 <li>Style your content to match your brand perfectly</li>
               </ul>
               <div class="bg-gray-100 p-4 mt-4 rounded">
-                <p class="text-sm text-gray-700 dark:text-gray-300">Example: Want a fancy button that glows on hover?</p>
+                <p class="text-sm text-gray-600">Example: Want a fancy button that glows on hover?</p>
                 <code class="text-sm block mt-2">
                   .awesome-button {<br/>
                   &nbsp;&nbsp;background: linear-gradient(45deg, #ff6b6b, #ff8e53);<br/>
@@ -5497,7 +5497,7 @@ const defaultCourseModules = [
                 <li>Build complex applications right in your embed!</li>
               </ul>
               <div class="bg-gray-100 p-4 mt-4 rounded">
-                <p class="text-sm text-gray-700 dark:text-gray-300">Example: Want to create a fun counter?</p>
+                <p class="text-sm text-gray-600">Example: Want to create a fun counter?</p>
                 <code class="text-sm block mt-2">
                   let count = 0;<br/>
                   <br/>
@@ -6118,7 +6118,7 @@ const defaultCourseModules = [
           <div class="mt-6 text-center">
           <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Rock Your Footer? 🎸</p>
             <p class="text-lg mt-2">Let's make your site's foundation rock solid! </p>
-            <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">Remember: A great footer is like a great friend - always there behind you when you need it! 🤝</p>
+            <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: A great footer is like a great friend - always there behind you when you need it! 🤝</p>
           </div>
         </div>
       </div>`,
@@ -6403,7 +6403,7 @@ const defaultCourseModules = [
             <div class="mt-6 text-center">
                 <p class="text-xl font-bold text-purple-600 dark:text-purple-300">Ready to Create Your Stunning Gallery? 🌟</p>
                 <p class="text-lg mt-2">Your images deserve the perfect showcase - let's make it happen! ✨</p>
-                <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">Remember: Every picture tells a story - make yours unforgettable! 📖</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Every picture tells a story - make yours unforgettable! 📖</p>
             </div>
         </div>
     </div>`,
@@ -7537,7 +7537,7 @@ const defaultCourseModules = [
             <div class="mt-6 text-center">
                 <p class="text-xl font-bold text-purple-600 dark:text-purple-300">Ready to Make Your Process Section Shine? 🌟</p>
                 <p class="text-lg mt-2">Let's turn those words into works of art! ✨</p>
-                <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">Remember: Great formatting makes your content pop! 🎨</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Great formatting makes your content pop! 🎨</p>
             </div>
         </div>
     </div>`,
@@ -7961,7 +7961,7 @@ const defaultCourseModules = [
           <div class="mt-6 text-center">
             <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Create Some Slideshow Magic? ✨</p>
             <p class="text-lg mt-2">Your images are about to look amazing!</p>
-            <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">We'd love to see your slideshows in action - share them with us! 📸</p>
+            <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">We'd love to see your slideshows in action - share them with us! 📸</p>
           </div>
         </div>
       </div>`,
@@ -8200,7 +8200,7 @@ const defaultCourseModules = [
         <p class="text-xl font-bold text-green-600 dark:text-green-300">Ready to Grow Your Email List? 🌱</p>
         <p class="text-lg mt-2">Your perfect subscribe form is just a few clicks away! ✨</p>
         <p class="text-md mt-2">Need help? We're here for you! 🤝</p>
-        <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">Remember: Every great email list starts with an amazing subscribe form! 📮</p>
+        <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Every great email list starts with an amazing subscribe form! 📮</p>
     </div>
 </div>
 </div>`,
@@ -8442,7 +8442,7 @@ const defaultCourseModules = [
             <div class="mt-6 text-center">
                 <p class="text-xl font-bold text-purple-600 dark:text-purple-300">Ready to Show Off Your Amazing Team? 🌟</p>
                 <p class="text-lg mt-2">Your team deserves the spotlight - let's make it shine! ✨</p>
-                <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">Remember: Great teams deserve great presentations! 🏆</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Great teams deserve great presentations! 🏆</p>
             </div>
         </div>
     </div>`,
@@ -8661,7 +8661,7 @@ const defaultCourseModules = [
             <div class="mt-6 text-center">
                 <p class="text-xl font-bold text-purple-600 dark:text-purple-300">Ready to Showcase Your Happy Customers? 🌟</p>
                 <p class="text-lg mt-2">Let their words of praise shine bright! ✨</p>
-                <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">Remember: Happy customers make the best storytellers! 📖</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Happy customers make the best storytellers! 📖</p>
             </div>
         </div>
     </div>`,
@@ -9466,7 +9466,7 @@ const defaultCourseModules = [
             <div class="mt-6 text-center">
                 <p class="text-xl font-bold text-orange-600 dark:text-orange-300">Ready to Make Time Exciting? Let's Go! 🚀</p>
                 <p class="text-lg mt-2">Your countdown adventure awaits!</p>
-                <p class="text-sm mt-2 text-gray-700 dark:text-gray-300 dark:text-gray-400">Remember: Time waits for no one - let's make it tick! ⏰</p>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">Remember: Time waits for no one - let's make it tick! ⏰</p>
             </div>
         </div>
     </div>`,
@@ -10997,7 +10997,7 @@ const ModuleTransition = ({ currentModule, nextModule, onContinue, onClose }) =>
         </div>
 
         <h2 className="text-3xl font-bold">Module Complete! 🎉</h2>
-        <p className="text-xl text-gray-700 dark:text-gray-300 dark:text-gray-300">
+        <p className="text-xl text-gray-600 dark:text-gray-300">
           Congratulations! You've completed
         </p>
         <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
@@ -11008,7 +11008,7 @@ const ModuleTransition = ({ currentModule, nextModule, onContinue, onClose }) =>
           <ArrowRight className="w-8 h-8 mx-auto text-gray-400" />
         </div>
 
-        <p className="text-xl text-gray-700 dark:text-gray-300 dark:text-gray-300">
+        <p className="text-xl text-gray-600 dark:text-gray-300">
           Ready to begin
         </p>
         <p className="text-2xl font-bold text-purple-600 dark:text-purple-400">
@@ -11147,7 +11147,7 @@ const ResetProgressButton = ({ onReset }) => {
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
         <div className="bg-white dark:bg-gray-800 rounded-xl p-6 max-w-md w-full mx-4">
           <h3 className="text-xl font-bold mb-4">Reset Progress?</h3>
-          <p className="text-gray-700 dark:text-gray-300 dark:text-gray-300 mb-6">
+          <p className="text-gray-600 dark:text-gray-300 mb-6">
             This will remove all your earned badges and completed units. This action cannot be undone.
           </p>
           <div className="flex gap-4">
@@ -11394,7 +11394,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
         </div>
         <Trophy className="w-16 h-16 text-yellow-500 mx-auto" />
         <h2 className="text-3xl font-bold">Course Completed! 🎓</h2>
-        <p className="text-gray-700 dark:text-gray-300 dark:text-gray-300">Congratulations! You've completed all available modules.</p>
+        <p className="text-gray-600 dark:text-gray-300">Congratulations! You've completed all available modules.</p>
         <button
           onClick={() => {
             onClose();
@@ -11663,7 +11663,7 @@ const ModuleContent = ({ userData, modules = defaultCourseModules }) => {
                 <Star key={i} className="w-6 h-6 text-yellow-400 fill-current" />
               ))}
               {Array.from({ length: selectedUnit.quiz.length - quizState.currentQuestionIndex }).map((_, i) => (
-                <Star key={i} className="w-6 h-6 text-gray-300 dark:text-gray-700 dark:text-gray-300" />
+                <Star key={i} className="w-6 h-6 text-gray-300 dark:text-gray-600" />
               ))}
             </div>
           </div>

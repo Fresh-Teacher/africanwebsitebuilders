@@ -127,7 +127,7 @@ export default function LecturePage({ params }) {
     return (
         <div className="min-h-screen flex flex-col">
             <Header />
-            <main className="flex-1 bg-gray-50 dark:bg-gray-900 px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
+            <main className="flex-1 bg-slate-50 dark:bg-slate-900 px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
                 {isPlaying && (
                     <VideoPlayer
                         videoUrl={lecture.videoUrl}
@@ -151,18 +151,18 @@ export default function LecturePage({ params }) {
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-4 sm:p-6 mb-4 sm:mb-8"
+                        className="bg-white dark:bg-slate-800 rounded-lg shadow-sm p-4 sm:p-6 mb-4 sm:mb-8"
                     >
                         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4 mb-4">
-                            <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">
+                            <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 dark:text-white">
                                 Lecture {lectureNumber}: {lecture.title}
                             </h1>
                             <div className="flex items-center space-x-2">
-                                <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500 dark:text-gray-400" />
-                                <span className="text-gray-500 dark:text-gray-400 text-sm sm:text-base">{lecture.duration}</span>
+                                <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-slate-700 dark:text-slate-300" />
+                                <span className="text-slate-700 dark:text-slate-300 text-sm sm:text-base">{lecture.duration}</span>
                             </div>
                         </div>
-                        <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-4 sm:mb-6">
+                        <p className="text-sm sm:text-base text-slate-900 dark:text-white mb-4 sm:mb-6">
                             {lecture.description}
                         </p>
                         <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
@@ -175,7 +175,7 @@ export default function LecturePage({ params }) {
                             </button>
                             <button
                                 onClick={() => window.open(lecture.slides, '_blank')}
-                                className="flex items-center justify-center px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors text-sm sm:text-base"
+                                className="flex items-center justify-center px-4 py-2 bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-white rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors text-sm sm:text-base"
                             >
                                 <Download className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                                 Download Slides
@@ -188,15 +188,15 @@ export default function LecturePage({ params }) {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.2 }}
-                        className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-4 sm:p-6 mb-4 sm:mb-8"
+                        className="bg-white dark:bg-slate-800 rounded-lg shadow-sm p-4 sm:p-6 mb-4 sm:mb-8"
                     >
-                        <h2 className="text-lg sm:text-xl font-bold mb-4 flex items-center">
+                        <h2 className="text-lg sm:text-xl font-bold mb-4 flex items-center text-slate-900 dark:text-white">
                             <BookOpen className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                             Topics Covered
                         </h2>
                         <ul className="list-disc pl-4 sm:pl-6 space-y-2 text-sm sm:text-base">
                             {lecture.topics.map((topic, index) => (
-                                <li key={index} className="text-gray-700 dark:text-gray-300">
+                                <li key={index} className="text-slate-900 dark:text-white">
                                     {topic}
                                 </li>
                             ))}
@@ -208,20 +208,22 @@ export default function LecturePage({ params }) {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3 }}
-                        className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-4 sm:p-6 mb-4 sm:mb-8"
+                        className="bg-white dark:bg-slate-800 rounded-lg shadow-sm p-4 sm:p-6 mb-4 sm:mb-8"
                     >
-                        <h2 className="text-lg sm:text-xl font-bold mb-4 flex items-center">
+                        <h2 className="text-lg sm:text-xl font-bold mb-4 flex items-center text-slate-900 dark:text-white">
                             <Calendar className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                             Assignments
                         </h2>
                         <div className="space-y-4">
                             {lecture.assignments.map((assignment, index) => (
                                 <div key={index} className="border-l-4 border-blue-500 pl-3 sm:pl-4">
-                                    <h3 className="font-semibold text-sm sm:text-base">{assignment.title}</h3>
-                                    <p className="text-gray-700 dark:text-gray-300 text-xs sm:text-sm">
+                                    <h3 className="font-semibold text-sm sm:text-base text-slate-900 dark:text-white">
+                                        {assignment.title}
+                                    </h3>
+                                    <p className="text-slate-900 dark:text-white text-xs sm:text-sm">
                                         {assignment.description}
                                     </p>
-                                    <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mt-1">
+                                    <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm mt-1">
                                         Due: {assignment.dueDate}
                                     </p>
                                 </div>
@@ -234,9 +236,9 @@ export default function LecturePage({ params }) {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4 }}
-                        className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-4 sm:p-6"
+                        className="bg-white dark:bg-slate-800 rounded-lg shadow-sm p-4 sm:p-6"
                     >
-                        <h2 className="text-lg sm:text-xl font-bold mb-4">Start Practising</h2>
+                        <h2 className="text-lg sm:text-xl font-bold mb-4 text-slate-900 dark:text-white">Start Practising</h2>
                         <ul className="space-y-2">
                             {lecture.resources.map((resource, index) => (
                                 <li key={index}>
