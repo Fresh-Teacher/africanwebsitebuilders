@@ -115,7 +115,7 @@ const CourseProgressCard = ({ courseProgress }) => {
               <h2 className="text-xl font-bold text-gray-900 dark:text-white">Syllabus Coverage</h2>
               <button
                 onClick={() => setIsModalOpen(false)}
-                className="dark:text-gray-400 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
+                className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
               >
                 <XLg className="h-5 w-5" />
               </button>
@@ -137,7 +137,7 @@ const CourseProgressCard = ({ courseProgress }) => {
                       {status === "Completed" ? (
                         <CheckCircleFill className="h-5 w-5 text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" />
                       ) : (
-                        <XCircleFill className="h-5 w-5 text-gray-400 dark:dark:text-gray-400 flex-shrink-0 mt-0.5" />
+                        <XCircleFill className="h-5 w-5 text-gray-400 dark:text-gray-500 flex-shrink-0 mt-0.5" />
                       )}
                       <div className="flex-1">
                         <h4 className={`font-medium ${
@@ -150,7 +150,7 @@ const CourseProgressCard = ({ courseProgress }) => {
                         <p className={`text-sm ${
                           status === "Completed"
                             ? "text-green-700 dark:text-green-300"
-                            : "dark:text-gray-400 dark:text-gray-400"
+                            : "text-gray-500 dark:text-gray-400"
                         }`}>
                           {status}
                         </p>
@@ -383,7 +383,7 @@ export default function Dashboard() {
               onClick={handleLogout}
               className="flex items-center px-4 py-2 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm transition-colors duration-200 group"
             >
-              <BoxArrowRight className="h-5 w-5 mr-2 dark:text-gray-400 dark:text-gray-400 group-hover:text-red-500 transition-colors" />
+              <BoxArrowRight className="h-5 w-5 mr-2 text-gray-500 dark:text-gray-400 group-hover:text-red-500 transition-colors" />
               <span className="group-hover:text-red-500 transition-colors">Logout</span>
             </button>
           </MotionDiv>
@@ -448,7 +448,7 @@ export default function Dashboard() {
                   </div>
                 </div>
                 <FinancialProgress percentage={paymentProgress} />
-                <div className="mt-3 text-sm dark:text-gray-400 dark:text-gray-400 text-right font-medium">
+                <div className="mt-3 text-sm text-gray-500 dark:text-gray-400 text-right font-medium">
                   Balance: {(TUITION_FEE - userData.amountPaid).toLocaleString()} UGX
                 </div>
               </div>
