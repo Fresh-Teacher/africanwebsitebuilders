@@ -158,11 +158,11 @@ export default function LecturePage({ params }) {
                                 Lecture {lectureNumber}: {lecture.title}
                             </h1>
                             <div className="flex items-center space-x-2">
-                                <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500" />
-                                <span className="text-gray-500 text-sm sm:text-base">{lecture.duration}</span>
+                                <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500 dark:text-gray-400" />
+                                <span className="text-gray-500 dark:text-gray-400 text-sm sm:text-base">{lecture.duration}</span>
                             </div>
                         </div>
-                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-4 sm:mb-6">
+                        <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-4 sm:mb-6">
                             {lecture.description}
                         </p>
                         <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
@@ -175,7 +175,7 @@ export default function LecturePage({ params }) {
                             </button>
                             <button
                                 onClick={() => window.open(lecture.slides, '_blank')}
-                                className="flex items-center justify-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors text-sm sm:text-base"
+                                className="flex items-center justify-center px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors text-sm sm:text-base"
                             >
                                 <Download className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                                 Download Slides
@@ -196,7 +196,7 @@ export default function LecturePage({ params }) {
                         </h2>
                         <ul className="list-disc pl-4 sm:pl-6 space-y-2 text-sm sm:text-base">
                             {lecture.topics.map((topic, index) => (
-                                <li key={index} className="text-gray-600 dark:text-gray-300">
+                                <li key={index} className="text-gray-700 dark:text-gray-300">
                                     {topic}
                                 </li>
                             ))}
@@ -218,10 +218,10 @@ export default function LecturePage({ params }) {
                             {lecture.assignments.map((assignment, index) => (
                                 <div key={index} className="border-l-4 border-blue-500 pl-3 sm:pl-4">
                                     <h3 className="font-semibold text-sm sm:text-base">{assignment.title}</h3>
-                                    <p className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm">
+                                    <p className="text-gray-700 dark:text-gray-300 text-xs sm:text-sm">
                                         {assignment.description}
                                     </p>
-                                    <p className="text-gray-500 text-xs sm:text-sm mt-1">
+                                    <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mt-1">
                                         Due: {assignment.dueDate}
                                     </p>
                                 </div>
@@ -244,7 +244,7 @@ export default function LecturePage({ params }) {
                                         href={resource.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-blue-600 hover:text-blue-700 hover:underline text-sm sm:text-base"
+                                        className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 hover:underline text-sm sm:text-base"
                                     >
                                         {resource.title}
                                     </a>

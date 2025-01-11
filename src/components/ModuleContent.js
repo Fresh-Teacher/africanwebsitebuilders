@@ -3756,30 +3756,7 @@ const defaultCourseModules = [
             </div>
           </div>
       
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-6">
-            <h5 class="font-semibold">JavaScript - Where the Magic Happens! ✨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
-              <p class="mb-4">Now we're talking! JavaScript brings your embeds to life:</p>
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Add interactivity that responds to user actions</li>
-                <li>Create dynamic content that updates in real-time</li>
-                <li>Handle data and make API calls like a ninja</li>
-                <li>Build complex applications right in your embed!</li>
-              </ul>
-              <div class="bg-gray-100 p-4 mt-4 rounded">
-                <p class="text-sm text-gray-600">Example: Want to create a fun counter?</p>
-                <code class="text-sm block mt-2">
-                  let count = 0;<br/>
-                  <br/>
-                  function updateCounter() {<br/>
-                  &nbsp;&nbsp;count++;<br/>
-                  &nbsp;&nbsp;document.getElementById('counter').textContent = count;<br/>
-                  &nbsp;&nbsp;if (count === 100) alert('You're awesome! 🎉');<br/>
-                  }
-                </code>
-              </div>
-            </div>
-          </div>
+        
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🤓 Did You Know? Fun Code Facts!</h5>
@@ -5009,106 +4986,120 @@ const defaultCourseModules = [
         </div>
       </div>`,      
       "quiz": [
+    
         {
-          "question": "How much do countdown timers increase conversion rates?",
+          "question": "Which of the following is NOT listed as an essential element of countdown timers?",
           "options": [
-            "45%",
-            "50%",
-            "55%",
-            "60%"
+            "Timer display",
+            "Labels",
+            "Sound effects",
+            "Animation"
           ],
           "correct": 2
         },
         {
-          "question": "By how much do visual timers boost engagement?",
+          "question": "Which section emphasizes the psychological impact of countdown timers?",
           "options": [
-            "28%",
-            "33%",
-            "38%",
-            "43%"
+            "Design Best Practices",
+            "Essential Elements",
+            "Countdown Psychology",
+            "Performance Tips"
           ],
           "correct": 2
         },
         {
-          "question": "How much do mobile countdowns improve CTR?",
+          "question": "Which of these is listed as a design best practice for countdown timers?",
           "options": [
-            "32%",
-            "37%",
-            "42%",
-            "47%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "By what percentage do animated timers increase attention?",
-          "options": [
-            "22%",
-            "27%",
-            "32%",
-            "37%"
-          ],
-          "correct": 2
-        },
-        {
-          "question": "What's most important for countdown design?",
-          "options": [
-            "Animation",
-            "Accuracy",
-            "Decoration",
-            "Colors"
+            "Use blinking text",
+            "Add visual separators",
+            "Minimize animations",
+            "Remove labels"
           ],
           "correct": 1
         },
         {
-          "question": "What's a common countdown mistake?",
+          "question": "What is the first step in the 'Getting Started with Countdowns' guide?",
           "options": [
-            "Clear display",
-            "Regular updates",
-            "Time zone issues",
-            "Visual feedback"
+            "Add visual elements",
+            "Include call-to-actions",
+            "Choose timer format",
+            "Set clear deadlines"
           ],
           "correct": 2
         },
+    
         {
-          "question": "What improves countdown accessibility?",
+          "question": "Which feature is mentioned as essential for mobile implementation?",
           "options": [
-            "More animation",
-            "Semantic HTML",
-            "Bright colors",
-            "Gradients"
+            "Responsive design",
+            "Desktop-first approach",
+            "Fixed dimensions",
+            "Complex animations"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which of these is mentioned as a required label for countdown timers?",
+          "options": [
+            "Browser version",
+            "Time units",
+            "User location",
+            "Device type"
           ],
           "correct": 1
         },
         {
-          "question": "What should be used for consistent styling?",
+          "question": "What type of CTA is recommended?",
           "options": [
-            "Inline styles",
-            "Hard-coded values",
-            "CSS custom properties",
-            "Random values"
+            "Static CTAs",
+            "Random CTAs",
+            "Dynamic CTAs based on time left",
+            "No CTAs"
           ],
           "correct": 2
         },
         {
-          "question": "What's essential for mobile countdowns?",
+          "question": "What should be tracked according to the Pro Tips section?",
           "options": [
-            "Animations",
-            "Responsive digits",
-            "Decorations",
-            "Gradients"
+            "User demographics",
+            "Browser types",
+            "Engagement metrics near deadlines",
+            "Social media shares"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which of these is mentioned as a design best practice?",
+          "options": [
+            "Remove progress bars",
+            "Avoid animations",
+            "Include progress bars",
+            "Use unclear typography"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What type of typography is recommended for countdown timers?",
+          "options": [
+            "Decorative",
+            "Clear",
+            "Cursive",
+            "Compressed"
           ],
           "correct": 1
         },
         {
-          "question": "What helps increase countdown effectiveness?",
+          "question": "Which animation type is specifically mentioned in the design best practices?",
           "options": [
-            "Random timers",
-            "No labels",
-            "Hidden digits",
-            "Clear deadlines"
+            "Slide animations",
+            "Bounce animations",
+            "Flip animations",
+            "Fade animations"
           ],
-          "correct": 3
-        }
+          "correct": 2
+        },
+    
+ 
       ]
       },
       {
@@ -5622,7 +5613,7 @@ const defaultCourseModules = [
             "Only HTML",
             "Only JavaScript",
             "Only CSS",
-            "HTML, CSS, and JavaScript"
+            "HTML and CSS"
           ],
           "correct": 3
         },
@@ -8277,6 +8268,16 @@ const defaultCourseModules = [
   "correct": 0
   },
  
+  {
+    "question": "What's the purpose of the T icon?",
+    "options": [
+    "Delete form",
+    "Edit settings",
+    "Clone form",
+    "Edit text"
+    ],
+    "correct": 3
+    },
   {
   "question": "What's the purpose of the cog icon?",
   "options": [
