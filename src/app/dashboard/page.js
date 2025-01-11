@@ -77,7 +77,7 @@ const CourseProgressCard = ({ courseProgress }) => {
             <BarChartFill className="h-6 w-6 text-blue-600 dark:text-blue-400" />
           </div>
           <div className="ml-4">
-            <p className="text-sm font-medium text-gray-600 dark:text-gray-300">Course Progress</p>
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-300 dark:text-gray-300">Course Progress</p>
             <p className="text-lg font-bold text-gray-900 dark:text-white">
               {completedTopics}/{totalTopics} Topics
             </p>
@@ -115,7 +115,7 @@ const CourseProgressCard = ({ courseProgress }) => {
               <h2 className="text-xl font-bold text-gray-900 dark:text-white">Syllabus Coverage</h2>
               <button
                 onClick={() => setIsModalOpen(false)}
-                className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
+                className="dark:text-gray-400 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
               >
                 <XLg className="h-5 w-5" />
               </button>
@@ -137,7 +137,7 @@ const CourseProgressCard = ({ courseProgress }) => {
                       {status === "Completed" ? (
                         <CheckCircleFill className="h-5 w-5 text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" />
                       ) : (
-                        <XCircleFill className="h-5 w-5 text-gray-400 dark:text-gray-500 flex-shrink-0 mt-0.5" />
+                        <XCircleFill className="h-5 w-5 text-gray-400 dark:dark:text-gray-400 flex-shrink-0 mt-0.5" />
                       )}
                       <div className="flex-1">
                         <h4 className={`font-medium ${
@@ -150,7 +150,7 @@ const CourseProgressCard = ({ courseProgress }) => {
                         <p className={`text-sm ${
                           status === "Completed"
                             ? "text-green-700 dark:text-green-300"
-                            : "text-gray-500 dark:text-gray-400"
+                            : "dark:text-gray-400 dark:text-gray-400"
                         }`}>
                           {status}
                         </p>
@@ -159,7 +159,7 @@ const CourseProgressCard = ({ courseProgress }) => {
                   </div>
                 ))}
               </div>
-              <div className="mt-6 text-center text-gray-600 dark:text-gray-300">
+              <div className="mt-6 text-center text-gray-700 dark:text-gray-300 dark:text-gray-300">
                 <p className="font-medium">Total Progress: {progressPercentage}%</p>
                 <p>{completedTopics} out of {totalTopics} topics completed</p>
               </div>
@@ -223,7 +223,7 @@ const AnimatedProgress = ({ percentage }) => {
         <span className={`text-sm font-medium ${colors.fill.replace('bg-', 'text-')} dark:text-${colors.fill.replace('bg-', '')}-400`}>
           {status}
         </span>
-        <span className="text-sm font-medium text-gray-600 dark:text-gray-300">{percentage}%</span>
+        <span className="text-sm font-medium text-gray-700 dark:text-gray-300 dark:text-gray-300">{percentage}%</span>
       </div>
       <div ref={ref} className={`w-full ${colors.bg} dark:bg-opacity-20 rounded-full h-2.5`}>
         <MotionDiv
@@ -266,8 +266,8 @@ const FinancialProgress = ({ percentage }) => {
   return (
     <div className="space-y-2">
       <div className="flex justify-between items-center">
-        <span className="text-sm font-medium text-gray-600 dark:text-gray-300">Payments Made</span>
-        <span className="text-sm font-medium text-gray-600 dark:text-gray-300">{percentage}% paid</span>
+        <span className="text-sm font-medium text-gray-700 dark:text-gray-300 dark:text-gray-300">Payments Made</span>
+        <span className="text-sm font-medium text-gray-700 dark:text-gray-300 dark:text-gray-300">{percentage}% paid</span>
       </div>
       <div ref={ref} className="relative h-4 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
         <MotionDiv
@@ -287,7 +287,7 @@ const LoadingState = () => (
     <div className="flex-1 flex items-center justify-center bg-gray-50 dark:bg-gray-900">
       <div className="text-center">
         <Loader2 className="h-8 w-8 animate-spin text-blue-600 mx-auto mb-2" />
-        <p className="text-gray-600">Loading your dashboard...</p>
+        <p className="text-gray-700 dark:text-gray-300">Loading your dashboard...</p>
       </div>
     </div>
     <Footer />
@@ -376,14 +376,14 @@ export default function Dashboard() {
                 <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
                   {greeting}, Tr. {utils.getLastName(userData["Full Name"])}
                 </h1>
-                <p className="text-gray-600 dark:text-gray-300">Track your progress in the African Website Builders course</p>
+                <p className="text-gray-700 dark:text-gray-300 dark:text-gray-300">Track your progress in the African Website Builders course</p>
               </div>
             </div>
             <button
               onClick={handleLogout}
               className="flex items-center px-4 py-2 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm transition-colors duration-200 group"
             >
-              <BoxArrowRight className="h-5 w-5 mr-2 text-gray-500 dark:text-gray-400 group-hover:text-red-500 transition-colors" />
+              <BoxArrowRight className="h-5 w-5 mr-2 dark:text-gray-400 dark:text-gray-400 group-hover:text-red-500 transition-colors" />
               <span className="group-hover:text-red-500 transition-colors">Logout</span>
             </button>
           </MotionDiv>
@@ -402,7 +402,7 @@ export default function Dashboard() {
                   <Building className="h-6 w-6 text-green-600 dark:text-green-400" />
                 </div>
                 <div className="ml-4">
-                  <p className="text-sm font-medium text-gray-600 dark:text-gray-300">School</p>
+                  <p className="text-sm font-medium text-gray-700 dark:text-gray-300 dark:text-gray-300">School</p>
                   <p className="text-lg font-bold text-gray-900 dark:text-white">{userData["School Name"]}</p>
                 </div>
               </div>
@@ -415,7 +415,7 @@ export default function Dashboard() {
                   <PersonCircle className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                 </div>
                 <div className="ml-4">
-                  <p className="text-sm font-medium text-gray-600 dark:text-gray-300">Role</p>
+                  <p className="text-sm font-medium text-gray-700 dark:text-gray-300 dark:text-gray-300">Role</p>
                   <p className="text-lg font-bold text-gray-900 dark:text-white">{userData["Role at School"]}</p>
                 </div>
               </div>
@@ -441,14 +441,14 @@ export default function Dashboard() {
                     </svg>
                   </div>
                   <div className="ml-4">
-                    <p className="text-sm font-medium text-gray-600 dark:text-gray-300">Tuition</p>
+                    <p className="text-sm font-medium text-gray-700 dark:text-gray-300 dark:text-gray-300">Tuition</p>
                     <p className="text-lg font-bold text-gray-900 dark:text-white">
                       {userData.amountPaid.toLocaleString()} / {TUITION_FEE.toLocaleString()} UGX
                     </p>
                   </div>
                 </div>
                 <FinancialProgress percentage={paymentProgress} />
-                <div className="mt-3 text-sm text-gray-500 dark:text-gray-400 text-right font-medium">
+                <div className="mt-3 text-sm dark:text-gray-400 dark:text-gray-400 text-right font-medium">
                   Balance: {(TUITION_FEE - userData.amountPaid).toLocaleString()} UGX
                 </div>
               </div>
@@ -506,7 +506,7 @@ export default function Dashboard() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                 >
-                  <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
+                  <p className="text-sm text-gray-700 dark:text-gray-300 dark:text-gray-300 flex items-center">
                     {item.icon}
                     {item.label}
                   </p>
