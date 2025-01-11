@@ -3740,19 +3740,19 @@ const defaultCourseModules = [
                 <li>Create responsive layouts that look great everywhere</li>
                 <li>Style your content to match your brand perfectly</li>
               </ul>
-              <div class="bg-gray-100 p-4 mt-4 rounded">
-                <p class="text-sm text-gray-600">Example: Want a fancy button that glows on hover?</p>
-                <code class="text-sm block mt-2">
-                  .awesome-button {<br/>
-                  &nbsp;&nbsp;background: linear-gradient(45deg, #ff6b6b, #ff8e53);<br/>
-                  &nbsp;&nbsp;transition: all 0.3s ease;<br/>
-                  }<br/>
-                  <br/>
-                  .awesome-button:hover {<br/>
-                  &nbsp;&nbsp;box-shadow: 0 0 20px rgba(255, 107, 107, 0.6);<br/>
-                  }
-                </code>
-              </div>
+              <div class="bg-gray-100 dark:bg-gray-700 p-4 mt-4 rounded">
+              <p class="text-sm text-gray-600 dark:text-gray-300">Example: Want a fancy button that glows on hover?</p>
+              <code class="text-sm block mt-2 bg-white dark:bg-gray-900 p-2 rounded dark:text-gray-200">
+                .awesome-button {<br/>
+                &nbsp;&nbsp;background: linear-gradient(45deg, #ff6b6b, #ff8e53);<br/>
+                &nbsp;&nbsp;transition: all 0.3s ease;<br/>
+                }<br/>
+                <br/>
+                .awesome-button:hover {<br/>
+                &nbsp;&nbsp;box-shadow: 0 0 20px rgba(255, 107, 107, 0.6);<br/>
+                }
+              </code>
+            </div>
             </div>
           </div>
       
