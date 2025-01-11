@@ -177,7 +177,7 @@ export const registrationData = {
             "District of Residence": "ISINGIRO",
             "School Name": "KOOZI PRIMARY SCHOOL",
             "Level of Institution": "Primary",
-            "Role at School": "Administrator",
+            "Role at School": "Coordinator",
             "WhatsApp number": "+256782468624",
             "Telephone contact": "0782468624",
             "Which device will you use for study during the course?": "Phone",
