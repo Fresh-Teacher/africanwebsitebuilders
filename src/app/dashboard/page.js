@@ -6,6 +6,19 @@ import { useInView } from 'react-intersection-observer';
 import { useRouter } from 'next/navigation';
 import { registrationData } from '@/utils/mockData';
 import { Loader2 } from 'lucide-react';
+import { 
+  PersonCircle, 
+  Building, 
+  BarChartFill, 
+  EnvelopeFill, 
+  TelephoneFill, 
+  GeoAltFill, 
+  Calendar2Check,
+  BoxArrowRight,
+  CheckCircleFill,
+  XCircleFill,
+  XLg
+} from 'react-bootstrap-icons';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
@@ -13,16 +26,150 @@ import ModuleContent from '@/components/ModuleContent';
 import LecturesList from '@/components/LecturesList';
 import { lectureData, getUserLectureStatus } from '@/utils/lectureData';
 import AttendanceComponent from '@/components/AttendanceComponent';
-import {
-  PersonCircle,
-  Building,
-  BarChartFill,
-  EnvelopeFill,
-  TelephoneFill,
-  GeoAltFill,
-  Calendar2Check,
-  BoxArrowRight // Added BoxArrowRight import
-} from 'react-bootstrap-icons';
+
+// Course Progress Card Component
+const CourseProgressCard = ({ courseProgress }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1
+  });
+  
+  const totalTopics = Object.keys(courseProgress).length;
+  const completedTopics = Object.values(courseProgress).filter(status => status === "Completed").length;
+  const progressPercentage = Math.round((completedTopics / totalTopics) * 100);
+
+  useEffect(() => {
+    if (inView) {
+      setIsVisible(true);
+    }
+  }, [inView]);
+
+  const getProgressColor = (percentage) => {
+    if (percentage < 40) return { bg: 'bg-red-100', fill: 'bg-red-600' };
+    if (percentage < 70) return { bg: 'bg-orange-100', fill: 'bg-orange-600' };
+    if (percentage < 100) return { bg: 'bg-blue-100', fill: 'bg-blue-600' };
+    return { bg: 'bg-green-100', fill: 'bg-green-600' };
+  };
+
+  const colors = getProgressColor(progressPercentage);
+
+  // Handle ESC key press
+  useEffect(() => {
+    const handleEsc = (event) => {
+      if (event.key === 'Escape') {
+        setIsModalOpen(false);
+      }
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, []);
+
+  return (
+    <>
+      <div 
+        onClick={() => setIsModalOpen(true)}
+        className="flex flex-col cursor-pointer hover:shadow-lg transition-shadow duration-200"
+      >
+        <div className="flex items-center mb-4">
+          <div className="bg-blue-100 dark:bg-blue-900 p-3 rounded-full">
+            <BarChartFill className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+          </div>
+          <div className="ml-4">
+            <p className="text-sm font-medium text-gray-600 dark:text-gray-300">Course Progress</p>
+            <p className="text-lg font-bold text-gray-900 dark:text-white">
+              {completedTopics}/{totalTopics} Topics
+            </p>
+          </div>
+        </div>
+        <div className="space-y-1">
+          <div className="flex justify-between items-center">
+            <span className={`text-sm font-medium ${colors.fill.replace('bg-', 'text-')} dark:text-${colors.fill.replace('bg-', '')}-400`}>
+              {progressPercentage}% Complete
+            </span>
+          </div>
+          <div 
+            ref={ref}
+            className={`w-full ${colors.bg} dark:bg-opacity-20 rounded-full h-2.5 overflow-hidden`}
+          >
+            <div
+              className={`${colors.fill} dark:bg-opacity-90 h-full rounded-full transition-transform duration-1000 ease-out transform origin-left`}
+              style={{
+                transform: isVisible ? `scaleX(${progressPercentage / 100})` : 'scaleX(0)'
+              }}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Native Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+          <div 
+            className="bg-white dark:bg-gray-800 rounded-lg w-full max-w-2xl max-h-[80vh] overflow-y-auto relative"
+            onClick={e => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="sticky top-0 bg-white dark:bg-gray-800 p-4 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
+              <h2 className="text-xl font-bold text-gray-900 dark:text-white">Syllabus Coverage</h2>
+              <button
+                onClick={() => setIsModalOpen(false)}
+                className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
+              >
+                <XLg className="h-5 w-5" />
+              </button>
+            </div>
+
+            {/* Modal Content */}
+            <div className="p-6">
+              <div className="grid gap-4">
+                {Object.entries(courseProgress).map(([topic, status], index) => (
+                  <div
+                    key={index}
+                    className={`p-4 rounded-lg border ${
+                      status === "Completed"
+                        ? "bg-green-50 border-green-200 dark:bg-green-900/20 dark:border-green-800"
+                        : "bg-gray-50 border-gray-200 dark:bg-gray-800/50 dark:border-gray-700"
+                    }`}
+                  >
+                    <div className="flex items-start gap-3">
+                      {status === "Completed" ? (
+                        <CheckCircleFill className="h-5 w-5 text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" />
+                      ) : (
+                        <XCircleFill className="h-5 w-5 text-gray-400 dark:text-gray-500 flex-shrink-0 mt-0.5" />
+                      )}
+                      <div className="flex-1">
+                        <h4 className={`font-medium ${
+                          status === "Completed"
+                            ? "text-green-900 dark:text-green-100"
+                            : "text-gray-900 dark:text-gray-100"
+                        }`}>
+                          {topic}
+                        </h4>
+                        <p className={`text-sm ${
+                          status === "Completed"
+                            ? "text-green-700 dark:text-green-300"
+                            : "text-gray-500 dark:text-gray-400"
+                        }`}>
+                          {status}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 text-center text-gray-600 dark:text-gray-300">
+                <p className="font-medium">Total Progress: {progressPercentage}%</p>
+                <p>{completedTopics} out of {totalTopics} topics completed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
 
 // Constants
 const TUITION_FEE = 36696;
@@ -241,22 +388,12 @@ export default function Dashboard() {
             </button>
           </MotionDiv>
 
-          {/* Stats Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            {/* Course Progress Card */}
-            <AnimatedCard delay={0}>
-              <div className="flex flex-col">
-                <div className="flex items-center mb-4">
-                  <div className="bg-blue-100 dark:bg-blue-900 p-3 rounded-full">
-                    <BarChartFill className="h-6 w-6 text-blue-600 dark:text-blue-400" />
-                  </div>
-                  <div className="ml-4">
-                    <p className="text-sm font-medium text-gray-600 dark:text-gray-300">Course Progress</p>
-                  </div>
-                </div>
-                <AnimatedProgress percentage={progressPercentage} />
-              </div>
-            </AnimatedCard>
+         {/* Stats Grid */}
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+  {/* Course Progress Card */}
+  <AnimatedCard delay={0}>
+    <CourseProgressCard courseProgress={userData.courseProgress} />
+  </AnimatedCard>
 
             {/* School Card */}
             <AnimatedCard delay={0.2}>
