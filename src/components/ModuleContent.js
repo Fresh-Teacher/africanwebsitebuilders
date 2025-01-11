@@ -10259,257 +10259,257 @@ const defaultCourseModules = [
       {
         "id": 2,
         "title": "Adding Favicons and Social Media Links",
-   "content": `<div class="space-y-6">
-   <h2 class="text-2xl font-bold">Make Your Website Professional with Favicons & Social Links! 🎨</h2>
-   
-   <!-- Favicon Introduction Section -->
-   <div class="bg-gradient-to-r from-amber-50 to-yellow-50 dark:from-amber-900/30 dark:to-yellow-900/30 p-6 rounded-xl mb-6">
-     <h3 class="text-2xl font-semibold mb-4 text-center">What's a Favicon? 🤔</h3>
-     <div class="bg-white/70 p-4 rounded">
-       <p class="mb-4">A favicon is that tiny icon you see in your browser tab - it's like your website's tiny logo! It helps visitors:</p>
-       <ul class="list-disc pl-4 space-y-2">
-         <li>Find your site quickly in their bookmarks 🔖</li>
-         <li>Identify your tab among many others 👀</li>
-         <li>Remember your brand better 🎯</li>
-       </ul>
-     </div>
-   </div>
-
-   <!-- Favicon Creation Section -->
-   <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/30 dark:to-indigo-900/30 p-6 rounded-xl mb-6">
-     <h3 class="text-xl font-semibold mb-4">Creating Your Perfect Favicon ✨</h3>
-     <div class="bg-white/70 p-4 rounded">
-       <p class="mb-4">Let's make your favicon shine:</p>
-       <ul class="list-disc pl-4 space-y-2">
-         <li><span class="font-semibold">Size Matters:</span> Create multiple sizes (16x16, 32x32, 48x48 pixels) 📏</li>
-         <li><span class="font-semibold">File Format:</span> Save as .ico, .png, or both for best compatibility 🖼️</li>
-         <li><span class="font-semibold">Keep it Simple:</span> Use clear, simple designs that look good small 🎨</li>
-         <li><span class="font-semibold">Brand Match:</span> Match your website's colors and style 🎯</li>
-       </ul>
-     </div>
-   </div>
-
-   <!-- Favicon Implementation Section -->
-   <div class="bg-white/50 p-6 rounded-lg mb-6">
-     <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
-       <h5 class="font-semibold">Adding Your Favicon to Your Website 🛠️</h5>
-       <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
-         <p class="mb-4">Add these lines to your HTML <head> Embed section:</p>
-         <div class="bg-gray-50 p-4 rounded-lg font-mono text-sm">
-           <pre>
-&lt;link rel="icon" type="image/x-icon" href="/favicon.ico"&gt;
-&lt;link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"&gt;
-&lt;link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"&gt;
-           </pre>
-         </div>
-       </div>
-     </div>
-   </div>
-
-   <!-- Social Media Links Introduction -->
-   <div class="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/30 dark:to-pink-900/30 p-6 rounded-xl mb-6">
-     <h3 class="text-xl font-semibold mb-4">Adding Social Media Links 🌐</h3>
-     <div class="bg-white/70 p-4 rounded">
-       <p class="mb-4">Connect with your audience across platforms:</p>
-       <ul class="list-disc pl-4 space-y-2">
-         <li><span class="font-semibold">Choose Your Platforms:</span> Pick the ones your audience uses most 🎯</li>
-         <li><span class="font-semibold">Consistent Branding:</span> Use the same profile name everywhere 🏷️</li>
-         <li><span class="font-semibold">Keep Updated:</span> Ensure all links work and profiles are active 🔄</li>
-       </ul>
-     </div>
-   </div>
-
-   <!-- Social Media Implementation -->
-   <div class="bg-white/50 p-6 rounded-lg mb-6">
-     <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
-       <h5 class="font-semibold">Styling Your Social Links 🎨</h5>
-       <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
-         <p class="mb-4">Here's a beautiful way to add social media icons. Copy and paste this code in the using the Embed Component:</p>
-         <div class="bg-gray-50 p-4 rounded-lg font-mono text-sm">
-           <pre>
-&lt;div class="social-links"&gt;
- &lt;a href="https://twitter.com/yourhandle" class="social-icon twitter"&gt;
-   &lt;i class="fab fa-twitter"&gt;&lt;/i&gt;
- &lt;/a&gt;
- &lt;a href="https://instagram.com/yourhandle" class="social-icon instagram"&gt;
-   &lt;i class="fab fa-instagram"&gt;&lt;/i&gt;
- &lt;/a&gt;
- &lt;a href="https://linkedin.com/in/yourprofile" class="social-icon linkedin"&gt;
-   &lt;i class="fab fa-linkedin"&gt;&lt;/i&gt;
- &lt;/a&gt;
-&lt;/div&gt;
-           </pre>
-         </div>
-       </div>
-     </div>
-   </div>
-
-   <!-- Best Practices Section -->
-   <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
-     <h5 class="font-semibold">Best Practices for Social Links! 📌</h5>
-     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
-       <ul class="list-disc pl-4 space-y-2">
-         <li>Place social icons where they're easy to find 👀</li>
-         <li>Use recognizable icons and colors 🎨</li>
-         <li>Make sure links open in new tabs 🔗</li>
-         <li>Test all links regularly 🔍</li>
-         <li>Consider mobile-friendly placement 📱</li>
-       </ul>
-     </div>
-   </div>
-
-   <!-- Common Mistakes Section -->
-   <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
-     <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
-       <ul class="list-disc pl-4 space-y-2">
-         <li>Using outdated social media icons 🚫</li>
-         <li>Broken or incorrect links 🔗</li>
-         <li>Too many social platforms (focus on the important ones!) 📊</li>
-         <li>Poor icon placement or visibility 👀</li>
-       </ul>
-     </div>
-   </div>
-
-   <!-- Advanced Tips -->
-   <div class="bg-emerald-50 dark:bg-emerald-800 p-4 rounded-lg">
-     <h5 class="font-semibold">Pro Tips! 💡</h5>
-     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
-       <ul class="list-disc pl-4 space-y-2">
-         <li>Add hover effects to make icons interactive ✨</li>
-         <li>Consider using social share buttons for content 🔄</li>
-         <li>Track social media traffic in analytics 📊</li>
-         <li>Update favicon when rebranding 🎨</li>
-       </ul>
-     </div>
-   </div>
-   <!-- New Tools & Resources Section -->
-   <div class="bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-teal-900/30 dark:to-cyan-900/30 p-6 rounded-xl mb-6">
-     <h3 class="text-2xl font-semibold mb-4 text-center">Awesome Tools & Resources! 🛠️</h3>
-     
-     <!-- Favicon Tools -->
-     <div class="bg-white/70 p-4 rounded mb-4">
-       <h4 class="font-semibold mb-3">Favicon Generators & Tools 🎨</h4>
-       <ul class="list-disc pl-4 space-y-3">
-         <li><span class="font-semibold">Favicon.io:</span> Super easy converter for PNG to ICO - supports text, image, and emoji to favicon! 🔄</li>
-         <li><span class="font-semibold">RealFaviconGenerator:</span> Creates all sizes and formats you'll need, plus generates the perfect HTML code 📱</li>
-         <li><span class="font-semibold">Canva:</span> Design your favicon with a user-friendly interface before converting 🎨</li>
-         <li><span class="font-semibold">IconsFlow:</span> Huge library of ready-to-use icons that can be converted to favicons 📚</li>
-       </ul>
-     </div>
-
-     <!-- Social Media Tools -->
-     <div class="bg-white/70 p-4 rounded">
-       <h4 class="font-semibold mb-3">Social Media Integration Tools 🔗</h4>
-       <ul class="list-disc pl-4 space-y-3">
-         <li><span class="font-semibold">Font Awesome:</span> Massive library of social media icons with easy implementation 💫</li>
-         <li><span class="font-semibold">Social Share UI:</span> Ready-to-use beautiful social share buttons 🎯</li>
-         <li><span class="font-semibold">AddThis:</span> Simple tool for adding floating social share buttons 📌</li>
-         <li><span class="font-semibold">ShareThis:</span> Customizable social media buttons with analytics 📊</li>
-       </ul>
-     </div>
-   </div>
-
-   <!-- Smart Workflow Tips -->
-   <div class="bg-gradient-to-r from-violet-50 to-purple-50 dark:from-violet-900/30 dark:to-purple-900/30 p-6 rounded-xl mb-6">
-     <h3 class="text-2xl font-semibold mb-4 text-center">Work Smart, Not Hard! 🧠</h3>
-     
-     <!-- Time-Saving Tips -->
-     <div class="bg-white/70 p-4 rounded mb-4">
-       <h4 class="font-semibold mb-3">Quick Implementation Tips ⚡</h4>
-       <ul class="list-disc pl-4 space-y-3">
-         <li><span class="font-semibold">Use CDNs:</span> Link to Font Awesome or other icon libraries via CDN instead of downloading 🚀</li>
-         <li><span class="font-semibold">Browser Extensions:</span> Use favicon generators to create your favicons forexample https://www.favicon.io</li>
-         <li><span class="font-semibold">Code Snippets:</span> Save commonly used social media HTML/CSS patterns in your code editor 💾</li>
-         <li><span class="font-semibold">CSS Variables:</span> Use them for social media brand colors - update once, changes everywhere! 🎨</li>
-       </ul>
-     </div>
-
-     <!-- Automation Tips -->
-     <div class="bg-white/70 p-4 rounded">
-       <h4 class="font-semibold mb-3">Automation & Maintenance 🤖</h4>
-       <ul class="list-disc pl-4 space-y-3">
-         <li><span class="font-semibold">Link Checkers:</span> Use automated tools to regularly verify social media links 🔄</li>
-         <li><span class="font-semibold">Favicon Cache:</span> Use versioning in favicon URLs to handle updates (e.g., favicon.ico?v=2) 📦</li>
-         <li><span class="font-semibold">Browser DevTools:</span> Use them to quickly test different favicon sizes and social layouts 🛠️</li>
-         <li><span class="font-semibold">Git Version Control:</span> Track favicon and social media changes with clear commits 📝</li>
-       </ul>
-     </div>
-   </div>
-
-   <!-- Template Library Section -->
-   <div class="bg-gradient-to-r from-rose-50 to-pink-50 dark:from-rose-900/30 dark:to-pink-900/30 p-6 rounded-xl mb-6">
-     <h3 class="text-xl font-semibold mb-4">Ready-to-Use Templates 📋</h3>
-     <div class="bg-white/70 p-4 rounded">
-       <h4 class="font-semibold mb-3">Copy-Paste Solutions 📝</h4>
-       <div class="space-y-4">
-         <!-- Favicon Template -->
-         <div class="bg-gray-50 p-4 rounded-lg">
-           <p class="font-semibold mb-2">Complete Favicon HTML: 🔖</p>
-           <pre class="text-sm overflow-x-auto">
-&lt;!-- Place in head section -->
-&lt;link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-&lt;link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-&lt;link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-&lt;link rel="manifest" href="/site.webmanifest">
-           </pre>
-         </div>
-
-         <!-- Social Media Template -->
-         <div class="bg-gray-50 p-4 rounded-lg">
-           <p class="font-semibold mb-2">Social Media Links with Font Awesome: 🔗</p>
-           <pre class="text-sm overflow-x-auto">
-&lt;!-- Add Font Awesome CDN in head -->
-&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-&lt;!-- Social Media Links -->
-&lt;div class="social-links">
- &lt;a href="https://twitter.com/yourhandle" target="_blank" rel="noopener" class="twitter">
-   &lt;i class="fab fa-twitter">&lt;/i>
- &lt;/a>
- &lt;a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" class="instagram">
-   &lt;i class="fab fa-instagram">&lt;/i>
- &lt;/a>
-&lt;/div>
-           </pre>
-         </div>
-       </div>
-     </div>
-   </div>
-
-   <!-- Quick CSS Snippets -->
-   <div class="bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-emerald-900/30 dark:to-teal-900/30 p-6 rounded-xl">
-     <h3 class="text-xl font-semibold mb-4">Quick CSS Effects ✨</h3>
-     <div class="bg-white/70 p-4 rounded">
-       <pre class="text-sm overflow-x-auto bg-gray-50 p-4 rounded-lg">
-/* Social Media Hover Effects */
-.social-links a {
- transition: transform 0.3s ease;
- display: inline-block;
- margin: 0 10px;
-}
-
-.social-links a:hover {
- transform: translateY(-3px);
-}
-
-/* Social Media Brand Colors */
-:root {
- --twitter-color: #1DA1F2;
- --instagram-color: #E4405F;
- --facebook-color: #1877F2;
- --linkedin-color: #0A66C2;
-}
-       </pre>
-     </div>
-   </div>
-
-   <!-- Final Tips -->
-   <div class="mt-6 text-center">
-     <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Implement? 🚀</p>
-     <p class="text-lg mt-2">Use these tools and tips to save time and create professional results! 💫</p>
-   </div>
-</div>`,     
+        "content": `<div class="space-y-6">
+        <h2 class="text-2xl font-bold">Make Your Website Professional with Favicons & Social Links! 🎨</h2>
+        
+        <!-- Favicon Introduction Section -->
+        <div class="bg-gradient-to-r from-amber-50 to-yellow-50 dark:from-amber-900/30 dark:to-yellow-900/30 p-6 rounded-xl mb-6">
+          <h3 class="text-2xl font-semibold mb-4 text-center">What's a Favicon? 🤔</h3>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded">
+            <p class="mb-4">A favicon is that tiny icon you see in your browser tab - it's like your website's tiny logo! It helps visitors:</p>
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Find your site quickly in their bookmarks 🔖</li>
+              <li>Identify your tab among many others 👀</li>
+              <li>Remember your brand better 🎯</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Favicon Creation Section -->
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/30 dark:to-indigo-900/30 p-6 rounded-xl mb-6">
+          <h3 class="text-xl font-semibold mb-4">Creating Your Perfect Favicon ✨</h3>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded">
+            <p class="mb-4">Let's make your favicon shine:</p>
+            <ul class="list-disc pl-4 space-y-2">
+              <li><span class="font-semibold">Size Matters:</span> Create multiple sizes (16x16, 32x32, 48x48 pixels) 📏</li>
+              <li><span class="font-semibold">File Format:</span> Save as .ico, .png, or both for best compatibility 🖼️</li>
+              <li><span class="font-semibold">Keep it Simple:</span> Use clear, simple designs that look good small 🎨</li>
+              <li><span class="font-semibold">Brand Match:</span> Match your website's colors and style 🎯</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Favicon Implementation Section -->
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Adding Your Favicon to Your Website 🛠️</h5>
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
+              <p class="mb-4">Add these lines to your HTML <head> Embed section:</p>
+              <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg font-mono text-sm">
+                <pre>
+        &lt;link rel="icon" type="image/x-icon" href="/favicon.ico"&gt;
+        &lt;link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"&gt;
+        &lt;link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"&gt;
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Social Media Links Introduction -->
+        <div class="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/30 dark:to-pink-900/30 p-6 rounded-xl mb-6">
+          <h3 class="text-xl font-semibold mb-4">Adding Social Media Links 🌐</h3>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded">
+            <p class="mb-4">Connect with your audience across platforms:</p>
+            <ul class="list-disc pl-4 space-y-2">
+              <li><span class="font-semibold">Choose Your Platforms:</span> Pick the ones your audience uses most 🎯</li>
+              <li><span class="font-semibold">Consistent Branding:</span> Use the same profile name everywhere 🏷️</li>
+              <li><span class="font-semibold">Keep Updated:</span> Ensure all links work and profiles are active 🔄</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Social Media Implementation -->
+        <div class="bg-white/50 p-6 rounded-lg mb-6">
+          <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
+            <h5 class="font-semibold">Styling Your Social Links 🎨</h5>
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
+              <p class="mb-4">Here's a beautiful way to add social media icons. Copy and paste this code in the using the Embed Component:</p>
+              <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg font-mono text-sm">
+                <pre>
+        &lt;div class="social-links"&gt;
+        &lt;a href="https://twitter.com/yourhandle" class="social-icon twitter"&gt;
+        &lt;i class="fab fa-twitter"&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;a href="https://instagram.com/yourhandle" class="social-icon instagram"&gt;
+        &lt;i class="fab fa-instagram"&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;a href="https://linkedin.com/in/yourprofile" class="social-icon linkedin"&gt;
+        &lt;i class="fab fa-linkedin"&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;/div&gt;
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Best Practices Section -->
+        <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Best Practices for Social Links! 📌</h5>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Place social icons where they're easy to find 👀</li>
+              <li>Use recognizable icons and colors 🎨</li>
+              <li>Make sure links open in new tabs 🔗</li>
+              <li>Test all links regularly 🔍</li>
+              <li>Consider mobile-friendly placement 📱</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Common Mistakes Section -->
+        <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
+          <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Using outdated social media icons 🚫</li>
+              <li>Broken or incorrect links 🔗</li>
+              <li>Too many social platforms (focus on the important ones!) 📊</li>
+              <li>Poor icon placement or visibility 👀</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Advanced Tips -->
+        <div class="bg-emerald-50 dark:bg-emerald-800 p-4 rounded-lg">
+          <h5 class="font-semibold">Pro Tips! 💡</h5>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
+            <ul class="list-disc pl-4 space-y-2">
+              <li>Add hover effects to make icons interactive ✨</li>
+              <li>Consider using social share buttons for content 🔄</li>
+              <li>Track social media traffic in analytics 📊</li>
+              <li>Update favicon when rebranding 🎨</li>
+            </ul>
+          </div>
+        </div>
+        <!-- New Tools & Resources Section -->
+        <div class="bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-teal-900/30 dark:to-cyan-900/30 p-6 rounded-xl mb-6">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Awesome Tools & Resources! 🛠️</h3>
+          
+          <!-- Favicon Tools -->
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mb-4">
+            <h4 class="font-semibold mb-3">Favicon Generators & Tools 🎨</h4>
+            <ul class="list-disc pl-4 space-y-3">
+              <li><span class="font-semibold">Favicon.io:</span> Super easy converter for PNG to ICO - supports text, image, and emoji to favicon! 🔄</li>
+              <li><span class="font-semibold">RealFaviconGenerator:</span> Creates all sizes and formats you'll need, plus generates the perfect HTML code 📱</li>
+              <li><span class="font-semibold">Canva:</span> Design your favicon with a user-friendly interface before converting 🎨</li>
+              <li><span class="font-semibold">IconsFlow:</span> Huge library of ready-to-use icons that can be converted to favicons 📚</li>
+            </ul>
+          </div>
+        
+          <!-- Social Media Tools -->
+          <div class="bg-white dark:bg-gray-800 p-4 rounded">
+            <h4 class="font-semibold mb-3">Social Media Integration Tools 🔗</h4>
+            <ul class="list-disc pl-4 space-y-3">
+              <li><span class="font-semibold">Font Awesome:</span> Massive library of social media icons with easy implementation 💫</li>
+              <li><span class="font-semibold">Social Share UI:</span> Ready-to-use beautiful social share buttons 🎯</li>
+              <li><span class="font-semibold">AddThis:</span> Simple tool for adding floating social share buttons 📌</li>
+              <li><span class="font-semibold">ShareThis:</span> Customizable social media buttons with analytics 📊</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Smart Workflow Tips -->
+        <div class="bg-gradient-to-r from-violet-50 to-purple-50 dark:from-violet-900/30 dark:to-purple-900/30 p-6 rounded-xl mb-6">
+          <h3 class="text-2xl font-semibold mb-4 text-center">Work Smart, Not Hard! 🧠</h3>
+          
+          <!-- Time-Saving Tips -->
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mb-4">
+            <h4 class="font-semibold mb-3">Quick Implementation Tips ⚡</h4>
+            <ul class="list-disc pl-4 space-y-3">
+              <li><span class="font-semibold">Use CDNs:</span> Link to Font Awesome or other icon libraries via CDN instead of downloading 🚀</li>
+              <li><span class="font-semibold">Browser Extensions:</span> Use favicon generators to create your favicons forexample https://www.favicon.io</li>
+              <li><span class="font-semibold">Code Snippets:</span> Save commonly used social media HTML/CSS patterns in your code editor 💾</li>
+              <li><span class="font-semibold">CSS Variables:</span> Use them for social media brand colors - update once, changes everywhere! 🎨</li>
+            </ul>
+          </div>
+        
+          <!-- Automation Tips -->
+          <div class="bg-white dark:bg-gray-800 p-4 rounded">
+            <h4 class="font-semibold mb-3">Automation & Maintenance 🤖</h4>
+            <ul class="list-disc pl-4 space-y-3">
+              <li><span class="font-semibold">Link Checkers:</span> Use automated tools to regularly verify social media links 🔄</li>
+              <li><span class="font-semibold">Favicon Cache:</span> Use versioning in favicon URLs to handle updates (e.g., favicon.ico?v=2) 📦</li>
+              <li><span class="font-semibold">Browser DevTools:</span> Use them to quickly test different favicon sizes and social layouts 🛠️</li>
+              <li><span class="font-semibold">Git Version Control:</span> Track favicon and social media changes with clear commits 📝</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Template Library Section -->
+        <div class="bg-gradient-to-r from-rose-50 to-pink-50 dark:from-rose-900/30 dark:to-pink-900/30 p-6 rounded-xl mb-6">
+          <h3 class="text-xl font-semibold mb-4">Ready-to-Use Templates 📋</h3>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded">
+            <h4 class="font-semibold mb-3">Copy-Paste Solutions 📝</h4>
+            <div class="space-y-4">
+              <!-- Favicon Template -->
+              <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg">
+                <p class="font-semibold mb-2">Complete Favicon HTML: 🔖</p>
+                <pre class="text-sm overflow-x-auto">
+        &lt;!-- Place in head section -->
+        &lt;link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        &lt;link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        &lt;link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        &lt;link rel="manifest" href="/site.webmanifest">
+                </pre>
+              </div>
+        
+              <!-- Social Media Template -->
+              <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg">
+                <p class="font-semibold mb-2">Social Media Links with Font Awesome: 🔗</p>
+                <pre class="text-sm overflow-x-auto">
+        &lt;!-- Add Font Awesome CDN in head -->
+        &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        
+        &lt;!-- Social Media Links -->
+        &lt;div class="social-links">
+        &lt;a href="https://twitter.com/yourhandle" target="_blank" rel="noopener" class="twitter">
+        &lt;i class="fab fa-twitter">&lt;/i>
+        &lt;/a>
+        &lt;a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" class="instagram">
+        &lt;i class="fab fa-instagram">&lt;/i>
+        &lt;/a>
+        &lt;/div>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Quick CSS Snippets -->
+        <div class="bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-emerald-900/30 dark:to-teal-900/30 p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-4">Quick CSS Effects ✨</h3>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded">
+            <pre class="text-sm overflow-x-auto bg-gray-50 dark:bg-gray-900 p-4 rounded-lg">
+        /* Social Media Hover Effects */
+        .social-links a {
+        transition: transform 0.3s ease;
+        display: inline-block;
+        margin: 0 10px;
+        }
+        
+        .social-links a:hover {
+        transform: translateY(-3px);
+        }
+        
+        /* Social Media Brand Colors */
+        :root {
+        --twitter-color: #1DA1F2;
+        --instagram-color: #E4405F;
+        --facebook-color: #1877F2;
+        --linkedin-color: #0A66C2;
+        }
+            </pre>
+          </div>
+        </div>
+        
+        <!-- Final Tips -->
+        <div class="mt-6 text-center">
+          <p class="text-xl font-bold text-blue-600 dark:text-blue-300">Ready to Implement? 🚀</p>
+          <p class="text-lg mt-2">Use these tools and tips to save time and create professional results! 💫</p>
+        </div>
+        </div>`,     
 "quiz": [
   {
     "question": "What is a favicon?",
