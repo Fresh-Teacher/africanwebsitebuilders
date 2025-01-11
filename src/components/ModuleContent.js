@@ -1957,7 +1957,7 @@ const defaultCourseModules = [
       <h5 class="font-semibold">Quick Start Guide 🚀</h5>
       <p class="mt-2">Just grab your favorite paragraph style and drop it right onto your canvas! You'll see some "Lorem Ipsum" placeholder text (you know, that fancy-looking Latin stuff that doesn't actually mean anything 😉). Here's how to make it your own:</p>
 
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <p class="font-semibold mb-2">Your Text Controls ⚙️</p>
         <ul class="list-disc pl-4 space-y-2">
           <li>Hit that "T" icon to start typing your actual content</li>
@@ -1990,7 +1990,7 @@ const defaultCourseModules = [
 
       <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Fun Ways to Mix & Match! 🎨</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <p class="font-semibold mb-2">Try These Cool Combos:</p>
         <ul class="list-disc pl-4 space-y-2">
           <li><span class="font-bold text-blue-600">Bold + Color</span> - For when you really, REALLY need attention!</li>
@@ -2005,7 +2005,7 @@ const defaultCourseModules = [
       <h5 class="font-semibold">Did You Know? ⌨️</h5>
       <p class="mt-2">Hold onto your keyboard, because these shortcuts are about to make you feel like a text-formatting ninja! 🐱‍👤</p>
 
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <p class="font-semibold mb-2">Keyboard Shortcuts That'll Make You Look Like a Computer Wizard! 👨‍💻 </p>
         <ul class="list-disc pl-4 space-y-2">
           <li><span class="font-mono">Ctrl/Cmd + B</span> - Bold text</li>
@@ -2022,7 +2022,7 @@ const defaultCourseModules = [
 
       <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Text Formatting Horror Stories 😱</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <p class="mb-2">Things We've All Done (But Shouldn't have! 🤦🤦‍♂️):</p>
         <ul class="list-disc pl-4 space-y-2">
           <li>Using ALL CAPS everywhere (Unless you're trying to scare someone! 👻)</li>
@@ -2034,7 +2034,7 @@ const defaultCourseModules = [
     
       <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
       <h5 class="font-semibold">Pro Tips from the Text Wizards 🧙‍♂️</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <ul class="list-disc pl-4 space-y-2">
           <li>Less is more! (Unless it's pizza 🍕, then more is more 😋)</li>
           <li>Save your work every 5 minutes (Or after every perfect formatting combination you feel proud of! 😌)</li>
@@ -2047,7 +2047,7 @@ const defaultCourseModules = [
     <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mt-4">
     <h5 class="font-semibold">Emergency Formatting Kit! 🚨</h5>
     <p class="mt-2">Keep these handy when things go wrong (and they will, trust us!):</p>
-    <div class="bg-white/70 p-4 rounded mt-4">
+    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <ul class="list-disc pl-4 space-y-2">
         <li>The Clear Formatting button - Your "start over" bestie! 🤗</li>
         <li>Ctrl/Cmd + Z - Your time machine to better choices</li>
@@ -2197,7 +2197,7 @@ const defaultCourseModules = [
         <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Getting Started with Media 🎬</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <p class="mb-4">Super easy steps to add media to your site:</p>
             <ol class="list-decimal pl-4 space-y-2">
               <li>Head over to the components menu</li>
@@ -2230,7 +2230,7 @@ const defaultCourseModules = [
 
       <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Adding YouTube & Vimeo Videos 🎥</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <p class="mb-4">Let's get those videos rolling! Here's how:</p>
           <ol class="list-decimal pl-4 space-y-2">
             <li>Drag that YouTube/Vimeo component right onto your canvas</li>
@@ -2275,7 +2275,7 @@ const defaultCourseModules = [
   
         <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Media Mistakes to Avoid! 🙅🏿</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
               <li>Super huge photo file sizes. First compress them before uploading (Nobody likes waiting forever! ⏳)</li>
               <li>Forgetting alt text (Keep it accessible! 🎯)</li>
@@ -2286,7 +2286,7 @@ const defaultCourseModules = [
   
         <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
           <h5 class="font-semibold">Pro Tips from Media Masters 🧙‍♂️</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
               <li>Compress before upload (Your users' data plans will thank you! 📱)</li>
               <li>Use responsive sizes (Look good on all screens! 💻)</li>
@@ -2432,7 +2432,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Let's Get Started with Grids! 📏</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Don't worry - creating beautiful layouts is easier than you think! Here's how:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Head over to the components menu on your left - you'll find everything you need there</li>
@@ -2470,7 +2470,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Populating Your Grid - Make It Come Alive! 🎯</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Here's how to make your grid come to life:</p>
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Pick a grid that matches your vision - trust your instincts!</li>
@@ -2490,7 +2490,7 @@ const defaultCourseModules = [
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Secret Grid Wizardry: Pro Tips from the Layout Legends! 🧙‍♂️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Start simple! Rome wasn't built in a day, and neither should your grid layout be! (Though our drag-and-drop is WAY faster than building Rome!) 🏛️</li>
             <li>Think mobile-first! Your grid should look stunning on everything from a smartphone to a smart fridge! 📱</li>
@@ -2642,7 +2642,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Why Should You Care About Headings? 🤔</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Let me tell you why headings are totally awesome:</p>
                 <ul class="list-disc pl-4 space-y-2">
                   <li>They make your content super easy to read (no more walls of text!) ✨</li>
@@ -2743,7 +2743,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Quick Tips to Nail Your Headings! 💡</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Keep them short and precise - no novels in your headings! 📚</li>
                 <li>Make them fun but clear - we're not writing riddles here! 🎯</li>
@@ -2756,7 +2756,7 @@ const defaultCourseModules = [
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Oops! Don't Do These Things! 🙈</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Using multiple H1s (that's like having too many cooks in the kitchen! And too many cooks...spoil the website! 👩‍🍳)</li>
                 <li>Writing super long headings (save the storytelling for your content! 📖)</li>
@@ -2767,7 +2767,7 @@ const defaultCourseModules = [
       
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
       <h5 class="font-semibold">SEO Optimization for Headings</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <ul class="list-disc pl-4 space-y-2">
           <li>Incorporate relevant keywords naturally</li>
           <li>Ensure heading content matches user intent</li>
@@ -2778,7 +2778,7 @@ const defaultCourseModules = [
     </div>
     <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
     <h5 class="font-semibold">Mind-Blowing Heading Facts! 🤯</h5>
-    <div class="bg-white/70 p-4 rounded mt-4">
+    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <ul class="list-disc pl-4 space-y-3">
         <li>
           <span class="font-semibold">The Counter-Intuitive Numbering:</span> Many newcomers to HTML assume H6 is larger than H1 (I mean, 6 is bigger than 1, right?). But nope! H1 is actually the big boss! This convention comes from document outlining, where "1" represents the main title and subsequent numbers represent increasingly detailed subsections.
@@ -2796,7 +2796,7 @@ const defaultCourseModules = [
 
   <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
     <h5 class="font-semibold">Myth Busters: Heading Edition! 🔍</h5>
-    <div class="bg-white/70 p-4 rounded mt-4">
+    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <div class="space-y-4">
         <div class="border-l-4 border-orange-300 pl-4">
           <p class="font-semibold">Myth: "More headings = better SEO"</p>
@@ -2823,7 +2823,7 @@ const defaultCourseModules = [
 
   <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
     <h5 class="font-semibold">Pro Tips & Tricks 🎯</h5>
-    <div class="bg-white/70 p-4 rounded mt-4">
+    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <div class="space-y-4">
         <div class="border-l-4 border-indigo-300 pl-4">
           <p class="font-semibold">The 3-Second Rule</p>
@@ -2977,7 +2977,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Alright, Let's Get This Party Started! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Trust me, this is going to be super easy - here's what you do:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Pop over to the Components section</li>
@@ -3011,7 +3011,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Here's How to Make Changes (It's a Piece of Cake!) ✨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Ready? This is super straightforward:</p>
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Click your icon (you know, the one you just dropped in)</li>
@@ -3031,7 +3031,7 @@ const defaultCourseModules = [
 
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🤓 Fun Facts About Icons! (Bet You Didn't Know These!)</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
           <li>The word "icon" comes from the Greek word "eikōn" meaning "image" or "likeness" - fancy, right? 🎨</li>
           <li>The first computer icon was created in 1981 at Xerox - and look how far we've come! 💻</li>
@@ -3046,7 +3046,7 @@ const defaultCourseModules = [
 
       <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🎯 Icon Accessibility Tips</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
           <li>Always add alt text to your icons - screen readers need love too! 🗣️</li>
           <li>Make sure your icon colors have enough contrast - visibility matters! 👀</li>
@@ -3058,7 +3058,7 @@ const defaultCourseModules = [
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Quick Tips from Your Icon-Loving Friend! 🧙‍♂️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Try out different sizes - sometimes what looks perfect in your head needs a little tweaking! 📏</li>
             <li>Made something clickable? Give it a test click - better safe than sorry! 🔗</li>
@@ -3209,7 +3209,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Let's Get Your Map Up and Running! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Adding a map is easier than folding one (remember those days? 😅)</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Head over to Components </li>
@@ -3243,7 +3243,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Let's Make It Informative! 📝</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Time to tell your story on the map:</p>
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Click the Map option </li>
@@ -3262,7 +3262,7 @@ const defaultCourseModules = [
 
         <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🤓 Fun Map Facts!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Did you know? The first digital map was created in 1967! We've come a long way from paper maps! 🗺️</li>
             <li>A good map can increase your website visits by helping people find you IRL (In Real Life)! 📈</li>
@@ -3274,7 +3274,7 @@ const defaultCourseModules = [
 
         <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🎯 Map Best Practices</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Keep your info box short and sweet - nobody's reading a novel on a map! 📝</li>
             <li>Update your address if you move - obvious, but easy to forget! 🏠</li>
@@ -3422,7 +3422,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">First Things First: Getting Your List Ready! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Let me walk you through getting started - it's easy peasy, I promise! 🤞</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Head over to the Components section</li>
@@ -3491,7 +3491,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Super Helpful Tips! 💡</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Not sure which tool to use? Hover over each icon - a helpful tooltip will appear! 🎈</li>
                 <li>Made a mistake? Don't panic! You can always clone your list before making big changes </li>
@@ -3636,7 +3636,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Getting Started with Embeds! 🎯</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Hey there, future code wizard! Let's get you started with embeds - it's super easy:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Head over to the Components section (that's where the good stuff is!)</li>
@@ -3658,11 +3658,11 @@ const defaultCourseModules = [
       
           <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-6">
           <h5 class="font-semibold">Quick Guide to add Media Elements 📱</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <div class="space-y-6">
               <!-- Image Section -->
               <div class="bg-gray-100 p-4 rounded">
-                <p class="text-gray-700 mb-2">📸 Images: A picture's worth a thousand words!</p>
+                <p class="text-gray-700 dark:text-gray-200 mb-2">📸 Images: A picture's worth a thousand words!</p>
                 <code class="text-sm block">
                   &lt;!-- Basic responsive image --&gt;<br/>
                   &lt;img 
@@ -3684,7 +3684,7 @@ const defaultCourseModules = [
          
               <!-- Video Section -->
               <div class="bg-gray-100 p-4 rounded">
-                <p class="text-gray-700 mb-2">🎥 Videos: When still images just won't cut it!</p>
+                <p class="text-gray-700 dark:text-gray-200 mb-2">🎥 Videos: When still images just won't cut it!</p>
                 <code class="text-sm block">
                   &lt;!-- Video with all the bells & whistles --&gt;<br/>
                   &lt;video 
@@ -3710,7 +3710,7 @@ const defaultCourseModules = [
          
               <!-- Audio Section -->
               <div class="bg-gray-100 p-4 rounded">
-                <p class="text-gray-700 mb-2">🎵 Audio: Let's make some noise!</p>
+                <p class="text-gray-700 dark:text-gray-200 mb-2">🎵 Audio: Let's make some noise!</p>
                 <code class="text-sm block">
                   &lt;!-- Audio player with fallbacks --&gt;<br/>
                   &lt;audio 
@@ -3732,7 +3732,7 @@ const defaultCourseModules = [
       
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-6">
             <h5 class="font-semibold">CSS - Making Things Pretty! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Time to add some style to your life! With CSS you can:</p>
               <ul class="list-disc pl-4 space-y-2">
                 <li>Paint your elements with gorgeous colors</li>
@@ -3760,7 +3760,7 @@ const defaultCourseModules = [
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🤓 Did You Know? Fun Code Facts!</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
               <li>The first web embed was a simple hit counter in the 90s - now look how far we've come! 📊</li>
               <li>JavaScript was created in just 10 days! Talk about a speedrun! 🏃‍♂️</li>
@@ -3775,7 +3775,7 @@ const defaultCourseModules = [
     
         <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🔍 Myth Busters: Code Edition!</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <div class="space-y-4">
               <div class="border-b pb-4">
                 <p class="font-semibold">Myth: "You need to be a math genius to code" 🔢</p>
@@ -3807,7 +3807,7 @@ const defaultCourseModules = [
 
         <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Web Dev Abbreviations 📚</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
           <li><span class="font-bold">HTML</span> - HyperText Markup Language</li>
           <li><span class="font-bold">CSS</span> - Cascading Style Sheets</li>
@@ -3946,7 +3946,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Getting Started with Your Nav Bar! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Let's build your perfect navigation bar:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Go to Blocks and find the Navigation section</li>
@@ -3961,7 +3961,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Add Links to Your Nav Bar! 🔗</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Click the button you want to link</li>
                   <li>Click the cog icon in the menu</li>
@@ -3975,7 +3975,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Style Your Nav Bar Elements! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Click any nav bar element</li>
                 <li>Click the cog icon</li>
@@ -3994,7 +3994,7 @@ const defaultCourseModules = [
 
         <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🤓 Nav Bar Facts!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Users spend 6.48 seconds on average looking at your navigation! Make it count! ⏱️</li>
             <li>Clear navigation can reduce bounce rates by up to 30%! 📈</li>
@@ -4006,7 +4006,7 @@ const defaultCourseModules = [
 
         <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🎯 Navigation Best Practices</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Keep menu items short and clear - no fancy words needed! 📝</li>
             <li>Test all your links before going live! 🔗</li>
@@ -4162,7 +4162,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Let's Get Started! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Creating your perfect CTA is super fun! Here's how:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Skip over to the Blocks Section</li>
@@ -4177,7 +4177,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Make It Pretty! 🎨</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Time to style your CTA (the fun part!):</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Click the friendly cog icon</li>
@@ -4199,7 +4199,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Add Some Eye-Candy! 🖼️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Let's add a gorgeous image:</p>
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Click "Background Image" (exciting!)</li>
@@ -4217,7 +4217,7 @@ const defaultCourseModules = [
 
         <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Make Your Text Pop! 📝</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Click that handy cog icon again</li>
                 <li>Choose between:
@@ -4245,7 +4245,7 @@ const defaultCourseModules = [
 
         <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Pro Tips for Success! 💫</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Keep your message short and sweet - nobody likes to read an essay! 📝</li>
             <li>Use contrasting colors to make your button pop! 🎨</li>
@@ -4257,7 +4257,7 @@ const defaultCourseModules = [
 
           <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Pro Tips for Success! 💫</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
           <li>Keep your button text between 2-5 words - short and punchy wins the race! 🎯</li>
           <li>Start with action verbs - they're like little motivational speakers! 🗣️</li>
@@ -4271,7 +4271,7 @@ const defaultCourseModules = [
 
       <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Amazing CTA Facts! 🤓</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
           <li>Personalized CTAs perform significantly better than generic ones! 📈</li>
           <li>Adding CTAs to your articles can seriously boost engagement! 🎉</li>
@@ -4283,7 +4283,7 @@ const defaultCourseModules = [
     
         <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Quick Checklist for Perfect CTAs! ✅</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
           <li>✓ Used an action verb to start your CTA text?</li>
           <li>✓ Kept the text between 2-5 words?</li>
@@ -4445,7 +4445,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
           <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">First Things First - The Essentials! 📝</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Here's what makes a contact form truly effective:</p>
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Keep it simple - nobody likes filling out long forms!</li>
@@ -4463,7 +4463,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
           <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Quick Setup Guide! 🚀</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Find Contact under Blocks</li>
                 <li>Choose your preferred template</li>
@@ -4477,7 +4477,7 @@ const defaultCourseModules = [
         <div class="bg-white/50 p-6 rounded-lg mb-6">
           <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Styling Options! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li><span class="font-semibold">Background:</span> Colors, images, overlays</li>
                 <li><span class="font-semibold">Spacing:</span> Custom padding options</li>
@@ -4490,7 +4490,7 @@ const defaultCourseModules = [
   
         <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Essential Tools! 🛠️</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
               <li><span class="font-semibold">⚙️ Settings:</span> Customize design & functionality</li>
               <li><span class="font-semibold">🔄 Clone:</span> Copy your contact section</li>
@@ -4501,7 +4501,7 @@ const defaultCourseModules = [
   
         <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Pro Tips! 💫</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
               <li>Test form submissions before going live 📧</li>
               <li>Keep mobile users in mind when spacing fields</li>
@@ -4516,7 +4516,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Must-Have Form Fields! 🎯</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                   <li><span class="font-semibold">Name field:</span> Make it personal!</li>
                   <li><span class="font-semibold">Email address:</span> Keep in touch!</li>
@@ -4668,7 +4668,7 @@ const defaultCourseModules = [
      <div class="bg-white/50 p-6 rounded-lg mb-6">
        <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
          <h5 class="font-semibold">Let's Get This Party Started! 🎉</h5>
-         <div class="bg-white/70 p-4 rounded mt-4">
+         <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
            <p class="mb-4">Ready for some website magic? Here's your game plan:</p>
            <ol class="list-decimal pl-4 space-y-2">
              <li>Head over to 'Blocks' (it's like your digital toybox! 🧸)</li>
@@ -4702,7 +4702,7 @@ const defaultCourseModules = [
  
      <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
        <h5 class="font-semibold">Want to Add Some Videos? Easy Peasy! 🎬</h5>
-       <div class="bg-white/70 p-4 rounded mt-4">
+       <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
          <p class="mb-4">Here's how to be a video wizard:</p>
          <ol class="list-decimal pl-4 space-y-2">
            <li>Grab that YouTube/Vimeo box and drop it wherever you want!</li>
@@ -4715,7 +4715,7 @@ const defaultCourseModules = [
 
      <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
      <h5 class="font-semibold">🕵️‍♂️ Video ID Treasure Hunt!</h5>
-     <div class="bg-white/70 p-4 rounded mt-4">
+     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
      <ul class="list-disc pl-4 space-y-2">
      <li>For YouTube Videos:
        <br>You: "Help! My URL is https://www.youtube.com/watch?v=JYvPnkp8500"
@@ -4733,7 +4733,7 @@ const defaultCourseModules = [
 
  <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
      <h5 class="font-semibold">🌟 Pro Tips from Your Website BFF!</h5>
-     <div class="bg-white/70 p-4 rounded mt-4">
+     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
      <ul class="list-disc pl-4 space-y-2">
      <li>Keep things organized - your visitors will thank you! 🙏</li>
      <li>Headings are like signposts - use them to guide the way! 🗺️</li>
@@ -4745,7 +4745,7 @@ const defaultCourseModules = [
  
      <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
        <h5 class="font-semibold">Quick Tips for the Win! 🏆</h5>
-       <div class="bg-white/70 p-4 rounded mt-4">
+       <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
        <ul class="list-disc pl-4 space-y-2">
        <li>Check how it looks on your phone - because everyone's scrolling these days! 📱</li>
        <li>Make sure those videos play nice - nobody likes a frozen screen! 🎥</li>
@@ -4899,7 +4899,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Getting Started with Countdowns! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Here's your guide to creating effective countdown timers:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Choose timer format</li>
@@ -4914,7 +4914,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Essential Elements! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                   <li><span class="font-semibold">Timer display:</span> Clear digits!</li>
                   <li><span class="font-semibold">Labels:</span> Time units</li>
@@ -4927,7 +4927,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Design Best Practices! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Use clear typography</li>
                 <li>Add visual separators</li>
@@ -4939,7 +4939,7 @@ const defaultCourseModules = [
       
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🤓 Countdown Psychology!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Urgency increases conversions by 70%! 👀</li>
                 <li>Visual timers boost engagement by 45%! 📊</li>
@@ -4951,7 +4951,7 @@ const defaultCourseModules = [
       
           <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🎯 Performance Tips</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Optimize animations 🖼️</li>
                 <li>Use requestAnimationFrame 🚀</li>
@@ -4963,7 +4963,7 @@ const defaultCourseModules = [
           
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Inaccurate timers</li>
                 <li>Missing time zones</li>
@@ -5120,7 +5120,7 @@ const defaultCourseModules = [
       
           <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Why Use Dividers? 🤔</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Create clear visual separation between sections 📏</li>
                 <li>Guide visitors' attention through your content 👀</li>
@@ -5133,7 +5133,7 @@ const defaultCourseModules = [
       
           <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Finding Your Perfect Divider 🔍</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Navigate to the blocks section</li>
                 <li>Click on the navigation option</li>
@@ -5152,7 +5152,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Customization Magic ✨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <div class="mb-6">
                 <p class="font-semibold mb-2">Text Customization:</p>
                 <ul class="list-disc pl-4 space-y-2">
@@ -5180,7 +5180,7 @@ const defaultCourseModules = [
       
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Background Brilliance 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Click the divider's outline</li>
                 <li>Select the cog icon</li>
@@ -5200,7 +5200,7 @@ const defaultCourseModules = [
       
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Pro Tips 🌟</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Design Tips:
                   <ul class="list-circle pl-6 mt-2">
@@ -5224,7 +5224,7 @@ const defaultCourseModules = [
       
           <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg">
             <h5 class="font-semibold">IMPORTANT REMINDERS! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Always apply changes to save your work! 💾</li>
                 <li>Preview on multiple screen sizes! 📱</li>
@@ -5366,7 +5366,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Getting Started with Embeds! 🎯</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Hey there, future code wizard! Let's get you started with embeds - it's super easy:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Head over to the Components section (that's where the good stuff is!)</li>
@@ -5461,7 +5461,7 @@ const defaultCourseModules = [
         </div>
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-6">
             <h5 class="font-semibold">CSS - Making Things Pretty! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Time to add some style to your life! With CSS you can:</p>
               <ul class="list-disc pl-4 space-y-2">
                 <li>Paint your elements with gorgeous colors</li>
@@ -5487,7 +5487,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-6">
             <h5 class="font-semibold">JavaScript - Where the Magic Happens! ✨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Now we're talking! JavaScript brings your embeds to life:</p>
               <ul class="list-disc pl-4 space-y-2">
                 <li>Add interactivity that responds to user actions</li>
@@ -5512,7 +5512,7 @@ const defaultCourseModules = [
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🤓 Did You Know? Fun Code Facts!</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
               <li>The first web embed was a simple hit counter in the 90s - now look how far we've come! 📊</li>
               <li>JavaScript was created in just 10 days! Talk about a speedrun! 🏃‍♂️</li>
@@ -5527,7 +5527,7 @@ const defaultCourseModules = [
     
         <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🔍 Myth Busters: Code Edition!</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <div class="space-y-4">
               <div class="border-b pb-4">
                 <p class="font-semibold">Myth: "You need to be a math genius to code" 🔢</p>
@@ -5559,7 +5559,7 @@ const defaultCourseModules = [
 
         <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Web Dev Abbreviations 📚</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
           <li><span class="font-bold">HTML</span> - HyperText Markup Language</li>
           <li><span class="font-bold">CSS</span> - Cascading Style Sheets</li>
@@ -5697,7 +5697,7 @@ const defaultCourseModules = [
    <div class="bg-white/50 p-6 rounded-lg mb-6">
      <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
        <h5 class="font-semibold">Let's Begin! 🚀</h5>
-       <div class="bg-white/70 p-4 rounded mt-4">
+       <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
          <p class="mb-4">Here's how to use feature templates:</p>
          <ol class="list-decimal pl-4 space-y-2">
            <li>Navigate to the Components section</li>
@@ -5731,7 +5731,7 @@ const defaultCourseModules = [
 
    <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
      <h5 class="font-semibold">Making Changes to Your Template ⚙️</h5>
-     <div class="bg-white/70 p-4 rounded mt-4">
+     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
        <p class="mb-4">Follow these steps to customize:</p>
        <ol class="list-decimal pl-4 space-y-2">
          <li>Select your feature template</li>
@@ -5751,7 +5751,7 @@ const defaultCourseModules = [
 
    <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
    <h5 class="font-semibold">📚 Tips for Great Feature Templates</h5>
-   <div class="bg-white/70 p-4 rounded mt-4">
+   <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
    <ul class="list-disc pl-4 space-y-2">
    <li>Keep your descriptions clear and concise 📝</li>
    <li>Use relevant icons that complement your content 🎯</li>
@@ -5765,7 +5765,7 @@ const defaultCourseModules = [
 
 <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
    <h5 class="font-semibold">🎯 Best Practices</h5>
-   <div class="bg-white/70 p-4 rounded mt-4">
+   <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
    <ul class="list-disc pl-4 space-y-2">
    <li>Use clear and descriptive headings 📖</li>
    <li>Maintain consistent formatting throughout 📋</li>
@@ -5777,7 +5777,7 @@ const defaultCourseModules = [
 
    <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
      <h5 class="font-semibold">Quick Tips for Success! 💡</h5>
-     <div class="bg-white/70 p-4 rounded mt-4">
+     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
      <ul class="list-disc pl-4 space-y-2">
      <li>Preview your template on different screen sizes 📱</li>
      <li>Test all interactive elements before saving 🔍</li>
@@ -5928,7 +5928,7 @@ const defaultCourseModules = [
   
           <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Why Footers Matter </h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>They're your site's navigation hub - like a mini map for visitors! 🗺️</li>
                 <li>Perfect spot for contact info - make it easy for people to reach you! 📞</li>
@@ -5941,7 +5941,7 @@ const defaultCourseModules = [
   
           <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Finding Your Perfect Footer 👣</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ol class="list-decimal pl-4 space-y-2">
                 <li class="mb-4">Navigate to the blocks section </li>
                 <li class="mb-4">Click on the navigation option</li>
@@ -5961,7 +5961,7 @@ const defaultCourseModules = [
   
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Customization Station 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <div class="mb-6">
                 <p class="font-semibold mb-2">Basic Controls:</p>
                 <ul class="list-disc pl-4 space-y-2">
@@ -5998,7 +5998,7 @@ const defaultCourseModules = [
   
           <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Social Media Masterclass ✨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <div class="mb-6">
                 <p class="font-semibold mb-2">Icon Customization:</p>
                 <ol class="list-decimal pl-4 space-y-2">
@@ -6035,7 +6035,7 @@ const defaultCourseModules = [
   
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Footer Content Ideas 💡</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Essential Links:
                   <ul class="list-circle pl-6 mt-2">
@@ -6059,7 +6059,7 @@ const defaultCourseModules = [
   
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Common Footer Mistakes to Avoid! 🚫</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Too much information (don't overwhelm! 😵)</li>
                 <li>Broken links (test everything! 🔍)</li>
@@ -6072,7 +6072,7 @@ const defaultCourseModules = [
   
           <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Pro Tips & Tricks 🧙‍♂️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Layout Tips:
                   <ul class="list-circle pl-6 mt-2">
@@ -6104,7 +6104,7 @@ const defaultCourseModules = [
   
           <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg">
             <h5 class="font-semibold">SUPER IMPORTANT! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Always click 'Apply Changes' to save your work! 💾</li>
                 <li>Preview on mobile before publishing! 📱</li>
@@ -6246,7 +6246,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Let's Get Those Photos Rolling! 🚀</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <p class="mb-4">Creating your stunning gallery is easier than you think! Here's your step-by-step guide:</p>
                     <ol class="list-decimal pl-4 space-y-2">
                         <li>Head to the blocks section (that's where all the gallery templates live! ✨)</li>
@@ -6261,7 +6261,7 @@ const defaultCourseModules = [
         <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Making Your Gallery Gorgeous! 🌈</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <div class="space-y-6">
                         <div class="bg-white/50 p-4 rounded">
                             <h6 class="font-semibold mb-2">1. Style Settings Spectacular! 🎨</h6>
@@ -6375,7 +6375,7 @@ const defaultCourseModules = [
     
             <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Pro Tips for Gallery Greatness! 💫</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <ul class="list-disc pl-4 space-y-2">
                         <li>Keep image sizes consistent (neat and tidy wins the race! 📏)</li>
                         <li>Choose high-quality images (no fuzzy photos here! 🔍)</li>
@@ -6390,7 +6390,7 @@ const defaultCourseModules = [
     
             <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">⚠️ Don't Forget! Super Important! ⚠️</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <p class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Hit that "Apply Changes" button before you go! 💾</p>
                     <li>Preview your gallery before publishing 👀</li>
                     <li>Check all image links are working 🔗</li>
@@ -6531,7 +6531,7 @@ const defaultCourseModules = [
               "Your header is your website's handshake - make it firm, friendly, and memorable!" 
             </blockquote>
 
-            <div className="bg-white/70 p-4 rounded mt-4">
+            <div className="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <h4 class="text-xl font-semibold mb-4">Let's Create Your Header! ✨</h4>
             <p className="mb-4">Building the perfect header is just a few clicks away!</p>
             <ol className="list-decimal pl-4 space-y-2">
@@ -6542,7 +6542,7 @@ const defaultCourseModules = [
             </ol>
           </div>
 
-          <div className="bg-white/70 p-4 rounded mt-4">
+          <div className="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <h4 class="text-xl font-semibold mb-4">Customize Like a Pro! 🎨</h4>
           <p class="mb-2">Master these essential tools:</p>
           <ul class="list-disc pl-4 space-y-2">
@@ -6558,7 +6558,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
               <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Header Must-Haves! 🎯</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                   <p class="mb-4">Here's your header checklist for success:</p>
                   <ol class="list-decimal pl-4 space-y-2">
                     <li>Clear, visible logo or brand name</li>
@@ -6573,7 +6573,7 @@ const defaultCourseModules = [
       
             <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-6">
               <h5 class="font-semibold">Header Design Best Practices! 💡</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                   <li>Keep it clean and uncluttered</li>
                   <li>Ensure text is readable against the background</li>
@@ -6587,7 +6587,7 @@ const defaultCourseModules = [
       
             <div class="bg-fuchsia-50 dark:bg-fuchsia-800 p-4 rounded-lg mb-6">
               <h5 class="font-semibold">Header Components & Features 🛠️</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <div class="space-y-4">
                   <div class="border-b pb-4">
                     <p class="font-semibold">Navigation Elements 🧭</p>
@@ -6609,7 +6609,7 @@ const defaultCourseModules = [
       
             <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-6">
               <h5 class="font-semibold">Common Header Mistakes to Avoid! ⚠️</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                   <li>Too many menu items causing confusion</li>
                   <li>Poor contrast making text hard to read</li>
@@ -6622,7 +6622,7 @@ const defaultCourseModules = [
 
             <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
             <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Preview on mobile before saving 📱</li>
                 <li>Use consistent spacing throughout ⚡</li>
@@ -6765,7 +6765,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Let's Get Your Map Up and Running! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Adding a map is easier than folding one (remember those days? 😅)</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Head over to Components </li>
@@ -6799,7 +6799,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Let's Make It Informative! 📝</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <p class="mb-4">Time to tell your story on the map:</p>
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Click the Map option </li>
@@ -6818,7 +6818,7 @@ const defaultCourseModules = [
 
         <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🤓 Fun Map Facts!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Did you know? The first digital map was created in 1967! We've come a long way from paper maps! 🗺️</li>
             <li>A good map can increase your website visits by helping people find you IRL (In Real Life)! 📈</li>
@@ -6830,7 +6830,7 @@ const defaultCourseModules = [
 
         <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🎯 Map Best Practices</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Keep your info box short and sweet - nobody's reading a novel on a map! 📝</li>
             <li>Update your address if you move - obvious, but easy to forget! 🏠</li>
@@ -6978,7 +6978,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Getting Started with Your Nav Bar! 🚀</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Let's build your perfect navigation bar:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Go to the Components Section and find the Navigation section</li>
@@ -6993,7 +6993,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Add Links to Your Nav Bar! 🔗</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>Click the button you want to link</li>
                   <li>Click the cog icon in the menu</li>
@@ -7007,7 +7007,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Style Your Nav Bar Elements! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ol class="list-decimal pl-4 space-y-2">
                 <li>Click any nav bar element</li>
                 <li>Click the cog icon</li>
@@ -7026,7 +7026,7 @@ const defaultCourseModules = [
 
         <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🤓 Nav Bar Facts!</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Users spend 6.48 seconds on average looking at your navigation! Make it count! ⏱️</li>
             <li>Clear navigation can reduce bounce rates by up to 30%! 📈</li>
@@ -7038,7 +7038,7 @@ const defaultCourseModules = [
 
         <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">🎯 Navigation Best Practices</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
             <li>Keep menu items short and clear - no fancy words needed! 📝</li>
             <li>Test all your links before going live! 🔗</li>
@@ -7184,7 +7184,7 @@ const defaultCourseModules = [
           "Your pricing section isn't just about numbers - it's about showing value and building trust! 💫"
           </blockquote>
       
-          <div className="bg-white/70 p-4 rounded mt-4">
+          <div className="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <h4 class="text-xl font-semibold mb-4">Let's Build Your Pricing Section! 🚀</h4>
           <p className="mb-4">Creating the perfect pricing section is easier than you think! 😊</p>
           <ol className="list-decimal pl-4 space-y-2">
@@ -7195,7 +7195,7 @@ const defaultCourseModules = [
           </ol>
         </div>
 
-        <div className="bg-white/70 p-4 rounded mt-4">
+        <div className="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <h4 class="text-xl font-semibold mb-4">Customize Your Design! 🎨</h4>
           <p class="mb-2">Make it perfect with these steps:</p>
           <ul class="list-disc pl-4 space-y-2">
@@ -7211,7 +7211,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Pricing Best Practices! 💎</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                   <li>Highlight your recommended plan 🌟</li>
                   <li>Use clear, benefit-focused language</li>
@@ -7224,7 +7224,7 @@ const defaultCourseModules = [
       
           <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Style Your Success! 🎨</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Use contrasting colors for featured plans 🎨</li>
                 <li>Ensure mobile-responsive design 📱</li>
@@ -7235,7 +7235,7 @@ const defaultCourseModules = [
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Too many pricing tiers</li>
                 <li>Unclear feature descriptions</li>
@@ -7246,7 +7246,7 @@ const defaultCourseModules = [
           
           <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
             <h5 class="font-semibold">Pro Tips! 💫</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Update prices regularly ⚡</li>
                 <li>Add FAQ section below pricing 💭</li>
@@ -7388,7 +7388,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
                     <h5 class="font-semibold">Let's Get Started with Process Magic! 🚀</h5>
-                    <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                         <p class="mb-4">Creating your process section is a breeze! Here's how:</p>
                         <ol class="list-decimal pl-4 space-y-2">
                             <li>Hop over to the blocks section (where process templates live! ✨)</li>
@@ -7403,7 +7403,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
                     <h5 class="font-semibold">Your Text Control Center! 🎮</h5>
-                    <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                         <div class="space-y-6">
                             <div class="bg-white/50 p-4 rounded">
                                 <h6 class="font-semibold mb-2">1. Essential Controls ⚙️</h6>
@@ -7485,7 +7485,7 @@ const defaultCourseModules = [
     
             <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Cool Formatting Combos & Pro Tips! 🌟</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <div class="mb-4">
                         <p class="font-semibold">Awesome Combinations! 🎨</p>
                         <ul class="list-disc pl-4 space-y-2">
@@ -7510,7 +7510,7 @@ const defaultCourseModules = [
     
             <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">⚠️ Formatting Emergency Kit! 🚨</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <ul class="list-disc pl-4 space-y-2">
                         <li class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Clear Formatting: Your "start over" button!</li>
                         <li>Undo/Redo: Your time machine ⏰</li>
@@ -7523,7 +7523,7 @@ const defaultCourseModules = [
     
             <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">⚠️ Formatting Fails to Avoid! 😱</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <ul class="list-disc pl-4 space-y-2">
                         <li>ALL CAPS OVERLOAD! (Unless you're really excited! 🎉)</li>
                         <li>Rainbow text explosion! (Pick 2-3 colors max 🌈)</li>
@@ -7664,7 +7664,7 @@ const defaultCourseModules = [
           - Every Successful Website Owner
           </blockquote>
       
-          <div className="bg-white/70 p-4 rounded mt-4">
+          <div className="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <h4 class="text-xl font-semibold mb-4">Let's Build Your Perfect Form! 🚀</h4>
           <p className="mb-4">Creating forms is easier than filling them out (and way more fun! 😉)</p>
           <ol className="list-decimal pl-4 space-y-2">
@@ -7675,7 +7675,7 @@ const defaultCourseModules = [
           </ol>
         </div>
 
-        <div className="bg-white/70 p-4 rounded mt-4">
+        <div className="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <h4 class="text-xl font-semibold mb-4">Make It Your Own! 🎨</h4>
           <p class="mb-2">Time to customize (it's like decorating, but for forms!):</p>
           <ul class="list-disc pl-4 space-y-2">
@@ -7688,7 +7688,7 @@ const defaultCourseModules = [
         </div>
       </div>
 
-      <div className="bg-white/70 p-4 rounded mt-4">
+      <div className="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <h4 class="text-xl font-semibold mb-4">Perfect Your Email Form! 🎨</h4>
           <p class="mb-2">Focus on what matters:</p>
           <ul class="list-disc pl-4 space-y-2">
@@ -7704,7 +7704,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Form Best Practices! 📋</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                 <li>Just ask for the name email - nothing else! 🎯</li>
                   <li>Keep it simple - nobody likes a marathon form! 🏃‍♀️</li>
@@ -7719,7 +7719,7 @@ const defaultCourseModules = [
       
           <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Don't Forget! ☝️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Always save your changes - because redoing your perfect form is no fun! 💾</li>
                 <li>Test your form before going live - be your own first submission! ✅</li>
@@ -7861,7 +7861,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Getting Started with Slideshows 🎬</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Creating your first slideshow is a breeze! Here's how:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                   <li>First things first! Head over to the blocks section - that's where the fun begins!</li>
@@ -7882,7 +7882,7 @@ const defaultCourseModules = [
           <div class="bg-white/50 p-6 rounded-lg mb-6">
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
               <h5 class="font-semibold">Customizing Your Slideshow ✨</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Time to Make It Your Own! 🎨
                 Click the slideshow and look for the magic cog icon. You'll find three  customization menus:</p>
                 
@@ -7929,7 +7929,7 @@ const defaultCourseModules = [
       
           <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Pro Tips for Picture-Perfect Slideshows 💫</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Keep your image sizes consistent for smooth transitions</li>
                 <li>Use high-quality images that tell your story</li>
@@ -7941,7 +7941,7 @@ const defaultCourseModules = [
       
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Things to Keep in Mind 🤔</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
               <ul class="list-disc pl-4 space-y-2">
                 <li>Optimize your images for faster loading</li>
                 <li>Test how your slideshow looks on mobile devices</li>
@@ -8091,7 +8091,7 @@ const defaultCourseModules = [
         <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-teal-50 dark:bg-teal-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Getting Started: Your Journey to Subscribe Form Success! 🚀</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <p class="mb-4">Let's create a form that converts! Here's how:</p>
                 <ol class="list-decimal pl-4 space-y-2">
                     <li>Navigate to the blocks section (it's your form treasure chest! 💎)</li>
@@ -8113,7 +8113,7 @@ const defaultCourseModules = [
     <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-emerald-50 dark:bg-emerald-800 p-4 rounded-lg mb-4">
             <h5 class="font-semibold">Your Complete Form Editing Toolkit! 🛠️</h5>
-            <div class="bg-white/70 p-4 rounded mt-4">
+            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <div class="space-y-6">
                     <div class="bg-white/50 p-4 rounded">
                         <h6 class="font-semibold mb-2">1. The Magic Icons - Your Creative Control Center! ⚡</h6>
@@ -8168,7 +8168,7 @@ const defaultCourseModules = [
 
     <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Pro Tips for Subscribe Form Excellence! 💫</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
                 <li>Keep your form short and sweet (less fields = more signups! ✨)</li>
                 <li>Use eye-catching button colors (make it pop! 🎨)</li>
@@ -8184,7 +8184,7 @@ const defaultCourseModules = [
 
     <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">⚠️ Essential Reminders! Don't Forget! ⚠️</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <p class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Save Your Work - Click "Apply Changes"! 💾</p>
             <ul class="list-disc pl-4 mt-2 text-red-600 dark:text-red-400">
                 <li>Save after each major edit ✅</li>
@@ -8340,7 +8340,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
                     <h5 class="font-semibold">Getting Started is Super Easy! 🚀</h5>
-                    <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                         <p class="mb-4">Let's get your team looking fantastic! Here's how:</p>
                         <ol class="list-decimal pl-4 space-y-2">
                             <li>Pop over to the blocks section (where all the magic happens! ✨)</li>
@@ -8355,7 +8355,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
                     <h5 class="font-semibold">Customizing Your Team's Spotlight! 🎭</h5>
-                    <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                         <div class="space-y-6">
                             <div class="bg-white/50 p-4 rounded">
                                 <h6 class="font-semibold mb-2">1. Text Magic ✏️</h6>
@@ -8419,7 +8419,7 @@ const defaultCourseModules = [
     
             <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Pro Tips for Team Section Success! 💫</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <ul class="list-disc pl-4 space-y-2">
                         <li>Keep photos consistent in size and style (team unity looks great! 🤝)</li>
                         <li>Use high-quality images (your team deserves to look amazing! ✨)</li>
@@ -8432,7 +8432,7 @@ const defaultCourseModules = [
     
             <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">⚠️ Don't Forget! Super Important! ⚠️</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <p class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Always click that "Apply Changes" button to save your work! 💾</p>
                     <p class="mt-2">We don't want to lose any of your awesome customizations!</p>
                 </div>
@@ -8561,7 +8561,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
                     <h5 class="font-semibold">Getting Started is a Breeze! 🚀</h5>
-                    <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                         <p class="mb-4">Let's showcase those amazing reviews! Here's how:</p>
                         <ol class="list-decimal pl-4 space-y-2">
                             <li>Head to the blocks section (where the testimonial magic happens! ✨)</li>
@@ -8576,7 +8576,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
                     <h5 class="font-semibold">Making Those Reviews Look Amazing! 🌟</h5>
-                    <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                         <div class="space-y-6">
                             <div class="bg-white/50 p-4 rounded">
                                 <h6 class="font-semibold mb-2">1. Review Magic ✏️</h6>
@@ -8638,7 +8638,7 @@ const defaultCourseModules = [
     
             <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Pro Tips for Testimonial Excellence! 💫</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <ul class="list-disc pl-4 space-y-2">
                         <li>Keep testimonials short and sweet (punchy is perfect! 🎯)</li>
                         <li>Use high-quality customer photos (real people, real impact! ✨)</li>
@@ -8651,7 +8651,7 @@ const defaultCourseModules = [
     
             <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">⚠️ Quick Reminder! Don't Forget! ⚠️</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <p class="text-lg font-semibold text-red-600 dark:text-red-400">👉 Hit that "Apply Changes" button to save your masterpiece! 💾</p>
                     <p class="mt-2">Those amazing testimonials won't save themselves!</p>
                 </div>
@@ -8795,7 +8795,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Quick Start Guide! 🚀</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ol class="list-decimal pl-4 space-y-2">
               <li>Find Titles under the Blocks section</li>
               <li>Browse through different title designs</li>
@@ -8809,7 +8809,7 @@ const defaultCourseModules = [
       <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Customization Magic! 🎯</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <ul class="list-disc pl-4 space-y-2">
               <li><span class="font-semibold">Background:</span> Colors, overlays, and images!</li>
               <li><span class="font-semibold">Padding:</span> Perfect spacing above and below</li>
@@ -8822,7 +8822,7 @@ const defaultCourseModules = [
   
       <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Your Trusty Tools! 🛠️</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
             <li><span class="font-semibold">⚙️ Settings (Cog):</span> Customize everything about your title</li>
             <li><span class="font-semibold">🔄 Clone:</span> Duplicate your perfectly styled title</li>
@@ -8833,7 +8833,7 @@ const defaultCourseModules = [
 
       <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Pro Tips! 💫</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <ul class="list-disc pl-4 space-y-2">
             <li>Test parallax in preview mode for the full effect! 🎬</li>
             <li>Try different background positions for unique looks</li>
@@ -8845,7 +8845,7 @@ const defaultCourseModules = [
 
       <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Quick Style Guide! 🎨</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <ul class="list-disc pl-4 space-y-2">
           <li>Background Position Options:
             <ul class="list-disc pl-6 mt-2">
@@ -8861,7 +8861,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
               <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Title Writing Essentials! 🎯</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                   <p class="mb-4">Your title checklist for success:</p>
                   <ol class="list-decimal pl-4 space-y-2">
                     <li>Clear and concise messaging</li>
@@ -8876,7 +8876,7 @@ const defaultCourseModules = [
       
             <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-6">
               <h5 class="font-semibold">Title Types & Their Uses 📚</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <div class="space-y-4">
                   <div class="border-b pb-4">
                     <p class="font-semibold">Question Titles ❓</p>
@@ -8903,7 +8903,7 @@ const defaultCourseModules = [
       
             <div class="bg-amber-50 dark:bg-amber-800 p-4 rounded-lg mb-6">
               <h5 class="font-semibold">Title Writing Best Practices! 💡</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                   <li>Use power words that evoke emotion</li>
                   <li>Keep it under 60 characters for SEO</li>
@@ -8917,7 +8917,7 @@ const defaultCourseModules = [
       
             <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-6">
               <h5 class="font-semibold">Title Formatting Tips 🎨</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <div class="space-y-4">
                   <div class="border-b pb-4">
                     <p class="font-semibold">Typography 🔤</p>
@@ -8939,7 +8939,7 @@ const defaultCourseModules = [
       
             <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-6">
               <h5 class="font-semibold">Common Title Mistakes to Avoid! ⚠️</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                   <li>Clickbait that doesn't deliver</li>
                   <li>Keyword stuffing</li>
@@ -8953,7 +8953,7 @@ const defaultCourseModules = [
       
             <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-6">
               <h5 class="font-semibold">Title SEO Tips 🔍</h5>
-              <div class="bg-white/70 p-4 rounded mt-4">
+              <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                 <ul class="list-disc pl-4 space-y-2">
                   <li>Include primary keyword near the beginning</li>
                   <li>Use numbers and power words</li>
@@ -9092,7 +9092,7 @@ const defaultCourseModules = [
       <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Ready to Pop? Here's How! 🎈</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <p class="mb-4">It's as easy as pie! Check this out:</p>
             <ol class="list-decimal pl-4 space-y-2">
               <li>Hop over to 'Blocks' (that's where the magic happens! ✨)</li>
@@ -9126,7 +9126,7 @@ const defaultCourseModules = [
   
       <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Time to Make It Your Own! 🎨</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <p class="mb-4">Here's your super-quick editing toolkit:</p>
           <ol class="list-decimal pl-4 space-y-2">
             <li>Click any element you want to change 👆</li>
@@ -9146,7 +9146,7 @@ const defaultCourseModules = [
 
       <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">🌟 Pop-Up Pro Tips!</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <ul class="list-disc pl-4 space-y-2">
       <li>Keep your header short and sweet - like a candy bar! 🍫</li>
       <li>Write text that makes people feel special! ✨</li>
@@ -9158,7 +9158,7 @@ const defaultCourseModules = [
 
   <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">🎯 Making Pop-Ups People Love!</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <ul class="list-disc pl-4 space-y-2">
       <li>Be friendly - think of it as saying hi to a friend! 👋</li>
       <li>Offer something awesome - who doesn't love presents? 🎁</li>
@@ -9170,7 +9170,7 @@ const defaultCourseModules = [
   
       <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Quick Reminders for Pop-Up Success! 🌟</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <ul class="list-disc pl-4 space-y-2">
         <li>Preview your pop-up - make sure it looks amazing! 👀</li>
         <li>Test that email field - does it work like a charm? ✉️</li>
@@ -9184,7 +9184,7 @@ const defaultCourseModules = [
       
       <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">🎯 Popup Best Practices</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <ul class="list-disc pl-4 space-y-2">
           <li>Wait at least 5 seconds before showing a popup! ⏰</li>
           <li>Always provide a clear way to close it! ❌</li>
@@ -9196,7 +9196,7 @@ const defaultCourseModules = [
 
     <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Common Popup Mistakes to Avoid! ⚠️</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
         <ul class="list-disc pl-4 space-y-2">
           <li>Showing popups immediately (let visitors explore first!)</li>
           <li>Making close buttons tiny or hard to find</li>
@@ -9355,7 +9355,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-orange-50 dark:bg-orange-800 p-4 rounded-lg mb-4">
                     <h5 class="font-semibold">Let's Get This Party Started! 🎈</h5>
-                    <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                         <p class="mb-4">Creating your first countdown timer is super easy and fun! Here's how:</p>
                         <ol class="list-decimal pl-4 space-y-2">
                             <li>Head over to the components section (that's where all the cool stuff lives! 😎)</li>
@@ -9370,7 +9370,7 @@ const defaultCourseModules = [
             <div class="bg-white/50 p-6 rounded-lg mb-6">
                 <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
                     <h5 class="font-semibold">Time to Make it Your Own! 🎨</h5>
-                    <div class="bg-white/70 p-4 rounded mt-4">
+                    <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                         <p class="mb-4">Once you click that cog icon, you'll find two amazing menus ready to help you create the perfect timer:</p>
                         
                         <div class="space-y-4">
@@ -9427,7 +9427,7 @@ const defaultCourseModules = [
     
             <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Psst! Some Super Secret Pro Tips! 🤫</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <ul class="list-disc pl-4 space-y-2">
                         <li>Want to see your timer in action? Use the preview mode - it's like a sneak peek into the future! 👀</li>
                         <li>Got global visitors? Remember to think about timezones (we've got you covered with options! 🌍)</li>
@@ -9439,7 +9439,7 @@ const defaultCourseModules = [
     
             <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
                 <h5 class="font-semibold">Quick Heads Up! 📢</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <p class="mb-2">Just so you know:</p>
                     <ul class="list-disc pl-4 space-y-2">
                         <li>Your timer won't tick in the page builder (maybe it's shy! 🙈)</li>
@@ -9451,7 +9451,7 @@ const defaultCourseModules = [
     
             <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg">
                 <h5 class="font-semibold">Cool Ways to Use Your Timer! 💡</h5>
-                <div class="bg-white/70 p-4 rounded mt-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
                     <ul class="list-disc pl-4 space-y-2">
                         <li>Product launches (3... 2... 1... BLAST OFF! 🚀)</li>
                         <li>Special offers (Quick! Before time runs out! ⚡)</li>
@@ -9602,7 +9602,7 @@ const defaultCourseModules = [
       <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">The Rebuild Challenge! 🏗️</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <p class="mb-4">Time to put your skills to the test:</p>
             <ol class="list-decimal pl-4 space-y-2">
               <li>Study the provided website design carefully 🔍</li>
@@ -9636,7 +9636,7 @@ const defaultCourseModules = [
   
       <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Your Module Mastery! 📚</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <p class="mb-4">You've learned so much! Let's put it all together:</p>
           <ol class="list-decimal pl-4 space-y-2">
             <li>Module 2: Blocks
@@ -9659,7 +9659,7 @@ const defaultCourseModules = [
 
       <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Pro Tips for Success! 💡</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <ul class="list-disc pl-4 space-y-2">
       <li>Take a deep breath - you've got this! 🧘‍♂️</li>
       <li>Plan before you build 📝</li>
@@ -9812,7 +9812,7 @@ const defaultCourseModules = [
       <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">Module 2: Building Blocks Mastery! 🏗️</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <p class="mb-4">You've mastered all 11 essential building blocks:</p>
             <ul class="list-disc pl-4 space-y-2">
               <li>Crafting Dynamic Dashboards for user engagement 📊</li>
@@ -9853,7 +9853,7 @@ const defaultCourseModules = [
   
       <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Bonus Module: Countdown Champion! ⏱️</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <p class="mb-4">You've mastered the art of time with:</p>
           <ul class="list-disc pl-4 space-y-2">
             <li>Creating engaging countdown timers 🎯</li>
@@ -9866,7 +9866,7 @@ const defaultCourseModules = [
 
       <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Your Achievement Highlights! 🌟</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <ul class="list-disc pl-4 space-y-2">
       <li>Completed all 33 units across 3 modules! 🎓</li>
       <li>Mastered both fundamental blocks and advanced components 💪</li>
@@ -10062,7 +10062,7 @@ const defaultCourseModules = [
       <div class="bg-white/50 p-6 rounded-lg mb-6">
         <div class="bg-indigo-50 dark:bg-indigo-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">On-Page SEO Essentials! 📝</h5>
-          <div class="bg-white/70 p-4 rounded mt-4">
+          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
             <p class="mb-4">Let's master these key elements:</p>
             <ul class="list-disc pl-4 space-y-2">
               <li>Title Tags: Your page's perfect first impression! 👋</li>
@@ -10095,7 +10095,7 @@ const defaultCourseModules = [
   
       <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
         <h5 class="font-semibold">Technical SEO Magic! ⚡</h5>
-        <div class="bg-white/70 p-4 rounded mt-4">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
           <p class="mb-4">Behind-the-scenes optimization:</p>
           <ul class="list-disc pl-4 space-y-2">
             <li>Mobile-Friendly Design: Because phones matter! 📱</li>
@@ -10109,7 +10109,7 @@ const defaultCourseModules = [
 
       <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Link Building & Authority! 🌟</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <ul class="list-disc pl-4 space-y-2">
       <li>Build quality backlinks from trusted sites 🔗</li>
       <li>Create shareable, link-worthy content 📢</li>
@@ -10121,7 +10121,7 @@ const defaultCourseModules = [
 
       <div class="bg-rose-50 dark:bg-rose-800 p-4 rounded-lg mb-4">
       <h5 class="font-semibold">Local SEO Tips! 🎯</h5>
-      <div class="bg-white/70 p-4 rounded mt-4">
+      <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
       <ul class="list-disc pl-4 space-y-2">
       <li>Google My Business optimization 🏪</li>
       <li>Local keywords and content 📍</li>
@@ -10293,7 +10293,7 @@ const defaultCourseModules = [
    <div class="bg-white/50 p-6 rounded-lg mb-6">
      <div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
        <h5 class="font-semibold">Adding Your Favicon to Your Website 🛠️</h5>
-       <div class="bg-white/70 p-4 rounded mt-4">
+       <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
          <p class="mb-4">Add these lines to your HTML <head> Embed section:</p>
          <div class="bg-gray-50 p-4 rounded-lg font-mono text-sm">
            <pre>
@@ -10323,7 +10323,7 @@ const defaultCourseModules = [
    <div class="bg-white/50 p-6 rounded-lg mb-6">
      <div class="bg-blue-50 dark:bg-blue-800 p-4 rounded-lg mb-4">
        <h5 class="font-semibold">Styling Your Social Links 🎨</h5>
-       <div class="bg-white/70 p-4 rounded mt-4">
+       <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
          <p class="mb-4">Here's a beautiful way to add social media icons. Copy and paste this code in the using the Embed Component:</p>
          <div class="bg-gray-50 p-4 rounded-lg font-mono text-sm">
            <pre>
@@ -10347,7 +10347,7 @@ const defaultCourseModules = [
    <!-- Best Practices Section -->
    <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-4">
      <h5 class="font-semibold">Best Practices for Social Links! 📌</h5>
-     <div class="bg-white/70 p-4 rounded mt-4">
+     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
        <ul class="list-disc pl-4 space-y-2">
          <li>Place social icons where they're easy to find 👀</li>
          <li>Use recognizable icons and colors 🎨</li>
@@ -10361,7 +10361,7 @@ const defaultCourseModules = [
    <!-- Common Mistakes Section -->
    <div class="bg-red-50 dark:bg-red-800 p-4 rounded-lg mb-4">
      <h5 class="font-semibold">Common Mistakes to Avoid! ⚠️</h5>
-     <div class="bg-white/70 p-4 rounded mt-4">
+     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
        <ul class="list-disc pl-4 space-y-2">
          <li>Using outdated social media icons 🚫</li>
          <li>Broken or incorrect links 🔗</li>
@@ -10374,7 +10374,7 @@ const defaultCourseModules = [
    <!-- Advanced Tips -->
    <div class="bg-emerald-50 dark:bg-emerald-800 p-4 rounded-lg">
      <h5 class="font-semibold">Pro Tips! 💡</h5>
-     <div class="bg-white/70 p-4 rounded mt-4">
+     <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
        <ul class="list-disc pl-4 space-y-2">
          <li>Add hover effects to make icons interactive ✨</li>
          <li>Consider using social share buttons for content 🔄</li>
