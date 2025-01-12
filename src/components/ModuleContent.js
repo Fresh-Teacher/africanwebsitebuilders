@@ -3756,8 +3756,6 @@ const defaultCourseModules = [
             </div>
           </div>
       
-        
-      
           <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
           <h5 class="font-semibold">🤓 Did You Know? Fun Code Facts!</h5>
           <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
@@ -5459,69 +5457,69 @@ const defaultCourseModules = [
             </div>
           </div>
         </div>
-          <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg mb-6">
-            <h5 class="font-semibold">CSS - Making Things Pretty! 🎨</h5>
-            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
-              <p class="mb-4">Time to add some style to your life! With CSS you can:</p>
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Paint your elements with gorgeous colors</li>
-                <li>Add animations that'll make your users go "Wow!" 😲</li>
-                <li>Create responsive layouts that look great everywhere</li>
-                <li>Style your content to match your brand perfectly</li>
-              </ul>
-              <div class="bg-gray-100 p-4 mt-4 rounded">
-                <p class="text-sm text-gray-600">Example: Want a fancy button that glows on hover?</p>
-                <code class="text-sm block mt-2">
-                  .awesome-button {<br/>
-                  &nbsp;&nbsp;background: linear-gradient(45deg, #ff6b6b, #ff8e53);<br/>
-                  &nbsp;&nbsp;transition: all 0.3s ease;<br/>
-                  }<br/>
-                  <br/>
-                  .awesome-button:hover {<br/>
-                  &nbsp;&nbsp;box-shadow: 0 0 20px rgba(255, 107, 107, 0.6);<br/>
-                  }
-                </code>
-              </div>
-            </div>
-          </div>
-      
-          <div class="bg-yellow-50 dark:bg-yellow-800 p-4 rounded-lg mb-6">
-            <h5 class="font-semibold">JavaScript - Where the Magic Happens! ✨</h5>
-            <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
-              <p class="mb-4">Now we're talking! JavaScript brings your embeds to life:</p>
-              <ul class="list-disc pl-4 space-y-2">
-                <li>Add interactivity that responds to user actions</li>
-                <li>Create dynamic content that updates in real-time</li>
-                <li>Handle data and make API calls like a ninja</li>
-                <li>Build complex applications right in your embed!</li>
-              </ul>
-              <div class="bg-gray-100 p-4 mt-4 rounded">
-                <p class="text-sm text-gray-600">Example: Want to create a fun counter?</p>
-                <code class="text-sm block mt-2">
-                  let count = 0;<br/>
-                  <br/>
-                  function updateCounter() {<br/>
-                  &nbsp;&nbsp;count++;<br/>
-                  &nbsp;&nbsp;document.getElementById('counter').textContent = count;<br/>
-                  &nbsp;&nbsp;if (count === 100) alert('You're awesome! 🎉');<br/>
-                  }
-                </code>
-              </div>
-            </div>
-          </div>
-      
-          <div class="bg-pink-50 dark:bg-pink-800 p-4 rounded-lg mb-4">
-          <h5 class="font-semibold">🤓 Did You Know? Fun Code Facts!</h5>
-          <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
-            <ul class="list-disc pl-4 space-y-2">
-              <li>The first web embed was a simple hit counter in the 90s - now look how far we've come! 📊</li>
-              <li>JavaScript was created in just 10 days! Talk about a speedrun! 🏃‍♂️</li>
-              <li>HTML was inspired by tags used in book publishing - meta, right? 📚</li>
-              <li>CSS almost had a competitor called DSSSL - try saying that five times fast! 😅</li>
-              <li>The first animated GIF was of a rotating globe - and we've been embedding spinning things ever since! 🌍</li>
-            </ul>
+        <div class="bg-purple-50 dark:bg-purple-900/80 p-4 rounded-lg mb-6">
+        <h5 class="font-semibold dark:text-white">CSS - Making Things Pretty! 🎨</h5>
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
+          <p class="mb-4 dark:text-gray-200">Time to add some style to your life! With CSS you can:</p>
+          <ul class="list-disc pl-4 space-y-2 dark:text-gray-200">
+            <li>Paint your elements with gorgeous colors</li>
+            <li>Add animations that'll make your users go "Wow!" 😲</li>
+            <li>Create responsive layouts that look great everywhere</li>
+            <li>Style your content to match your brand perfectly</li>
+          </ul>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 mt-4 rounded">
+            <p class="text-sm text-gray-600 dark:text-gray-300">Example: Want a fancy button that glows on hover?</p>
+            <code class="text-sm block mt-2 bg-white dark:bg-gray-900 p-2 rounded dark:text-gray-200">
+              .awesome-button {<br/>
+              &nbsp;&nbsp;background: linear-gradient(45deg, #ff6b6b, #ff8e53);<br/>
+              &nbsp;&nbsp;transition: all 0.3s ease;<br/>
+              }<br/>
+              <br/>
+              .awesome-button:hover {<br/>
+              &nbsp;&nbsp;box-shadow: 0 0 20px rgba(255, 107, 107, 0.6);<br/>
+              }
+            </code>
           </div>
         </div>
+      </div>
+      
+      <div class="bg-yellow-50 dark:bg-yellow-900/80 p-4 rounded-lg mb-6">
+        <h5 class="font-semibold dark:text-white">JavaScript - Where the Magic Happens! ✨</h5>
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
+          <p class="mb-4 dark:text-gray-200">Now we're talking! JavaScript brings your embeds to life:</p>
+          <ul class="list-disc pl-4 space-y-2 dark:text-gray-200">
+            <li>Add interactivity that responds to user actions</li>
+            <li>Create dynamic content that updates in real-time</li>
+            <li>Handle data and make API calls like a ninja</li>
+            <li>Build complex applications right in your embed!</li>
+          </ul>
+          <div class="bg-gray-100 dark:bg-gray-700 p-4 mt-4 rounded">
+            <p class="text-sm text-gray-600 dark:text-gray-300">Example: Want to create a fun counter?</p>
+            <code class="text-sm block mt-2 bg-white dark:bg-gray-900 p-2 rounded dark:text-gray-200">
+              let count = 0;<br/>
+              <br/>
+              function updateCounter() {<br/>
+              &nbsp;&nbsp;count++;<br/>
+              &nbsp;&nbsp;document.getElementById('counter').textContent = count;<br/>
+              &nbsp;&nbsp;if (count === 100) alert('You're awesome! 🎉');<br/>
+              }
+            </code>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-pink-50 dark:bg-pink-900/80 p-4 rounded-lg mb-4">
+        <h5 class="font-semibold dark:text-white">🤓 Did You Know? Fun Code Facts!</h5>
+        <div class="bg-white dark:bg-gray-800 p-4 rounded mt-4">
+          <ul class="list-disc pl-4 space-y-2 dark:text-gray-200">
+            <li>The first web embed was a simple hit counter in the 90s - now look how far we've come! 📊</li>
+            <li>JavaScript was created in just 10 days! Talk about a speedrun! 🏃‍♂️</li>
+            <li>HTML was inspired by tags used in book publishing - meta, right? 📚</li>
+            <li>CSS almost had a competitor called DSSSL - try saying that five times fast! 😅</li>
+            <li>The first animated GIF was of a rotating globe - and we've been embedding spinning things ever since! 🌍</li>
+          </ul>
+        </div>
+      </div>
 
         
     
