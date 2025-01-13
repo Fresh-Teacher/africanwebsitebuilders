@@ -27,74 +27,6 @@ import LecturesList from '@/components/LecturesList';
 import { lectureData, getUserLectureStatus } from '@/utils/lectureData';
 import AttendanceComponent from '@/components/AttendanceComponent';
 
-// First, let's add a PaymentBlock component
-const PaymentBlock = ({ amountPaid, requiredAmount }) => {
-  const percentagePaid = Math.round((amountPaid / TUITION_FEE) * 100);
-  const remainingAmount = requiredAmount - amountPaid;
-
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1 bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
-        <div className="max-w-md w-full mx-4 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-xl">
-          <div className="text-center mb-6">
-            <div className="bg-red-100 dark:bg-red-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg
-                className="h-8 w-8 text-red-600 dark:text-red-400"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Access Restricted</h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-6">
-              You need to pay at least 50% of the tuition fees to access the dashboard.
-            </p>
-          </div>
-          
-          <div className="space-y-4">
-            <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-              <div className="flex justify-between mb-2">
-                <span className="text-gray-600 dark:text-gray-400">Current Payment</span>
-                <span className="font-medium text-gray-900 dark:text-white">
-                  {amountPaid.toLocaleString()} UGX
-                </span>
-              </div>
-              <div className="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2.5">
-                <div
-                  className="bg-red-600 dark:bg-red-500 h-2.5 rounded-full"
-                  style={{ width: `${percentagePaid}%` }}
-                />
-              </div>
-            </div>
-
-            <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg">
-              <div className="flex justify-between items-center">
-                <span className="text-red-700 dark:text-red-400">Required Additional Payment</span>
-                <span className="font-medium text-red-700 dark:text-red-400">
-                  {remainingAmount.toLocaleString()} UGX
-                </span>
-              </div>
-            </div>
-
-            <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
-              Please contact the course administrator to make a payment and gain access to the dashboard.
-            </p>
-          </div>
-        </div>
-      </main>
-      <Footer />
-    </div>
-  );
-};
-
 // Course Progress Card Component
 const CourseProgressCard = ({ courseProgress }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -369,7 +301,6 @@ export default function Dashboard() {
   const [paymentProgress, setPaymentProgress] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [greeting, setGreeting] = useState('');
-  // Add these two new lines:
   const [allStudents, setAllStudents] = useState([]);
   const [filteredStudents, setFilteredStudents] = useState([]);
   
@@ -388,7 +319,6 @@ export default function Dashboard() {
 
     setUserData(user);
     
-    // Add this new section for coordinator data
     if (user["Role at School"]?.toLowerCase().includes('coordinator')) {
       const allStudentsData = registrationData["Form Responses 1"];
       setAllStudents(allStudentsData);
@@ -413,6 +343,74 @@ export default function Dashboard() {
 
   if (isLoading || !userData) {
     return <LoadingState />;
+  }
+
+  const isCoordinator = userData["Role at School"]?.toLowerCase().includes('coordinator');
+  const minimumPaymentRequired = TUITION_FEE * 0.5;
+
+  // Show payment block for non-coordinators who haven't paid enough
+  if (!isCoordinator && userData.amountPaid < minimumPaymentRequired) {
+    return (
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1 bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
+          <div className="max-w-md w-full mx-4 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-xl">
+            <div className="text-center mb-6">
+              <div className="bg-red-100 dark:bg-red-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg
+                  className="h-8 w-8 text-red-600 dark:text-red-400"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Access Denied! ⚠️</h2>
+              <p className="text-gray-600 dark:text-gray-400 mb-6">
+                You need to pay at least 50% of the tuition fees to access the dashboard.
+              </p>
+            </div>
+            
+            <div className="space-y-4">
+              <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                <div className="flex justify-between mb-2">
+                  <span className="text-gray-600 dark:text-gray-400">Current Payment</span>
+                  <span className="font-medium text-gray-900 dark:text-white">
+                    {userData.amountPaid.toLocaleString()} UGX
+                  </span>
+                </div>
+                <div className="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2.5">
+                  <div
+                    className="bg-red-600 dark:bg-red-500 h-2.5 rounded-full"
+                    style={{ width: `${paymentProgress}%` }}
+                  />
+                </div>
+              </div>
+
+              <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg">
+                <div className="flex justify-between items-center">
+                  <span className="text-red-700 dark:text-red-400">Required Additional Payment</span>
+                  <span className="font-medium text-red-700 dark:text-red-400">
+                    {(minimumPaymentRequired - userData.amountPaid).toLocaleString()} UGX
+                  </span>
+                </div>
+              </div>
+
+              <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
+                Please contact the course administrator to make a payment and gain access to the dashboard.
+              </p>
+            </div>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
   }
 
   const contactInfo = [
