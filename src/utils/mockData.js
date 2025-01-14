@@ -3093,7 +3093,7 @@ export const registrationData = {
         {
             "Timestamp": "12/19/2024 17:43:10",
             "Email Address": "bettynagawa021@gmail.com",
-            "Full Name": "Mwesigwa sepiriya",
+            "Full Name": "Mwesigwa Sepiriya",
             "District of Residence": "Kaliro",
             "School Name": "Busega preparatory school",
             "Level of Institution": "Primary",
@@ -3116,7 +3116,7 @@ export const registrationData = {
                 "Become Freelance Ready (Sign Up to Attract Your First Clients )": "Pending",
                 "Sales Online and Local": "Pending"
             },
-            "amountPaid": 0
+            "amountPaid": 10000
         },
         {
             "Timestamp": "12/19/2024 17:43:21",
